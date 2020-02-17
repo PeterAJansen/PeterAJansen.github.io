@@ -1,5 +1,7 @@
 ---
 
+
+
 - title: UAI
   year: 2020
   id: uai20
@@ -20,6 +22,16 @@
   place: Coimbra, Portugal
   sub: ML
 
+- title: LREC (Camera Ready)
+  year: 2020
+  id: lrec20
+  link: https://lrec2020.lrec-conf.org/en/
+  deadline: '2020-03-06 01:01:01'
+  timezone: Europe/Paris
+  date: May 11-16, 2020
+  place: Marseille, France
+  sub: NLP    
+  
 - title: ECML-PKDD
   year: 2020
   id: ecmlpkdd2020
@@ -61,6 +73,16 @@
   date: December 4-7, 2020
   place: Suzhou, China
   sub: NLP
+  
+- title: AKBC
+  year: 2020
+  id: akbc20
+  link: https://www.akbc.ws/2020/
+  deadline: '2020-02-13 01:01:01'
+  timezone: Irvine
+  date: June 22-24, 2020
+  place: Irvine
+  sub: NLP      
 
 - title: NAACL
   year: 2019
@@ -167,16 +189,6 @@
   date: May 11-16, 2020
   place: Marseille, France
   sub: NLP
-
-- title: LREC (Camera Ready)
-  year: 2020
-  id: lrec20
-  link: https://lrec2020.lrec-conf.org/en/
-  deadline: '2020-03-06 01:01:01'
-  timezone: Europe/Paris
-  date: May 11-16, 2020
-  place: Marseille, France
-  sub: NLP  
   
 - title: ACL
   year: 2020
