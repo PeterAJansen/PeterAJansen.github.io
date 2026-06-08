@@ -1,0 +1,569 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Extraction extraction-result-2478 - Theorizer</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+    <div class="header">
+        <a href="../index.html"><i class="fas fa-flask"></i> Theorizer</a>
+    </div>
+
+    <div class="content">
+        <h1>Extracted Data Details for extraction-result-2478</h1>
+
+        <div class="section">
+            <h2>Extracted Data (Header)</h2>
+            <div class="info-section">
+                <p><strong>Extraction ID:</strong> extraction-result-2478</p>
+                <p><strong>Extraction Schema Used (ID):</strong> <a href="../schemas/extraction-schema-1846.html">extraction-schema-1846</a></p>
+                <div class="extraction-query"><strong>Extraction Query:</strong> Extract any mentions of hidden drivers, pathway states, subtype structure, validation evidence, and therapeutic implications in oncogene-negative or driver-negative lung adenocarcinoma.</div>
+                <p><strong>Paper ID:</strong> paper-8d1ae1b50354fb5c4d11a20cf33dfaf7981be0e9</p>
+                <p><strong>Paper Title:</strong> <a href="https://www.semanticscholar.org/paper/8d1ae1b50354fb5c4d11a20cf33dfaf7981be0e9" target="_blank">High-resolution genomic profiles of human lung cancer.</a></p>
+                <p><strong>Paper Venue:</strong> Proceedings of the National Academy of Sciences of the United States of America</p>
+                <p><strong>Paper TL;DR:</strong> An integrated high-resolution survey of regional amplifications and deletions, coupled with gene-expression profiling of non-small-cell lung cancer subtypes, identified 93 focal copy-number alterations, of which 21 span <0.5 megabases and contain a median of five genes.</p>
+                <p><strong>Cost:</strong> 0.018</p>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>Extracted Data (Details)</h2>
+            <div class="extraction-instance-container" id="e2478.0">
+                <h3 class="extraction-instance">Extracted Data Instance 0 (e2478.0)</h3>
+                <div class="extraction-query"><strong>Extraction Query:</strong> Extract any mentions of hidden drivers, pathway states, subtype structure, validation evidence, and therapeutic implications in oncogene-negative or driver-negative lung adenocarcinoma.</div>
+                <table>
+                    <thead>
+                        <tr>
+                            <th style="width: 30%;">Field</th>
+                            <th style="width: 70%;">Value</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><strong>name_short</strong></td>
+                            <td>NSCLC AC/SCC similarity</td>
+                        </tr>
+                        <tr>
+                            <td><strong>name_full</strong></td>
+                            <td>Adenocarcinoma and squamous-cell carcinoma genomic overlap in non-small-cell lung cancer</td>
+                        </tr>
+                        <tr>
+                            <td><strong>brief_description</strong></td>
+                            <td>The paper reports that lung adenocarcinoma (AC) and squamous-cell carcinoma (SCC) have highly overlapping high-resolution copy-number profiles, despite distinct histopathology. The only clearly SCC-specific genomic region was 3q26-29, whose overexpression signature included p63 and other genes implicated in squamous differentiation.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>citation_title</strong></td>
+                            <td>High-resolution genomic profiles of human lung cancer</td>
+                        </tr>
+                        <tr>
+                            <td><strong>mention_or_use</strong></td>
+                            <td>use</td>
+                        </tr>
+                        <tr>
+                            <td><strong>driver_negative_definition</strong></td>
+                            <td>Not formally defined as oncogene-negative or driver-negative lung adenocarcinoma. The closest operationalized comparison was AC versus SCC across genome-wide aCGH and expression profiling, with emphasis on AC cases lacking the SCC-specific 3q26-29 gain/amplification signature; the paper did not define a canonical negative panel or exclude specific actionable drivers as a prerequisite for this label.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>candidate_driver_pathway_or_mechanism</strong></td>
+                            <td>The main hidden driver logic in the AC/SCC comparison is that most of the NSCLC genome is shared between the two histologies, and that a limited set of genes within 3q likely drives the SCC phenotype through altered squamous-lineage gene expression, including p63. This is a lineage-state/squamous-differentiation program rather than a specific rare oncogene in AC.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>alteration_or_activation_mode</strong></td>
+                            <td>Copy-number gain/amplification at 3q26-29 with accompanying overexpression, including cases where overexpression occurs even without copy-number gain, implying regulation beyond DNA copy number.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>implicated_gene_axis_or_pathway</strong></td>
+                            <td>3q26-29 squamous differentiation axis, especially p63, with claudin 1, phosphatidylinositol glycan class X, and discs large homologue 1 also identified as overexpressed in SCC versus AC.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>pathway_activation_evidence</strong></td>
+                            <td>Evidence came from aCGH showing 3q26-29 as the only genomic region significantly different between SCC and AC, plus expression profiling/ANOVA/SAM showing p63 and other genes are overexpressed in SCC, including in the absence of copy-number gain. No phosphoproteomic or IHC pathway readouts were reported.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>driver_negative_subtype</strong></td>
+                            <td>No explicit driver-negative LUAD subtype was defined. Implicitly, AC cases are the comparator subtype lacking the SCC-specific 3q26-29 signature; the paper suggests AC and SCC may share a common origin and many common genetic mechanisms.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>clinical_or_exposure_context</strong></td>
+                            <td>Primary tumors were classified as AC or SCC; the paper notes distinct histopathology but does not link the compared AC cases to smoking status, sex, age, or prognosis in the context of a driver-negative subgroup.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>cross_cancer_parallel</strong></td>
+                            <td>The 3q26-29 region was noted to be a common and early alteration in head-and-neck SCC, supporting a shared squamous lineage program across epithelial cancers.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>therapeutic_vulnerability_or_implication</strong></td>
+                            <td>The paper does not propose a specific therapy for driver-negative AC. More broadly, it argues that identifying hidden genomic drivers and lineage programs should open therapeutic and diagnostic opportunities for NSCLC.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>validation_evidence_and_model_system</strong></td>
+                            <td>Validation was correlative and multi-sample: high-resolution aCGH across 44 primary tumors and multiple NSCLC cell lines, permutation testing for subtype differences, and expression analyses (ANOVA, Bonferroni, SAM) with additional corroboration using a published lung cancer expression dataset. No direct functional perturbation of the 3q program was shown.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>driver_negative_scope_class</strong></td>
+                            <td>not_formally_defined</td>
+                        </tr>
+                        <tr>
+                            <td><strong>excluded_driver_genes_and_alteration_types</strong></td>
+                            <td>No explicit exclusion panel was used to define negativity. The paper mentions that known NSCLC genes/loci such as p16INK4A, RB1, MYC, EGFR, KRAS2, and the p53/Rb pathways were contained in the dataset, but these were not operationally ruled out in a driver-negative workflow.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>negative_call_assay_stack</strong></td>
+                            <td><span class="empty-note">null</span></td>
+                        </tr>
+                        <tr>
+                            <td><strong>negative_call_confidence</strong></td>
+                            <td>low</td>
+                        </tr>
+                        <tr>
+                            <td><strong>rescued_hidden_driver_after_deeper_testing</strong></td>
+                            <td>unresolved_after_broad_testing</td>
+                        </tr>
+                        <tr>
+                            <td><strong>primary_hidden_driver_mechanism_class</strong></td>
+                            <td>lineage_plasticity_cell_state</td>
+                        </tr>
+                        <tr>
+                            <td><strong>secondary_mechanism_classes</strong></td>
+                            <td>copy_number_or_amplicon_driver</td>
+                        </tr>
+                        <tr>
+                            <td><strong>mechanism_requires_specific_genetic_lesion</strong></td>
+                            <td>mixed</td>
+                        </tr>
+                        <tr>
+                            <td><strong>mechanism_is_tumor_intrinsic_or_extrinsic</strong></td>
+                            <td>tumor_intrinsic</td>
+                        </tr>
+                        <tr>
+                            <td><strong>mechanism_biologic_level</strong></td>
+                            <td>lineage_state</td>
+                        </tr>
+                        <tr>
+                            <td><strong>causal_evidence_tier</strong></td>
+                            <td>tier_2_expression_or_proteomic_association</td>
+                        </tr>
+                        <tr>
+                            <td><strong>evidence_modalities_present</strong></td>
+                            <td>recurrence_statistics, array_CGH, expression_profiling, permutation_testing, ANOVA, SAM, cross_cohort_expression_replication</td>
+                        </tr>
+                        <tr>
+                            <td><strong>therapeutic_actionability_evidence_tier</strong></td>
+                            <td>none</td>
+                        </tr>
+                        <tr>
+                            <td><strong>paper_claim_strength</strong></td>
+                            <td>hypothesis_generating</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="extraction-instance-container" id="e2478.1">
+                <h3 class="extraction-instance">Extracted Data Instance 1 (e2478.1)</h3>
+                <div class="extraction-query"><strong>Extraction Query:</strong> Extract any mentions of hidden drivers, pathway states, subtype structure, validation evidence, and therapeutic implications in oncogene-negative or driver-negative lung adenocarcinoma.</div>
+                <table>
+                    <thead>
+                        <tr>
+                            <th style="width: 30%;">Field</th>
+                            <th style="width: 70%;">Value</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><strong>name_short</strong></td>
+                            <td>WHSC1L1</td>
+                        </tr>
+                        <tr>
+                            <td><strong>name_full</strong></td>
+                            <td>Whsc1-like 1</td>
+                        </tr>
+                        <tr>
+                            <td><strong>brief_description</strong></td>
+                            <td>WHSC1L1 is identified as the likely target of a focal 8p12-p11.2 amplification shared by NSCLC and pancreatic ductal adenocarcinoma. The paper excludes FGFR1 as the amplified target in the tested lung sample and supports WHSC1L1 via copy-number-aware expression and siRNA knockdown data.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>citation_title</strong></td>
+                            <td>High-resolution genomic profiles of human lung cancer</td>
+                        </tr>
+                        <tr>
+                            <td><strong>mention_or_use</strong></td>
+                            <td>use</td>
+                        </tr>
+                        <tr>
+                            <td><strong>driver_negative_definition</strong></td>
+                            <td>Not a driver-negative LUAD definition per se; this is a hidden amplicon driver proposed in tumors that are otherwise genomically complex and not explained by a single canonical driver.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>candidate_driver_pathway_or_mechanism</strong></td>
+                            <td>Copy-number-driven oncogenic amplification of a resident gene within a recurrent focal amplicon.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>alteration_or_activation_mode</strong></td>
+                            <td>High-copy-number amplification with consistent overexpression in amplified tumors.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>implicated_gene_axis_or_pathway</strong></td>
+                            <td>8p12-p11.2 amplicon centered on WHSC1L1 (with FGFR1 excluded in at least one key case).</td>
+                        </tr>
+                        <tr>
+                            <td><strong>pathway_activation_evidence</strong></td>
+                            <td>Evidence includes detailed QPCR boundary mapping, FISH confirmation of the amplicon, expression profiling/RT-QPCR showing WHSC1L1 overexpression, and siRNA knockdown reducing soft-agar colony formation in NCI-H1703 cells.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>driver_negative_subtype</strong></td>
+                            <td>No explicit subtype of driver-negative LUAD was defined; the implicated context is NSCLC tumors with an 8p12-p11.2 amplification.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>clinical_or_exposure_context</strong></td>
+                            <td>Reported in primary NSCLC tumors and cell lines; no specific smoking or demographic context was tied to this event.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>cross_cancer_parallel</strong></td>
+                            <td>The same 8p12-p11.2 amplicon was shared with pancreatic ductal adenocarcinoma and WHSC1L1 was also noted to be amplified in breast cancer and involved in acute myeloid leukemia translocation.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>therapeutic_vulnerability_or_implication</strong></td>
+                            <td>Suggests WHSC1L1 as a candidate oncogene and potential therapeutic target in NSCLC and other cancers with this amplicon; no inhibitor data were provided.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>validation_evidence_and_model_system</strong></td>
+                            <td>Validated by QPCR, FISH, expression profiling, RT-QPCR, and functional siRNA knockdown in NSCLC cell lines with and without 8p amplification. The strongest functional evidence is in vitro colony-formation reduction after WHSC1L1 depletion.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>driver_negative_scope_class</strong></td>
+                            <td>not_applicable</td>
+                        </tr>
+                        <tr>
+                            <td><strong>excluded_driver_genes_and_alteration_types</strong></td>
+                            <td>FGFR1 amplification was specifically argued against in the key PT3 sample by QPCR/FISH positioning outside the MCR; sequence analysis of FGFR1 juxtamembrane and kinase exons also found no mutations. LETM2 showed no consistent overexpression.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>negative_call_assay_stack</strong></td>
+                            <td>aCGH -> QPCR boundary mapping -> FISH confirmation -> expression profiling/RT-QPCR -> siRNA knockdown</td>
+                        </tr>
+                        <tr>
+                            <td><strong>negative_call_confidence</strong></td>
+                            <td>medium</td>
+                        </tr>
+                        <tr>
+                            <td><strong>rescued_hidden_driver_after_deeper_testing</strong></td>
+                            <td>yes_specific_driver_found</td>
+                        </tr>
+                        <tr>
+                            <td><strong>primary_hidden_driver_mechanism_class</strong></td>
+                            <td>copy_number_or_amplicon_driver</td>
+                        </tr>
+                        <tr>
+                            <td><strong>secondary_mechanism_classes</strong></td>
+                            <td><span class="empty-note">null</span></td>
+                        </tr>
+                        <tr>
+                            <td><strong>mechanism_requires_specific_genetic_lesion</strong></td>
+                            <td>yes</td>
+                        </tr>
+                        <tr>
+                            <td><strong>mechanism_is_tumor_intrinsic_or_extrinsic</strong></td>
+                            <td>tumor_intrinsic</td>
+                        </tr>
+                        <tr>
+                            <td><strong>mechanism_biologic_level</strong></td>
+                            <td>dna</td>
+                        </tr>
+                        <tr>
+                            <td><strong>causal_evidence_tier</strong></td>
+                            <td>tier_3_functional_cell_model</td>
+                        </tr>
+                        <tr>
+                            <td><strong>evidence_modalities_present</strong></td>
+                            <td>array_CGH, qPCR, FISH, expression_profiling, RT_qPCR, siRNA_knockdown, soft_agar_assay, cross_tumor_comparison</td>
+                        </tr>
+                        <tr>
+                            <td><strong>therapeutic_actionability_evidence_tier</strong></td>
+                            <td>preclinical_cell</td>
+                        </tr>
+                        <tr>
+                            <td><strong>paper_claim_strength</strong></td>
+                            <td>mechanistic</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="extraction-instance-container" id="e2478.2">
+                <h3 class="extraction-instance">Extracted Data Instance 2 (e2478.2)</h3>
+                <div class="extraction-query"><strong>Extraction Query:</strong> Extract any mentions of hidden drivers, pathway states, subtype structure, validation evidence, and therapeutic implications in oncogene-negative or driver-negative lung adenocarcinoma.</div>
+                <table>
+                    <thead>
+                        <tr>
+                            <th style="width: 30%;">Field</th>
+                            <th style="width: 70%;">Value</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><strong>name_short</strong></td>
+                            <td>TPX2</td>
+                        </tr>
+                        <tr>
+                            <td><strong>name_full</strong></td>
+                            <td>Targeting protein for Xklp2</td>
+                        </tr>
+                        <tr>
+                            <td><strong>brief_description</strong></td>
+                            <td>TPX2 is identified as a likely amplification target within a shared 20q11.2 amplicon in NSCLC and pancreatic ductal adenocarcinoma. Among the genes in the amplicon, TPX2 showed the strongest copy-number-driven expression in most tested lung cancer samples.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>citation_title</strong></td>
+                            <td>High-resolution genomic profiles of human lung cancer</td>
+                        </tr>
+                        <tr>
+                            <td><strong>mention_or_use</strong></td>
+                            <td>use</td>
+                        </tr>
+                        <tr>
+                            <td><strong>driver_negative_definition</strong></td>
+                            <td>Not a formal driver-negative LUAD definition; TPX2 is discussed as a hidden oncogenic target emerging from amplified, genomically complex tumors without reliance on a known canonical driver.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>candidate_driver_pathway_or_mechanism</strong></td>
+                            <td>Copy-number-amplified oncogene affecting mitotic spindle/aurora-A-related cell-cycle machinery.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>alteration_or_activation_mode</strong></td>
+                            <td>Amplification with high-level copy-number-driven overexpression.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>implicated_gene_axis_or_pathway</strong></td>
+                            <td>20q11.2 amplicon; TPX2-centered spindle formation and mitotic progression axis, with correlation to Aurora kinase A/B and other mitotic genes.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>pathway_activation_evidence</strong></td>
+                            <td>Heat-map expression analysis showed TPX2 as the most strongly overexpressed candidate in the amplicon, and the paper reports strong expression correlations with Aurora kinase A, Bub1, CDC20, and Aurora kinase B.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>driver_negative_subtype</strong></td>
+                            <td>No explicit subtype was defined; the relevant context is NSCLC tumors/cell lines with 20q11.2 amplification.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>clinical_or_exposure_context</strong></td>
+                            <td>Detected in one primary lung AC, one adenosquamous cell line, one SCC cell line, and two AC cell lines; no etiologic covariates were specified.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>cross_cancer_parallel</strong></td>
+                            <td>The same 20q11.2 amplicon was shared with pancreatic ductal adenocarcinoma.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>therapeutic_vulnerability_or_implication</strong></td>
+                            <td>The paper suggests TPX2 as a candidate oncogene and potential amplification target, potentially linked to spindle/mitotic vulnerabilities; no direct drug testing was done.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>validation_evidence_and_model_system</strong></td>
+                            <td>Validated by copy-number and expression integration in patient tumors and cell lines, with comparative expression analysis against normal lung. No direct perturbation or drug-response validation was reported.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>driver_negative_scope_class</strong></td>
+                            <td>not_applicable</td>
+                        </tr>
+                        <tr>
+                            <td><strong>excluded_driver_genes_and_alteration_types</strong></td>
+                            <td>No explicit negative panel. Within the 20q11.2 amplicon, BCL2L1 and TPX2 showed copy-number-driven expression; aurora kinase A was discussed as not amplified in this dataset.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>negative_call_assay_stack</strong></td>
+                            <td>aCGH -> expression_profiling -> cross_sample_copy_number/expression integration</td>
+                        </tr>
+                        <tr>
+                            <td><strong>negative_call_confidence</strong></td>
+                            <td>medium</td>
+                        </tr>
+                        <tr>
+                            <td><strong>rescued_hidden_driver_after_deeper_testing</strong></td>
+                            <td>yes_specific_driver_found</td>
+                        </tr>
+                        <tr>
+                            <td><strong>primary_hidden_driver_mechanism_class</strong></td>
+                            <td>copy_number_or_amplicon_driver</td>
+                        </tr>
+                        <tr>
+                            <td><strong>secondary_mechanism_classes</strong></td>
+                            <td><span class="empty-note">null</span></td>
+                        </tr>
+                        <tr>
+                            <td><strong>mechanism_requires_specific_genetic_lesion</strong></td>
+                            <td>yes</td>
+                        </tr>
+                        <tr>
+                            <td><strong>mechanism_is_tumor_intrinsic_or_extrinsic</strong></td>
+                            <td>tumor_intrinsic</td>
+                        </tr>
+                        <tr>
+                            <td><strong>mechanism_biologic_level</strong></td>
+                            <td>dna</td>
+                        </tr>
+                        <tr>
+                            <td><strong>causal_evidence_tier</strong></td>
+                            <td>tier_2_expression_or_proteomic_association</td>
+                        </tr>
+                        <tr>
+                            <td><strong>evidence_modalities_present</strong></td>
+                            <td>array_CGH, expression_profiling, heat_map_analysis, correlation_analysis, cross_tumor_comparison</td>
+                        </tr>
+                        <tr>
+                            <td><strong>therapeutic_actionability_evidence_tier</strong></td>
+                            <td>inferential_only</td>
+                        </tr>
+                        <tr>
+                            <td><strong>paper_claim_strength</strong></td>
+                            <td>hypothesis_generating</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="extraction-instance-container" id="e2478.3">
+                <h3 class="extraction-instance">Extracted Data Instance 3 (e2478.3)</h3>
+                <div class="extraction-query"><strong>Extraction Query:</strong> Extract any mentions of hidden drivers, pathway states, subtype structure, validation evidence, and therapeutic implications in oncogene-negative or driver-negative lung adenocarcinoma.</div>
+                <table>
+                    <thead>
+                        <tr>
+                            <th style="width: 30%;">Field</th>
+                            <th style="width: 70%;">Value</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><strong>name_short</strong></td>
+                            <td>FGFR1 exclusion</td>
+                        </tr>
+                        <tr>
+                            <td><strong>name_full</strong></td>
+                            <td>Fibroblast growth factor receptor 1 not being the 8p amplicon target in a key lung sample</td>
+                        </tr>
+                        <tr>
+                            <td><strong>brief_description</strong></td>
+                            <td>The paper specifically argues against FGFR1 as the target of the 8p12-p11.2 amplicon in at least one informative NSCLC case, despite FGFR1 residing in the broader shared locus. QPCR and FISH showed FGFR1 lay outside the focal MCR in PT3, and no mutations were found in its juxtamembrane/kinase exons.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>citation_title</strong></td>
+                            <td>High-resolution genomic profiles of human lung cancer</td>
+                        </tr>
+                        <tr>
+                            <td><strong>mention_or_use</strong></td>
+                            <td>use</td>
+                        </tr>
+                        <tr>
+                            <td><strong>driver_negative_definition</strong></td>
+                            <td>This is a focal target-exclusion example rather than a driver-negative LUAD definition.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>candidate_driver_pathway_or_mechanism</strong></td>
+                            <td>The hidden driver is not FGFR1 itself; instead the paper redirects attention to a different amplicon resident gene, WHSC1L1.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>alteration_or_activation_mode</strong></td>
+                            <td>Negative evidence for amplification of FGFR1 in the focal amplicon; no activating mutation was detected in the tested exons.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>implicated_gene_axis_or_pathway</strong></td>
+                            <td>8p12-p11.2 amplicon, with WHSC1L1 favored over FGFR1.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>pathway_activation_evidence</strong></td>
+                            <td>FGFR1 was not copy-number amplified in PT3 by QPCR/FISH, and knockdown of FGFR1 did not affect soft-agar colony formation in the amplified NCI-H1703 line.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>driver_negative_subtype</strong></td>
+                            <td>No subtype; this is a gene-level target exclusion in amplified NSCLC.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>clinical_or_exposure_context</strong></td>
+                            <td>Primary tumor PT3 and NSCLC cell lines NCI-H1703/NCI-H1395 were used.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>cross_cancer_parallel</strong></td>
+                            <td>The discussion notes that similar conclusions about FGFR1 not being the pathogenetic target of 8p amplification had also emerged in breast cancer.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>therapeutic_vulnerability_or_implication</strong></td>
+                            <td>Implies that FGFR1-directed therapy would be unlikely to address this particular 8p-amplified NSCLC subset, whereas WHSC1L1 might be more relevant.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>validation_evidence_and_model_system</strong></td>
+                            <td>Validated by QPCR, FISH, sequence analysis of FGFR1 exons, and siRNA knockdown with soft-agar readout in NSCLC cell lines.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>driver_negative_scope_class</strong></td>
+                            <td>not_applicable</td>
+                        </tr>
+                        <tr>
+                            <td><strong>excluded_driver_genes_and_alteration_types</strong></td>
+                            <td>FGFR1 amplification and activating mutation in juxtamembrane/kinase exons were explicitly argued against; bystander genes external to the MCR were also excluded by mapping.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>negative_call_assay_stack</strong></td>
+                            <td>aCGH -> QPCR -> FISH -> exon_sequence_analysis -> siRNA_knockdown</td>
+                        </tr>
+                        <tr>
+                            <td><strong>negative_call_confidence</strong></td>
+                            <td>high</td>
+                        </tr>
+                        <tr>
+                            <td><strong>rescued_hidden_driver_after_deeper_testing</strong></td>
+                            <td>yes_specific_driver_found</td>
+                        </tr>
+                        <tr>
+                            <td><strong>primary_hidden_driver_mechanism_class</strong></td>
+                            <td>technical_false_negative</td>
+                        </tr>
+                        <tr>
+                            <td><strong>secondary_mechanism_classes</strong></td>
+                            <td>copy_number_or_amplicon_driver</td>
+                        </tr>
+                        <tr>
+                            <td><strong>mechanism_requires_specific_genetic_lesion</strong></td>
+                            <td>yes</td>
+                        </tr>
+                        <tr>
+                            <td><strong>mechanism_is_tumor_intrinsic_or_extrinsic</strong></td>
+                            <td>tumor_intrinsic</td>
+                        </tr>
+                        <tr>
+                            <td><strong>mechanism_biologic_level</strong></td>
+                            <td>dna</td>
+                        </tr>
+                        <tr>
+                            <td><strong>causal_evidence_tier</strong></td>
+                            <td>tier_3_functional_cell_model</td>
+                        </tr>
+                        <tr>
+                            <td><strong>evidence_modalities_present</strong></td>
+                            <td>array_CGH, qPCR, FISH, exon_sequence_analysis, siRNA_knockdown, soft_agar_assay</td>
+                        </tr>
+                        <tr>
+                            <td><strong>therapeutic_actionability_evidence_tier</strong></td>
+                            <td>preclinical_cell</td>
+                        </tr>
+                        <tr>
+                            <td><strong>paper_claim_strength</strong></td>
+                            <td>mechanistic</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>Potentially Relevant New Papers (mentioned by this paper)</h2>
+            <ol>
+                <li>Molecular characterization of squamous cell carcinoma of the lung <em>(Rating: 1)</em></li>
+                <li>Integrated genomic analyses of pancreatic ductal adenocarcinoma <em>(Rating: 1)</em></li>
+                <li>High-resolution genomic profiles of human lung cancer <em>(Rating: 2)</em></li>
+            </ol>
+        </div>
+
+        </div>
+
+    </div>
+</body>
+</html>

@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Extraction extraction-result-2140 - Theorizer</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+    <div class="header">
+        <a href="../index.html"><i class="fas fa-flask"></i> Theorizer</a>
+    </div>
+
+    <div class="content">
+        <h1>Extracted Data Details for extraction-result-2140</h1>
+
+        <div class="section">
+            <h2>Extracted Data (Header)</h2>
+            <div class="info-section">
+                <p><strong>Extraction ID:</strong> extraction-result-2140</p>
+                <p><strong>Extraction Schema Used (ID):</strong> <a href="../schemas/extraction-schema-1843.html">extraction-schema-1843</a></p>
+                <div class="extraction-query"><strong>Extraction Query:</strong> Extract any mentions of hidden genomic, structural, regulatory, or assay-missed drivers in oncogene-negative lung adenocarcinoma.</div>
+                <p><strong>Paper ID:</strong> paper-fcc794d59b6567b127253557b5b02bda2e201484</p>
+                <p><strong>Paper Title:</strong> <a href="https://www.semanticscholar.org/paper/fcc794d59b6567b127253557b5b02bda2e201484" target="_blank">Mapping the hallmarks of lung adenocarcinoma with massively parallel sequencing</a></p>
+                <p><strong>Paper Venue:</strong> Cell</p>
+                <p><strong>Paper TL;DR:</strong> Exome and genome sequences of 183 lung adenocarcinoma tumor/normal DNA pairs revealed a mean exonic somatic mutation rate of 12.0 events/megabase and identified the majority of genes previously reported as significantly mutated in lung adenocarcinoma.</p>
+                <p><strong>Paper Abstract:</strong> SUMMARY Lung adenocarcinoma, the most common subtype of non-small cell lung cancer, is responsible for over 500,000 deaths per year worldwide. Here, we report exome and genome sequences of 183 lung adenocarcinoma tumor/normal DNA pairs. These analyses revealed a mean exonic somatic mutation rate of 12.0 events/megabase and identified the majority of genes previously reported as significantly mutated in lung adenocarcinoma. In addition, we identified statistically recurrent somatic mutations in the splicing factor gene U2AF1 and truncating mutations affecting RBM10 and ARID1A. Analysis of nucleotide context-specific mutation signatures grouped the sample set into distinct clusters that correlated with smoking history and alterations of reported lung adenocarcinoma genes. Whole genome sequence analysis revealed frequent structural re-arrangements, including in-frame exonic alterations within EGFR and SIK2 kinases. The candidate genes identified in this study are attractive targets for biological characterization and therapeutic targeting of lung adenocarcinoma.</p>
+                <p><strong>Cost:</strong> 0.013</p>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>Extracted Data (Details)</h2>
+            <div class="extraction-instance-container" id="e2140.0">
+                <h3 class="extraction-instance">Extracted Data Instance 0 (e2140.0)</h3>
+                <div class="extraction-query"><strong>Extraction Query:</strong> Extract any mentions of hidden genomic, structural, regulatory, or assay-missed drivers in oncogene-negative lung adenocarcinoma.</div>
+                <table>
+                    <thead>
+                        <tr>
+                            <th style="width: 30%;">Field</th>
+                            <th style="width: 70%;">Value</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><strong>name_short</strong></td>
+                            <td>EGFR ex25&26del</td>
+                        </tr>
+                        <tr>
+                            <td><strong>name_full</strong></td>
+                            <td>EGFR exon 25 and 26 deletion (C-terminal deletion variant)</td>
+                        </tr>
+                        <tr>
+                            <td><strong>brief_description</strong></td>
+                            <td>A novel in-frame two-exon deletion in EGFR discovered by whole-genome sequencing in one lung adenocarcinoma, removing part of the C-terminus encoded by exons 25 and 26. The paper shows it is transforming and sensitive to EGFR inhibition.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>citation_title</strong></td>
+                            <td>Mapping the hallmarks of lung adenocarcinoma with massively parallel sequencing</td>
+                        </tr>
+                        <tr>
+                            <td><strong>mention_or_use</strong></td>
+                            <td>use</td>
+                        </tr>
+                        <tr>
+                            <td><strong>oncogene_negative_definition</strong></td>
+                            <td>The paper defines driver-negative tumors indirectly as cases lacking an identified alteration in the set of known lung adenocarcinoma driver genes and hallmark-associated events assessed by exome/genome sequencing plus SNP-array copy-number analysis. Specifically, 183 tumor/normal pairs were interrogated by WES (159), WES+WGS (23), or WGS only (1), with complementary SNP arrays for SCNAs; known driver genes considered in the hallmarks analysis included canonical mutation genes (e.g. KRAS, EGFR, STK11, TP53, etc.) and focal amplifications/deletions such as NKX2-1, TERT, MYC, EGFR, TP53, CDKN2A.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>assay_strategy_and_detection_limits</strong></td>
+                            <td>Discovery used paired tumor/normal WES or WGS for substitutions/indels and SNP arrays for copy number, plus WGS paired-end and split-read mapping to resolve rearrangement breakpoints. The authors note key blind spots: not every tumor had WGS, RNA-seq was not used, and they explicitly state that some cancers likely harbor alterations not assayed in the study; they also note the 24 WGS cases may be too small to detect rarer kinase fusions (ALK, RET, ROS1) at expected 2-7% frequency.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>missed_driver_reclassified_after_broader_testing</strong></td>
+                            <td>Yes. A tumor that was not explained by canonical exon-level oncogene testing was later found by whole-genome structural analysis to harbor an activating EGFR exon 25-26 deletion. It was missed by standard exon-coding mutation calling because the driver was a structural in-frame deletion rather than a simple SNV/indel.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>driver_event_class</strong></td>
+                            <td>structural rearrangement / in-frame exon deletion</td>
+                        </tr>
+                        <tr>
+                            <td><strong>candidate_driver_gene_or_locus</strong></td>
+                            <td>EGFR (exons 25 and 26; C-terminal deletion variant)</td>
+                        </tr>
+                        <tr>
+                            <td><strong>structural_or_regulatory_activation_mechanism</strong></td>
+                            <td>Kinase-relevant structural alteration that deletes the C-terminal region of EGFR while preserving an in-frame receptor product; analogous to previously described oncogenic EGFRvIVb-type C-terminal deletions. The paper interprets it as an activating EGFR deletion mutant.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>functional_consequence</strong></td>
+                            <td>Constitutive EGFR and AKT phosphorylation in the absence of EGF, colony formation in soft agar, IL-3-independent proliferation in Ba/F3 cells, and sensitivity of the transformed growth to erlotinib.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>co_alteration_or_combinatorial_requirement</strong></td>
+                            <td>The same tumor also carried a second EGFR mutation, p.G719S, suggesting possible synergy of activating EGFR alterations or independent subclonal activating events.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>human_prevalence_or_enrichment</strong></td>
+                            <td>Observed in one WGS case in the cohort. The paper does not report a cohort-wide prevalence for this exact deletion, but notes that similar EGFR C-terminal deletion variants had previously been described in glioblastoma and that the variant is novel in lung adenocarcinoma.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>functional_or_clinical_validation</strong></td>
+                            <td>Validated by PCR and split-read/paired-end mapping support, then functionally tested in NIH-3T3 and Ba/F3 systems. The mutant was transforming in soft agar, induced phospho-EGFR and phospho-AKT without ligand, drove IL-3-independent proliferation, and was inhibited by erlotinib.</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="extraction-instance-container" id="e2140.1">
+                <h3 class="extraction-instance">Extracted Data Instance 1 (e2140.1)</h3>
+                <div class="extraction-query"><strong>Extraction Query:</strong> Extract any mentions of hidden genomic, structural, regulatory, or assay-missed drivers in oncogene-negative lung adenocarcinoma.</div>
+                <table>
+                    <thead>
+                        <tr>
+                            <th style="width: 30%;">Field</th>
+                            <th style="width: 70%;">Value</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><strong>name_short</strong></td>
+                            <td>SIK2 kinase duplication</td>
+                        </tr>
+                        <tr>
+                            <td><strong>name_full</strong></td>
+                            <td>Salt Inducible Kinase 2 in-frame kinase domain duplication</td>
+                        </tr>
+                        <tr>
+                            <td><strong>brief_description</strong></td>
+                            <td>A recurrently highlighted in-frame duplication affecting the SIK2 kinase, found by whole-genome rearrangement analysis in a tumor lacking mutations in known lung adenocarcinoma oncogenes. The event is presented as a potentially activating kinase rearrangement.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>citation_title</strong></td>
+                            <td>Mapping the hallmarks of lung adenocarcinoma with massively parallel sequencing</td>
+                        </tr>
+                        <tr>
+                            <td><strong>mention_or_use</strong></td>
+                            <td>use</td>
+                        </tr>
+                        <tr>
+                            <td><strong>oncogene_negative_definition</strong></td>
+                            <td>The paper focuses on in-frame rearrangements in tumors without mutations in lung adenocarcinoma oncogenes, implying prior testing for canonical oncogenic point mutations and copy-number events across known drivers in the cohort. The relevant assay set was WGS-based rearrangement mapping in 24 tumors, alongside WES and SNP arrays for the full cohort.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>assay_strategy_and_detection_limits</strong></td>
+                            <td>Genome-wide paired-end and split-read mapping of WGS data was used to identify rearrangements. A limitation is that only 24 tumors had WGS, so rarer structural kinase alterations could be missed in the larger cohort; RNA-based fusion confirmation was not described for this locus.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>missed_driver_reclassified_after_broader_testing</strong></td>
+                            <td>Yes, at least in the sense that broader WGS structural analysis revealed an in-frame SIK2 rearrangement in a tumor that lacked known oncogene mutations. The paper does not state an earlier specific negative call for this same tumor beyond the absence of known oncogene mutations.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>driver_event_class</strong></td>
+                            <td>structural rearrangement / in-frame kinase domain duplication</td>
+                        </tr>
+                        <tr>
+                            <td><strong>candidate_driver_gene_or_locus</strong></td>
+                            <td>SIK2</td>
+                        </tr>
+                        <tr>
+                            <td><strong>structural_or_regulatory_activation_mechanism</strong></td>
+                            <td>In-frame kinase domain duplication, interpreted as a potentially activating structural alteration of a kinase gene.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>functional_consequence</strong></td>
+                            <td>Not directly functionally assayed in the paper; the biological inference is that the duplication may activate SIK2 kinase signaling.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>co_alteration_or_combinatorial_requirement</strong></td>
+                            <td>No specific cooperating alteration was reported for SIK2.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>human_prevalence_or_enrichment</strong></td>
+                            <td>Identified in the WGS rearrangement survey; the paper does not provide an overall percentage for SIK2 duplications, only that kinases with in-frame rearrangements in tumors without known oncogene mutations included SIK2 and ROCK1.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>functional_or_clinical_validation</strong></td>
+                            <td>Validated by qPCR as an in-frame kinase domain duplication. No transformation or drug-sensitivity assay was reported for SIK2.</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="extraction-instance-container" id="e2140.2">
+                <h3 class="extraction-instance">Extracted Data Instance 2 (e2140.2)</h3>
+                <div class="extraction-query"><strong>Extraction Query:</strong> Extract any mentions of hidden genomic, structural, regulatory, or assay-missed drivers in oncogene-negative lung adenocarcinoma.</div>
+                <table>
+                    <thead>
+                        <tr>
+                            <th style="width: 30%;">Field</th>
+                            <th style="width: 70%;">Value</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><strong>name_short</strong></td>
+                            <td>ROCK1 duplication</td>
+                        </tr>
+                        <tr>
+                            <td><strong>name_full</strong></td>
+                            <td>Rho-associated coiled-coil containing protein kinase 1 rearrangement/duplication</td>
+                        </tr>
+                        <tr>
+                            <td><strong>brief_description</strong></td>
+                            <td>A 19-exon duplication in ROCK1 identified among kinase genes with in-frame rearrangements in tumors lacking known lung adenocarcinoma oncogene mutations. The paper presents it as a candidate activating structural event.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>citation_title</strong></td>
+                            <td>Mapping the hallmarks of lung adenocarcinoma with massively parallel sequencing</td>
+                        </tr>
+                        <tr>
+                            <td><strong>mention_or_use</strong></td>
+                            <td>use</td>
+                        </tr>
+                        <tr>
+                            <td><strong>oncogene_negative_definition</strong></td>
+                            <td>Detected in the subset of WGS cases analyzed for rearrangements, specifically among tumors without mutations in established lung adenocarcinoma oncogenes. The broader cohort was evaluated by WES/WGS and SNP arrays for canonical drivers.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>assay_strategy_and_detection_limits</strong></td>
+                            <td>WGS paired-end and split-read mapping was used to detect the duplication. Only 24 tumors underwent WGS, limiting sensitivity for rarer structural drivers; no RNA-seq validation is described.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>missed_driver_reclassified_after_broader_testing</strong></td>
+                            <td>Yes, in the sense that a previously unrecognized kinase structural alteration was discovered by WGS in a tumor without known oncogene mutations. The paper does not report a prior locus-specific assay miss.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>driver_event_class</strong></td>
+                            <td>structural rearrangement / multi-exon duplication</td>
+                        </tr>
+                        <tr>
+                            <td><strong>candidate_driver_gene_or_locus</strong></td>
+                            <td>ROCK1</td>
+                        </tr>
+                        <tr>
+                            <td><strong>structural_or_regulatory_activation_mechanism</strong></td>
+                            <td>Multi-exon duplication affecting a serine/threonine kinase; the paper suggests this may alter kinase function, though the exact activation mechanism is not experimentally resolved.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>functional_consequence</strong></td>
+                            <td>Not directly assayed; proposed to be an activating kinase rearrangement.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>co_alteration_or_combinatorial_requirement</strong></td>
+                            <td>No cooperating alteration was specified.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>human_prevalence_or_enrichment</strong></td>
+                            <td>Reported as a single rearranged case in the WGS analysis; no cohort-wide frequency given.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>functional_or_clinical_validation</strong></td>
+                            <td>Identified and mapped by WGS rearrangement analysis; no dedicated functional validation was reported.</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="extraction-instance-container" id="e2140.3">
+                <h3 class="extraction-instance">Extracted Data Instance 3 (e2140.3)</h3>
+                <div class="extraction-query"><strong>Extraction Query:</strong> Extract any mentions of hidden genomic, structural, regulatory, or assay-missed drivers in oncogene-negative lung adenocarcinoma.</div>
+                <table>
+                    <thead>
+                        <tr>
+                            <th style="width: 30%;">Field</th>
+                            <th style="width: 70%;">Value</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><strong>name_short</strong></td>
+                            <td>CDKN2A rearrangement</td>
+                        </tr>
+                        <tr>
+                            <td><strong>name_full</strong></td>
+                            <td>CDKN2A inactivating rearrangements</td>
+                        </tr>
+                        <tr>
+                            <td><strong>brief_description</strong></td>
+                            <td>Rearrangements affecting CDKN2A were observed as an additional mechanism of tumor suppressor inactivation, including out-of-frame antisense fusions and an in-frame deletion. This is relevant because it can represent a hidden driver not captured by point mutation analysis alone.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>citation_title</strong></td>
+                            <td>Mapping the hallmarks of lung adenocarcinoma with massively parallel sequencing</td>
+                        </tr>
+                        <tr>
+                            <td><strong>mention_or_use</strong></td>
+                            <td>use</td>
+                        </tr>
+                        <tr>
+                            <td><strong>oncogene_negative_definition</strong></td>
+                            <td>CDKN2A status was assessed through mutation, copy-number loss, and rearrangement analysis across the sequenced cohort; the paper notes that some tumors had CDKN2A rearrangement despite other driver alterations not being apparent.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>assay_strategy_and_detection_limits</strong></td>
+                            <td>WES/WGS and SNP arrays were used, with WGS rearrangement mapping capturing antisense fusions and deletions. A blind spot is that rearrangement-based inactivation requires structural analysis and would be missed by SNV-only assays.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>missed_driver_reclassified_after_broader_testing</strong></td>
+                            <td>Yes. CDKN2A was reclassified as altered in some cases after structural rearrangement analysis revealed out-of-frame antisense fusions with MTAP and C9orf53 or an in-frame deletion.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>driver_event_class</strong></td>
+                            <td>structural rearrangement / tumor suppressor inactivation</td>
+                        </tr>
+                        <tr>
+                            <td><strong>candidate_driver_gene_or_locus</strong></td>
+                            <td>CDKN2A</td>
+                        </tr>
+                        <tr>
+                            <td><strong>structural_or_regulatory_activation_mechanism</strong></td>
+                            <td>Loss-of-function via rearrangement, including out-of-frame antisense fusions and deletion, consistent with gene inactivation.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>functional_consequence</strong></td>
+                            <td>Loss of CDKN2A function; the paper frames this as an additional inactivation mechanism beyond mutation, homozygous deletion, and methylation.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>co_alteration_or_combinatorial_requirement</strong></td>
+                            <td>May co-occur with other tumor suppressor losses or oncogenic events; the paper specifically notes one case with rearrangement and another with deletion, but does not define a required combination.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>human_prevalence_or_enrichment</strong></td>
+                            <td>CDKN2A had the highest rearrangement rate for its size: 4.3 rearrangements per sequenced Mb. Among 24 WGS cases, two had out-of-frame antisense fusions and a third had an in-frame deletion.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>functional_or_clinical_validation</strong></td>
+                            <td>Supported by breakpoint mapping and PCR/Illumina validation of genic fusions generally; no separate functional assay was reported for CDKN2A rearrangements.</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>Potentially Relevant New Papers (mentioned by this paper)</h2>
+            <ol>
+                <li>Somatic mutations affect key pathways in lung adenocarcinoma <em>(Rating: 2)</em></li>
+                <li>The mutation spectrum revealed by paired genome sequences from a lung cancer patient <em>(Rating: 1)</em></li>
+                <li>RET, ROS1 and ALK fusions in lung cancer <em>(Rating: 2)</em></li>
+                <li>Transforming KIF5B and RET gene fusion in lung adenocarcinoma revealed from whole-genome and transcriptome sequencing <em>(Rating: 2)</em></li>
+                <li>A Comprehensive Genomic Characterization of Squamous Cell Lung Cancers <em>(Rating: 1)</em></li>
+            </ol>
+        </div>
+
+        </div>
+
+    </div>
+</body>
+</html>

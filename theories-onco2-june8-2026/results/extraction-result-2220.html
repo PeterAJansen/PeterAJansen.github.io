@@ -1,0 +1,681 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Extraction extraction-result-2220 - Theorizer</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+    <div class="header">
+        <a href="../index.html"><i class="fas fa-flask"></i> Theorizer</a>
+    </div>
+
+    <div class="content">
+        <h1>Extracted Data Details for extraction-result-2220</h1>
+
+        <div class="section">
+            <h2>Extracted Data (Header)</h2>
+            <div class="info-section">
+                <p><strong>Extraction ID:</strong> extraction-result-2220</p>
+                <p><strong>Extraction Schema Used (ID):</strong> <a href="../schemas/extraction-schema-1844.html">extraction-schema-1844</a></p>
+                <div class="extraction-query"><strong>Extraction Query:</strong> Extract any mentions of hidden genomic, structural, regulatory, or assay-missed drivers in oncogene-negative lung adenocarcinoma.</div>
+                <p><strong>Paper ID:</strong> paper-24271741d5c46e3a2d3719a71e68311e7c122b0a</p>
+                <p><strong>Paper Title:</strong> <a href="https://www.semanticscholar.org/paper/24271741d5c46e3a2d3719a71e68311e7c122b0a" target="_blank">Proteogenomic characterization reveals therapeutic vulnerabilities in lung adenocarcinoma</a></p>
+                <p><strong>Paper Venue:</strong> Cell</p>
+                <p><strong>Paper TL;DR:</strong> Comprehensive proteogenomic characterization of 110 tumors and 101 matched normal adjacent tissues (NATs) incorporating genomics, epigenomics, deep-scale proteomics, phosphoproteomics and acetylproteomics identified therapeutic vulnerabilities associated with driver events involving KRAS, EGFR and ALK.</p>
+                <p><strong>Paper Abstract:</strong> Summary To explore the biology of lung adenocarcinoma (LUAD) and identify new therapeutic opportunities, we performed comprehensive proteogenomic characterization of 110 tumors and 101 matched normal adjacent tissues (NATs) incorporating genomics, epigenomics, deep-scale proteomics, phosphoproteomics and acetylproteomics. Multi-omics clustering revealed four subgroups defined by key driver mutations, country and gender. Proteomic and phosphoproteomic data illuminated biology downstream of copy number aberrations, somatic mutations and fusions, and identified therapeutic vulnerabilities associated with driver events involving KRAS, EGFR and ALK. Immune subtyping revealed a complex landscape, reinforced the association of STK11 with immune-cold behavior and underscored a potential immunosuppressive role of neutrophil degranulation. Smoking-associated LUADs showed correlation with other environmental exposure signatures and a field effect in NATs. Matched NATs allowed identification of differentially expressed proteins with potential diagnostic and therapeutic utility. This proteogenomics dataset represents a unique public resource for researchers and clinicians seeking to better understand and treat lung adenocarcinomas.</p>
+                <p><strong>Cost:</strong> 0.029</p>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>Extracted Data (Details)</h2>
+            <div class="extraction-instance-container" id="e2220.0">
+                <h3 class="extraction-instance">Extracted Data Instance 0 (e2220.0)</h3>
+                <div class="extraction-query"><strong>Extraction Query:</strong> Extract any mentions of hidden genomic, structural, regulatory, or assay-missed drivers in oncogene-negative lung adenocarcinoma.</div>
+                <table>
+                    <thead>
+                        <tr>
+                            <th style="width: 30%;">Field</th>
+                            <th style="width: 70%;">Value</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><strong>name_short</strong></td>
+                            <td>ALK fusions</td>
+                        </tr>
+                        <tr>
+                            <td><strong>name_full</strong></td>
+                            <td>ALK-rearranged gene fusions, including EML4-ALK, HMBOX1-ALK, and ANKRD36B-ALK</td>
+                        </tr>
+                        <tr>
+                            <td><strong>brief_description</strong></td>
+                            <td>The paper reports recurrent in-frame ALK fusions, most commonly EML4-ALK, but also novel 5' partners HMBOX1 and ANKRD36B. These fusions produce outlier ALK mRNA/protein abundance and a striking fusion-specific ALK phosphosite signature (Y1507), with additional phosphotyrosine signaling on downstream proteins such as SND1, HDLBP, and ARHGEF5.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>citation_title</strong></td>
+                            <td>Proteogenomic characterization reveals therapeutic vulnerabilities in lung adenocarcinoma</td>
+                        </tr>
+                        <tr>
+                            <td><strong>mention_or_use</strong></td>
+                            <td>use</td>
+                        </tr>
+                        <tr>
+                            <td><strong>oncogene_negative_definition</strong></td>
+                            <td>The relevant oncogene-negative context is LUAD tumors lacking canonical key driver alterations after integrative profiling. The paper contrasts ALK-fusion tumors against tumors without ALK/EGFR/KRAS/STK11 key driver events and notes that most EML4-ALK cases lacked mutations in other key driver genes; it also states that a substantial proportion of LUADs lack known or currently targetable mutations.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>assay_strategy_and_detection_limits</strong></td>
+                            <td>Discovery used a multi-platform pipeline: WES (nominal 150x), WGS (nominal 15x), RNA-seq, miRNA-seq, methylation EPIC array, global proteomics, phosphoproteomics, and acetylproteomics. Fusions were called from RNA-seq using STAR-Fusion, EricScript, and Integrate, with support from WGS breakpoints and IHC for total ALK and phospho-ALK Y1507; a curated kinase-fusion database was used. A major blind spot of less comprehensive testing would be missing structural rearrangements or fusion-specific phosphorylation states if only DNA point mutation analysis or transcriptomics alone were used.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>missed_driver_reclassified_after_broader_testing</strong></td>
+                            <td>Yes, in the sense that ALK-rearranged tumors showed driver activity that was not captured by mutation-centric assays alone: the fusion-positive cases were identified through RNA fusion calling and WGS breakpoint mapping, and fusion-specific activation was then validated by phosphoproteomics/IHC (ALK Y1507). The missed lesion was the fusion/rearrangement itself, which would not be found by assays focused on SNVs/indels.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>driver_event_class</strong></td>
+                            <td>gene fusion / structural rearrangement</td>
+                        </tr>
+                        <tr>
+                            <td><strong>candidate_driver_gene_or_locus</strong></td>
+                            <td>ALK fusions, especially EML4-ALK; also HMBOX1-ALK and ANKRD36B-ALK</td>
+                        </tr>
+                        <tr>
+                            <td><strong>structural_or_regulatory_activation_mechanism</strong></td>
+                            <td>Kinase-domain-preserving in-frame fusion leading to oncogenic ALK activation, with fusion-specific phosphorylation suggesting constitutive kinase signaling and altered substrate phosphorylation.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>functional_consequence</strong></td>
+                            <td>Outlier ALK mRNA and protein abundance, strong ALK Y1507 phosphorylation, phosphorylation of fusion partner residues (EML4-Y226, HMBOX-S141), and tyrosine phosphorylation of downstream proteins including SND1, HDLBP, and ARHGEF5.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>co_alteration_or_combinatorial_requirement</strong></td>
+                            <td>Most ALK-fusion tumors were largely devoid of other key driver mutations; the paper frames EML4-ALK as a primary driver rather than requiring obvious cooperating canonical oncogene mutations.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>human_prevalence_or_enrichment</strong></td>
+                            <td>Among 110 tumors, 7 had recurrent in-frame ALK fusions; most were assigned to cluster C4. Five EML4-ALK cases are explicitly noted in the miRNA analysis, and the ALK-fusion group was enriched in the terminal respiratory unit-like subtype and in miRNA cluster 5.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>functional_or_clinical_validation</strong></td>
+                            <td>Validation included fusion-specific phospho-ALK Y1507 immunohistochemistry in all available ALK fusion-positive cases and absence of staining in ROS1/RET fusion samples or paired NATs. The paper also links ALK fusion signaling to known oncogenic biology and identifies downstream phosphotyrosine events as candidate mediators.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>initial_negative_call_basis</strong></td>
+                            <td>Initial negative call, when applicable to hidden drivers, would be based on absence of canonical driver SNVs/indels in known LUAD oncogenes; specifically the paper repeatedly refers to tumors lacking known or currently targetable mutations. For ALK, mutation-only assays would miss rearrangements because the driver is structural rather than point-mutational.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>negative_call_failure_mode</strong></td>
+                            <td>fusion_not_assayed</td>
+                        </tr>
+                        <tr>
+                            <td><strong>rescue_modality</strong></td>
+                            <td>rna_seq_fusion, wgs_sv, phosphoproteomics, ihc</td>
+                        </tr>
+                        <tr>
+                            <td><strong>final_explanatory_status</strong></td>
+                            <td>rescued_canonical_driver</td>
+                        </tr>
+                        <tr>
+                            <td><strong>post_workup_unexplained_fraction</strong></td>
+                            <td>The paper states that a substantial proportion of LUADs still lack known or currently targetable mutations, but does not give a single residual unexplained count after all assays for the specific oncogene-negative subset.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>driver_mechanism_family</strong></td>
+                            <td>['kinase_fusion_dimerization', 'phospho_state_outlier']</td>
+                        </tr>
+                        <tr>
+                            <td><strong>signaling_activation_mode</strong></td>
+                            <td>constitutive_dimerization and downstream_phospho_network_activation</td>
+                        </tr>
+                        <tr>
+                            <td><strong>oncogenic_unit_type</strong></td>
+                            <td>gene_pair_fusion</td>
+                        </tr>
+                        <tr>
+                            <td><strong>mechanistic_directness</strong></td>
+                            <td>direct_driver</td>
+                        </tr>
+                        <tr>
+                            <td><strong>histologic_subtype_normalized</strong></td>
+                            <td>mixed_pattern</td>
+                        </tr>
+                        <tr>
+                            <td><strong>lineage_marker_state</strong></td>
+                            <td>TRU_marker_state high</td>
+                        </tr>
+                        <tr>
+                            <td><strong>inferred_lineage_program</strong></td>
+                            <td>terminal_respiratory_unit</td>
+                        </tr>
+                        <tr>
+                            <td><strong>mucinous_program_evidence</strong></td>
+                            <td><span class="empty-note">null</span></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="extraction-instance-container" id="e2220.1">
+                <h3 class="extraction-instance">Extracted Data Instance 1 (e2220.1)</h3>
+                <div class="extraction-query"><strong>Extraction Query:</strong> Extract any mentions of hidden genomic, structural, regulatory, or assay-missed drivers in oncogene-negative lung adenocarcinoma.</div>
+                <table>
+                    <thead>
+                        <tr>
+                            <th style="width: 30%;">Field</th>
+                            <th style="width: 70%;">Value</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><strong>name_short</strong></td>
+                            <td>KEAP1 G511V</td>
+                        </tr>
+                        <tr>
+                            <td><strong>name_full</strong></td>
+                            <td>KEAP1 BTB-domain missense mutation G511V affecting KEAP1-NFE2L2 (NRF2) regulation</td>
+                        </tr>
+                        <tr>
+                            <td><strong>brief_description</strong></td>
+                            <td>The paper identifies KEAP1 mutations that do not change KEAP1 or NFE2L2 RNA levels but reduce KEAP1 protein and increase NFE2L2 phosphorylation. One BTB-domain mutation, G511V, is highlighted as a likely novel disruptive mechanism at the KEAP1/NFE2L2 interface.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>citation_title</strong></td>
+                            <td>Proteogenomic characterization reveals therapeutic vulnerabilities in lung adenocarcinoma</td>
+                        </tr>
+                        <tr>
+                            <td><strong>mention_or_use</strong></td>
+                            <td>use</td>
+                        </tr>
+                        <tr>
+                            <td><strong>oncogene_negative_definition</strong></td>
+                            <td>The relevant driver-negative context is LUADs without an obvious canonical oncogene driver, where tumor biology is instead explained by tumor suppressor/regulatory pathway alteration. The study analyzes KEAP1-mutant tumors within the broader cohort of treatment-naïve LUADs profiled by WES/WGS/RNA/proteomics.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>assay_strategy_and_detection_limits</strong></td>
+                            <td>WES and WGS identified somatic KEAP1 mutations, while RNA and protein/phosphoprotein profiling showed that the mutation did not alter KEAP1/NFE2L2 RNA but did alter KEAP1 protein abundance and NFE2L2 phosphorylation. Without protein/PTM data, the functional consequence of the missense mutation would be much less apparent.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>missed_driver_reclassified_after_broader_testing</strong></td>
+                            <td>The mutation itself was not missed, but its mechanistic impact was only clarified by proteogenomics: a BTB-domain missense (G511V) showed little effect on KEAP1 protein abundance yet had among the highest NFE2L2 phosphorylation levels, supporting disruption of KEAP1-NFE2L2 binding rather than simple protein destabilization.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>driver_event_class</strong></td>
+                            <td>missense mutation in tumor suppressor / regulatory protein</td>
+                        </tr>
+                        <tr>
+                            <td><strong>candidate_driver_gene_or_locus</strong></td>
+                            <td>KEAP1 G511V; KEAP1-NFE2L2 binding interface</td>
+                        </tr>
+                        <tr>
+                            <td><strong>structural_or_regulatory_activation_mechanism</strong></td>
+                            <td>Disruption of KEAP1-mediated negative regulation of NFE2L2, likely by perturbing the binding interface rather than by reducing protein stability.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>functional_consequence</strong></td>
+                            <td>Downregulation of KEAP1 protein, increased phosphorylation of NFE2L2 on S215 and S433, and activation of NFE2L2 oncogenic antioxidant-response programs.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>co_alteration_or_combinatorial_requirement</strong></td>
+                            <td>No obligatory cooperating lesion is stated; the key effect is loss of KEAP1-mediated repression with downstream NRF2-pathway activation.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>human_prevalence_or_enrichment</strong></td>
+                            <td>Twelve LUAD tumors harbored KEAP1 mutations. The paper does not quantify how many were G511V specifically in the main text, but treats G511V as one notable case among those 12.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>functional_or_clinical_validation</strong></td>
+                            <td>Validation is proteogenomic/structural: reduced KEAP1 protein, increased NFE2L2 phosphosite abundance, and structural mapping showing G511V near the KEAP1/NFE2L2 interaction surface. The broader pathway signature is enriched for NRF2 oxidative-stress response proteins.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>initial_negative_call_basis</strong></td>
+                            <td>Initial negative call would arise if one looked only for activating oncogene mutations rather than tumor-suppressor pathway lesions; the mutation is not a canonical oncogene activation and does not alter RNA abundance.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>negative_call_failure_mode</strong></td>
+                            <td>protein_state_only</td>
+                        </tr>
+                        <tr>
+                            <td><strong>rescue_modality</strong></td>
+                            <td>integrated_multiomic, phosphoproteomics, structural_analysis</td>
+                        </tr>
+                        <tr>
+                            <td><strong>final_explanatory_status</strong></td>
+                            <td>rescued_pathway_state_without_single_lesion</td>
+                        </tr>
+                        <tr>
+                            <td><strong>post_workup_unexplained_fraction</strong></td>
+                            <td>Not applicable as a general unexplained fraction is not reported for this mechanism; the paper instead explains a subset of KEAP1-mutant tumors mechanistically.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>driver_mechanism_family</strong></td>
+                            <td>['tumor_suppressor_negative_regulator_loss']</td>
+                        </tr>
+                        <tr>
+                            <td><strong>signaling_activation_mode</strong></td>
+                            <td>loss_of_ubiquitin_mediated_downregulation</td>
+                        </tr>
+                        <tr>
+                            <td><strong>oncogenic_unit_type</strong></td>
+                            <td>single_gene_lesion</td>
+                        </tr>
+                        <tr>
+                            <td><strong>mechanistic_directness</strong></td>
+                            <td>likely_driver</td>
+                        </tr>
+                        <tr>
+                            <td><strong>histologic_subtype_normalized</strong></td>
+                            <td>mixed_pattern</td>
+                        </tr>
+                        <tr>
+                            <td><strong>lineage_marker_state</strong></td>
+                            <td><span class="empty-note">null</span></td>
+                        </tr>
+                        <tr>
+                            <td><strong>inferred_lineage_program</strong></td>
+                            <td>unknown</td>
+                        </tr>
+                        <tr>
+                            <td><strong>mucinous_program_evidence</strong></td>
+                            <td><span class="empty-note">null</span></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="extraction-instance-container" id="e2220.2">
+                <h3 class="extraction-instance">Extracted Data Instance 2 (e2220.2)</h3>
+                <div class="extraction-query"><strong>Extraction Query:</strong> Extract any mentions of hidden genomic, structural, regulatory, or assay-missed drivers in oncogene-negative lung adenocarcinoma.</div>
+                <table>
+                    <thead>
+                        <tr>
+                            <th style="width: 30%;">Field</th>
+                            <th style="width: 70%;">Value</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><strong>name_short</strong></td>
+                            <td>ARHGEF5 axis</td>
+                        </tr>
+                        <tr>
+                            <td><strong>name_full</strong></td>
+                            <td>ARHGEF5/TIM phosphotyrosine outlier with reduced SRGAP1 in strict never-smokers, especially ALK-fusion cases</td>
+                        </tr>
+                        <tr>
+                            <td><strong>brief_description</strong></td>
+                            <td>The paper proposes a noncanonical, phosphoproteomic driver-like state in never-smoker LUAD involving ARHGEF5 activating phosphorylation (Y1370) and downregulation of the negative Rho GTPase regulator SRGAP1. This signal is strongest in ALK-fusion tumors and is presented as a potential oncogenic mechanism in a subset of non-smoking patients.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>citation_title</strong></td>
+                            <td>Proteogenomic characterization reveals therapeutic vulnerabilities in lung adenocarcinoma</td>
+                        </tr>
+                        <tr>
+                            <td><strong>mention_or_use</strong></td>
+                            <td>use</td>
+                        </tr>
+                        <tr>
+                            <td><strong>oncogene_negative_definition</strong></td>
+                            <td>This is discussed specifically in strict never-smokers (SNS) and in relation to ALK-fusion-positive tumors, implying a subset lacking smoking-associated canonical genomic drivers. The paper treats it as a candidate mechanism rather than a fully resolved canonical driver lesion.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>assay_strategy_and_detection_limits</strong></td>
+                            <td>Discovered by global phosphoproteomics and proteomics, with comparison of strict never-smokers versus strict smokers and with ALK-fusion status. This would be missed by DNA-only driver searches because the key event is a phosphosite outlier and coordinated protein-state change, not necessarily a recurrent genomic lesion.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>missed_driver_reclassified_after_broader_testing</strong></td>
+                            <td>Yes, at the pathway-state level: ARHGEF5 Y1370 phosphorylation and SRGAP1 suppression were uncovered by phosphoproteomics/proteomics and linked to ALK fusion in never-smokers. The paper does not claim a hidden genomic alteration at ARHGEF5 itself.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>driver_event_class</strong></td>
+                            <td>phospho-state outlier / regulatory signaling state</td>
+                        </tr>
+                        <tr>
+                            <td><strong>candidate_driver_gene_or_locus</strong></td>
+                            <td>ARHGEF5 (phosphosite Y1370) and SRGAP1</td>
+                        </tr>
+                        <tr>
+                            <td><strong>structural_or_regulatory_activation_mechanism</strong></td>
+                            <td>Activating phosphorylation of a RhoGEF, coupled with loss of negative Rho GTPase regulation, consistent with hyperactivation of Rho signaling.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>functional_consequence</strong></td>
+                            <td>Potential hyperactivation of Rho GTPase signaling and tumorigenesis in a subset of never-smoker LUAD; ARHGEF5 phosphosite levels were highest in ALK-fusion patients.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>co_alteration_or_combinatorial_requirement</strong></td>
+                            <td>The proposed mechanism combines ARHGEF5 activating phosphorylation with downregulation of SRGAP1. The paper also suggests a link to EML4-ALK tyrosine kinase activity in ALK-fusion tumors.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>human_prevalence_or_enrichment</strong></td>
+                            <td>Reported as a differential feature in strict never-smokers, with the highest ARHGEF5_Y1370 levels in ALK-fusion patients; no exact cohort-wide percentage is given in the text.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>functional_or_clinical_validation</strong></td>
+                            <td>Evidence is associative and mechanistic but not definitive: phosphoproteomic outlier analysis, correlation with ALK fusion, and literature support for ARHGEF5 auto-inhibitory peptides as candidate intervention.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>initial_negative_call_basis</strong></td>
+                            <td>No explicit initial negative driver call is described for this state; it would evade canonical genomic testing because the principal signal is phosphorylation-based rather than a recurrent DNA lesion.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>negative_call_failure_mode</strong></td>
+                            <td>protein_state_only</td>
+                        </tr>
+                        <tr>
+                            <td><strong>rescue_modality</strong></td>
+                            <td>phosphoproteomics, integrated_multiomic</td>
+                        </tr>
+                        <tr>
+                            <td><strong>final_explanatory_status</strong></td>
+                            <td>rescued_pathway_state_without_single_lesion</td>
+                        </tr>
+                        <tr>
+                            <td><strong>post_workup_unexplained_fraction</strong></td>
+                            <td>Not reported for this specific mechanism.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>driver_mechanism_family</strong></td>
+                            <td>['phospho_state_outlier', 'tumor_suppressor_negative_regulator_loss', 'lineage_state_switch']</td>
+                        </tr>
+                        <tr>
+                            <td><strong>signaling_activation_mode</strong></td>
+                            <td>downstream_phospho_network_activation</td>
+                        </tr>
+                        <tr>
+                            <td><strong>oncogenic_unit_type</strong></td>
+                            <td>pathway_state</td>
+                        </tr>
+                        <tr>
+                            <td><strong>mechanistic_directness</strong></td>
+                            <td>pathway_modifier</td>
+                        </tr>
+                        <tr>
+                            <td><strong>histologic_subtype_normalized</strong></td>
+                            <td>mixed_pattern</td>
+                        </tr>
+                        <tr>
+                            <td><strong>lineage_marker_state</strong></td>
+                            <td><span class="empty-note">null</span></td>
+                        </tr>
+                        <tr>
+                            <td><strong>inferred_lineage_program</strong></td>
+                            <td>unknown</td>
+                        </tr>
+                        <tr>
+                            <td><strong>mucinous_program_evidence</strong></td>
+                            <td><span class="empty-note">null</span></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="extraction-instance-container" id="e2220.3">
+                <h3 class="extraction-instance">Extracted Data Instance 3 (e2220.3)</h3>
+                <div class="extraction-query"><strong>Extraction Query:</strong> Extract any mentions of hidden genomic, structural, regulatory, or assay-missed drivers in oncogene-negative lung adenocarcinoma.</div>
+                <table>
+                    <thead>
+                        <tr>
+                            <th style="width: 30%;">Field</th>
+                            <th style="width: 70%;">Value</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><strong>name_short</strong></td>
+                            <td>PTPN11/SHP2 Y62</td>
+                        </tr>
+                        <tr>
+                            <td><strong>name_full</strong></td>
+                            <td>PTPN11/SHP2 activating phosphotyrosine outlier at Y62 in EGFR-mutant LUAD and additional phosphosite outliers in ALK-fusion tumors</td>
+                        </tr>
+                        <tr>
+                            <td><strong>brief_description</strong></td>
+                            <td>The paper reports strong and consistent phosphorylation of PTPN11/SHP2 at Y62 in EGFR-mutant tumors without changes in RNA or total protein, and outlier phosphorylation at Y546/Y584 in ALK-fusion tumors. This is framed as a therapeutic vulnerability and a protein-state driver-like activation event.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>citation_title</strong></td>
+                            <td>Proteogenomic characterization reveals therapeutic vulnerabilities in lung adenocarcinoma</td>
+                        </tr>
+                        <tr>
+                            <td><strong>mention_or_use</strong></td>
+                            <td>use</td>
+                        </tr>
+                        <tr>
+                            <td><strong>oncogene_negative_definition</strong></td>
+                            <td>Relevant as an assay-missed driver-like state in tumors whose canonical genomic driver is EGFR mutation or ALK fusion; the activation state itself is not apparent from RNA/protein abundance alone. In driver-negative contexts, this illustrates that protein activation can be hidden from genomic tests.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>assay_strategy_and_detection_limits</strong></td>
+                            <td>Detected only by phosphoproteomics; RNA and total protein abundance were unchanged for PTPN11 in EGFR-mutant tumors. Thus, any assay limited to DNA/RNA/total protein expression would miss the activation state.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>missed_driver_reclassified_after_broader_testing</strong></td>
+                            <td>Yes at the signaling-state level: PTPN11 Y62 phosphorylation was newly observed in a large set of primary LUADs and was not visible at RNA or protein abundance levels.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>driver_event_class</strong></td>
+                            <td>phospho-state outlier</td>
+                        </tr>
+                        <tr>
+                            <td><strong>candidate_driver_gene_or_locus</strong></td>
+                            <td>PTPN11/SHP2, especially phosphosite Y62; also Y546 and Y584 in ALK-fusion tumors</td>
+                        </tr>
+                        <tr>
+                            <td><strong>structural_or_regulatory_activation_mechanism</strong></td>
+                            <td>Phosphorylation at Y62 lies at the N-SH2/PTP interface and is thought to stabilize the active SHP2 conformation; ALK-fusion-associated Y546/Y584 phosphorylation may promote active conformation or GRB2 docking.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>functional_consequence</strong></td>
+                            <td>Activated SHP2 signaling downstream of growth factor receptors, implicating RAS/ERK pathway activation and a potential therapeutic vulnerability to SHP2 inhibitors.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>co_alteration_or_combinatorial_requirement</strong></td>
+                            <td>The EGFR-mutant context is emphasized, and ALK-fusion tumors also display SHP2 phosphorylation. No other obligatory lesion is required in the text.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>human_prevalence_or_enrichment</strong></td>
+                            <td>EGFR-mutant tumors showed highly significant and remarkably consistent Y62 phosphorylation; the exact count of positive cases is not given in the main text, but the associated mutant subset size is reported as N=38 in Figure 7E and 36 in the biomarker section. ALK-fusion tumors also showed outlier phosphorylation at Y546/Y584.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>functional_or_clinical_validation</strong></td>
+                            <td>The paper notes prior evidence that SHP2 inhibition suppresses tumorigenesis and that inhibitors are in clinical trials; it interprets its own data as supporting EGFR-mutant and ALK-fusion LUAD as promising target populations. The finding is supported by phosphoproteomics and structural context of Y62.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>initial_negative_call_basis</strong></td>
+                            <td>Initial negative call basis for this hidden state is the absence of RNA/protein abundance change in PTPN11 despite active phosphorylation; thus it would be missed by transcriptomics or standard proteomics alone.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>negative_call_failure_mode</strong></td>
+                            <td>protein_state_only</td>
+                        </tr>
+                        <tr>
+                            <td><strong>rescue_modality</strong></td>
+                            <td>phosphoproteomics, integrated_multiomic</td>
+                        </tr>
+                        <tr>
+                            <td><strong>final_explanatory_status</strong></td>
+                            <td>rescued_pathway_state_without_single_lesion</td>
+                        </tr>
+                        <tr>
+                            <td><strong>post_workup_unexplained_fraction</strong></td>
+                            <td>Not reported for this specific activation state.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>driver_mechanism_family</strong></td>
+                            <td>['phospho_state_outlier']</td>
+                        </tr>
+                        <tr>
+                            <td><strong>signaling_activation_mode</strong></td>
+                            <td>downstream_phospho_network_activation</td>
+                        </tr>
+                        <tr>
+                            <td><strong>oncogenic_unit_type</strong></td>
+                            <td>pathway_state</td>
+                        </tr>
+                        <tr>
+                            <td><strong>mechanistic_directness</strong></td>
+                            <td>pathway_modifier</td>
+                        </tr>
+                        <tr>
+                            <td><strong>histologic_subtype_normalized</strong></td>
+                            <td>mixed_pattern</td>
+                        </tr>
+                        <tr>
+                            <td><strong>lineage_marker_state</strong></td>
+                            <td><span class="empty-note">null</span></td>
+                        </tr>
+                        <tr>
+                            <td><strong>inferred_lineage_program</strong></td>
+                            <td>unknown</td>
+                        </tr>
+                        <tr>
+                            <td><strong>mucinous_program_evidence</strong></td>
+                            <td><span class="empty-note">null</span></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="extraction-instance-container" id="e2220.4">
+                <h3 class="extraction-instance">Extracted Data Instance 4 (e2220.4)</h3>
+                <div class="extraction-query"><strong>Extraction Query:</strong> Extract any mentions of hidden genomic, structural, regulatory, or assay-missed drivers in oncogene-negative lung adenocarcinoma.</div>
+                <table>
+                    <thead>
+                        <tr>
+                            <th style="width: 30%;">Field</th>
+                            <th style="width: 70%;">Value</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><strong>name_short</strong></td>
+                            <td>CAMP/LTF/BPI degranulation program</td>
+                        </tr>
+                        <tr>
+                            <td><strong>name_full</strong></td>
+                            <td>Neutrophil degranulation proteomic program associated with STK11-mutant immune-cold LUAD</td>
+                        </tr>
+                        <tr>
+                            <td><strong>brief_description</strong></td>
+                            <td>The paper reports that STK11-mutant tumors are immune-cold and that neutrophil degranulation is the strongest proteomic pathway signature associated with STK11 mutation. This signal is proteomics-specific, with the measured proteins stored in granules and not detectable at RNA level.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>citation_title</strong></td>
+                            <td>Proteogenomic characterization reveals therapeutic vulnerabilities in lung adenocarcinoma</td>
+                        </tr>
+                        <tr>
+                            <td><strong>mention_or_use</strong></td>
+                            <td>use</td>
+                        </tr>
+                        <tr>
+                            <td><strong>oncogene_negative_definition</strong></td>
+                            <td>This is not a hidden genomic driver per se but a driver-associated hidden pathway state seen in STK11-mutant tumors. It is especially relevant because the signal is not evident from RNA analysis and thus can be missed in standard transcriptomic workups.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>assay_strategy_and_detection_limits</strong></td>
+                            <td>Discovered by differential RNA, protein and phosphoprotein analysis, especially proteomics and independent component analysis. The paper explicitly says the signal was not detectable at the RNA level because the proteins are stored in granules until release.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>missed_driver_reclassified_after_broader_testing</strong></td>
+                            <td>Yes at the pathway-state level: the immunologic mechanism was only revealed in proteomics; neutrophils were not specifically enriched or depleted, but degranulation proteins were coherently overexpressed.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>driver_event_class</strong></td>
+                            <td>regulatory/pathway state associated with tumor suppressor mutation</td>
+                        </tr>
+                        <tr>
+                            <td><strong>candidate_driver_gene_or_locus</strong></td>
+                            <td>STK11-associated neutrophil degranulation proteins including CAMP, LTF, BPI, MMP8, MMP9, MPO, LCN2, ELANE, and ARG1</td>
+                        </tr>
+                        <tr>
+                            <td><strong>structural_or_regulatory_activation_mechanism</strong></td>
+                            <td>A proteomic degranulation program rather than a structural gene lesion; likely reflects altered immune/stromal state and secretory storage/release biology.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>functional_consequence</strong></td>
+                            <td>Potential immunosuppressive mechanism contributing to STK11-mutant immune-cold phenotype; the proteins have established immune-modulatory functions.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>co_alteration_or_combinatorial_requirement</strong></td>
+                            <td>Associates with STK11 mutation; the paper notes that KRAS status modulates immune score within STK11-mutant tumors, but no strict requirement for a second lesion is claimed.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>human_prevalence_or_enrichment</strong></td>
+                            <td>STK11 mutant tumors were strongly enriched for this signature; 16 measured degranulation proteins were coherently overexpressed in STK11-mutant tumors. Exact cohort-wide percentages are not given for the pathway.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>functional_or_clinical_validation</strong></td>
+                            <td>Supported by unsupervised ICA, pathway enrichment, and the observation that the signal is coherent across all 16 measured proteins and absent at RNA level. The authors propose it as a compelling hypothetical mechanism rather than a proven driver.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>initial_negative_call_basis</strong></td>
+                            <td>Would be missed by RNA-only assays or canonical DNA driver searches because the phenotype is a proteomic pathway state, not a recurrent single lesion.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>negative_call_failure_mode</strong></td>
+                            <td>protein_state_only</td>
+                        </tr>
+                        <tr>
+                            <td><strong>rescue_modality</strong></td>
+                            <td>proteomics, phosphoproteomics, integrated_multiomic</td>
+                        </tr>
+                        <tr>
+                            <td><strong>final_explanatory_status</strong></td>
+                            <td>rescued_pathway_state_without_single_lesion</td>
+                        </tr>
+                        <tr>
+                            <td><strong>post_workup_unexplained_fraction</strong></td>
+                            <td>Not quantified; the paper presents this as one plausible mechanism for STK11-associated immune coldness rather than a complete explanation.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>driver_mechanism_family</strong></td>
+                            <td>['lineage_state_switch', 'pathway_modifier']</td>
+                        </tr>
+                        <tr>
+                            <td><strong>signaling_activation_mode</strong></td>
+                            <td>downstream_phospho_network_activation</td>
+                        </tr>
+                        <tr>
+                            <td><strong>oncogenic_unit_type</strong></td>
+                            <td>pathway_state</td>
+                        </tr>
+                        <tr>
+                            <td><strong>mechanistic_directness</strong></td>
+                            <td>pathway_modifier</td>
+                        </tr>
+                        <tr>
+                            <td><strong>histologic_subtype_normalized</strong></td>
+                            <td>mixed_pattern</td>
+                        </tr>
+                        <tr>
+                            <td><strong>lineage_marker_state</strong></td>
+                            <td><span class="empty-note">null</span></td>
+                        </tr>
+                        <tr>
+                            <td><strong>inferred_lineage_program</strong></td>
+                            <td>unknown</td>
+                        </tr>
+                        <tr>
+                            <td><strong>mucinous_program_evidence</strong></td>
+                            <td><span class="empty-note">null</span></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>Potentially Relevant New Papers (mentioned by this paper)</h2>
+            <ol>
+                <li>Integrated Proteogenomic Characterization of Human High-Grade Serous Ovarian Cancer <em>(Rating: 1)</em></li>
+                <li>Proteogenomics connects somatic mutations to signalling in breast cancer <em>(Rating: 1)</em></li>
+                <li>Proteogenomic Characterization of Endometrial Carcinoma <em>(Rating: 1)</em></li>
+                <li>A new method for constructing tumor specific gene co-expression networks based on samples with tumor purity heterogeneity <em>(Rating: 1)</em></li>
+            </ol>
+        </div>
+
+        </div>
+
+    </div>
+</body>
+</html>

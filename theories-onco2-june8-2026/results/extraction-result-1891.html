@@ -1,0 +1,622 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Extraction extraction-result-1891 - Theorizer</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+    <div class="header">
+        <a href="../index.html"><i class="fas fa-flask"></i> Theorizer</a>
+    </div>
+
+    <div class="content">
+        <h1>Extracted Data Details for extraction-result-1891</h1>
+
+        <div class="section">
+            <h2>Extracted Data (Header)</h2>
+            <div class="info-section">
+                <p><strong>Extraction ID:</strong> extraction-result-1891</p>
+                <p><strong>Extraction Schema Used (ID):</strong> <a href="../schemas/extraction-schema-1841.html">extraction-schema-1841</a></p>
+                <div class="extraction-query"><strong>Extraction Query:</strong> Extract any mentions of driver-negative or oncogene-negative lung adenocarcinoma cases, cohorts, models, or subgroups; the evidence for why they are considered driver-negative; candidate alternative drivers or mechanisms; proposed subtypes; validation strategies; comparisons to other cancers; and therapeutic implications.</div>
+                <p><strong>Paper ID:</strong> paper-fcc794d59b6567b127253557b5b02bda2e201484</p>
+                <p><strong>Paper Title:</strong> <a href="https://www.semanticscholar.org/paper/fcc794d59b6567b127253557b5b02bda2e201484" target="_blank">Mapping the hallmarks of lung adenocarcinoma with massively parallel sequencing</a></p>
+                <p><strong>Paper Venue:</strong> Cell</p>
+                <p><strong>Paper TL;DR:</strong> Exome and genome sequences of 183 lung adenocarcinoma tumor/normal DNA pairs revealed a mean exonic somatic mutation rate of 12.0 events/megabase and identified the majority of genes previously reported as significantly mutated in lung adenocarcinoma.</p>
+                <p><strong>Paper Abstract:</strong> SUMMARY Lung adenocarcinoma, the most common subtype of non-small cell lung cancer, is responsible for over 500,000 deaths per year worldwide. Here, we report exome and genome sequences of 183 lung adenocarcinoma tumor/normal DNA pairs. These analyses revealed a mean exonic somatic mutation rate of 12.0 events/megabase and identified the majority of genes previously reported as significantly mutated in lung adenocarcinoma. In addition, we identified statistically recurrent somatic mutations in the splicing factor gene U2AF1 and truncating mutations affecting RBM10 and ARID1A. Analysis of nucleotide context-specific mutation signatures grouped the sample set into distinct clusters that correlated with smoking history and alterations of reported lung adenocarcinoma genes. Whole genome sequence analysis revealed frequent structural re-arrangements, including in-frame exonic alterations within EGFR and SIK2 kinases. The candidate genes identified in this study are attractive targets for biological characterization and therapeutic targeting of lung adenocarcinoma.</p>
+                <p><strong>Cost:</strong> 0.032</p>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>Extracted Data (Details)</h2>
+            <div class="extraction-instance-container" id="e1891.0">
+                <h3 class="extraction-instance">Extracted Data Instance 0 (e1891.0)</h3>
+                <div class="extraction-query"><strong>Extraction Query:</strong> Extract any mentions of driver-negative or oncogene-negative lung adenocarcinoma cases, cohorts, models, or subgroups; the evidence for why they are considered driver-negative; candidate alternative drivers or mechanisms; proposed subtypes; validation strategies; comparisons to other cancers; and therapeutic implications.</div>
+                <table>
+                    <thead>
+                        <tr>
+                            <th style="width: 30%;">Field</th>
+                            <th style="width: 70%;">Value</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><strong>name_short</strong></td>
+                            <td>Driver-negative LUAD subset</td>
+                        </tr>
+                        <tr>
+                            <td><strong>name_full</strong></td>
+                            <td>Lung adenocarcinoma cases lacking an identified canonical driver alteration in this study</td>
+                        </tr>
+                        <tr>
+                            <td><strong>brief_description</strong></td>
+                            <td>The paper explicitly notes that not every lung adenocarcinoma sample could be assigned a mutated oncogene, and that around half of the cohort lacked an alteration supporting sustained proliferative signaling. This is presented as evidence that important driver events remain undiscovered or were not assayed, rather than as a fully defined molecular subtype.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>citation_title</strong></td>
+                            <td>Mapping the hallmarks of lung adenocarcinoma with massively parallel sequencing</td>
+                        </tr>
+                        <tr>
+                            <td><strong>mention_or_use</strong></td>
+                            <td>use</td>
+                        </tr>
+                        <tr>
+                            <td><strong>cohort_or_model</strong></td>
+                            <td>183 lung adenocarcinoma tumor/normal pairs (159 WES, 23 WES+WGS, 1 WGS-only)</td>
+                        </tr>
+                        <tr>
+                            <td><strong>cancer_context</strong></td>
+                            <td>Lung adenocarcinoma, primarily resected primary tumors (mostly early stage; some advanced stage and one metastatic case)</td>
+                        </tr>
+                        <tr>
+                            <td><strong>driver_negative_definition</strong></td>
+                            <td>Not formally defined with a specific panel of negative drivers. The paper states that not every tumor had a mutated oncogene, and for hallmark mapping only tumors with at least one activating/inactivating event in a known driver gene were counted; by this framework, many tumors lacked a driver alteration supporting a given hallmark, especially sustaining proliferative signaling. It also notes inability to statistically nominate several important but rarely mutated genes (AKT1, ERBB2, NRAS, HRAS).</td>
+                        </tr>
+                        <tr>
+                            <td><strong>driver_negative_frequency</strong></td>
+                            <td>Less than half (47%) of the cohort harbored a mutation in a known driver gene for sustaining proliferative signaling; only slightly more (55%) when high-level amplification of proliferative signaling genes was included. Also, 15% of tumors had no hallmark alteration and 38% had three or fewer hallmark alterations. The paper says it did not identify a mutated oncogene in every tumor sample.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>profiling_modalities</strong></td>
+                            <td>Whole-exome sequencing, whole-genome sequencing, SNP array copy-number profiling, targeted ultra-deep validation sequencing, rearrangement analysis by paired-end and split-read mapping, mutation-signature analysis, and statistical driver discovery (InVEx/PPH2 and LOF analyses)</td>
+                        </tr>
+                        <tr>
+                            <td><strong>candidate_mechanism_category</strong></td>
+                            <td>Unresolved; likely undiscovered driver alterations, noncoding alterations, copy-number events, or other unassayed mechanisms</td>
+                        </tr>
+                        <tr>
+                            <td><strong>candidate_driver_or_mechanism</strong></td>
+                            <td>No single candidate driver was established for the driver-negative subset</td>
+                        </tr>
+                        <tr>
+                            <td><strong>mechanistic_description</strong></td>
+                            <td>The authors interpret the absence of identified hallmark-linked driver alterations in many tumors as likely reflecting incomplete knowledge of lung adenocarcinoma genetics and/or cancer gene alterations not assayed in this study. They explicitly suggest novel capabilities not yet attributed to known genes, or novel alterations in genes previously unassociated with this disease.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>evidence_type</strong></td>
+                            <td>Cross-cohort prevalence analysis and negative evidence from incomplete driver assignment</td>
+                        </tr>
+                        <tr>
+                            <td><strong>key_evidence</strong></td>
+                            <td>The hallmark analysis found that around half of the sequenced cohort lacked a mutation supporting sustained proliferative signaling, a majority lacked a genetic alteration explaining invasion/metastasis or angiogenesis, 15% had no hallmark alteration, and 38% had three or fewer. The authors also state that no mutated oncogene was identified in every tumor sample.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>negative_or_counter_evidence</strong></td>
+                            <td>This is not evidence for a specific alternative driver, and the paper does not functionally validate a driver-negative mechanism. The authors emphasize that the gap may be due to unassayed mechanisms and incomplete gene discovery.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>subtype_name</strong></td>
+                            <td><span class="empty-note">null</span></td>
+                        </tr>
+                        <tr>
+                            <td><strong>subtype_features</strong></td>
+                            <td>Not defined as a formal subtype; the closest described grouping is tumors lacking a known driver for sustained proliferative signaling or lacking any hallmark-linked alteration</td>
+                        </tr>
+                        <tr>
+                            <td><strong>parallel_in_other_cancers</strong></td>
+                            <td>The paper compares the genomic complexity of lung adenocarcinoma to most other tumor types and notes that its mutation rates exceed those of other epithelial tumors except melanoma and squamous cell lung cancer. It also uses examples from lung squamous cell carcinoma for CDKN2A rearrangements, but not as a driver-negative analog.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>validation_approach</strong></td>
+                            <td>Future larger-cohort sequencing and integration of additional omic platforms are proposed; the paper suggests combining RNA-seq, methylation profiling, and other platforms in TCGA and similar consortia to fill in missing drivers.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>validation_result</strong></td>
+                            <td>No direct validation of a driver-negative mechanism was performed. The paper frames broader multi-omic studies as needed to identify the missing alterations.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>therapeutic_implication</strong></td>
+                            <td>The absence of known driver alterations implies that current targeted therapies may not be available for many tumors, motivating discovery of additional actionable genes and pathways.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>therapeutic_evidence</strong></td>
+                            <td>The paper notes that only a minority of tumors had alterations in a known driver for the therapeutically important hallmark of sustaining proliferative signaling, and that many hallmark-defining alterations remain unexplained.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>clinical_or_demographic_association</strong></td>
+                            <td>Driver-alteration patterns correlated with smoking history and mutation spectrum clusters. EGFR alterations were enriched in never/light smokers, whereas KRAS, STK11, SMARCA4, and KEAP1 alterations were anti-correlated with the never/light-smoker cluster. The driver-negative subset is not otherwise clinically defined.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>study_limitations</strong></td>
+                            <td>The authors explicitly note that they did not identify a mutated oncogene in every tumor sample and could not statistically nominate several important but rarely mutated genes. A major limitation is incomplete assay coverage of all possible driver mechanisms, especially noncoding and other unmeasured alterations.</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="extraction-instance-container" id="e1891.1">
+                <h3 class="extraction-instance">Extracted Data Instance 1 (e1891.1)</h3>
+                <div class="extraction-query"><strong>Extraction Query:</strong> Extract any mentions of driver-negative or oncogene-negative lung adenocarcinoma cases, cohorts, models, or subgroups; the evidence for why they are considered driver-negative; candidate alternative drivers or mechanisms; proposed subtypes; validation strategies; comparisons to other cancers; and therapeutic implications.</div>
+                <table>
+                    <thead>
+                        <tr>
+                            <th style="width: 30%;">Field</th>
+                            <th style="width: 70%;">Value</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><strong>name_short</strong></td>
+                            <td>EGFR Ex25&26del</td>
+                        </tr>
+                        <tr>
+                            <td><strong>name_full</strong></td>
+                            <td>EGFR exon 25 and 26 deletion (C-terminal deletion variant)</td>
+                        </tr>
+                        <tr>
+                            <td><strong>brief_description</strong></td>
+                            <td>A novel in-frame EGFR deletion identified by whole-genome sequencing in a lung adenocarcinoma tumor, proposed as an activating oncogenic alteration. It is used as a concrete example of a noncanonical driver event that could explain a tumor not captured by standard hotspot mutation calls.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>citation_title</strong></td>
+                            <td>Mapping the hallmarks of lung adenocarcinoma with massively parallel sequencing</td>
+                        </tr>
+                        <tr>
+                            <td><strong>mention_or_use</strong></td>
+                            <td>use</td>
+                        </tr>
+                        <tr>
+                            <td><strong>cohort_or_model</strong></td>
+                            <td>One WGS lung adenocarcinoma case with a two-exon EGFR deletion; functional assays in NIH-3T3 and Ba/F3 cells</td>
+                        </tr>
+                        <tr>
+                            <td><strong>cancer_context</strong></td>
+                            <td>Lung adenocarcinoma; structural-variant-driven oncogenic signaling in a tumor lacking a canonical EGFR hotspot alone</td>
+                        </tr>
+                        <tr>
+                            <td><strong>driver_negative_definition</strong></td>
+                            <td>Not a driver-negative case per se, but it exemplifies a noncanonical activating EGFR alteration discovered by WGS rather than standard point-mutation analysis. It was observed together with a p.G719S EGFR mutation in the same tumor, so the paper does not label this tumor driver-negative.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>driver_negative_frequency</strong></td>
+                            <td>Single case reported; no frequency for a driver-negative subgroup</td>
+                        </tr>
+                        <tr>
+                            <td><strong>profiling_modalities</strong></td>
+                            <td>Whole-genome sequencing, paired-end and split-read rearrangement mapping, PCR and Illumina sequencing confirmation, soft agar assay, immunoblotting for phospho-EGFR/phospho-AKT, and Ba/F3 cytokine-independence drug sensitivity testing</td>
+                        </tr>
+                        <tr>
+                            <td><strong>candidate_mechanism_category</strong></td>
+                            <td>Fusion/rearrangement; activating in-frame deletion</td>
+                        </tr>
+                        <tr>
+                            <td><strong>candidate_driver_or_mechanism</strong></td>
+                            <td>EGFR exon 25/26 deletion (Ex25&26del; C-terminal deletion variant akin to EGFRvIVb)</td>
+                        </tr>
+                        <tr>
+                            <td><strong>mechanistic_description</strong></td>
+                            <td>Deletion of EGFR exons 25 and 26 removes part of the C-terminus, including residues involved in interaction with PIK3C2B and CBL, producing constitutive EGFR and AKT phosphorylation, anchorage-independent growth, and IL-3-independent proliferation.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>evidence_type</strong></td>
+                            <td>Functional validation plus cross-cancer analogy</td>
+                        </tr>
+                        <tr>
+                            <td><strong>key_evidence</strong></td>
+                            <td>The variant formed colonies in soft agar in NIH-3T3 cells, increased EGFR and AKT phosphorylation without EGF, and transformed Ba/F3 cells to IL-3-independent growth that was suppressed by erlotinib. The paper also notes similar EGFRvIVb C-terminal deletions were oncogenic in glioblastoma models.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>negative_or_counter_evidence</strong></td>
+                            <td>The tumor also contained a second EGFR mutation (p.G719S), so the relative contribution of each EGFR alteration is uncertain; this is a single-case observation.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>subtype_name</strong></td>
+                            <td><span class="empty-note">null</span></td>
+                        </tr>
+                        <tr>
+                            <td><strong>subtype_features</strong></td>
+                            <td>Structural EGFR alteration with kinase activation; not a formal subtype</td>
+                        </tr>
+                        <tr>
+                            <td><strong>parallel_in_other_cancers</strong></td>
+                            <td>EGFRvIVb-like C-terminal deletion variants in glioblastoma multiforme, where they are oncogenic in cellular and animal models</td>
+                        </tr>
+                        <tr>
+                            <td><strong>validation_approach</strong></td>
+                            <td>Orthogonal validation by PCR and Illumina sequencing; transformation assays in NIH-3T3 and Ba/F3 cells; phospho-protein immunoblotting; EGFR inhibitor treatment with erlotinib</td>
+                        </tr>
+                        <tr>
+                            <td><strong>validation_result</strong></td>
+                            <td>Validation was positive: the deletion was confirmed and showed transforming activity, constitutive signaling, and erlotinib sensitivity.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>therapeutic_implication</strong></td>
+                            <td>Suggests that structurally activated EGFR alterations beyond canonical hotspots may be targetable with EGFR tyrosine kinase inhibitors such as erlotinib.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>therapeutic_evidence</strong></td>
+                            <td>Ba/F3 growth driven by the deletion mutant was blocked by erlotinib at concentrations previously sufficient for activated EGFR variants.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>clinical_or_demographic_association</strong></td>
+                            <td>No specific clinical association beyond being identified in the sequenced lung adenocarcinoma cohort; the paper does not tie this alteration to smoking or stage.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>study_limitations</strong></td>
+                            <td>Single-case discovery and functional study; co-occurrence with another EGFR mutation complicates causal attribution.</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="extraction-instance-container" id="e1891.2">
+                <h3 class="extraction-instance">Extracted Data Instance 2 (e1891.2)</h3>
+                <div class="extraction-query"><strong>Extraction Query:</strong> Extract any mentions of driver-negative or oncogene-negative lung adenocarcinoma cases, cohorts, models, or subgroups; the evidence for why they are considered driver-negative; candidate alternative drivers or mechanisms; proposed subtypes; validation strategies; comparisons to other cancers; and therapeutic implications.</div>
+                <table>
+                    <thead>
+                        <tr>
+                            <th style="width: 30%;">Field</th>
+                            <th style="width: 70%;">Value</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><strong>name_short</strong></td>
+                            <td>U2AF1</td>
+                        </tr>
+                        <tr>
+                            <td><strong>name_full</strong></td>
+                            <td>U2 small nuclear RNA auxiliary factor 1</td>
+                        </tr>
+                        <tr>
+                            <td><strong>brief_description</strong></td>
+                            <td>A recurrently mutated spliceosome gene identified as a novel lung adenocarcinoma candidate, sometimes occurring without known canonical lung drivers. While not explicitly framed as a driver-negative subgroup marker, it is one of the paper's strongest examples of a noncanonical alteration potentially relevant to tumors lacking classic oncogene events.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>citation_title</strong></td>
+                            <td>Mapping the hallmarks of lung adenocarcinoma with massively parallel sequencing</td>
+                        </tr>
+                        <tr>
+                            <td><strong>mention_or_use</strong></td>
+                            <td>use</td>
+                        </tr>
+                        <tr>
+                            <td><strong>cohort_or_model</strong></td>
+                            <td>183 lung adenocarcinoma tumor/normal pairs</td>
+                        </tr>
+                        <tr>
+                            <td><strong>cancer_context</strong></td>
+                            <td>Lung adenocarcinoma, with recurrent spliceosome alterations</td>
+                        </tr>
+                        <tr>
+                            <td><strong>driver_negative_definition</strong></td>
+                            <td>Not a formal driver-negative definition. The paper notes that U2AF1-mutant tumors may confer tumorigenic capability independent of known proliferation-sustaining driver genes.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>driver_negative_frequency</strong></td>
+                            <td>U2AF1 non-synonymous mutations in 3% of cases (about 5 of 183 tumors)</td>
+                        </tr>
+                        <tr>
+                            <td><strong>profiling_modalities</strong></td>
+                            <td>Exome/genome sequencing, InVEx positive-selection analysis, survival analysis</td>
+                        </tr>
+                        <tr>
+                            <td><strong>candidate_mechanism_category</strong></td>
+                            <td>Splicing factor mutation; epigenetic/RNA deregulation</td>
+                        </tr>
+                        <tr>
+                            <td><strong>candidate_driver_or_mechanism</strong></td>
+                            <td>U2AF1 S34F recurrent mutation</td>
+                        </tr>
+                        <tr>
+                            <td><strong>mechanistic_description</strong></td>
+                            <td>Recurrent mutation in a core spliceosome factor suggests altered RNA splicing as a tumorigenic mechanism that may act independently of canonical proliferative driver oncogenes.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>evidence_type</strong></td>
+                            <td>Recurrent mutation, statistical selection, survival association, cross-cancer analogy</td>
+                        </tr>
+                        <tr>
+                            <td><strong>key_evidence</strong></td>
+                            <td>U2AF1 was one of the most significantly mutated genes (P = 2.0 × 10^-6 by PPH2 InVEx). The same c.101C>T, p.S34F mutation was seen in 4 of 5 mutant cases. Mutations were associated with significantly reduced PFS (P = 0.00011).</td>
+                        </tr>
+                        <tr>
+                            <td><strong>negative_or_counter_evidence</strong></td>
+                            <td>No direct functional validation of U2AF1 in lung adenocarcinoma was performed in this paper. The study is observational regarding mechanism.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>subtype_name</strong></td>
+                            <td>Epigenetic and RNA deregulation</td>
+                        </tr>
+                        <tr>
+                            <td><strong>subtype_features</strong></td>
+                            <td>Proposed hallmark/subtype characterized by alterations in epigenetic and RNA-processing genes, including U2AF1, ARID1A, RBM10, SETD2, BRD3, and SMARCA4</td>
+                        </tr>
+                        <tr>
+                            <td><strong>parallel_in_other_cancers</strong></td>
+                            <td>U2AF1 S34F had previously been reported in myelodysplastic syndrome (MDS)</td>
+                        </tr>
+                        <tr>
+                            <td><strong>validation_approach</strong></td>
+                            <td>Statistical recurrence testing, domain-mapped mutation analysis, and survival association analysis; functional validation was not performed here</td>
+                        </tr>
+                        <tr>
+                            <td><strong>validation_result</strong></td>
+                            <td>Validation at the genomic/statistical level was positive, but functional validation was not provided.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>therapeutic_implication</strong></td>
+                            <td>Suggests potential vulnerability of a subset of tumors to strategies targeting RNA splicing or dependencies created by spliceosome dysfunction, although the paper does not test a therapy.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>therapeutic_evidence</strong></td>
+                            <td>No direct therapeutic experiment; the paper only notes potential tumorigenic capability independent of known proliferation-sustaining drivers and worse PFS.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>clinical_or_demographic_association</strong></td>
+                            <td>One of four p.S34F mutations co-occurred with activating KRAS p.Q61H; associated with reduced progression-free survival. No smoking association is stated.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>study_limitations</strong></td>
+                            <td>Lacks functional mechanistic experiments and does not establish U2AF1 as the sole driver in mutant tumors.</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="extraction-instance-container" id="e1891.3">
+                <h3 class="extraction-instance">Extracted Data Instance 3 (e1891.3)</h3>
+                <div class="extraction-query"><strong>Extraction Query:</strong> Extract any mentions of driver-negative or oncogene-negative lung adenocarcinoma cases, cohorts, models, or subgroups; the evidence for why they are considered driver-negative; candidate alternative drivers or mechanisms; proposed subtypes; validation strategies; comparisons to other cancers; and therapeutic implications.</div>
+                <table>
+                    <thead>
+                        <tr>
+                            <th style="width: 30%;">Field</th>
+                            <th style="width: 70%;">Value</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><strong>name_short</strong></td>
+                            <td>RBM10</td>
+                        </tr>
+                        <tr>
+                            <td><strong>name_full</strong></td>
+                            <td>RNA binding motif protein 10</td>
+                        </tr>
+                        <tr>
+                            <td><strong>brief_description</strong></td>
+                            <td>An RNA-binding protein recurrently mutated with an excess of truncating alterations, nominated as a novel lung adenocarcinoma gene. It supports the paper's broader proposal that RNA-processing defects may constitute an underrecognized driver class in lung adenocarcinoma.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>citation_title</strong></td>
+                            <td>Mapping the hallmarks of lung adenocarcinoma with massively parallel sequencing</td>
+                        </tr>
+                        <tr>
+                            <td><strong>mention_or_use</strong></td>
+                            <td>use</td>
+                        </tr>
+                        <tr>
+                            <td><strong>cohort_or_model</strong></td>
+                            <td>183 lung adenocarcinoma tumor/normal pairs</td>
+                        </tr>
+                        <tr>
+                            <td><strong>cancer_context</strong></td>
+                            <td>Lung adenocarcinoma</td>
+                        </tr>
+                        <tr>
+                            <td><strong>driver_negative_definition</strong></td>
+                            <td>Not a formal driver-negative definition; RBM10 is presented as a candidate alternative mechanism in tumors not fully explained by known oncogenes.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>driver_negative_frequency</strong></td>
+                            <td>Mutated in 12/183 cases (7%); recurrent nonsense/frameshift/splice-site mutations present in 7 of 12 mutated cases (4% overall cohort)</td>
+                        </tr>
+                        <tr>
+                            <td><strong>profiling_modalities</strong></td>
+                            <td>Exome/genome sequencing and statistical mutation enrichment analysis</td>
+                        </tr>
+                        <tr>
+                            <td><strong>candidate_mechanism_category</strong></td>
+                            <td>Tumor suppressor loss; RNA deregulation</td>
+                        </tr>
+                        <tr>
+                            <td><strong>candidate_driver_or_mechanism</strong></td>
+                            <td>RBM10 loss-of-function mutations</td>
+                        </tr>
+                        <tr>
+                            <td><strong>mechanistic_description</strong></td>
+                            <td>RBM10 encodes an RNA-binding protein; recurrent truncating mutations suggest loss of function in RNA processing/splicing as a tumorigenic mechanism.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>evidence_type</strong></td>
+                            <td>Recurrent alteration and enrichment of truncating mutations</td>
+                        </tr>
+                        <tr>
+                            <td><strong>key_evidence</strong></td>
+                            <td>RBM10 was frequently mutated and showed significant enrichment in the global PPH2 InVEx analysis (P = 0.00042). It was highly expressed in lung adenocarcinoma cell lines and its mutations co-occurred with known oncogenes KRAS, EGFR, and PIK3CA.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>negative_or_counter_evidence</strong></td>
+                            <td>No direct functional assay or clinical association was reported in this paper; evidence is genetic/statistical.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>subtype_name</strong></td>
+                            <td>Epigenetic and RNA deregulation</td>
+                        </tr>
+                        <tr>
+                            <td><strong>subtype_features</strong></td>
+                            <td>Candidate tumors characterized by spliceosome/RNA-binding factor alterations, together with U2AF1, ARID1A, SETD2, BRD3, and SMARCA4</td>
+                        </tr>
+                        <tr>
+                            <td><strong>parallel_in_other_cancers</strong></td>
+                            <td>The paper does not give a specific cross-cancer RBM10 example, but places it in the broader context of recently recognized epigenetic and splicing regulator mutations across cancers</td>
+                        </tr>
+                        <tr>
+                            <td><strong>validation_approach</strong></td>
+                            <td>Statistical significance testing with InVEx and truncation enrichment analysis</td>
+                        </tr>
+                        <tr>
+                            <td><strong>validation_result</strong></td>
+                            <td>Positive statistical nomination; no experimental validation in this paper</td>
+                        </tr>
+                        <tr>
+                            <td><strong>therapeutic_implication</strong></td>
+                            <td>Suggests the possibility of targeting RNA-processing dependencies, but no therapy is tested.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>therapeutic_evidence</strong></td>
+                            <td>None directly in the paper</td>
+                        </tr>
+                        <tr>
+                            <td><strong>clinical_or_demographic_association</strong></td>
+                            <td>Mutations co-occurred with established oncogenes; no specific smoking or stage association reported</td>
+                        </tr>
+                        <tr>
+                            <td><strong>study_limitations</strong></td>
+                            <td>No functional validation and no mechanistic dissection of RBM10 loss.</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="extraction-instance-container" id="e1891.4">
+                <h3 class="extraction-instance">Extracted Data Instance 4 (e1891.4)</h3>
+                <div class="extraction-query"><strong>Extraction Query:</strong> Extract any mentions of driver-negative or oncogene-negative lung adenocarcinoma cases, cohorts, models, or subgroups; the evidence for why they are considered driver-negative; candidate alternative drivers or mechanisms; proposed subtypes; validation strategies; comparisons to other cancers; and therapeutic implications.</div>
+                <table>
+                    <thead>
+                        <tr>
+                            <th style="width: 30%;">Field</th>
+                            <th style="width: 70%;">Value</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><strong>name_short</strong></td>
+                            <td>ARID1A</td>
+                        </tr>
+                        <tr>
+                            <td><strong>name_full</strong></td>
+                            <td>AT-rich interactive domain-containing protein 1A</td>
+                        </tr>
+                        <tr>
+                            <td><strong>brief_description</strong></td>
+                            <td>A SWI/SNF chromatin-remodeling component identified as a recurrently mutated tumor suppressor in the cohort. It contributes to the paper's proposed epigenetic/RNA-deregulation subtype rather than a canonical oncogene-negative class.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>citation_title</strong></td>
+                            <td>Mapping the hallmarks of lung adenocarcinoma with massively parallel sequencing</td>
+                        </tr>
+                        <tr>
+                            <td><strong>mention_or_use</strong></td>
+                            <td>use</td>
+                        </tr>
+                        <tr>
+                            <td><strong>cohort_or_model</strong></td>
+                            <td>183 lung adenocarcinoma tumor/normal pairs</td>
+                        </tr>
+                        <tr>
+                            <td><strong>cancer_context</strong></td>
+                            <td>Lung adenocarcinoma</td>
+                        </tr>
+                        <tr>
+                            <td><strong>driver_negative_definition</strong></td>
+                            <td>Not a formal driver-negative definition; ARID1A is presented as a candidate alternative tumor suppressor alteration.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>driver_negative_frequency</strong></td>
+                            <td>Mutated in 8% of cases</td>
+                        </tr>
+                        <tr>
+                            <td><strong>profiling_modalities</strong></td>
+                            <td>Exome/genome sequencing and CGC loss-of-function analysis</td>
+                        </tr>
+                        <tr>
+                            <td><strong>candidate_mechanism_category</strong></td>
+                            <td>Tumor suppressor loss; chromatin remodeling / epigenetic dysregulation</td>
+                        </tr>
+                        <tr>
+                            <td><strong>candidate_driver_or_mechanism</strong></td>
+                            <td>ARID1A loss-of-function mutations</td>
+                        </tr>
+                        <tr>
+                            <td><strong>mechanistic_description</strong></td>
+                            <td>Truncating substitutions and frameshift indels suggest inactivation of a SWI/SNF chromatin-remodeling protein, implicating epigenetic deregulation in lung adenocarcinoma.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>evidence_type</strong></td>
+                            <td>Recurrent mutation with truncation enrichment</td>
+                        </tr>
+                        <tr>
+                            <td><strong>key_evidence</strong></td>
+                            <td>ARID1A was mutated in 8% of cases and showed significant accumulation of nonsense substitutions and frameshift indels (P = 0.027, CGC LOF InVEx).</td>
+                        </tr>
+                        <tr>
+                            <td><strong>negative_or_counter_evidence</strong></td>
+                            <td>No direct functional or therapeutic validation in this paper.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>subtype_name</strong></td>
+                            <td>Epigenetic and RNA deregulation</td>
+                        </tr>
+                        <tr>
+                            <td><strong>subtype_features</strong></td>
+                            <td>Alterations in epigenetic regulators and RNA-processing genes</td>
+                        </tr>
+                        <tr>
+                            <td><strong>parallel_in_other_cancers</strong></td>
+                            <td>The paper generally cites recent cancer genome scans identifying epigenetic drivers across cancers, but does not give a specific ARID1A cross-cancer example in the main text.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>validation_approach</strong></td>
+                            <td>Statistical loss-of-function enrichment analysis</td>
+                        </tr>
+                        <tr>
+                            <td><strong>validation_result</strong></td>
+                            <td>Significant enrichment of loss-of-function mutations, but no functional follow-up here</td>
+                        </tr>
+                        <tr>
+                            <td><strong>therapeutic_implication</strong></td>
+                            <td>Potential epigenetic vulnerability; no direct therapy tested</td>
+                        </tr>
+                        <tr>
+                            <td><strong>therapeutic_evidence</strong></td>
+                            <td>None directly in the paper</td>
+                        </tr>
+                        <tr>
+                            <td><strong>clinical_or_demographic_association</strong></td>
+                            <td>No specific demographic association reported</td>
+                        </tr>
+                        <tr>
+                            <td><strong>study_limitations</strong></td>
+                            <td>Functional consequences and targetability are not experimentally addressed.</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>Potentially Relevant New Papers (mentioned by this paper)</h2>
+            <ol>
+                <li>Somatic mutations affect key pathways in lung adenocarcinoma <em>(Rating: 2)</em></li>
+                <li>Characterizing the cancer genome in lung adenocarcinoma <em>(Rating: 2)</em></li>
+                <li>Identification of somatic mutations in non-small cell lung carcinomas using whole-exome sequencing <em>(Rating: 1)</em></li>
+                <li>Diverse somatic mutation patterns and pathway alterations in human cancers <em>(Rating: 1)</em></li>
+                <li>Comprehensive Genomic Characterization of Squamous Cell Lung Cancers <em>(Rating: 1)</em></li>
+            </ol>
+        </div>
+
+        </div>
+
+    </div>
+</body>
+</html>

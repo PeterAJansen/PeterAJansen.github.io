@@ -1,0 +1,496 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Extraction extraction-result-1946 - Theorizer</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+    <div class="header">
+        <a href="../index.html"><i class="fas fa-flask"></i> Theorizer</a>
+    </div>
+
+    <div class="content">
+        <h1>Extracted Data Details for extraction-result-1946</h1>
+
+        <div class="section">
+            <h2>Extracted Data (Header)</h2>
+            <div class="info-section">
+                <p><strong>Extraction ID:</strong> extraction-result-1946</p>
+                <p><strong>Extraction Schema Used (ID):</strong> <a href="../schemas/extraction-schema-1842.html">extraction-schema-1842</a></p>
+                <div class="extraction-query"><strong>Extraction Query:</strong> Extract any mentions of hidden drivers, pathway states, subtype structure, validation evidence, and therapeutic implications in oncogene-negative or driver-negative lung adenocarcinoma.</div>
+                <p><strong>Paper ID:</strong> paper-4a9578f60aa231fe4daec3dc25ca719c9a8b342b</p>
+                <p><strong>Paper Title:</strong> <a href="https://www.semanticscholar.org/paper/4a9578f60aa231fe4daec3dc25ca719c9a8b342b" target="_blank">Molecular Profiling and Data Analysis of Lung Adenocarcinoma</a></p>
+                <p><strong>Paper Venue:</strong> International Journal for Research in Applied Science and Engineering Technology</p>
+                <p><strong>Paper TL;DR:</strong> Lung adenocarcinoma, a major cause of cancer-related deaths globally, was examined through a comprehensive analysis of 230 resected tumors, revealing a notable rate of somatic mutations and gender-based differences.</p>
+                <p><strong>Paper Abstract:</strong> Abstract: Lung adenocarcinoma, a major cause of cancer-related deaths globally, was examined through a comprehensive analysis of 230 resected tumors. This study integrated various sequencing techniques to profile messenger RNA, microRNA, and DNA, along with evaluating copy number variations, methylation patterns, and proteomic data. The findings revealed a notable rate of somatic mutations (average of 8.9 mutations per megabase). Among the 18 significantly mutated genes were RIT1 activating mutations and newly identified MGA loss-of-function mutations, which were mutually exclusive with MYC amplification. Gender-based differences were observed, with EGFR mutations being more common in females and RBM10 mutations in males. Genetic abnormalities in NF1, MET, ERBB2, and RIT1 were detected in 13% of cases, often in tumors lacking other activated oncogenes, suggesting their potential driver roles. Splicing alterations were driven by somatic genomic changes, as evidenced by DNA and mRNA sequencing from the same tumor, including MET mRNA exon 14 skipping in 4% of cases. While MAPK and PI(3)K pathway activity was explained by known mutations in some cases, unexplained mechanisms appeared to activate the pathways in others. These findings lay the groundwork for understanding lung adenocarcinoma’s molecular basis and offer insights for classification and further investigations. Molecular profiling is crucial for identifying actionable mutations, guiding treatment choices in advanced adenocarcinoma and acquired resistance to tyrosine kinase inhibitors. Circulating tumor DNA sequencing gains importance in NSCLC diagnostics due to its accessibility, allowing longitudinal disease monitoring. Notably, the overall cancer death rate dropped by 27% between 1991 and 2016, resulting in around 2,629,200 fewer expected cancer deaths compared to peak death rates.</p>
+                <p><strong>Cost:</strong> 0.023</p>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>Extracted Data (Details)</h2>
+            <div class="extraction-instance-container" id="e1946.0">
+                <h3 class="extraction-instance">Extracted Data Instance 0 (e1946.0)</h3>
+                <div class="extraction-query"><strong>Extraction Query:</strong> Extract any mentions of hidden drivers, pathway states, subtype structure, validation evidence, and therapeutic implications in oncogene-negative or driver-negative lung adenocarcinoma.</div>
+                <table>
+                    <thead>
+                        <tr>
+                            <th style="width: 30%;">Field</th>
+                            <th style="width: 70%;">Value</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><strong>name_short</strong></td>
+                            <td>EGFR/KRAS/ALK-negative LUAD</td>
+                        </tr>
+                        <tr>
+                            <td><strong>name_full</strong></td>
+                            <td>EGFR/KRAS/ALK-negative lung adenocarcinoma</td>
+                        </tr>
+                        <tr>
+                            <td><strong>brief_description</strong></td>
+                            <td>The paper explicitly refers to a subset of lung adenocarcinomas lacking canonical EGFR, KRAS, or ALK driver alterations, citing a referenced study on genes upregulated in ALK-positive and EGFR/KRAS/ALK-negative tumors. In this review, such tumors are discussed as a driver-negative context in which additional alterations may explain pathway activity and therapeutic vulnerabilities.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>citation_title</strong></td>
+                            <td>here</td>
+                        </tr>
+                        <tr>
+                            <td><strong>mention_or_use</strong></td>
+                            <td>mention</td>
+                        </tr>
+                        <tr>
+                            <td><strong>driver_negative_definition</strong></td>
+                            <td>The paper does not provide a formal operational definition, but it repeatedly frames driver-negative LUAD as tumors lacking canonical activated oncogenes such as EGFR, KRAS, and ALK. It also notes that tumors can be 'negative for such alterations by other genomic testing approaches' and that a subset of lung adenocarcinomas may be EGFR/KRAS/ALK-negative; the general molecular profiling context includes NGS, RNA-seq, copy-number analysis, methylation, and proteomics, but no specific negative-call assay threshold is defined in the text.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>candidate_driver_pathway_or_mechanism</strong></td>
+                            <td>Hidden or alternative drivers beyond canonical EGFR/KRAS/ALK are proposed, especially activating alterations in NF1, MET, ERBB2, and RIT1. The paper also suggests that in some cases MAPK and PI(3)K pathway activity is present but not fully explained by known mutations, implying unexplained pathway activation, likely through noncanonical genomic or regulatory mechanisms.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>alteration_or_activation_mode</strong></td>
+                            <td>Activating mutations in rare genes (notably RIT1), loss-of-function changes in tumor suppressors (including MGA; TP53 also broadly discussed as a tumor suppressor), MET exon 14 skipping, and gene amplification (MYC amplification in the context of MGA loss-of-function being mutually exclusive with MYC amplification). The paper also mentions splicing alterations driven by somatic genomic changes and broader mechanisms that may activate MAPK/PI3K pathways without an identified canonical driver.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>implicated_gene_axis_or_pathway</strong></td>
+                            <td>NF1, MET, ERBB2, and RIT1 are highlighted as potential hidden driver genes; broader implicated pathways include MAPK and PI(3)K (including PI3K-AKT-mTOR in the introduction), with splicing-linked MET exon 14 skipping as a specific pathway-relevant event.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>pathway_activation_evidence</strong></td>
+                            <td>The abstract states that 'MAPK and PI(3)K pathway activity was explained by known mutations in some cases, while unexplained mechanisms appeared to activate the pathways in others.' It also notes that DNA and mRNA sequencing from the same tumor showed somatic genomic changes driving splicing alterations, including MET mRNA exon 14 skipping in 4% of cases. No phosphoproteomic readouts or direct kinase-activity markers are reported in the text.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>driver_negative_subtype</strong></td>
+                            <td>An implicit molecular subtype is suggested: LUAD tumors lacking other activated oncogenes but harboring NF1/MET/ERBB2/RIT1 abnormalities, and a broader EGFR/KRAS/ALK-negative subgroup. The paper does not formally name a subtype, but it links this subgroup to integrated multi-omics features and potential pathway-based classification.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>clinical_or_exposure_context</strong></td>
+                            <td>The paper notes gender-based differences in mutation prevalence overall, with EGFR mutations more common in females and RBM10 mutations in males, but it does not specifically assign clinical or exposure features to the driver-negative subgroup. It more broadly states that targeted therapy selection is important in advanced adenocarcinoma and in acquired resistance to tyrosine kinase inhibitors, and that liquid biopsy can support longitudinal monitoring.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>cross_cancer_parallel</strong></td>
+                            <td>No explicit cross-cancer parallel is developed for driver-negative LUAD. The closest related context is the general statement that molecular profiling and actionable alteration discovery are broadly relevant across cancer types, but no specific non-lung cancer hidden-driver analogy is made in the text.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>therapeutic_vulnerability_or_implication</strong></td>
+                            <td>The paper implies that identifying hidden drivers in driver-negative tumors can reveal actionable mutations and guide treatment choices, especially targeted therapy in advanced adenocarcinoma and in acquired resistance to tyrosine kinase inhibitors. It specifically notes that NGS-guided therapies such as EGFR inhibitors and ALK inhibitors improve outcomes in selected patients, and that broad hybrid-capture NGS can identify actionable alterations in tumors otherwise negative by other genomic tests.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>validation_evidence_and_model_system</strong></td>
+                            <td>Validation is descriptive and multi-omics based rather than functional: the study analyzed 230 resected tumors and integrated mRNA, microRNA, DNA, copy-number, methylation, and proteomic data. The key validation claims are cohort-level observations, including mutual exclusivity of MGA loss-of-function with MYC amplification, detection of NF1/MET/ERBB2/RIT1 abnormalities in 13% of cases, and paired DNA/mRNA evidence of MET exon 14 skipping. No cell-line, organoid, xenograft, or perturbation validation is reported in the paper itself.</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="extraction-instance-container" id="e1946.1">
+                <h3 class="extraction-instance">Extracted Data Instance 1 (e1946.1)</h3>
+                <div class="extraction-query"><strong>Extraction Query:</strong> Extract any mentions of hidden drivers, pathway states, subtype structure, validation evidence, and therapeutic implications in oncogene-negative or driver-negative lung adenocarcinoma.</div>
+                <table>
+                    <thead>
+                        <tr>
+                            <th style="width: 30%;">Field</th>
+                            <th style="width: 70%;">Value</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><strong>name_short</strong></td>
+                            <td>NF1</td>
+                        </tr>
+                        <tr>
+                            <td><strong>name_full</strong></td>
+                            <td>Neurofibromin 1</td>
+                        </tr>
+                        <tr>
+                            <td><strong>brief_description</strong></td>
+                            <td>NF1 is listed among genetic abnormalities detected in a subset of lung adenocarcinomas and is presented as a potential driver in tumors lacking other activated oncogenes. In the paper, NF1 is part of a noncanonical alteration set that may explain pathway activation in driver-negative LUAD.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>citation_title</strong></td>
+                            <td>here</td>
+                        </tr>
+                        <tr>
+                            <td><strong>mention_or_use</strong></td>
+                            <td>mention</td>
+                        </tr>
+                        <tr>
+                            <td><strong>driver_negative_definition</strong></td>
+                            <td>The text places NF1 within tumors that are 'lacking other activated oncogenes,' which is the paper's practical driver-negative context, but it does not define NF1-negative status as a separate entity.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>candidate_driver_pathway_or_mechanism</strong></td>
+                            <td>Potential driver tumor suppressor alteration contributing to MAPK-pathway dysregulation in oncogene-negative tumors.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>alteration_or_activation_mode</strong></td>
+                            <td>Genetic abnormality/loss-of-function-type alteration, as described in a broad set of abnormalities in NF1, MET, ERBB2, and RIT1.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>implicated_gene_axis_or_pathway</strong></td>
+                            <td>MAPK pathway.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>pathway_activation_evidence</strong></td>
+                            <td>The paper states that MAPK pathway activity was sometimes explained by known mutations and sometimes remained unexplained; NF1 is cited as one of the abnormalities found in 13% of cases with likely driver roles. No direct NF1-specific functional assay is reported.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>driver_negative_subtype</strong></td>
+                            <td>Part of the broader driver-negative/oncogene-negative LUAD subset.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>clinical_or_exposure_context</strong></td>
+                            <td><span class="empty-note">null</span></td>
+                        </tr>
+                        <tr>
+                            <td><strong>cross_cancer_parallel</strong></td>
+                            <td><span class="empty-note">null</span></td>
+                        </tr>
+                        <tr>
+                            <td><strong>therapeutic_vulnerability_or_implication</strong></td>
+                            <td>Indirectly suggests that identifying NF1 abnormalities may reveal actionable pathway dependence and guide targeted therapy, though no specific NF1-directed drug is discussed.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>validation_evidence_and_model_system</strong></td>
+                            <td>Cohort-level multi-omics association only; no experimental validation system is reported.</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="extraction-instance-container" id="e1946.2">
+                <h3 class="extraction-instance">Extracted Data Instance 2 (e1946.2)</h3>
+                <div class="extraction-query"><strong>Extraction Query:</strong> Extract any mentions of hidden drivers, pathway states, subtype structure, validation evidence, and therapeutic implications in oncogene-negative or driver-negative lung adenocarcinoma.</div>
+                <table>
+                    <thead>
+                        <tr>
+                            <th style="width: 30%;">Field</th>
+                            <th style="width: 70%;">Value</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><strong>name_short</strong></td>
+                            <td>MET</td>
+                        </tr>
+                        <tr>
+                            <td><strong>name_full</strong></td>
+                            <td>MET proto-oncogene, receptor tyrosine kinase</td>
+                        </tr>
+                        <tr>
+                            <td><strong>brief_description</strong></td>
+                            <td>MET is highlighted as one of the abnormalities detected in driver-negative-like LUAD and as a source of splicing-driven activation through MET exon 14 skipping. The paper presents MET as a potential hidden driver in tumors without other activated oncogenes.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>citation_title</strong></td>
+                            <td>here</td>
+                        </tr>
+                        <tr>
+                            <td><strong>mention_or_use</strong></td>
+                            <td>mention</td>
+                        </tr>
+                        <tr>
+                            <td><strong>driver_negative_definition</strong></td>
+                            <td>MET is discussed in the context of tumors lacking other activated oncogenes; the paper does not define a MET-specific negative class.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>candidate_driver_pathway_or_mechanism</strong></td>
+                            <td>Hidden driver via receptor tyrosine kinase alteration and splice alteration, especially MET exon 14 skipping.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>alteration_or_activation_mode</strong></td>
+                            <td>Somatic genomic change producing mRNA exon 14 skipping; also mentioned among genetic abnormalities in 13% of cases.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>implicated_gene_axis_or_pathway</strong></td>
+                            <td>MET signaling, with broader relevance to MAPK and PI(3)K pathway activation.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>pathway_activation_evidence</strong></td>
+                            <td>The abstract explicitly reports MET mRNA exon 14 skipping in 4% of cases and states that splicing alterations were driven by somatic genomic changes as evidenced by matched DNA and mRNA sequencing from the same tumor.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>driver_negative_subtype</strong></td>
+                            <td>Part of the broader oncogene-negative LUAD subset with noncanonical driver abnormalities.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>clinical_or_exposure_context</strong></td>
+                            <td>Presented in a translational context because MET alterations can be actionable in lung adenocarcinoma, but no specific demographic association is given.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>cross_cancer_parallel</strong></td>
+                            <td><span class="empty-note">null</span></td>
+                        </tr>
+                        <tr>
+                            <td><strong>therapeutic_vulnerability_or_implication</strong></td>
+                            <td>Implies actionable MET-directed therapeutic potential through molecular profiling, though no specific MET inhibitor is named in the paper.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>validation_evidence_and_model_system</strong></td>
+                            <td>Validation is by paired DNA and mRNA sequencing across the 230-tumor cohort; no functional perturbation is reported.</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="extraction-instance-container" id="e1946.3">
+                <h3 class="extraction-instance">Extracted Data Instance 3 (e1946.3)</h3>
+                <div class="extraction-query"><strong>Extraction Query:</strong> Extract any mentions of hidden drivers, pathway states, subtype structure, validation evidence, and therapeutic implications in oncogene-negative or driver-negative lung adenocarcinoma.</div>
+                <table>
+                    <thead>
+                        <tr>
+                            <th style="width: 30%;">Field</th>
+                            <th style="width: 70%;">Value</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><strong>name_short</strong></td>
+                            <td>ERBB2</td>
+                        </tr>
+                        <tr>
+                            <td><strong>name_full</strong></td>
+                            <td>Erb-B2 receptor tyrosine kinase 2</td>
+                        </tr>
+                        <tr>
+                            <td><strong>brief_description</strong></td>
+                            <td>ERBB2 is included among the genetic abnormalities found in 13% of LUAD cases and is described as a possible potential driver in tumors lacking other activated oncogenes. The review treats it as part of a hidden-driver framework rather than as a primary focus.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>citation_title</strong></td>
+                            <td>here</td>
+                        </tr>
+                        <tr>
+                            <td><strong>mention_or_use</strong></td>
+                            <td>mention</td>
+                        </tr>
+                        <tr>
+                            <td><strong>driver_negative_definition</strong></td>
+                            <td>No ERBB2-specific negative definition is given; it appears within the subgroup of tumors lacking other activated oncogenes.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>candidate_driver_pathway_or_mechanism</strong></td>
+                            <td>Potential receptor tyrosine kinase driver in a noncanonical/driver-negative context.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>alteration_or_activation_mode</strong></td>
+                            <td>Genetic abnormality; the paper does not specify whether this is mutation, amplification, or another alteration for the ERBB2 cases.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>implicated_gene_axis_or_pathway</strong></td>
+                            <td>ERBB signaling, with downstream relevance to MAPK and PI(3)K pathway activity.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>pathway_activation_evidence</strong></td>
+                            <td>Cohort-level detection of ERBB2 abnormalities in 13% of cases; no additional functional evidence is presented.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>driver_negative_subtype</strong></td>
+                            <td>Broad oncogene-negative LUAD subset.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>clinical_or_exposure_context</strong></td>
+                            <td><span class="empty-note">null</span></td>
+                        </tr>
+                        <tr>
+                            <td><strong>cross_cancer_parallel</strong></td>
+                            <td><span class="empty-note">null</span></td>
+                        </tr>
+                        <tr>
+                            <td><strong>therapeutic_vulnerability_or_implication</strong></td>
+                            <td>Suggests potential actionability through molecular profiling and targeted therapy selection, but no ERBB2-specific regimen is discussed.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>validation_evidence_and_model_system</strong></td>
+                            <td>Associative multi-omics evidence only.</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="extraction-instance-container" id="e1946.4">
+                <h3 class="extraction-instance">Extracted Data Instance 4 (e1946.4)</h3>
+                <div class="extraction-query"><strong>Extraction Query:</strong> Extract any mentions of hidden drivers, pathway states, subtype structure, validation evidence, and therapeutic implications in oncogene-negative or driver-negative lung adenocarcinoma.</div>
+                <table>
+                    <thead>
+                        <tr>
+                            <th style="width: 30%;">Field</th>
+                            <th style="width: 70%;">Value</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><strong>name_short</strong></td>
+                            <td>RIT1</td>
+                        </tr>
+                        <tr>
+                            <td><strong>name_full</strong></td>
+                            <td>Ras like without CAAX 1</td>
+                        </tr>
+                        <tr>
+                            <td><strong>brief_description</strong></td>
+                            <td>RIT1 is described as having activating mutations among the significantly mutated genes in the cohort. The paper presents RIT1 abnormalities as a potential hidden driver, particularly in tumors lacking other activated oncogenes.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>citation_title</strong></td>
+                            <td>here</td>
+                        </tr>
+                        <tr>
+                            <td><strong>mention_or_use</strong></td>
+                            <td>mention</td>
+                        </tr>
+                        <tr>
+                            <td><strong>driver_negative_definition</strong></td>
+                            <td>RIT1 is discussed in the same practical driver-negative context as NF1, MET, and ERBB2: tumors lacking other activated oncogenes.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>candidate_driver_pathway_or_mechanism</strong></td>
+                            <td>Rare activating oncogene mutation acting as an alternative driver.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>alteration_or_activation_mode</strong></td>
+                            <td>Activating mutation.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>implicated_gene_axis_or_pathway</strong></td>
+                            <td>Likely MAPK signaling, consistent with the paper's discussion of pathway activation by driver alterations.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>pathway_activation_evidence</strong></td>
+                            <td>The abstract explicitly identifies RIT1 activating mutations among the significantly mutated genes, but does not provide pathway biomarkers or functional assays.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>driver_negative_subtype</strong></td>
+                            <td>Potential rare-driver molecular subset within LUAD.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>clinical_or_exposure_context</strong></td>
+                            <td><span class="empty-note">null</span></td>
+                        </tr>
+                        <tr>
+                            <td><strong>cross_cancer_parallel</strong></td>
+                            <td><span class="empty-note">null</span></td>
+                        </tr>
+                        <tr>
+                            <td><strong>therapeutic_vulnerability_or_implication</strong></td>
+                            <td>Potentially actionable through pathway-targeted therapy, but no RIT1-specific therapeutic is named.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>validation_evidence_and_model_system</strong></td>
+                            <td>Cohort sequencing-based identification only.</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="extraction-instance-container" id="e1946.5">
+                <h3 class="extraction-instance">Extracted Data Instance 5 (e1946.5)</h3>
+                <div class="extraction-query"><strong>Extraction Query:</strong> Extract any mentions of hidden drivers, pathway states, subtype structure, validation evidence, and therapeutic implications in oncogene-negative or driver-negative lung adenocarcinoma.</div>
+                <table>
+                    <thead>
+                        <tr>
+                            <th style="width: 30%;">Field</th>
+                            <th style="width: 70%;">Value</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><strong>name_short</strong></td>
+                            <td>MGA</td>
+                        </tr>
+                        <tr>
+                            <td><strong>name_full</strong></td>
+                            <td>MAX gene associated</td>
+                        </tr>
+                        <tr>
+                            <td><strong>brief_description</strong></td>
+                            <td>MGA loss-of-function mutations are reported as newly identified in the study and are noted to be mutually exclusive with MYC amplification. The paper treats MGA as part of the genomic landscape that may define a distinct LUAD subset.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>citation_title</strong></td>
+                            <td>here</td>
+                        </tr>
+                        <tr>
+                            <td><strong>mention_or_use</strong></td>
+                            <td>mention</td>
+                        </tr>
+                        <tr>
+                            <td><strong>driver_negative_definition</strong></td>
+                            <td>No formal driver-negative definition is given for MGA, but its mutations are discussed within the broader molecular profiling of LUAD, including tumors without canonical activated oncogenes.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>candidate_driver_pathway_or_mechanism</strong></td>
+                            <td>Tumor suppressor loss affecting MYC-related regulatory circuitry.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>alteration_or_activation_mode</strong></td>
+                            <td>Loss-of-function mutation; mutually exclusive with MYC amplification.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>implicated_gene_axis_or_pathway</strong></td>
+                            <td>MYC axis / transcriptional regulation.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>pathway_activation_evidence</strong></td>
+                            <td>The main evidence is recurrent identification of MGA loss-of-function mutations and their mutual exclusivity with MYC amplification; no functional readout is provided.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>driver_negative_subtype</strong></td>
+                            <td>Potential transcriptional-regulatory subtype within LUAD.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>clinical_or_exposure_context</strong></td>
+                            <td><span class="empty-note">null</span></td>
+                        </tr>
+                        <tr>
+                            <td><strong>cross_cancer_parallel</strong></td>
+                            <td><span class="empty-note">null</span></td>
+                        </tr>
+                        <tr>
+                            <td><strong>therapeutic_vulnerability_or_implication</strong></td>
+                            <td>No direct therapy is given; the implication is improved molecular classification and possible precision-medicine stratification.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>validation_evidence_and_model_system</strong></td>
+                            <td>Sequencing-based cohort observation only.</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>Potentially Relevant New Papers (mentioned by this paper)</h2>
+            <ol>
+                <li>Genomic alterations in lung adenocarcinoma <em>(Rating: 2)</em></li>
+                <li>Broad, hybrid capture-based next-generation sequencing identifies actionable genomic alterations in lung adenocarcinomas otherwise negative for such alterations by other genomic testing approaches <em>(Rating: 2)</em></li>
+                <li>Identification of genes upregulated in ALK-positive and EGFR/KRAS/ALK-negative lung adenocarcinomas <em>(Rating: 2)</em></li>
+                <li>Co-occurring genomic alterations define major subsets of KRAS-mutant lung adenocarcinoma with distinct biology, immune profiles, and therapeutic vulnerabilities <em>(Rating: 1)</em></li>
+                <li>Treatment of lung adenocarcinoma by molecular-targeted therapy and immunotherapy <em>(Rating: 1)</em></li>
+            </ol>
+        </div>
+
+        </div>
+
+    </div>
+</body>
+</html>

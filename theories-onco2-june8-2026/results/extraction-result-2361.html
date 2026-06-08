@@ -1,0 +1,944 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Extraction extraction-result-2361 - Theorizer</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+    <div class="header">
+        <a href="../index.html"><i class="fas fa-flask"></i> Theorizer</a>
+    </div>
+
+    <div class="content">
+        <h1>Extracted Data Details for extraction-result-2361</h1>
+
+        <div class="section">
+            <h2>Extracted Data (Header)</h2>
+            <div class="info-section">
+                <p><strong>Extraction ID:</strong> extraction-result-2361</p>
+                <p><strong>Extraction Schema Used (ID):</strong> <a href="../schemas/extraction-schema-1845.html">extraction-schema-1845</a></p>
+                <div class="extraction-query"><strong>Extraction Query:</strong> Extract any mentions of driver-negative or oncogene-negative lung adenocarcinoma cases, cohorts, models, or subgroups; the evidence for why they are considered driver-negative; candidate alternative drivers or mechanisms; proposed subtypes; validation strategies; comparisons to other cancers; and therapeutic implications.</div>
+                <p><strong>Paper ID:</strong> paper-c2fc42d9328b9ac17790b6e955d8a14c3eef5d25</p>
+                <p><strong>Paper Title:</strong> <a href="https://www.semanticscholar.org/paper/c2fc42d9328b9ac17790b6e955d8a14c3eef5d25" target="_blank">Identification of focally amplified lineage-specific super-enhancers in human epithelial cancers</a></p>
+                <p><strong>Paper Venue:</strong> Nature Genetics</p>
+                <p><strong>Paper TL;DR:</strong> The results suggest that genomic amplification of super-enhancers represents a common mechanism to activate cancer driver genes in multiple cancer types.</p>
+                <p><strong>Paper Abstract:</strong> Whole-genome analysis approaches are identifying recurrent cancer-associated somatic alterations in noncoding DNA regions. We combined somatic copy number analysis of 12 tumor types with tissue-specific epigenetic profiling to identify significant regions of focal amplification harboring super-enhancers. Copy number gains of noncoding regions harboring super-enhancers near KLF5, USP12, PARD6B and MYC are associated with overexpression of these cancer-related genes. We show that two distinct focal amplifications of super-enhancers 3′ to MYC in lung adenocarcinoma (MYC-LASE) and endometrial carcinoma (MYC-ECSE) are physically associated with the MYC promoter and correlate with MYC overexpression. CRISPR/Cas9-mediated repression or deletion of a constituent enhancer within the MYC-LASE region led to significant reductions in the expression of MYC and its target genes and to the impairment of anchorage-independent and clonogenic growth, consistent with an oncogenic function. Our results suggest that genomic amplification of super-enhancers represents a common mechanism to activate cancer driver genes in multiple cancer types.</p>
+                <p><strong>Cost:</strong> 0.026</p>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>Extracted Data (Details)</h2>
+            <div class="extraction-instance-container" id="e2361.0">
+                <h3 class="extraction-instance">Extracted Data Instance 0 (e2361.0)</h3>
+                <div class="extraction-query"><strong>Extraction Query:</strong> Extract any mentions of driver-negative or oncogene-negative lung adenocarcinoma cases, cohorts, models, or subgroups; the evidence for why they are considered driver-negative; candidate alternative drivers or mechanisms; proposed subtypes; validation strategies; comparisons to other cancers; and therapeutic implications.</div>
+                <table>
+                    <thead>
+                        <tr>
+                            <th style="width: 30%;">Field</th>
+                            <th style="width: 70%;">Value</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><strong>name_short</strong></td>
+                            <td>MYC-LASE</td>
+                        </tr>
+                        <tr>
+                            <td><strong>name_full</strong></td>
+                            <td>MYC Lung Adenocarcinoma Super-Enhancer</td>
+                        </tr>
+                        <tr>
+                            <td><strong>brief_description</strong></td>
+                            <td>A lung adenocarcinoma-specific focal non-coding amplification 3′ to MYC that encompasses a super-enhancer and is physically linked to the MYC promoter. The paper shows that amplification of this region is associated with MYC over-expression and oncogenic phenotypes in LUAD cells.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>citation_title</strong></td>
+                            <td>here</td>
+                        </tr>
+                        <tr>
+                            <td><strong>mention_or_use</strong></td>
+                            <td>use</td>
+                        </tr>
+                        <tr>
+                            <td><strong>cohort_or_model</strong></td>
+                            <td>TCGA lung adenocarcinoma cohort; LUAD cell lines A549, NCI-H2009, NCI-H358; CCLE LUAD cell lines; WGS tumor/normal pairs</td>
+                        </tr>
+                        <tr>
+                            <td><strong>cancer_context</strong></td>
+                            <td>lung adenocarcinoma; comparison with uterine corpus endometrial carcinoma and other cancers</td>
+                        </tr>
+                        <tr>
+                            <td><strong>driver_negative_definition</strong></td>
+                            <td>Not explicitly a canonical-driver-negative cohort; the relevant subgroup is LUAD cases with focal amplification of MYC-LASE in the absence of concurrent MYC amplification (~2%, n=11), and cell lines with MYC-LASE amplification without MYC amplification (4/52). The paper does not state EGFR/KRAS/ALK/ROS1/BRAF/MET/RET negativity for these cases.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>driver_negative_frequency</strong></td>
+                            <td>~2% (11/515) had focal amplification of MYC-LASE without concurrent MYC amplification; 17% (86/515) had MYC-LASE co-amplified with MYC</td>
+                        </tr>
+                        <tr>
+                            <td><strong>profiling_modalities</strong></td>
+                            <td>TCGA GISTIC copy-number analysis; H3K27ac ChIP-seq; p300 ChIP-seq; DNase I hypersensitivity; 3C chromosome conformation capture; RNA-seq; luciferase reporter assays; KRAB-dCas9 repression; CRISPR/Cas9 deletion; WGS rearrangement analysis</td>
+                        </tr>
+                        <tr>
+                            <td><strong>candidate_mechanism_category</strong></td>
+                            <td>noncoding_regulatory</td>
+                        </tr>
+                        <tr>
+                            <td><strong>candidate_driver_or_mechanism</strong></td>
+                            <td>Focal amplification of a lung adenocarcinoma-specific super-enhancer (MYC-LASE) that upregulates MYC</td>
+                        </tr>
+                        <tr>
+                            <td><strong>mechanistic_description</strong></td>
+                            <td>Copy-number gain of the super-enhancer region 3′ to MYC increases enhancer dosage, preserves lineage-specific chromatin looping to the MYC promoter, and elevates MYC expression. Within the region, the e3 constituent enhancer is the dominant functional element.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>evidence_type</strong></td>
+                            <td>recurrent alteration in tumors; chromatin interaction; expression association; functional perturbation</td>
+                        </tr>
+                        <tr>
+                            <td><strong>key_evidence</strong></td>
+                            <td>GISTIC identified a LUAD peak ~450 kb 3′ to MYC. In LUAD, 11/515 cases had focal amplification of MYC-LASE alone, and 86/515 had MYC-LASE co-amplified with MYC. Tumors with MYC-LASE alone or MYC alone both had higher MYC expression than tumors lacking either amplification. 3C showed MYC-LASE contacts the MYC promoter in A549 but not Ishikawa cells. KRAB-dCas9 repression of e3 reduced MYC expression by ~50% and impaired anchorage-independent and clonogenic growth; CRISPR deletion reduced MYC expression by ~30% and also impaired growth.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>negative_or_counter_evidence</strong></td>
+                            <td>The paper does not establish that these LUAD cases are canonical oncogene-negative by sequencing of common LUAD drivers. MYC-LASE without MYC amplification was present only in a minority of cases, and most functional validation was done in a single LUAD cell line (NCI-H2009).</td>
+                        </tr>
+                        <tr>
+                            <td><strong>subtype_name</strong></td>
+                            <td>MYC-LASE-amplified LUAD</td>
+                        </tr>
+                        <tr>
+                            <td><strong>subtype_features</strong></td>
+                            <td>LUAD tumors with focal amplification of a 23 kb non-coding region 3′ to MYC; super-enhancer activity is lung-adenocarcinoma-specific; associated with elevated MYC expression; e3 constituent enhancer is the major active subelement.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>parallel_in_other_cancers</strong></td>
+                            <td>Analogous downstream MYC super-enhancer amplifications were previously reported in T-ALL and AML, and MYC overexpression is classically driven by IgH translocation in Burkitt lymphoma or MYC gene amplification in several tumor types.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>validation_approach</strong></td>
+                            <td>GISTIC copy-number calling; H3K27ac/p300 ChIP-seq; 3C assays; luciferase enhancer assays; transcription-factor motif mutagenesis and siRNA knockdown; KRAB-dCas9 repression; CRISPR/Cas9 deletion; RNA-seq/GSEA</td>
+                        </tr>
+                        <tr>
+                            <td><strong>validation_result</strong></td>
+                            <td>MYC-LASE was validated as a lung adenocarcinoma-specific super-enhancer; 3C showed promoter interaction only in A549 cells; repression or deletion of e3 reduced MYC and reduced anchorage-independent/clonogenic growth.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>therapeutic_implication</strong></td>
+                            <td>Suggests super-enhancer amplification as a novel therapeutic vulnerability/biomarker class in LUAD, potentially targeting enhancer activity or MYC-dependent transcriptional programs.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>therapeutic_evidence</strong></td>
+                            <td>Functional repression/deletion of the enhancer impaired growth and lowered MYC target gene expression, indicating dependency on the amplified enhancer-driven state.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>clinical_or_demographic_association</strong></td>
+                            <td>No specific smoking, stage, or demographic association is reported for the MYC-LASE-amplified subgroup.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>study_limitations</strong></td>
+                            <td>Does not perform comprehensive canonical driver testing for LUAD; evidence for oncogene-negativity is therefore incomplete. Functional studies are limited to cell-line models and one enhancer region, and the prevalence of the alteration is modest.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>driver_negativity_confidence</strong></td>
+                            <td>low</td>
+                        </tr>
+                        <tr>
+                            <td><strong>negative_status_basis</strong></td>
+                            <td>noncanonical_regulatory_amplification_without_concurrent_myc_amplification</td>
+                        </tr>
+                        <tr>
+                            <td><strong>tested_driver_classes</strong></td>
+                            <td>broad_copy_number, noncoding_regulatory, structural_dna, rna_outlier_expression</td>
+                        </tr>
+                        <tr>
+                            <td><strong>untested_or_underpowered_driver_classes</strong></td>
+                            <td>hotspot_snv_indel, exome_mutation, fusion_rearrangement, exon_skipping_splicing, phosphoproteomics, protein_abundance, spatial_microenvironment</td>
+                        </tr>
+                        <tr>
+                            <td><strong>false_negative_rescue_evidence</strong></td>
+                            <td><span class="empty-note">null</span></td>
+                        </tr>
+                        <tr>
+                            <td><strong>sample_purity_detection_limit_issue</strong></td>
+                            <td>None explicitly discussed; no explicit tumor purity or coverage limitation for hidden canonical drivers.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>mapk_output_state</strong></td>
+                            <td>unresolved</td>
+                        </tr>
+                        <tr>
+                            <td><strong>pi3k_akt_mtor_output_state</strong></td>
+                            <td>unresolved</td>
+                        </tr>
+                        <tr>
+                            <td><strong>rtk_or_her_family_activation_state</strong></td>
+                            <td>unclear</td>
+                        </tr>
+                        <tr>
+                            <td><strong>signaling_readout_assay</strong></td>
+                            <td>3C, H3K27ac ChIP-seq, p300 ChIP-seq, RNA-seq, luciferase reporter assays, KRAB-dCas9/CRISPR perturbation</td>
+                        </tr>
+                        <tr>
+                            <td><strong>genome_protein_discordance_flag</strong></td>
+                            <td>yes</td>
+                        </tr>
+                        <tr>
+                            <td><strong>driver_mechanism_route</strong></td>
+                            <td>focal_amplification</td>
+                        </tr>
+                        <tr>
+                            <td><strong>altered_molecular_layer</strong></td>
+                            <td>chromatin_epigenome</td>
+                        </tr>
+                        <tr>
+                            <td><strong>functional_consequence_type</strong></td>
+                            <td>transcriptional_reprogramming</td>
+                        </tr>
+                        <tr>
+                            <td><strong>canonical_pathway_reinstatement_flag</strong></td>
+                            <td>no</td>
+                        </tr>
+                        <tr>
+                            <td><strong>alternative_driver_axis</strong></td>
+                            <td>lineage_factor_dependency</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="extraction-instance-container" id="e2361.1">
+                <h3 class="extraction-instance">Extracted Data Instance 1 (e2361.1)</h3>
+                <div class="extraction-query"><strong>Extraction Query:</strong> Extract any mentions of driver-negative or oncogene-negative lung adenocarcinoma cases, cohorts, models, or subgroups; the evidence for why they are considered driver-negative; candidate alternative drivers or mechanisms; proposed subtypes; validation strategies; comparisons to other cancers; and therapeutic implications.</div>
+                <table>
+                    <thead>
+                        <tr>
+                            <th style="width: 30%;">Field</th>
+                            <th style="width: 70%;">Value</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><strong>name_short</strong></td>
+                            <td>MYC-ECSE</td>
+                        </tr>
+                        <tr>
+                            <td><strong>name_full</strong></td>
+                            <td>MYC Endometrial Carcinoma Super-Enhancer</td>
+                        </tr>
+                        <tr>
+                            <td><strong>brief_description</strong></td>
+                            <td>A focal super-enhancer amplification 3′ to MYC in uterine corpus endometrial carcinoma that physically associates with the MYC promoter and correlates with increased MYC expression. It serves as a lineage-specific counterpart to MYC-LASE.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>citation_title</strong></td>
+                            <td>here</td>
+                        </tr>
+                        <tr>
+                            <td><strong>mention_or_use</strong></td>
+                            <td>use</td>
+                        </tr>
+                        <tr>
+                            <td><strong>cohort_or_model</strong></td>
+                            <td>TCGA uterine corpus endometrial carcinoma cohort; Ishikawa endometrial carcinoma cell line</td>
+                        </tr>
+                        <tr>
+                            <td><strong>cancer_context</strong></td>
+                            <td>uterine corpus endometrial carcinoma; cross-lineage comparison with LUAD</td>
+                        </tr>
+                        <tr>
+                            <td><strong>driver_negative_definition</strong></td>
+                            <td>Not explicitly driver-negative; the relevant subgroup is UCEC tumors with focal amplification of MYC-ECSE in the absence of concurrent MYC amplification (~4%, n=20). No canonical-driver-negative classification is stated.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>driver_negative_frequency</strong></td>
+                            <td>~4% (20/539) had focal amplification of MYC-ECSE without concurrent MYC amplification; ~10% (54/539) had MYC-ECSE and MYC co-amplification</td>
+                        </tr>
+                        <tr>
+                            <td><strong>profiling_modalities</strong></td>
+                            <td>GISTIC copy-number analysis; H3K27ac and p300 ChIP-seq; 3C; RNA expression analysis</td>
+                        </tr>
+                        <tr>
+                            <td><strong>candidate_mechanism_category</strong></td>
+                            <td>noncoding_regulatory</td>
+                        </tr>
+                        <tr>
+                            <td><strong>candidate_driver_or_mechanism</strong></td>
+                            <td>Focal amplification of the MYC-ECSE super-enhancer that elevates MYC expression</td>
+                        </tr>
+                        <tr>
+                            <td><strong>mechanistic_description</strong></td>
+                            <td>The amplified non-coding region harbors an endometrial-carcinoma-specific super-enhancer that loops to the MYC promoter in Ishikawa cells and is associated with elevated MYC expression in UCEC tumors.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>evidence_type</strong></td>
+                            <td>recurrent alteration in tumors; chromatin interaction; expression association</td>
+                        </tr>
+                        <tr>
+                            <td><strong>key_evidence</strong></td>
+                            <td>The UCEC amplification peak is ~800 kb 3′ to MYC. Approximately 20/539 UCEC cases had focal amplification of MYC-ECSE alone, and 54/539 had co-amplification with MYC. 3C showed MYC-ECSE physically interacts with the MYC promoter only in Ishikawa cells.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>negative_or_counter_evidence</strong></td>
+                            <td>No direct functional perturbation of MYC-ECSE was reported, so oncogenic dependency is inferred rather than proven.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>subtype_name</strong></td>
+                            <td>MYC-ECSE-amplified UCEC</td>
+                        </tr>
+                        <tr>
+                            <td><strong>subtype_features</strong></td>
+                            <td>UCEC tumors with a lineage-specific super-enhancer amplification near MYC; active in endometrial carcinoma cells and not in LUAD cells.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>parallel_in_other_cancers</strong></td>
+                            <td>Compared in the paper to MYC super-enhancer amplifications in T-ALL and AML, and to MYC activation by IgH translocation in Burkitt lymphoma or MYC gene amplification in other cancers.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>validation_approach</strong></td>
+                            <td>GISTIC copy-number calling; H3K27ac/p300 ChIP-seq; 3C; expression association analysis</td>
+                        </tr>
+                        <tr>
+                            <td><strong>validation_result</strong></td>
+                            <td>The region was validated as a lineage-specific endometrial super-enhancer with promoter interaction in Ishikawa cells and association with higher MYC expression.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>therapeutic_implication</strong></td>
+                            <td>Supports super-enhancer amplification as a potential biomarker and therapeutic target class in endometrial carcinoma, especially for MYC-driven disease.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>therapeutic_evidence</strong></td>
+                            <td>Indirect; no perturbation or drug-sensitivity data were presented for MYC-ECSE specifically.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>clinical_or_demographic_association</strong></td>
+                            <td>No specific clinical/demographic associations are reported beyond UCEC lineage specificity.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>study_limitations</strong></td>
+                            <td>Lacks direct functional perturbation experiments and comprehensive canonical driver assessment.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>driver_negativity_confidence</strong></td>
+                            <td>low</td>
+                        </tr>
+                        <tr>
+                            <td><strong>negative_status_basis</strong></td>
+                            <td>noncanonical_regulatory_amplification_without_concurrent_myc_amplification</td>
+                        </tr>
+                        <tr>
+                            <td><strong>tested_driver_classes</strong></td>
+                            <td>broad_copy_number, noncoding_regulatory, structural_dna, rna_outlier_expression</td>
+                        </tr>
+                        <tr>
+                            <td><strong>untested_or_underpowered_driver_classes</strong></td>
+                            <td>hotspot_snv_indel, exome_mutation, fusion_rearrangement, exon_skipping_splicing, phosphoproteomics, protein_abundance, spatial_microenvironment</td>
+                        </tr>
+                        <tr>
+                            <td><strong>false_negative_rescue_evidence</strong></td>
+                            <td><span class="empty-note">null</span></td>
+                        </tr>
+                        <tr>
+                            <td><strong>sample_purity_detection_limit_issue</strong></td>
+                            <td>None explicitly discussed.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>mapk_output_state</strong></td>
+                            <td>unresolved</td>
+                        </tr>
+                        <tr>
+                            <td><strong>pi3k_akt_mtor_output_state</strong></td>
+                            <td>unresolved</td>
+                        </tr>
+                        <tr>
+                            <td><strong>rtk_or_her_family_activation_state</strong></td>
+                            <td>unclear</td>
+                        </tr>
+                        <tr>
+                            <td><strong>signaling_readout_assay</strong></td>
+                            <td>3C, H3K27ac ChIP-seq, p300 ChIP-seq, RNA expression analysis</td>
+                        </tr>
+                        <tr>
+                            <td><strong>genome_protein_discordance_flag</strong></td>
+                            <td>yes</td>
+                        </tr>
+                        <tr>
+                            <td><strong>driver_mechanism_route</strong></td>
+                            <td>focal_amplification</td>
+                        </tr>
+                        <tr>
+                            <td><strong>altered_molecular_layer</strong></td>
+                            <td>chromatin_epigenome</td>
+                        </tr>
+                        <tr>
+                            <td><strong>functional_consequence_type</strong></td>
+                            <td>transcriptional_reprogramming</td>
+                        </tr>
+                        <tr>
+                            <td><strong>canonical_pathway_reinstatement_flag</strong></td>
+                            <td>no</td>
+                        </tr>
+                        <tr>
+                            <td><strong>alternative_driver_axis</strong></td>
+                            <td>lineage_factor_dependency</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="extraction-instance-container" id="e2361.2">
+                <h3 class="extraction-instance">Extracted Data Instance 2 (e2361.2)</h3>
+                <div class="extraction-query"><strong>Extraction Query:</strong> Extract any mentions of driver-negative or oncogene-negative lung adenocarcinoma cases, cohorts, models, or subgroups; the evidence for why they are considered driver-negative; candidate alternative drivers or mechanisms; proposed subtypes; validation strategies; comparisons to other cancers; and therapeutic implications.</div>
+                <table>
+                    <thead>
+                        <tr>
+                            <th style="width: 30%;">Field</th>
+                            <th style="width: 70%;">Value</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><strong>name_short</strong></td>
+                            <td>KLF5-HNSE</td>
+                        </tr>
+                        <tr>
+                            <td><strong>name_full</strong></td>
+                            <td>KLF5 Head and Neck squamous cell carcinoma Super-Enhancers</td>
+                        </tr>
+                        <tr>
+                            <td><strong>brief_description</strong></td>
+                            <td>A focal amplification on chr13q in head and neck squamous cell carcinoma and esophageal carcinoma that contains a cluster of super-enhancers between KLF5 and KLF12. The amplified region is associated with increased KLF5 expression and is proposed to upregulate a putative oncogene.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>citation_title</strong></td>
+                            <td>here</td>
+                        </tr>
+                        <tr>
+                            <td><strong>mention_or_use</strong></td>
+                            <td>use</td>
+                        </tr>
+                        <tr>
+                            <td><strong>cohort_or_model</strong></td>
+                            <td>TCGA head and neck squamous cell carcinoma cohort; BICR-31 HNSC cell line; TCGA ESCA cohort</td>
+                        </tr>
+                        <tr>
+                            <td><strong>cancer_context</strong></td>
+                            <td>head and neck squamous cell carcinoma and esophageal carcinoma</td>
+                        </tr>
+                        <tr>
+                            <td><strong>driver_negative_definition</strong></td>
+                            <td>Not a driver-negative LUAD entity; included because the paper uses HNSC/ESCA focal super-enhancer amplifications as comparative examples of noncoding driver-like events.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>driver_negative_frequency</strong></td>
+                            <td>~3% of HNSC cases (n=15) had amplification of KLF5-HNSE in the absence of KLF5 gene amplification</td>
+                        </tr>
+                        <tr>
+                            <td><strong>profiling_modalities</strong></td>
+                            <td>GISTIC copy-number analysis; H3K27ac ChIP-seq; tumor expression analysis</td>
+                        </tr>
+                        <tr>
+                            <td><strong>candidate_mechanism_category</strong></td>
+                            <td>noncoding_regulatory</td>
+                        </tr>
+                        <tr>
+                            <td><strong>candidate_driver_or_mechanism</strong></td>
+                            <td>KLF5-HNSE super-enhancer amplification driving KLF5 over-expression</td>
+                        </tr>
+                        <tr>
+                            <td><strong>mechanistic_description</strong></td>
+                            <td>The amplified non-coding region harbors a cluster of super-enhancers whose gain is associated with elevated KLF5, but not KLF12, expression; KLF5 is proposed as the target oncogene.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>evidence_type</strong></td>
+                            <td>recurrent alteration in tumors; expression association</td>
+                        </tr>
+                        <tr>
+                            <td><strong>key_evidence</strong></td>
+                            <td>In HNSC, ~3% (15 cases) had KLF5-HNSE amplification without KLF5 gene amplification, and KLF5 expression was significantly higher in tumors with this amplification. ESCA showed a similar amplicon with trend toward increased KLF5 expression.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>negative_or_counter_evidence</strong></td>
+                            <td>The paper notes that in lung adenocarcinoma and lung squamous cell carcinoma KLF5 is also significantly mutated, so this locus is not the focus of the driver-negative LUAD question.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>subtype_name</strong></td>
+                            <td><span class="empty-note">null</span></td>
+                        </tr>
+                        <tr>
+                            <td><strong>subtype_features</strong></td>
+                            <td>HNSC and ESCA tumors with focal noncoding amplification near KLF5.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>parallel_in_other_cancers</strong></td>
+                            <td>The paper also cites analogous super-enhancer hijacking/amplification mechanisms in leukemia, medulloblastoma, glioblastoma, and myeloma.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>validation_approach</strong></td>
+                            <td>GISTIC; H3K27ac ChIP-seq; expression association</td>
+                        </tr>
+                        <tr>
+                            <td><strong>validation_result</strong></td>
+                            <td>Confirmed super-enhancer presence at the amplified locus and association with higher KLF5 expression.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>therapeutic_implication</strong></td>
+                            <td>Suggests noncoding super-enhancer amplifications may represent therapeutic targets across epithelial cancers.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>therapeutic_evidence</strong></td>
+                            <td>No direct drug testing reported.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>clinical_or_demographic_association</strong></td>
+                            <td>None specified.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>study_limitations</strong></td>
+                            <td>No direct perturbation experiments; locus effects inferred from association.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>driver_negativity_confidence</strong></td>
+                            <td>not_applicable</td>
+                        </tr>
+                        <tr>
+                            <td><strong>negative_status_basis</strong></td>
+                            <td><span class="empty-note">null</span></td>
+                        </tr>
+                        <tr>
+                            <td><strong>tested_driver_classes</strong></td>
+                            <td>broad_copy_number, noncoding_regulatory</td>
+                        </tr>
+                        <tr>
+                            <td><strong>untested_or_underpowered_driver_classes</strong></td>
+                            <td>hotspot_snv_indel, fusion_rearrangement, exon_skipping_splicing, phosphoproteomics, protein_abundance</td>
+                        </tr>
+                        <tr>
+                            <td><strong>false_negative_rescue_evidence</strong></td>
+                            <td><span class="empty-note">null</span></td>
+                        </tr>
+                        <tr>
+                            <td><strong>sample_purity_detection_limit_issue</strong></td>
+                            <td>None explicitly discussed.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>mapk_output_state</strong></td>
+                            <td>unresolved</td>
+                        </tr>
+                        <tr>
+                            <td><strong>pi3k_akt_mtor_output_state</strong></td>
+                            <td>unresolved</td>
+                        </tr>
+                        <tr>
+                            <td><strong>rtk_or_her_family_activation_state</strong></td>
+                            <td>unclear</td>
+                        </tr>
+                        <tr>
+                            <td><strong>signaling_readout_assay</strong></td>
+                            <td>H3K27ac ChIP-seq, copy-number analysis, expression analysis</td>
+                        </tr>
+                        <tr>
+                            <td><strong>genome_protein_discordance_flag</strong></td>
+                            <td>unclear</td>
+                        </tr>
+                        <tr>
+                            <td><strong>driver_mechanism_route</strong></td>
+                            <td>focal_amplification</td>
+                        </tr>
+                        <tr>
+                            <td><strong>altered_molecular_layer</strong></td>
+                            <td>chromatin_epigenome</td>
+                        </tr>
+                        <tr>
+                            <td><strong>functional_consequence_type</strong></td>
+                            <td>transcriptional_reprogramming</td>
+                        </tr>
+                        <tr>
+                            <td><strong>canonical_pathway_reinstatement_flag</strong></td>
+                            <td>no</td>
+                        </tr>
+                        <tr>
+                            <td><strong>alternative_driver_axis</strong></td>
+                            <td>lineage_factor_dependency</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="extraction-instance-container" id="e2361.3">
+                <h3 class="extraction-instance">Extracted Data Instance 3 (e2361.3)</h3>
+                <div class="extraction-query"><strong>Extraction Query:</strong> Extract any mentions of driver-negative or oncogene-negative lung adenocarcinoma cases, cohorts, models, or subgroups; the evidence for why they are considered driver-negative; candidate alternative drivers or mechanisms; proposed subtypes; validation strategies; comparisons to other cancers; and therapeutic implications.</div>
+                <table>
+                    <thead>
+                        <tr>
+                            <th style="width: 30%;">Field</th>
+                            <th style="width: 70%;">Value</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><strong>name_short</strong></td>
+                            <td>USP12-CCSE</td>
+                        </tr>
+                        <tr>
+                            <td><strong>name_full</strong></td>
+                            <td>USP12 Colorectal Carcinoma Super-Enhancer</td>
+                        </tr>
+                        <tr>
+                            <td><strong>brief_description</strong></td>
+                            <td>A focal non-coding amplification in colorectal carcinoma that contains a super-enhancer and is associated with increased USP12 expression. It is presented as another example of lineage-specific super-enhancer amplification in epithelial cancer.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>citation_title</strong></td>
+                            <td>here</td>
+                        </tr>
+                        <tr>
+                            <td><strong>mention_or_use</strong></td>
+                            <td>use</td>
+                        </tr>
+                        <tr>
+                            <td><strong>cohort_or_model</strong></td>
+                            <td>TCGA colorectal carcinoma cohort; colon crypt epigenomic reference</td>
+                        </tr>
+                        <tr>
+                            <td><strong>cancer_context</strong></td>
+                            <td>colorectal carcinoma</td>
+                        </tr>
+                        <tr>
+                            <td><strong>driver_negative_definition</strong></td>
+                            <td>Not a driver-negative LUAD entity; included as a comparative example of noncoding focal amplification.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>driver_negative_frequency</strong></td>
+                            <td>6 CRC tumors with the amplicon showed higher USP12 expression versus 127 without the amplification; cohort-wide prevalence not explicitly stated in the text excerpt.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>profiling_modalities</strong></td>
+                            <td>GISTIC copy-number analysis; H3K27ac ChIP-seq; tumor expression analysis</td>
+                        </tr>
+                        <tr>
+                            <td><strong>candidate_mechanism_category</strong></td>
+                            <td>noncoding_regulatory</td>
+                        </tr>
+                        <tr>
+                            <td><strong>candidate_driver_or_mechanism</strong></td>
+                            <td>USP12-CCSE super-enhancer amplification driving USP12 expression</td>
+                        </tr>
+                        <tr>
+                            <td><strong>mechanistic_description</strong></td>
+                            <td>The amplified region near USP12 contains a super-enhancer identified from colon crypt H3K27ac profiling, and tumors carrying the amplicon express higher USP12.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>evidence_type</strong></td>
+                            <td>recurrent alteration in tumors; expression association</td>
+                        </tr>
+                        <tr>
+                            <td><strong>key_evidence</strong></td>
+                            <td>CRC tumors with the chr13q amplicon exhibited significantly higher USP12 expression; the figure compares 6 amplified versus 127 non-amplified tumors.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>negative_or_counter_evidence</strong></td>
+                            <td>No functional perturbation data were reported.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>subtype_name</strong></td>
+                            <td><span class="empty-note">null</span></td>
+                        </tr>
+                        <tr>
+                            <td><strong>subtype_features</strong></td>
+                            <td>CRC tumors with focal super-enhancer amplification near USP12.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>parallel_in_other_cancers</strong></td>
+                            <td>The paper situates this among other super-enhancer amplifications in LUAD, UCEC, HNSC, LIHC, and comparative oncogenic super-enhancer rearrangements in leukemia and medulloblastoma.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>validation_approach</strong></td>
+                            <td>GISTIC; H3K27ac ChIP-seq; expression analysis</td>
+                        </tr>
+                        <tr>
+                            <td><strong>validation_result</strong></td>
+                            <td>The region overlapped a colon-crypt-defined super-enhancer and correlated with higher USP12 expression in amplified CRC tumors.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>therapeutic_implication</strong></td>
+                            <td>No specific therapy proposed.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>therapeutic_evidence</strong></td>
+                            <td>None provided.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>clinical_or_demographic_association</strong></td>
+                            <td>None specified.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>study_limitations</strong></td>
+                            <td>Association-only evidence; no direct functional validation.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>driver_negativity_confidence</strong></td>
+                            <td>not_applicable</td>
+                        </tr>
+                        <tr>
+                            <td><strong>negative_status_basis</strong></td>
+                            <td><span class="empty-note">null</span></td>
+                        </tr>
+                        <tr>
+                            <td><strong>tested_driver_classes</strong></td>
+                            <td>broad_copy_number, noncoding_regulatory</td>
+                        </tr>
+                        <tr>
+                            <td><strong>untested_or_underpowered_driver_classes</strong></td>
+                            <td>hotspot_snv_indel, fusion_rearrangement, exon_skipping_splicing, phosphoproteomics, protein_abundance</td>
+                        </tr>
+                        <tr>
+                            <td><strong>false_negative_rescue_evidence</strong></td>
+                            <td><span class="empty-note">null</span></td>
+                        </tr>
+                        <tr>
+                            <td><strong>sample_purity_detection_limit_issue</strong></td>
+                            <td>None explicitly discussed.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>mapk_output_state</strong></td>
+                            <td>unresolved</td>
+                        </tr>
+                        <tr>
+                            <td><strong>pi3k_akt_mtor_output_state</strong></td>
+                            <td>unresolved</td>
+                        </tr>
+                        <tr>
+                            <td><strong>rtk_or_her_family_activation_state</strong></td>
+                            <td>unclear</td>
+                        </tr>
+                        <tr>
+                            <td><strong>signaling_readout_assay</strong></td>
+                            <td>H3K27ac ChIP-seq, copy-number analysis, expression analysis</td>
+                        </tr>
+                        <tr>
+                            <td><strong>genome_protein_discordance_flag</strong></td>
+                            <td>unclear</td>
+                        </tr>
+                        <tr>
+                            <td><strong>driver_mechanism_route</strong></td>
+                            <td>focal_amplification</td>
+                        </tr>
+                        <tr>
+                            <td><strong>altered_molecular_layer</strong></td>
+                            <td>chromatin_epigenome</td>
+                        </tr>
+                        <tr>
+                            <td><strong>functional_consequence_type</strong></td>
+                            <td>transcriptional_reprogramming</td>
+                        </tr>
+                        <tr>
+                            <td><strong>canonical_pathway_reinstatement_flag</strong></td>
+                            <td>no</td>
+                        </tr>
+                        <tr>
+                            <td><strong>alternative_driver_axis</strong></td>
+                            <td>lineage_factor_dependency</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="extraction-instance-container" id="e2361.4">
+                <h3 class="extraction-instance">Extracted Data Instance 4 (e2361.4)</h3>
+                <div class="extraction-query"><strong>Extraction Query:</strong> Extract any mentions of driver-negative or oncogene-negative lung adenocarcinoma cases, cohorts, models, or subgroups; the evidence for why they are considered driver-negative; candidate alternative drivers or mechanisms; proposed subtypes; validation strategies; comparisons to other cancers; and therapeutic implications.</div>
+                <table>
+                    <thead>
+                        <tr>
+                            <th style="width: 30%;">Field</th>
+                            <th style="width: 70%;">Value</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><strong>name_short</strong></td>
+                            <td>PARD6B-LCSE</td>
+                        </tr>
+                        <tr>
+                            <td><strong>name_full</strong></td>
+                            <td>PARD6B Liver Carcinoma Super-Enhancer</td>
+                        </tr>
+                        <tr>
+                            <td><strong>brief_description</strong></td>
+                            <td>A focal non-coding amplification in liver hepatocellular carcinoma containing a super-enhancer that is associated with increased PARD6B expression. The paper suggests PARD6B, rather than the nearest gene PTPN1, is the target.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>citation_title</strong></td>
+                            <td>here</td>
+                        </tr>
+                        <tr>
+                            <td><strong>mention_or_use</strong></td>
+                            <td>use</td>
+                        </tr>
+                        <tr>
+                            <td><strong>cohort_or_model</strong></td>
+                            <td>TCGA liver hepatocellular carcinoma cohort; HepG2 cell line</td>
+                        </tr>
+                        <tr>
+                            <td><strong>cancer_context</strong></td>
+                            <td>liver hepatocellular carcinoma</td>
+                        </tr>
+                        <tr>
+                            <td><strong>driver_negative_definition</strong></td>
+                            <td>Not a driver-negative LUAD entity; included as a comparative example of noncoding focal amplification.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>driver_negative_frequency</strong></td>
+                            <td>7 LIHC tumors with the amplicon showed higher PARD6B expression versus 245 without the amplification; cohort-wide prevalence not explicitly stated in the text excerpt.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>profiling_modalities</strong></td>
+                            <td>GISTIC copy-number analysis; H3K27ac ChIP-seq; tumor expression analysis</td>
+                        </tr>
+                        <tr>
+                            <td><strong>candidate_mechanism_category</strong></td>
+                            <td>noncoding_regulatory</td>
+                        </tr>
+                        <tr>
+                            <td><strong>candidate_driver_or_mechanism</strong></td>
+                            <td>PARD6B-LCSE super-enhancer amplification driving PARD6B expression</td>
+                        </tr>
+                        <tr>
+                            <td><strong>mechanistic_description</strong></td>
+                            <td>The amplified region contains a super-enhancer identified from HepG2 H3K27ac profiling, and PARD6B—not the closest gene PTPN1—is upregulated in tumors carrying the amplicon.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>evidence_type</strong></td>
+                            <td>recurrent alteration in tumors; expression association</td>
+                        </tr>
+                        <tr>
+                            <td><strong>key_evidence</strong></td>
+                            <td>LIHC tumors with the chr20q amplicon exhibited increased PARD6B expression; the figure compares 7 amplified versus 245 non-amplified tumors.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>negative_or_counter_evidence</strong></td>
+                            <td>No direct functional perturbation data were reported.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>subtype_name</strong></td>
+                            <td><span class="empty-note">null</span></td>
+                        </tr>
+                        <tr>
+                            <td><strong>subtype_features</strong></td>
+                            <td>LIHC tumors with focal super-enhancer amplification near PARD6B.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>parallel_in_other_cancers</strong></td>
+                            <td>Part of the same broader class of lineage-specific super-enhancer amplifications also found in LUAD, UCEC, HNSC, and CRC.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>validation_approach</strong></td>
+                            <td>GISTIC; H3K27ac ChIP-seq; expression analysis</td>
+                        </tr>
+                        <tr>
+                            <td><strong>validation_result</strong></td>
+                            <td>The region overlapped a HepG2-defined super-enhancer and correlated with increased PARD6B expression in amplified LIHC tumors.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>therapeutic_implication</strong></td>
+                            <td>No specific therapy proposed.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>therapeutic_evidence</strong></td>
+                            <td>None provided.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>clinical_or_demographic_association</strong></td>
+                            <td>None specified.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>study_limitations</strong></td>
+                            <td>Association-only evidence; no direct functional validation.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>driver_negativity_confidence</strong></td>
+                            <td>not_applicable</td>
+                        </tr>
+                        <tr>
+                            <td><strong>negative_status_basis</strong></td>
+                            <td><span class="empty-note">null</span></td>
+                        </tr>
+                        <tr>
+                            <td><strong>tested_driver_classes</strong></td>
+                            <td>broad_copy_number, noncoding_regulatory</td>
+                        </tr>
+                        <tr>
+                            <td><strong>untested_or_underpowered_driver_classes</strong></td>
+                            <td>hotspot_snv_indel, fusion_rearrangement, exon_skipping_splicing, phosphoproteomics, protein_abundance</td>
+                        </tr>
+                        <tr>
+                            <td><strong>false_negative_rescue_evidence</strong></td>
+                            <td><span class="empty-note">null</span></td>
+                        </tr>
+                        <tr>
+                            <td><strong>sample_purity_detection_limit_issue</strong></td>
+                            <td>None explicitly discussed.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>mapk_output_state</strong></td>
+                            <td>unresolved</td>
+                        </tr>
+                        <tr>
+                            <td><strong>pi3k_akt_mtor_output_state</strong></td>
+                            <td>unresolved</td>
+                        </tr>
+                        <tr>
+                            <td><strong>rtk_or_her_family_activation_state</strong></td>
+                            <td>unclear</td>
+                        </tr>
+                        <tr>
+                            <td><strong>signaling_readout_assay</strong></td>
+                            <td>H3K27ac ChIP-seq, copy-number analysis, expression analysis</td>
+                        </tr>
+                        <tr>
+                            <td><strong>genome_protein_discordance_flag</strong></td>
+                            <td>unclear</td>
+                        </tr>
+                        <tr>
+                            <td><strong>driver_mechanism_route</strong></td>
+                            <td>focal_amplification</td>
+                        </tr>
+                        <tr>
+                            <td><strong>altered_molecular_layer</strong></td>
+                            <td>chromatin_epigenome</td>
+                        </tr>
+                        <tr>
+                            <td><strong>functional_consequence_type</strong></td>
+                            <td>transcriptional_reprogramming</td>
+                        </tr>
+                        <tr>
+                            <td><strong>canonical_pathway_reinstatement_flag</strong></td>
+                            <td>no</td>
+                        </tr>
+                        <tr>
+                            <td><strong>alternative_driver_axis</strong></td>
+                            <td>lineage_factor_dependency</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>Potentially Relevant New Papers (mentioned by this paper)</h2>
+            <ol>
+                <li>Super-enhancers in the control of cell identity and disease <em>(Rating: 2)</em></li>
+                <li>Selective inhibition of tumor oncogenes by disruption of super-enhancers <em>(Rating: 2)</em></li>
+                <li>Enhancer hijacking activates GFI1 family oncogenes in medulloblastoma <em>(Rating: 2)</em></li>
+                <li>A NOTCH1-driven MYC enhancer promotes T cell development, transformation and acute lymphoblastic leukemia <em>(Rating: 2)</em></li>
+                <li>Role of SWI/SNF in acute leukemia maintenance and enhancer-mediated Myc regulation <em>(Rating: 2)</em></li>
+                <li>An oncogenic super-enhancer formed through somatic mutation of a noncoding intergenic element <em>(Rating: 1)</em></li>
+                <li>Single Oncogenic Enhancer Rearrangement Causes Concomitant EVI1 and GATA2 Deregulation in Leukemia <em>(Rating: 2)</em></li>
+            </ol>
+        </div>
+
+        </div>
+
+    </div>
+</body>
+</html>

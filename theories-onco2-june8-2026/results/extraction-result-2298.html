@@ -1,0 +1,762 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Extraction extraction-result-2298 - Theorizer</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+    <div class="header">
+        <a href="../index.html"><i class="fas fa-flask"></i> Theorizer</a>
+    </div>
+
+    <div class="content">
+        <h1>Extracted Data Details for extraction-result-2298</h1>
+
+        <div class="section">
+            <h2>Extracted Data (Header)</h2>
+            <div class="info-section">
+                <p><strong>Extraction ID:</strong> extraction-result-2298</p>
+                <p><strong>Extraction Schema Used (ID):</strong> <a href="../schemas/extraction-schema-1845.html">extraction-schema-1845</a></p>
+                <div class="extraction-query"><strong>Extraction Query:</strong> Extract any mentions of driver-negative or oncogene-negative lung adenocarcinoma cases, cohorts, models, or subgroups; the evidence for why they are considered driver-negative; candidate alternative drivers or mechanisms; proposed subtypes; validation strategies; comparisons to other cancers; and therapeutic implications.</div>
+                <p><strong>Paper ID:</strong> paper-8c3b025b441f5771d830bc9e456002c788cb061e</p>
+                <p><strong>Paper Title:</strong> <a href="https://www.semanticscholar.org/paper/8c3b025b441f5771d830bc9e456002c788cb061e" target="_blank">Mapping the in vivo fitness landscape of lung adenocarcinoma tumor suppression in mice</a></p>
+                <p><strong>Paper Venue:</strong> Nature Genetics</p>
+                <p><strong>Paper TL;DR:</strong> This work integrates tumor barcoding, CRISPR/Cas9-mediated genome editing and ultra-deep barcode sequencing to interrogate pairwise combinations of tumor suppressor alterations in autochthonous mouse models of human lung adenocarcinoma to identify a landscape of context dependence and differential effect strengths.</p>
+                <p><strong>Paper Abstract:</strong> The functional impact of most genomic alterations found in cancer, alone or in combination, remains largely unknown. Here we integrate tumor barcoding, CRISPR/Cas9-mediated genome editing and ultra-deep barcode sequencing to interrogate pairwise combinations of tumor suppressor alterations in autochthonous mouse models of human lung adenocarcinoma. We map the tumor suppressive effects of 31 common lung adenocarcinoma genotypes and identify a landscape of context dependence and differential effect strengths. In vivo analysis of pairwise combinations of tumor suppressor losses using a barcode-based assay in mice identifies unpredicted genetic interactions and shows that the effects of tumor suppressor alterations can be context-dependent.</p>
+                <p><strong>Cost:</strong> 0.03</p>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>Extracted Data (Details)</h2>
+            <div class="extraction-instance-container" id="e2298.0">
+                <h3 class="extraction-instance">Extracted Data Instance 0 (e2298.0)</h3>
+                <div class="extraction-query"><strong>Extraction Query:</strong> Extract any mentions of driver-negative or oncogene-negative lung adenocarcinoma cases, cohorts, models, or subgroups; the evidence for why they are considered driver-negative; candidate alternative drivers or mechanisms; proposed subtypes; validation strategies; comparisons to other cancers; and therapeutic implications.</div>
+                <table>
+                    <thead>
+                        <tr>
+                            <th style="width: 30%;">Field</th>
+                            <th style="width: 70%;">Value</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><strong>name_short</strong></td>
+                            <td>human LUAD co-occurrence cohort</td>
+                        </tr>
+                        <tr>
+                            <td><strong>name_full</strong></td>
+                            <td>Human lung adenocarcinoma TCGA and AACR GENIE datasets analyzed for TP53 and RB1 alteration co-occurrence</td>
+                        </tr>
+                        <tr>
+                            <td><strong>brief_description</strong></td>
+                            <td>This paper uses TCGA and AACR GENIE lung adenocarcinoma data to show that RB1 and TP53 alterations co-occur more often than expected, consistent with the mouse Tuba-seq finding that RB1 loss is more advantageous in a TP53-deficient context. The analysis is not a driver-negative cohort per se, but it is used as a human-genomics validation of context-dependent driver/tumor-suppressor interactions.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>citation_title</strong></td>
+                            <td>Mapping the in vivo fitness landscape of lung adenocarcinoma tumor suppression in mice</td>
+                        </tr>
+                        <tr>
+                            <td><strong>mention_or_use</strong></td>
+                            <td>use</td>
+                        </tr>
+                        <tr>
+                            <td><strong>cohort_or_model</strong></td>
+                            <td>TCGA lung adenocarcinoma (230 samples, 2014) and AACR Project GENIE lung adenocarcinoma (1,563 samples, 2017); combined N=1,792</td>
+                        </tr>
+                        <tr>
+                            <td><strong>cancer_context</strong></td>
+                            <td>lung adenocarcinoma; human tumor genomics comparison to autochthonous mouse LUAD models</td>
+                        </tr>
+                        <tr>
+                            <td><strong>driver_negative_definition</strong></td>
+                            <td>Not a driver-negative definition. The paper instead examines co-occurrence and mutual exclusivity of alterations in canonical tumor suppressors/driver-related genes, especially TP53 and RB1, in lung adenocarcinoma datasets.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>driver_negative_frequency</strong></td>
+                            <td>Not reported</td>
+                        </tr>
+                        <tr>
+                            <td><strong>profiling_modalities</strong></td>
+                            <td>somatic mutation and copy-number analysis; DISCOVER co-occurrence/mutual-exclusivity testing; comparison to mouse CRISPR/Tuba-seq fitness data</td>
+                        </tr>
+                        <tr>
+                            <td><strong>candidate_mechanism_category</strong></td>
+                            <td>tumor suppressor loss</td>
+                        </tr>
+                        <tr>
+                            <td><strong>candidate_driver_or_mechanism</strong></td>
+                            <td>TP53 loss co-occurring with RB1 loss; context-dependent fitness enhancement of RB1 deficiency</td>
+                        </tr>
+                        <tr>
+                            <td><strong>mechanistic_description</strong></td>
+                            <td>The human data are used to support the idea that RB1 loss is a stronger driver of growth when TP53 is already inactivated, reflecting complementary tumor-suppressor pathway disruption rather than an oncogene-negative mechanism.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>evidence_type</strong></td>
+                            <td>co-occurrence analysis plus cross-model validation</td>
+                        </tr>
+                        <tr>
+                            <td><strong>key_evidence</strong></td>
+                            <td>RB1 and TP53 alterations were enriched in co-occurrence in human lung adenocarcinoma (P=0.03); the authors note this would not be significant after Bonferroni correction across 10 pairwise interactions (P=0.32).</td>
+                        </tr>
+                        <tr>
+                            <td><strong>negative_or_counter_evidence</strong></td>
+                            <td>This is not a driver-negative cohort, and the co-occurrence signal is modest; the paper emphasizes that co-occurrence alone is insufficient for inferring interaction and may be statistically insignificant after multiple-testing correction.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>subtype_name</strong></td>
+                            <td><span class="empty-note">null</span></td>
+                        </tr>
+                        <tr>
+                            <td><strong>subtype_features</strong></td>
+                            <td><span class="empty-note">null</span></td>
+                        </tr>
+                        <tr>
+                            <td><strong>parallel_in_other_cancers</strong></td>
+                            <td>The paper generally notes that lung cancers are not unique in showing context dependency and that direct measurement of context dependency in other cancer types is warranted, but it does not name a specific analogous cancer subtype.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>validation_approach</strong></td>
+                            <td>Validation was by orthogonal mouse Cre/loxP models for Trp53/Rb1 loss and by human genomics co-occurrence analysis using DISCOVER.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>validation_result</strong></td>
+                            <td>Cre/loxP mouse models confirmed the effect of coincident Trp53 and Rb1 inactivation on lung cancer growth; human data showed enriched TP53-RB1 co-occurrence.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>therapeutic_implication</strong></td>
+                            <td>Suggests that TP53/RB1 co-alteration may mark a more permissive growth state and potentially a different evolutionary trajectory or treatment-resistance/metastasis propensity.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>therapeutic_evidence</strong></td>
+                            <td>The paper speculates that TP53 loss may facilitate subsequent evolution, including treatment resistance and metastatic disease, but does not test therapy directly.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>clinical_or_demographic_association</strong></td>
+                            <td>No smoking, stage, or demographic association is reported for this co-occurrence analysis.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>study_limitations</strong></td>
+                            <td>The human analysis is limited to alteration co-occurrence/mutual exclusivity and does not establish causality; after Bonferroni correction, the co-occurrence would not be statistically significant in a naive multiple-pairwise comparison framework.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>driver_negativity_confidence</strong></td>
+                            <td>not_applicable</td>
+                        </tr>
+                        <tr>
+                            <td><strong>negative_status_basis</strong></td>
+                            <td><span class="empty-note">null</span></td>
+                        </tr>
+                        <tr>
+                            <td><strong>tested_driver_classes</strong></td>
+                            <td>broad_copy_number, hotspot_snv_indel</td>
+                        </tr>
+                        <tr>
+                            <td><strong>untested_or_underpowered_driver_classes</strong></td>
+                            <td>fusion_rearrangement, exon_skipping_splicing, noncoding_regulatory, phosphoproteomics, protein_abundance, epigenomics, spatial_microenvironment</td>
+                        </tr>
+                        <tr>
+                            <td><strong>false_negative_rescue_evidence</strong></td>
+                            <td><span class="empty-note">null</span></td>
+                        </tr>
+                        <tr>
+                            <td><strong>sample_purity_detection_limit_issue</strong></td>
+                            <td><span class="empty-note">null</span></td>
+                        </tr>
+                        <tr>
+                            <td><strong>mapk_output_state</strong></td>
+                            <td>unresolved</td>
+                        </tr>
+                        <tr>
+                            <td><strong>pi3k_akt_mtor_output_state</strong></td>
+                            <td>unresolved</td>
+                        </tr>
+                        <tr>
+                            <td><strong>rtk_or_her_family_activation_state</strong></td>
+                            <td>unclear</td>
+                        </tr>
+                        <tr>
+                            <td><strong>signaling_readout_assay</strong></td>
+                            <td>DISCOVER co-occurrence/mutual exclusivity on mutation and copy-number data; no signaling assay</td>
+                        </tr>
+                        <tr>
+                            <td><strong>genome_protein_discordance_flag</strong></td>
+                            <td>no</td>
+                        </tr>
+                        <tr>
+                            <td><strong>driver_mechanism_route</strong></td>
+                            <td>truncating_tumor_suppressor_loss</td>
+                        </tr>
+                        <tr>
+                            <td><strong>altered_molecular_layer</strong></td>
+                            <td>dna_sequence</td>
+                        </tr>
+                        <tr>
+                            <td><strong>functional_consequence_type</strong></td>
+                            <td>loss_of_negative_regulation</td>
+                        </tr>
+                        <tr>
+                            <td><strong>canonical_pathway_reinstatement_flag</strong></td>
+                            <td>no</td>
+                        </tr>
+                        <tr>
+                            <td><strong>alternative_driver_axis</strong></td>
+                            <td>cell_cycle_control</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="extraction-instance-container" id="e2298.1">
+                <h3 class="extraction-instance">Extracted Data Instance 1 (e2298.1)</h3>
+                <div class="extraction-query"><strong>Extraction Query:</strong> Extract any mentions of driver-negative or oncogene-negative lung adenocarcinoma cases, cohorts, models, or subgroups; the evidence for why they are considered driver-negative; candidate alternative drivers or mechanisms; proposed subtypes; validation strategies; comparisons to other cancers; and therapeutic implications.</div>
+                <table>
+                    <thead>
+                        <tr>
+                            <th style="width: 30%;">Field</th>
+                            <th style="width: 70%;">Value</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><strong>name_short</strong></td>
+                            <td>Lkb1-deficient LUAD background</td>
+                        </tr>
+                        <tr>
+                            <td><strong>name_full</strong></td>
+                            <td>Kras-driven, Lkb1-deficient autochthonous lung adenocarcinoma mouse background analyzed by Tuba-seq (KLT;Cas9)</td>
+                        </tr>
+                        <tr>
+                            <td><strong>brief_description</strong></td>
+                            <td>This mouse cohort is not driver-negative, but it serves as a defined genetic background in which the fitness effects of additional tumor suppressor losses were measured. The paper shows that Lkb1 loss changes which further alterations remain adaptive, demonstrating context dependence rather than oncogene-negativity.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>citation_title</strong></td>
+                            <td>Mapping the in vivo fitness landscape of lung adenocarcinoma tumor suppression in mice</td>
+                        </tr>
+                        <tr>
+                            <td><strong>mention_or_use</strong></td>
+                            <td>use</td>
+                        </tr>
+                        <tr>
+                            <td><strong>cohort_or_model</strong></td>
+                            <td>KrasLSL-G12D; Lkb1flox/flox; H11LSL-Cas9 (KLT;Cas9) mice</td>
+                        </tr>
+                        <tr>
+                            <td><strong>cancer_context</strong></td>
+                            <td>autochthonous mouse model of KrasG12D-driven lung adenocarcinoma</td>
+                        </tr>
+                        <tr>
+                            <td><strong>driver_negative_definition</strong></td>
+                            <td>Not driver-negative. Lkb1 is already inactivated in this model; the paper uses it to test which additional tumor suppressor losses still confer growth benefit.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>driver_negative_frequency</strong></td>
+                            <td>Not reported</td>
+                        </tr>
+                        <tr>
+                            <td><strong>profiling_modalities</strong></td>
+                            <td>Tuba-seq tumor barcoding; CRISPR/Cas9-mediated tumor suppressor inactivation; barcode deep sequencing; histology; indel confirmation</td>
+                        </tr>
+                        <tr>
+                            <td><strong>candidate_mechanism_category</strong></td>
+                            <td>tumor suppressor loss</td>
+                        </tr>
+                        <tr>
+                            <td><strong>candidate_driver_or_mechanism</strong></td>
+                            <td>Apc and Rb1 remain adaptive in Lkb1-deficient tumors; Setd2 benefit is attenuated</td>
+                        </tr>
+                        <tr>
+                            <td><strong>mechanistic_description</strong></td>
+                            <td>The model is used to show diminishing returns epistasis: as tumors accumulate growth-promoting alterations, the incremental fitness benefit of additional alterations is reduced. Rb1 remains especially important for cell-cycle control even in the absence of Lkb1.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>evidence_type</strong></td>
+                            <td>functional perturbation screen in vivo</td>
+                        </tr>
+                        <tr>
+                            <td><strong>key_evidence</strong></td>
+                            <td>In Lkb1-deficient tumors, Apc and Rb1 inactivation were the only alterations that significantly increased growth; Setd2 loss was modest and not statistically significant in this background.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>negative_or_counter_evidence</strong></td>
+                            <td>This background is already highly altered and fast-growing, so it is not suitable as a negative cohort; the paper explicitly notes attenuated effects due to diminishing returns epistasis.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>subtype_name</strong></td>
+                            <td><span class="empty-note">null</span></td>
+                        </tr>
+                        <tr>
+                            <td><strong>subtype_features</strong></td>
+                            <td><span class="empty-note">null</span></td>
+                        </tr>
+                        <tr>
+                            <td><strong>parallel_in_other_cancers</strong></td>
+                            <td>The paper states that widespread context dependency may also occur in other cancer types and warrants direct measurement there.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>validation_approach</strong></td>
+                            <td>Validation included orthogonal de-multiplexed vectors for Setd2/Neo controls and traditional tumor area quantification, plus barcode sequencing.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>validation_result</strong></td>
+                            <td>Setd2 loss enhanced Lkb1-proficient tumor growth but conferred little if any advantage to Lkb1-deficient tumors; Apc and Rb1 remained significant in Lkb1-deficient tumors.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>therapeutic_implication</strong></td>
+                            <td>Suggests that therapeutic priorities may differ by background, because the same tumor suppressor loss does not confer equal fitness in all contexts.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>therapeutic_evidence</strong></td>
+                            <td>The paper does not test therapy directly, but it proposes that context dependency could affect treatment response and resistance.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>clinical_or_demographic_association</strong></td>
+                            <td>No direct patient demographic association; this is a mouse-model context.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>study_limitations</strong></td>
+                            <td>Mouse-model inference; findings are based on selected tumor suppressor genes and specific genetic backgrounds rather than an unbiased whole-genome screen.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>driver_negativity_confidence</strong></td>
+                            <td>not_applicable</td>
+                        </tr>
+                        <tr>
+                            <td><strong>negative_status_basis</strong></td>
+                            <td><span class="empty-note">null</span></td>
+                        </tr>
+                        <tr>
+                            <td><strong>tested_driver_classes</strong></td>
+                            <td>hotspot_snv_indel, broad_copy_number</td>
+                        </tr>
+                        <tr>
+                            <td><strong>untested_or_underpowered_driver_classes</strong></td>
+                            <td>fusion_rearrangement, exon_skipping_splicing, noncoding_regulatory, phosphoproteomics, protein_abundance, epigenomics, spatial_microenvironment</td>
+                        </tr>
+                        <tr>
+                            <td><strong>false_negative_rescue_evidence</strong></td>
+                            <td><span class="empty-note">null</span></td>
+                        </tr>
+                        <tr>
+                            <td><strong>sample_purity_detection_limit_issue</strong></td>
+                            <td><span class="empty-note">null</span></td>
+                        </tr>
+                        <tr>
+                            <td><strong>mapk_output_state</strong></td>
+                            <td>unresolved</td>
+                        </tr>
+                        <tr>
+                            <td><strong>pi3k_akt_mtor_output_state</strong></td>
+                            <td>unresolved</td>
+                        </tr>
+                        <tr>
+                            <td><strong>rtk_or_her_family_activation_state</strong></td>
+                            <td>unclear</td>
+                        </tr>
+                        <tr>
+                            <td><strong>signaling_readout_assay</strong></td>
+                            <td>Tuba-seq growth measurements; no direct signaling readout</td>
+                        </tr>
+                        <tr>
+                            <td><strong>genome_protein_discordance_flag</strong></td>
+                            <td>unclear</td>
+                        </tr>
+                        <tr>
+                            <td><strong>driver_mechanism_route</strong></td>
+                            <td>truncating_tumor_suppressor_loss</td>
+                        </tr>
+                        <tr>
+                            <td><strong>altered_molecular_layer</strong></td>
+                            <td>dna_sequence</td>
+                        </tr>
+                        <tr>
+                            <td><strong>functional_consequence_type</strong></td>
+                            <td>loss_of_negative_regulation</td>
+                        </tr>
+                        <tr>
+                            <td><strong>canonical_pathway_reinstatement_flag</strong></td>
+                            <td>no</td>
+                        </tr>
+                        <tr>
+                            <td><strong>alternative_driver_axis</strong></td>
+                            <td>cell_cycle_control</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="extraction-instance-container" id="e2298.2">
+                <h3 class="extraction-instance">Extracted Data Instance 2 (e2298.2)</h3>
+                <div class="extraction-query"><strong>Extraction Query:</strong> Extract any mentions of driver-negative or oncogene-negative lung adenocarcinoma cases, cohorts, models, or subgroups; the evidence for why they are considered driver-negative; candidate alternative drivers or mechanisms; proposed subtypes; validation strategies; comparisons to other cancers; and therapeutic implications.</div>
+                <table>
+                    <thead>
+                        <tr>
+                            <th style="width: 30%;">Field</th>
+                            <th style="width: 70%;">Value</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><strong>name_short</strong></td>
+                            <td>Trp53-deficient LUAD background</td>
+                        </tr>
+                        <tr>
+                            <td><strong>name_full</strong></td>
+                            <td>Kras-driven, Trp53-deficient autochthonous lung adenocarcinoma mouse background analyzed by Tuba-seq (KPT;Cas9)</td>
+                        </tr>
+                        <tr>
+                            <td><strong>brief_description</strong></td>
+                            <td>This mouse cohort is also not driver-negative, but it is crucial for the paper’s central result that TP53 loss changes the effect size and adaptive value of additional tumor suppressor losses. The authors use it to show that RB1, LKB1, SETD2, CDKN2A, APC and others have context-dependent growth effects.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>citation_title</strong></td>
+                            <td>Mapping the in vivo fitness landscape of lung adenocarcinoma tumor suppression in mice</td>
+                        </tr>
+                        <tr>
+                            <td><strong>mention_or_use</strong></td>
+                            <td>use</td>
+                        </tr>
+                        <tr>
+                            <td><strong>cohort_or_model</strong></td>
+                            <td>KrasLSL-G12D; Trp53flox/flox; H11LSL-Cas9 (KPT;Cas9) mice</td>
+                        </tr>
+                        <tr>
+                            <td><strong>cancer_context</strong></td>
+                            <td>autochthonous mouse model of KrasG12D-driven lung adenocarcinoma, TP53-deficient context</td>
+                        </tr>
+                        <tr>
+                            <td><strong>driver_negative_definition</strong></td>
+                            <td>Not driver-negative. Trp53 is intentionally inactivated to test how this alters the fitness landscape of additional tumor suppressor losses.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>driver_negative_frequency</strong></td>
+                            <td>Not reported</td>
+                        </tr>
+                        <tr>
+                            <td><strong>profiling_modalities</strong></td>
+                            <td>Tuba-seq, CRISPR/Cas9 in vivo editing, barcode sequencing, indel analysis, histology, conventional Cre/loxP validation, human genomics co-occurrence comparison</td>
+                        </tr>
+                        <tr>
+                            <td><strong>candidate_mechanism_category</strong></td>
+                            <td>tumor suppressor loss</td>
+                        </tr>
+                        <tr>
+                            <td><strong>candidate_driver_or_mechanism</strong></td>
+                            <td>Rb1 loss becomes quantitatively stronger in Trp53-deficient tumors; Smad4, Arid1a, and Atm emerge as tumor suppressors only in this background</td>
+                        </tr>
+                        <tr>
+                            <td><strong>mechanistic_description</strong></td>
+                            <td>TP53 deficiency potentiates later tumor evolution by enabling more alterations to be adaptive. The paper interprets this as a complementary interaction between TP53 and RB1 pathways and a more permissive evolutionary landscape.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>evidence_type</strong></td>
+                            <td>functional perturbation screen in vivo</td>
+                        </tr>
+                        <tr>
+                            <td><strong>key_evidence</strong></td>
+                            <td>In Trp53-deficient tumors, inactivation of Rb1, Setd2, Lkb1, Cdkn2a, or Apc still provided growth advantage, while Smad4, Arid1a, and Atm emerged only in the absence of Trp53; RB1 loss in the Trp53-deficient context conferred a growth advantage comparable to Lkb1 or Setd2 loss.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>negative_or_counter_evidence</strong></td>
+                            <td>Not a negative cohort; the main limitation is that the screen covers a finite set of candidate tumor suppressors rather than all possible drivers.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>subtype_name</strong></td>
+                            <td><span class="empty-note">null</span></td>
+                        </tr>
+                        <tr>
+                            <td><strong>subtype_features</strong></td>
+                            <td><span class="empty-note">null</span></td>
+                        </tr>
+                        <tr>
+                            <td><strong>parallel_in_other_cancers</strong></td>
+                            <td>The paper suggests that similar context dependency may not be unique to lung cancer and could exist in other cancer types.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>validation_approach</strong></td>
+                            <td>Orthogonal Cre/loxP mouse models were used to confirm the Trp53/Rb1 interaction; human TCGA/GENIE genomics were used for co-occurrence testing.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>validation_result</strong></td>
+                            <td>Conventional mouse models confirmed the effect of coincident Trp53 and Rb1 inactivation on lung cancer growth; human data showed enriched RB1-TP53 co-occurrence.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>therapeutic_implication</strong></td>
+                            <td>TP53 loss may facilitate treatment resistance and metastatic progression by enabling more adaptive lesions; identifying background-specific dependencies could inform combination strategies.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>therapeutic_evidence</strong></td>
+                            <td>The paper proposes these implications but does not directly test a therapy.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>clinical_or_demographic_association</strong></td>
+                            <td>No patient demographic association is reported; this is a mouse-model background.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>study_limitations</strong></td>
+                            <td>Screen limited to chosen candidate genes; contextual effects are inferred from a particular engineered model rather than a full patient-derived driver-negative cohort.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>driver_negativity_confidence</strong></td>
+                            <td>not_applicable</td>
+                        </tr>
+                        <tr>
+                            <td><strong>negative_status_basis</strong></td>
+                            <td><span class="empty-note">null</span></td>
+                        </tr>
+                        <tr>
+                            <td><strong>tested_driver_classes</strong></td>
+                            <td>hotspot_snv_indel, broad_copy_number</td>
+                        </tr>
+                        <tr>
+                            <td><strong>untested_or_underpowered_driver_classes</strong></td>
+                            <td>fusion_rearrangement, exon_skipping_splicing, noncoding_regulatory, phosphoproteomics, protein_abundance, epigenomics, spatial_microenvironment</td>
+                        </tr>
+                        <tr>
+                            <td><strong>false_negative_rescue_evidence</strong></td>
+                            <td><span class="empty-note">null</span></td>
+                        </tr>
+                        <tr>
+                            <td><strong>sample_purity_detection_limit_issue</strong></td>
+                            <td><span class="empty-note">null</span></td>
+                        </tr>
+                        <tr>
+                            <td><strong>mapk_output_state</strong></td>
+                            <td>unresolved</td>
+                        </tr>
+                        <tr>
+                            <td><strong>pi3k_akt_mtor_output_state</strong></td>
+                            <td>unresolved</td>
+                        </tr>
+                        <tr>
+                            <td><strong>rtk_or_her_family_activation_state</strong></td>
+                            <td>unclear</td>
+                        </tr>
+                        <tr>
+                            <td><strong>signaling_readout_assay</strong></td>
+                            <td>Tuba-seq growth measurements; no direct signaling readout</td>
+                        </tr>
+                        <tr>
+                            <td><strong>genome_protein_discordance_flag</strong></td>
+                            <td>unclear</td>
+                        </tr>
+                        <tr>
+                            <td><strong>driver_mechanism_route</strong></td>
+                            <td>truncating_tumor_suppressor_loss</td>
+                        </tr>
+                        <tr>
+                            <td><strong>altered_molecular_layer</strong></td>
+                            <td>dna_sequence</td>
+                        </tr>
+                        <tr>
+                            <td><strong>functional_consequence_type</strong></td>
+                            <td>loss_of_negative_regulation</td>
+                        </tr>
+                        <tr>
+                            <td><strong>canonical_pathway_reinstatement_flag</strong></td>
+                            <td>no</td>
+                        </tr>
+                        <tr>
+                            <td><strong>alternative_driver_axis</strong></td>
+                            <td>cell_cycle_control</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="extraction-instance-container" id="e2298.3">
+                <h3 class="extraction-instance">Extracted Data Instance 3 (e2298.3)</h3>
+                <div class="extraction-query"><strong>Extraction Query:</strong> Extract any mentions of driver-negative or oncogene-negative lung adenocarcinoma cases, cohorts, models, or subgroups; the evidence for why they are considered driver-negative; candidate alternative drivers or mechanisms; proposed subtypes; validation strategies; comparisons to other cancers; and therapeutic implications.</div>
+                <table>
+                    <thead>
+                        <tr>
+                            <th style="width: 30%;">Field</th>
+                            <th style="width: 70%;">Value</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><strong>name_short</strong></td>
+                            <td>Kras-driven LUAD screen</td>
+                        </tr>
+                        <tr>
+                            <td><strong>name_full</strong></td>
+                            <td>Autochthonous KrasG12D-driven lung adenocarcinoma mouse screen of combinatorial tumor suppressor inactivation</td>
+                        </tr>
+                        <tr>
+                            <td><strong>brief_description</strong></td>
+                            <td>This is the main experimental system of the paper rather than a driver-negative subgroup. It is included because the query asks for models and subgroups related to driver-negative or oncogene-negative lung adenocarcinoma, and this screen is the source of the paper’s evidence about context dependence and candidate alternative drivers within Kras-driven LUAD.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>citation_title</strong></td>
+                            <td>Mapping the in vivo fitness landscape of lung adenocarcinoma tumor suppression in mice</td>
+                        </tr>
+                        <tr>
+                            <td><strong>mention_or_use</strong></td>
+                            <td>use</td>
+                        </tr>
+                        <tr>
+                            <td><strong>cohort_or_model</strong></td>
+                            <td>KT;Cas9, KPT;Cas9, and KLT;Cas9 genetically engineered mouse cohorts</td>
+                        </tr>
+                        <tr>
+                            <td><strong>cancer_context</strong></td>
+                            <td>KrasG12D-driven lung adenocarcinoma in mice</td>
+                        </tr>
+                        <tr>
+                            <td><strong>driver_negative_definition</strong></td>
+                            <td>Not driver-negative. The initiating oncogene is KrasG12D, and the study instead examines additional tumor suppressor losses on this oncogenic background.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>driver_negative_frequency</strong></td>
+                            <td>Not reported</td>
+                        </tr>
+                        <tr>
+                            <td><strong>profiling_modalities</strong></td>
+                            <td>Tuba-seq; CRISPR/Cas9 genome editing; barcode sequencing; indel profiling; histology; power analysis; human mutation/copy-number comparison</td>
+                        </tr>
+                        <tr>
+                            <td><strong>candidate_mechanism_category</strong></td>
+                            <td>tumor suppressor loss</td>
+                        </tr>
+                        <tr>
+                            <td><strong>candidate_driver_or_mechanism</strong></td>
+                            <td>31 common tumor suppressor genotypes including Rb1, Lkb1, Setd2, Apc, Cdkn2a, Smad4, Arid1a, Atm</td>
+                        </tr>
+                        <tr>
+                            <td><strong>mechanistic_description</strong></td>
+                            <td>The screen maps how loss of different tumor suppressors changes tumor fitness in the presence or absence of Trp53 and Lkb1, revealing a rugged fitness landscape with strong context dependence and diminishing returns epistasis.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>evidence_type</strong></td>
+                            <td>in vivo CRISPR/Tuba-seq functional screen</td>
+                        </tr>
+                        <tr>
+                            <td><strong>key_evidence</strong></td>
+                            <td>The authors quantified growth of oncogenic KrasG12D-driven tumors with 31 common tumor suppressor genotypes and found that 8 of 11 tested tumor suppressor alterations were adaptive only in some contexts.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>negative_or_counter_evidence</strong></td>
+                            <td>The system does not address canonical oncogene-negative LUAD directly; it is restricted to a set of candidate tumor suppressor alterations in a mouse model.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>subtype_name</strong></td>
+                            <td><span class="empty-note">null</span></td>
+                        </tr>
+                        <tr>
+                            <td><strong>subtype_features</strong></td>
+                            <td><span class="empty-note">null</span></td>
+                        </tr>
+                        <tr>
+                            <td><strong>parallel_in_other_cancers</strong></td>
+                            <td>The authors state that lung cancers do not appear unique in context dependency and that direct measurement in other cancer types is warranted.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>validation_approach</strong></td>
+                            <td>Independent validation with conventional Cre/loxP mouse models, indel quantification, de-multiplexed sgRNA experiments, and human genomics co-occurrence analysis.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>validation_result</strong></td>
+                            <td>Key interactions, including Trp53/Rb1 and Lkb1/Setd2 context dependence, were supported by orthogonal assays and human data.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>therapeutic_implication</strong></td>
+                            <td>Suggests that broad genomic screens could inform therapeutic response, cell signaling, or metastatic progression, and that larger cohorts may reveal more interaction pairs relevant to treatment.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>therapeutic_evidence</strong></td>
+                            <td>Only proposed; no drug response experiments were performed.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>clinical_or_demographic_association</strong></td>
+                            <td>No direct clinical/demographic associations were reported for patients; the screen is in mice.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>study_limitations</strong></td>
+                            <td>Focused on known/common tumor suppressor genes; not a comprehensive survey of all possible oncogenic drivers; mostly inferential regarding human therapy.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>driver_negativity_confidence</strong></td>
+                            <td>not_applicable</td>
+                        </tr>
+                        <tr>
+                            <td><strong>negative_status_basis</strong></td>
+                            <td><span class="empty-note">null</span></td>
+                        </tr>
+                        <tr>
+                            <td><strong>tested_driver_classes</strong></td>
+                            <td>hotspot_snv_indel, broad_copy_number</td>
+                        </tr>
+                        <tr>
+                            <td><strong>untested_or_underpowered_driver_classes</strong></td>
+                            <td>fusion_rearrangement, exon_skipping_splicing, noncoding_regulatory, phosphoproteomics, protein_abundance, epigenomics, spatial_microenvironment</td>
+                        </tr>
+                        <tr>
+                            <td><strong>false_negative_rescue_evidence</strong></td>
+                            <td><span class="empty-note">null</span></td>
+                        </tr>
+                        <tr>
+                            <td><strong>sample_purity_detection_limit_issue</strong></td>
+                            <td><span class="empty-note">null</span></td>
+                        </tr>
+                        <tr>
+                            <td><strong>mapk_output_state</strong></td>
+                            <td>unresolved</td>
+                        </tr>
+                        <tr>
+                            <td><strong>pi3k_akt_mtor_output_state</strong></td>
+                            <td>unresolved</td>
+                        </tr>
+                        <tr>
+                            <td><strong>rtk_or_her_family_activation_state</strong></td>
+                            <td>unclear</td>
+                        </tr>
+                        <tr>
+                            <td><strong>signaling_readout_assay</strong></td>
+                            <td>Tuba-seq growth measurements; no direct signaling readout</td>
+                        </tr>
+                        <tr>
+                            <td><strong>genome_protein_discordance_flag</strong></td>
+                            <td>unclear</td>
+                        </tr>
+                        <tr>
+                            <td><strong>driver_mechanism_route</strong></td>
+                            <td>truncating_tumor_suppressor_loss</td>
+                        </tr>
+                        <tr>
+                            <td><strong>altered_molecular_layer</strong></td>
+                            <td>dna_sequence</td>
+                        </tr>
+                        <tr>
+                            <td><strong>functional_consequence_type</strong></td>
+                            <td>loss_of_negative_regulation</td>
+                        </tr>
+                        <tr>
+                            <td><strong>canonical_pathway_reinstatement_flag</strong></td>
+                            <td>no</td>
+                        </tr>
+                        <tr>
+                            <td><strong>alternative_driver_axis</strong></td>
+                            <td>cell_cycle_control</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>Potentially Relevant New Papers (mentioned by this paper)</h2>
+            <ol>
+                <li>Cancer Genome Atlas Research Network <em>(Rating: 1)</em></li>
+                <li>AACR Project GENIE Consortium <em>(Rating: 1)</em></li>
+                <li>Molecular Profiling of Lung Adenocarcinoma <em>(Rating: 1)</em></li>
+            </ol>
+        </div>
+
+        </div>
+
+    </div>
+</body>
+</html>

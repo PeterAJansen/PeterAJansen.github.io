@@ -1,0 +1,808 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Extraction extraction-result-2224 - Theorizer</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+    <div class="header">
+        <a href="../index.html"><i class="fas fa-flask"></i> Theorizer</a>
+    </div>
+
+    <div class="content">
+        <h1>Extracted Data Details for extraction-result-2224</h1>
+
+        <div class="section">
+            <h2>Extracted Data (Header)</h2>
+            <div class="info-section">
+                <p><strong>Extraction ID:</strong> extraction-result-2224</p>
+                <p><strong>Extraction Schema Used (ID):</strong> <a href="../schemas/extraction-schema-1844.html">extraction-schema-1844</a></p>
+                <div class="extraction-query"><strong>Extraction Query:</strong> Extract any mentions of hidden genomic, structural, regulatory, or assay-missed drivers in oncogene-negative lung adenocarcinoma.</div>
+                <p><strong>Paper ID:</strong> paper-fcc794d59b6567b127253557b5b02bda2e201484</p>
+                <p><strong>Paper Title:</strong> <a href="https://www.semanticscholar.org/paper/fcc794d59b6567b127253557b5b02bda2e201484" target="_blank">Mapping the hallmarks of lung adenocarcinoma with massively parallel sequencing</a></p>
+                <p><strong>Paper Venue:</strong> Cell</p>
+                <p><strong>Paper TL;DR:</strong> Exome and genome sequences of 183 lung adenocarcinoma tumor/normal DNA pairs revealed a mean exonic somatic mutation rate of 12.0 events/megabase and identified the majority of genes previously reported as significantly mutated in lung adenocarcinoma.</p>
+                <p><strong>Paper Abstract:</strong> SUMMARY Lung adenocarcinoma, the most common subtype of non-small cell lung cancer, is responsible for over 500,000 deaths per year worldwide. Here, we report exome and genome sequences of 183 lung adenocarcinoma tumor/normal DNA pairs. These analyses revealed a mean exonic somatic mutation rate of 12.0 events/megabase and identified the majority of genes previously reported as significantly mutated in lung adenocarcinoma. In addition, we identified statistically recurrent somatic mutations in the splicing factor gene U2AF1 and truncating mutations affecting RBM10 and ARID1A. Analysis of nucleotide context-specific mutation signatures grouped the sample set into distinct clusters that correlated with smoking history and alterations of reported lung adenocarcinoma genes. Whole genome sequence analysis revealed frequent structural re-arrangements, including in-frame exonic alterations within EGFR and SIK2 kinases. The candidate genes identified in this study are attractive targets for biological characterization and therapeutic targeting of lung adenocarcinoma.</p>
+                <p><strong>Cost:</strong> 0.025</p>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>Extracted Data (Details)</h2>
+            <div class="extraction-instance-container" id="e2224.0">
+                <h3 class="extraction-instance">Extracted Data Instance 0 (e2224.0)</h3>
+                <div class="extraction-query"><strong>Extraction Query:</strong> Extract any mentions of hidden genomic, structural, regulatory, or assay-missed drivers in oncogene-negative lung adenocarcinoma.</div>
+                <table>
+                    <thead>
+                        <tr>
+                            <th style="width: 30%;">Field</th>
+                            <th style="width: 70%;">Value</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><strong>name_short</strong></td>
+                            <td>EGFR Ex25&26del</td>
+                        </tr>
+                        <tr>
+                            <td><strong>name_full</strong></td>
+                            <td>EGFR exon 25-26 in-frame deletion (C-terminal deletion variant)</td>
+                        </tr>
+                        <tr>
+                            <td><strong>brief_description</strong></td>
+                            <td>A novel in-frame deletion removing EGFR exons 25 and 26 was discovered by whole-genome sequencing in a lung adenocarcinoma tumor that also harbored a p.G719S EGFR point mutation. The deletion preserved the reading frame, activated EGFR signaling in cell-based assays, and conferred erlotinib-sensitive growth in Ba/F3 cells.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>citation_title</strong></td>
+                            <td>Mapping the hallmarks of lung adenocarcinoma with massively parallel sequencing</td>
+                        </tr>
+                        <tr>
+                            <td><strong>mention_or_use</strong></td>
+                            <td>use</td>
+                        </tr>
+                        <tr>
+                            <td><strong>oncogene_negative_definition</strong></td>
+                            <td>The study’s oncogene-negative/driver-gap context was not defined as a dedicated negative cohort; rather, tumors were globally profiled by WES/WGS and then compared against known lung adenocarcinoma drivers (e.g., EGFR, KRAS, STK11, KEAP1, NF1, BRAF, SMAD4, TP53, SMARCA4, RB1, CDKN2A, PIK3CA, AKT1, NRAS, HRAS, ERBB2, APC). A tumor was considered lacking a matched hallmark lesion when the panel of exonic somatic mutations, copy-number calls from SNP arrays/WGS, and WGS rearrangement calls did not reveal a driver in the expected pathway; the paper notes that many tumors lacked any hallmark alteration and that only 47% had a known proliferative-signaling driver mutation (55% including high-level amplifications).</td>
+                        </tr>
+                        <tr>
+                            <td><strong>assay_strategy_and_detection_limits</strong></td>
+                            <td>Discovery used 159 WES, 23 WES+WGS, and 1 WGS-only tumor/normal pairs with SNP-array copy-number analysis; WGS rearrangements were mapped by paired-end and split-read methods. Blind spots explicitly noted include failure to detect some rare oncogenes statistically (e.g., AKT1, ERBB2, NRAS, HRAS) because of low event counts, and insufficient power to detect canonical fusions such as ALK, RET, and ROS1 in only 24 WGS cases; the discussion also states that some cancer alterations were likely missed because they were not assayed and that many tumors may harbor drivers outside the analyzed coding/SV landscape.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>missed_driver_reclassified_after_broader_testing</strong></td>
+                            <td>Yes. A tumor initially not explained by a canonical EGFR coding hotspot was reclassified by whole-genome structural-variant analysis, which found a two-exon in-frame deletion in EGFR (exons 25 and 26) plus a second EGFR p.G719S mutation. The event was missed by standard exon-centric mutation discovery because it was a structural rearrangement/deletion rather than a simple SNV and required WGS breakpoint mapping.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>driver_event_class</strong></td>
+                            <td>in-frame exon deletion / structural variant</td>
+                        </tr>
+                        <tr>
+                            <td><strong>candidate_driver_gene_or_locus</strong></td>
+                            <td>EGFR exons 25 and 26 (C-terminal deletion variant; EGFR Ex25&26del)</td>
+                        </tr>
+                        <tr>
+                            <td><strong>structural_or_regulatory_activation_mechanism</strong></td>
+                            <td>Kinase-domain-preserving in-frame structural deletion removing part of the EGFR C-terminus, including residues implicated in regulatory interactions with PIK3C2B and CBL, thereby relieving negative regulation and producing constitutive receptor activation.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>functional_consequence</strong></td>
+                            <td>The mutant EGFR was constitutively active in the absence of EGF, increased EGFR and AKT phosphorylation, transformed NIH-3T3 cells in soft agar, and drove IL-3-independent Ba/F3 proliferation that was inhibited by erlotinib.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>co_alteration_or_combinatorial_requirement</strong></td>
+                            <td>The same tumor also carried an EGFR p.G719S point mutation, which the authors interpret as possible synergy of activating EGFR lesions or independent subclonal activating mutations; no other cooperating lesions were required in the functional assays.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>human_prevalence_or_enrichment</strong></td>
+                            <td>Observed in 1 WGS case in the cohort; the paper does not report a broader prevalence for this exact EGFR exon 25-26 deletion. The authors note that canonical ALK, RET, and ROS1 fusions were not detected in their 24 WGS cases, likely due to limited sample size relative to the reported 2-7% frequency of those rearrangements.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>functional_or_clinical_validation</strong></td>
+                            <td>Validated by PCR and Illumina sequencing of the rearrangement; ectopic expression in NIH-3T3 cells produced soft-agar colony formation and phospho-EGFR/phospho-AKT activation; Ba/F3 transformation was erlotinib-sensitive, supporting oncogenicity and therapeutic tractability.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>initial_negative_call_basis</strong></td>
+                            <td>Structured as a concise list: [WES coding mutation calling of paired tumor/normal DNA; SNP-array copy-number analysis; WGS rearrangement analysis only in a subset of 24 cases; no RNA-seq/fusion transcript assay used for all samples; initial driver assessment relied on known hotspot/somatic gene-significance analyses rather than breakpoint-aware inspection].</td>
+                        </tr>
+                        <tr>
+                            <td><strong>negative_call_failure_mode</strong></td>
+                            <td>structural_complexity</td>
+                        </tr>
+                        <tr>
+                            <td><strong>rescue_modality</strong></td>
+                            <td>wgs_sv</td>
+                        </tr>
+                        <tr>
+                            <td><strong>final_explanatory_status</strong></td>
+                            <td>rescued_noncanonical_driver</td>
+                        </tr>
+                        <tr>
+                            <td><strong>post_workup_unexplained_fraction</strong></td>
+                            <td>The paper states that 15% of the cohort had no hallmark alteration and 38% had three or fewer hallmark alterations, even after integrating mutation and copy-number data.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>driver_mechanism_family</strong></td>
+                            <td>ectodomain_structural_activation</td>
+                        </tr>
+                        <tr>
+                            <td><strong>signaling_activation_mode</strong></td>
+                            <td>loss_of_ubiquitin_mediated_downregulation</td>
+                        </tr>
+                        <tr>
+                            <td><strong>oncogenic_unit_type</strong></td>
+                            <td>single_gene_lesion</td>
+                        </tr>
+                        <tr>
+                            <td><strong>mechanistic_directness</strong></td>
+                            <td>direct_driver</td>
+                        </tr>
+                        <tr>
+                            <td><strong>histologic_subtype_normalized</strong></td>
+                            <td>nonmucinous_adenocarcinoma</td>
+                        </tr>
+                        <tr>
+                            <td><strong>lineage_marker_state</strong></td>
+                            <td><span class="empty-note">null</span></td>
+                        </tr>
+                        <tr>
+                            <td><strong>inferred_lineage_program</strong></td>
+                            <td><span class="empty-note">null</span></td>
+                        </tr>
+                        <tr>
+                            <td><strong>mucinous_program_evidence</strong></td>
+                            <td><span class="empty-note">null</span></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="extraction-instance-container" id="e2224.1">
+                <h3 class="extraction-instance">Extracted Data Instance 1 (e2224.1)</h3>
+                <div class="extraction-query"><strong>Extraction Query:</strong> Extract any mentions of hidden genomic, structural, regulatory, or assay-missed drivers in oncogene-negative lung adenocarcinoma.</div>
+                <table>
+                    <thead>
+                        <tr>
+                            <th style="width: 30%;">Field</th>
+                            <th style="width: 70%;">Value</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><strong>name_short</strong></td>
+                            <td>SIK2 dup</td>
+                        </tr>
+                        <tr>
+                            <td><strong>name_full</strong></td>
+                            <td>SIK2 in-frame kinase-domain duplication</td>
+                        </tr>
+                        <tr>
+                            <td><strong>brief_description</strong></td>
+                            <td>An in-frame duplication involving the SIK2 kinase was discovered by whole-genome rearrangement analysis in a lung adenocarcinoma case without canonical lung adenocarcinoma oncogene mutations. The duplication was validated by qPCR and interpreted as a potentially activating kinase alteration.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>citation_title</strong></td>
+                            <td>Mapping the hallmarks of lung adenocarcinoma with massively parallel sequencing</td>
+                        </tr>
+                        <tr>
+                            <td><strong>mention_or_use</strong></td>
+                            <td>use</td>
+                        </tr>
+                        <tr>
+                            <td><strong>oncogene_negative_definition</strong></td>
+                            <td>The relevant tumors were those in which rearrangement analysis identified kinase alterations in the absence of known lung adenocarcinoma oncogenes; the paper specifically says SIK2 and ROCK1 rearrangements were found in tumors without mutations in lung adenocarcinoma oncogenes.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>assay_strategy_and_detection_limits</strong></td>
+                            <td>WGS paired-end and split-read mapping was used to detect rearrangements in 24 tumor/normal pairs. The paper’s explicit limitation is that only 24 genomes were analyzed for rearrangements, and some canonical kinase fusions (ALK/RET/ROS1) could have been missed by limited sample size; no RNA fusion screen or long-read assay was used.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>missed_driver_reclassified_after_broader_testing</strong></td>
+                            <td>Yes, in the sense that a driver-like kinase rearrangement was uncovered only after WGS SV analysis; the initial coding-mutation/copy-number-centric analysis did not explain the case. The rescued alteration was an in-frame SIK2 kinase-domain duplication validated by qPCR.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>driver_event_class</strong></td>
+                            <td>kinase-domain duplication / structural rearrangement</td>
+                        </tr>
+                        <tr>
+                            <td><strong>candidate_driver_gene_or_locus</strong></td>
+                            <td>SIK2 (salt inducible kinase 2)</td>
+                        </tr>
+                        <tr>
+                            <td><strong>structural_or_regulatory_activation_mechanism</strong></td>
+                            <td>In-frame duplication likely increasing kinase dosage or altering kinase regulation; the paper highlights the duplication as a kinase-domain event and notes positional proximity to an activating autophosphorylation site in the related kinase SIK1.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>functional_consequence</strong></td>
+                            <td>Putative kinase activation; the paper does not report a direct transformation assay for SIK2, so the consequence is inferential rather than experimentally demonstrated.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>co_alteration_or_combinatorial_requirement</strong></td>
+                            <td>No specific co-alteration requirement was reported.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>human_prevalence_or_enrichment</strong></td>
+                            <td>Detected as a novel rearrangement in a single tumor among 24 WGS cases; no cohort-wide frequency was provided.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>functional_or_clinical_validation</strong></td>
+                            <td>Validated by qPCR of the duplication breakpoint/structure. No downstream functional assay or clinical response data were reported.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>initial_negative_call_basis</strong></td>
+                            <td>Structured as a concise list: [exonic SNV/indel discovery by WES; SNP-array copy-number profiling; known oncogene mutation screen; no breakpoint-aware structural interpretation in the initial coding-only pass].</td>
+                        </tr>
+                        <tr>
+                            <td><strong>negative_call_failure_mode</strong></td>
+                            <td>structural_complexity</td>
+                        </tr>
+                        <tr>
+                            <td><strong>rescue_modality</strong></td>
+                            <td>wgs_sv</td>
+                        </tr>
+                        <tr>
+                            <td><strong>final_explanatory_status</strong></td>
+                            <td>rescued_noncanonical_driver</td>
+                        </tr>
+                        <tr>
+                            <td><strong>post_workup_unexplained_fraction</strong></td>
+                            <td>The expanded workup still left 15% of tumors without any hallmark alteration and 38% with three or fewer hallmark alterations.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>driver_mechanism_family</strong></td>
+                            <td>topological_boundary_disruption</td>
+                        </tr>
+                        <tr>
+                            <td><strong>signaling_activation_mode</strong></td>
+                            <td>overexpression</td>
+                        </tr>
+                        <tr>
+                            <td><strong>oncogenic_unit_type</strong></td>
+                            <td>single_gene_lesion</td>
+                        </tr>
+                        <tr>
+                            <td><strong>mechanistic_directness</strong></td>
+                            <td>likely_driver</td>
+                        </tr>
+                        <tr>
+                            <td><strong>histologic_subtype_normalized</strong></td>
+                            <td>nonmucinous_adenocarcinoma</td>
+                        </tr>
+                        <tr>
+                            <td><strong>lineage_marker_state</strong></td>
+                            <td><span class="empty-note">null</span></td>
+                        </tr>
+                        <tr>
+                            <td><strong>inferred_lineage_program</strong></td>
+                            <td><span class="empty-note">null</span></td>
+                        </tr>
+                        <tr>
+                            <td><strong>mucinous_program_evidence</strong></td>
+                            <td><span class="empty-note">null</span></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="extraction-instance-container" id="e2224.2">
+                <h3 class="extraction-instance">Extracted Data Instance 2 (e2224.2)</h3>
+                <div class="extraction-query"><strong>Extraction Query:</strong> Extract any mentions of hidden genomic, structural, regulatory, or assay-missed drivers in oncogene-negative lung adenocarcinoma.</div>
+                <table>
+                    <thead>
+                        <tr>
+                            <th style="width: 30%;">Field</th>
+                            <th style="width: 70%;">Value</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><strong>name_short</strong></td>
+                            <td>ROCK1 dup</td>
+                        </tr>
+                        <tr>
+                            <td><strong>name_full</strong></td>
+                            <td>ROCK1 in-frame multi-exon duplication</td>
+                        </tr>
+                        <tr>
+                            <td><strong>brief_description</strong></td>
+                            <td>A 19-exon duplication affecting the ROCK1 kinase was uncovered by whole-genome rearrangement analysis in a lung adenocarcinoma case lacking a known canonical oncogene mutation. The event was presented as a novel in-frame rearrangement in a serine/threonine kinase effector of Rho signaling.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>citation_title</strong></td>
+                            <td>Mapping the hallmarks of lung adenocarcinoma with massively parallel sequencing</td>
+                        </tr>
+                        <tr>
+                            <td><strong>mention_or_use</strong></td>
+                            <td>use</td>
+                        </tr>
+                        <tr>
+                            <td><strong>oncogene_negative_definition</strong></td>
+                            <td>The rearrangement was described in a tumor without mutations in known lung adenocarcinoma oncogenes, highlighting a driver-gap case resolved only by structural analysis.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>assay_strategy_and_detection_limits</strong></td>
+                            <td>Detected by WGS paired-end/split-read rearrangement mapping after exome/copy-number-centered profiling. The authors note limited power for rearrangement discovery in only 24 WGS tumors and no RNA-based fusion assay across the cohort.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>missed_driver_reclassified_after_broader_testing</strong></td>
+                            <td>Yes. The initial driver-negative assessment was overturned by WGS, which revealed a 19-exon ROCK1 duplication.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>driver_event_class</strong></td>
+                            <td>multi-exon duplication / structural rearrangement</td>
+                        </tr>
+                        <tr>
+                            <td><strong>candidate_driver_gene_or_locus</strong></td>
+                            <td>ROCK1</td>
+                        </tr>
+                        <tr>
+                            <td><strong>structural_or_regulatory_activation_mechanism</strong></td>
+                            <td>Likely structural activation through duplication of coding exons, potentially altering kinase architecture or dosage; the paper does not experimentally resolve the precise mechanism.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>functional_consequence</strong></td>
+                            <td>Putative activation of ROCK1 signaling; no direct functional assay was reported in the paper.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>co_alteration_or_combinatorial_requirement</strong></td>
+                            <td>No co-alteration requirement reported.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>human_prevalence_or_enrichment</strong></td>
+                            <td>Observed in a single WGS case; no broader prevalence estimate was provided.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>functional_or_clinical_validation</strong></td>
+                            <td>Structural validation was implied by WGS breakpoint mapping; no orthogonal functional validation or therapy response was reported.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>initial_negative_call_basis</strong></td>
+                            <td>Structured as a concise list: [WES mutation calling; SNP-array copy-number analysis; initial absence of a canonical driver mutation; no routine RNA fusion/duplication assay].</td>
+                        </tr>
+                        <tr>
+                            <td><strong>negative_call_failure_mode</strong></td>
+                            <td>structural_complexity</td>
+                        </tr>
+                        <tr>
+                            <td><strong>rescue_modality</strong></td>
+                            <td>wgs_sv</td>
+                        </tr>
+                        <tr>
+                            <td><strong>final_explanatory_status</strong></td>
+                            <td>rescued_noncanonical_driver</td>
+                        </tr>
+                        <tr>
+                            <td><strong>post_workup_unexplained_fraction</strong></td>
+                            <td>Despite expanded profiling, 15% of tumors still lacked a hallmark alteration and 38% had three or fewer.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>driver_mechanism_family</strong></td>
+                            <td>topological_boundary_disruption</td>
+                        </tr>
+                        <tr>
+                            <td><strong>signaling_activation_mode</strong></td>
+                            <td>overexpression</td>
+                        </tr>
+                        <tr>
+                            <td><strong>oncogenic_unit_type</strong></td>
+                            <td>single_gene_lesion</td>
+                        </tr>
+                        <tr>
+                            <td><strong>mechanistic_directness</strong></td>
+                            <td>likely_driver</td>
+                        </tr>
+                        <tr>
+                            <td><strong>histologic_subtype_normalized</strong></td>
+                            <td>nonmucinous_adenocarcinoma</td>
+                        </tr>
+                        <tr>
+                            <td><strong>lineage_marker_state</strong></td>
+                            <td><span class="empty-note">null</span></td>
+                        </tr>
+                        <tr>
+                            <td><strong>inferred_lineage_program</strong></td>
+                            <td><span class="empty-note">null</span></td>
+                        </tr>
+                        <tr>
+                            <td><strong>mucinous_program_evidence</strong></td>
+                            <td><span class="empty-note">null</span></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="extraction-instance-container" id="e2224.3">
+                <h3 class="extraction-instance">Extracted Data Instance 3 (e2224.3)</h3>
+                <div class="extraction-query"><strong>Extraction Query:</strong> Extract any mentions of hidden genomic, structural, regulatory, or assay-missed drivers in oncogene-negative lung adenocarcinoma.</div>
+                <table>
+                    <thead>
+                        <tr>
+                            <th style="width: 30%;">Field</th>
+                            <th style="width: 70%;">Value</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><strong>name_short</strong></td>
+                            <td>CDKN2A rearr</td>
+                        </tr>
+                        <tr>
+                            <td><strong>name_full</strong></td>
+                            <td>CDKN2A rearrangement-mediated inactivation</td>
+                        </tr>
+                        <tr>
+                            <td><strong>brief_description</strong></td>
+                            <td>CDKN2A was the most rearrangement-prone gene in the WGS subset, with out-of-frame antisense fusions and an in-frame deletion indicating structural inactivation. The paper frames rearrangements as an additional mechanism of CDKN2A loss beyond mutation, homozygous deletion, and methylation.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>citation_title</strong></td>
+                            <td>Mapping the hallmarks of lung adenocarcinoma with massively parallel sequencing</td>
+                        </tr>
+                        <tr>
+                            <td><strong>mention_or_use</strong></td>
+                            <td>use</td>
+                        </tr>
+                        <tr>
+                            <td><strong>oncogene_negative_definition</strong></td>
+                            <td>Cases lacking a canonical driver could nonetheless harbor CDKN2A loss through rearrangement; the analysis integrated mutation calls, copy-number loss, and WGS breakpoint mapping to identify such hidden suppressor loss.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>assay_strategy_and_detection_limits</strong></td>
+                            <td>WES/WGS plus SNP arrays were used; CDKN2A rearrangement detection specifically required WGS split-read/paired-end breakpoint mapping. The paper does not report methylation assays in this study, although methylation is cited as a known mechanism from prior work.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>missed_driver_reclassified_after_broader_testing</strong></td>
+                            <td>Yes. Some tumors not explained by point mutations were reclassified as having CDKN2A inactivation through rearrangements discovered by WGS.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>driver_event_class</strong></td>
+                            <td>rearrangement / deletion / antisense fusion</td>
+                        </tr>
+                        <tr>
+                            <td><strong>candidate_driver_gene_or_locus</strong></td>
+                            <td>CDKN2A</td>
+                        </tr>
+                        <tr>
+                            <td><strong>structural_or_regulatory_activation_mechanism</strong></td>
+                            <td>Tumor suppressor inactivation via out-of-frame rearrangements, antisense fusions, or deletion leading to loss of gene function.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>functional_consequence</strong></td>
+                            <td>Loss of CDKN2A tumor-suppressor activity and cell-cycle checkpoint control.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>co_alteration_or_combinatorial_requirement</strong></td>
+                            <td>The authors note CDKN2A can also be inactivated by mutation, homozygous deletion, and methylation, implying multi-modal multi-hit suppression.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>human_prevalence_or_enrichment</strong></td>
+                            <td>Highest rearrangement rate for gene size: 4.3 rearrangements per sequenced Mb; two cases had out-of-frame antisense fusions and a third had an in-frame deletion.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>functional_or_clinical_validation</strong></td>
+                            <td>Orthogonal validation of genic fusions by PCR and Illumina sequencing was performed for tested rearrangements; the inactivation interpretation is consistent with prior CDKN2A biology but not directly assayed here.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>initial_negative_call_basis</strong></td>
+                            <td>Structured as a concise list: [exonic mutation analysis; copy-number analysis; driver definition requiring coding hotspot mutation or focal SCNA; rearrangement was a separate layer not captured by exome-only negative call].</td>
+                        </tr>
+                        <tr>
+                            <td><strong>negative_call_failure_mode</strong></td>
+                            <td>structural_complexity</td>
+                        </tr>
+                        <tr>
+                            <td><strong>rescue_modality</strong></td>
+                            <td>wgs_sv</td>
+                        </tr>
+                        <tr>
+                            <td><strong>final_explanatory_status</strong></td>
+                            <td>rescued_noncanonical_driver</td>
+                        </tr>
+                        <tr>
+                            <td><strong>post_workup_unexplained_fraction</strong></td>
+                            <td>15% of tumors had no hallmark alteration; 38% had three or fewer hallmark alterations.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>driver_mechanism_family</strong></td>
+                            <td>tumor_suppressor_negative_regulator_loss</td>
+                        </tr>
+                        <tr>
+                            <td><strong>signaling_activation_mode</strong></td>
+                            <td>loss_of_gap_function</td>
+                        </tr>
+                        <tr>
+                            <td><strong>oncogenic_unit_type</strong></td>
+                            <td>single_gene_lesion</td>
+                        </tr>
+                        <tr>
+                            <td><strong>mechanistic_directness</strong></td>
+                            <td>direct_driver</td>
+                        </tr>
+                        <tr>
+                            <td><strong>histologic_subtype_normalized</strong></td>
+                            <td>nonmucinous_adenocarcinoma</td>
+                        </tr>
+                        <tr>
+                            <td><strong>lineage_marker_state</strong></td>
+                            <td><span class="empty-note">null</span></td>
+                        </tr>
+                        <tr>
+                            <td><strong>inferred_lineage_program</strong></td>
+                            <td><span class="empty-note">null</span></td>
+                        </tr>
+                        <tr>
+                            <td><strong>mucinous_program_evidence</strong></td>
+                            <td><span class="empty-note">null</span></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="extraction-instance-container" id="e2224.4">
+                <h3 class="extraction-instance">Extracted Data Instance 4 (e2224.4)</h3>
+                <div class="extraction-query"><strong>Extraction Query:</strong> Extract any mentions of hidden genomic, structural, regulatory, or assay-missed drivers in oncogene-negative lung adenocarcinoma.</div>
+                <table>
+                    <thead>
+                        <tr>
+                            <th style="width: 30%;">Field</th>
+                            <th style="width: 70%;">Value</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><strong>name_short</strong></td>
+                            <td>STK11 del</td>
+                        </tr>
+                        <tr>
+                            <td><strong>name_full</strong></td>
+                            <td>STK11 2.5 kb deletion removing the translational start site</td>
+                        </tr>
+                        <tr>
+                            <td><strong>brief_description</strong></td>
+                            <td>A truncating rearrangement deleting the STK11 translational start site was identified as an additional tumor-suppressor lesion in lung adenocarcinoma. This was presented as a structural mechanism of inactivation not necessarily captured by SNV-centric analysis alone.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>citation_title</strong></td>
+                            <td>Mapping the hallmarks of lung adenocarcinoma with massively parallel sequencing</td>
+                        </tr>
+                        <tr>
+                            <td><strong>mention_or_use</strong></td>
+                            <td>use</td>
+                        </tr>
+                        <tr>
+                            <td><strong>oncogene_negative_definition</strong></td>
+                            <td>Within tumors lacking canonical driver alterations, the study looked for copy-number and rearrangement events affecting known tumor suppressors such as STK11; a negative exonic mutation call did not exclude structural inactivation.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>assay_strategy_and_detection_limits</strong></td>
+                            <td>The deletion was found by WGS rearrangement mapping. Blind spots include the small number of WGS samples and the lack of a dedicated RNA assay or methylation profiling for all tumors.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>missed_driver_reclassified_after_broader_testing</strong></td>
+                            <td>Yes. A tumor that was not explained by coding mutation analysis was reclassified after WGS revealed a 2.5 kb STK11 deletion removing the translational start site.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>driver_event_class</strong></td>
+                            <td>focal deletion</td>
+                        </tr>
+                        <tr>
+                            <td><strong>candidate_driver_gene_or_locus</strong></td>
+                            <td>STK11</td>
+                        </tr>
+                        <tr>
+                            <td><strong>structural_or_regulatory_activation_mechanism</strong></td>
+                            <td>Loss-of-function deletion removing the translational start site, thereby eliminating STK11 protein production or function.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>functional_consequence</strong></td>
+                            <td>Tumor-suppressor loss affecting LKB1/STK11 signaling.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>co_alteration_or_combinatorial_requirement</strong></td>
+                            <td>No explicit co-alteration requirement was reported, though STK11 alterations were correlated with mutation spectrum cluster 2.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>human_prevalence_or_enrichment</strong></td>
+                            <td>A specific case-level event is described; broader frequency for this exact deletion is not given in the paper.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>functional_or_clinical_validation</strong></td>
+                            <td>Breakpoint-level structural detection by WGS; broader biological relevance is supported by known STK11 tumor-suppressor biology, but no direct assay of this deletion was reported.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>initial_negative_call_basis</strong></td>
+                            <td>Structured as a concise list: [WES coding mutation scan; SNP-array SCNA profiling; lack of a point mutation did not exclude structural deletion].</td>
+                        </tr>
+                        <tr>
+                            <td><strong>negative_call_failure_mode</strong></td>
+                            <td>structural_complexity</td>
+                        </tr>
+                        <tr>
+                            <td><strong>rescue_modality</strong></td>
+                            <td>wgs_sv</td>
+                        </tr>
+                        <tr>
+                            <td><strong>final_explanatory_status</strong></td>
+                            <td>rescued_noncanonical_driver</td>
+                        </tr>
+                        <tr>
+                            <td><strong>post_workup_unexplained_fraction</strong></td>
+                            <td>Even after expanded workup, 15% of tumors had no hallmark alteration and 38% had three or fewer.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>driver_mechanism_family</strong></td>
+                            <td>tumor_suppressor_negative_regulator_loss</td>
+                        </tr>
+                        <tr>
+                            <td><strong>signaling_activation_mode</strong></td>
+                            <td>loss_of_gap_function</td>
+                        </tr>
+                        <tr>
+                            <td><strong>oncogenic_unit_type</strong></td>
+                            <td>single_gene_lesion</td>
+                        </tr>
+                        <tr>
+                            <td><strong>mechanistic_directness</strong></td>
+                            <td>direct_driver</td>
+                        </tr>
+                        <tr>
+                            <td><strong>histologic_subtype_normalized</strong></td>
+                            <td>nonmucinous_adenocarcinoma</td>
+                        </tr>
+                        <tr>
+                            <td><strong>lineage_marker_state</strong></td>
+                            <td><span class="empty-note">null</span></td>
+                        </tr>
+                        <tr>
+                            <td><strong>inferred_lineage_program</strong></td>
+                            <td><span class="empty-note">null</span></td>
+                        </tr>
+                        <tr>
+                            <td><strong>mucinous_program_evidence</strong></td>
+                            <td><span class="empty-note">null</span></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="extraction-instance-container" id="e2224.5">
+                <h3 class="extraction-instance">Extracted Data Instance 5 (e2224.5)</h3>
+                <div class="extraction-query"><strong>Extraction Query:</strong> Extract any mentions of hidden genomic, structural, regulatory, or assay-missed drivers in oncogene-negative lung adenocarcinoma.</div>
+                <table>
+                    <thead>
+                        <tr>
+                            <th style="width: 30%;">Field</th>
+                            <th style="width: 70%;">Value</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><strong>name_short</strong></td>
+                            <td>APC rearr</td>
+                        </tr>
+                        <tr>
+                            <td><strong>name_full</strong></td>
+                            <td>APC mid-exon rearrangement</td>
+                        </tr>
+                        <tr>
+                            <td><strong>brief_description</strong></td>
+                            <td>The paper reports an APC rearrangement affecting a mid-exon region as an additional truncating event in lung adenocarcinoma. It is listed among tumor-suppressor lesions uncovered by whole-genome rearrangement analysis.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>citation_title</strong></td>
+                            <td>Mapping the hallmarks of lung adenocarcinoma with massively parallel sequencing</td>
+                        </tr>
+                        <tr>
+                            <td><strong>mention_or_use</strong></td>
+                            <td>use</td>
+                        </tr>
+                        <tr>
+                            <td><strong>oncogene_negative_definition</strong></td>
+                            <td>As with other structural lesions, APC rearrangement was identified in the broader search for hidden drivers among tumors not fully explained by canonical coding mutations and copy-number events.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>assay_strategy_and_detection_limits</strong></td>
+                            <td>Detected by WGS rearrangement mapping; the paper emphasizes that rearrangements are not captured by exome-only analysis and that rearrangement power was limited in 24 WGS cases.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>missed_driver_reclassified_after_broader_testing</strong></td>
+                            <td>Yes. APC inactivation was recognized via WGS mid-exon rearrangement rather than by initial exome-based driver calling.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>driver_event_class</strong></td>
+                            <td>rearrangement</td>
+                        </tr>
+                        <tr>
+                            <td><strong>candidate_driver_gene_or_locus</strong></td>
+                            <td>APC</td>
+                        </tr>
+                        <tr>
+                            <td><strong>structural_or_regulatory_activation_mechanism</strong></td>
+                            <td>Truncating rearrangement causing loss of APC tumor-suppressor function.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>functional_consequence</strong></td>
+                            <td>Loss of APC-mediated Wnt pathway restraint.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>co_alteration_or_combinatorial_requirement</strong></td>
+                            <td>No explicit combination was reported.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>human_prevalence_or_enrichment</strong></td>
+                            <td>Single-case structural event reported; no cohort-level frequency was given.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>functional_or_clinical_validation</strong></td>
+                            <td>WGS breakpoint mapping served as the structural evidence; no direct functional assay was reported.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>initial_negative_call_basis</strong></td>
+                            <td>Structured as a concise list: [exome mutation calling; SCNA analysis; structural lesion not inferable from SNV-only pipeline].</td>
+                        </tr>
+                        <tr>
+                            <td><strong>negative_call_failure_mode</strong></td>
+                            <td>structural_complexity</td>
+                        </tr>
+                        <tr>
+                            <td><strong>rescue_modality</strong></td>
+                            <td>wgs_sv</td>
+                        </tr>
+                        <tr>
+                            <td><strong>final_explanatory_status</strong></td>
+                            <td>rescued_noncanonical_driver</td>
+                        </tr>
+                        <tr>
+                            <td><strong>post_workup_unexplained_fraction</strong></td>
+                            <td>15% of tumors still had no hallmark alteration after expanded profiling.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>driver_mechanism_family</strong></td>
+                            <td>tumor_suppressor_negative_regulator_loss</td>
+                        </tr>
+                        <tr>
+                            <td><strong>signaling_activation_mode</strong></td>
+                            <td>loss_of_gap_function</td>
+                        </tr>
+                        <tr>
+                            <td><strong>oncogenic_unit_type</strong></td>
+                            <td>single_gene_lesion</td>
+                        </tr>
+                        <tr>
+                            <td><strong>mechanistic_directness</strong></td>
+                            <td>likely_driver</td>
+                        </tr>
+                        <tr>
+                            <td><strong>histologic_subtype_normalized</strong></td>
+                            <td>nonmucinous_adenocarcinoma</td>
+                        </tr>
+                        <tr>
+                            <td><strong>lineage_marker_state</strong></td>
+                            <td><span class="empty-note">null</span></td>
+                        </tr>
+                        <tr>
+                            <td><strong>inferred_lineage_program</strong></td>
+                            <td><span class="empty-note">null</span></td>
+                        </tr>
+                        <tr>
+                            <td><strong>mucinous_program_evidence</strong></td>
+                            <td><span class="empty-note">null</span></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>Potentially Relevant New Papers (mentioned by this paper)</h2>
+            <ol>
+                <li>Somatic mutations affect key pathways in lung adenocarcinoma <em>(Rating: 2)</em></li>
+                <li>The mutation spectrum revealed by paired genome sequences from a lung cancer patient <em>(Rating: 1)</em></li>
+                <li>RET, ROS1 and ALK fusions in lung cancer <em>(Rating: 1)</em></li>
+                <li>A transforming KIF5B and RET gene fusion in lung adenocarcinoma revealed from whole-genome and transcriptome sequencing <em>(Rating: 1)</em></li>
+                <li>Diverse somatic mutation patterns and pathway alterations in human cancers <em>(Rating: 1)</em></li>
+            </ol>
+        </div>
+
+        </div>
+
+    </div>
+</body>
+</html>

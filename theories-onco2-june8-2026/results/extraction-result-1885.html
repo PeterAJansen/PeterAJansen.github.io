@@ -1,0 +1,508 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Extraction extraction-result-1885 - Theorizer</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+    <div class="header">
+        <a href="../index.html"><i class="fas fa-flask"></i> Theorizer</a>
+    </div>
+
+    <div class="content">
+        <h1>Extracted Data Details for extraction-result-1885</h1>
+
+        <div class="section">
+            <h2>Extracted Data (Header)</h2>
+            <div class="info-section">
+                <p><strong>Extraction ID:</strong> extraction-result-1885</p>
+                <p><strong>Extraction Schema Used (ID):</strong> <a href="../schemas/extraction-schema-1841.html">extraction-schema-1841</a></p>
+                <div class="extraction-query"><strong>Extraction Query:</strong> Extract any mentions of driver-negative or oncogene-negative lung adenocarcinoma cases, cohorts, models, or subgroups; the evidence for why they are considered driver-negative; candidate alternative drivers or mechanisms; proposed subtypes; validation strategies; comparisons to other cancers; and therapeutic implications.</div>
+                <p><strong>Paper ID:</strong> paper-f6b852fc0cd7d7840725fc99314ebd53846afdf7</p>
+                <p><strong>Paper Title:</strong> <a href="https://www.semanticscholar.org/paper/f6b852fc0cd7d7840725fc99314ebd53846afdf7" target="_blank">Oncogenic and drug sensitive NTRK1 rearrangements in lung cancer</a></p>
+                <p><strong>Paper Venue:</strong> Nature Medicine</p>
+                <p><strong>Paper TL;DR:</strong> Tumor samples from 3 of 91 patients with lung cancer without known oncogenic alterations assayed by next-generation sequencing or fluorescence in situ hybridization demonstrated evidence of NTRK1 gene fusions.</p>
+                <p><strong>Paper Abstract:</strong> We identified new gene fusions in patients with lung cancer harboring the kinase domain of the NTRK1 gene that encodes the high-affinity nerve growth factor receptor (TRKA protein). Both the MPRIP-NTRK1 and CD74-NTRK1 fusions lead to constitutive TRKA kinase activity and are oncogenic. Treatment of cells expressing NTRK1 fusions with inhibitors of TRKA kinase activity inhibited autophosphorylation of TRKA and cell growth. Tumor samples from 3 of 91 patients with lung cancer (3.3%) without known oncogenic alterations assayed by next-generation sequencing or fluorescence in situ hybridization demonstrated evidence of NTRK1 gene fusions.</p>
+                <p><strong>Cost:</strong> 0.025</p>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>Extracted Data (Details)</h2>
+            <div class="extraction-instance-container" id="e1885.0">
+                <h3 class="extraction-instance">Extracted Data Instance 0 (e1885.0)</h3>
+                <div class="extraction-query"><strong>Extraction Query:</strong> Extract any mentions of driver-negative or oncogene-negative lung adenocarcinoma cases, cohorts, models, or subgroups; the evidence for why they are considered driver-negative; candidate alternative drivers or mechanisms; proposed subtypes; validation strategies; comparisons to other cancers; and therapeutic implications.</div>
+                <table>
+                    <thead>
+                        <tr>
+                            <th style="width: 30%;">Field</th>
+                            <th style="width: 70%;">Value</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><strong>name_short</strong></td>
+                            <td>driver-negative LUAD cohort</td>
+                        </tr>
+                        <tr>
+                            <td><strong>name_full</strong></td>
+                            <td>Lung adenocarcinoma tumors without known oncogenic alterations by standard clinical assays</td>
+                        </tr>
+                        <tr>
+                            <td><strong>brief_description</strong></td>
+                            <td>A subset of lung adenocarcinoma patients whose tumors were reported to lack known genetic alterations on standard clinical testing. The paper then interrogated these tumors for occult rearrangements and found recurrent NTRK1 fusions.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>citation_title</strong></td>
+                            <td>Oncogenic and drug sensitive NTRK1 rearrangements in lung cancer</td>
+                        </tr>
+                        <tr>
+                            <td><strong>mention_or_use</strong></td>
+                            <td>use</td>
+                        </tr>
+                        <tr>
+                            <td><strong>cohort_or_model</strong></td>
+                            <td>36 lung adenocarcinoma patient tumors initially negative by standard clinical assays; additional 56 lung adenocarcinoma samples screened by FISH; overall 91 lung cancer patients referenced in the abstract</td>
+                        </tr>
+                        <tr>
+                            <td><strong>cancer_context</strong></td>
+                            <td>Lung adenocarcinoma / NSCLC, focusing on tumors lacking known oncogenic alterations</td>
+                        </tr>
+                        <tr>
+                            <td><strong>driver_negative_definition</strong></td>
+                            <td>Tumors did not contain known genetic alterations using standard clinical assays; the study specifically screened tumors without detectable oncogenic alterations and later detected NTRK1 rearrangements by targeted NGS/FISH. The paper does not list a full negative panel in the main text, but frames these as cases lacking known oncogenic alterations at the time of clinical testing.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>driver_negative_frequency</strong></td>
+                            <td>3 of 91 lung cancer patients (3.3%) in the abstract; within the targeted lung adenocarcinoma cohort, 2 of 36 (5.6%) were positive for NTRK1 fusions, with 1 additional positive among 56 more screened by FISH.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>profiling_modalities</strong></td>
+                            <td>Targeted next-generation DNA sequencing with hybrid capture of cancer-related genes and introns; RNA RT-PCR and cDNA cloning; fluorescence in situ hybridization (break-apart and fusion FISH); quantitative PCR for NTRK1 kinase-domain expression; transcriptome data comparison to TCGA and an independent lung adenocarcinoma transcriptome study; functional validation in cell lines and mouse xenografts</td>
+                        </tr>
+                        <tr>
+                            <td><strong>candidate_mechanism_category</strong></td>
+                            <td>fusion/rearrangement</td>
+                        </tr>
+                        <tr>
+                            <td><strong>candidate_driver_or_mechanism</strong></td>
+                            <td>NTRK1 gene fusions, especially MPRIP-NTRK1 and CD74-NTRK1</td>
+                        </tr>
+                        <tr>
+                            <td><strong>mechanistic_description</strong></td>
+                            <td>In-frame rearrangements retain the NTRK1 kinase domain and fuse it to 5′ partners that likely promote constitutive TRKA activation through dimerization or membrane localization. The resulting fusion proteins autophosphorylate, activate MAPK/ERK and PI3K/AKT signaling, and drive growth and tumorigenicity.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>evidence_type</strong></td>
+                            <td>recurrent alteration in tumors; orthogonal sequencing/FISH confirmation; expression confirmation; functional perturbation and drug sensitivity</td>
+                        </tr>
+                        <tr>
+                            <td><strong>key_evidence</strong></td>
+                            <td>Targeted NGS identified two in-frame NTRK1 fusions in 36 oncogene-negative lung adenocarcinomas, and FISH screening found one additional case among 56 more samples. RT-PCR/cloning confirmed exon junctions and mRNA expression; fusion proteins were detected in patient material and CUTO-3 cells, showed autophosphorylation at TRKA tyrosines, induced IL-3-independent Ba/F3 proliferation, anchorage-independent growth, and tumor formation in nude mice; knockdown of TPM3-NTRK1 in KM12 reduced proliferation.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>negative_or_counter_evidence</strong></td>
+                            <td>The study did not identify NTRK1 fusions in TCGA transcriptome data from 230 lung adenocarcinomas or in a separate transcriptome study of 87 lung adenocarcinoma samples. The index patient had only a minor radiographic response to crizotinib and progressed after about 3 months.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>subtype_name</strong></td>
+                            <td><span class="empty-note">null</span></td>
+                        </tr>
+                        <tr>
+                            <td><strong>subtype_features</strong></td>
+                            <td>Lung adenocarcinomas with no known oncogenic alterations on standard clinical assays, enriched for rare NTRK1 rearrangements detectable by NGS/FISH; the paper does not define a broader molecular subtype beyond NTRK1-rearranged disease.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>parallel_in_other_cancers</strong></td>
+                            <td>The paper notes analogous kinase fusions in colorectal and thyroid cancers, including TPM3-NTRK1, TFG-NTRK1, and TPR-NTRK1; it also mentions TPM3-NTRK1 in the KM12 colorectal cell line and compares NTRK1 fusions to ALK and ROS1 fusion-positive lung cancer.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>validation_approach</strong></td>
+                            <td>Orthogonal validation by RT-PCR and sequencing of fusion junctions; FISH break-apart assay with an NTRK1 probe; quantitative PCR for NTRK1 kinase-domain overexpression; expression of cDNA constructs in 293T, NIH3T3, and Ba/F3 cells; kinase-dead controls; xenografts in nude mice; siRNA knockdown in KM12; drug inhibition with TRKA inhibitors.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>validation_result</strong></td>
+                            <td>RT-PCR and sequencing confirmed both fusion transcripts; FISH showed separation of NTRK1 probe signals in fusion-positive tumors; qPCR showed high NTRK1 kinase-domain expression only in rearranged tumors and KM12; kinase-dead mutants abolished autophosphorylation and transformation phenotypes; fusion constructs drove IL-3-independent growth, soft-agar growth, and tumorigenicity; TRKA inhibitors suppressed signaling and proliferation.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>therapeutic_implication</strong></td>
+                            <td>Selective TRKA/ pan-TRK inhibition may be an effective treatment strategy for NTRK1-rearranged NSCLC, and NTRK1 rearrangement could serve as a predictive biomarker.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>therapeutic_evidence</strong></td>
+                            <td>ARRY-470 and CEP-701 strongly inhibited TRKA autophosphorylation, downstream signaling, and proliferation in fusion-expressing cells; crizotinib had weaker but detectable activity and was used in the index patient, who had only a minor temporary response. The authors conclude that clinical studies of selective TRKA inhibitors are warranted.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>clinical_or_demographic_association</strong></td>
+                            <td>The paper does not provide a detailed demographic pattern for the driver-negative subset; the index patient had no standard therapies available and was treated off-trial with crizotinib.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>study_limitations</strong></td>
+                            <td>Small number of positive cases; incomplete description of the exact standard-assay negative driver panel in the main text; fusion prevalence may be underestimated because transcriptome studies failed to detect fusions and assay sensitivity varies; limited clinical evidence from only one treated patient.</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="extraction-instance-container" id="e1885.1">
+                <h3 class="extraction-instance">Extracted Data Instance 1 (e1885.1)</h3>
+                <div class="extraction-query"><strong>Extraction Query:</strong> Extract any mentions of driver-negative or oncogene-negative lung adenocarcinoma cases, cohorts, models, or subgroups; the evidence for why they are considered driver-negative; candidate alternative drivers or mechanisms; proposed subtypes; validation strategies; comparisons to other cancers; and therapeutic implications.</div>
+                <table>
+                    <thead>
+                        <tr>
+                            <th style="width: 30%;">Field</th>
+                            <th style="width: 70%;">Value</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><strong>name_short</strong></td>
+                            <td>MPRIP-NTRK1</td>
+                        </tr>
+                        <tr>
+                            <td><strong>name_full</strong></td>
+                            <td>MPRIP-NTRK1 gene fusion</td>
+                        </tr>
+                        <tr>
+                            <td><strong>brief_description</strong></td>
+                            <td>An in-frame fusion joining the 5′ end of MPRIP to the 3′ kinase domain of NTRK1. It was identified in an oncogene-negative lung adenocarcinoma and shown to produce an autophosphorylated, transforming TRKA fusion protein.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>citation_title</strong></td>
+                            <td>Oncogenic and drug sensitive NTRK1 rearrangements in lung cancer</td>
+                        </tr>
+                        <tr>
+                            <td><strong>mention_or_use</strong></td>
+                            <td>use</td>
+                        </tr>
+                        <tr>
+                            <td><strong>cohort_or_model</strong></td>
+                            <td>Index lung adenocarcinoma tumor, malignant pleural effusion sample, early passage CUTO-3 cells, transfected 293T/NIH3T3/Ba/F3 cells, nude mouse xenografts</td>
+                        </tr>
+                        <tr>
+                            <td><strong>cancer_context</strong></td>
+                            <td>Lung adenocarcinoma / NSCLC</td>
+                        </tr>
+                        <tr>
+                            <td><strong>driver_negative_definition</strong></td>
+                            <td>Found in a patient tumor lacking known oncogenic alterations by standard clinical assays.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>driver_negative_frequency</strong></td>
+                            <td>Part of the 2/36 NGS-positive cases and included in the 3/91 overall NTRK1-fusion-positive lung cancer cases mentioned in the abstract</td>
+                        </tr>
+                        <tr>
+                            <td><strong>profiling_modalities</strong></td>
+                            <td>Targeted NGS, RT-PCR, cloning, immunoblotting, FISH, qPCR, functional cell assays, xenografts</td>
+                        </tr>
+                        <tr>
+                            <td><strong>candidate_mechanism_category</strong></td>
+                            <td>fusion/rearrangement</td>
+                        </tr>
+                        <tr>
+                            <td><strong>candidate_driver_or_mechanism</strong></td>
+                            <td>MPRIP-NTRK1</td>
+                        </tr>
+                        <tr>
+                            <td><strong>mechanistic_description</strong></td>
+                            <td>The fusion preserves the TRKA kinase domain and uses MPRIP coiled-coil domains as a likely dimerization module, leading to constitutive kinase activation, phosphorylation of downstream signaling proteins, and transformation.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>evidence_type</strong></td>
+                            <td>recurrent alteration in tumors; orthogonal validation; functional transformation; drug sensitivity</td>
+                        </tr>
+                        <tr>
+                            <td><strong>key_evidence</strong></td>
+                            <td>Detected by targeted NGS; RT-PCR and cloning confirmed exon junctions and mRNA expression; fusion protein was detected in patient material and CUTO-3 cells; CUTO-3 showed autophosphorylation at critical TRKA tyrosines; the construct drove IL-3-independent Ba/F3 growth, NIH3T3 anchorage-independent growth, and nude-mouse tumor formation.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>negative_or_counter_evidence</strong></td>
+                            <td>Crizotinib treatment of the index patient yielded only minor radiographic response and progression after approximately 3 months.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>subtype_name</strong></td>
+                            <td><span class="empty-note">null</span></td>
+                        </tr>
+                        <tr>
+                            <td><strong>subtype_features</strong></td>
+                            <td>NTRK1-rearranged lung adenocarcinoma; MPRIP partner provides coiled-coil motifs and likely dimerization potential</td>
+                        </tr>
+                        <tr>
+                            <td><strong>parallel_in_other_cancers</strong></td>
+                            <td>The paper notes MPRIP involvement in a gene fusion in small cell lung cancer, though for a different proposed consequence, and discusses NTRK1 fusions more broadly in colorectal and thyroid cancers.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>validation_approach</strong></td>
+                            <td>RT-PCR/sequencing, FISH break-apart assay, expression in cell lines, kinase-dead mutant comparison, xenograft tumorigenicity, drug inhibition, qPCR, patient treatment observation</td>
+                        </tr>
+                        <tr>
+                            <td><strong>validation_result</strong></td>
+                            <td>Confirmed fusion transcript and genomic rearrangement; fusion protein autophosphorylated; kinase-dead variant lost activity; fusion conferred growth/tumorigenicity; TRKA inhibitors blocked signaling and proliferation.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>therapeutic_implication</strong></td>
+                            <td>Potential sensitivity to selective TRKA inhibitors and, less potently, crizotinib.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>therapeutic_evidence</strong></td>
+                            <td>ARRY-470 and CEP-701 inhibited autophosphorylation and proliferation; crizotinib had weaker in vitro activity and was associated with only modest temporary clinical benefit.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>clinical_or_demographic_association</strong></td>
+                            <td>Index patient is female (as stated via 'she'); otherwise no strong demographic pattern given.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>study_limitations</strong></td>
+                            <td>Single index case for clinical treatment; modest clinical response to crizotinib; broader prevalence unknown.</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="extraction-instance-container" id="e1885.2">
+                <h3 class="extraction-instance">Extracted Data Instance 2 (e1885.2)</h3>
+                <div class="extraction-query"><strong>Extraction Query:</strong> Extract any mentions of driver-negative or oncogene-negative lung adenocarcinoma cases, cohorts, models, or subgroups; the evidence for why they are considered driver-negative; candidate alternative drivers or mechanisms; proposed subtypes; validation strategies; comparisons to other cancers; and therapeutic implications.</div>
+                <table>
+                    <thead>
+                        <tr>
+                            <th style="width: 30%;">Field</th>
+                            <th style="width: 70%;">Value</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><strong>name_short</strong></td>
+                            <td>CD74-NTRK1</td>
+                        </tr>
+                        <tr>
+                            <td><strong>name_full</strong></td>
+                            <td>CD74-NTRK1 gene fusion</td>
+                        </tr>
+                        <tr>
+                            <td><strong>brief_description</strong></td>
+                            <td>An in-frame fusion joining CD74 to the kinase domain of NTRK1. The fusion was detected in lung adenocarcinoma and shown experimentally to be oncogenic and drug sensitive.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>citation_title</strong></td>
+                            <td>Oncogenic and drug sensitive NTRK1 rearrangements in lung cancer</td>
+                        </tr>
+                        <tr>
+                            <td><strong>mention_or_use</strong></td>
+                            <td>use</td>
+                        </tr>
+                        <tr>
+                            <td><strong>cohort_or_model</strong></td>
+                            <td>Lung adenocarcinoma tumor; transfected 293T, NIH3T3, and Ba/F3 cells; nude mice</td>
+                        </tr>
+                        <tr>
+                            <td><strong>cancer_context</strong></td>
+                            <td>Lung adenocarcinoma / NSCLC</td>
+                        </tr>
+                        <tr>
+                            <td><strong>driver_negative_definition</strong></td>
+                            <td>Identified in a tumor that lacked known oncogenic alterations by standard clinical assays.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>driver_negative_frequency</strong></td>
+                            <td>Part of the 2/36 NGS-positive cases and within the 3/91 overall NTRK1-fusion-positive lung cancer cases</td>
+                        </tr>
+                        <tr>
+                            <td><strong>profiling_modalities</strong></td>
+                            <td>Targeted NGS, RT-PCR, cDNA cloning, immunoblotting, FISH, functional cell assays, xenografts, drug treatment</td>
+                        </tr>
+                        <tr>
+                            <td><strong>candidate_mechanism_category</strong></td>
+                            <td>fusion/rearrangement</td>
+                        </tr>
+                        <tr>
+                            <td><strong>candidate_driver_or_mechanism</strong></td>
+                            <td>CD74-NTRK1</td>
+                        </tr>
+                        <tr>
+                            <td><strong>mechanistic_description</strong></td>
+                            <td>CD74 is a known activating fusion partner in other receptor tyrosine kinase fusions; here it likely contributes membrane localization and/or oligomerization to activate the NTRK1 kinase domain constitutively.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>evidence_type</strong></td>
+                            <td>recurrent alteration in tumors; orthogonal validation; functional transformation; drug sensitivity</td>
+                        </tr>
+                        <tr>
+                            <td><strong>key_evidence</strong></td>
+                            <td>Confirmed by RT-PCR and cDNA cloning; expression of the fusion protein was shown in transfected cells; the protein autophosphorylated, activated MAPK/AKT signaling, induced IL-3-independent Ba/F3 proliferation, drove NIH3T3 anchorage-independent growth, and formed tumors in nude mice.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>negative_or_counter_evidence</strong></td>
+                            <td>No direct clinical response data for this fusion was reported; the lung transcriptome studies cited did not detect NTRK1 fusions in large cohorts.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>subtype_name</strong></td>
+                            <td><span class="empty-note">null</span></td>
+                        </tr>
+                        <tr>
+                            <td><strong>subtype_features</strong></td>
+                            <td>NTRK1-rearranged lung adenocarcinoma with CD74 as the 5′ partner; predicted plasma membrane localization</td>
+                        </tr>
+                        <tr>
+                            <td><strong>parallel_in_other_cancers</strong></td>
+                            <td>CD74 is described as a known activating fusion partner of ROS1, and the paper broadly compares to ALK/ROS1 fusion-positive cancers as precedent for targetability.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>validation_approach</strong></td>
+                            <td>RT-PCR/sequencing, FISH, expression in model cells, kinase-dead comparison, xenograft assays, inhibitor testing</td>
+                        </tr>
+                        <tr>
+                            <td><strong>validation_result</strong></td>
+                            <td>Fusion transcript and genomic rearrangement validated; autophosphorylation and downstream signaling observed; cellular transformation and tumor formation demonstrated; TRKA inhibitors suppressed signaling and growth.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>therapeutic_implication</strong></td>
+                            <td>Potential sensitivity to selective TRKA inhibitors; possible off-label relevance of multi-kinase inhibitors with TRKA activity.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>therapeutic_evidence</strong></td>
+                            <td>ARRY-470 and CEP-701 most strongly inhibited signaling and proliferation in fusion models; crizotinib was less potent.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>clinical_or_demographic_association</strong></td>
+                            <td>No specific demographic association reported.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>study_limitations</strong></td>
+                            <td>No patient-level clinical response reported; rare event; broad screening cohorts were limited and transcriptome-based surveys were negative.</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="extraction-instance-container" id="e1885.3">
+                <h3 class="extraction-instance">Extracted Data Instance 3 (e1885.3)</h3>
+                <div class="extraction-query"><strong>Extraction Query:</strong> Extract any mentions of driver-negative or oncogene-negative lung adenocarcinoma cases, cohorts, models, or subgroups; the evidence for why they are considered driver-negative; candidate alternative drivers or mechanisms; proposed subtypes; validation strategies; comparisons to other cancers; and therapeutic implications.</div>
+                <table>
+                    <thead>
+                        <tr>
+                            <th style="width: 30%;">Field</th>
+                            <th style="width: 70%;">Value</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><strong>name_short</strong></td>
+                            <td>CUTO-3</td>
+                        </tr>
+                        <tr>
+                            <td><strong>name_full</strong></td>
+                            <td>CUTO-3 lung cancer cell line harboring MPRIP-NTRK1</td>
+                        </tr>
+                        <tr>
+                            <td><strong>brief_description</strong></td>
+                            <td>An early passage lung cancer cell line derived from a malignant pleural effusion sample that expresses endogenous MPRIP-NTRK1. It was used as a patient-derived functional model to show TRKA autophosphorylation and drug sensitivity.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>citation_title</strong></td>
+                            <td>Oncogenic and drug sensitive NTRK1 rearrangements in lung cancer</td>
+                        </tr>
+                        <tr>
+                            <td><strong>mention_or_use</strong></td>
+                            <td>use</td>
+                        </tr>
+                        <tr>
+                            <td><strong>cohort_or_model</strong></td>
+                            <td>CUTO-3 cell line and malignant pleural effusion sample from the index patient</td>
+                        </tr>
+                        <tr>
+                            <td><strong>cancer_context</strong></td>
+                            <td>Lung cancer / lung adenocarcinoma</td>
+                        </tr>
+                        <tr>
+                            <td><strong>driver_negative_definition</strong></td>
+                            <td>Derived from a patient tumor harboring an NTRK1 rearrangement discovered in a driver-negative context.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>driver_negative_frequency</strong></td>
+                            <td><span class="empty-note">null</span></td>
+                        </tr>
+                        <tr>
+                            <td><strong>profiling_modalities</strong></td>
+                            <td>Protein immunoblotting, drug treatment, qPCR, RT-PCR, FISH, cell growth assays</td>
+                        </tr>
+                        <tr>
+                            <td><strong>candidate_mechanism_category</strong></td>
+                            <td>fusion/rearrangement</td>
+                        </tr>
+                        <tr>
+                            <td><strong>candidate_driver_or_mechanism</strong></td>
+                            <td>Endogenous MPRIP-NTRK1 fusion protein (RIP-TRKA)</td>
+                        </tr>
+                        <tr>
+                            <td><strong>mechanistic_description</strong></td>
+                            <td>The cell line expresses the fusion protein and displays constitutive TRKA autophosphorylation, supporting the fusion as the dominant oncogenic driver.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>evidence_type</strong></td>
+                            <td>patient-derived model validation and drug sensitivity</td>
+                        </tr>
+                        <tr>
+                            <td><strong>key_evidence</strong></td>
+                            <td>CUTO-3 cells expressed RIP-TRKA in patient material and culture; the fusion showed autophosphorylation at critical TRKA tyrosines; phosphorylation was inhibited by ARRY-470, CEP-701, and to a lesser extent crizotinib.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>negative_or_counter_evidence</strong></td>
+                            <td>None stated for the model itself.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>subtype_name</strong></td>
+                            <td><span class="empty-note">null</span></td>
+                        </tr>
+                        <tr>
+                            <td><strong>subtype_features</strong></td>
+                            <td>Endogenously fusion-positive lung cancer model</td>
+                        </tr>
+                        <tr>
+                            <td><strong>parallel_in_other_cancers</strong></td>
+                            <td><span class="empty-note">null</span></td>
+                        </tr>
+                        <tr>
+                            <td><strong>validation_approach</strong></td>
+                            <td>Immunoblotting of endogenous protein, inhibitor treatment, qPCR, FISH</td>
+                        </tr>
+                        <tr>
+                            <td><strong>validation_result</strong></td>
+                            <td>Endogenous fusion protein and its phospho-TRKA state were detected and pharmacologically suppressed.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>therapeutic_implication</strong></td>
+                            <td>Serves as a preclinical model supporting TRKA-targeted therapy in NTRK1-rearranged lung cancer.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>therapeutic_evidence</strong></td>
+                            <td>All three TRKA-active drugs reduced phosphorylation in CUTO-3, with strongest activity for ARRY-470 and CEP-701.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>clinical_or_demographic_association</strong></td>
+                            <td>Derived from the pleural effusion of the index patient.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>study_limitations</strong></td>
+                            <td>Single model derived from one patient; limited to one fusion type.</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>Potentially Relevant New Papers (mentioned by this paper)</h2>
+            <ol>
+                <li>Identifying and targeting ROS1 gene fusions in non-small cell lung cancer <em>(Rating: 2)</em></li>
+                <li>The transcriptional landscape and mutational profile of lung adenocarcinoma <em>(Rating: 1)</em></li>
+                <li>Novel mutant-selective EGFR kinase inhibitors against EGFR T790M <em>(Rating: 1)</em></li>
+                <li>Identifying and Targeting ROS1 Gene Fusions in Non-Small Cell Lung Cancer <em>(Rating: 2)</em></li>
+                <li>The transforming EML4-ALK fusion gene in non-small-cell lung cancer <em>(Rating: 1)</em></li>
+            </ol>
+        </div>
+
+        </div>
+
+    </div>
+</body>
+</html>

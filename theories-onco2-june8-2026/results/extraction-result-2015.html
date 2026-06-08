@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Extraction extraction-result-2015 - Theorizer</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+    <div class="header">
+        <a href="../index.html"><i class="fas fa-flask"></i> Theorizer</a>
+    </div>
+
+    <div class="content">
+        <h1>Extracted Data Details for extraction-result-2015</h1>
+
+        <div class="section">
+            <h2>Extracted Data (Header)</h2>
+            <div class="info-section">
+                <p><strong>Extraction ID:</strong> extraction-result-2015</p>
+                <p><strong>Extraction Schema Used (ID):</strong> <a href="../schemas/extraction-schema-1842.html">extraction-schema-1842</a></p>
+                <div class="extraction-query"><strong>Extraction Query:</strong> Extract any mentions of hidden drivers, pathway states, subtype structure, validation evidence, and therapeutic implications in oncogene-negative or driver-negative lung adenocarcinoma.</div>
+                <p><strong>Paper ID:</strong> paper-e5ec3dd82621c7b7eec312cd09fead78b37979d2</p>
+                <p><strong>Paper Title:</strong> <a href="https://www.semanticscholar.org/paper/e5ec3dd82621c7b7eec312cd09fead78b37979d2" target="_blank">Multiomics Analysis Reveals Molecular Changes during Early Progression of Precancerous Lesions to Lung Adenocarcinoma in Never-Smokers</a></p>
+                <p><strong>Paper Venue:</strong> Cancer Research</p>
+                <p><strong>Paper Abstract:</strong> Integrative analysis of multiomics data revealed coordination between immune and nonimmune cells during early progression of precancerous lesions to lung adenocarcinomas and shed light on the molecular characteristics of clinically defined subtypes.</p>
+                <p><strong>Cost:</strong> 0.023</p>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>Extracted Data (Details)</h2>
+            <div class="extraction-instance-container" id="e2015.0">
+                <h3 class="extraction-instance">Extracted Data Instance 0 (e2015.0)</h3>
+                <div class="extraction-query"><strong>Extraction Query:</strong> Extract any mentions of hidden drivers, pathway states, subtype structure, validation evidence, and therapeutic implications in oncogene-negative or driver-negative lung adenocarcinoma.</div>
+                <table>
+                    <thead>
+                        <tr>
+                            <th style="width: 30%;">Field</th>
+                            <th style="width: 70%;">Value</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><strong>name_short</strong></td>
+                            <td>LUAD early-progression molecular subtypes</td>
+                        </tr>
+                        <tr>
+                            <td><strong>name_full</strong></td>
+                            <td>Molecular subtypes of early lung adenocarcinoma progression in never-smokers</td>
+                        </tr>
+                        <tr>
+                            <td><strong>brief_description</strong></td>
+                            <td>The paper does not study canonical oncogene-negative or driver-negative lung adenocarcinoma in the sense of identifying a hidden oncogenic driver in mutation-negative tumors. Instead, it defines molecular subtypes within AAH, AIS, and MIA using nonimmune cell markers, linking subtype structure to radiological phenotype (pGGO vs non-pGGO), cell-state composition, angiogenesis, and tissue invasion.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>citation_title</strong></td>
+                            <td>Multiomics Analysis Reveals Molecular Changes during Early Progression of Precancerous Lesions to Lung Adenocarcinoma in Never-Smokers</td>
+                        </tr>
+                        <tr>
+                            <td><strong>mention_or_use</strong></td>
+                            <td>use</td>
+                        </tr>
+                        <tr>
+                            <td><strong>driver_negative_definition</strong></td>
+                            <td>No explicit definition of oncogene-negative or driver-negative LUAD is provided. The study instead analyzes early-stage lesions in never-smokers using WES and RNA-seq and reports that EGFR and TP53 mutations are positively selected during progression, while BRAF and KRAS are enriched in AIS. Thus, it does not frame the cohort as driver-negative; rather, it characterizes molecular changes across lesions with known and known-like driver alterations.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>candidate_driver_pathway_or_mechanism</strong></td>
+                            <td>The main mechanistic hypothesis is microenvironment- and cell-state-driven progression rather than a hidden canonical driver: late AIS (especially AIS3) is proposed to involve angiogenesis with tip endothelial cells and EMT-driving cancer-associated fibroblasts (mCAFs), which then coincides with non-pGGO phenotype and precedes invasion into MIA. The paper also highlights coordinated immune infiltration changes and suggests a two-phase progression model.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>alteration_or_activation_mode</strong></td>
+                            <td>Pathway activation is inferred primarily from transcriptomic cell-type enrichment and ssGSEA signatures rather than from a novel mutation class. The implicated mechanism is increased abundance/activity of tip ECs and mCAFs, with evidence of positive selection of EGFR and TP53 mutations and enrichment of BRAF/KRAS mutations in AIS1, but no claim of a hidden alteration in oncogene-negative tumors.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>implicated_gene_axis_or_pathway</strong></td>
+                            <td>Angiogenesis/tip endothelial cell axis; CAF programs, especially matrix CAFs; EMT-related signaling; EGFR–VEGF–angiogenesis axis; TP53-loss-associated EMT; BRAF/KRAS-associated proliferation. These are discussed as progression-associated pathways rather than as a single driver-negative mechanism.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>pathway_activation_evidence</strong></td>
+                            <td>Evidence comes from ssGSEA scores, nonimmune-cell-marker PCA, SCISSOR enrichment, and spatial transcriptomics. EC and stromal ssGSEA scores decrease from normal to AAH/AIS1/2 and then rise in AIS3 and MIA_Inv; AIS3-associated ECs are enriched for tip EC markers; mCAFs co-vary with tip ECs; spatial transcriptomics shows higher ECs in invasive MIA regions and plasma cells in tumor regions. The paper does not use pERK/pAKT/pS6 or phosphoproteomics.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>driver_negative_subtype</strong></td>
+                            <td>No explicit driver-negative subtype is defined. The closest subtype structure is the molecular stratification of lesions into AIS1, AIS2, AIS3, MIA_nonInv1, MIA_nonInv2, and corresponding MIA_Inv1/MIA_Inv2, based on nonimmune cell markers and radiological phenotype. AIS3 is the most biologically distinctive subtype, associated with angiogenesis, tip ECs, mCAFs, and non-pGGO components.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>clinical_or_exposure_context</strong></td>
+                            <td>The cohort is largely East Asian and never-smoker enriched (92% nonsmokers; 69% female; median age 57). The study focuses on early-stage (0 or I) lung adenocarcinoma and precancerous lesions (AAH, AIS, MIA), with radiological distinctions between pGGO and non-pGGO nodules. It emphasizes never-smoker East Asian disease biology rather than smoking-associated LUAD.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>cross_cancer_parallel</strong></td>
+                            <td>The paper does not present a cross-cancer hidden-driver analogy for driver-negative LUAD. It does compare its EcoTyper-derived cell ecosystems to pan-cancer ecotypes from the EcoTyper reference study, noting CE6 as normal-like and CE1/CE8/CE10 as carcinoma-associated, but this is not framed as a driver-negative parallel.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>therapeutic_vulnerability_or_implication</strong></td>
+                            <td>Therapeutic implications are indirect and tied to angiogenesis and vessel normalization rather than to a specific hidden driver in driver-negative LUAD. The authors suggest antiangiogenic agents and vessel-normalizing therapies as potential early interventions that may prevent progression and facilitate immune-cell infiltration. This is a conceptual implication, not a tested treatment result in this paper.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>validation_evidence_and_model_system</strong></td>
+                            <td>Validation is multi-layered but not functional in the sense of perturbation experiments. The paper validates subtype/cell-state findings with independent scRNA-seq datasets, deconvolution analyses, SCISSOR-based bulk-single-cell integration, and spatial transcriptomics on two MIA samples. It also compares mutation patterns with external cohorts (TCGA and Chen2020). No cell-line, organoid, xenograft, GEMM, knockdown, rescue, or drug-sensitivity validation is reported.</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>Potentially Relevant New Papers (mentioned by this paper)</h2>
+            <ol>
+                <li>Proteogenomics of non-smoking lung cancer in East Asia delineates molecular signatures of pathogenesis and progression <em>(Rating: 2)</em></li>
+                <li>Multiomics analysis reveals distinct immunogenomic features of lung cancer with ground-glass opacity <em>(Rating: 2)</em></li>
+                <li>Delineating the dynamic evolution from preneoplasia to invasive lung adenocarcinoma by integrating single-cell RNA sequencing and spatial transcriptomics <em>(Rating: 2)</em></li>
+                <li>Increased tumor intrinsic growth potential and decreased immune function orchestrate the progression of lung adenocarcinoma <em>(Rating: 1)</em></li>
+                <li>Genomic landscape of atypical adenomatous hyperplasia reveals divergent modes to lung adenocarcinoma <em>(Rating: 1)</em></li>
+                <li>Multi-region exome sequencing reveals genomic evolution from preneoplasia to lung adenocarcinoma <em>(Rating: 1)</em></li>
+            </ol>
+        </div>
+
+        </div>
+
+    </div>
+</body>
+</html>

@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Extraction extraction-result-1846 - Theorizer</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+    <div class="header">
+        <a href="../index.html"><i class="fas fa-flask"></i> Theorizer</a>
+    </div>
+
+    <div class="content">
+        <h1>Extracted Data Details for extraction-result-1846</h1>
+
+        <div class="section">
+            <h2>Extracted Data (Header)</h2>
+            <div class="info-section">
+                <p><strong>Extraction ID:</strong> extraction-result-1846</p>
+                <p><strong>Extraction Schema Used (ID):</strong> <a href="../schemas/extraction-schema-1841.html">extraction-schema-1841</a></p>
+                <div class="extraction-query"><strong>Extraction Query:</strong> Extract any mentions of driver-negative or oncogene-negative lung adenocarcinoma cases, cohorts, models, or subgroups; the evidence for why they are considered driver-negative; candidate alternative drivers or mechanisms; proposed subtypes; validation strategies; comparisons to other cancers; and therapeutic implications.</div>
+                <p><strong>Paper ID:</strong> paper-07fcfc7ecfaf7adf6c78982f2a0be9868b815034</p>
+                <p><strong>Paper Title:</strong> <a href="https://www.semanticscholar.org/paper/07fcfc7ecfaf7adf6c78982f2a0be9868b815034" target="_blank">Ferroptosis-Linked Six-Gene Panel Enables Machine Learning-Assisted Diagnosis and Therapeutic Guidance in Lung Adenocarcinoma</a></p>
+                <p><strong>Paper Venue:</strong> Biology</p>
+                <p><strong>Paper TL;DR:</strong> Using machine learning, it was shown that this small gene panel can accurately detect lung cancer and one gene, PLK1, showed a strong association with poor outcomes and could be a promising drug target.</p>
+                <p><strong>Paper Abstract:</strong> Simple Summary Lung adenocarcinoma is the most common form of lung cancer, and many patients lack gene mutations that can be targeted by current therapies. To address this, we identified six genes with consistently altered activity in lung tumours compared to normal lung tissue. These genes help distinguish cancer from normal tissue, predict patient survival, and may guide new treatment strategies. Using machine learning, we showed that this small gene panel can accurately detect lung cancer. One gene, PLK1, showed a strong association with poor outcomes and could be a promising drug target. Although these genes were initially selected based on their link to a type of cell death called ferroptosis, our findings suggest they more broadly reflect cancer cell growth and treatment resistance. This work could help doctors better diagnose lung cancer and tailor treatments for patients who do not benefit from existing options.</p>
+                <p><strong>Cost:</strong> 0.026</p>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>Extracted Data (Details)</h2>
+            <div class="extraction-instance-container" id="e1846.0">
+                <h3 class="extraction-instance">Extracted Data Instance 0 (e1846.0)</h3>
+                <div class="extraction-query"><strong>Extraction Query:</strong> Extract any mentions of driver-negative or oncogene-negative lung adenocarcinoma cases, cohorts, models, or subgroups; the evidence for why they are considered driver-negative; candidate alternative drivers or mechanisms; proposed subtypes; validation strategies; comparisons to other cancers; and therapeutic implications.</div>
+                <table>
+                    <thead>
+                        <tr>
+                            <th style="width: 30%;">Field</th>
+                            <th style="width: 70%;">Value</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><strong>name_short</strong></td>
+                            <td>Mutation-negative LUAD</td>
+                        </tr>
+                        <tr>
+                            <td><strong>name_full</strong></td>
+                            <td>Lung adenocarcinoma cases lacking actionable canonical driver mutations</td>
+                        </tr>
+                        <tr>
+                            <td><strong>brief_description</strong></td>
+                            <td>The paper repeatedly notes that many LUAD patients lack actionable mutations or durable responses to targeted/immune therapies. However, it does not provide a dedicated driver-negative cohort with explicit genomic exclusion of canonical drivers; instead, it uses TCGA LUAD transcriptomes and discusses mutation-negative disease as a clinical problem motivating transcriptomic classifiers.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>citation_title</strong></td>
+                            <td>Ferroptosis-Linked Six-Gene Panel Enables Machine Learning-Assisted Diagnosis and Therapeutic Guidance in Lung Adenocarcinoma</td>
+                        </tr>
+                        <tr>
+                            <td><strong>mention_or_use</strong></td>
+                            <td>mention</td>
+                        </tr>
+                        <tr>
+                            <td><strong>cohort_or_model</strong></td>
+                            <td>TCGA LUAD transcriptome cohort (n = 598; 539 tumour, 59 normal; paired subset n = 58 for some analyses)</td>
+                        </tr>
+                        <tr>
+                            <td><strong>cancer_context</strong></td>
+                            <td>Lung adenocarcinoma / non-small-cell lung cancer; particularly patients lacking actionable mutations or durable targeted/immunotherapy benefit</td>
+                        </tr>
+                        <tr>
+                            <td><strong>driver_negative_definition</strong></td>
+                            <td>Described generally as patients lacking actionable mutations; the introduction lists canonical LUAD drivers EGFR, ALK, KRAS, BRAF, MET, and RET as examples of stratifiers, but the paper does not formally define a driver-negative subgroup by sequencing-based exclusion of these genes. No explicit assay-based definition is given.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>driver_negative_frequency</strong></td>
+                            <td>Not reported</td>
+                        </tr>
+                        <tr>
+                            <td><strong>profiling_modalities</strong></td>
+                            <td>Bulk RNA-seq transcriptomics from TCGA; DESeq2 differential expression; Wilcoxon tests; Cox regression; ssGSEA; machine learning classification; CellMiner gene-drug correlation analysis</td>
+                        </tr>
+                        <tr>
+                            <td><strong>candidate_mechanism_category</strong></td>
+                            <td>Alternative pathway activation / proliferation-linked expression program rather than canonical oncogenic driver mutation</td>
+                        </tr>
+                        <tr>
+                            <td><strong>candidate_driver_or_mechanism</strong></td>
+                            <td>Six-gene ferroptosis-derived expression signature dominated by PLK1, with contributions from AQP4, CDCA3, HJURP, KIF20A, and UHRF1</td>
+                        </tr>
+                        <tr>
+                            <td><strong>mechanistic_description</strong></td>
+                            <td>The authors argue that the signature is not strictly ferroptosis-specific but is primarily anchored in cell-cycle and proliferation programs (spindle organization, mitotic telophase/cytokinesis, chromosomal segregation, G2/M control) and partly in angiogenesis/EMT. This provides mutation-independent tumor classification and prognostic stratification, especially relevant where canonical drivers are absent.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>evidence_type</strong></td>
+                            <td>expression signature, survival association, pathway enrichment, machine learning classification, exploratory drug sensitivity correlation</td>
+                        </tr>
+                        <tr>
+                            <td><strong>key_evidence</strong></td>
+                            <td>Across TCGA LUAD, 182 ferroptosis-related genes were dysregulated; six genes (AQP4, CDCA3, HJURP, KIF20A, PLK1, UHRF1) were selected by Cox analysis. The composite risk score separated high- and low-risk patients (log-rank p < 0.0001) and improved multivariable models beyond stage. Functional enrichment was dominated by cell-cycle terms; PLK1 remained the only independent prognostic gene (HR = 1.46, 95% CI 1.09–1.94, p = 0.01).</td>
+                        </tr>
+                        <tr>
+                            <td><strong>negative_or_counter_evidence</strong></td>
+                            <td>The paper does not demonstrate that the signature specifically explains canonical driver-negative biology, and it lacks orthogonal genomic testing to prove absence of EGFR/ALK/KRAS/BRAF/MET/RET/ROS1/ERBB2 alterations in the analyzed cohort. The authors also emphasize that the biology appears more proliferation-centric than ferroptosis-specific.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>subtype_name</strong></td>
+                            <td><span class="empty-note">null</span></td>
+                        </tr>
+                        <tr>
+                            <td><strong>subtype_features</strong></td>
+                            <td><span class="empty-note">null</span></td>
+                        </tr>
+                        <tr>
+                            <td><strong>parallel_in_other_cancers</strong></td>
+                            <td>No direct driver-negative subtype comparison is developed; the paper only notes broader use of ferroptosis-related signatures in other cancers such as osteosarcoma and NSCLC.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>validation_approach</strong></td>
+                            <td>Internal TCGA-based statistical validation (unpaired and paired differential expression, Cox regression, time-dependent ROC, multivariable models) plus machine learning cross-validation/holdout testing; proposed external validation in independent LUAD cohorts and LUAD-specific preclinical models.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>validation_result</strong></td>
+                            <td>Internal validation was strong: AUC 0.83/0.76/0.71 at 1/3/5 years for prognosis, and near-perfect tumour-normal classification (AUC 0.99–1.00) across most machine-learning models. External validation was not performed.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>therapeutic_implication</strong></td>
+                            <td>Supports mutation-independent diagnostic/prognostic stratification and suggests PLK1-targeted therapy as a biomarker-driven option; also raises exploratory sensitivity hypotheses for compounds associated with the six-gene panel.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>therapeutic_evidence</strong></td>
+                            <td>CellMiner correlations suggested candidate sensitivities/resistance patterns for panel genes; PLK1 is already a drug-development focus, with volasertib and onvansertib cited as inhibitors in oncology trials. The evidence is exploratory and not LUAD-specific.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>clinical_or_demographic_association</strong></td>
+                            <td>The risk score independently complemented AJCC stage; age and sex were not significant in the combined prognostic model. The paper frames the signature as useful for patients lacking actionable mutations.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>study_limitations</strong></td>
+                            <td>No external cohort validation; no direct sequencing-based confirmation of driver-negative status; pan-cancer NCI-60 drug correlations may not reflect LUAD biology; computational study without functional experiments; imbalance between tumour and normal samples could affect classification; classification is easier than clinically challenging early-detection scenarios.</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="extraction-instance-container" id="e1846.1">
+                <h3 class="extraction-instance">Extracted Data Instance 1 (e1846.1)</h3>
+                <div class="extraction-query"><strong>Extraction Query:</strong> Extract any mentions of driver-negative or oncogene-negative lung adenocarcinoma cases, cohorts, models, or subgroups; the evidence for why they are considered driver-negative; candidate alternative drivers or mechanisms; proposed subtypes; validation strategies; comparisons to other cancers; and therapeutic implications.</div>
+                <table>
+                    <thead>
+                        <tr>
+                            <th style="width: 30%;">Field</th>
+                            <th style="width: 70%;">Value</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><strong>name_short</strong></td>
+                            <td>PLK1-centered program</td>
+                        </tr>
+                        <tr>
+                            <td><strong>name_full</strong></td>
+                            <td>Polo-like kinase 1-centered proliferation/mitotic program</td>
+                        </tr>
+                        <tr>
+                            <td><strong>brief_description</strong></td>
+                            <td>PLK1 is the only gene in the six-gene panel that remained independently prognostic in multivariable analysis. The paper treats PLK1 as the dominant biological signal and a plausible therapeutic vulnerability, but in the context of this paper it is derived from expression profiling rather than from mutation-negative genomic discovery.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>citation_title</strong></td>
+                            <td>Ferroptosis-Linked Six-Gene Panel Enables Machine Learning-Assisted Diagnosis and Therapeutic Guidance in Lung Adenocarcinoma</td>
+                        </tr>
+                        <tr>
+                            <td><strong>mention_or_use</strong></td>
+                            <td>use</td>
+                        </tr>
+                        <tr>
+                            <td><strong>cohort_or_model</strong></td>
+                            <td>TCGA LUAD cohort; six-gene risk model</td>
+                        </tr>
+                        <tr>
+                            <td><strong>cancer_context</strong></td>
+                            <td>Lung adenocarcinoma, including mutation-negative patients as the intended clinical use case</td>
+                        </tr>
+                        <tr>
+                            <td><strong>driver_negative_definition</strong></td>
+                            <td>Not a formal driver-negative definition; PLK1 is discussed as a noncanonical, expression-based prognostic marker that could help in cases lacking actionable mutations</td>
+                        </tr>
+                        <tr>
+                            <td><strong>driver_negative_frequency</strong></td>
+                            <td>Not reported</td>
+                        </tr>
+                        <tr>
+                            <td><strong>profiling_modalities</strong></td>
+                            <td>Bulk RNA-seq, Cox regression, pathway enrichment, gene-drug correlation in CellMiner</td>
+                        </tr>
+                        <tr>
+                            <td><strong>candidate_mechanism_category</strong></td>
+                            <td>Alternative pathway activation / mitotic kinase program</td>
+                        </tr>
+                        <tr>
+                            <td><strong>candidate_driver_or_mechanism</strong></td>
+                            <td>PLK1</td>
+                        </tr>
+                        <tr>
+                            <td><strong>mechanistic_description</strong></td>
+                            <td>PLK1 is implicated as a central mitotic regulator whose overexpression reflects aggressive proliferation, genomic instability, and poor outcome. The authors suggest it may serve as a biomarker and potential target, especially because the broader panel’s functional enrichment is cell-cycle dominated.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>evidence_type</strong></td>
+                            <td>survival association, multivariable modeling, pathway enrichment, exploratory drug correlation</td>
+                        </tr>
+                        <tr>
+                            <td><strong>key_evidence</strong></td>
+                            <td>PLK1 remained significant in multivariable Cox regression (HR = 1.46, 95% CI 1.09–1.94, p = 0.01). Enrichment analyses linked the panel to spindle organization and mitotic telophase/cytokinesis. The authors explicitly call PLK1 the sole independent prognostic gene and dominant prognostic signal.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>negative_or_counter_evidence</strong></td>
+                            <td>Not validated functionally in LUAD models; drug correlations are pan-cancer and exploratory; the authors note that the signature is not ferroptosis-specific and that PLK1’s associations may reflect proliferation rather than a unique LUAD driver mechanism.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>subtype_name</strong></td>
+                            <td><span class="empty-note">null</span></td>
+                        </tr>
+                        <tr>
+                            <td><strong>subtype_features</strong></td>
+                            <td><span class="empty-note">null</span></td>
+                        </tr>
+                        <tr>
+                            <td><strong>parallel_in_other_cancers</strong></td>
+                            <td>PLK1 is broadly recognized as a cancer target across oncology, but no specific other-cancer driver-negative subtype is proposed here.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>validation_approach</strong></td>
+                            <td>Proposed validation in LUAD-specific preclinical systems, including functional studies and drug-response assays; suggested biomarker stratification for PLK1-targeted therapy trials.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>validation_result</strong></td>
+                            <td>No direct experimental validation reported; only statistical and exploratory correlation evidence was provided.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>therapeutic_implication</strong></td>
+                            <td>High PLK1 expression could be used to stratify patients for PLK1-targeted therapy.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>therapeutic_evidence</strong></td>
+                            <td>The paper cites PLK1 inhibitors volasertib and onvansertib as active oncology-drug-development examples and notes gene-drug correlations with small molecules in CellMiner. Evidence remains exploratory.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>clinical_or_demographic_association</strong></td>
+                            <td>Associated with poorer overall survival within the LUAD cohort.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>study_limitations</strong></td>
+                            <td>No functional perturbation data; no LUAD-specific drug validation; lack of external validation.</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="extraction-instance-container" id="e1846.2">
+                <h3 class="extraction-instance">Extracted Data Instance 2 (e1846.2)</h3>
+                <div class="extraction-query"><strong>Extraction Query:</strong> Extract any mentions of driver-negative or oncogene-negative lung adenocarcinoma cases, cohorts, models, or subgroups; the evidence for why they are considered driver-negative; candidate alternative drivers or mechanisms; proposed subtypes; validation strategies; comparisons to other cancers; and therapeutic implications.</div>
+                <table>
+                    <thead>
+                        <tr>
+                            <th style="width: 30%;">Field</th>
+                            <th style="width: 70%;">Value</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><strong>name_short</strong></td>
+                            <td>Expression-based mutation-independent classifier</td>
+                        </tr>
+                        <tr>
+                            <td><strong>name_full</strong></td>
+                            <td>Six-gene expression panel as a mutation-independent classifier for LUAD</td>
+                        </tr>
+                        <tr>
+                            <td><strong>brief_description</strong></td>
+                            <td>The paper proposes a compact six-gene expression panel as an adjunct to conventional mutation-based classifiers. It is explicitly framed as useful for mutation-negative cases, but the study itself does not stratify patients by canonical driver absence or define a molecular subtype within those cases.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>citation_title</strong></td>
+                            <td>Ferroptosis-Linked Six-Gene Panel Enables Machine Learning-Assisted Diagnosis and Therapeutic Guidance in Lung Adenocarcinoma</td>
+                        </tr>
+                        <tr>
+                            <td><strong>mention_or_use</strong></td>
+                            <td>use</td>
+                        </tr>
+                        <tr>
+                            <td><strong>cohort_or_model</strong></td>
+                            <td>TCGA LUAD tumour-normal dataset with train/test split for machine learning</td>
+                        </tr>
+                        <tr>
+                            <td><strong>cancer_context</strong></td>
+                            <td>LUAD; diagnostic and prognostic modeling with intended relevance to patients lacking actionable drivers</td>
+                        </tr>
+                        <tr>
+                            <td><strong>driver_negative_definition</strong></td>
+                            <td>A broad clinical description of cases without actionable mutations; no formal assay-based exclusion of canonical drivers is provided</td>
+                        </tr>
+                        <tr>
+                            <td><strong>driver_negative_frequency</strong></td>
+                            <td>Not reported</td>
+                        </tr>
+                        <tr>
+                            <td><strong>profiling_modalities</strong></td>
+                            <td>RNA-seq, machine learning (RF, SVM, XGB, ADA, GBM, KNN, logistic regression, decision tree, naive Bayes, ANN), SMOTE, cross-validation</td>
+                        </tr>
+                        <tr>
+                            <td><strong>candidate_mechanism_category</strong></td>
+                            <td>Transcriptional state classifier / proliferation and microenvironment program</td>
+                        </tr>
+                        <tr>
+                            <td><strong>candidate_driver_or_mechanism</strong></td>
+                            <td>Six-gene panel: AQP4, CDCA3, HJURP, KIF20A, PLK1, UHRF1</td>
+                        </tr>
+                        <tr>
+                            <td><strong>mechanistic_description</strong></td>
+                            <td>The panel captures a tumor expression state enriched for cell-cycle, mitotic, angiogenic, hypoxic, and EMT-related programs. This state is used as a biomarker to distinguish LUAD from normal lung and to stratify prognosis, offering a non-mutation-based diagnostic layer.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>evidence_type</strong></td>
+                            <td>machine learning classification, diagnostic separation, prognostic association</td>
+                        </tr>
+                        <tr>
+                            <td><strong>key_evidence</strong></td>
+                            <td>Most classifiers achieved AUC 1.00 on held-out testing; KNN reached 0.99 and decision tree 0.96. Risk scores separated overall survival with log-rank p < 0.0001 and improved combined prognostic performance with AJCC stage (likelihood-ratio test p = 1.1 × 10^-4).</td>
+                        </tr>
+                        <tr>
+                            <td><strong>negative_or_counter_evidence</strong></td>
+                            <td>The classification task is acknowledged to be intrinsically easier than clinically difficult problems such as benign nodules vs early LUAD, and the authors caution about overfitting and the lack of independent LUAD validation.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>subtype_name</strong></td>
+                            <td><span class="empty-note">null</span></td>
+                        </tr>
+                        <tr>
+                            <td><strong>subtype_features</strong></td>
+                            <td><span class="empty-note">null</span></td>
+                        </tr>
+                        <tr>
+                            <td><strong>parallel_in_other_cancers</strong></td>
+                            <td>The paper compares the concept to transcriptomic classifiers used in other cancers, and cites ferroptosis-related signatures in osteosarcoma and NSCLC.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>validation_approach</strong></td>
+                            <td>Internal cross-validation plus independent hold-out test set; proposed external validation in independent LUAD cohorts and more clinically relevant settings such as small biopsies or liquid biopsy assays.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>validation_result</strong></td>
+                            <td>High internal performance but no external validation.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>therapeutic_implication</strong></td>
+                            <td>Could support biomarker-guided treatment selection and complement mutation-based decision-making, especially in mutation-negative patients.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>therapeutic_evidence</strong></td>
+                            <td>Indirect only; the panel is linked to exploratory gene-drug correlations and PLK1-targeted therapy hypotheses.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>clinical_or_demographic_association</strong></td>
+                            <td>Useful for distinguishing tumour from adjacent normal tissue and for prognosis independent of stage; age and sex were not significant in the combined model.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>study_limitations</strong></td>
+                            <td>No external cohort validation; clinical applicability uncertain for harder diagnostic settings; sample imbalance and pan-cancer drug correlation caveats.</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>Potentially Relevant New Papers (mentioned by this paper)</h2>
+            <ol>
+                <li>Comprehensive analysis of ferroptosis regulators in lung adenocarcinomas identifies prognostic and immunotherapy-related biomarkers <em>(Rating: 2)</em></li>
+                <li>Ferroptosis-related gene signature for predicting prognosis and identifying potential therapeutic drug in EGFR wild-type lung adenocarcinoma <em>(Rating: 2)</em></li>
+                <li>Identification of a prognostic ferroptosis-related lncRNA signature in the tumor microenvironment of lung adenocarcinoma <em>(Rating: 1)</em></li>
+                <li>A ferroptosis-related gene signature associated with immune landscape and therapeutic response in osteosarcoma <em>(Rating: 1)</em></li>
+                <li>Ferroptosis-related genes are potential therapeutic targets and the model of these genes influences overall survival of NSCLC patients <em>(Rating: 1)</em></li>
+            </ol>
+        </div>
+
+        </div>
+
+    </div>
+</body>
+</html>

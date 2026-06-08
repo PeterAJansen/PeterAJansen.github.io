@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Extraction Schema extraction-schema-1841 - Theorizer</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+    <div class="header">
+        <a href="../index.html"><i class="fas fa-flask"></i> Theorizer</a>
+    </div>
+
+    <div class="content">
+        <h1>Extraction Schema Details for extraction-schema-1841</h1>
+
+        <div class="section">
+            <h2>Extraction Schema (General Information)</h2>
+            <div class="info-section">
+                <p><strong>Schema ID:</strong> extraction-schema-1841</p>
+                <p><strong>Extraction Query:</strong> Extract any mentions of driver-negative or oncogene-negative lung adenocarcinoma cases, cohorts, models, or subgroups; the evidence for why they are considered driver-negative; candidate alternative drivers or mechanisms; proposed subtypes; validation strategies; comparisons to other cancers; and therapeutic implications.</p>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>Extraction Schema (Details)</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th style="width: 20%;">Field Name</th>
+                        <th style="width: 15%;">Type</th>
+                        <th style="width: 65%;">Description</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><strong>cohort_or_model</strong></td>
+                        <td>str</td>
+                        <td>The patient cohort, tumor subset, cell line, organoid, mouse model, PDX, or dataset being studied. Include cohort name or model identifier if given.</td>
+                    </tr>
+                    <tr>
+                        <td><strong>cancer_context</strong></td>
+                        <td>str</td>
+                        <td>The cancer type and context studied, such as lung adenocarcinoma, NSCLC adenocarcinoma, early-stage LUAD, metastatic LUAD, never-smoker LUAD, or pan-cancer comparison.</td>
+                    </tr>
+                    <tr>
+                        <td><strong>driver_negative_definition</strong></td>
+                        <td>str</td>
+                        <td>How the paper defines oncogene-negative or driver-negative status. Include which canonical drivers were excluded and by what assays if stated, for example EGFR/KRAS/ALK/ROS1/BRAF/MET/RET/ERBB2 negative by DNA/RNA sequencing.</td>
+                    </tr>
+                    <tr>
+                        <td><strong>driver_negative_frequency</strong></td>
+                        <td>str</td>
+                        <td>Reported prevalence or proportion of driver-negative cases in the studied cohort, including numerical value and units or percentages.</td>
+                    </tr>
+                    <tr>
+                        <td><strong>profiling_modalities</strong></td>
+                        <td>str</td>
+                        <td>The molecular or functional profiling methods used, such as whole-exome sequencing, whole-genome sequencing, RNA-seq, fusion calling, methylation, ATAC-seq, proteomics, phosphoproteomics, metabolomics, single-cell, spatial transcriptomics, microbiome profiling, CRISPR screens, or drug screens.</td>
+                    </tr>
+                    <tr>
+                        <td><strong>candidate_mechanism_category</strong></td>
+                        <td>str</td>
+                        <td>The broad category of the proposed driver or mechanism. Examples: rare coding mutation, fusion/rearrangement, copy-number amplification, enhancer hijacking, epigenetic dysregulation, lineage plasticity, autocrine/paracrine ligand signaling, alternative pathway activation, phosphoproteomic activation without mutation, microbiome-associated effect, immune-mediated mechanism, metabolic dependency, tumor suppressor loss, noncoding alteration.</td>
+                    </tr>
+                    <tr>
+                        <td><strong>candidate_driver_or_mechanism</strong></td>
+                        <td>str</td>
+                        <td>The specific candidate driver gene, pathway, program, ligand-receptor axis, microbe, cellular state, or biological mechanism proposed to explain driver-negative disease.</td>
+                    </tr>
+                    <tr>
+                        <td><strong>mechanistic_description</strong></td>
+                        <td>str</td>
+                        <td>A concise mechanistic summary of how the candidate is proposed to drive tumorigenesis or maintenance, such as MAPK activation via ligand autocrine loop, YAP/TEAD dependence after STK11 loss, or phospho-ERBB signaling despite no ERBB mutation.</td>
+                    </tr>
+                    <tr>
+                        <td><strong>evidence_type</strong></td>
+                        <td>str</td>
+                        <td>The main type of evidence supporting the candidate mechanism. Examples: recurrent alteration in tumors, pathway enrichment, phosphosite activation, functional dependency screen, perturbation experiment, drug sensitivity, single-cell state association, survival association, microbiome association, or cross-cancer analogy.</td>
+                    </tr>
+                    <tr>
+                        <td><strong>key_evidence</strong></td>
+                        <td>str</td>
+                        <td>A brief, information-dense summary of the main evidence or result supporting the mechanism. Include important quantitative findings when available.</td>
+                    </tr>
+                    <tr>
+                        <td><strong>negative_or_counter_evidence</strong></td>
+                        <td>str</td>
+                        <td>Any evidence in the paper that limits, contradicts, or weakens the candidate mechanism, such as non-reproducibility, low prevalence, lack of functional validation, confounding, or absence in independent cohorts. Null if not discussed.</td>
+                    </tr>
+                    <tr>
+                        <td><strong>subtype_name</strong></td>
+                        <td>str</td>
+                        <td>If the paper proposes a molecular or biological subtype within driver-negative tumors, extract the subtype name or label.</td>
+                    </tr>
+                    <tr>
+                        <td><strong>subtype_features</strong></td>
+                        <td>str</td>
+                        <td>Key defining features of the subtype, such as expression signature, lineage markers, smoking status, immune contexture, phosphoproteomic state, co-mutations, histology, microbiome features, or clinical behavior.</td>
+                    </tr>
+                    <tr>
+                        <td><strong>parallel_in_other_cancers</strong></td>
+                        <td>str</td>
+                        <td>Any analogous driver-negative or noncanonical-driver phenomenon described in other cancers, including the cancer type and the analogous mechanism.</td>
+                    </tr>
+                    <tr>
+                        <td><strong>validation_approach</strong></td>
+                        <td>str</td>
+                        <td>Specific validation strategies used or proposed to test the mechanism, such as orthogonal sequencing, RNA/protein confirmation, phosphoproteomics, ligand blockade, co-culture, microbiome manipulation, CRISPR knockout, rescue experiments, organoid testing, or prospective biomarker study.</td>
+                    </tr>
+                    <tr>
+                        <td><strong>validation_result</strong></td>
+                        <td>str</td>
+                        <td>Outcome of the validation experiment or proposed rationale for why the validation would be informative. Include quantitative results if reported.</td>
+                    </tr>
+                    <tr>
+                        <td><strong>therapeutic_implication</strong></td>
+                        <td>str</td>
+                        <td>Any therapy, target, biomarker strategy, or treatment hypothesis linked to the candidate mechanism or subtype, such as kinase inhibitor sensitivity, ligand blockade, immunotherapy relevance, metabolic targeting, synthetic lethality, or combination therapy.</td>
+                    </tr>
+                    <tr>
+                        <td><strong>therapeutic_evidence</strong></td>
+                        <td>str</td>
+                        <td>Evidence for the therapeutic implication, including preclinical drug response, clinical response, resistance pattern, or biomarker-treatment association.</td>
+                    </tr>
+                    <tr>
+                        <td><strong>clinical_or_demographic_association</strong></td>
+                        <td>str</td>
+                        <td>Any association with smoking status, age, sex, ethnicity, stage, metastatic site, histologic pattern, prognosis, or treatment history that may help categorize driver-negative tumors.</td>
+                    </tr>
+                    <tr>
+                        <td><strong>study_limitations</strong></td>
+                        <td>str</td>
+                        <td>Important limitations explicitly noted or strongly evident from the paper, such as small sample size, incomplete driver testing, retrospective design, assay sensitivity limits, batch effects, or lack of functional follow-up.</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+    </div>
+</body>
+</html>

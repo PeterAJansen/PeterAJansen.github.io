@@ -1,0 +1,866 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Extraction extraction-result-2092 - Theorizer</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+    <div class="header">
+        <a href="../index.html"><i class="fas fa-flask"></i> Theorizer</a>
+    </div>
+
+    <div class="content">
+        <h1>Extracted Data Details for extraction-result-2092</h1>
+
+        <div class="section">
+            <h2>Extracted Data (Header)</h2>
+            <div class="info-section">
+                <p><strong>Extraction ID:</strong> extraction-result-2092</p>
+                <p><strong>Extraction Schema Used (ID):</strong> <a href="../schemas/extraction-schema-1843.html">extraction-schema-1843</a></p>
+                <div class="extraction-query"><strong>Extraction Query:</strong> Extract any mentions of hidden genomic, structural, regulatory, or assay-missed drivers in oncogene-negative lung adenocarcinoma.</div>
+                <p><strong>Paper ID:</strong> paper-deafa704cd0a37349d7cdcbe7147e854d54b1ff9</p>
+                <p><strong>Paper Title:</strong> <a href="https://www.semanticscholar.org/paper/deafa704cd0a37349d7cdcbe7147e854d54b1ff9" target="_blank">Whole-genome characterization of lung adenocarcinomas lacking alterations in the RTK/RAS/RAF pathway</a></p>
+                <p><strong>Paper Venue:</strong> Cell Reports</p>
+                <p><strong>Paper TL;DR:</strong> The results indicate that RPA(–) cases demonstrate tumor suppressor deletions and genome instability, but lack unique or recurrent genetic lesions compensating for the lack of RPAs.</p>
+                <p><strong>Paper Abstract:</strong> SUMMARY RTK/RAS/RAF pathway alterations (RPAs) are a hallmark of lung adenocarcinoma (LUAD). In this study, we use whole-genome sequencing (WGS) of 85 cases found to be RPA(–) by previous studies from The Cancer Genome Atlas (TCGA) to characterize the minority of LUADs lacking apparent alterations in this pathway. We show that WGS analysis uncovers RPA(+) in 28 (33%) of the 85 samples. Among the remaining 57 cases, we observe focal deletions targeting the promoter or transcription start site of STK11 (n = 7) or KEAP1 (n = 3), and promoter mutations associated with the increased expression of ILF2 (n = 6). We also identify complex structural variations associated with high-level copy number amplifications. Moreover, an enrichment of focal deletions is found in TP53 mutant cases. Our results indicate that RPA(–) cases demonstrate tumor suppressor deletions and genome instability, but lack unique or recurrent genetic lesions compensating for the lack of RPAs. Larger WGS studies of RPA(–) cases are required to understand this important LUAD subset.</p>
+                <p><strong>Cost:</strong> 0.04</p>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>Extracted Data (Details)</h2>
+            <div class="extraction-instance-container" id="e2092.0">
+                <h3 class="extraction-instance">Extracted Data Instance 0 (e2092.0)</h3>
+                <div class="extraction-query"><strong>Extraction Query:</strong> Extract any mentions of hidden genomic, structural, regulatory, or assay-missed drivers in oncogene-negative lung adenocarcinoma.</div>
+                <table>
+                    <thead>
+                        <tr>
+                            <th style="width: 30%;">Field</th>
+                            <th style="width: 70%;">Value</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><strong>name_short</strong></td>
+                            <td>KRAS missed by WES</td>
+                        </tr>
+                        <tr>
+                            <td><strong>name_full</strong></td>
+                            <td>KRAS hotspot mutations initially missed by whole-exome sequencing and recovered by whole-genome sequencing</td>
+                        </tr>
+                        <tr>
+                            <td><strong>brief_description</strong></td>
+                            <td>A subset of tumors labeled RTK/RAS/RAF-pathway alteration-negative by prior WES/RNA-seq actually harbored KRAS hotspot mutations, including the targetable p.G12C allele. The authors attribute the misses to poor exon capture in the first coding exon of KRAS and lower tumor purity, which required deeper WGS-level read support for confident calling.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>citation_title</strong></td>
+                            <td>Whole-genome characterization of lung adenocarcinomas lacking alterations in the RTK/RAS/RAF pathway</td>
+                        </tr>
+                        <tr>
+                            <td><strong>mention_or_use</strong></td>
+                            <td>use</td>
+                        </tr>
+                        <tr>
+                            <td><strong>oncogene_negative_definition</strong></td>
+                            <td>The driver-negative cohort was defined from 501 TCGA LUAD cases using prior WES and/or RNA-seq as negative for activating mutations in KRAS, EGFR, BRAF, ERBB2, MET, RIT1, NRAS, RAF1, HRAS, ARAF, MAP2K1, and SOS1; loss-of-function mutations in NF1 or RASA1; fusions in ALK, ROS1, RET, MET, or NTRK2; and amplifications of EGFR, ERBB2, KRAS, MET, FGFR1, or MAPK1. For the WGS re-analysis, amplification additionally required overexpression (z-score > 1.96) to qualify as an oncogenic driving event.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>assay_strategy_and_detection_limits</strong></td>
+                            <td>Initial classification relied on WES and RNA-seq, with later WGS of 85 tumor-normal pairs plus somatic SNV/indel, copy-number, and structural-variant analyses. The paper emphasizes blind spots of WES/RNA-seq and targeted panels for low-purity tumors, low capture efficiency in GC-rich KRAS exon 1, limited coverage of certain exons (e.g., NF1 exon 21-end deletion), and reduced sensitivity to complex or subtle structural rearrangements.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>missed_driver_reclassified_after_broader_testing</strong></td>
+                            <td>Yes. 20/85 previously RPA(E) cases were reclassified as RPA(+) after WGS because they contained KRAS hotspot mutations; 8 had KRAS p.G12C. In these cases, WES had insufficient read support and likely poor capture of KRAS exon 1, compounded by lower tumor purity.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>driver_event_class</strong></td>
+                            <td>rare SNV / hotspot coding mutation</td>
+                        </tr>
+                        <tr>
+                            <td><strong>candidate_driver_gene_or_locus</strong></td>
+                            <td>KRAS hotspot codons 12/13, including KRAS p.G12C</td>
+                        </tr>
+                        <tr>
+                            <td><strong>structural_or_regulatory_activation_mechanism</strong></td>
+                            <td>Activating oncogenic missense mutation in the KRAS coding exon, not a structural rearrangement.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>functional_consequence</strong></td>
+                            <td>Restores RTK/RAS/RAF pathway activation and explains the apparently driver-negative status; p.G12C is also noted as targetable.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>co_alteration_or_combinatorial_requirement</strong></td>
+                            <td>No specific cooperating alteration is required for the rescue call, but low tumor purity and inadequate capture/read depth were necessary technical contributors to the initial false-negative classification.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>human_prevalence_or_enrichment</strong></td>
+                            <td>20/85 (24%) of the WGS cohort previously labeled RPA(–) by WES/RNA-seq were reclassified as RPA(+); 8/85 (9%) had KRAS p.G12C.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>functional_or_clinical_validation</strong></td>
+                            <td>Re-examination of WES confirmed 16/20 calls, and the authors state the mutations were only reliably detected when WGS information was included. No transformation assay was reported, but the rescued alterations are established oncogenic KRAS drivers and some are therapeutically targetable.</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="extraction-instance-container" id="e2092.1">
+                <h3 class="extraction-instance">Extracted Data Instance 1 (e2092.1)</h3>
+                <div class="extraction-query"><strong>Extraction Query:</strong> Extract any mentions of hidden genomic, structural, regulatory, or assay-missed drivers in oncogene-negative lung adenocarcinoma.</div>
+                <table>
+                    <thead>
+                        <tr>
+                            <th style="width: 30%;">Field</th>
+                            <th style="width: 70%;">Value</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><strong>name_short</strong></td>
+                            <td>EGFR BFBC</td>
+                        </tr>
+                        <tr>
+                            <td><strong>name_full</strong></td>
+                            <td>EGFR amplification driven by a breakage-fusion-bridge cycle</td>
+                        </tr>
+                        <tr>
+                            <td><strong>brief_description</strong></td>
+                            <td>A cryptic structural variant created high-level EGFR copy-number gain and overexpression in one tumor previously classified as driver-negative. The amplification was reconstructed as a breakage-fusion-bridge cycle, illustrating a structural mechanism missed by prior assays.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>citation_title</strong></td>
+                            <td>Whole-genome characterization of lung adenocarcinomas lacking alterations in the RTK/RAS/RAF pathway</td>
+                        </tr>
+                        <tr>
+                            <td><strong>mention_or_use</strong></td>
+                            <td>use</td>
+                        </tr>
+                        <tr>
+                            <td><strong>oncogene_negative_definition</strong></td>
+                            <td>Same negative definition as above based on WES/RNA-seq absence of RTK/RAS/RAF alterations, including lack of EGFR amplification unless accompanied by overexpression in the WGS reclassification framework.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>assay_strategy_and_detection_limits</strong></td>
+                            <td>WGS with SV and copy-number reconstruction was used to uncover complex rearrangement-driven amplifications that WES/RNA-seq missed. The paper notes WGS is particularly effective for identifying complex or subtle structural alterations.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>missed_driver_reclassified_after_broader_testing</strong></td>
+                            <td>Yes. One previously negative case was reclassified as RPA(+) because WGS uncovered EGFR amplification with overexpression. It was missed by earlier assays because the driving event was structural/complex and not fully captured by standard WES/RNA-seq pipelines.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>driver_event_class</strong></td>
+                            <td>complex structural variation with high-level amplification</td>
+                        </tr>
+                        <tr>
+                            <td><strong>candidate_driver_gene_or_locus</strong></td>
+                            <td>EGFR</td>
+                        </tr>
+                        <tr>
+                            <td><strong>structural_or_regulatory_activation_mechanism</strong></td>
+                            <td>Breakage-fusion-bridge cycle producing high-level copy-number amplification.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>functional_consequence</strong></td>
+                            <td>EGFR overexpression and RTK/RAS/RAF pathway activation.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>co_alteration_or_combinatorial_requirement</strong></td>
+                            <td>Copy-number gain was coupled to overexpression, which the authors required as evidence of oncogenic driving activity for amplifications in WGS reclassification.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>human_prevalence_or_enrichment</strong></td>
+                            <td>Observed in 1/85 WGS cases among previously RPA(E) tumors.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>functional_or_clinical_validation</strong></td>
+                            <td>Supported by WGS read depth and SV junctions reconstructing the BFBC event, plus matched EGFR overexpression in the tumor.</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="extraction-instance-container" id="e2092.2">
+                <h3 class="extraction-instance">Extracted Data Instance 2 (e2092.2)</h3>
+                <div class="extraction-query"><strong>Extraction Query:</strong> Extract any mentions of hidden genomic, structural, regulatory, or assay-missed drivers in oncogene-negative lung adenocarcinoma.</div>
+                <table>
+                    <thead>
+                        <tr>
+                            <th style="width: 30%;">Field</th>
+                            <th style="width: 70%;">Value</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><strong>name_short</strong></td>
+                            <td>NF1 focal deletion</td>
+                        </tr>
+                        <tr>
+                            <td><strong>name_full</strong></td>
+                            <td>Focal deletion of NF1 with loss of heterozygosity and reduced expression</td>
+                        </tr>
+                        <tr>
+                            <td><strong>brief_description</strong></td>
+                            <td>A focal 379-bp deletion affecting a single NF1 exon, together with LOH, decreased NF1 expression and was only detectable by WGS-level structural analysis. The paper highlights that the exon was not well represented in WES or RNA-seq, causing the event to be missed initially.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>citation_title</strong></td>
+                            <td>Whole-genome characterization of lung adenocarcinomas lacking alterations in the RTK/RAS/RAF pathway</td>
+                        </tr>
+                        <tr>
+                            <td><strong>mention_or_use</strong></td>
+                            <td>use</td>
+                        </tr>
+                        <tr>
+                            <td><strong>oncogene_negative_definition</strong></td>
+                            <td>Initial negative calls excluded loss-of-function mutations in NF1 and RASA1 by WES/RNA-seq; WGS then searched for focal deletions and other structural lesions affecting RTK/RAS/RAF regulators.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>assay_strategy_and_detection_limits</strong></td>
+                            <td>WGS structural-variant analysis identified focal deletions and LOH; the paper explicitly notes that the affected NF1 exon was not well represented in WES or RNA-seq.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>missed_driver_reclassified_after_broader_testing</strong></td>
+                            <td>Yes. One case was reclassified as RPA(+) because WGS detected an NF1 focal deletion with LOH. It was missed initially due to poor assay representation of the affected exon in WES/RNA-seq.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>driver_event_class</strong></td>
+                            <td>focal deletion / loss-of-function structural variant</td>
+                        </tr>
+                        <tr>
+                            <td><strong>candidate_driver_gene_or_locus</strong></td>
+                            <td>NF1 exon-level focal deletion</td>
+                        </tr>
+                        <tr>
+                            <td><strong>structural_or_regulatory_activation_mechanism</strong></td>
+                            <td>Biallelic inactivation of a negative regulator of RTK/RAS/RAF signaling through focal deletion plus LOH.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>functional_consequence</strong></td>
+                            <td>Decreased NF1 expression and loss of negative regulation of RTK/RAS/RAF signaling.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>co_alteration_or_combinatorial_requirement</strong></td>
+                            <td>Deletion was coupled with LOH, consistent with a two-hit suppressor mechanism.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>human_prevalence_or_enrichment</strong></td>
+                            <td>Observed in 1/85 WGS cases among previously RPA(E) tumors.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>functional_or_clinical_validation</strong></td>
+                            <td>Validated by WGS breakpoint/copy-number evidence and decreased NF1 expression; the paper does not report experimental perturbation assays.</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="extraction-instance-container" id="e2092.3">
+                <h3 class="extraction-instance">Extracted Data Instance 3 (e2092.3)</h3>
+                <div class="extraction-query"><strong>Extraction Query:</strong> Extract any mentions of hidden genomic, structural, regulatory, or assay-missed drivers in oncogene-negative lung adenocarcinoma.</div>
+                <table>
+                    <thead>
+                        <tr>
+                            <th style="width: 30%;">Field</th>
+                            <th style="width: 70%;">Value</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><strong>name_short</strong></td>
+                            <td>RASA1 focal deletion</td>
+                        </tr>
+                        <tr>
+                            <td><strong>name_full</strong></td>
+                            <td>Focal deletion of RASA1 with loss of heterozygosity and reduced expression</td>
+                        </tr>
+                        <tr>
+                            <td><strong>brief_description</strong></td>
+                            <td>A simple deletion of RASA1 coupled to LOH decreased RASA1 expression in a case initially called driver-negative. This is another example of a pathway-regulatory lesion missed until WGS uncovered the structural event.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>citation_title</strong></td>
+                            <td>Whole-genome characterization of lung adenocarcinomas lacking alterations in the RTK/RAS/RAF pathway</td>
+                        </tr>
+                        <tr>
+                            <td><strong>mention_or_use</strong></td>
+                            <td>use</td>
+                        </tr>
+                        <tr>
+                            <td><strong>oncogene_negative_definition</strong></td>
+                            <td>Initial RPA(E) status was based on WES/RNA-seq absence of loss-of-function mutations in RASA1 and other canonical RTK/RAS/RAF drivers; WGS re-evaluated for structural events.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>assay_strategy_and_detection_limits</strong></td>
+                            <td>WGS SV/CNA analysis detected the deletion; the paper notes false negatives can occur in standard assays when focal events or exon-level losses are poorly covered.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>missed_driver_reclassified_after_broader_testing</strong></td>
+                            <td>Yes. One case was reclassified as RPA(+) because WGS found a RASA1 deletion with LOH and reduced expression.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>driver_event_class</strong></td>
+                            <td>focal deletion / loss-of-function structural variant</td>
+                        </tr>
+                        <tr>
+                            <td><strong>candidate_driver_gene_or_locus</strong></td>
+                            <td>RASA1</td>
+                        </tr>
+                        <tr>
+                            <td><strong>structural_or_regulatory_activation_mechanism</strong></td>
+                            <td>Biallelic inactivation of a negative regulator of RTK/RAS/RAF signaling.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>functional_consequence</strong></td>
+                            <td>Decreased expression of RASA1 and loss of negative regulation of the pathway.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>co_alteration_or_combinatorial_requirement</strong></td>
+                            <td>Deletion coupled with LOH indicates a multi-hit suppressor loss.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>human_prevalence_or_enrichment</strong></td>
+                            <td>Observed in 1/85 WGS cases among previously RPA(E) tumors.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>functional_or_clinical_validation</strong></td>
+                            <td>Supported by WGS and RNA expression decrease; no direct functional assay was reported.</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="extraction-instance-container" id="e2092.4">
+                <h3 class="extraction-instance">Extracted Data Instance 4 (e2092.4)</h3>
+                <div class="extraction-query"><strong>Extraction Query:</strong> Extract any mentions of hidden genomic, structural, regulatory, or assay-missed drivers in oncogene-negative lung adenocarcinoma.</div>
+                <table>
+                    <thead>
+                        <tr>
+                            <th style="width: 30%;">Field</th>
+                            <th style="width: 70%;">Value</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><strong>name_short</strong></td>
+                            <td>SOS1 amp</td>
+                        </tr>
+                        <tr>
+                            <td><strong>name_full</strong></td>
+                            <td>SOS1 amplification and overexpression</td>
+                        </tr>
+                        <tr>
+                            <td><strong>brief_description</strong></td>
+                            <td>One tumor displayed amplification and overexpression of SOS1, which the authors considered potentially relevant because SOS1 mutations are known to activate RTK/RAS/RAF signaling. They explicitly note that the role of amplification in pathway activation is unclear.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>citation_title</strong></td>
+                            <td>Whole-genome characterization of lung adenocarcinomas lacking alterations in the RTK/RAS/RAF pathway</td>
+                        </tr>
+                        <tr>
+                            <td><strong>mention_or_use</strong></td>
+                            <td>use</td>
+                        </tr>
+                        <tr>
+                            <td><strong>oncogene_negative_definition</strong></td>
+                            <td>The study’s driver-negative framework included non-amplification of canonical RTK/RAS/RAF oncogenes, with WGS used to look for overlooked amplifications and structural events.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>assay_strategy_and_detection_limits</strong></td>
+                            <td>WGS copy-number/SV analysis identified the amplification; standard assays may miss such events or may not classify them as oncogenic without expression evidence.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>missed_driver_reclassified_after_broader_testing</strong></td>
+                            <td>Potentially yes in the sense that SOS1 amplification/overexpression was only recognized after WGS, but the paper does not clearly state this case was reclassified as RPA(+).</td>
+                        </tr>
+                        <tr>
+                            <td><strong>driver_event_class</strong></td>
+                            <td>copy-number amplification</td>
+                        </tr>
+                        <tr>
+                            <td><strong>candidate_driver_gene_or_locus</strong></td>
+                            <td>SOS1</td>
+                        </tr>
+                        <tr>
+                            <td><strong>structural_or_regulatory_activation_mechanism</strong></td>
+                            <td>Dosage increase leading to overexpression; mechanistic activation is suggested but not proven.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>functional_consequence</strong></td>
+                            <td>Possible RTK/RAS/RAF pathway activation.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>co_alteration_or_combinatorial_requirement</strong></td>
+                            <td>No specific cooperating alteration reported.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>human_prevalence_or_enrichment</strong></td>
+                            <td>Observed in 1 case (TCGA-62-8399).</td>
+                        </tr>
+                        <tr>
+                            <td><strong>functional_or_clinical_validation</strong></td>
+                            <td>Only inferential evidence from amplification plus overexpression; the paper states the activating role is unclear.</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="extraction-instance-container" id="e2092.5">
+                <h3 class="extraction-instance">Extracted Data Instance 5 (e2092.5)</h3>
+                <div class="extraction-query"><strong>Extraction Query:</strong> Extract any mentions of hidden genomic, structural, regulatory, or assay-missed drivers in oncogene-negative lung adenocarcinoma.</div>
+                <table>
+                    <thead>
+                        <tr>
+                            <th style="width: 30%;">Field</th>
+                            <th style="width: 70%;">Value</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><strong>name_short</strong></td>
+                            <td>STK11 promoter/TSS deletion</td>
+                        </tr>
+                        <tr>
+                            <td><strong>name_full</strong></td>
+                            <td>Focal deletion targeting the promoter or transcription start site of STK11</td>
+                        </tr>
+                        <tr>
+                            <td><strong>brief_description</strong></td>
+                            <td>Among the remaining WGS-negative-for-RPA cases, the authors found focal deletions targeting the STK11 promoter/transcription start site and/or gene body, frequently coupled to LOH and reduced expression. This is a hidden structural suppressor loss rather than an oncogene gain.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>citation_title</strong></td>
+                            <td>Whole-genome characterization of lung adenocarcinomas lacking alterations in the RTK/RAS/RAF pathway</td>
+                        </tr>
+                        <tr>
+                            <td><strong>mention_or_use</strong></td>
+                            <td>use</td>
+                        </tr>
+                        <tr>
+                            <td><strong>oncogene_negative_definition</strong></td>
+                            <td>The cohort was defined as lacking canonical RTK/RAS/RAF alterations by WES/RNA-seq, after which WGS searched for coding and non-coding drivers including focal deletions in tumor suppressors such as STK11.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>assay_strategy_and_detection_limits</strong></td>
+                            <td>WGS structural analysis, with RNA-seq supporting exon-skipping junctions for some deletions. The paper notes WES can miss focal deletions, especially when they are small or exon-limited.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>missed_driver_reclassified_after_broader_testing</strong></td>
+                            <td>No explicit statement that these STK11 deletions reclassified tumors as RPA(+); rather, they were found within the remaining RPA(–)G subset as candidate hidden drivers of the RPA-negative biology.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>driver_event_class</strong></td>
+                            <td>focal deletion / promoter-TSS deletion</td>
+                        </tr>
+                        <tr>
+                            <td><strong>candidate_driver_gene_or_locus</strong></td>
+                            <td>STK11 promoter or transcription start site; also gene-body deletions</td>
+                        </tr>
+                        <tr>
+                            <td><strong>structural_or_regulatory_activation_mechanism</strong></td>
+                            <td>Loss of gene regulatory region or coding sequence causing tumor suppressor inactivation, often with LOH.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>functional_consequence</strong></td>
+                            <td>Decreased STK11 expression and loss of tumor suppressor function.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>co_alteration_or_combinatorial_requirement</strong></td>
+                            <td>Frequently coupled with LOH; the study also reports enrichment/association with TP53 mutant cases in simple deletions more generally.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>human_prevalence_or_enrichment</strong></td>
+                            <td>7 promoter/TSS-targeting deletions of STK11 were noted in the 57 remaining RPA(–)G cases; overall the discussion states 9/85 samples had focal STK11 deletions undetected by WES.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>functional_or_clinical_validation</strong></td>
+                            <td>Supported by concordant RNA-seq exon-skipping junctions and reduced expression; no wet-lab functional validation was reported.</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="extraction-instance-container" id="e2092.6">
+                <h3 class="extraction-instance">Extracted Data Instance 6 (e2092.6)</h3>
+                <div class="extraction-query"><strong>Extraction Query:</strong> Extract any mentions of hidden genomic, structural, regulatory, or assay-missed drivers in oncogene-negative lung adenocarcinoma.</div>
+                <table>
+                    <thead>
+                        <tr>
+                            <th style="width: 30%;">Field</th>
+                            <th style="width: 70%;">Value</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><strong>name_short</strong></td>
+                            <td>KEAP1 promoter/TSS deletion</td>
+                        </tr>
+                        <tr>
+                            <td><strong>name_full</strong></td>
+                            <td>Focal deletion targeting the promoter or transcription start site of KEAP1</td>
+                        </tr>
+                        <tr>
+                            <td><strong>brief_description</strong></td>
+                            <td>Two tumors had focal deletions affecting the KEAP1 promoter/transcription start site without coding-region disruption, leading to reduced KEAP1 expression. This is a noncoding structural loss missed by earlier assays.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>citation_title</strong></td>
+                            <td>Whole-genome characterization of lung adenocarcinomas lacking alterations in the RTK/RAS/RAF pathway</td>
+                        </tr>
+                        <tr>
+                            <td><strong>mention_or_use</strong></td>
+                            <td>use</td>
+                        </tr>
+                        <tr>
+                            <td><strong>oncogene_negative_definition</strong></td>
+                            <td>Cases were initially negative for canonical RTK/RAS/RAF alterations by WES/RNA-seq; WGS then examined noncoding and structural lesions in genes like KEAP1.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>assay_strategy_and_detection_limits</strong></td>
+                            <td>WGS revealed promoter/TSS deletions that did not alter coding regions, demonstrating a blind spot of coding-focused assays.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>missed_driver_reclassified_after_broader_testing</strong></td>
+                            <td>No explicit reclassification to RPA(+) is stated; these were discovered among the remaining RPA(–)G tumors as candidate hidden tumor-suppressor lesions.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>driver_event_class</strong></td>
+                            <td>promoter/transcription start site deletion</td>
+                        </tr>
+                        <tr>
+                            <td><strong>candidate_driver_gene_or_locus</strong></td>
+                            <td>KEAP1 promoter/TSS</td>
+                        </tr>
+                        <tr>
+                            <td><strong>structural_or_regulatory_activation_mechanism</strong></td>
+                            <td>Regulatory-region deletion causing loss of KEAP1 expression and tumor suppressor inactivation.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>functional_consequence</strong></td>
+                            <td>Reduced KEAP1 expression; loss of negative regulation of cellular stress-response pathways.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>co_alteration_or_combinatorial_requirement</strong></td>
+                            <td>Deletion may be coupled to LOH in the broader set of KEAP1 focal deletions.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>human_prevalence_or_enrichment</strong></td>
+                            <td>2 cases had promoter/TSS deletions of KEAP1; overall 3 KEAP1 focal deletions are summarized in the abstract.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>functional_or_clinical_validation</strong></td>
+                            <td>Supported by WGS and reduced KEAP1 expression; no direct perturbation assay reported.</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="extraction-instance-container" id="e2092.7">
+                <h3 class="extraction-instance">Extracted Data Instance 7 (e2092.7)</h3>
+                <div class="extraction-query"><strong>Extraction Query:</strong> Extract any mentions of hidden genomic, structural, regulatory, or assay-missed drivers in oncogene-negative lung adenocarcinoma.</div>
+                <table>
+                    <thead>
+                        <tr>
+                            <th style="width: 30%;">Field</th>
+                            <th style="width: 70%;">Value</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><strong>name_short</strong></td>
+                            <td>ILF2 promoter mutation</td>
+                        </tr>
+                        <tr>
+                            <td><strong>name_full</strong></td>
+                            <td>Recurrent promoter mutations in ILF2 associated with increased ILF2 expression</td>
+                        </tr>
+                        <tr>
+                            <td><strong>brief_description</strong></td>
+                            <td>The main recurrent noncoding hidden driver reported in the paper is a set of promoter mutations in ILF2 found in RPA(–)G LUADs. These mutations occur in highly conserved open-chromatin regions, are predicted to disrupt transcription-factor motifs, and are associated with higher ILF2 expression and increased SV burden.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>citation_title</strong></td>
+                            <td>Whole-genome characterization of lung adenocarcinomas lacking alterations in the RTK/RAS/RAF pathway</td>
+                        </tr>
+                        <tr>
+                            <td><strong>mention_or_use</strong></td>
+                            <td>use</td>
+                        </tr>
+                        <tr>
+                            <td><strong>oncogene_negative_definition</strong></td>
+                            <td>The mutations were searched for in the 57 remaining RPA(–)G cases after WGS showed no RTK/RAS/RAF pathway alteration by WGS, WES, or RNA-seq.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>assay_strategy_and_detection_limits</strong></td>
+                            <td>Noncoding recurrence analysis was performed in LUAD ATAC-seq-defined open chromatin regions, using gamma-Poisson regression. This approach is designed to detect regulatory mutations that coding assays or expression-only assays would miss.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>missed_driver_reclassified_after_broader_testing</strong></td>
+                            <td>Not a rescue to RPA(+); instead, a previously hidden noncoding candidate driver was discovered only after broader WGS plus ATAC-seq-informed regulatory analysis.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>driver_event_class</strong></td>
+                            <td>promoter mutation / noncoding regulatory event</td>
+                        </tr>
+                        <tr>
+                            <td><strong>candidate_driver_gene_or_locus</strong></td>
+                            <td>ILF2 promoter</td>
+                        </tr>
+                        <tr>
+                            <td><strong>structural_or_regulatory_activation_mechanism</strong></td>
+                            <td>Somatic mutations in conserved promoter/open-chromatin sequence likely alter transcription-factor binding; the paper specifically predicts disruption of HOXB6 and NR3C1 motifs for two mutations.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>functional_consequence</strong></td>
+                            <td>Increased ILF2 expression; associated with increased structural-variation burden.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>co_alteration_or_combinatorial_requirement</strong></td>
+                            <td>The analysis was enriched among genes that were both consistently expressed and recurrently amplified, and expression analyses controlled for local ILF2 copy number and tumor purity.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>human_prevalence_or_enrichment</strong></td>
+                            <td>Promoter region mutated in 6/57 RPA(–)G cases; the promoter peak was significant with p = 2.7 × 10^-6 and FDR < 0.1 in the targeted analysis.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>functional_or_clinical_validation</strong></td>
+                            <td>Association with elevated ILF2 expression was shown after controlling for copy number and purity; the paper also notes prior myeloma studies linking ILF2 amplification/expression to genomic instability and therapy resistance, but no direct LUAD functional assay was reported.</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="extraction-instance-container" id="e2092.8">
+                <h3 class="extraction-instance">Extracted Data Instance 8 (e2092.8)</h3>
+                <div class="extraction-query"><strong>Extraction Query:</strong> Extract any mentions of hidden genomic, structural, regulatory, or assay-missed drivers in oncogene-negative lung adenocarcinoma.</div>
+                <table>
+                    <thead>
+                        <tr>
+                            <th style="width: 30%;">Field</th>
+                            <th style="width: 70%;">Value</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><strong>name_short</strong></td>
+                            <td>Double minutes</td>
+                        </tr>
+                        <tr>
+                            <td><strong>name_full</strong></td>
+                            <td>Extrachromosomal double minute amplicons</td>
+                        </tr>
+                        <tr>
+                            <td><strong>brief_description</strong></td>
+                            <td>Double minutes were the most common complex structural-variation class in the remaining RPA(–)G tumors. They fused and amplified genomic segments and tended to contain expression outlier genes, suggesting selection for dosage-driven oncogenic effects.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>citation_title</strong></td>
+                            <td>Whole-genome characterization of lung adenocarcinomas lacking alterations in the RTK/RAS/RAF pathway</td>
+                        </tr>
+                        <tr>
+                            <td><strong>mention_or_use</strong></td>
+                            <td>use</td>
+                        </tr>
+                        <tr>
+                            <td><strong>oncogene_negative_definition</strong></td>
+                            <td>The analysis focused on the 57 tumors that remained negative for RTK/RAS/RAF alterations after WGS, WES, and RNA-seq.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>assay_strategy_and_detection_limits</strong></td>
+                            <td>Genome graphs reconstructed from WGS read depth plus SV breakpoints were required to identify double minutes and other complex amplicons; these are generally invisible or difficult to resolve with standard targeted assays.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>missed_driver_reclassified_after_broader_testing</strong></td>
+                            <td>No single reclassification event is attached to double minutes, but the study uses WGS to uncover them as hidden structural drivers in the driver-negative subset.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>driver_event_class</strong></td>
+                            <td>complex structural amplification / extrachromosomal amplicon</td>
+                        </tr>
+                        <tr>
+                            <td><strong>candidate_driver_gene_or_locus</strong></td>
+                            <td>Examples include a chromosome 13 double minute containing UBL3, SOX21, and LIG4; other double minutes were common across samples.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>structural_or_regulatory_activation_mechanism</strong></td>
+                            <td>Extrachromosomal circular DNA-like amplification increases copy number and dosage of resident genes.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>functional_consequence</strong></td>
+                            <td>Overexpression of genes within amplified segments and likely growth-promoting selection.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>co_alteration_or_combinatorial_requirement</strong></td>
+                            <td>At least one gene on each double minute is inferred to contribute to tumor development; multiple amplified genes can co-occur within the same amplicon.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>human_prevalence_or_enrichment</strong></td>
+                            <td>Double minutes were present in 12/57 RPA(–)G samples.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>functional_or_clinical_validation</strong></td>
+                            <td>Genes in double minutes were enriched for expression outliers; in one case, UBL3 and LIG4 were overexpressed relative to the cohort. No direct mechanistic assays were reported.</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="extraction-instance-container" id="e2092.9">
+                <h3 class="extraction-instance">Extracted Data Instance 9 (e2092.9)</h3>
+                <div class="extraction-query"><strong>Extraction Query:</strong> Extract any mentions of hidden genomic, structural, regulatory, or assay-missed drivers in oncogene-negative lung adenocarcinoma.</div>
+                <table>
+                    <thead>
+                        <tr>
+                            <th style="width: 30%;">Field</th>
+                            <th style="width: 70%;">Value</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><strong>name_short</strong></td>
+                            <td>BFBC</td>
+                        </tr>
+                        <tr>
+                            <td><strong>name_full</strong></td>
+                            <td>Breakage-fusion-bridge cycle</td>
+                        </tr>
+                        <tr>
+                            <td><strong>brief_description</strong></td>
+                            <td>BFBC is a complex structural mechanism identified in the cohort that can generate high-level oncogene amplification. The paper specifically demonstrates BFBC underlying EGFR amplification and notes BFBCs among the complex SV classes in driver-negative tumors.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>citation_title</strong></td>
+                            <td>Whole-genome characterization of lung adenocarcinomas lacking alterations in the RTK/RAS/RAF pathway</td>
+                        </tr>
+                        <tr>
+                            <td><strong>mention_or_use</strong></td>
+                            <td>use</td>
+                        </tr>
+                        <tr>
+                            <td><strong>oncogene_negative_definition</strong></td>
+                            <td>Applied after WGS re-analysis of tumors initially negative by WES/RNA-seq for canonical RTK/RAS/RAF alterations.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>assay_strategy_and_detection_limits</strong></td>
+                            <td>Requires WGS genome-graph reconstruction to resolve rearrangement junctions and copy-number gains.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>missed_driver_reclassified_after_broader_testing</strong></td>
+                            <td>Yes in the EGFR example: BFBC-driven EGFR amplification reclassified one case as RPA(+).</td>
+                        </tr>
+                        <tr>
+                            <td><strong>driver_event_class</strong></td>
+                            <td>complex rearrangement / amplification mechanism</td>
+                        </tr>
+                        <tr>
+                            <td><strong>candidate_driver_gene_or_locus</strong></td>
+                            <td>EGFR in the explicit example; BFBCs were also cataloged more generally across the cohort.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>structural_or_regulatory_activation_mechanism</strong></td>
+                            <td>Chromosome breakage and re-fusion produce iterative copy-number amplification.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>functional_consequence</strong></td>
+                            <td>High-level copy-number gain and overexpression of resident oncogenes.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>co_alteration_or_combinatorial_requirement</strong></td>
+                            <td>The relevant case combined BFBC with EGFR overexpression as the oncogenic readout.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>human_prevalence_or_enrichment</strong></td>
+                            <td>5 BFBC events were identified among the 57 RPA(–)G cases; one EGFR BFBC was used as an illustrative rescued driver.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>functional_or_clinical_validation</strong></td>
+                            <td>Validated by purity-adjusted copy number and SV junction evidence; in the EGFR example, overexpression accompanied the amplification.</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="extraction-instance-container" id="e2092.10">
+                <h3 class="extraction-instance">Extracted Data Instance 10 (e2092.10)</h3>
+                <div class="extraction-query"><strong>Extraction Query:</strong> Extract any mentions of hidden genomic, structural, regulatory, or assay-missed drivers in oncogene-negative lung adenocarcinoma.</div>
+                <table>
+                    <thead>
+                        <tr>
+                            <th style="width: 30%;">Field</th>
+                            <th style="width: 70%;">Value</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><strong>name_short</strong></td>
+                            <td>Tyfonas</td>
+                        </tr>
+                        <tr>
+                            <td><strong>name_full</strong></td>
+                            <td>Tyfonas complex structural variation pattern</td>
+                        </tr>
+                        <tr>
+                            <td><strong>brief_description</strong></td>
+                            <td>Tyfonas are a complex SV class with many high-junction-copy and fold-back inversion junctions. In this study they were found as a mechanism underlying amplifications such as NKX2-1 in RPA(–)G LUADs.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>citation_title</strong></td>
+                            <td>Whole-genome characterization of lung adenocarcinomas lacking alterations in the RTK/RAS/RAF pathway</td>
+                        </tr>
+                        <tr>
+                            <td><strong>mention_or_use</strong></td>
+                            <td>use</td>
+                        </tr>
+                        <tr>
+                            <td><strong>oncogene_negative_definition</strong></td>
+                            <td>Observed during WGS of tumors remaining negative for canonical RTK/RAS/RAF alterations after prior assays.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>assay_strategy_and_detection_limits</strong></td>
+                            <td>Detected by genome-graph reconstruction from WGS data; such patterns are beyond the resolution of standard WES/RNA-seq.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>missed_driver_reclassified_after_broader_testing</strong></td>
+                            <td>No explicit reclassification is tied to tyfonas, but they represent a hidden structural mechanism discovered only by WGS.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>driver_event_class</strong></td>
+                            <td>complex amplification / rearrangement pattern</td>
+                        </tr>
+                        <tr>
+                            <td><strong>candidate_driver_gene_or_locus</strong></td>
+                            <td>Example: NKX2-1 amplification driven by tyfonas</td>
+                        </tr>
+                        <tr>
+                            <td><strong>structural_or_regulatory_activation_mechanism</strong></td>
+                            <td>Complex rearrangement yields high-copy amplification of oncogenic loci.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>functional_consequence</strong></td>
+                            <td>Amplification and overexpression of resident genes.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>co_alteration_or_combinatorial_requirement</strong></td>
+                            <td>None specified.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>human_prevalence_or_enrichment</strong></td>
+                            <td>5 tyfonas events were identified among the 57 RPA(–)G cases.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>functional_or_clinical_validation</strong></td>
+                            <td>Illustrated by an NKX2-1 amplification example; no direct perturbation assay was reported.</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>Potentially Relevant New Papers (mentioned by this paper)</h2>
+            <ol>
+                <li>Distinct patterns of somatic genome alterations in lung adenocarcinomas and squamous cell carcinomas <em>(Rating: 2)</em></li>
+                <li>Whole-genome characterization of lung adenocarcinomas lacking alterations in the RTK/RAS/RAF pathway <em>(Rating: 2)</em></li>
+                <li>Insertions and Deletions Target Lineage-Defining Genes in Human Cancers <em>(Rating: 1)</em></li>
+                <li>The chromatin accessibility landscape of primary human cancers <em>(Rating: 1)</em></li>
+                <li>Distinct Classes of Complex Structural Variation Uncovered across Thousands of Cancer Genome Graphs <em>(Rating: 2)</em></li>
+            </ol>
+        </div>
+
+        </div>
+
+    </div>
+</body>
+</html>

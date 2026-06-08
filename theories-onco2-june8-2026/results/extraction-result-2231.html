@@ -1,0 +1,808 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Extraction extraction-result-2231 - Theorizer</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+    <div class="header">
+        <a href="../index.html"><i class="fas fa-flask"></i> Theorizer</a>
+    </div>
+
+    <div class="content">
+        <h1>Extracted Data Details for extraction-result-2231</h1>
+
+        <div class="section">
+            <h2>Extracted Data (Header)</h2>
+            <div class="info-section">
+                <p><strong>Extraction ID:</strong> extraction-result-2231</p>
+                <p><strong>Extraction Schema Used (ID):</strong> <a href="../schemas/extraction-schema-1844.html">extraction-schema-1844</a></p>
+                <div class="extraction-query"><strong>Extraction Query:</strong> Extract any mentions of hidden genomic, structural, regulatory, or assay-missed drivers in oncogene-negative lung adenocarcinoma.</div>
+                <p><strong>Paper ID:</strong> paper-22e6247a08af366f7f19620c7fc58a5b5d861d4d</p>
+                <p><strong>Paper Title:</strong> <a href="https://www.semanticscholar.org/paper/22e6247a08af366f7f19620c7fc58a5b5d861d4d" target="_blank">The landscape of kinase fusions in cancer</a></p>
+                <p><strong>Paper Venue:</strong> Nature Communications</p>
+                <p><strong>Paper TL;DR:</strong> Heuristics for reliably detecting gene fusion events in RNA-seq data are developed and applied and are able to discover several novel and recurrent fusions involving kinases, which have immediate clinical implications and expand the therapeutic options for cancer patients.</p>
+                <p><strong>Paper Abstract:</strong> Human cancer genomes harbour a variety of alterations leading to the deregulation of key pathways in tumour cells. The genomic characterization of tumours has uncovered numerous genes recurrently mutated, deleted or amplified, but gene fusions have not been characterized as extensively. Here we develop heuristics for reliably detecting gene fusion events in RNA-seq data and apply them to nearly 7,000 samples from The Cancer Genome Atlas. We thereby are able to discover several novel and recurrent fusions involving kinases. These findings have immediate clinical implications and expand the therapeutic options for cancer patients, as approved or exploratory drugs exist for many of these kinases. Kinases activated by gene fusions represent potentially important targets for the development of cancer drugs. Here, the authors develop a method for detecting gene fusion events in RNA sequencing data from The Cancer Genome Atlas and identify several novel recurrent fusions involving kinases.</p>
+                <p><strong>Cost:</strong> 0.026</p>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>Extracted Data (Details)</h2>
+            <div class="extraction-instance-container" id="e2231.0">
+                <h3 class="extraction-instance">Extracted Data Instance 0 (e2231.0)</h3>
+                <div class="extraction-query"><strong>Extraction Query:</strong> Extract any mentions of hidden genomic, structural, regulatory, or assay-missed drivers in oncogene-negative lung adenocarcinoma.</div>
+                <table>
+                    <thead>
+                        <tr>
+                            <th style="width: 30%;">Field</th>
+                            <th style="width: 70%;">Value</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><strong>name_short</strong></td>
+                            <td>MET fusions</td>
+                        </tr>
+                        <tr>
+                            <td><strong>name_full</strong></td>
+                            <td>MET proto-oncogene fusions</td>
+                        </tr>
+                        <tr>
+                            <td><strong>brief_description</strong></td>
+                            <td>The paper reports recurrent in-frame MET fusions in primary tumors, including BAIAP2L1–MET, C8orf34–MET, KIF5B–MET, and TFG–MET. These are interpreted as activating rearrangements that bring dimerization motifs to the MET kinase domain, providing a previously unrecognized fusion-based mechanism of MET activation.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>citation_title</strong></td>
+                            <td>The landscape of kinase fusions in cancer</td>
+                        </tr>
+                        <tr>
+                            <td><strong>mention_or_use</strong></td>
+                            <td>use</td>
+                        </tr>
+                        <tr>
+                            <td><strong>oncogene_negative_definition</strong></td>
+                            <td>TCGA RNA-seq solid-tumor samples were screened for gene fusions across 20 cancer types; recurrent kinase fusions were called only if supported by chimeric and split reads, in-frame, with intact kinase catalytic domain, and absent from normal samples/passing false-positive filters. Tumors without previously known kinase fusions were not labeled by a separate canonical driver panel in this paper; the 'negative' state here is implicit as cases lacking detected recurrent kinase fusions under the RNA-seq fusion calling rules.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>assay_strategy_and_detection_limits</strong></td>
+                            <td>Unbiased RNA-seq fusion detection from TCGA (STAR alignment, chimeric/split-read calling, manual IGV review, Pfam/InterPro domain annotation, exclusion of events in normals and improbable recurrent artifacts). Blind spots included reliance on expression of the fusion transcript, inability to detect DNA-level SVs not expressed in RNA, exclusion of singletons from curated driver calls, and potential failure to detect events with poor junction support, highly repetitive/homologous sequence, or noncanonical/non-expressed rearrangements.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>missed_driver_reclassified_after_broader_testing</strong></td>
+                            <td>Yes, recurrent MET translocations were newly discovered in primary tumors after broader transcriptome-wide fusion testing. The rescued alterations were in-frame MET fusions with amino-terminal dimerization partners; they were not previously implicated as translocation events in primary tumors and would likely have been missed by assays not designed to detect expressed gene fusions.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>driver_event_class</strong></td>
+                            <td>gene fusion</td>
+                        </tr>
+                        <tr>
+                            <td><strong>candidate_driver_gene_or_locus</strong></td>
+                            <td>MET fused to BAIAP2L1, C8orf34, KIF5B, and TFG in different tumors; additionally single MET fusions were seen in low-grade glioma, hepatocellular carcinoma, lung adenocarcinoma, and thyroid carcinoma.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>structural_or_regulatory_activation_mechanism</strong></td>
+                            <td>Fusion of an intact MET intracellular kinase domain to partner-derived amino-terminal dimerization motifs (coiled-coil or related oligomerization domains) leading to constitutive receptor dimerization/activation.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>functional_consequence</strong></td>
+                            <td>Predicted constitutive activation of MET signaling and oncogenic drive.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>co_alteration_or_combinatorial_requirement</strong></td>
+                            <td>No required cooperating alteration was reported. The mechanism is described as sufficient by itself when the fusion preserves the MET kinase domain and supplies a dimerization motif.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>human_prevalence_or_enrichment</strong></td>
+                            <td>Recurrent MET fusions were found in five cancer types; specifically two in papillary renal carcinoma and single events in four other cancers. The paper does not provide a cohort-wide percentage for MET fusions beyond these case counts.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>functional_or_clinical_validation</strong></td>
+                            <td>Validation is inferential from structural predictions and recurrence in primary tumors; the paper notes a prior in vitro transforming TPR–MET fusion paradigm and uses the canonical dimerization-to-kinase activation model to argue oncogenicity. No direct functional assay for the newly observed primary-tumor MET fusions is reported here.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>initial_negative_call_basis</strong></td>
+                            <td>Not directly stated for MET-specific cases; the paper's general negative call criteria were: no recurrent chimeric/split-read-supported in-frame fusion with intact kinase domain, absence from normals, and exclusion of alignment artifacts or highly recurrent improbable calls.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>negative_call_failure_mode</strong></td>
+                            <td>fusion_not_assayed</td>
+                        </tr>
+                        <tr>
+                            <td><strong>rescue_modality</strong></td>
+                            <td>rna_seq_fusion</td>
+                        </tr>
+                        <tr>
+                            <td><strong>final_explanatory_status</strong></td>
+                            <td>rescued_canonical_driver</td>
+                        </tr>
+                        <tr>
+                            <td><strong>post_workup_unexplained_fraction</strong></td>
+                            <td>Not reported for MET-specific cases; at the study level, many samples had no recurrent kinase fusion, but the paper does not quantify an unexplained fraction for the lung adenocarcinoma negative cohort.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>driver_mechanism_family</strong></td>
+                            <td>kinase_fusion_dimerization</td>
+                        </tr>
+                        <tr>
+                            <td><strong>signaling_activation_mode</strong></td>
+                            <td>constitutive_dimerization</td>
+                        </tr>
+                        <tr>
+                            <td><strong>oncogenic_unit_type</strong></td>
+                            <td>gene_pair_fusion</td>
+                        </tr>
+                        <tr>
+                            <td><strong>mechanistic_directness</strong></td>
+                            <td>likely_driver</td>
+                        </tr>
+                        <tr>
+                            <td><strong>histologic_subtype_normalized</strong></td>
+                            <td><span class="empty-note">null</span></td>
+                        </tr>
+                        <tr>
+                            <td><strong>lineage_marker_state</strong></td>
+                            <td><span class="empty-note">null</span></td>
+                        </tr>
+                        <tr>
+                            <td><strong>inferred_lineage_program</strong></td>
+                            <td>unknown</td>
+                        </tr>
+                        <tr>
+                            <td><strong>mucinous_program_evidence</strong></td>
+                            <td><span class="empty-note">null</span></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="extraction-instance-container" id="e2231.1">
+                <h3 class="extraction-instance">Extracted Data Instance 1 (e2231.1)</h3>
+                <div class="extraction-query"><strong>Extraction Query:</strong> Extract any mentions of hidden genomic, structural, regulatory, or assay-missed drivers in oncogene-negative lung adenocarcinoma.</div>
+                <table>
+                    <thead>
+                        <tr>
+                            <th style="width: 30%;">Field</th>
+                            <th style="width: 70%;">Value</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><strong>name_short</strong></td>
+                            <td>PIK3CA promoter fusions</td>
+                        </tr>
+                        <tr>
+                            <td><strong>name_full</strong></td>
+                            <td>PIK3CA promoter/5'UTR fusions</td>
+                        </tr>
+                        <tr>
+                            <td><strong>brief_description</strong></td>
+                            <td>The paper identifies recurrent TBL1XR1–PIK3CA and FNDC3B–PIK3CA fusions and shows that the complete wild-type PIK3CA coding sequence is retained. The fusion partners contribute only promoter/5'UTR sequences, implying regulatory activation through overexpression rather than altered protein structure.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>citation_title</strong></td>
+                            <td>The landscape of kinase fusions in cancer</td>
+                        </tr>
+                        <tr>
+                            <td><strong>mention_or_use</strong></td>
+                            <td>use</td>
+                        </tr>
+                        <tr>
+                            <td><strong>oncogene_negative_definition</strong></td>
+                            <td>TCGA RNA-seq was used to find recurrent kinase fusions in 20 solid tumor types, with curated calls requiring split/chimeric read support, in-frame structure, and intact kinase catalytic domain; the PIK3CA cases were among samples not previously known to harbor fusion-driven kinase activation.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>assay_strategy_and_detection_limits</strong></td>
+                            <td>RNA-seq fusion discovery plus expression and copy-number integration. Limits: promoter/5'UTR-only fusions are invisible to assays focused solely on coding mutations; DNA copy-number data alone could not explain all overexpression events; RNA-seq is required to detect expressed regulatory fusions.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>missed_driver_reclassified_after_broader_testing</strong></td>
+                            <td>Yes, PIK3CA-positive tumors were reclassified as harboring promoter fusions after RNA-seq fusion analysis. The rescued alteration was PIK3CA overexpression driven by TBL1XR1–PIK3CA or FNDC3B–PIK3CA; it was missed initially because the key lesion is noncoding/regulatory at the transcript level rather than a coding mutation.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>driver_event_class</strong></td>
+                            <td>promoter fusion</td>
+                        </tr>
+                        <tr>
+                            <td><strong>candidate_driver_gene_or_locus</strong></td>
+                            <td>TBL1XR1–PIK3CA in breast cancer and prostate adenocarcinoma; FNDC3B–PIK3CA in uterine corpus endometrial carcinoma.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>structural_or_regulatory_activation_mechanism</strong></td>
+                            <td>Juxtaposition of the partner gene promoter/5'UTR to the intact PIK3CA coding sequence, leaving the full wild-type protein sequence intact and driving transcriptional overexpression.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>functional_consequence</strong></td>
+                            <td>Marked PIK3CA mRNA overexpression and presumed oncogenic PI3K pathway activation.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>co_alteration_or_combinatorial_requirement</strong></td>
+                            <td>The paper notes that in all samples with PIK3CA translocations where PIK3CA was not amplified, the fusion correlated with the highest PIK3CA expression in that tumor type; no additional required cooperating alteration was reported.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>human_prevalence_or_enrichment</strong></td>
+                            <td>Two TBL1XR1–PIK3CA fusions in 1,072 breast cancers, one in 335 prostate adenocarcinomas, and one FNDC3B–PIK3CA fusion in 166 uterine corpus endometrial carcinomas. In fusion-positive, non-amplified samples, PIK3CA mRNA was the highest within the respective tumor types.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>functional_or_clinical_validation</strong></td>
+                            <td>Evidence includes intact coding sequence, transcriptional overexpression, and cross-tumor expression ranking; the authors argue these are promoter fusions and therapeutic candidates for PI3K/AKT/mTOR inhibition. No direct transformation assay is reported here.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>initial_negative_call_basis</strong></td>
+                            <td>Negative by the general fusion pipeline unless a recurrent in-frame fusion with intact kinase domain and sufficient read support was found; coding-mutation-centric testing would miss this because the lesion is regulatory and transcriptomic.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>negative_call_failure_mode</strong></td>
+                            <td>noncoding_event_not_assayed</td>
+                        </tr>
+                        <tr>
+                            <td><strong>rescue_modality</strong></td>
+                            <td>rna_seq_fusion</td>
+                        </tr>
+                        <tr>
+                            <td><strong>final_explanatory_status</strong></td>
+                            <td>rescued_regulatory_driver</td>
+                        </tr>
+                        <tr>
+                            <td><strong>post_workup_unexplained_fraction</strong></td>
+                            <td>Not reported for the broader driver-negative cohort; only the subset of PIK3CA-translocated samples is explained here.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>driver_mechanism_family</strong></td>
+                            <td>enhancer_hijacking</td>
+                        </tr>
+                        <tr>
+                            <td><strong>signaling_activation_mode</strong></td>
+                            <td>overexpression</td>
+                        </tr>
+                        <tr>
+                            <td><strong>oncogenic_unit_type</strong></td>
+                            <td>gene_pair_fusion</td>
+                        </tr>
+                        <tr>
+                            <td><strong>mechanistic_directness</strong></td>
+                            <td>direct_driver</td>
+                        </tr>
+                        <tr>
+                            <td><strong>histologic_subtype_normalized</strong></td>
+                            <td><span class="empty-note">null</span></td>
+                        </tr>
+                        <tr>
+                            <td><strong>lineage_marker_state</strong></td>
+                            <td><span class="empty-note">null</span></td>
+                        </tr>
+                        <tr>
+                            <td><strong>inferred_lineage_program</strong></td>
+                            <td>unknown</td>
+                        </tr>
+                        <tr>
+                            <td><strong>mucinous_program_evidence</strong></td>
+                            <td><span class="empty-note">null</span></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="extraction-instance-container" id="e2231.2">
+                <h3 class="extraction-instance">Extracted Data Instance 2 (e2231.2)</h3>
+                <div class="extraction-query"><strong>Extraction Query:</strong> Extract any mentions of hidden genomic, structural, regulatory, or assay-missed drivers in oncogene-negative lung adenocarcinoma.</div>
+                <table>
+                    <thead>
+                        <tr>
+                            <th style="width: 30%;">Field</th>
+                            <th style="width: 70%;">Value</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><strong>name_short</strong></td>
+                            <td>WASF2–FGR</td>
+                        </tr>
+                        <tr>
+                            <td><strong>name_full</strong></td>
+                            <td>WASF2–FGR fusion</td>
+                        </tr>
+                        <tr>
+                            <td><strong>brief_description</strong></td>
+                            <td>A recurrent promoter/5'UTR fusion between WASF2 and FGR is described as a previously undocumented mechanism of genetic deregulation of a Src family kinase. The fusion places WASF2 promoter/5'UTR sequences upstream of the full wild-type FGR sequence, associated with FGR overexpression.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>citation_title</strong></td>
+                            <td>The landscape of kinase fusions in cancer</td>
+                        </tr>
+                        <tr>
+                            <td><strong>mention_or_use</strong></td>
+                            <td>use</td>
+                        </tr>
+                        <tr>
+                            <td><strong>oncogene_negative_definition</strong></td>
+                            <td>Recurrent kinase fusions were sought in TCGA RNA-seq data using chimeric/split-read evidence, in-frame preservation, and intact kinase-domain filtering. FGR was not previously genetically linked to cancer and would not have been found by canonical oncogene-only mutation assays.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>assay_strategy_and_detection_limits</strong></td>
+                            <td>RNA-seq-based fusion detection and expression analysis. The main blind spot is that promoter-swapping/5'UTR-only events are regulatory and require transcript-level fusion discovery; DNA hotspot panels or exome sequencing would miss them.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>missed_driver_reclassified_after_broader_testing</strong></td>
+                            <td>Yes. Tumors with WASF2–FGR were not recognized as FGR-driven until RNA-seq fusion analysis revealed the promoter fusion and overexpression. It was missed initially because the mechanism is regulatory rather than a coding alteration.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>driver_event_class</strong></td>
+                            <td>promoter fusion</td>
+                        </tr>
+                        <tr>
+                            <td><strong>candidate_driver_gene_or_locus</strong></td>
+                            <td>WASF2–FGR in lung squamous carcinoma, ovarian serous cystadenocarcinoma, and skin cutaneous melanoma.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>structural_or_regulatory_activation_mechanism</strong></td>
+                            <td>Fusion of the WASF2 promoter and 5'UTR to the 5'UTR of FGR, resulting in expression of the entire wild-type FGR transcript.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>functional_consequence</strong></td>
+                            <td>Mis- or overexpression of FGR, with expression among the highest in the relevant tumor types.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>co_alteration_or_combinatorial_requirement</strong></td>
+                            <td>No cooperating alteration was reported; the fusion itself is proposed to explain FGR deregulation.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>human_prevalence_or_enrichment</strong></td>
+                            <td>Three recurrent fusions, one each in lung squamous carcinoma, ovarian serous cystadenocarcinoma, and skin cutaneous melanoma. In all three cases, FGR expression was among the highest for that tissue type.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>functional_or_clinical_validation</strong></td>
+                            <td>Evidence consists of recurrent identical breakpoints, promoter/5'UTR architecture, and strong expression outlier behavior. The paper cites prior hypothesis that FGR expression may compensate for SRC inhibition, but no direct functional assay is shown.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>initial_negative_call_basis</strong></td>
+                            <td>Not detected by assays limited to coding lesions or by prior genetic annotation; under this paper's pipeline, it would be negative unless an expressed fusion transcript was captured and curated.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>negative_call_failure_mode</strong></td>
+                            <td>noncoding_event_not_assayed</td>
+                        </tr>
+                        <tr>
+                            <td><strong>rescue_modality</strong></td>
+                            <td>rna_seq_fusion</td>
+                        </tr>
+                        <tr>
+                            <td><strong>final_explanatory_status</strong></td>
+                            <td>rescued_regulatory_driver</td>
+                        </tr>
+                        <tr>
+                            <td><strong>post_workup_unexplained_fraction</strong></td>
+                            <td>Not reported.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>driver_mechanism_family</strong></td>
+                            <td>enhancer_hijacking</td>
+                        </tr>
+                        <tr>
+                            <td><strong>signaling_activation_mode</strong></td>
+                            <td>overexpression</td>
+                        </tr>
+                        <tr>
+                            <td><strong>oncogenic_unit_type</strong></td>
+                            <td>gene_pair_fusion</td>
+                        </tr>
+                        <tr>
+                            <td><strong>mechanistic_directness</strong></td>
+                            <td>likely_driver</td>
+                        </tr>
+                        <tr>
+                            <td><strong>histologic_subtype_normalized</strong></td>
+                            <td><span class="empty-note">null</span></td>
+                        </tr>
+                        <tr>
+                            <td><strong>lineage_marker_state</strong></td>
+                            <td><span class="empty-note">null</span></td>
+                        </tr>
+                        <tr>
+                            <td><strong>inferred_lineage_program</strong></td>
+                            <td>unknown</td>
+                        </tr>
+                        <tr>
+                            <td><strong>mucinous_program_evidence</strong></td>
+                            <td><span class="empty-note">null</span></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="extraction-instance-container" id="e2231.3">
+                <h3 class="extraction-instance">Extracted Data Instance 3 (e2231.3)</h3>
+                <div class="extraction-query"><strong>Extraction Query:</strong> Extract any mentions of hidden genomic, structural, regulatory, or assay-missed drivers in oncogene-negative lung adenocarcinoma.</div>
+                <table>
+                    <thead>
+                        <tr>
+                            <th style="width: 30%;">Field</th>
+                            <th style="width: 70%;">Value</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><strong>name_short</strong></td>
+                            <td>PKN1 fusions</td>
+                        </tr>
+                        <tr>
+                            <td><strong>name_full</strong></td>
+                            <td>Protein kinase N1 fusions</td>
+                        </tr>
+                        <tr>
+                            <td><strong>brief_description</strong></td>
+                            <td>The paper reports recurrent PKN1 fusions in lung squamous cell carcinoma and hepatocellular carcinoma that truncate the N-terminal regulatory region. The predicted products lack much of the autoinhibitory region, suggesting constitutive kinase activation without major contribution from the fusion partner.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>citation_title</strong></td>
+                            <td>The landscape of kinase fusions in cancer</td>
+                        </tr>
+                        <tr>
+                            <td><strong>mention_or_use</strong></td>
+                            <td>use</td>
+                        </tr>
+                        <tr>
+                            <td><strong>oncogene_negative_definition</strong></td>
+                            <td>Recurrent kinase fusions were called from TCGA RNA-seq using chimeric/split reads and manual review; PKN1 fusions would be absent from driver-negative cases if no expressed fusion transcript was captured or if only a coding-mutation assay had been used.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>assay_strategy_and_detection_limits</strong></td>
+                            <td>RNA-seq fusion discovery with domain-based curation. Potential misses include structural rearrangements not transcribed, low-expression chimeras, or events interpreted as passenger because only one recurrent event may be observed overall.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>missed_driver_reclassified_after_broader_testing</strong></td>
+                            <td>Yes. ANXA4–PKN1 and TECR–PKN1 were uncovered in primary tumors by transcriptome fusion analysis. They were missed initially because the driver is a truncating fusion, not a canonical point mutation or copy-number event.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>driver_event_class</strong></td>
+                            <td>gene fusion</td>
+                        </tr>
+                        <tr>
+                            <td><strong>candidate_driver_gene_or_locus</strong></td>
+                            <td>ANXA4–PKN1 in squamous cell carcinoma of the lung and TECR–PKN1 in hepatocellular carcinoma.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>structural_or_regulatory_activation_mechanism</strong></td>
+                            <td>N-terminal truncation of PKN1 removes regulatory motifs that normally suppress kinase activity, with minimal functional contribution from the partner gene.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>functional_consequence</strong></td>
+                            <td>Predicted constitutive activation of PKN1; the paper also reports high mRNA expression in the relevant samples.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>co_alteration_or_combinatorial_requirement</strong></td>
+                            <td>No cooperating alteration was reported; the fusion itself is proposed to derepress the kinase.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>human_prevalence_or_enrichment</strong></td>
+                            <td>Two fusion occurrences total, one in lung squamous cell carcinoma and one in hepatocellular carcinoma. The corresponding samples showed high PKN1 mRNA expression within their tumor types.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>functional_or_clinical_validation</strong></td>
+                            <td>Evidence is structural and expression-based: truncation of the regulatory N terminus, presence of a nearby caspase-3 cleavage site, and overexpression. No direct functional assay is reported.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>initial_negative_call_basis</strong></td>
+                            <td>Negative if no recurrent, in-frame kinase fusion with conserved catalytic domain was detected in RNA-seq; this lesion would also be missed by assays not interrogating fusion transcripts.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>negative_call_failure_mode</strong></td>
+                            <td>fusion_not_assayed</td>
+                        </tr>
+                        <tr>
+                            <td><strong>rescue_modality</strong></td>
+                            <td>rna_seq_fusion</td>
+                        </tr>
+                        <tr>
+                            <td><strong>final_explanatory_status</strong></td>
+                            <td>rescued_noncanonical_driver</td>
+                        </tr>
+                        <tr>
+                            <td><strong>post_workup_unexplained_fraction</strong></td>
+                            <td>Not reported.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>driver_mechanism_family</strong></td>
+                            <td>tumor_suppressor_negative_regulator_loss</td>
+                        </tr>
+                        <tr>
+                            <td><strong>signaling_activation_mode</strong></td>
+                            <td>loss_of_gap_function</td>
+                        </tr>
+                        <tr>
+                            <td><strong>oncogenic_unit_type</strong></td>
+                            <td>gene_pair_fusion</td>
+                        </tr>
+                        <tr>
+                            <td><strong>mechanistic_directness</strong></td>
+                            <td>likely_driver</td>
+                        </tr>
+                        <tr>
+                            <td><strong>histologic_subtype_normalized</strong></td>
+                            <td><span class="empty-note">null</span></td>
+                        </tr>
+                        <tr>
+                            <td><strong>lineage_marker_state</strong></td>
+                            <td><span class="empty-note">null</span></td>
+                        </tr>
+                        <tr>
+                            <td><strong>inferred_lineage_program</strong></td>
+                            <td>unknown</td>
+                        </tr>
+                        <tr>
+                            <td><strong>mucinous_program_evidence</strong></td>
+                            <td><span class="empty-note">null</span></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="extraction-instance-container" id="e2231.4">
+                <h3 class="extraction-instance">Extracted Data Instance 4 (e2231.4)</h3>
+                <div class="extraction-query"><strong>Extraction Query:</strong> Extract any mentions of hidden genomic, structural, regulatory, or assay-missed drivers in oncogene-negative lung adenocarcinoma.</div>
+                <table>
+                    <thead>
+                        <tr>
+                            <th style="width: 30%;">Field</th>
+                            <th style="width: 70%;">Value</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><strong>name_short</strong></td>
+                            <td>PRKCA/PRKCB fusions</td>
+                        </tr>
+                        <tr>
+                            <td><strong>name_full</strong></td>
+                            <td>Protein kinase C alpha and beta fusions</td>
+                        </tr>
+                        <tr>
+                            <td><strong>brief_description</strong></td>
+                            <td>The paper identifies PRKCA and PRKCB fusions in lung cancer and low-grade glioma, including IGF2BP3–PRKCA and TANC2–PRKCA. These events truncate N-terminal autoinhibitory regions and, in PRKCA cases, are also associated with PRKCA overexpression.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>citation_title</strong></td>
+                            <td>The landscape of kinase fusions in cancer</td>
+                        </tr>
+                        <tr>
+                            <td><strong>mention_or_use</strong></td>
+                            <td>use</td>
+                        </tr>
+                        <tr>
+                            <td><strong>oncogene_negative_definition</strong></td>
+                            <td>RNA-seq fusion detection across TCGA with recurrent-event curation; tumors lacking such chimeric transcripts would be negative. The study specifically notes that conventional targeted genomic profiling may be insufficient to detect these aberrancies.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>assay_strategy_and_detection_limits</strong></td>
+                            <td>RNA-seq fusion calling, read support thresholds, and manual domain review. A limitation is that the assay detects expressed fusions and may miss structurally complex or non-expressed genomic rearrangements.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>missed_driver_reclassified_after_broader_testing</strong></td>
+                            <td>Yes. PRKCA/PRKCB fusion-positive samples were discovered by broader transcriptome fusion analysis rather than by standard kinase mutation or amplification testing.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>driver_event_class</strong></td>
+                            <td>gene fusion</td>
+                        </tr>
+                        <tr>
+                            <td><strong>candidate_driver_gene_or_locus</strong></td>
+                            <td>IGF2BP3–PRKCA and TANC2–PRKCA in lung squamous cell carcinoma; PRKCB fusions in lung squamous cell carcinoma, lung adenocarcinoma, and low-grade glioma.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>structural_or_regulatory_activation_mechanism</strong></td>
+                            <td>N-terminal truncation of PRKCA/PRKCB removes the autoinhibitory pseudosubstrate segment; the partner contribution can be minimal or structurally uninformative, implying derepression of kinase activity.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>functional_consequence</strong></td>
+                            <td>Constitutive kinase activation, and for PRKCA specifically an observed tendency toward overexpression of the kinase transcript.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>co_alteration_or_combinatorial_requirement</strong></td>
+                            <td>No cooperating alteration was reported; the fusion plus truncation is proposed as the activating lesion.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>human_prevalence_or_enrichment</strong></td>
+                            <td>Two PRKCA fusions were identified in lung cancers and three PRKCB fusions across lung squamous cell carcinoma, lung adenocarcinoma, and low-grade glioma. The paper suggests an emerging critical role for PKC alpha/beta in non-small cell lung cancer.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>functional_or_clinical_validation</strong></td>
+                            <td>Structural prediction plus expression outlier data are provided; the authors infer potential oncogenicity and drug relevance, but no direct functional assays are shown here.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>initial_negative_call_basis</strong></td>
+                            <td>Negative if fusion transcripts were not detected under the RNA-seq pipeline or if the event was not recurrent and in-frame with the kinase domain preserved.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>negative_call_failure_mode</strong></td>
+                            <td>fusion_not_assayed</td>
+                        </tr>
+                        <tr>
+                            <td><strong>rescue_modality</strong></td>
+                            <td>rna_seq_fusion</td>
+                        </tr>
+                        <tr>
+                            <td><strong>final_explanatory_status</strong></td>
+                            <td>rescued_noncanonical_driver</td>
+                        </tr>
+                        <tr>
+                            <td><strong>post_workup_unexplained_fraction</strong></td>
+                            <td>Not reported.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>driver_mechanism_family</strong></td>
+                            <td>tumor_suppressor_negative_regulator_loss</td>
+                        </tr>
+                        <tr>
+                            <td><strong>signaling_activation_mode</strong></td>
+                            <td>loss_of_gap_function</td>
+                        </tr>
+                        <tr>
+                            <td><strong>oncogenic_unit_type</strong></td>
+                            <td>gene_pair_fusion</td>
+                        </tr>
+                        <tr>
+                            <td><strong>mechanistic_directness</strong></td>
+                            <td>likely_driver</td>
+                        </tr>
+                        <tr>
+                            <td><strong>histologic_subtype_normalized</strong></td>
+                            <td><span class="empty-note">null</span></td>
+                        </tr>
+                        <tr>
+                            <td><strong>lineage_marker_state</strong></td>
+                            <td><span class="empty-note">null</span></td>
+                        </tr>
+                        <tr>
+                            <td><strong>inferred_lineage_program</strong></td>
+                            <td>unknown</td>
+                        </tr>
+                        <tr>
+                            <td><strong>mucinous_program_evidence</strong></td>
+                            <td><span class="empty-note">null</span></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="extraction-instance-container" id="e2231.5">
+                <h3 class="extraction-instance">Extracted Data Instance 5 (e2231.5)</h3>
+                <div class="extraction-query"><strong>Extraction Query:</strong> Extract any mentions of hidden genomic, structural, regulatory, or assay-missed drivers in oncogene-negative lung adenocarcinoma.</div>
+                <table>
+                    <thead>
+                        <tr>
+                            <th style="width: 30%;">Field</th>
+                            <th style="width: 70%;">Value</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><strong>name_short</strong></td>
+                            <td>TRIO–TERT</td>
+                        </tr>
+                        <tr>
+                            <td><strong>name_full</strong></td>
+                            <td>TRIO–TERT fusion</td>
+                        </tr>
+                        <tr>
+                            <td><strong>brief_description</strong></td>
+                            <td>A recurrent fusion encoding the non-kinase portion of TRIO is reported in dedifferentiated liposarcoma and is linked to strong upregulation of TERT. The authors suggest this may represent an alternative mechanism of telomerase reactivation.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>citation_title</strong></td>
+                            <td>The landscape of kinase fusions in cancer</td>
+                        </tr>
+                        <tr>
+                            <td><strong>mention_or_use</strong></td>
+                            <td>use</td>
+                        </tr>
+                        <tr>
+                            <td><strong>oncogene_negative_definition</strong></td>
+                            <td>This event was found through RNA-seq fusion discovery in TCGA; tumors lacking such fusion transcripts would be called negative under the fusion-based screen. The paper notes that it was not the focus of the study and was outside the recurrent kinase-fusion main filter.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>assay_strategy_and_detection_limits</strong></td>
+                            <td>RNA-seq-based fusion calling plus TERT expression/copy-number analysis. Blind spot: non-kinase-partner fusions were not the primary search focus, and TERT promoter mutations or copy-number gains would be missed if only fusion analysis were performed.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>missed_driver_reclassified_after_broader_testing</strong></td>
+                            <td>Yes. Two dedifferentiated liposarcoma samples were reclassified after broader RNA-seq analysis as harboring TRIO–TERT fusions with TERT overexpression; the lesion was missed by mutation-centric testing because the relevant mechanism is transcript-level fusion/regulatory activation.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>driver_event_class</strong></td>
+                            <td>fusion-associated regulatory activation</td>
+                        </tr>
+                        <tr>
+                            <td><strong>candidate_driver_gene_or_locus</strong></td>
+                            <td>TRIO–TERT in dedifferentiated liposarcoma.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>structural_or_regulatory_activation_mechanism</strong></td>
+                            <td>A TRIO-derived non-kinase fusion product is associated with upregulation of the fusion partner TERT, likely through promoter/regulatory juxtaposition.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>functional_consequence</strong></td>
+                            <td>Approximately 100-fold higher TERT mRNA expression in fusion-positive samples, consistent with telomerase reactivation.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>co_alteration_or_combinatorial_requirement</strong></td>
+                            <td>The paper notes other known TERT reactivation mechanisms, namely TERT promoter mutations and TERT copy-number gains, but does not report these co-occurring in the TRIO–TERT samples.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>human_prevalence_or_enrichment</strong></td>
+                            <td>Two of 38 dedifferentiated liposarcoma samples (5%) had TRIO–TERT fusions.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>functional_or_clinical_validation</strong></td>
+                            <td>Validation is based on recurrent detection and a strong TERT expression outlier (~100-fold higher than non-fusion samples). The authors interpret this as a plausible alternative telomerase-reactivation mechanism; no direct functional assay is reported.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>initial_negative_call_basis</strong></td>
+                            <td>Negative if no recurrent kinase fusion was detected; this non-kinase fusion would also be outside a kinase-focused screen unless manually considered.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>negative_call_failure_mode</strong></td>
+                            <td>fusion_not_assayed</td>
+                        </tr>
+                        <tr>
+                            <td><strong>rescue_modality</strong></td>
+                            <td>rna_seq_fusion</td>
+                        </tr>
+                        <tr>
+                            <td><strong>final_explanatory_status</strong></td>
+                            <td>rescued_regulatory_driver</td>
+                        </tr>
+                        <tr>
+                            <td><strong>post_workup_unexplained_fraction</strong></td>
+                            <td>The paper does not report the unexplained fraction for dedifferentiated liposarcoma after considering this lesion.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>driver_mechanism_family</strong></td>
+                            <td>enhancer_hijacking</td>
+                        </tr>
+                        <tr>
+                            <td><strong>signaling_activation_mode</strong></td>
+                            <td>overexpression</td>
+                        </tr>
+                        <tr>
+                            <td><strong>oncogenic_unit_type</strong></td>
+                            <td>gene_pair_fusion</td>
+                        </tr>
+                        <tr>
+                            <td><strong>mechanistic_directness</strong></td>
+                            <td>likely_driver</td>
+                        </tr>
+                        <tr>
+                            <td><strong>histologic_subtype_normalized</strong></td>
+                            <td><span class="empty-note">null</span></td>
+                        </tr>
+                        <tr>
+                            <td><strong>lineage_marker_state</strong></td>
+                            <td><span class="empty-note">null</span></td>
+                        </tr>
+                        <tr>
+                            <td><strong>inferred_lineage_program</strong></td>
+                            <td>unknown</td>
+                        </tr>
+                        <tr>
+                            <td><strong>mucinous_program_evidence</strong></td>
+                            <td><span class="empty-note">null</span></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>Potentially Relevant New Papers (mentioned by this paper)</h2>
+            <ol>
+                <li>Identification of the transforming EML4-ALK fusion gene in non-small-cell lung cancer <em>(Rating: 2)</em></li>
+                <li>RET, ROS1 and ALK fusions in lung cancer <em>(Rating: 2)</em></li>
+                <li>Detection of a recurrent DNAJB1-PRKACA chimeric transcript in fibrolamellar hepatocellular carcinoma <em>(Rating: 2)</em></li>
+                <li>New routes to targeted therapy of intrahepatic cholangiocarcinomas revealed by next-generation sequencing <em>(Rating: 1)</em></li>
+                <li>Exploration of the gene fusion landscape of glioblastoma using transcriptome sequencing and copy number data <em>(Rating: 1)</em></li>
+            </ol>
+        </div>
+
+        </div>
+
+    </div>
+</body>
+</html>

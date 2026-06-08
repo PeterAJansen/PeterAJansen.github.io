@@ -1,0 +1,941 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Extraction extraction-result-2329 - Theorizer</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+    <div class="header">
+        <a href="../index.html"><i class="fas fa-flask"></i> Theorizer</a>
+    </div>
+
+    <div class="content">
+        <h1>Extracted Data Details for extraction-result-2329</h1>
+
+        <div class="section">
+            <h2>Extracted Data (Header)</h2>
+            <div class="info-section">
+                <p><strong>Extraction ID:</strong> extraction-result-2329</p>
+                <p><strong>Extraction Schema Used (ID):</strong> <a href="../schemas/extraction-schema-1845.html">extraction-schema-1845</a></p>
+                <div class="extraction-query"><strong>Extraction Query:</strong> Extract any mentions of driver-negative or oncogene-negative lung adenocarcinoma cases, cohorts, models, or subgroups; the evidence for why they are considered driver-negative; candidate alternative drivers or mechanisms; proposed subtypes; validation strategies; comparisons to other cancers; and therapeutic implications.</div>
+                <p><strong>Paper ID:</strong> paper-22e6247a08af366f7f19620c7fc58a5b5d861d4d</p>
+                <p><strong>Paper Title:</strong> <a href="https://www.semanticscholar.org/paper/22e6247a08af366f7f19620c7fc58a5b5d861d4d" target="_blank">The landscape of kinase fusions in cancer</a></p>
+                <p><strong>Paper Venue:</strong> Nature Communications</p>
+                <p><strong>Paper TL;DR:</strong> Heuristics for reliably detecting gene fusion events in RNA-seq data are developed and applied and are able to discover several novel and recurrent fusions involving kinases, which have immediate clinical implications and expand the therapeutic options for cancer patients.</p>
+                <p><strong>Paper Abstract:</strong> Human cancer genomes harbour a variety of alterations leading to the deregulation of key pathways in tumour cells. The genomic characterization of tumours has uncovered numerous genes recurrently mutated, deleted or amplified, but gene fusions have not been characterized as extensively. Here we develop heuristics for reliably detecting gene fusion events in RNA-seq data and apply them to nearly 7,000 samples from The Cancer Genome Atlas. We thereby are able to discover several novel and recurrent fusions involving kinases. These findings have immediate clinical implications and expand the therapeutic options for cancer patients, as approved or exploratory drugs exist for many of these kinases. Kinases activated by gene fusions represent potentially important targets for the development of cancer drugs. Here, the authors develop a method for detecting gene fusion events in RNA sequencing data from The Cancer Genome Atlas and identify several novel recurrent fusions involving kinases.</p>
+                <p><strong>Cost:</strong> 0.022</p>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>Extracted Data (Details)</h2>
+            <div class="extraction-instance-container" id="e2329.0">
+                <h3 class="extraction-instance">Extracted Data Instance 0 (e2329.0)</h3>
+                <div class="extraction-query"><strong>Extraction Query:</strong> Extract any mentions of driver-negative or oncogene-negative lung adenocarcinoma cases, cohorts, models, or subgroups; the evidence for why they are considered driver-negative; candidate alternative drivers or mechanisms; proposed subtypes; validation strategies; comparisons to other cancers; and therapeutic implications.</div>
+                <table>
+                    <thead>
+                        <tr>
+                            <th style="width: 30%;">Field</th>
+                            <th style="width: 70%;">Value</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><strong>name_short</strong></td>
+                            <td>Lung adenocarcinoma ALK</td>
+                        </tr>
+                        <tr>
+                            <td><strong>name_full</strong></td>
+                            <td>ALK fusion-positive lung adenocarcinoma samples in TCGA</td>
+                        </tr>
+                        <tr>
+                            <td><strong>brief_description</strong></td>
+                            <td>The paper reports EML4–ALK fusions in approximately 1% of lung adenocarcinoma samples (5/513) and notes several other ALK fusions in other tumour types. These are not driver-negative cases, but they are relevant as known canonical drivers that define what would be excluded from a driver-negative subgroup.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>citation_title</strong></td>
+                            <td>The landscape of kinase fusions in cancer</td>
+                        </tr>
+                        <tr>
+                            <td><strong>mention_or_use</strong></td>
+                            <td>use</td>
+                        </tr>
+                        <tr>
+                            <td><strong>cohort_or_model</strong></td>
+                            <td>TCGA lung adenocarcinoma RNA-seq cohort (513 samples within the pan-cancer TCGA analysis)</td>
+                        </tr>
+                        <tr>
+                            <td><strong>cancer_context</strong></td>
+                            <td>lung adenocarcinoma</td>
+                        </tr>
+                        <tr>
+                            <td><strong>driver_negative_definition</strong></td>
+                            <td>Not driver-negative; canonical driver event is ALK fusion positivity, specifically EML4–ALK and other ALK rearrangements detected by RNA-seq fusion calling.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>driver_negative_frequency</strong></td>
+                            <td>Not applicable; 5/513 (~1%) were ALK fusion-positive.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>profiling_modalities</strong></td>
+                            <td>RNA-seq fusion detection, chimeric-read and split-read analysis, manual IGV review</td>
+                        </tr>
+                        <tr>
+                            <td><strong>candidate_mechanism_category</strong></td>
+                            <td>fusion/rearrangement</td>
+                        </tr>
+                        <tr>
+                            <td><strong>candidate_driver_or_mechanism</strong></td>
+                            <td>ALK fusions, especially EML4–ALK</td>
+                        </tr>
+                        <tr>
+                            <td><strong>mechanistic_description</strong></td>
+                            <td>In-frame ALK rearrangements preserve the kinase domain and are interpreted as activating oncogenic fusions that drive lung adenocarcinoma.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>evidence_type</strong></td>
+                            <td>recurrent alteration in tumors</td>
+                        </tr>
+                        <tr>
+                            <td><strong>key_evidence</strong></td>
+                            <td>The authors detected EML4–ALK fusions in ~1% of lung adenocarcinoma samples (5/513), consistent with prior studies.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>negative_or_counter_evidence</strong></td>
+                            <td><span class="empty-note">null</span></td>
+                        </tr>
+                        <tr>
+                            <td><strong>subtype_name</strong></td>
+                            <td><span class="empty-note">null</span></td>
+                        </tr>
+                        <tr>
+                            <td><strong>subtype_features</strong></td>
+                            <td><span class="empty-note">null</span></td>
+                        </tr>
+                        <tr>
+                            <td><strong>parallel_in_other_cancers</strong></td>
+                            <td>ALK fusions were also identified in colorectal, breast, renal cell, renal medullary and thyroid cancers.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>validation_approach</strong></td>
+                            <td>RNA-seq fusion calling with recurrent-fusion filtering and manual review; comparison to prior published ALK fusion studies.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>validation_result</strong></td>
+                            <td>Confirmed detection of known EML4–ALK events in lung adenocarcinoma.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>therapeutic_implication</strong></td>
+                            <td>ALK inhibitors</td>
+                        </tr>
+                        <tr>
+                            <td><strong>therapeutic_evidence</strong></td>
+                            <td>The introduction cites clinical benefit from crizotinib and ceritinib in ALK-fusion-positive lung carcinomas.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>clinical_or_demographic_association</strong></td>
+                            <td><span class="empty-note">null</span></td>
+                        </tr>
+                        <tr>
+                            <td><strong>study_limitations</strong></td>
+                            <td>This is a fusion landscape study, not a dedicated lung adenocarcinoma driver-negative study; it does not evaluate all canonical DNA drivers in lung adenocarcinoma.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>driver_negativity_confidence</strong></td>
+                            <td>not_applicable</td>
+                        </tr>
+                        <tr>
+                            <td><strong>negative_status_basis</strong></td>
+                            <td><span class="empty-note">null</span></td>
+                        </tr>
+                        <tr>
+                            <td><strong>tested_driver_classes</strong></td>
+                            <td>fusion_rearrangement</td>
+                        </tr>
+                        <tr>
+                            <td><strong>untested_or_underpowered_driver_classes</strong></td>
+                            <td>exome_mutation, focal_amplification, broad_copy_number, noncoding_regulatory, exon_skipping_splicing, protein_abundance, phosphoproteomics, epigenomics, spatial_microenvironment</td>
+                        </tr>
+                        <tr>
+                            <td><strong>false_negative_rescue_evidence</strong></td>
+                            <td><span class="empty-note">null</span></td>
+                        </tr>
+                        <tr>
+                            <td><strong>sample_purity_detection_limit_issue</strong></td>
+                            <td><span class="empty-note">null</span></td>
+                        </tr>
+                        <tr>
+                            <td><strong>mapk_output_state</strong></td>
+                            <td>unresolved</td>
+                        </tr>
+                        <tr>
+                            <td><strong>pi3k_akt_mtor_output_state</strong></td>
+                            <td>unresolved</td>
+                        </tr>
+                        <tr>
+                            <td><strong>rtk_or_her_family_activation_state</strong></td>
+                            <td>yes</td>
+                        </tr>
+                        <tr>
+                            <td><strong>signaling_readout_assay</strong></td>
+                            <td>RNA-seq fusion detection</td>
+                        </tr>
+                        <tr>
+                            <td><strong>genome_protein_discordance_flag</strong></td>
+                            <td>no</td>
+                        </tr>
+                        <tr>
+                            <td><strong>driver_mechanism_route</strong></td>
+                            <td>in_frame_fusion</td>
+                        </tr>
+                        <tr>
+                            <td><strong>altered_molecular_layer</strong></td>
+                            <td>rna_splice_fusion</td>
+                        </tr>
+                        <tr>
+                            <td><strong>functional_consequence_type</strong></td>
+                            <td>pathway_activation</td>
+                        </tr>
+                        <tr>
+                            <td><strong>canonical_pathway_reinstatement_flag</strong></td>
+                            <td>yes</td>
+                        </tr>
+                        <tr>
+                            <td><strong>alternative_driver_axis</strong></td>
+                            <td><span class="empty-note">null</span></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="extraction-instance-container" id="e2329.1">
+                <h3 class="extraction-instance">Extracted Data Instance 1 (e2329.1)</h3>
+                <div class="extraction-query"><strong>Extraction Query:</strong> Extract any mentions of driver-negative or oncogene-negative lung adenocarcinoma cases, cohorts, models, or subgroups; the evidence for why they are considered driver-negative; candidate alternative drivers or mechanisms; proposed subtypes; validation strategies; comparisons to other cancers; and therapeutic implications.</div>
+                <table>
+                    <thead>
+                        <tr>
+                            <th style="width: 30%;">Field</th>
+                            <th style="width: 70%;">Value</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><strong>name_short</strong></td>
+                            <td>Lung adenocarcinoma ROS1</td>
+                        </tr>
+                        <tr>
+                            <td><strong>name_full</strong></td>
+                            <td>ROS1 fusion-positive lung adenocarcinoma samples in TCGA</td>
+                        </tr>
+                        <tr>
+                            <td><strong>brief_description</strong></td>
+                            <td>The paper reports ROS1 fusions in 8/513 lung adenocarcinomas, all previously described. These represent canonical oncogenic drivers rather than driver-negative disease, but they are relevant as excluded drivers when defining oncogene-negative lung adenocarcinoma.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>citation_title</strong></td>
+                            <td>The landscape of kinase fusions in cancer</td>
+                        </tr>
+                        <tr>
+                            <td><strong>mention_or_use</strong></td>
+                            <td>use</td>
+                        </tr>
+                        <tr>
+                            <td><strong>cohort_or_model</strong></td>
+                            <td>TCGA lung adenocarcinoma RNA-seq cohort (513 samples)</td>
+                        </tr>
+                        <tr>
+                            <td><strong>cancer_context</strong></td>
+                            <td>lung adenocarcinoma</td>
+                        </tr>
+                        <tr>
+                            <td><strong>driver_negative_definition</strong></td>
+                            <td>Not driver-negative; ROS1 fusion-positive cases identified by RNA-seq.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>driver_negative_frequency</strong></td>
+                            <td>Not applicable; 8/513 fusion-positive.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>profiling_modalities</strong></td>
+                            <td>RNA-seq fusion detection, chimeric-read and split-read analysis</td>
+                        </tr>
+                        <tr>
+                            <td><strong>candidate_mechanism_category</strong></td>
+                            <td>fusion/rearrangement</td>
+                        </tr>
+                        <tr>
+                            <td><strong>candidate_driver_or_mechanism</strong></td>
+                            <td>ROS1 fusions</td>
+                        </tr>
+                        <tr>
+                            <td><strong>mechanistic_description</strong></td>
+                            <td>ROS1 rearrangements are interpreted as activating receptor tyrosine kinase fusions that drive tumorigenesis.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>evidence_type</strong></td>
+                            <td>recurrent alteration in tumors</td>
+                        </tr>
+                        <tr>
+                            <td><strong>key_evidence</strong></td>
+                            <td>ROS1 fusions were detected in 8/513 lung adenocarcinoma samples and were all previously described.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>negative_or_counter_evidence</strong></td>
+                            <td><span class="empty-note">null</span></td>
+                        </tr>
+                        <tr>
+                            <td><strong>subtype_name</strong></td>
+                            <td><span class="empty-note">null</span></td>
+                        </tr>
+                        <tr>
+                            <td><strong>subtype_features</strong></td>
+                            <td><span class="empty-note">null</span></td>
+                        </tr>
+                        <tr>
+                            <td><strong>parallel_in_other_cancers</strong></td>
+                            <td>A CEP85L–ROS1 fusion was also detected in glioblastoma.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>validation_approach</strong></td>
+                            <td>RNA-seq fusion calling with recurrence filtering.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>validation_result</strong></td>
+                            <td>Recovery of known ROS1 fusion-positive lung adenocarcinoma cases.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>therapeutic_implication</strong></td>
+                            <td>ROS1-targeted therapy</td>
+                        </tr>
+                        <tr>
+                            <td><strong>therapeutic_evidence</strong></td>
+                            <td>The paper frames kinase fusions, including ROS1, as clinically actionable with existing or exploratory drugs.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>clinical_or_demographic_association</strong></td>
+                            <td><span class="empty-note">null</span></td>
+                        </tr>
+                        <tr>
+                            <td><strong>study_limitations</strong></td>
+                            <td>Not a lung adenocarcinoma-specific driver-negative cohort analysis.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>driver_negativity_confidence</strong></td>
+                            <td>not_applicable</td>
+                        </tr>
+                        <tr>
+                            <td><strong>negative_status_basis</strong></td>
+                            <td><span class="empty-note">null</span></td>
+                        </tr>
+                        <tr>
+                            <td><strong>tested_driver_classes</strong></td>
+                            <td>fusion_rearrangement</td>
+                        </tr>
+                        <tr>
+                            <td><strong>untested_or_underpowered_driver_classes</strong></td>
+                            <td>exome_mutation, focal_amplification, broad_copy_number, noncoding_regulatory, exon_skipping_splicing, protein_abundance, phosphoproteomics, epigenomics, spatial_microenvironment</td>
+                        </tr>
+                        <tr>
+                            <td><strong>false_negative_rescue_evidence</strong></td>
+                            <td><span class="empty-note">null</span></td>
+                        </tr>
+                        <tr>
+                            <td><strong>sample_purity_detection_limit_issue</strong></td>
+                            <td><span class="empty-note">null</span></td>
+                        </tr>
+                        <tr>
+                            <td><strong>mapk_output_state</strong></td>
+                            <td>unresolved</td>
+                        </tr>
+                        <tr>
+                            <td><strong>pi3k_akt_mtor_output_state</strong></td>
+                            <td>unresolved</td>
+                        </tr>
+                        <tr>
+                            <td><strong>rtk_or_her_family_activation_state</strong></td>
+                            <td>yes</td>
+                        </tr>
+                        <tr>
+                            <td><strong>signaling_readout_assay</strong></td>
+                            <td>RNA-seq fusion detection</td>
+                        </tr>
+                        <tr>
+                            <td><strong>genome_protein_discordance_flag</strong></td>
+                            <td>no</td>
+                        </tr>
+                        <tr>
+                            <td><strong>driver_mechanism_route</strong></td>
+                            <td>in_frame_fusion</td>
+                        </tr>
+                        <tr>
+                            <td><strong>altered_molecular_layer</strong></td>
+                            <td>rna_splice_fusion</td>
+                        </tr>
+                        <tr>
+                            <td><strong>functional_consequence_type</strong></td>
+                            <td>pathway_activation</td>
+                        </tr>
+                        <tr>
+                            <td><strong>canonical_pathway_reinstatement_flag</strong></td>
+                            <td>yes</td>
+                        </tr>
+                        <tr>
+                            <td><strong>alternative_driver_axis</strong></td>
+                            <td><span class="empty-note">null</span></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="extraction-instance-container" id="e2329.2">
+                <h3 class="extraction-instance">Extracted Data Instance 2 (e2329.2)</h3>
+                <div class="extraction-query"><strong>Extraction Query:</strong> Extract any mentions of driver-negative or oncogene-negative lung adenocarcinoma cases, cohorts, models, or subgroups; the evidence for why they are considered driver-negative; candidate alternative drivers or mechanisms; proposed subtypes; validation strategies; comparisons to other cancers; and therapeutic implications.</div>
+                <table>
+                    <thead>
+                        <tr>
+                            <th style="width: 30%;">Field</th>
+                            <th style="width: 70%;">Value</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><strong>name_short</strong></td>
+                            <td>Lung adenocarcinoma NTRK2</td>
+                        </tr>
+                        <tr>
+                            <td><strong>name_full</strong></td>
+                            <td>TRIM24–NTRK2 fusion in lung adenocarcinoma</td>
+                        </tr>
+                        <tr>
+                            <td><strong>brief_description</strong></td>
+                            <td>The paper identifies a novel NTRK2 fusion, TRIM24–NTRK2, in lung adenocarcinoma. This is an alternative actionable driver rather than a driver-negative state, but it is important because it provides a candidate explanation for kinase-driver-negative lung adenocarcinoma cases.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>citation_title</strong></td>
+                            <td>The landscape of kinase fusions in cancer</td>
+                        </tr>
+                        <tr>
+                            <td><strong>mention_or_use</strong></td>
+                            <td>use</td>
+                        </tr>
+                        <tr>
+                            <td><strong>cohort_or_model</strong></td>
+                            <td>TCGA lung adenocarcinoma RNA-seq cohort</td>
+                        </tr>
+                        <tr>
+                            <td><strong>cancer_context</strong></td>
+                            <td>lung adenocarcinoma</td>
+                        </tr>
+                        <tr>
+                            <td><strong>driver_negative_definition</strong></td>
+                            <td>Not explicitly driver-negative; the fusion is presented as a recurrent kinase alteration discovered in lung adenocarcinoma.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>driver_negative_frequency</strong></td>
+                            <td>Single novel occurrence noted in the pan-cancer dataset; exact lung adenocarcinoma denominator for this fusion is not stated.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>profiling_modalities</strong></td>
+                            <td>RNA-seq fusion detection, manual review, structural domain annotation</td>
+                        </tr>
+                        <tr>
+                            <td><strong>candidate_mechanism_category</strong></td>
+                            <td>fusion/rearrangement</td>
+                        </tr>
+                        <tr>
+                            <td><strong>candidate_driver_or_mechanism</strong></td>
+                            <td>TRIM24–NTRK2</td>
+                        </tr>
+                        <tr>
+                            <td><strong>mechanistic_description</strong></td>
+                            <td>A kinase fusion involving NTRK2, presumably preserving kinase activation in an in-frame rearrangement.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>evidence_type</strong></td>
+                            <td>novel recurrent alteration in tumors</td>
+                        </tr>
+                        <tr>
+                            <td><strong>key_evidence</strong></td>
+                            <td>The authors report a novel NTRK2 fusion in lung adenocarcinoma, one of several novel NTRK2 rearrangements across cancer types.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>negative_or_counter_evidence</strong></td>
+                            <td>The paper does not provide functional validation for TRIM24–NTRK2 specifically.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>subtype_name</strong></td>
+                            <td><span class="empty-note">null</span></td>
+                        </tr>
+                        <tr>
+                            <td><strong>subtype_features</strong></td>
+                            <td><span class="empty-note">null</span></td>
+                        </tr>
+                        <tr>
+                            <td><strong>parallel_in_other_cancers</strong></td>
+                            <td>NTRK1/2/3 fusions are discussed across glioblastoma, cholangiocarcinoma, pediatric high-grade glioma, thyroid cancer and sarcoma.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>validation_approach</strong></td>
+                            <td>Fusion calling and manual curation of in-frame kinase fusions with preserved catalytic domain.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>validation_result</strong></td>
+                            <td>Identified as a putative oncogenic fusion candidate.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>therapeutic_implication</strong></td>
+                            <td>Pan-NTRK inhibitors</td>
+                        </tr>
+                        <tr>
+                            <td><strong>therapeutic_evidence</strong></td>
+                            <td>The paper states NTRK1–3 fusions provide a therapeutic opportunity for pan-NTRK inhibitors.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>clinical_or_demographic_association</strong></td>
+                            <td><span class="empty-note">null</span></td>
+                        </tr>
+                        <tr>
+                            <td><strong>study_limitations</strong></td>
+                            <td>No functional assay or drug-response data for this specific fusion.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>driver_negativity_confidence</strong></td>
+                            <td>not_applicable</td>
+                        </tr>
+                        <tr>
+                            <td><strong>negative_status_basis</strong></td>
+                            <td><span class="empty-note">null</span></td>
+                        </tr>
+                        <tr>
+                            <td><strong>tested_driver_classes</strong></td>
+                            <td>fusion_rearrangement</td>
+                        </tr>
+                        <tr>
+                            <td><strong>untested_or_underpowered_driver_classes</strong></td>
+                            <td>exome_mutation, focal_amplification, broad_copy_number, noncoding_regulatory, exon_skipping_splicing, protein_abundance, phosphoproteomics, epigenomics, spatial_microenvironment</td>
+                        </tr>
+                        <tr>
+                            <td><strong>false_negative_rescue_evidence</strong></td>
+                            <td><span class="empty-note">null</span></td>
+                        </tr>
+                        <tr>
+                            <td><strong>sample_purity_detection_limit_issue</strong></td>
+                            <td><span class="empty-note">null</span></td>
+                        </tr>
+                        <tr>
+                            <td><strong>mapk_output_state</strong></td>
+                            <td>unresolved</td>
+                        </tr>
+                        <tr>
+                            <td><strong>pi3k_akt_mtor_output_state</strong></td>
+                            <td>unresolved</td>
+                        </tr>
+                        <tr>
+                            <td><strong>rtk_or_her_family_activation_state</strong></td>
+                            <td>yes</td>
+                        </tr>
+                        <tr>
+                            <td><strong>signaling_readout_assay</strong></td>
+                            <td>RNA-seq fusion detection</td>
+                        </tr>
+                        <tr>
+                            <td><strong>genome_protein_discordance_flag</strong></td>
+                            <td>no</td>
+                        </tr>
+                        <tr>
+                            <td><strong>driver_mechanism_route</strong></td>
+                            <td>in_frame_fusion</td>
+                        </tr>
+                        <tr>
+                            <td><strong>altered_molecular_layer</strong></td>
+                            <td>rna_splice_fusion</td>
+                        </tr>
+                        <tr>
+                            <td><strong>functional_consequence_type</strong></td>
+                            <td>pathway_activation</td>
+                        </tr>
+                        <tr>
+                            <td><strong>canonical_pathway_reinstatement_flag</strong></td>
+                            <td>yes</td>
+                        </tr>
+                        <tr>
+                            <td><strong>alternative_driver_axis</strong></td>
+                            <td><span class="empty-note">null</span></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="extraction-instance-container" id="e2329.3">
+                <h3 class="extraction-instance">Extracted Data Instance 3 (e2329.3)</h3>
+                <div class="extraction-query"><strong>Extraction Query:</strong> Extract any mentions of driver-negative or oncogene-negative lung adenocarcinoma cases, cohorts, models, or subgroups; the evidence for why they are considered driver-negative; candidate alternative drivers or mechanisms; proposed subtypes; validation strategies; comparisons to other cancers; and therapeutic implications.</div>
+                <table>
+                    <thead>
+                        <tr>
+                            <th style="width: 30%;">Field</th>
+                            <th style="width: 70%;">Value</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><strong>name_short</strong></td>
+                            <td>Lung adenocarcinoma MET</td>
+                        </tr>
+                        <tr>
+                            <td><strong>name_full</strong></td>
+                            <td>KIF5B–MET fusion in lung adenocarcinoma</td>
+                        </tr>
+                        <tr>
+                            <td><strong>brief_description</strong></td>
+                            <td>The paper reports a single MET fusion in lung adenocarcinoma, specifically KIF5B–MET, as a new example of MET activation by fusion. This is presented as a canonical oncogenic mechanism that could explain some kinase-driver-negative cases in lung adenocarcinoma.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>citation_title</strong></td>
+                            <td>The landscape of kinase fusions in cancer</td>
+                        </tr>
+                        <tr>
+                            <td><strong>mention_or_use</strong></td>
+                            <td>use</td>
+                        </tr>
+                        <tr>
+                            <td><strong>cohort_or_model</strong></td>
+                            <td>TCGA lung adenocarcinoma RNA-seq cohort</td>
+                        </tr>
+                        <tr>
+                            <td><strong>cancer_context</strong></td>
+                            <td>lung adenocarcinoma</td>
+                        </tr>
+                        <tr>
+                            <td><strong>driver_negative_definition</strong></td>
+                            <td>Not explicitly driver-negative; MET fusion-positive case identified by RNA-seq.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>driver_negative_frequency</strong></td>
+                            <td>Single case in the dataset; lung adenocarcinoma frequency not otherwise quantified.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>profiling_modalities</strong></td>
+                            <td>RNA-seq fusion detection, structural domain annotation, manual review</td>
+                        </tr>
+                        <tr>
+                            <td><strong>candidate_mechanism_category</strong></td>
+                            <td>fusion/rearrangement</td>
+                        </tr>
+                        <tr>
+                            <td><strong>candidate_driver_or_mechanism</strong></td>
+                            <td>KIF5B–MET</td>
+                        </tr>
+                        <tr>
+                            <td><strong>mechanistic_description</strong></td>
+                            <td>Fusion of an amino-terminal dimerization motif to the MET kinase domain is proposed to constitutively activate MET.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>evidence_type</strong></td>
+                            <td>novel recurrent alteration in tumors</td>
+                        </tr>
+                        <tr>
+                            <td><strong>key_evidence</strong></td>
+                            <td>Among recurrent MET fusions, the paper identifies a KIF5B–MET fusion in lung adenocarcinoma and notes that the predicted chimeric protein follows the classic activation paradigm.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>negative_or_counter_evidence</strong></td>
+                            <td>Only a single lung adenocarcinoma case is reported; no functional validation is shown in this paper.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>subtype_name</strong></td>
+                            <td><span class="empty-note">null</span></td>
+                        </tr>
+                        <tr>
+                            <td><strong>subtype_features</strong></td>
+                            <td><span class="empty-note">null</span></td>
+                        </tr>
+                        <tr>
+                            <td><strong>parallel_in_other_cancers</strong></td>
+                            <td>MET fusions were also found in papillary renal carcinoma, low-grade glioma, hepatocellular carcinoma and thyroid carcinoma.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>validation_approach</strong></td>
+                            <td>Fusion transcript sequence analysis and domain-based inference of dimerization-mediated activation.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>validation_result</strong></td>
+                            <td>Predicted activating MET fusion in a lung adenocarcinoma sample.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>therapeutic_implication</strong></td>
+                            <td>MET inhibitors / druggable MET intervention</td>
+                        </tr>
+                        <tr>
+                            <td><strong>therapeutic_evidence</strong></td>
+                            <td>The authors state that MET fusion-mediated activation could represent druggable intervention opportunities.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>clinical_or_demographic_association</strong></td>
+                            <td><span class="empty-note">null</span></td>
+                        </tr>
+                        <tr>
+                            <td><strong>study_limitations</strong></td>
+                            <td>No orthogonal validation or functional assay for this specific fusion in lung adenocarcinoma.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>driver_negativity_confidence</strong></td>
+                            <td>not_applicable</td>
+                        </tr>
+                        <tr>
+                            <td><strong>negative_status_basis</strong></td>
+                            <td><span class="empty-note">null</span></td>
+                        </tr>
+                        <tr>
+                            <td><strong>tested_driver_classes</strong></td>
+                            <td>fusion_rearrangement</td>
+                        </tr>
+                        <tr>
+                            <td><strong>untested_or_underpowered_driver_classes</strong></td>
+                            <td>exome_mutation, focal_amplification, broad_copy_number, noncoding_regulatory, exon_skipping_splicing, protein_abundance, phosphoproteomics, epigenomics, spatial_microenvironment</td>
+                        </tr>
+                        <tr>
+                            <td><strong>false_negative_rescue_evidence</strong></td>
+                            <td><span class="empty-note">null</span></td>
+                        </tr>
+                        <tr>
+                            <td><strong>sample_purity_detection_limit_issue</strong></td>
+                            <td><span class="empty-note">null</span></td>
+                        </tr>
+                        <tr>
+                            <td><strong>mapk_output_state</strong></td>
+                            <td>unresolved</td>
+                        </tr>
+                        <tr>
+                            <td><strong>pi3k_akt_mtor_output_state</strong></td>
+                            <td>unresolved</td>
+                        </tr>
+                        <tr>
+                            <td><strong>rtk_or_her_family_activation_state</strong></td>
+                            <td>yes</td>
+                        </tr>
+                        <tr>
+                            <td><strong>signaling_readout_assay</strong></td>
+                            <td>RNA-seq fusion detection and protein-domain inference</td>
+                        </tr>
+                        <tr>
+                            <td><strong>genome_protein_discordance_flag</strong></td>
+                            <td>no</td>
+                        </tr>
+                        <tr>
+                            <td><strong>driver_mechanism_route</strong></td>
+                            <td>in_frame_fusion</td>
+                        </tr>
+                        <tr>
+                            <td><strong>altered_molecular_layer</strong></td>
+                            <td>rna_splice_fusion</td>
+                        </tr>
+                        <tr>
+                            <td><strong>functional_consequence_type</strong></td>
+                            <td>pathway_activation</td>
+                        </tr>
+                        <tr>
+                            <td><strong>canonical_pathway_reinstatement_flag</strong></td>
+                            <td>yes</td>
+                        </tr>
+                        <tr>
+                            <td><strong>alternative_driver_axis</strong></td>
+                            <td><span class="empty-note">null</span></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="extraction-instance-container" id="e2329.4">
+                <h3 class="extraction-instance">Extracted Data Instance 4 (e2329.4)</h3>
+                <div class="extraction-query"><strong>Extraction Query:</strong> Extract any mentions of driver-negative or oncogene-negative lung adenocarcinoma cases, cohorts, models, or subgroups; the evidence for why they are considered driver-negative; candidate alternative drivers or mechanisms; proposed subtypes; validation strategies; comparisons to other cancers; and therapeutic implications.</div>
+                <table>
+                    <thead>
+                        <tr>
+                            <th style="width: 30%;">Field</th>
+                            <th style="width: 70%;">Value</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><strong>name_short</strong></td>
+                            <td>Lung adenocarcinoma NTRK family</td>
+                        </tr>
+                        <tr>
+                            <td><strong>name_full</strong></td>
+                            <td>Pan-cancer NTRK1/2/3 fusion-positive subgroup including lung adenocarcinoma</td>
+                        </tr>
+                        <tr>
+                            <td><strong>brief_description</strong></td>
+                            <td>The paper emphasizes that NTRK1–3 fusions are low-frequency, pan-cancer oncogenic events and includes lung adenocarcinoma among the tumour types harboring them. This is relevant as an alternative driver class that could explain some otherwise driver-negative lung adenocarcinomas.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>citation_title</strong></td>
+                            <td>The landscape of kinase fusions in cancer</td>
+                        </tr>
+                        <tr>
+                            <td><strong>mention_or_use</strong></td>
+                            <td>use</td>
+                        </tr>
+                        <tr>
+                            <td><strong>cohort_or_model</strong></td>
+                            <td>TCGA pan-cancer cohort, including lung adenocarcinoma</td>
+                        </tr>
+                        <tr>
+                            <td><strong>cancer_context</strong></td>
+                            <td>pan-cancer with lung adenocarcinoma included</td>
+                        </tr>
+                        <tr>
+                            <td><strong>driver_negative_definition</strong></td>
+                            <td>Not a driver-negative definition; this is a fusion-defined actionable subgroup.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>driver_negative_frequency</strong></td>
+                            <td>NTRK1–3 fusions were observed in 9 of 20 cancer types; 23 total fusions across nine tumour types.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>profiling_modalities</strong></td>
+                            <td>RNA-seq fusion detection, recurrence analysis, manual curation</td>
+                        </tr>
+                        <tr>
+                            <td><strong>candidate_mechanism_category</strong></td>
+                            <td>fusion/rearrangement</td>
+                        </tr>
+                        <tr>
+                            <td><strong>candidate_driver_or_mechanism</strong></td>
+                            <td>NTRK1, NTRK2 and NTRK3 fusions</td>
+                        </tr>
+                        <tr>
+                            <td><strong>mechanistic_description</strong></td>
+                            <td>In-frame NTRK fusions are interpreted as activating receptor tyrosine kinase rearrangements driving tumorigenesis.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>evidence_type</strong></td>
+                            <td>cross-cancer recurrent alteration</td>
+                        </tr>
+                        <tr>
+                            <td><strong>key_evidence</strong></td>
+                            <td>The authors report 23 NTRK1/2/3 fusions across nine tumour types and identify a novel NTRK2 fusion in lung adenocarcinoma.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>negative_or_counter_evidence</strong></td>
+                            <td>The paper does not provide direct functional validation for each individual fusion.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>subtype_name</strong></td>
+                            <td><span class="empty-note">null</span></td>
+                        </tr>
+                        <tr>
+                            <td><strong>subtype_features</strong></td>
+                            <td><span class="empty-note">null</span></td>
+                        </tr>
+                        <tr>
+                            <td><strong>parallel_in_other_cancers</strong></td>
+                            <td>Congenital fibrosarcoma, secretory breast carcinoma, papillary thyroid cancer, glioblastoma, cholangiocarcinoma and pediatric high-grade glioma.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>validation_approach</strong></td>
+                            <td>Recurrent fusion calling across TCGA and comparison with prior reports.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>validation_result</strong></td>
+                            <td>Demonstrated low-frequency, pan-cancer recurrence of NTRK fusions.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>therapeutic_implication</strong></td>
+                            <td>Pan-NTRK inhibitors; basket-trial logic</td>
+                        </tr>
+                        <tr>
+                            <td><strong>therapeutic_evidence</strong></td>
+                            <td>The paper explicitly states that NTRK fusions may account for a significant fraction of patients who could benefit from a pan-NTRK inhibitor.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>clinical_or_demographic_association</strong></td>
+                            <td><span class="empty-note">null</span></td>
+                        </tr>
+                        <tr>
+                            <td><strong>study_limitations</strong></td>
+                            <td>The cohort is not enriched for driver-negative lung adenocarcinoma; there is limited functional validation.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>driver_negativity_confidence</strong></td>
+                            <td>not_applicable</td>
+                        </tr>
+                        <tr>
+                            <td><strong>negative_status_basis</strong></td>
+                            <td><span class="empty-note">null</span></td>
+                        </tr>
+                        <tr>
+                            <td><strong>tested_driver_classes</strong></td>
+                            <td>fusion_rearrangement</td>
+                        </tr>
+                        <tr>
+                            <td><strong>untested_or_underpowered_driver_classes</strong></td>
+                            <td>exome_mutation, focal_amplification, broad_copy_number, noncoding_regulatory, exon_skipping_splicing, protein_abundance, phosphoproteomics, epigenomics, spatial_microenvironment</td>
+                        </tr>
+                        <tr>
+                            <td><strong>false_negative_rescue_evidence</strong></td>
+                            <td><span class="empty-note">null</span></td>
+                        </tr>
+                        <tr>
+                            <td><strong>sample_purity_detection_limit_issue</strong></td>
+                            <td><span class="empty-note">null</span></td>
+                        </tr>
+                        <tr>
+                            <td><strong>mapk_output_state</strong></td>
+                            <td>unresolved</td>
+                        </tr>
+                        <tr>
+                            <td><strong>pi3k_akt_mtor_output_state</strong></td>
+                            <td>unresolved</td>
+                        </tr>
+                        <tr>
+                            <td><strong>rtk_or_her_family_activation_state</strong></td>
+                            <td>yes</td>
+                        </tr>
+                        <tr>
+                            <td><strong>signaling_readout_assay</strong></td>
+                            <td>RNA-seq fusion detection</td>
+                        </tr>
+                        <tr>
+                            <td><strong>genome_protein_discordance_flag</strong></td>
+                            <td>no</td>
+                        </tr>
+                        <tr>
+                            <td><strong>driver_mechanism_route</strong></td>
+                            <td>in_frame_fusion</td>
+                        </tr>
+                        <tr>
+                            <td><strong>altered_molecular_layer</strong></td>
+                            <td>rna_splice_fusion</td>
+                        </tr>
+                        <tr>
+                            <td><strong>functional_consequence_type</strong></td>
+                            <td>pathway_activation</td>
+                        </tr>
+                        <tr>
+                            <td><strong>canonical_pathway_reinstatement_flag</strong></td>
+                            <td>yes</td>
+                        </tr>
+                        <tr>
+                            <td><strong>alternative_driver_axis</strong></td>
+                            <td><span class="empty-note">null</span></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>Potentially Relevant New Papers (mentioned by this paper)</h2>
+            <ol>
+                <li>RET fusions define a unique molecular and clinicopathologic subtype of non-small-cell lung cancer <em>(Rating: 2)</em></li>
+                <li>Identification of new ALK and RET gene fusions from colorectal and lung cancer biopsies <em>(Rating: 2)</em></li>
+                <li>RET, ROS1 and ALK fusions in lung cancer <em>(Rating: 2)</em></li>
+                <li>The oncogenic lung cancer fusion kinase CD74-ROS activates a novel invasiveness pathway through E-Syt1 phosphorylation <em>(Rating: 1)</em></li>
+            </ol>
+        </div>
+
+        </div>
+
+    </div>
+</body>
+</html>

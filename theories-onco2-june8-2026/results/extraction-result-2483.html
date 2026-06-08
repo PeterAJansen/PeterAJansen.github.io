@@ -1,0 +1,703 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Extraction extraction-result-2483 - Theorizer</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+    <div class="header">
+        <a href="../index.html"><i class="fas fa-flask"></i> Theorizer</a>
+    </div>
+
+    <div class="content">
+        <h1>Extracted Data Details for extraction-result-2483</h1>
+
+        <div class="section">
+            <h2>Extracted Data (Header)</h2>
+            <div class="info-section">
+                <p><strong>Extraction ID:</strong> extraction-result-2483</p>
+                <p><strong>Extraction Schema Used (ID):</strong> <a href="../schemas/extraction-schema-1846.html">extraction-schema-1846</a></p>
+                <div class="extraction-query"><strong>Extraction Query:</strong> Extract any mentions of hidden drivers, pathway states, subtype structure, validation evidence, and therapeutic implications in oncogene-negative or driver-negative lung adenocarcinoma.</div>
+                <p><strong>Paper ID:</strong> paper-bce7687e3479caf6acbe9cc2a866e51a0d3d700f</p>
+                <p><strong>Paper Title:</strong> <a href="https://www.semanticscholar.org/paper/bce7687e3479caf6acbe9cc2a866e51a0d3d700f" target="_blank">Homozygous deletions and chromosome amplifications in human lung carcinomas revealed by single nucleotide polymorphism array analysis.</a></p>
+                <p><strong>Paper Venue:</strong> Cancer Research</p>
+                <p><strong>Paper TL;DR:</strong> Systematic copy number analysis of tyrosine kinase genes identified high-level amplification of EGFR in three NSCLC specimens, FGFR1 in two specimens and ERBB2 and MET in one specimen each, and EGFR amplification was shown to be independent of kinase domain mutational status.</p>
+                <p><strong>Cost:</strong> 0.022</p>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>Extracted Data (Details)</h2>
+            <div class="extraction-instance-container" id="e2483.0">
+                <h3 class="extraction-instance">Extracted Data Instance 0 (e2483.0)</h3>
+                <div class="extraction-query"><strong>Extraction Query:</strong> Extract any mentions of hidden drivers, pathway states, subtype structure, validation evidence, and therapeutic implications in oncogene-negative or driver-negative lung adenocarcinoma.</div>
+                <table>
+                    <thead>
+                        <tr>
+                            <th style="width: 30%;">Field</th>
+                            <th style="width: 70%;">Value</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><strong>name_short</strong></td>
+                            <td>EGFR amp / mut</td>
+                        </tr>
+                        <tr>
+                            <td><strong>name_full</strong></td>
+                            <td>EGFR amplification and EGFR kinase-domain mutation status in lung adenocarcinoma and other NSCLC</td>
+                        </tr>
+                        <tr>
+                            <td><strong>brief_description</strong></td>
+                            <td>The paper shows that high-level EGFR amplification can occur independently of EGFR kinase-domain mutation in NSCLC, including lung adenocarcinoma. One adenocarcinoma cell line (HCC827) had both amplification and an exon 19 deletion, but other amplified samples such as AD347T lacked EGFR mutation, indicating that amplification and mutation are only partially coupled.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>citation_title</strong></td>
+                            <td>Homozygous Deletions and Chromosome Amplifications in Human Lung Carcinomas Revealed by Single Nucleotide Polymorphism Array Analysis</td>
+                        </tr>
+                        <tr>
+                            <td><strong>mention_or_use</strong></td>
+                            <td>use</td>
+                        </tr>
+                        <tr>
+                            <td><strong>driver_negative_definition</strong></td>
+                            <td>Not formally a driver-negative LUAD study. The paper does not define an oncogene-negative or driver-negative lung adenocarcinoma cohort by excluding canonical drivers; instead, it analyzes unselected NSCLC/SCLC tumors and cell lines by SNP array copy-number profiling, then checks selected alterations against EGFR mutation status and expression data in some samples.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>candidate_driver_pathway_or_mechanism</strong></td>
+                            <td>Copy-number amplification as a potential oncogenic mechanism; for EGFR specifically, amplification is proposed as an actionable RTK alteration and is shown to be partly independent of mutation. The broader hidden-driver logic in the paper is that rare focal amplifications or homozygous deletions may reveal candidate oncogenes or tumor suppressors.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>alteration_or_activation_mode</strong></td>
+                            <td>Copy-number amplification; in one sample amplification co-occurs with kinase-domain mutation, but in others amplification is mutation-independent.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>implicated_gene_axis_or_pathway</strong></td>
+                            <td>EGFR / receptor tyrosine kinase signaling</td>
+                        </tr>
+                        <tr>
+                            <td><strong>pathway_activation_evidence</strong></td>
+                            <td>EGFR copy number gain was found in S0480T, HCC827, and AD347T, with EGFR copy number ≥8 in the first two amplified adenocarcinoma/squamous cases and ≥11 in AD347T. In 17 samples with expression data, EGFR-mutant and/or copy-number-gained tumors had higher average EGFR expression than wild-type, unamplified tumors. The paper does not measure pEGFR/pERK/pAKT; activation is inferred from copy number, mutation status, and mRNA expression.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>driver_negative_subtype</strong></td>
+                            <td>No explicit subtype label is proposed for driver-negative LUAD. The closest implicit subgroup is EGFR-amplified versus EGFR-mutant versus wild-type/unamplified NSCLC, but this is not framed as a formal molecular subtype.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>clinical_or_exposure_context</strong></td>
+                            <td>Observed in NSCLC and specifically lung adenocarcinoma, with one amplified case in a primary squamous carcinoma. The paper cites prior clinical relevance of EGFR mutation to gefitinib/erlotinib response, but does not link the amplified cases here to smoking status, sex, or treatment outcome.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>cross_cancer_parallel</strong></td>
+                            <td>The authors compare EGFR amplification to other cancers where RTK amplifications and kinase inhibitors have clinical relevance, especially breast cancer (trastuzumab/HER2).</td>
+                        </tr>
+                        <tr>
+                            <td><strong>therapeutic_vulnerability_or_implication</strong></td>
+                            <td>EGFR amplification is discussed as potentially relevant to targeted therapy against aberrantly expressed protein tyrosine kinases. The implication is inferential and biomarker-oriented rather than clinically validated in this paper.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>validation_evidence_and_model_system</strong></td>
+                            <td>Validated by SNP array copy number calls, confirmation by quantitative real-time PCR, and for HCC827/AD347T/S0480T comparison with known EGFR mutation status and expression data. No functional perturbation, inhibitor sensitivity, or patient-response validation is performed.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>driver_negative_scope_class</strong></td>
+                            <td>not_formally_defined</td>
+                        </tr>
+                        <tr>
+                            <td><strong>excluded_driver_genes_and_alteration_types</strong></td>
+                            <td>No formal exclusion panel. In the EGFR comparison, the paper notes EGFR kinase-domain mutation status and EGFR copy number status; it does not rule out other drivers by sequencing. Alteration types considered were EGFR amplification (CNV) and kinase-domain mutation (including exon 19 deletion and L858R in the cited comparison table).</td>
+                        </tr>
+                        <tr>
+                            <td><strong>negative_call_assay_stack</strong></td>
+                            <td>SNP_array_copy_number -> real_time_qPCR_copy_number -> EGFR_kinase_domain_mutation_status -> mRNA_expression</td>
+                        </tr>
+                        <tr>
+                            <td><strong>negative_call_confidence</strong></td>
+                            <td>low</td>
+                        </tr>
+                        <tr>
+                            <td><strong>rescued_hidden_driver_after_deeper_testing</strong></td>
+                            <td>mixed_some_rescued</td>
+                        </tr>
+                        <tr>
+                            <td><strong>primary_hidden_driver_mechanism_class</strong></td>
+                            <td>copy_number_or_amplicon_driver</td>
+                        </tr>
+                        <tr>
+                            <td><strong>secondary_mechanism_classes</strong></td>
+                            <td>rare_coding_oncogene</td>
+                        </tr>
+                        <tr>
+                            <td><strong>mechanism_requires_specific_genetic_lesion</strong></td>
+                            <td>yes</td>
+                        </tr>
+                        <tr>
+                            <td><strong>mechanism_is_tumor_intrinsic_or_extrinsic</strong></td>
+                            <td>tumor_intrinsic</td>
+                        </tr>
+                        <tr>
+                            <td><strong>mechanism_biologic_level</strong></td>
+                            <td>dna</td>
+                        </tr>
+                        <tr>
+                            <td><strong>causal_evidence_tier</strong></td>
+                            <td>tier_2_expression_or_proteomic_association</td>
+                        </tr>
+                        <tr>
+                            <td><strong>evidence_modalities_present</strong></td>
+                            <td>recurrence_statistics, SNP_array_copy_number, real_time_qPCR, mRNA_expression_comparison, mutation_status_comparison</td>
+                        </tr>
+                        <tr>
+                            <td><strong>therapeutic_actionability_evidence_tier</strong></td>
+                            <td>inferential_only</td>
+                        </tr>
+                        <tr>
+                            <td><strong>paper_claim_strength</strong></td>
+                            <td>biomarker_proposal</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="extraction-instance-container" id="e2483.1">
+                <h3 class="extraction-instance">Extracted Data Instance 1 (e2483.1)</h3>
+                <div class="extraction-query"><strong>Extraction Query:</strong> Extract any mentions of hidden drivers, pathway states, subtype structure, validation evidence, and therapeutic implications in oncogene-negative or driver-negative lung adenocarcinoma.</div>
+                <table>
+                    <thead>
+                        <tr>
+                            <th style="width: 30%;">Field</th>
+                            <th style="width: 70%;">Value</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><strong>name_short</strong></td>
+                            <td>FGFR1 amp</td>
+                        </tr>
+                        <tr>
+                            <td><strong>name_full</strong></td>
+                            <td>FGFR1 amplification in lung carcinoma</td>
+                        </tr>
+                        <tr>
+                            <td><strong>brief_description</strong></td>
+                            <td>The paper identifies recurrent 8p11.2-p11.1 amplification containing FGFR1 in two NSCLC samples and additional lower-level gains in four more samples. The authors explicitly state that FGFR1's role in lung tumorigenesis remains unknown and that they have no evidence to implicate FGFR1 as the target of the amplicon.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>citation_title</strong></td>
+                            <td>Homozygous Deletions and Chromosome Amplifications in Human Lung Carcinomas Revealed by Single Nucleotide Polymorphism Array Analysis</td>
+                        </tr>
+                        <tr>
+                            <td><strong>mention_or_use</strong></td>
+                            <td>use</td>
+                        </tr>
+                        <tr>
+                            <td><strong>driver_negative_definition</strong></td>
+                            <td>Not formally a driver-negative LUAD definition. The paper uses broad NSCLC/SCLC copy-number profiling rather than a preselected driver-negative cohort.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>candidate_driver_pathway_or_mechanism</strong></td>
+                            <td>Potential RTK-driven oncogenesis via FGFR1 amplicon, but only as a candidate/possible future target; the paper does not establish FGFR1 as the causal driver.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>alteration_or_activation_mode</strong></td>
+                            <td>Copy-number amplification</td>
+                        </tr>
+                        <tr>
+                            <td><strong>implicated_gene_axis_or_pathway</strong></td>
+                            <td>FGFR1 / receptor tyrosine kinase signaling</td>
+                        </tr>
+                        <tr>
+                            <td><strong>pathway_activation_evidence</strong></td>
+                            <td>High-level amplification (copy number ≥8) in S0449T and MGH1622T confirmed by qPCR; lower-level gains in four additional NSCLC samples. No downstream signaling, phosphoprotein, or functional activation assays are reported.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>driver_negative_subtype</strong></td>
+                            <td>No explicit driver-negative subtype. The alteration appears in NSCLC, including adenocarcinoma.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>clinical_or_exposure_context</strong></td>
+                            <td>NSCLC, including adenocarcinoma samples; no exposure or clinical-response phenotype is tied to the FGFR1-amplified cases.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>cross_cancer_parallel</strong></td>
+                            <td>The locus is noted to have been found in other tumor types, including breast and urinary carcinoma.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>therapeutic_vulnerability_or_implication</strong></td>
+                            <td>The paper suggests kinases such as FGFR1 may be future therapeutic targets in lung cancers upon further validation. This is a hypothesis-generating implication, not a tested therapeutic claim.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>validation_evidence_and_model_system</strong></td>
+                            <td>SNP array detection plus real-time PCR confirmation; no cell-model functional validation or drug testing.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>driver_negative_scope_class</strong></td>
+                            <td>not_formally_defined</td>
+                        </tr>
+                        <tr>
+                            <td><strong>excluded_driver_genes_and_alteration_types</strong></td>
+                            <td>No explicit exclusion set; only FGFR1 amplification is described, not mutation or fusion.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>negative_call_assay_stack</strong></td>
+                            <td>SNP_array_copy_number -> real_time_qPCR_copy_number</td>
+                        </tr>
+                        <tr>
+                            <td><strong>negative_call_confidence</strong></td>
+                            <td>low</td>
+                        </tr>
+                        <tr>
+                            <td><strong>rescued_hidden_driver_after_deeper_testing</strong></td>
+                            <td>none_reported</td>
+                        </tr>
+                        <tr>
+                            <td><strong>primary_hidden_driver_mechanism_class</strong></td>
+                            <td>copy_number_or_amplicon_driver</td>
+                        </tr>
+                        <tr>
+                            <td><strong>secondary_mechanism_classes</strong></td>
+                            <td><span class="empty-note">null</span></td>
+                        </tr>
+                        <tr>
+                            <td><strong>mechanism_requires_specific_genetic_lesion</strong></td>
+                            <td>yes</td>
+                        </tr>
+                        <tr>
+                            <td><strong>mechanism_is_tumor_intrinsic_or_extrinsic</strong></td>
+                            <td>tumor_intrinsic</td>
+                        </tr>
+                        <tr>
+                            <td><strong>mechanism_biologic_level</strong></td>
+                            <td>dna</td>
+                        </tr>
+                        <tr>
+                            <td><strong>causal_evidence_tier</strong></td>
+                            <td>tier_1_genomic_or_correlative_only</td>
+                        </tr>
+                        <tr>
+                            <td><strong>evidence_modalities_present</strong></td>
+                            <td>recurrence_statistics, SNP_array_copy_number, real_time_qPCR</td>
+                        </tr>
+                        <tr>
+                            <td><strong>therapeutic_actionability_evidence_tier</strong></td>
+                            <td>inferential_only</td>
+                        </tr>
+                        <tr>
+                            <td><strong>paper_claim_strength</strong></td>
+                            <td>hypothesis_generating</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="extraction-instance-container" id="e2483.2">
+                <h3 class="extraction-instance">Extracted Data Instance 2 (e2483.2)</h3>
+                <div class="extraction-query"><strong>Extraction Query:</strong> Extract any mentions of hidden drivers, pathway states, subtype structure, validation evidence, and therapeutic implications in oncogene-negative or driver-negative lung adenocarcinoma.</div>
+                <table>
+                    <thead>
+                        <tr>
+                            <th style="width: 30%;">Field</th>
+                            <th style="width: 70%;">Value</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><strong>name_short</strong></td>
+                            <td>PTPRD/BC028038 del</td>
+                        </tr>
+                        <tr>
+                            <td><strong>name_full</strong></td>
+                            <td>Homozygous deletions at 9p23 affecting the PTPRD locus and an uncharacterized spliced transcript (BC028038)</td>
+                        </tr>
+                        <tr>
+                            <td><strong>brief_description</strong></td>
+                            <td>The paper reports a novel recurrent homozygous deletion at 9p23 upstream of and into the 5' region of PTPRD, with deletions also eliminating exons from an uncharacterized spliced transcript shared with PTPRD sequence. The authors note that no role for PTPRD or the BC028038 transcript has yet been described in lung tumorigenesis.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>citation_title</strong></td>
+                            <td>Homozygous Deletions and Chromosome Amplifications in Human Lung Carcinomas Revealed by Single Nucleotide Polymorphism Array Analysis</td>
+                        </tr>
+                        <tr>
+                            <td><strong>mention_or_use</strong></td>
+                            <td>use</td>
+                        </tr>
+                        <tr>
+                            <td><strong>driver_negative_definition</strong></td>
+                            <td>Not a driver-negative LUAD definition; this is a genomic discovery in an unselected lung carcinoma cohort. It becomes relevant only as a putative hidden tumor suppressor event.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>candidate_driver_pathway_or_mechanism</strong></td>
+                            <td>Tumor suppressor loss via focal homozygous deletion, with PTPRD and/or the BC028038 transcript as candidate targets.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>alteration_or_activation_mode</strong></td>
+                            <td>Homozygous deletion</td>
+                        </tr>
+                        <tr>
+                            <td><strong>implicated_gene_axis_or_pathway</strong></td>
+                            <td>PTPRD / protein tyrosine phosphatase axis; BC028038 uncharacterized spliced transcript</td>
+                        </tr>
+                        <tr>
+                            <td><strong>pathway_activation_evidence</strong></td>
+                            <td>Deletion was found in one SCLC primary tumor (S0177T), one NSCLC BAC cell line (H358), and additional upstream deletions in H2347 and HCC1171. The evidence is DNA copy-number based and qPCR-confirmed; no pathway activity or expression readout is provided.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>driver_negative_subtype</strong></td>
+                            <td>No explicit subtype label. The deletion occurs across both SCLC and NSCLC, including BAC/adenocarcinoma-associated lines.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>clinical_or_exposure_context</strong></td>
+                            <td>Observed in both a primary SCLC tumor and NSCLC cell lines; no exposure or prognosis annotations are given for these cases.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>cross_cancer_parallel</strong></td>
+                            <td>Chromosome 9p loss is discussed as frequent in lung and other cancers, typically associated with CDKN2A inactivation.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>therapeutic_vulnerability_or_implication</strong></td>
+                            <td>No direct therapeutic implication is proposed for PTPRD/BC028038; the authors state only that further SNP array analysis, qPCR, and sequencing are needed.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>validation_evidence_and_model_system</strong></td>
+                            <td>Array-based detection with quantitative PCR confirmation; no functional model system, rescue, or mechanistic assay.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>driver_negative_scope_class</strong></td>
+                            <td>not_formally_defined</td>
+                        </tr>
+                        <tr>
+                            <td><strong>excluded_driver_genes_and_alteration_types</strong></td>
+                            <td>No formal negative panel. Alteration type is focal homozygous deletion; the paper does not assess PTPRD mutation, rearrangement, or expression loss as a standalone event.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>negative_call_assay_stack</strong></td>
+                            <td>SNP_array_copy_number -> real_time_qPCR_copy_number</td>
+                        </tr>
+                        <tr>
+                            <td><strong>negative_call_confidence</strong></td>
+                            <td>low</td>
+                        </tr>
+                        <tr>
+                            <td><strong>rescued_hidden_driver_after_deeper_testing</strong></td>
+                            <td>unresolved_after_broad_testing</td>
+                        </tr>
+                        <tr>
+                            <td><strong>primary_hidden_driver_mechanism_class</strong></td>
+                            <td>tumor_suppressor_co_loss</td>
+                        </tr>
+                        <tr>
+                            <td><strong>secondary_mechanism_classes</strong></td>
+                            <td><span class="empty-note">null</span></td>
+                        </tr>
+                        <tr>
+                            <td><strong>mechanism_requires_specific_genetic_lesion</strong></td>
+                            <td>yes</td>
+                        </tr>
+                        <tr>
+                            <td><strong>mechanism_is_tumor_intrinsic_or_extrinsic</strong></td>
+                            <td>tumor_intrinsic</td>
+                        </tr>
+                        <tr>
+                            <td><strong>mechanism_biologic_level</strong></td>
+                            <td>dna</td>
+                        </tr>
+                        <tr>
+                            <td><strong>causal_evidence_tier</strong></td>
+                            <td>tier_1_genomic_or_correlative_only</td>
+                        </tr>
+                        <tr>
+                            <td><strong>evidence_modalities_present</strong></td>
+                            <td>recurrence_statistics, SNP_array_copy_number, real_time_qPCR</td>
+                        </tr>
+                        <tr>
+                            <td><strong>therapeutic_actionability_evidence_tier</strong></td>
+                            <td>none</td>
+                        </tr>
+                        <tr>
+                            <td><strong>paper_claim_strength</strong></td>
+                            <td>descriptive</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="extraction-instance-container" id="e2483.3">
+                <h3 class="extraction-instance">Extracted Data Instance 3 (e2483.3)</h3>
+                <div class="extraction-query"><strong>Extraction Query:</strong> Extract any mentions of hidden drivers, pathway states, subtype structure, validation evidence, and therapeutic implications in oncogene-negative or driver-negative lung adenocarcinoma.</div>
+                <table>
+                    <thead>
+                        <tr>
+                            <th style="width: 30%;">Field</th>
+                            <th style="width: 70%;">Value</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><strong>name_short</strong></td>
+                            <td>CDKN2A loss</td>
+                        </tr>
+                        <tr>
+                            <td><strong>name_full</strong></td>
+                            <td>CDKN2A homozygous deletion in NSCLC</td>
+                        </tr>
+                        <tr>
+                            <td><strong>brief_description</strong></td>
+                            <td>The most common homozygously deleted locus in the cohort is CDKN2A at 9p21, present in 7 of 26 NSCLC cell lines. The paper treats this as confirmation of a known recurrent tumor suppressor alteration in NSCLC rather than as a novel hidden driver.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>citation_title</strong></td>
+                            <td>Homozygous Deletions and Chromosome Amplifications in Human Lung Carcinomas Revealed by Single Nucleotide Polymorphism Array Analysis</td>
+                        </tr>
+                        <tr>
+                            <td><strong>mention_or_use</strong></td>
+                            <td>use</td>
+                        </tr>
+                        <tr>
+                            <td><strong>driver_negative_definition</strong></td>
+                            <td>Not a formal driver-negative definition; CDKN2A loss is one of the canonical alterations the paper rediscovered in its unbiased copy-number survey.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>candidate_driver_pathway_or_mechanism</strong></td>
+                            <td>Tumor suppressor loss affecting the RB/p16/CDK4/CDK6 cell-cycle checkpoint pathway.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>alteration_or_activation_mode</strong></td>
+                            <td>Homozygous deletion</td>
+                        </tr>
+                        <tr>
+                            <td><strong>implicated_gene_axis_or_pathway</strong></td>
+                            <td>CDKN2A / RB-p16-CDK4-CDK6 pathway</td>
+                        </tr>
+                        <tr>
+                            <td><strong>pathway_activation_evidence</strong></td>
+                            <td>Recurrent focal homozygous deletion of CDKN2A in NSCLC cell lines; no downstream functional readout was performed in this study.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>driver_negative_subtype</strong></td>
+                            <td>No explicit subtype; broadly NSCLC.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>clinical_or_exposure_context</strong></td>
+                            <td>NSCLC cell lines and primary tumors; the authors note they could not confirm some primary-tumor deletions because of stromal admixture.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>cross_cancer_parallel</strong></td>
+                            <td>CDKN2A deletion is described as well-known across multiple cancers.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>therapeutic_vulnerability_or_implication</strong></td>
+                            <td>The paper does not make a specific therapeutic claim for CDKN2A loss, but places it in the context of the CDK4/CDK6 pathway, which may be therapeutically relevant.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>validation_evidence_and_model_system</strong></td>
+                            <td>SNP array plus qPCR in recurrent loci.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>driver_negative_scope_class</strong></td>
+                            <td>not_formally_defined</td>
+                        </tr>
+                        <tr>
+                            <td><strong>excluded_driver_genes_and_alteration_types</strong></td>
+                            <td>No formal exclusion panel; alteration type is homozygous deletion of CDKN2A.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>negative_call_assay_stack</strong></td>
+                            <td>SNP_array_copy_number -> real_time_qPCR_copy_number</td>
+                        </tr>
+                        <tr>
+                            <td><strong>negative_call_confidence</strong></td>
+                            <td>medium</td>
+                        </tr>
+                        <tr>
+                            <td><strong>rescued_hidden_driver_after_deeper_testing</strong></td>
+                            <td>none_reported</td>
+                        </tr>
+                        <tr>
+                            <td><strong>primary_hidden_driver_mechanism_class</strong></td>
+                            <td>tumor_suppressor_co_loss</td>
+                        </tr>
+                        <tr>
+                            <td><strong>secondary_mechanism_classes</strong></td>
+                            <td><span class="empty-note">null</span></td>
+                        </tr>
+                        <tr>
+                            <td><strong>mechanism_requires_specific_genetic_lesion</strong></td>
+                            <td>yes</td>
+                        </tr>
+                        <tr>
+                            <td><strong>mechanism_is_tumor_intrinsic_or_extrinsic</strong></td>
+                            <td>tumor_intrinsic</td>
+                        </tr>
+                        <tr>
+                            <td><strong>mechanism_biologic_level</strong></td>
+                            <td>dna</td>
+                        </tr>
+                        <tr>
+                            <td><strong>causal_evidence_tier</strong></td>
+                            <td>tier_1_genomic_or_correlative_only</td>
+                        </tr>
+                        <tr>
+                            <td><strong>evidence_modalities_present</strong></td>
+                            <td>recurrence_statistics, SNP_array_copy_number, real_time_qPCR</td>
+                        </tr>
+                        <tr>
+                            <td><strong>therapeutic_actionability_evidence_tier</strong></td>
+                            <td>none</td>
+                        </tr>
+                        <tr>
+                            <td><strong>paper_claim_strength</strong></td>
+                            <td>descriptive</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="extraction-instance-container" id="e2483.4">
+                <h3 class="extraction-instance">Extracted Data Instance 4 (e2483.4)</h3>
+                <div class="extraction-query"><strong>Extraction Query:</strong> Extract any mentions of hidden drivers, pathway states, subtype structure, validation evidence, and therapeutic implications in oncogene-negative or driver-negative lung adenocarcinoma.</div>
+                <table>
+                    <thead>
+                        <tr>
+                            <th style="width: 30%;">Field</th>
+                            <th style="width: 70%;">Value</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><strong>name_short</strong></td>
+                            <td>RTK/CDK4 pathway</td>
+                        </tr>
+                        <tr>
+                            <td><strong>name_full</strong></td>
+                            <td>Receptor tyrosine kinase and CDK4/CDK6 pathway alterations in lung carcinoma</td>
+                        </tr>
+                        <tr>
+                            <td><strong>brief_description</strong></td>
+                            <td>The paper highlights recurrent copy-number gains involving EGFR, FGFR1, ERBB2, MET, CDK4, CDK6, CCNE1, and related loci as pathway-level alterations that may indicate candidate oncogenes. It specifically notes that the RB/p16/CDK4/CDK6 pathway is often disrupted in tumorigenesis and that these regions are mostly nonoverlapping, consistent with pathway-level selection.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>citation_title</strong></td>
+                            <td>Homozygous Deletions and Chromosome Amplifications in Human Lung Carcinomas Revealed by Single Nucleotide Polymorphism Array Analysis</td>
+                        </tr>
+                        <tr>
+                            <td><strong>mention_or_use</strong></td>
+                            <td>use</td>
+                        </tr>
+                        <tr>
+                            <td><strong>driver_negative_definition</strong></td>
+                            <td>Not formally driver-negative; this is a broad copy-number survey in NSCLC/SCLC aimed at finding hidden oncogenic events.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>candidate_driver_pathway_or_mechanism</strong></td>
+                            <td>Pathway-level copy-number activation of RTKs and cell-cycle regulators; the authors explicitly frame these as candidate oncogene loci rather than proven targets.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>alteration_or_activation_mode</strong></td>
+                            <td>Copy-number amplification, usually focal/high-level in selected loci</td>
+                        </tr>
+                        <tr>
+                            <td><strong>implicated_gene_axis_or_pathway</strong></td>
+                            <td>EGFR, FGFR1, ERBB2, MET, CDK4, CDK6, CCNE1, PIK3CA; RB/p16/CDK4/CDK6 and RTK signaling</td>
+                        </tr>
+                        <tr>
+                            <td><strong>pathway_activation_evidence</strong></td>
+                            <td>Recurrent amplifications across NSCLC and SCLC were observed, and some were confirmed by qPCR. For EGFR, expression correlated with amplification/mutation status. For CDK4/CDK6 pathway loci, alterations were present but target genes were not conclusively identified.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>driver_negative_subtype</strong></td>
+                            <td>No formal subtype; the paper notes these alterations in NSCLC and SCLC broadly.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>clinical_or_exposure_context</strong></td>
+                            <td>Lung carcinomas with diverse histologies; the discussion references known targeted therapies for kinases and prior EGFR-mutant gefitinib/erlotinib responders.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>cross_cancer_parallel</strong></td>
+                            <td>The authors explicitly compare kinase-targeted therapy examples from BCR/ABL, KIT, ERBB2, and EGFR, and note that FGFR1, CDK4, and MET may become future targets similar to those in other cancers.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>therapeutic_vulnerability_or_implication</strong></td>
+                            <td>Potential future therapeutic targets include CDK4, FGFR1, and MET; EGFR and ERBB2 are discussed as established targetable kinases. This remains hypothesis-generating for the newly identified amplifications.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>validation_evidence_and_model_system</strong></td>
+                            <td>Genomic recurrence analysis with qPCR validation; no functional pathway perturbation or drug sensitivity experiments.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>driver_negative_scope_class</strong></td>
+                            <td>broad_clinical_panel</td>
+                        </tr>
+                        <tr>
+                            <td><strong>excluded_driver_genes_and_alteration_types</strong></td>
+                            <td>No explicit exclusion. Alteration classes are copy-number gain/amplification and homozygous deletion within pathway genes; mutation was not comprehensively excluded except in the EGFR comparison subset.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>negative_call_assay_stack</strong></td>
+                            <td>SNP_array_copy_number -> real_time_qPCR_copy_number</td>
+                        </tr>
+                        <tr>
+                            <td><strong>negative_call_confidence</strong></td>
+                            <td>low</td>
+                        </tr>
+                        <tr>
+                            <td><strong>rescued_hidden_driver_after_deeper_testing</strong></td>
+                            <td>none_reported</td>
+                        </tr>
+                        <tr>
+                            <td><strong>primary_hidden_driver_mechanism_class</strong></td>
+                            <td>copy_number_or_amplicon_driver</td>
+                        </tr>
+                        <tr>
+                            <td><strong>secondary_mechanism_classes</strong></td>
+                            <td>tumor_suppressor_co_loss</td>
+                        </tr>
+                        <tr>
+                            <td><strong>mechanism_requires_specific_genetic_lesion</strong></td>
+                            <td>mixed</td>
+                        </tr>
+                        <tr>
+                            <td><strong>mechanism_is_tumor_intrinsic_or_extrinsic</strong></td>
+                            <td>tumor_intrinsic</td>
+                        </tr>
+                        <tr>
+                            <td><strong>mechanism_biologic_level</strong></td>
+                            <td>dna</td>
+                        </tr>
+                        <tr>
+                            <td><strong>causal_evidence_tier</strong></td>
+                            <td>tier_1_genomic_or_correlative_only</td>
+                        </tr>
+                        <tr>
+                            <td><strong>evidence_modalities_present</strong></td>
+                            <td>recurrence_statistics, SNP_array_copy_number, real_time_qPCR, expression_comparison</td>
+                        </tr>
+                        <tr>
+                            <td><strong>therapeutic_actionability_evidence_tier</strong></td>
+                            <td>inferential_only</td>
+                        </tr>
+                        <tr>
+                            <td><strong>paper_claim_strength</strong></td>
+                            <td>hypothesis_generating</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>Potentially Relevant New Papers (mentioned by this paper)</h2>
+            <ol>
+                <li>An integrated view of copy number and allelic alterations in the cancer genome using single nucleotide polymorphism arrays <em>(Rating: 2)</em></li>
+                <li>High-resolution single-nucleotide polymorphism array and clustering analysis of loss of heterozygosity in human lung cancer cell lines <em>(Rating: 2)</em></li>
+                <li>CDK4 is a probable target gene in a novel amplicon at 12q13.3-q14.1 in lung cancer <em>(Rating: 2)</em></li>
+                <li>Lung cancer: intragenic ERBB2 kinase mutations in tumours <em>(Rating: 2)</em></li>
+                <li>EGFR mutations in lung cancer: correlation with clinical response to gefitinib therapy <em>(Rating: 2)</em></li>
+                <li>EGF receptor gene mutations are common in lung cancers from "never smokers" and are associated with sensitivity of tumors to gefitinib and erlotinib <em>(Rating: 2)</em></li>
+                <li>Genome-wide copy number analysis of non-small cell lung cancer using array comparative genomic hybridization: implications of the phosphatidylinositol 3-kinase pathway <em>(Rating: 1)</em></li>
+            </ol>
+        </div>
+
+        </div>
+
+    </div>
+</body>
+</html>

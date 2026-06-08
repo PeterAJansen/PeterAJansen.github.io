@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Extraction extraction-result-2127 - Theorizer</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+    <div class="header">
+        <a href="../index.html"><i class="fas fa-flask"></i> Theorizer</a>
+    </div>
+
+    <div class="content">
+        <h1>Extracted Data Details for extraction-result-2127</h1>
+
+        <div class="section">
+            <h2>Extracted Data (Header)</h2>
+            <div class="info-section">
+                <p><strong>Extraction ID:</strong> extraction-result-2127</p>
+                <p><strong>Extraction Schema Used (ID):</strong> <a href="../schemas/extraction-schema-1843.html">extraction-schema-1843</a></p>
+                <div class="extraction-query"><strong>Extraction Query:</strong> Extract any mentions of hidden genomic, structural, regulatory, or assay-missed drivers in oncogene-negative lung adenocarcinoma.</div>
+                <p><strong>Paper ID:</strong> paper-586c3cad75197c4783f4ef63ee007892933ed1e4</p>
+                <p><strong>Paper Title:</strong> <a href="https://www.semanticscholar.org/paper/586c3cad75197c4783f4ef63ee007892933ed1e4" target="_blank">Oncogenic context shapes the fitness landscape of tumor suppression</a></p>
+                <p><strong>Paper Venue:</strong> Nature Communications</p>
+                <p><strong>Paper TL;DR:</strong> It is shown that the fitness landscape is rugged—the effect of tumor suppressor inactivation often switches between beneficial and deleterious depending on the oncogenic context—and shows no evidence of diminishing-returns epistasis within variants of the same oncogene.</p>
+                <p><strong>Paper Abstract:</strong> Tumors acquire alterations in oncogenes and tumor suppressor genes in an adaptive walk through the fitness landscape of tumorigenesis. However, the interactions between oncogenes and tumor suppressor genes that shape this landscape remain poorly resolved and cannot be revealed by human cancer genomics alone. Here, we use a multiplexed, autochthonous mouse platform to model and quantify the initiation and growth of more than one hundred genotypes of lung tumors across four oncogenic contexts: KRAS G12D, KRAS G12C, BRAF V600E, and EGFR L858R. We show that the fitness landscape is rugged—the effect of tumor suppressor inactivation often switches between beneficial and deleterious depending on the oncogenic context—and shows no evidence of diminishing-returns epistasis within variants of the same oncogene. These findings argue against a simple linear signaling relationship amongst these three oncogenes and imply a critical role for off-axis signaling in determining the fitness effects of inactivating tumor suppressors.</p>
+                <p><strong>Cost:</strong> 0.027</p>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>Extracted Data (Details)</h2>
+            <div class="extraction-instance-container" id="e2127.0">
+                <h3 class="extraction-instance">Extracted Data Instance 0 (e2127.0)</h3>
+                <div class="extraction-query"><strong>Extraction Query:</strong> Extract any mentions of hidden genomic, structural, regulatory, or assay-missed drivers in oncogene-negative lung adenocarcinoma.</div>
+                <table>
+                    <thead>
+                        <tr>
+                            <th style="width: 30%;">Field</th>
+                            <th style="width: 70%;">Value</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><strong>name_short</strong></td>
+                            <td>No hidden genomic driver identified</td>
+                        </tr>
+                        <tr>
+                            <td><strong>name_full</strong></td>
+                            <td>Assay-missed or hidden drivers in oncogene-negative lung adenocarcinoma</td>
+                        </tr>
+                        <tr>
+                            <td><strong>brief_description</strong></td>
+                            <td>This paper does not report discovery of a hidden genomic, structural, regulatory, or assay-missed driver in oncogene-negative lung adenocarcinoma. Instead, it studies functional epistasis between known oncogenic contexts (KRAS, BRAF, EGFR) and tumor suppressor losses in engineered mouse LUAD models, and explicitly notes that many interactions cannot be inferred from human genomics alone.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>citation_title</strong></td>
+                            <td>Oncogenic context shapes the fitness landscape of tumor suppression</td>
+                        </tr>
+                        <tr>
+                            <td><strong>mention_or_use</strong></td>
+                            <td>mention</td>
+                        </tr>
+                        <tr>
+                            <td><strong>oncogene_negative_definition</strong></td>
+                            <td>Not applicable to a driver-negative discovery cohort. The paper analyzes mouse lung tumors initiated with defined oncogenic alleles (KrasLSL-G12D, KrasLSL-G12C, BrafCA-V600E, or tetO-EGFRL858R) plus Cas9 and pooled sgRNA/Cre vectors targeting 28 tumor suppressor genes. Human LUAD data were stratified by known oncogene status using AACR Project GENIE: KRAS mutations were defined as any mutation in codons 12, 13, or 61; EGFR mutations as p.L858R, p.L861Q, p.G719X, exon 19 deletion/insertion, or exon 20 insertion; BRAF mutations as all mutations listed in Owsley et al.; analysis was restricted mainly to MSK-IMPACT468 panel cases.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>assay_strategy_and_detection_limits</strong></td>
+                            <td>The paper does not perform a driver-discovery assay for oncogene-negative LUAD. It uses multiplexed in vivo Tuba-seq/CRISPR-Cas9 functional screening in engineered mice plus retrospective human mutation-frequency analyses from AACR Project GENIE (MSK-IMPACT468 panel) to compare causal fitness effects with co-mutation rates. Stated blind spots include high passenger mutation burden obscuring true drivers in KRAS/BRAF tumors, inability of observational genomics alone to infer epistasis, limited panel coverage (CMTR2 absent from MSK-IMPACT468, KRASWT excluded because wild-type vs oncogenic allele is hard to distinguish), and the fact that many important alterations may occur via non-mutational mechanisms such as PI3K pathway activation.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>missed_driver_reclassified_after_broader_testing</strong></td>
+                            <td>No specific oncogene-negative tumor that was initially classified as driver-negative and then reclassified by broader testing is reported. The closest relevant statement is that in high-TMB KRAS- and BRAF-mutant human LUAD, many mutations in functionally important tumor suppressor genes may be passengers, and that non-mutational mechanisms (for example PI3K pathway activation) can obscure functionally important alterations, but no rescued hidden driver event is presented.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>driver_event_class</strong></td>
+                            <td><span class="empty-note">null</span></td>
+                        </tr>
+                        <tr>
+                            <td><strong>candidate_driver_gene_or_locus</strong></td>
+                            <td><span class="empty-note">null</span></td>
+                        </tr>
+                        <tr>
+                            <td><strong>structural_or_regulatory_activation_mechanism</strong></td>
+                            <td><span class="empty-note">null</span></td>
+                        </tr>
+                        <tr>
+                            <td><strong>functional_consequence</strong></td>
+                            <td><span class="empty-note">null</span></td>
+                        </tr>
+                        <tr>
+                            <td><strong>co_alteration_or_combinatorial_requirement</strong></td>
+                            <td>The paper emphasizes combinatorial oncogene-tumor suppressor interactions, but not a hidden driver event in driver-negative disease. It reports that tumor suppressor losses such as Pten, Rnf43, p53, Nf1, KrasWT, Lkb1, Setd2, Kmt2d, Keap1, and Nf2 have oncogene-context-dependent effects; however, these are analyzed as modifiers of known oncogenic backgrounds, not as the primary explanation for oncogene-negative LUAD.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>human_prevalence_or_enrichment</strong></td>
+                            <td>No prevalence of a hidden driver in oncogene-negative LUAD is reported. The paper does note that in human EGFR-driven LUAD with low TMB, loss of Keap1, Lkb1, and Nf2 is rarely co-mutated with EGFR as predicted, and that TP53 is commonly co-mutated with EGFR. It also states that PTEN is rarely mutated in KRAS- and BRAF-driven human lung cancers despite strong functional effects in mice.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>functional_or_clinical_validation</strong></td>
+                            <td>No validation of a newly discovered hidden driver is reported. Functional validation in the paper concerns mouse CRISPR/Tuba-seq measurements of tumor suppressor effects and correlations with human co-mutation frequencies, not rescue or validation of an assay-missed driver in oncogene-negative LUAD.</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>Potentially Relevant New Papers (mentioned by this paper)</h2>
+            <ol>
+                <li>Comprehensive molecular profiling of lung adenocarcinoma <em>(Rating: 1)</em></li>
+                <li>AACR Project GENIE: powering precision medicine through an international consortium <em>(Rating: 1)</em></li>
+                <li>Co-occurring genomic alterations in non-small-cell lung cancer biology and therapy <em>(Rating: 1)</em></li>
+                <li>Identifying epistasis in cancer genomes: a delicate affair <em>(Rating: 1)</em></li>
+            </ol>
+        </div>
+
+        </div>
+
+    </div>
+</body>
+</html>

@@ -1,0 +1,582 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Extraction extraction-result-2310 - Theorizer</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+    <div class="header">
+        <a href="../index.html"><i class="fas fa-flask"></i> Theorizer</a>
+    </div>
+
+    <div class="content">
+        <h1>Extracted Data Details for extraction-result-2310</h1>
+
+        <div class="section">
+            <h2>Extracted Data (Header)</h2>
+            <div class="info-section">
+                <p><strong>Extraction ID:</strong> extraction-result-2310</p>
+                <p><strong>Extraction Schema Used (ID):</strong> <a href="../schemas/extraction-schema-1845.html">extraction-schema-1845</a></p>
+                <div class="extraction-query"><strong>Extraction Query:</strong> Extract any mentions of driver-negative or oncogene-negative lung adenocarcinoma cases, cohorts, models, or subgroups; the evidence for why they are considered driver-negative; candidate alternative drivers or mechanisms; proposed subtypes; validation strategies; comparisons to other cancers; and therapeutic implications.</div>
+                <p><strong>Paper ID:</strong> paper-95184328a01342c03c99f20668592f88d6736b11</p>
+                <p><strong>Paper Title:</strong> <a href="https://www.semanticscholar.org/paper/95184328a01342c03c99f20668592f88d6736b11" target="_blank">Non-genetic evolution drives lung adenocarcinoma spatial heterogeneity and progression.</a></p>
+                <p><strong>Paper Venue:</strong> Cancer Discovery</p>
+                <p><strong>Paper TL;DR:</strong> This work generated multi-omics and spatially resolved molecular profiles of histologic patterns from primary lung adenocarcinoma, which was integrated with molecular data from >2,000 patients, and provided a detailed molecular map of lungAdenoc cancer intra-tumor spatial heterogeneity, tracing non-genetic routes of cancer evolution.</p>
+                <p><strong>Paper Abstract:</strong> Cancer evolution determines molecular and morphological intra-tumor heterogeneity and challenges the design of effective treatments. In lung adenocarcinoma, disease progression and prognosis are associated with the appearance of morphologically diverse tumor regions, termed histologic patterns. However, the link between molecular and histological features remains elusive. Here, we generated multi-omics and spatially resolved molecular profiles of histologic patterns from primary lung adenocarcinoma, which we integrated with molecular data from >2,000 patients. The transition from indolent to aggressive patterns was not driven by genetic alterations but by epigenetic and transcriptional reprogramming reshaping cancer cell identity. A signature quantifying this transition was an independent predictor of patient prognosis in multiple human cohorts. Within individual tumors, highly multiplexed protein spatial profiling revealed co-existence of immune desert, inflamed, and excluded regions, which matched histologic pattern composition. Our results provide a detailed molecular map of lung adenocarcinoma intra-tumor spatial heterogeneity, tracing non-genetic routes of cancer evolution.</p>
+                <p><strong>Cost:</strong> 0.018</p>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>Extracted Data (Details)</h2>
+            <div class="extraction-instance-container" id="e2310.0">
+                <h3 class="extraction-instance">Extracted Data Instance 0 (e2310.0)</h3>
+                <div class="extraction-query"><strong>Extraction Query:</strong> Extract any mentions of driver-negative or oncogene-negative lung adenocarcinoma cases, cohorts, models, or subgroups; the evidence for why they are considered driver-negative; candidate alternative drivers or mechanisms; proposed subtypes; validation strategies; comparisons to other cancers; and therapeutic implications.</div>
+                <table>
+                    <thead>
+                        <tr>
+                            <th style="width: 30%;">Field</th>
+                            <th style="width: 70%;">Value</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><strong>name_short</strong></td>
+                            <td>TCGA-LUAD pattern-annotated subset</td>
+                        </tr>
+                        <tr>
+                            <td><strong>name_full</strong></td>
+                            <td>The Cancer Genome Atlas lung adenocarcinoma cohort with consistent predominant histologic pattern annotation</td>
+                        </tr>
+                        <tr>
+                            <td><strong>brief_description</strong></td>
+                            <td>A 206-sample TCGA-LUAD subset annotated by predominant histologic pattern (lepidic, papillary, acinar, solid) was used to test whether particular morphologic patterns associate with canonical genetic drivers. The study found no recurrent genetic lesion enriched in a specific pattern, arguing against a simple driver-defined explanation for pattern progression.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>citation_title</strong></td>
+                            <td>here</td>
+                        </tr>
+                        <tr>
+                            <td><strong>mention_or_use</strong></td>
+                            <td>use</td>
+                        </tr>
+                        <tr>
+                            <td><strong>cohort_or_model</strong></td>
+                            <td>TCGA-LUAD pattern-annotated subset (N=206; lepidic n=8, papillary n=47, acinar n=86, solid n=65)</td>
+                        </tr>
+                        <tr>
+                            <td><strong>cancer_context</strong></td>
+                            <td>lung adenocarcinoma, predominant histologic pattern analysis across primary tumors</td>
+                        </tr>
+                        <tr>
+                            <td><strong>driver_negative_definition</strong></td>
+                            <td>Not a canonical driver-negative cohort per se; the paper assessed whether specific patterns were enriched for recurrent genetic lesions and found no recurrent genetic lesion (mutation, copy number alteration, or gene fusion) enriched in any specific pattern, aside from a few PIK3CA mutations in lepidic samples and a trend for more TP53 mutations in solid samples.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>driver_negative_frequency</strong></td>
+                            <td>Not reported as a driver-negative prevalence; instead, 0 recurrent pattern-specific genetic lesions were identified across the 4 histologic pattern classes, with only isolated exceptions (PIK3CA 3/8 lepidic; TP53 trend in solid).</td>
+                        </tr>
+                        <tr>
+                            <td><strong>profiling_modalities</strong></td>
+                            <td>whole-exome sequencing, copy number analysis, RNA sequencing, DNA methylation array, H&E pathology annotation, neoantigen estimation</td>
+                        </tr>
+                        <tr>
+                            <td><strong>candidate_mechanism_category</strong></td>
+                            <td>epigenetic dysregulation</td>
+                        </tr>
+                        <tr>
+                            <td><strong>candidate_driver_or_mechanism</strong></td>
+                            <td>epigenetic and transcriptional reprogramming underlying lepidic-to-solid progression</td>
+                        </tr>
+                        <tr>
+                            <td><strong>mechanistic_description</strong></td>
+                            <td>Pattern progression was interpreted as a transition from lepidic to papillary/acinar/solid states driven by coordinated changes in gene expression and DNA methylation rather than by recurrent genetic lesions, implying non-genetic remodeling of cancer cell identity.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>evidence_type</strong></td>
+                            <td>negative genetic association plus transcriptional/epigenetic patterning</td>
+                        </tr>
+                        <tr>
+                            <td><strong>key_evidence</strong></td>
+                            <td>Among 206 TCGA-LUAD tumors, no recurrent mutation, CNV, or fusion was enriched in a specific histologic pattern; instead, differential expression and methylation showed progressive, concordant changes across patterns, with >2-fold more differentially expressed genes or methylated probes than expected by chance.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>negative_or_counter_evidence</strong></td>
+                            <td>The paper does not identify a canonical oncogenic alteration explaining driver-negative status; the evidence is mainly absence of pattern-specific recurrent lesions and is limited by analysis of prevalent patterns in bulk tumor samples.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>subtype_name</strong></td>
+                            <td>lepidic-to-solid transition (L2S) continuum</td>
+                        </tr>
+                        <tr>
+                            <td><strong>subtype_features</strong></td>
+                            <td>Progressive molecular gradient from lepidic toward solid histology; lepidic associated with differentiation/development/morphogenesis and normal alveolar-epithelial markers, solid associated with proliferation, ECM remodeling, immune infiltration, and poor prognosis.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>parallel_in_other_cancers</strong></td>
+                            <td>The Discussion notes analogous morphological evolution in breast cancer and hepatocellular carcinoma, but not a specific driver-negative mechanism in those cancers.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>validation_approach</strong></td>
+                            <td>Cross-cohort validation in an East Asian LUAD dataset and an additional LUAD cohort, plus comparison of fold-change directionality across pattern pairs and prognosis testing.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>validation_result</strong></td>
+                            <td>Transcriptional differences and the solid-association were confirmed in independent datasets; the pattern progression model was supported by concordant gene-expression and methylation trends across cohorts.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>therapeutic_implication</strong></td>
+                            <td>Histology- or signature-based stratification may complement pathology and help identify patients more likely to benefit from adjuvant therapy or immunotherapy.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>therapeutic_evidence</strong></td>
+                            <td>L2S scores were independent prognostic factors across multiple LUAD cohorts and were associated with immune infiltration and T-cell exhaustion markers, suggesting relevance to immunotherapy response.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>clinical_or_demographic_association</strong></td>
+                            <td>Histologic pattern progression was associated with prognosis; solid-prevalent tumors were more aggressive. Early-stage disease showed substantial intra-tumor pattern heterogeneity.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>study_limitations</strong></td>
+                            <td>The study is largely correlative and does not functionally test causality of the non-genetic programs; pattern-annotated samples are limited in number and bulk analyses cannot fully resolve cell-type specificity.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>driver_negativity_confidence</strong></td>
+                            <td>not_applicable</td>
+                        </tr>
+                        <tr>
+                            <td><strong>negative_status_basis</strong></td>
+                            <td>no_pattern_specific_recurrent_driver_detected_by_wes_cnv_fusion_bulk_analysis</td>
+                        </tr>
+                        <tr>
+                            <td><strong>tested_driver_classes</strong></td>
+                            <td>["exome_mutation", "fusion_rearrangement", "broad_copy_number"]</td>
+                        </tr>
+                        <tr>
+                            <td><strong>untested_or_underpowered_driver_classes</strong></td>
+                            <td>["noncoding_regulatory", "exon_skipping_splicing", "protein_abundance", "phosphoproteomics"]</td>
+                        </tr>
+                        <tr>
+                            <td><strong>false_negative_rescue_evidence</strong></td>
+                            <td><span class="empty-note">null</span></td>
+                        </tr>
+                        <tr>
+                            <td><strong>sample_purity_detection_limit_issue</strong></td>
+                            <td>["bulk_tumor_profiles", "intra_tumor_heterogeneity may confound pattern assignment"]</td>
+                        </tr>
+                        <tr>
+                            <td><strong>mapk_output_state</strong></td>
+                            <td>unresolved</td>
+                        </tr>
+                        <tr>
+                            <td><strong>pi3k_akt_mtor_output_state</strong></td>
+                            <td>unresolved</td>
+                        </tr>
+                        <tr>
+                            <td><strong>rtk_or_her_family_activation_state</strong></td>
+                            <td>unclear</td>
+                        </tr>
+                        <tr>
+                            <td><strong>signaling_readout_assay</strong></td>
+                            <td>not directly assayed for signaling state; inferred from transcriptomic/epigenetic programs and histology</td>
+                        </tr>
+                        <tr>
+                            <td><strong>genome_protein_discordance_flag</strong></td>
+                            <td>unclear</td>
+                        </tr>
+                        <tr>
+                            <td><strong>driver_mechanism_route</strong></td>
+                            <td>microenvironmental_state</td>
+                        </tr>
+                        <tr>
+                            <td><strong>altered_molecular_layer</strong></td>
+                            <td>cell_state_composition</td>
+                        </tr>
+                        <tr>
+                            <td><strong>functional_consequence_type</strong></td>
+                            <td>transcriptional_reprogramming</td>
+                        </tr>
+                        <tr>
+                            <td><strong>canonical_pathway_reinstatement_flag</strong></td>
+                            <td>no</td>
+                        </tr>
+                        <tr>
+                            <td><strong>alternative_driver_axis</strong></td>
+                            <td>stemness_quiescence</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="extraction-instance-container" id="e2310.1">
+                <h3 class="extraction-instance">Extracted Data Instance 1 (e2310.1)</h3>
+                <div class="extraction-query"><strong>Extraction Query:</strong> Extract any mentions of driver-negative or oncogene-negative lung adenocarcinoma cases, cohorts, models, or subgroups; the evidence for why they are considered driver-negative; candidate alternative drivers or mechanisms; proposed subtypes; validation strategies; comparisons to other cancers; and therapeutic implications.</div>
+                <table>
+                    <thead>
+                        <tr>
+                            <th style="width: 30%;">Field</th>
+                            <th style="width: 70%;">Value</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><strong>name_short</strong></td>
+                            <td>CHUV multi-region LUAD cohort</td>
+                        </tr>
+                        <tr>
+                            <td><strong>name_full</strong></td>
+                            <td>Histopathology-guided multi-region sampled primary lung adenocarcinoma cohort from the Lausanne University Hospital</td>
+                        </tr>
+                        <tr>
+                            <td><strong>brief_description</strong></td>
+                            <td>Ten early-stage LUAD primary tumors with at least two histologic patterns were dissected into pattern-defined regions and profiled by WES, RNA-seq, and DNA methylation EPIC arrays. The regions shared clonal driver mutations but differed mainly by non-genetic reprogramming, supporting a driver-negative explanation for intra-tumor pattern progression.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>citation_title</strong></td>
+                            <td>here</td>
+                        </tr>
+                        <tr>
+                            <td><strong>mention_or_use</strong></td>
+                            <td>use</td>
+                        </tr>
+                        <tr>
+                            <td><strong>cohort_or_model</strong></td>
+                            <td>CHUV cohort (10 patients, 29 tumor regions, 10 normal tissue samples; early-stage primary LUAD)</td>
+                        </tr>
+                        <tr>
+                            <td><strong>cancer_context</strong></td>
+                            <td>early-stage lung adenocarcinoma with intra-tumor histologic heterogeneity</td>
+                        </tr>
+                        <tr>
+                            <td><strong>driver_negative_definition</strong></td>
+                            <td>Driver mutations were predominantly clonal and not associated with a specific histologic pattern; the paper therefore treats pattern progression as not attributable to distinct region-specific canonical genomic drivers.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>driver_negative_frequency</strong></td>
+                            <td>Not quantified as a prevalence of driver-negative tumors; all 10 multi-region tumors showed clonal driver mutations rather than pattern-specific drivers.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>profiling_modalities</strong></td>
+                            <td>histopathology-guided multi-region sampling, whole-exome sequencing, RNA sequencing, DNA methylation EPIC array, H&E, TTF1 staining, immunofluorescence, digital spatial profiling</td>
+                        </tr>
+                        <tr>
+                            <td><strong>candidate_mechanism_category</strong></td>
+                            <td>lineage plasticity</td>
+                        </tr>
+                        <tr>
+                            <td><strong>candidate_driver_or_mechanism</strong></td>
+                            <td>plastic reprogramming of cancer cell differentiation state plus immune microenvironment remodeling</td>
+                        </tr>
+                        <tr>
+                            <td><strong>mechanistic_description</strong></td>
+                            <td>Across regions progressing from lepidic to solid, cancer cells lost differentiation-associated programs and gained proliferation/ECM-remodeling programs, while the microenvironment shifted from immune desert to inflamed and then excluded/suppressive.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>evidence_type</strong></td>
+                            <td>multi-region molecular profiling with spatial validation</td>
+                        </tr>
+                        <tr>
+                            <td><strong>key_evidence</strong></td>
+                            <td>Pattern-matched regions clustered by expression/methylation state; lepidic regions were enriched for lung alveolar/epithelial markers, acinar and solid regions for immune markers, and L2S-associated genes tracked pattern progression within individual tumors.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>negative_or_counter_evidence</strong></td>
+                            <td>The study did not identify a pattern-specific canonical driver mutation, fusion, or CNV; it also notes that causality between microenvironment and plasticity remains unresolved.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>subtype_name</strong></td>
+                            <td>lepidic, papillary, acinar, solid pattern continuum</td>
+                        </tr>
+                        <tr>
+                            <td><strong>subtype_features</strong></td>
+                            <td>Lepidic: differentiation/normal-lung-like; papillary and acinar: intermediate/inflamed; solid: proliferative, ECM-degrading, immune-excluded, suppressive.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>parallel_in_other_cancers</strong></td>
+                            <td>The Discussion compares morphological evolution in breast cancer and hepatocellular carcinoma as analogous phenomena.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>validation_approach</strong></td>
+                            <td>Orthogonal validation with independent LUAD cohorts, immunofluorescence, spatial quantification (GridQuant), and GeoMX DSP in additional tissue sections.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>validation_result</strong></td>
+                            <td>Transcriptional, epigenetic, and spatial findings were recapitulated across patient cohorts and spatial assays; immune exclusion was especially evident in solid regions.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>therapeutic_implication</strong></td>
+                            <td>Pattern-aware biomarker assessment could inform adjuvant treatment selection and immunotherapy stratification in early-stage LUAD.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>therapeutic_evidence</strong></td>
+                            <td>The L2S signature was prognostic and associated with immune exhaustion/exclusion, implying relevance for checkpoint blockade response hypotheses.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>clinical_or_demographic_association</strong></td>
+                            <td>Early-stage resected LUAD; multiple patterns within each tumor; progression linked to worse prognosis and more advanced histology.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>study_limitations</strong></td>
+                            <td>Small cohort size, retrospective sampling, and inability to establish whether immune changes drive or follow cancer-cell plasticity.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>driver_negativity_confidence</strong></td>
+                            <td>moderate</td>
+                        </tr>
+                        <tr>
+                            <td><strong>negative_status_basis</strong></td>
+                            <td>clonal_driver_present_but_no_pattern_specific_driver</td>
+                        </tr>
+                        <tr>
+                            <td><strong>tested_driver_classes</strong></td>
+                            <td>["exome_mutation", "fusion_rearrangement", "broad_copy_number", "epigenomics", "spatial_microenvironment"]</td>
+                        </tr>
+                        <tr>
+                            <td><strong>untested_or_underpowered_driver_classes</strong></td>
+                            <td>["noncoding_regulatory", "exon_skipping_splicing", "protein_abundance", "phosphoproteomics"]</td>
+                        </tr>
+                        <tr>
+                            <td><strong>false_negative_rescue_evidence</strong></td>
+                            <td><span class="empty-note">null</span></td>
+                        </tr>
+                        <tr>
+                            <td><strong>sample_purity_detection_limit_issue</strong></td>
+                            <td>["multi-region bulk sampling", "tumor_microenvironment contamination complicates attribution"]</td>
+                        </tr>
+                        <tr>
+                            <td><strong>mapk_output_state</strong></td>
+                            <td>unresolved</td>
+                        </tr>
+                        <tr>
+                            <td><strong>pi3k_akt_mtor_output_state</strong></td>
+                            <td>unresolved</td>
+                        </tr>
+                        <tr>
+                            <td><strong>rtk_or_her_family_activation_state</strong></td>
+                            <td>unclear</td>
+                        </tr>
+                        <tr>
+                            <td><strong>signaling_readout_assay</strong></td>
+                            <td>not directly assayed for pathway activation; inferred from transcriptomic states and histology</td>
+                        </tr>
+                        <tr>
+                            <td><strong>genome_protein_discordance_flag</strong></td>
+                            <td>yes</td>
+                        </tr>
+                        <tr>
+                            <td><strong>driver_mechanism_route</strong></td>
+                            <td>microenvironmental_state</td>
+                        </tr>
+                        <tr>
+                            <td><strong>altered_molecular_layer</strong></td>
+                            <td>cell_state_composition</td>
+                        </tr>
+                        <tr>
+                            <td><strong>functional_consequence_type</strong></td>
+                            <td>transcriptional_reprogramming</td>
+                        </tr>
+                        <tr>
+                            <td><strong>canonical_pathway_reinstatement_flag</strong></td>
+                            <td>no</td>
+                        </tr>
+                        <tr>
+                            <td><strong>alternative_driver_axis</strong></td>
+                            <td>immune</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="extraction-instance-container" id="e2310.2">
+                <h3 class="extraction-instance">Extracted Data Instance 2 (e2310.2)</h3>
+                <div class="extraction-query"><strong>Extraction Query:</strong> Extract any mentions of driver-negative or oncogene-negative lung adenocarcinoma cases, cohorts, models, or subgroups; the evidence for why they are considered driver-negative; candidate alternative drivers or mechanisms; proposed subtypes; validation strategies; comparisons to other cancers; and therapeutic implications.</div>
+                <table>
+                    <thead>
+                        <tr>
+                            <th style="width: 30%;">Field</th>
+                            <th style="width: 70%;">Value</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><strong>name_short</strong></td>
+                            <td>L2S signature</td>
+                        </tr>
+                        <tr>
+                            <td><strong>name_full</strong></td>
+                            <td>Lepidic-to-solid transcriptional signature</td>
+                        </tr>
+                        <tr>
+                            <td><strong>brief_description</strong></td>
+                            <td>A gene-expression signature derived from cancer-specific lepidic and solid markers was proposed to quantify histologic progression in LUAD. It tracks the transition from lepidic to solid states, predicts prognosis, and may substitute for direct histopathologic assessment when only transcriptomes are available.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>citation_title</strong></td>
+                            <td>here</td>
+                        </tr>
+                        <tr>
+                            <td><strong>mention_or_use</strong></td>
+                            <td>use</td>
+                        </tr>
+                        <tr>
+                            <td><strong>cohort_or_model</strong></td>
+                            <td>Derived from CHUV multi-region tumors and validated in TCGA, CHUV, and >2,000 LUAD samples across 10 cohorts</td>
+                        </tr>
+                        <tr>
+                            <td><strong>cancer_context</strong></td>
+                            <td>lung adenocarcinoma, histologic progression and prognosis</td>
+                        </tr>
+                        <tr>
+                            <td><strong>driver_negative_definition</strong></td>
+                            <td>Not a driver-negative definition; it is a progression biomarker developed because no genetic lesion explained the histologic transition.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>driver_negative_frequency</strong></td>
+                            <td>Not applicable</td>
+                        </tr>
+                        <tr>
+                            <td><strong>profiling_modalities</strong></td>
+                            <td>RNA sequencing, single-cell RNA-seq, external cohort transcriptomics, survival analysis</td>
+                        </tr>
+                        <tr>
+                            <td><strong>candidate_mechanism_category</strong></td>
+                            <td>lineage plasticity</td>
+                        </tr>
+                        <tr>
+                            <td><strong>candidate_driver_or_mechanism</strong></td>
+                            <td>lepidic-to-solid cell-state transition</td>
+                        </tr>
+                        <tr>
+                            <td><strong>mechanistic_description</strong></td>
+                            <td>The signature captures a gradient from differentiated lepidic-like cells to proliferative solid-like cells and serves as a molecular readout of non-genetic progression.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>evidence_type</strong></td>
+                            <td>signature validation across cohorts and survival association</td>
+                        </tr>
+                        <tr>
+                            <td><strong>key_evidence</strong></td>
+                            <td>L2S scores increased from normal lung to lepidic, papillary, acinar, and solid tumors; they corrected a misannotated TCGA sample, separated prognosis better than predominant-pattern classification, and were independent prognostic factors in all but one large cohort.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>negative_or_counter_evidence</strong></td>
+                            <td>The signature is correlational and does not identify a causal driver; it was derived from pure lepidic vs pure solid comparisons and may be less informative for mixed tumors.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>subtype_name</strong></td>
+                            <td>L2S-high versus L2S-low</td>
+                        </tr>
+                        <tr>
+                            <td><strong>subtype_features</strong></td>
+                            <td>L2S-low: normal/lepidic-like differentiation and lower proliferation; L2S-high: solid-like proliferation, immune infiltration, and poor prognosis.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>parallel_in_other_cancers</strong></td>
+                            <td>No direct analogous signature is described, though the paper notes similar morphological evolution in breast cancer and hepatocellular carcinoma.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>validation_approach</strong></td>
+                            <td>Independent-cohort replication, multivariable Cox regression, and comparison with histology-based classifications.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>validation_result</strong></td>
+                            <td>Independent cohorts showed consistent association with pattern progression and prognosis; L2S outperformed predominant-pattern labels in stratifying outcome.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>therapeutic_implication</strong></td>
+                            <td>Could complement histopathology to identify early-stage patients who need adjuvant therapy and may help predict immunotherapy response.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>therapeutic_evidence</strong></td>
+                            <td>Associated with immune infiltration and T-cell exhaustion markers across cohorts, and linked by the authors to potential checkpoint inhibitor relevance.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>clinical_or_demographic_association</strong></td>
+                            <td>Higher scores in solid tumors, lower in normal lung and lepidic tumors; associated with survival and immune contexture rather than a specific demographic factor.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>study_limitations</strong></td>
+                            <td>Requires transcriptomic profiling; not directly validated as a predictive biomarker for treatment response.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>driver_negativity_confidence</strong></td>
+                            <td>not_applicable</td>
+                        </tr>
+                        <tr>
+                            <td><strong>negative_status_basis</strong></td>
+                            <td>expression_signature_not_driver_call</td>
+                        </tr>
+                        <tr>
+                            <td><strong>tested_driver_classes</strong></td>
+                            <td>["rna_outlier_expression", "cell_state_composition"]</td>
+                        </tr>
+                        <tr>
+                            <td><strong>untested_or_underpowered_driver_classes</strong></td>
+                            <td>["genome_mutation", "fusion_rearrangement", "focal_amplification", "protein_abundance", "phosphoproteomics"]</td>
+                        </tr>
+                        <tr>
+                            <td><strong>false_negative_rescue_evidence</strong></td>
+                            <td><span class="empty-note">null</span></td>
+                        </tr>
+                        <tr>
+                            <td><strong>sample_purity_detection_limit_issue</strong></td>
+                            <td>["bulk_expression reflects mixed tumor and immune compartments"]</td>
+                        </tr>
+                        <tr>
+                            <td><strong>mapk_output_state</strong></td>
+                            <td>unresolved</td>
+                        </tr>
+                        <tr>
+                            <td><strong>pi3k_akt_mtor_output_state</strong></td>
+                            <td>unresolved</td>
+                        </tr>
+                        <tr>
+                            <td><strong>rtk_or_her_family_activation_state</strong></td>
+                            <td>unclear</td>
+                        </tr>
+                        <tr>
+                            <td><strong>signaling_readout_assay</strong></td>
+                            <td>RNA-seq-derived expression scoring</td>
+                        </tr>
+                        <tr>
+                            <td><strong>genome_protein_discordance_flag</strong></td>
+                            <td>unclear</td>
+                        </tr>
+                        <tr>
+                            <td><strong>driver_mechanism_route</strong></td>
+                            <td>microenvironmental_state</td>
+                        </tr>
+                        <tr>
+                            <td><strong>altered_molecular_layer</strong></td>
+                            <td>rna_outlier_expression</td>
+                        </tr>
+                        <tr>
+                            <td><strong>functional_consequence_type</strong></td>
+                            <td>transcriptional_reprogramming</td>
+                        </tr>
+                        <tr>
+                            <td><strong>canonical_pathway_reinstatement_flag</strong></td>
+                            <td>no</td>
+                        </tr>
+                        <tr>
+                            <td><strong>alternative_driver_axis</strong></td>
+                            <td>stemness_quiescence</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>Potentially Relevant New Papers (mentioned by this paper)</h2>
+            <ol>
+                <li>Non-genetic evolution drives lung adenocarcinoma spatial heterogeneity and progression. <em>(Rating: 2)</em></li>
+            </ol>
+        </div>
+
+        </div>
+
+    </div>
+</body>
+</html>

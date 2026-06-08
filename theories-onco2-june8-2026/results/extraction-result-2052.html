@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Extraction extraction-result-2052 - Theorizer</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+    <div class="header">
+        <a href="../index.html"><i class="fas fa-flask"></i> Theorizer</a>
+    </div>
+
+    <div class="content">
+        <h1>Extracted Data Details for extraction-result-2052</h1>
+
+        <div class="section">
+            <h2>Extracted Data (Header)</h2>
+            <div class="info-section">
+                <p><strong>Extraction ID:</strong> extraction-result-2052</p>
+                <p><strong>Extraction Schema Used (ID):</strong> <a href="../schemas/extraction-schema-1843.html">extraction-schema-1843</a></p>
+                <div class="extraction-query"><strong>Extraction Query:</strong> Extract any mentions of hidden genomic, structural, regulatory, or assay-missed drivers in oncogene-negative lung adenocarcinoma.</div>
+                <p><strong>Paper ID:</strong> paper-dae9cd3d9b6585db9c2e36cda4aa37c0f5f1d696</p>
+                <p><strong>Paper Title:</strong> <a href="https://www.semanticscholar.org/paper/dae9cd3d9b6585db9c2e36cda4aa37c0f5f1d696" target="_blank">Fully accessible fitness landscape of oncogene-negative lung adenocarcinoma</a></p>
+                <p><strong>Paper Venue:</strong> bioRxiv</p>
+                <p><strong>Paper TL;DR:</strong> The results suggest that while predicting cancer evolution will be challenging, acquiring the multiple alterations required for the growth of oncogene-negative tumors can be facilitated by the lack of constraints on mutational order.</p>
+                <p><strong>Paper Abstract:</strong> Cancer genomes are almost invariably complex with genomic alterations cooperating during each step of carcinogenesis. In cancers that lack a single dominant oncogene mutation, cooperation between the inactivation of multiple tumor suppressor genes can drive tumor initiation and growth. Here, we shed light on how the sequential acquisition of genomic alterations generates oncogene-negative lung tumors. We couple tumor barcoding with combinatorial and multiplexed somatic genome editing to characterize the fitness landscapes of three tumor suppressor genes NF1, RASA1, and PTEN, the inactivation of which jointly drives oncogene-negative lung adenocarcinoma initiation and growth. The fitness landscape was surprisingly accessible, with each additional mutation leading to growth advantage. Furthermore, the fitness landscapes remained fully accessible across backgrounds with additional tumor suppressor mutations. These results suggest that while predicting cancer evolution will be challenging, acquiring the multiple alterations required for the growth of oncogene-negative tumors can be facilitated by the lack of constraints on mutational order.</p>
+                <p><strong>Cost:</strong> 0.024</p>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>Extracted Data (Details)</h2>
+            <div class="extraction-instance-container" id="e2052.0">
+                <h3 class="extraction-instance">Extracted Data Instance 0 (e2052.0)</h3>
+                <div class="extraction-query"><strong>Extraction Query:</strong> Extract any mentions of hidden genomic, structural, regulatory, or assay-missed drivers in oncogene-negative lung adenocarcinoma.</div>
+                <table>
+                    <thead>
+                        <tr>
+                            <th style="width: 30%;">Field</th>
+                            <th style="width: 70%;">Value</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><strong>name_short</strong></td>
+                            <td>Nf1;Rasa1;Pten</td>
+                        </tr>
+                        <tr>
+                            <td><strong>name_full</strong></td>
+                            <td>NF1, RASA1, and PTEN combinatorial inactivation</td>
+                        </tr>
+                        <tr>
+                            <td><strong>brief_description</strong></td>
+                            <td>LKB1 loss is tested as another background alteration with strong phenotype. It greatly decreases tumor initiation but, for the tumors that do arise, markedly increases tumor size, especially for Nf1;Rasa1;Pten triple mutants.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>citation_title</strong></td>
+                            <td>Fully accessible fitness landscape of oncogene-negative lung adenocarcinoma</td>
+                        </tr>
+                        <tr>
+                            <td><strong>mention_or_use</strong></td>
+                            <td>use</td>
+                        </tr>
+                        <tr>
+                            <td><strong>oncogene_negative_definition</strong></td>
+                            <td>Lkb1f/f;TC mice were used as a genetic background for the same Tuba-seq-based CRISPR/Cas9 combinatorial inactivation of Nf1, Rasa1, and Pten.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>assay_strategy_and_detection_limits</strong></td>
+                            <td>Same assay strategy as above. The authors specifically state that the very low number of tumors for less complex genotypes on the Lkb1f/f;TC background prevented construction of a complete fitness landscape there.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>missed_driver_reclassified_after_broader_testing</strong></td>
+                            <td>No hidden driver was reclassified. Lkb1 was analyzed as a background perturbation and found to have a strongly context-dependent effect.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>driver_event_class</strong></td>
+                            <td>Background modifier / tumor suppressor loss</td>
+                        </tr>
+                        <tr>
+                            <td><strong>candidate_driver_gene_or_locus</strong></td>
+                            <td>Lkb1 (Stk11)</td>
+                        </tr>
+                        <tr>
+                            <td><strong>structural_or_regulatory_activation_mechanism</strong></td>
+                            <td>Loss-of-function inactivation of the LKB1 tumor suppressor via CRISPR/Cas9.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>functional_consequence</strong></td>
+                            <td>Decreased tumor initiation by more than 95%, while the few tumors that formed were much larger; Nf1;Rasa1;Pten triple-mutant tumors had greater than 15-fold larger median size than in TC mice.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>co_alteration_or_combinatorial_requirement</strong></td>
+                            <td>Co-occurs with Nf1/Rasa1/Pten loss; the extreme initiation defect prevented full landscape reconstruction for simple genotypes in this background.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>human_prevalence_or_enrichment</strong></td>
+                            <td>The paper does not report a specific frequency for hidden-driver enrichment related to LKB1 in this context, though it notes LKB1 is frequently mutated in human lung cancer and context dependent.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>functional_or_clinical_validation</strong></td>
+                            <td>Validated in vivo by direct imaging, histology, direct tumor counts, and Tuba-seq size and number measurements, showing a sharp dissociation between initiation and growth.</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>Potentially Relevant New Papers (mentioned by this paper)</h2>
+            <ol>
+                <li>Combinatorial inactivation of tumor suppressors efficiently initiates lung adenocarcinoma with therapeutic vulnerabilities <em>(Rating: 2)</em></li>
+                <li>A functional taxonomy of tumor suppression in oncogenic KRAS-driven lung cancer <em>(Rating: 2)</em></li>
+                <li>Genetic determinants of EGFR-driven lung cancer growth and therapeutic response in vivo <em>(Rating: 2)</em></li>
+                <li>Mapping the in vivo fitness landscape of lung adenocarcinoma tumor suppression in mice <em>(Rating: 1)</em></li>
+                <li>Identifying epistasis in cancer genomes: A delicate affair <em>(Rating: 1)</em></li>
+            </ol>
+        </div>
+
+        </div>
+
+    </div>
+</body>
+</html>

@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Extraction extraction-result-2150 - Theorizer</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+    <div class="header">
+        <a href="../index.html"><i class="fas fa-flask"></i> Theorizer</a>
+    </div>
+
+    <div class="content">
+        <h1>Extracted Data Details for extraction-result-2150</h1>
+
+        <div class="section">
+            <h2>Extracted Data (Header)</h2>
+            <div class="info-section">
+                <p><strong>Extraction ID:</strong> extraction-result-2150</p>
+                <p><strong>Extraction Schema Used (ID):</strong> <a href="../schemas/extraction-schema-1843.html">extraction-schema-1843</a></p>
+                <div class="extraction-query"><strong>Extraction Query:</strong> Extract any mentions of hidden genomic, structural, regulatory, or assay-missed drivers in oncogene-negative lung adenocarcinoma.</div>
+                <p><strong>Paper ID:</strong> paper-24271741d5c46e3a2d3719a71e68311e7c122b0a</p>
+                <p><strong>Paper Title:</strong> <a href="https://www.semanticscholar.org/paper/24271741d5c46e3a2d3719a71e68311e7c122b0a" target="_blank">Proteogenomic characterization reveals therapeutic vulnerabilities in lung adenocarcinoma</a></p>
+                <p><strong>Paper Venue:</strong> Cell</p>
+                <p><strong>Paper TL;DR:</strong> Comprehensive proteogenomic characterization of 110 tumors and 101 matched normal adjacent tissues (NATs) incorporating genomics, epigenomics, deep-scale proteomics, phosphoproteomics and acetylproteomics identified therapeutic vulnerabilities associated with driver events involving KRAS, EGFR and ALK.</p>
+                <p><strong>Paper Abstract:</strong> Summary To explore the biology of lung adenocarcinoma (LUAD) and identify new therapeutic opportunities, we performed comprehensive proteogenomic characterization of 110 tumors and 101 matched normal adjacent tissues (NATs) incorporating genomics, epigenomics, deep-scale proteomics, phosphoproteomics and acetylproteomics. Multi-omics clustering revealed four subgroups defined by key driver mutations, country and gender. Proteomic and phosphoproteomic data illuminated biology downstream of copy number aberrations, somatic mutations and fusions, and identified therapeutic vulnerabilities associated with driver events involving KRAS, EGFR and ALK. Immune subtyping revealed a complex landscape, reinforced the association of STK11 with immune-cold behavior and underscored a potential immunosuppressive role of neutrophil degranulation. Smoking-associated LUADs showed correlation with other environmental exposure signatures and a field effect in NATs. Matched NATs allowed identification of differentially expressed proteins with potential diagnostic and therapeutic utility. This proteogenomics dataset represents a unique public resource for researchers and clinicians seeking to better understand and treat lung adenocarcinomas.</p>
+                <p><strong>Cost:</strong> 0.021</p>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>Extracted Data (Details)</h2>
+            <div class="extraction-instance-container" id="e2150.0">
+                <h3 class="extraction-instance">Extracted Data Instance 0 (e2150.0)</h3>
+                <div class="extraction-query"><strong>Extraction Query:</strong> Extract any mentions of hidden genomic, structural, regulatory, or assay-missed drivers in oncogene-negative lung adenocarcinoma.</div>
+                <table>
+                    <thead>
+                        <tr>
+                            <th style="width: 30%;">Field</th>
+                            <th style="width: 70%;">Value</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><strong>name_short</strong></td>
+                            <td>ALK fusions</td>
+                        </tr>
+                        <tr>
+                            <td><strong>name_full</strong></td>
+                            <td>Anaplastic lymphoma kinase gene fusions (including EML4-ALK, HMBOX1-ALK, and ANKRD36B-ALK)</td>
+                        </tr>
+                        <tr>
+                            <td><strong>brief_description</strong></td>
+                            <td>The paper reports recurrent in-frame ALK fusions as canonical drivers in a subset of LUAD, with novel 5' partners HMBOX1 and ANKRD36B in addition to EML4. These fusions were associated with strong ALK mRNA/protein outlier expression and a fusion-specific phosphosite signature, indicating a hidden structural driver that would not be captured by standard mutation-only analyses.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>citation_title</strong></td>
+                            <td>here</td>
+                        </tr>
+                        <tr>
+                            <td><strong>mention_or_use</strong></td>
+                            <td>use</td>
+                        </tr>
+                        <tr>
+                            <td><strong>oncogene_negative_definition</strong></td>
+                            <td>The oncogene-negative context is the subset of LUAD tumors that lacked mutations in the major canonical driver genes and/or were otherwise “devoid of KRAS or STK11 mutations,” with many samples in the terminal respiratory unit cluster carrying EGFR mutations or EML4-ALK fusions but lacking other key driver gene alterations. The study explicitly contrasts tumors with known drivers (KRAS, EGFR, ALK, ROS1, RET) against tumors lacking known or currently targetable mutations.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>assay_strategy_and_detection_limits</strong></td>
+                            <td>Discovery used integrated WES, WGS, RNA-seq, and deep proteomics/phosphoproteomics/acetylproteomics. Fusions were called from RNA-seq using STAR-Fusion, EricScript, and Integrate, then filtered to keep fusions supported by at least 2 callers (or STAR-Fusion), while WGS Manta calls provided genomic breakpoints. A blind spot of mutation-only approaches is that kinase fusions can be missed unless RNA fusion calling and/or WGS structural variant detection are performed; protein/phosphosite data were needed to show the downstream activation state.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>missed_driver_reclassified_after_broader_testing</strong></td>
+                            <td>Yes. Some tumors that would appear driver-negative by DNA SNV/indel-only profiling were reclassified as ALK fusion-driven after RNA fusion calling and WGS structural variant analysis identified in-frame ALK rearrangements with precise breakpoints. The rescue event was a kinase-domain-preserving ALK fusion, including novel partners HMBOX1 and ANKRD36B; it was missed initially because the driver was structural rather than a point mutation and required fusion/structural variant assays.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>driver_event_class</strong></td>
+                            <td>Structural rearrangement / kinase fusion</td>
+                        </tr>
+                        <tr>
+                            <td><strong>candidate_driver_gene_or_locus</strong></td>
+                            <td>ALK fusion locus, including EML4-ALK, HMBOX1-ALK, and ANKRD36B-ALK</td>
+                        </tr>
+                        <tr>
+                            <td><strong>structural_or_regulatory_activation_mechanism</strong></td>
+                            <td>In-frame 5' partner fusion preserves the ALK kinase domain and produces an oncogenic chimeric kinase; the paper emphasizes that these are in-frame fusions, consistent with kinase activation by fusion-mediated mislocalization/oligomerization.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>functional_consequence</strong></td>
+                            <td>Outlier ALK mRNA and protein abundance, marked increase in ALK phosphosite Y1507, phosphorylation of fusion partners (EML4-Y226, HMBOX-S141) only in fusion-positive tumors, and phosphorylation of downstream proteins such as SND1, HDLBP, and ARHGEF5, consistent with activated oncogenic signaling.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>co_alteration_or_combinatorial_requirement</strong></td>
+                            <td>ALK-fusion tumors largely lacked mutations in other key driver genes; the paper notes this as consistent with a primary role for EML4-ALK in tumorigenesis. No cooperating lesion was required in the reported cases.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>human_prevalence_or_enrichment</strong></td>
+                            <td>Multiple ALK fusion cases were present in the cohort (n=7 in the in-frame ALK fusion set; 5 EML4-ALK plus novel partners). Most ALK fusion samples were assigned to multi-omics cluster C4, and all 5 EML4-ALK plus HMBOX1-ALK tumors formed a distinct miRNA cluster. Exact prevalence in the full LUAD cohort was low but recurrent.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>functional_or_clinical_validation</strong></td>
+                            <td>Validated by matched RNA and WGS breakpoint evidence, immunohistochemistry for total ALK and phospho-ALK(Y1507) showing tumor-specific staining in all available ALK fusion-positive cases, and concordant phosphosite and protein outlier behavior. The study also linked ALK-fusion tumors to potential sensitivity to SHP2/PTPN11 inhibition.</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="extraction-instance-container" id="e2150.1">
+                <h3 class="extraction-instance">Extracted Data Instance 1 (e2150.1)</h3>
+                <div class="extraction-query"><strong>Extraction Query:</strong> Extract any mentions of hidden genomic, structural, regulatory, or assay-missed drivers in oncogene-negative lung adenocarcinoma.</div>
+                <table>
+                    <thead>
+                        <tr>
+                            <th style="width: 30%;">Field</th>
+                            <th style="width: 70%;">Value</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><strong>name_short</strong></td>
+                            <td>KEAP1 G511V</td>
+                        </tr>
+                        <tr>
+                            <td><strong>name_full</strong></td>
+                            <td>KEAP1 BTB-domain missense mutation G511V affecting KEAP1-NFE2L2 regulation</td>
+                        </tr>
+                        <tr>
+                            <td><strong>brief_description</strong></td>
+                            <td>The paper identifies a KEAP1 missense mutation (G511V) as a potential hidden regulatory driver: it did not reduce KEAP1 RNA or protein but was associated with high NFE2L2 phosphorylation, suggesting disruption of the KEAP1-NFE2L2 inhibitory interaction rather than simple loss of expression. This is a mechanistic example of an assay-missed driver effect that is visible only after proteomic/phosphoproteomic analysis.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>citation_title</strong></td>
+                            <td>here</td>
+                        </tr>
+                        <tr>
+                            <td><strong>mention_or_use</strong></td>
+                            <td>use</td>
+                        </tr>
+                        <tr>
+                            <td><strong>oncogene_negative_definition</strong></td>
+                            <td>Driver-negative in this context refers to tumors not explained by the common actionable oncogene alterations (EGFR, KRAS, ALK/ROS1/RET fusions) and where the causal effect is not obvious from RNA abundance alone; KEAP1-mutant tumors may otherwise appear noncanonical if only transcript-level measurements are considered.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>assay_strategy_and_detection_limits</strong></td>
+                            <td>Detected by WES-based somatic variant calling plus proteome/phosphoproteome analysis. The key limitation highlighted is that the mutation did not produce a clear RNA-expression change, so transcript-only assays would miss its functional impact; protein and phosphosite data were needed to detect KEAP1 downregulation and NFE2L2 phospho-activation.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>missed_driver_reclassified_after_broader_testing</strong></td>
+                            <td>Yes, functionally. A KEAP1 BTB-domain missense event (G511V) would not have been recognized as a strong driver from RNA data because KEAP1 RNA was unchanged, but proteomics revealed a likely pathogenic mechanism through increased NFE2L2 phosphorylation. The broader testing reclassified it as a likely functional driver of NRF2 pathway activation.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>driver_event_class</strong></td>
+                            <td>Coding missense mutation with regulatory/structural functional impact</td>
+                        </tr>
+                        <tr>
+                            <td><strong>candidate_driver_gene_or_locus</strong></td>
+                            <td>KEAP1 G511V in the BTB domain; downstream NFE2L2 phosphorylation at S215 and S433</td>
+                        </tr>
+                        <tr>
+                            <td><strong>structural_or_regulatory_activation_mechanism</strong></td>
+                            <td>Mutation lies close to the KEAP1/NFE2L2 binding interface on the KEAP1 crystal structure and is hypothesized to disrupt the inhibitory KEAP1-NFE2L2 interaction rather than reduce protein stability.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>functional_consequence</strong></td>
+                            <td>Downregulation of KEAP1 protein, increased phosphorylation of NFE2L2, and upregulation of NFE2L2/antioxidant response proteins and phosphosites, consistent with activation of the NRF2 oncogenic program.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>co_alteration_or_combinatorial_requirement</strong></td>
+                            <td>No explicit cooperating alteration was required in the text; the functional model centers on a single KEAP1 lesion altering the KEAP1-NFE2L2 complex. The broader NRF2 signature was enriched in KEAP1-mutant samples.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>human_prevalence_or_enrichment</strong></td>
+                            <td>Twelve LUAD tumors harbored KEAP1 mutations in the cohort. The G511V variant is singled out as one of these and had among the highest NFE2L2 phosphorylation levels.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>functional_or_clinical_validation</strong></td>
+                            <td>Supported by matched RNA/protein/phosphoprotein measurements, structural mapping onto the KEAP1/NFE2L2 binding region, and enrichment of NRF2/oxidative-stress-response proteins in KEAP1-mutant tumors. The paper explicitly hypothesizes the disruption mechanism but does not present an orthogonal functional assay for G511V.</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="extraction-instance-container" id="e2150.2">
+                <h3 class="extraction-instance">Extracted Data Instance 2 (e2150.2)</h3>
+                <div class="extraction-query"><strong>Extraction Query:</strong> Extract any mentions of hidden genomic, structural, regulatory, or assay-missed drivers in oncogene-negative lung adenocarcinoma.</div>
+                <table>
+                    <thead>
+                        <tr>
+                            <th style="width: 30%;">Field</th>
+                            <th style="width: 70%;">Value</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><strong>name_short</strong></td>
+                            <td>Methylation cis-effects</td>
+                        </tr>
+                        <tr>
+                            <td><strong>name_full</strong></td>
+                            <td>DNA methylation-driven cis-regulatory events affecting tumor genes such as CLDN18, ANK1, and PTPRCAP</td>
+                        </tr>
+                        <tr>
+                            <td><strong>brief_description</strong></td>
+                            <td>The study reports 120 methylation-driven cis-effects, many novel, where promoter/5'UTR methylation was coordinated with altered RNA, protein, and phosphoprotein abundance. These include CLDN18, ANK1, PTPRCAP, BCLAF1, GSTP1, MGA, and TBX3, representing hidden regulatory drivers missed by DNA mutation assays.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>citation_title</strong></td>
+                            <td>here</td>
+                        </tr>
+                        <tr>
+                            <td><strong>mention_or_use</strong></td>
+                            <td>use</td>
+                        </tr>
+                        <tr>
+                            <td><strong>oncogene_negative_definition</strong></td>
+                            <td>These are regulatory alterations identified in LUAD tumors, including cases where no canonical driver mutation explains the expression change. The methylation-associated events were defined across tumors versus paired NATs and are especially relevant to tumors that would otherwise be considered driver-negative at the sequence level.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>assay_strategy_and_detection_limits</strong></td>
+                            <td>Detected by EPIC methylation arrays integrated with RNA-seq, proteomics, and phosphoproteomics via iProFun and other correlation analyses. The limitation is that methylation effects are invisible to mutation-only pipelines and can also be missed if only RNA is measured without promoter methylation data.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>missed_driver_reclassified_after_broader_testing</strong></td>
+                            <td>Yes. Genes such as CLDN18, ANK1, and PTPRCAP showed methylation-driven cis-regulation only when methylation was integrated with RNA/protein/phosphoprotein data. These would not be flagged as drivers by standard driver-mutation calling because the causal alteration is epigenetic rather than coding.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>driver_event_class</strong></td>
+                            <td>Epigenetic / regulatory alteration</td>
+                        </tr>
+                        <tr>
+                            <td><strong>candidate_driver_gene_or_locus</strong></td>
+                            <td>CLDN18, ANK1, PTPRCAP, BCLAF1, GSTP1, MGA, TBX3; promoter and 5'UTR CpG islands</td>
+                        </tr>
+                        <tr>
+                            <td><strong>structural_or_regulatory_activation_mechanism</strong></td>
+                            <td>Promoter CpG hypermethylation or related methylation changes alter cis expression of the cognate gene, producing coordinated RNA, protein, and sometimes phosphoprotein changes.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>functional_consequence</strong></td>
+                            <td>Altered gene expression linked to lung cancer biology; examples include CLDN18 loss affecting lung epithelial progenitor biology and adenocarcinoma development, ANK1 methylation with co-located miR-486 host-gene effects, and coordinated expression of PTPRCAP complex members.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>co_alteration_or_combinatorial_requirement</strong></td>
+                            <td>No specific multi-hit requirement was reported, though the paper notes coordinated expression of complex members such as PTPRC, CD4, and LCK with PTPRCAP and indicates potential cascading effects.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>human_prevalence_or_enrichment</strong></td>
+                            <td>The paper reports 120 methylation-driven cis-effects total; 85/120 were directly supported by promoter probe data. ANK1 promoter methylation was noted as occurring in more than half of lung adenocarcinomas, especially in smokers.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>functional_or_clinical_validation</strong></td>
+                            <td>Support comes from multi-omic concordance (methylation, RNA, protein, phosphoprotein), prior literature on gene function in LUAD, and coordinated protein-level expression of related complex members. The paper does not provide new wet-lab functional validation for the methylation events.</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="extraction-instance-container" id="e2150.3">
+                <h3 class="extraction-instance">Extracted Data Instance 3 (e2150.3)</h3>
+                <div class="extraction-query"><strong>Extraction Query:</strong> Extract any mentions of hidden genomic, structural, regulatory, or assay-missed drivers in oncogene-negative lung adenocarcinoma.</div>
+                <table>
+                    <thead>
+                        <tr>
+                            <th style="width: 30%;">Field</th>
+                            <th style="width: 70%;">Value</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><strong>name_short</strong></td>
+                            <td>CNA trans-effects</td>
+                        </tr>
+                        <tr>
+                            <td><strong>name_full</strong></td>
+                            <td>Copy-number alteration-driven trans-regulatory programs including RALA, BZW2, and CTSB</td>
+                        </tr>
+                        <tr>
+                            <td><strong>brief_description</strong></td>
+                            <td>The paper uses protein-level trans-effects and Connectivity Map matching to infer likely functional consequences of focal copy-number events, nominating genes such as RALA, BZW2, and CTSB as potential drivers or mediators of downstream biology. These are hidden driver-like effects because the altered locus exerts its influence through broad transcription/protein network changes rather than a simple local expression change.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>citation_title</strong></td>
+                            <td>here</td>
+                        </tr>
+                        <tr>
+                            <td><strong>mention_or_use</strong></td>
+                            <td>use</td>
+                        </tr>
+                        <tr>
+                            <td><strong>oncogene_negative_definition</strong></td>
+                            <td>The relevant negative cohort comprises tumors lacking known targetable alterations, where a copy-number event may be the only obvious lesion but its effect is not evident at the transcript level alone. The paper also states that many significant phosphokinase outliers lacked any associated aberration in CNA, RNA, or protein expression, underscoring assay blind spots.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>assay_strategy_and_detection_limits</strong></td>
+                            <td>Integrated WGS/WES-derived CNA calling, RNA-seq, proteomics, phosphoproteomics, and CMAP-based perturbational matching. Blind spots include dampened CNA-protein correlation and the fact that many functional consequences emerge only in trans and only at the protein/phosphoprotein level, not in RNA alone.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>missed_driver_reclassified_after_broader_testing</strong></td>
+                            <td>Partially. The paper does not describe a single rescued patient as explicitly reclassified, but it does identify candidate driver genes from CNA loci whose impact emerged only after proteome-level trans-effect analysis and CMAP comparison. This broader testing elevated loci such as RALA, BZW2, and CTSB from copy-number findings to mechanistic hypotheses.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>driver_event_class</strong></td>
+                            <td>Copy-number amplification or deletion with downstream trans effects</td>
+                        </tr>
+                        <tr>
+                            <td><strong>candidate_driver_gene_or_locus</strong></td>
+                            <td>RALA amplification, BZW2-associated CNA event, CTSB-associated CNA event</td>
+                        </tr>
+                        <tr>
+                            <td><strong>structural_or_regulatory_activation_mechanism</strong></td>
+                            <td>Dosage alteration at the altered locus changes the abundance or activity of the encoded factor and triggers a downstream trans-proteomic program.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>functional_consequence</strong></td>
+                            <td>Predicted effects include oncogenic signaling for RALA, AKT/mTOR/PI3K-related growth signaling for BZW2, and metastasis/prognostic effects for CTSB.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>co_alteration_or_combinatorial_requirement</strong></td>
+                            <td>The paper specifically notes that RALA may affect EGFR-mutant biology and that BZW2 interacts with EGFR, implying context dependence rather than a strict co-hit requirement.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>human_prevalence_or_enrichment</strong></td>
+                            <td>Twelve CNA events showed significant trans-effects paralleling gene perturbation profiles (FDR < 0.1). The paper does not provide a single prevalence for each candidate gene in the summary text.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>functional_or_clinical_validation</strong></td>
+                            <td>Validation is primarily computational: CMAP similarity, known biology from prior studies, and protein-level trans-effect concordance. No new orthogonal functional assay is reported here.</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>Potentially Relevant New Papers (mentioned by this paper)</h2>
+            <ol>
+                <li>Proteogenomics connects somatic mutations to signalling in breast cancer <em>(Rating: 2)</em></li>
+                <li>Integrated Proteogenomic Characterization of Human High-Grade Serous Ovarian Cancer <em>(Rating: 2)</em></li>
+                <li>Proteogenomic Characterization of Endometrial Carcinoma <em>(Rating: 2)</em></li>
+                <li>Cancer neoantigen prioritization through sensitive and reliable proteogenomics analysis <em>(Rating: 1)</em></li>
+                <li>Driver Fusions and Their Implications in the Development and Treatment of Human Cancers <em>(Rating: 1)</em></li>
+            </ol>
+        </div>
+
+        </div>
+
+    </div>
+</body>
+</html>

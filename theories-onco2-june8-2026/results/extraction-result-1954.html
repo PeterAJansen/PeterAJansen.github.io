@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Extraction extraction-result-1954 - Theorizer</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+    <div class="header">
+        <a href="../index.html"><i class="fas fa-flask"></i> Theorizer</a>
+    </div>
+
+    <div class="content">
+        <h1>Extracted Data Details for extraction-result-1954</h1>
+
+        <div class="section">
+            <h2>Extracted Data (Header)</h2>
+            <div class="info-section">
+                <p><strong>Extraction ID:</strong> extraction-result-1954</p>
+                <p><strong>Extraction Schema Used (ID):</strong> <a href="../schemas/extraction-schema-1842.html">extraction-schema-1842</a></p>
+                <div class="extraction-query"><strong>Extraction Query:</strong> Extract any mentions of hidden drivers, pathway states, subtype structure, validation evidence, and therapeutic implications in oncogene-negative or driver-negative lung adenocarcinoma.</div>
+                <p><strong>Paper ID:</strong> paper-7f77a51c76a3c2541b25f5248d4411fca5adddd2</p>
+                <p><strong>Paper Title:</strong> <a href="https://www.semanticscholar.org/paper/7f77a51c76a3c2541b25f5248d4411fca5adddd2" target="_blank">Proteogenomic Analysis of Surgically Resected Lung Adenocarcinoma</a></p>
+                <p><strong>Paper Venue:</strong> Journal of Thoracic Oncology</p>
+                <p><strong>Paper TL;DR:</strong> A rationale and framework for the incorporation of high‐content RNA and protein measurements into integrative biomarkers are presented and the potential of this approach for predicting risk of recurrence in a group of lung adenocarcinomas is shown.</p>
+                <p><strong>Paper Abstract:</strong> Introduction: Despite apparently complete surgical resection, approximately half of resected early‐stage lung cancer patients relapse and die of their disease. Adjuvant chemotherapy reduces this risk by only 5% to 8%. Thus, there is a need for better identifying who benefits from adjuvant therapy, the drivers of relapse, and novel targets in this setting. Methods: RNA sequencing and liquid chromatography/liquid chromatography–mass spectrometry proteomics data were generated from 51 surgically resected non–small cell lung tumors with known recurrence status. Results: We present a rationale and framework for the incorporation of high‐content RNA and protein measurements into integrative biomarkers and show the potential of this approach for predicting risk of recurrence in a group of lung adenocarcinomas. In addition, we characterize the relationship between mRNA and protein measurements in lung adenocarcinoma and show that it is outcome specific. Conclusions: Our results suggest that mRNA and protein data possess independent biological and clinical importance, which can be leveraged to create higher‐powered expression biomarkers.</p>
+                <p><strong>Cost:</strong> 0.023</p>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>Extracted Data (Details)</h2>
+            <div class="extraction-instance-container" id="e1954.0">
+                <h3 class="extraction-instance">Extracted Data Instance 0 (e1954.0)</h3>
+                <div class="extraction-query"><strong>Extraction Query:</strong> Extract any mentions of hidden drivers, pathway states, subtype structure, validation evidence, and therapeutic implications in oncogene-negative or driver-negative lung adenocarcinoma.</div>
+                <table>
+                    <thead>
+                        <tr>
+                            <th style="width: 30%;">Field</th>
+                            <th style="width: 70%;">Value</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><strong>name_short</strong></td>
+                            <td>LUAD</td>
+                        </tr>
+                        <tr>
+                            <td><strong>name_full</strong></td>
+                            <td>Lung adenocarcinoma</td>
+                        </tr>
+                        <tr>
+                            <td><strong>brief_description</strong></td>
+                            <td>The paper studies surgically resected lung adenocarcinoma with matched RNA-seq and proteomics to identify recurrence-associated biology. It emphasizes that mRNA-protein correlation differs by recurrence status and that integrated RNA-protein modeling can improve prognostic prediction.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>citation_title</strong></td>
+                            <td>Proteogenomic Analysis of Surgically Resected Lung Adenocarcinoma</td>
+                        </tr>
+                        <tr>
+                            <td><strong>mention_or_use</strong></td>
+                            <td>use</td>
+                        </tr>
+                        <tr>
+                            <td><strong>driver_negative_definition</strong></td>
+                            <td>This paper does not define oncogene-negative or driver-negative lung adenocarcinoma using canonical LUAD driver criteria. It explicitly states as a limitation that the patients do not have matched DNA sequencing data, so 'a comprehensive catalogue of driver mutations is lacking'; thus, driver-negative status is not established by assays in this study. The available assays are RNA sequencing from fresh frozen tissue and LC-MS/LC-MS/MS proteomics from FFPE tumor tissue, with recurrence status as the main clinical grouping.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>candidate_driver_pathway_or_mechanism</strong></td>
+                            <td>The main mechanistic theme is not a hidden oncogenic driver but rather recurrence-associated dysregulation captured by altered RNA-protein coupling and differential expression. The authors propose that poor or altered mRNA-protein correlation may reflect post-transcriptional and post-translational regulation (for example splicing, microRNA, RNA localization, phosphorylation, ubiquitination, and altered degradation) and can serve as a state marker of tumor biology.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>alteration_or_activation_mode</strong></td>
+                            <td>Altered pathway or state is inferred from differential RNA-protein correlation and differential abundance rather than from a specific recurrent mutation or fusion. The operational mode is mostly expression-level dysregulation, including weak differential RNA expression without protein change for some genes and cohort-specific changes in correlation structure.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>implicated_gene_axis_or_pathway</strong></td>
+                            <td>No canonical hidden-driver axis is established. The paper highlights mRNA splicing as a pathway whose correlation behavior differs from other cancers and discusses TIMM50, SUMO1, PCBD1, PSMC5, ARCN1, PPA2, and SRI as recurrence-associated integrative biomarker genes, but these are not validated as oncogenic drivers. The only explicit pathway-level example tied to a gene is TIMM50 in the mitochondrial apoptosis pathway.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>pathway_activation_evidence</strong></td>
+                            <td>Evidence is indirect and statistical rather than biochemical: genome-wide RNA-protein Spearman correlations differed significantly between recurrent and nonrecurrent tumors (Wilcoxon p < 10^-16), and pathway enrichments were examined among low- and high-correlated genes. The paper reports that mRNA splicing is enriched for high mRNA-protein correlation in lung adenocarcinoma, but it does not present pERK/pAKT/pS6, kinase activity, IHC, phosphoproteomics, or other direct pathway activation readouts.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>driver_negative_subtype</strong></td>
+                            <td>An implicit subtype is recurrence-associated versus nonrecurrent lung adenocarcinoma, defined by clinical outcome rather than genomics. The study further stratifies tumors by RNA-protein correlation state and by integrative biomarker signatures, but it does not propose a named molecular subtype of driver-negative LUAD.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>clinical_or_exposure_context</strong></td>
+                            <td>The cohorts are surgically resected early-stage lung adenocarcinomas, with half selected for rapid recurrence and half for long-term survival. Clinical context includes adjuvant chemotherapy status, stage distribution, sex imbalance between recurrent and nonrecurrent groups, and recurrence outcome; the authors note that some misclassifications in the integrative model involved patients who received chemotherapy.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>cross_cancer_parallel</strong></td>
+                            <td>The paper explicitly compares RNA-protein correlation patterns with colorectal, breast, ovarian, and other cancers, noting that mRNA splicing is enriched for poor RNA-protein correlation in colorectal, breast, and ovarian cancers but for high correlation in lung adenocarcinoma. It also cites a prior lung cancer proteogenomic study and a general statement that RNA-protein correlation can be phenotype-dependent across diseases and species.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>therapeutic_vulnerability_or_implication</strong></td>
+                            <td>The therapeutic implication is prognostic and stratification-oriented rather than a direct targeted therapy recommendation. The authors suggest that combined RNA-protein biomarkers could help identify who benefits from adjuvant therapy and potentially spare toxicity, but they also state that the 71% accuracy is not yet clinically useful. No specific drug vulnerability is validated, although gene annotations mention processes related to chemotherapy resistance, apoptosis, radiosensitivity, proteasome function, and multidrug resistance.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>validation_evidence_and_model_system</strong></td>
+                            <td>Validation is limited to the study cohort and internal leave-one-out cross-validation. The integrative biomarker reached 71% overall accuracy in recurrence prediction (36/51) and outperformed RNA-only or protein-only approaches, but there is no independent validation cohort, no cell-line or animal validation, and the authors explicitly call for independent validation to avoid overfitting.</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="extraction-instance-container" id="e1954.1">
+                <h3 class="extraction-instance">Extracted Data Instance 1 (e1954.1)</h3>
+                <div class="extraction-query"><strong>Extraction Query:</strong> Extract any mentions of hidden drivers, pathway states, subtype structure, validation evidence, and therapeutic implications in oncogene-negative or driver-negative lung adenocarcinoma.</div>
+                <table>
+                    <thead>
+                        <tr>
+                            <th style="width: 30%;">Field</th>
+                            <th style="width: 70%;">Value</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><strong>name_short</strong></td>
+                            <td>SUMO1</td>
+                        </tr>
+                        <tr>
+                            <td><strong>name_full</strong></td>
+                            <td>Small ubiquitin-like modifier 1</td>
+                        </tr>
+                        <tr>
+                            <td><strong>brief_description</strong></td>
+                            <td>SUMO1 is one of the genes that appeared in a majority of the integrative recurrence-prediction signatures. The authors interpret it as biologically plausible because sumoylation regulates many cellular responses, including DNA damage repair.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>citation_title</strong></td>
+                            <td>here</td>
+                        </tr>
+                        <tr>
+                            <td><strong>mention_or_use</strong></td>
+                            <td>use</td>
+                        </tr>
+                        <tr>
+                            <td><strong>driver_negative_definition</strong></td>
+                            <td>Not a driver-negative definition; included as part of an integrative biomarker signature for recurrence prediction.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>candidate_driver_pathway_or_mechanism</strong></td>
+                            <td>Post-translational regulation via sumoylation, with relevance to DNA damage response.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>alteration_or_activation_mode</strong></td>
+                            <td>Integrative biomarker feature; no specific mutation or copy-number alteration is shown in the paper.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>implicated_gene_axis_or_pathway</strong></td>
+                            <td>SUMOylation / DNA damage response.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>pathway_activation_evidence</strong></td>
+                            <td>No direct activation assay in this paper; biological relevance is inferred from known function in the literature.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>driver_negative_subtype</strong></td>
+                            <td>Recurrence-associated biomarker signature, not a subtype.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>clinical_or_exposure_context</strong></td>
+                            <td>Surgically resected LUAD recurrence prediction.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>cross_cancer_parallel</strong></td>
+                            <td>General cancer relevance of SUMOylation is noted through cited literature.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>therapeutic_vulnerability_or_implication</strong></td>
+                            <td>No direct therapy tested; could suggest DNA damage response or sumoylation biology as a vulnerability, but this is speculative in the paper.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>validation_evidence_and_model_system</strong></td>
+                            <td>Selected by internal cross-validation feature selection; no independent experimental validation.</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="extraction-instance-container" id="e1954.2">
+                <h3 class="extraction-instance">Extracted Data Instance 2 (e1954.2)</h3>
+                <div class="extraction-query"><strong>Extraction Query:</strong> Extract any mentions of hidden drivers, pathway states, subtype structure, validation evidence, and therapeutic implications in oncogene-negative or driver-negative lung adenocarcinoma.</div>
+                <table>
+                    <thead>
+                        <tr>
+                            <th style="width: 30%;">Field</th>
+                            <th style="width: 70%;">Value</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><strong>name_short</strong></td>
+                            <td>PSMC5</td>
+                        </tr>
+                        <tr>
+                            <td><strong>name_full</strong></td>
+                            <td>Proteasome 26S subunit ATPase 5</td>
+                        </tr>
+                        <tr>
+                            <td><strong>brief_description</strong></td>
+                            <td>PSMC5 is another gene recurrently selected in integrative recurrence signatures. The paper notes proteasomal functions and cites prior work linking PSMC5 to radiosensitivity in a lung cancer cell line and modulation of TGF-beta signaling.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>citation_title</strong></td>
+                            <td>here</td>
+                        </tr>
+                        <tr>
+                            <td><strong>mention_or_use</strong></td>
+                            <td>use</td>
+                        </tr>
+                        <tr>
+                            <td><strong>driver_negative_definition</strong></td>
+                            <td>Not applicable; used as a biomarker candidate in the recurrence model.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>candidate_driver_pathway_or_mechanism</strong></td>
+                            <td>Proteasome function and possible effects on TGF-beta transcriptional programming.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>alteration_or_activation_mode</strong></td>
+                            <td>Expression-linked biomarker feature rather than a defined genomic alteration.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>implicated_gene_axis_or_pathway</strong></td>
+                            <td>Proteasome / TGF-beta-related transcriptional program.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>pathway_activation_evidence</strong></td>
+                            <td>No direct proteasome or TGF-beta pathway activation evidence in this paper; relevance is based on prior studies cited by the authors.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>driver_negative_subtype</strong></td>
+                            <td>Recurrence-associated integrative signature component.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>clinical_or_exposure_context</strong></td>
+                            <td>Early-stage resected LUAD recurrence prediction.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>cross_cancer_parallel</strong></td>
+                            <td>Prior lung cancer cell line radiosensitivity work is cited.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>therapeutic_vulnerability_or_implication</strong></td>
+                            <td>Suggests possible relevance to radiosensitivity and proteasome biology, but no treatment inference is validated here.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>validation_evidence_and_model_system</strong></td>
+                            <td>Internal feature selection only; no direct functional validation in this study.</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="extraction-instance-container" id="e1954.3">
+                <h3 class="extraction-instance">Extracted Data Instance 3 (e1954.3)</h3>
+                <div class="extraction-query"><strong>Extraction Query:</strong> Extract any mentions of hidden drivers, pathway states, subtype structure, validation evidence, and therapeutic implications in oncogene-negative or driver-negative lung adenocarcinoma.</div>
+                <table>
+                    <thead>
+                        <tr>
+                            <th style="width: 30%;">Field</th>
+                            <th style="width: 70%;">Value</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><strong>name_short</strong></td>
+                            <td>SRI</td>
+                        </tr>
+                        <tr>
+                            <td><strong>name_full</strong></td>
+                            <td>Sorcin</td>
+                        </tr>
+                        <tr>
+                            <td><strong>brief_description</strong></td>
+                            <td>SRI is included among the integrative biomarker genes used in many recurrence-prediction signatures. The authors note that it has been implicated in multidrug resistance and protection against mitochondrial apoptosis.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>citation_title</strong></td>
+                            <td>here</td>
+                        </tr>
+                        <tr>
+                            <td><strong>mention_or_use</strong></td>
+                            <td>use</td>
+                        </tr>
+                        <tr>
+                            <td><strong>driver_negative_definition</strong></td>
+                            <td>Not applicable; biomarker candidate only.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>candidate_driver_pathway_or_mechanism</strong></td>
+                            <td>Drug resistance and mitochondrial apoptosis protection.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>alteration_or_activation_mode</strong></td>
+                            <td>Signature-level expression association rather than a specific alteration class.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>implicated_gene_axis_or_pathway</strong></td>
+                            <td>Multidrug resistance / mitochondrial apoptosis.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>pathway_activation_evidence</strong></td>
+                            <td>No direct pathway assay in this paper; only literature-based annotation is provided.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>driver_negative_subtype</strong></td>
+                            <td>Recurrence signature component.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>clinical_or_exposure_context</strong></td>
+                            <td>Surgically resected LUAD with recurrence outcome.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>cross_cancer_parallel</strong></td>
+                            <td>Prior colorectal and lung cancer literature on drug resistance is cited.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>therapeutic_vulnerability_or_implication</strong></td>
+                            <td>Could relate to chemoresistance biology, but the paper does not validate a therapeutic strategy.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>validation_evidence_and_model_system</strong></td>
+                            <td>Selected by the model in internal cross-validation; no independent validation.</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>Potentially Relevant New Papers (mentioned by this paper)</h2>
+            <ol>
+                <li>Proteogenomic characterization of human colon and rectal cancer <em>(Rating: 2)</em></li>
+                <li>Proteogenomics connects somatic mutations to signalling in breast cancer <em>(Rating: 2)</em></li>
+                <li>Integrated proteogenomic characterization of human high-grade serous ovarian cancer <em>(Rating: 2)</em></li>
+                <li>Comprehensive molecular profiling of lung adenocarcinoma <em>(Rating: 2)</em></li>
+                <li>A pilot proteogenomic study with data integration identifies MCT1 and GLUT1 as prognostic markers in lung adenocarcinoma <em>(Rating: 1)</em></li>
+                <li>Integrated omic analysis of lung cancer reveals metabolism proteome signatures with prognostic impact <em>(Rating: 1)</em></li>
+            </ol>
+        </div>
+
+        </div>
+
+    </div>
+</body>
+</html>

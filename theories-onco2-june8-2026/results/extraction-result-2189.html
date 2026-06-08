@@ -1,0 +1,682 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Extraction extraction-result-2189 - Theorizer</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+    <div class="header">
+        <a href="../index.html"><i class="fas fa-flask"></i> Theorizer</a>
+    </div>
+
+    <div class="content">
+        <h1>Extracted Data Details for extraction-result-2189</h1>
+
+        <div class="section">
+            <h2>Extracted Data (Header)</h2>
+            <div class="info-section">
+                <p><strong>Extraction ID:</strong> extraction-result-2189</p>
+                <p><strong>Extraction Schema Used (ID):</strong> <a href="../schemas/extraction-schema-1844.html">extraction-schema-1844</a></p>
+                <div class="extraction-query"><strong>Extraction Query:</strong> Extract any mentions of hidden genomic, structural, regulatory, or assay-missed drivers in oncogene-negative lung adenocarcinoma.</div>
+                <p><strong>Paper ID:</strong> paper-795e6a16077e23dab48be945dcd0a59b697bb23e</p>
+                <p><strong>Paper Title:</strong> <a href="https://www.semanticscholar.org/paper/795e6a16077e23dab48be945dcd0a59b697bb23e" target="_blank">Mechanism of ERBB2 gene overexpression by the formation of super-enhancer with genomic structural abnormalities in lung adenocarcinoma without clinically actionable genetic alterations</a></p>
+                <p><strong>Paper Venue:</strong> Molecular Cancer</p>
+                <p><strong>Paper TL;DR:</strong> It is suggested that aberrant gene expression linked to structural polymorphisms can significantly impact personalized cancer treatment by facilitating the identification of driver mutations and prognostic factors, contributing to a more comprehensive understanding of LUAD pathogenesis.</p>
+                <p><strong>Paper Abstract:</strong> In an extensive genomic analysis of lung adenocarcinomas (LUADs), driver mutations have been recognized as potential targets for molecular therapy. However, there remain cases where target genes are not identified. Super-enhancers and structural variants are frequently identified in several hundred loci per case. Despite this, most cancer research has approached the analysis of these data sets separately, without merging and comparing the data, and there are no examples of integrated analysis in LUAD. We performed an integrated analysis of super-enhancers and structural variants in a cohort of 174 LUAD cases that lacked clinically actionable genetic alterations. To achieve this, we conducted both WGS and H3K27Ac ChIP-seq analyses using samples with driver gene mutations and those without, allowing for a comprehensive investigation of the potential roles of super-enhancer in LUAD cases. We demonstrate that most genes situated in these overlapped regions were associated with known and previously unknown driver genes and aberrant expression resulting from the formation of super-enhancers accompanied by genomic structural abnormalities. Hi-C and long-read sequencing data further corroborated this insight. When we employed CRISPR-Cas9 to induce structural abnormalities that mimicked cases with outlier ERBB2 gene expression, we observed an elevation in ERBB2 expression. These abnormalities are associated with a higher risk of recurrence after surgery, irrespective of the presence or absence of driver mutations. Our findings suggest that aberrant gene expression linked to structural polymorphisms can significantly impact personalized cancer treatment by facilitating the identification of driver mutations and prognostic factors, contributing to a more comprehensive understanding of LUAD pathogenesis.</p>
+                <p><strong>Cost:</strong> 0.022</p>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>Extracted Data (Details)</h2>
+            <div class="extraction-instance-container" id="e2189.0">
+                <h3 class="extraction-instance">Extracted Data Instance 0 (e2189.0)</h3>
+                <div class="extraction-query"><strong>Extraction Query:</strong> Extract any mentions of hidden genomic, structural, regulatory, or assay-missed drivers in oncogene-negative lung adenocarcinoma.</div>
+                <table>
+                    <thead>
+                        <tr>
+                            <th style="width: 30%;">Field</th>
+                            <th style="width: 70%;">Value</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><strong>name_short</strong></td>
+                            <td>ERBB2</td>
+                        </tr>
+                        <tr>
+                            <td><strong>name_full</strong></td>
+                            <td>Erb-B2 receptor tyrosine kinase 2 (HER2)</td>
+                        </tr>
+                        <tr>
+                            <td><strong>brief_description</strong></td>
+                            <td>The paper identifies ERBB2 as a hidden driver in some oncogene-negative LUAD cases through overexpression driven by super-enhancer formation coupled to structural abnormalities. In the implicated cases, the ERBB2 locus shows altered 3D genomic organization and elevated transcript/protein output without extensive copy-number amplification.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>citation_title</strong></td>
+                            <td>Mechanism of ERBB2 gene overexpression by the formation of super-enhancer with genomic structural abnormalities in lung adenocarcinoma without clinically actionable genetic alterations</td>
+                        </tr>
+                        <tr>
+                            <td><strong>mention_or_use</strong></td>
+                            <td>use</td>
+                        </tr>
+                        <tr>
+                            <td><strong>oncogene_negative_definition</strong></td>
+                            <td>Non-CAGAs LUAD were defined as tumors lacking clinically actionable genetic alterations after WES and RNA-seq screening for pathogenic/oncogenic alterations in EGFR, KRAS, BRAF, ERBB2, and MET exon skipping, plus fusion genes ALK, ROS1, NRG1, RET, NTRK, and FGFR; 174 non-CAGA cases were then taken to WGS and H3K27Ac ChIP-seq.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>assay_strategy_and_detection_limits</strong></td>
+                            <td>Discovery pipeline: WES and poly(A) RNA-seq to exclude canonical actionable alterations; then WGS with Manta/SURVIVOR for structural variants, H3K27Ac ChIP-seq with ROSE for super-enhancers, overlap analysis of SEs and SV breakpoints, SE-to-gene peak-expression links, Hi-C, long-read PacBio sequencing, and CRISPR-Cas9 modeling. Limitations/blind spots stated or implied: WGS alone makes SE-related SV events hard to determine; many SE/SV loci are frequent but only a small subset overlap; structural variants alone did not distinguish non-CAGA from CAGA; and gene expression changes may also reflect CNAs, epigenetics, or TF binding, so some driver-like events may remain unresolved.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>missed_driver_reclassified_after_broader_testing</strong></td>
+                            <td>Yes. A subset of initially driver-negative LUADs was reclassified as having ERBB2-driven disease after broader integrated testing revealed ERBB2 super-enhancer formation with structural rearrangement, validated by Hi-C and long-read sequencing, and further supported by CRISPR-Cas9 inversion experiments that increased HER2 expression.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>driver_event_class</strong></td>
+                            <td>super-enhancer formation with structural rearrangement / enhancer hijacking-like regulatory activation</td>
+                        </tr>
+                        <tr>
+                            <td><strong>candidate_driver_gene_or_locus</strong></td>
+                            <td>ERBB2 locus, with the HNF1β-ERBB2 rearranged region on chromosome 17; the structural event brought the ERBB2 genomic region near the HNF1β gene locus.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>structural_or_regulatory_activation_mechanism</strong></td>
+                            <td>A genomic inversion/rearrangement repositioned the ERBB2 region close to HNF1β and coincided with formation of an ERBB2-associated super-enhancer; this chromosomal topology change appears to rewire chromatin contacts and regulatory input toward ERBB2.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>functional_consequence</strong></td>
+                            <td>Marked ERBB2/HER2 overexpression at transcript and protein levels, with associated outlier expression behavior; in engineered cells, concurrent double-strand breaks at both loci increased HER2 expression.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>co_alteration_or_combinatorial_requirement</strong></td>
+                            <td>The paper reports that HER2 upregulation required simultaneous CRISPR-induced breaks at both the ERBB2 and HNF1β loci; a break at only one site did not significantly change HER2 expression. In patient samples, the overexpression occurred without extensive copy-number amplification, though moderate CN gain could be present.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>human_prevalence_or_enrichment</strong></td>
+                            <td>ERBB2-associated super-enhancer/structural-variant cases comprised 1.15% of non-CAGA LUAD patients. More broadly, SE-SV overlap occurred in about 40.8% of non-CAGA LUAD patients, and overlapping loci were more frequent per patient in non-CAGA than CAGA LUAD.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>functional_or_clinical_validation</strong></td>
+                            <td>Validated by H3K27Ac ChIP-seq, Hi-C, long-read sequencing, and CRISPR-Cas9 inversion experiments in HBEC3-KT and HSAEC1-KT cells showing increased HER2 expression. PDX samples showed HER2 overexpression, and drug testing indicated promising effects of poziotinib and trastuzumab deruxtecan (T-DXd), but not afatinib.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>initial_negative_call_basis</strong></td>
+                            <td>Structured negative-call basis: [WES for somatic mutations in EGFR, KRAS, BRAF, ERBB2, MET skipping; RNA-seq for fusion genes ALK, ROS1, NRG1, RET, NTRK, FGFR; pathogenic/oncogenic annotation in ClinVar/OncoKB; cases lacking these alterations were classified as non-CAGA].</td>
+                        </tr>
+                        <tr>
+                            <td><strong>negative_call_failure_mode</strong></td>
+                            <td>structural_complexity</td>
+                        </tr>
+                        <tr>
+                            <td><strong>rescue_modality</strong></td>
+                            <td>integrated_multiomic</td>
+                        </tr>
+                        <tr>
+                            <td><strong>final_explanatory_status</strong></td>
+                            <td>rescued_regulatory_driver</td>
+                        </tr>
+                        <tr>
+                            <td><strong>post_workup_unexplained_fraction</strong></td>
+                            <td>Most non-CAGA cases remained without a single identified canonical driver; among 174 non-CAGA LUAD, only a subset showed specific SE-SV linked candidate drivers, while 23 of 26 outlier-gene groups were associated with increased recurrence risk. The paper does not provide a single explicit count of fully unexplained cases after all workup beyond these subsets.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>driver_mechanism_family</strong></td>
+                            <td>super_enhancer_with_sv</td>
+                        </tr>
+                        <tr>
+                            <td><strong>signaling_activation_mode</strong></td>
+                            <td>overexpression</td>
+                        </tr>
+                        <tr>
+                            <td><strong>oncogenic_unit_type</strong></td>
+                            <td>chromatin_domain_event</td>
+                        </tr>
+                        <tr>
+                            <td><strong>mechanistic_directness</strong></td>
+                            <td>direct_driver</td>
+                        </tr>
+                        <tr>
+                            <td><strong>histologic_subtype_normalized</strong></td>
+                            <td>nonmucinous_adenocarcinoma</td>
+                        </tr>
+                        <tr>
+                            <td><strong>lineage_marker_state</strong></td>
+                            <td><span class="empty-note">null</span></td>
+                        </tr>
+                        <tr>
+                            <td><strong>inferred_lineage_program</strong></td>
+                            <td>unknown</td>
+                        </tr>
+                        <tr>
+                            <td><strong>mucinous_program_evidence</strong></td>
+                            <td><span class="empty-note">null</span></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="extraction-instance-container" id="e2189.1">
+                <h3 class="extraction-instance">Extracted Data Instance 1 (e2189.1)</h3>
+                <div class="extraction-query"><strong>Extraction Query:</strong> Extract any mentions of hidden genomic, structural, regulatory, or assay-missed drivers in oncogene-negative lung adenocarcinoma.</div>
+                <table>
+                    <thead>
+                        <tr>
+                            <th style="width: 30%;">Field</th>
+                            <th style="width: 70%;">Value</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><strong>name_short</strong></td>
+                            <td>FRS2</td>
+                        </tr>
+                        <tr>
+                            <td><strong>name_full</strong></td>
+                            <td>Fibroblast growth factor receptor substrate 2</td>
+                        </tr>
+                        <tr>
+                            <td><strong>brief_description</strong></td>
+                            <td>FRS2 is identified as a candidate hidden driver-like gene in the non-CAGA LUAD SE-to-gene analysis because it shows markedly aberrant expression associated with super-enhancer/structural-variant overlap. The authors propose it as a possible additional driver gene but do not functionally validate it.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>citation_title</strong></td>
+                            <td>Mechanism of ERBB2 gene overexpression by the formation of super-enhancer with genomic structural abnormalities in lung adenocarcinoma without clinically actionable genetic alterations</td>
+                        </tr>
+                        <tr>
+                            <td><strong>mention_or_use</strong></td>
+                            <td>use</td>
+                        </tr>
+                        <tr>
+                            <td><strong>oncogene_negative_definition</strong></td>
+                            <td>Same non-CAGA definition as the main study cohort: LUAD lacking clinically actionable alterations in EGFR, KRAS, BRAF, ERBB2, MET exon skipping, or ALK/ROS1/NRG1/RET/NTRK/FGFR fusions after WES and RNA-seq.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>assay_strategy_and_detection_limits</strong></td>
+                            <td>Detected through integrated SE-to-gene link analysis combining H3K27Ac ChIP-seq and gene expression in the non-CAGA cohort, with structural-variant overlap from WGS. The paper presents this as discovery-level association rather than direct experimental validation; thus it remains subject to the same limitations of correlation-based inference and possible confounding by CNAs or other regulatory changes.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>missed_driver_reclassified_after_broader_testing</strong></td>
+                            <td>No direct reclassification is shown; FRS2 is proposed as a candidate hidden driver after broader multiomic analysis.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>driver_event_class</strong></td>
+                            <td>transcriptional outlier with super-enhancer/structural-variant association</td>
+                        </tr>
+                        <tr>
+                            <td><strong>candidate_driver_gene_or_locus</strong></td>
+                            <td>FRS2 gene locus</td>
+                        </tr>
+                        <tr>
+                            <td><strong>structural_or_regulatory_activation_mechanism</strong></td>
+                            <td>Likely super-enhancer-associated regulatory upshift, potentially facilitated by overlapping structural variation.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>functional_consequence</strong></td>
+                            <td>Exceptionally aberrant gene expression; biologically, FRS2 is linked in the discussion to MAPK and PI3K pathway activation.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>co_alteration_or_combinatorial_requirement</strong></td>
+                            <td>No explicit cooperating alteration is defined; the candidate status comes from overlap with super-enhancer and structural-variant landscapes.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>human_prevalence_or_enrichment</strong></td>
+                            <td>Highlighted among the top candidate outlier genes in the non-CAGA LUAD SE-to-gene analysis; exact prevalence among patients is not given in the text excerpt.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>functional_or_clinical_validation</strong></td>
+                            <td>No direct functional validation in this study; the paper only cites external literature that FRS2 is oncogenic/amplified in other cancers.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>initial_negative_call_basis</strong></td>
+                            <td>Negative cohort defined by absence of canonical actionable alterations on WES and RNA-seq, as above.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>negative_call_failure_mode</strong></td>
+                            <td>still_unexplained</td>
+                        </tr>
+                        <tr>
+                            <td><strong>rescue_modality</strong></td>
+                            <td>integrated_multiomic</td>
+                        </tr>
+                        <tr>
+                            <td><strong>final_explanatory_status</strong></td>
+                            <td>rescued_noncanonical_driver</td>
+                        </tr>
+                        <tr>
+                            <td><strong>post_workup_unexplained_fraction</strong></td>
+                            <td>Not explicitly quantified for FRS2; it is one of several candidate genes emerging from the broadened workup.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>driver_mechanism_family</strong></td>
+                            <td>super_enhancer_with_sv</td>
+                        </tr>
+                        <tr>
+                            <td><strong>signaling_activation_mode</strong></td>
+                            <td>overexpression</td>
+                        </tr>
+                        <tr>
+                            <td><strong>oncogenic_unit_type</strong></td>
+                            <td>single_gene_lesion</td>
+                        </tr>
+                        <tr>
+                            <td><strong>mechanistic_directness</strong></td>
+                            <td>likely_driver</td>
+                        </tr>
+                        <tr>
+                            <td><strong>histologic_subtype_normalized</strong></td>
+                            <td>nonmucinous_adenocarcinoma</td>
+                        </tr>
+                        <tr>
+                            <td><strong>lineage_marker_state</strong></td>
+                            <td><span class="empty-note">null</span></td>
+                        </tr>
+                        <tr>
+                            <td><strong>inferred_lineage_program</strong></td>
+                            <td>unknown</td>
+                        </tr>
+                        <tr>
+                            <td><strong>mucinous_program_evidence</strong></td>
+                            <td><span class="empty-note">null</span></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="extraction-instance-container" id="e2189.2">
+                <h3 class="extraction-instance">Extracted Data Instance 2 (e2189.2)</h3>
+                <div class="extraction-query"><strong>Extraction Query:</strong> Extract any mentions of hidden genomic, structural, regulatory, or assay-missed drivers in oncogene-negative lung adenocarcinoma.</div>
+                <table>
+                    <thead>
+                        <tr>
+                            <th style="width: 30%;">Field</th>
+                            <th style="width: 70%;">Value</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><strong>name_short</strong></td>
+                            <td>CAV2</td>
+                        </tr>
+                        <tr>
+                            <td><strong>name_full</strong></td>
+                            <td>Caveolin 2</td>
+                        </tr>
+                        <tr>
+                            <td><strong>brief_description</strong></td>
+                            <td>CAV2 is another proposed hidden driver-like gene emerging from the non-CAGA LUAD SE-to-gene analysis. The paper associates it with markedly aberrant expression and suggests it may participate in the molecular dynamics of non-CAGA LUAD, but it is not directly validated as a driver.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>citation_title</strong></td>
+                            <td>Mechanism of ERBB2 gene overexpression by the formation of super-enhancer with genomic structural abnormalities in lung adenocarcinoma without clinically actionable genetic alterations</td>
+                        </tr>
+                        <tr>
+                            <td><strong>mention_or_use</strong></td>
+                            <td>use</td>
+                        </tr>
+                        <tr>
+                            <td><strong>oncogene_negative_definition</strong></td>
+                            <td>Same non-CAGA LUAD definition based on negative WES and RNA-seq testing for actionable EGFR, KRAS, BRAF, ERBB2, MET skipping, ALK, ROS1, NRG1, RET, NTRK, and FGFR alterations.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>assay_strategy_and_detection_limits</strong></td>
+                            <td>Identified through correlated H3K27Ac peak-to-gene expression analysis plus structural-variant overlap; the paper does not show a targeted functional assay for CAV2. As with other correlative candidates, the mechanism remains inferential and could be influenced by regulatory context beyond the exact overlap.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>missed_driver_reclassified_after_broader_testing</strong></td>
+                            <td>No explicit reclassification shown; CAV2 is a candidate discovered by expanded analysis.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>driver_event_class</strong></td>
+                            <td>transcriptional outlier with super-enhancer/structural-variant association</td>
+                        </tr>
+                        <tr>
+                            <td><strong>candidate_driver_gene_or_locus</strong></td>
+                            <td>CAV2 gene locus</td>
+                        </tr>
+                        <tr>
+                            <td><strong>structural_or_regulatory_activation_mechanism</strong></td>
+                            <td>Probable super-enhancer-linked regulatory activation, potentially in conjunction with structural variation.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>functional_consequence</strong></td>
+                            <td>Markedly aberrant expression; external literature cited in the paper links high CAV2 expression to cancer progression and poor prognosis.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>co_alteration_or_combinatorial_requirement</strong></td>
+                            <td>No explicit co-alteration requirement reported.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>human_prevalence_or_enrichment</strong></td>
+                            <td>Presented as one of the top candidate outlier genes from the non-CAGA LUAD SE-to-gene link analysis; precise prevalence is not specified in the main text excerpt.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>functional_or_clinical_validation</strong></td>
+                            <td>No direct validation in this study.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>initial_negative_call_basis</strong></td>
+                            <td>Non-CAGA status based on absence of canonical actionable events on WES and RNA-seq.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>negative_call_failure_mode</strong></td>
+                            <td>still_unexplained</td>
+                        </tr>
+                        <tr>
+                            <td><strong>rescue_modality</strong></td>
+                            <td>integrated_multiomic</td>
+                        </tr>
+                        <tr>
+                            <td><strong>final_explanatory_status</strong></td>
+                            <td>rescued_noncanonical_driver</td>
+                        </tr>
+                        <tr>
+                            <td><strong>post_workup_unexplained_fraction</strong></td>
+                            <td>Not explicitly quantified for CAV2; included among candidate genes after expanded analysis.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>driver_mechanism_family</strong></td>
+                            <td>super_enhancer_with_sv</td>
+                        </tr>
+                        <tr>
+                            <td><strong>signaling_activation_mode</strong></td>
+                            <td>overexpression</td>
+                        </tr>
+                        <tr>
+                            <td><strong>oncogenic_unit_type</strong></td>
+                            <td>single_gene_lesion</td>
+                        </tr>
+                        <tr>
+                            <td><strong>mechanistic_directness</strong></td>
+                            <td>likely_driver</td>
+                        </tr>
+                        <tr>
+                            <td><strong>histologic_subtype_normalized</strong></td>
+                            <td>nonmucinous_adenocarcinoma</td>
+                        </tr>
+                        <tr>
+                            <td><strong>lineage_marker_state</strong></td>
+                            <td><span class="empty-note">null</span></td>
+                        </tr>
+                        <tr>
+                            <td><strong>inferred_lineage_program</strong></td>
+                            <td>unknown</td>
+                        </tr>
+                        <tr>
+                            <td><strong>mucinous_program_evidence</strong></td>
+                            <td><span class="empty-note">null</span></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="extraction-instance-container" id="e2189.3">
+                <h3 class="extraction-instance">Extracted Data Instance 3 (e2189.3)</h3>
+                <div class="extraction-query"><strong>Extraction Query:</strong> Extract any mentions of hidden genomic, structural, regulatory, or assay-missed drivers in oncogene-negative lung adenocarcinoma.</div>
+                <table>
+                    <thead>
+                        <tr>
+                            <th style="width: 30%;">Field</th>
+                            <th style="width: 70%;">Value</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><strong>name_short</strong></td>
+                            <td>CDK4</td>
+                        </tr>
+                        <tr>
+                            <td><strong>name_full</strong></td>
+                            <td>Cyclin-dependent kinase 4</td>
+                        </tr>
+                        <tr>
+                            <td><strong>brief_description</strong></td>
+                            <td>CDK4 is discussed as a gene with super-enhancer plus structural-variant-associated overexpression in non-CAGA LUAD and as a prominent ranked gene in the SE-to-gene analysis. The paper treats it as a potential driver-like candidate, though its therapeutic role is not firmly established here.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>citation_title</strong></td>
+                            <td>Mechanism of ERBB2 gene overexpression by the formation of super-enhancer with genomic structural abnormalities in lung adenocarcinoma without clinically actionable genetic alterations</td>
+                        </tr>
+                        <tr>
+                            <td><strong>mention_or_use</strong></td>
+                            <td>use</td>
+                        </tr>
+                        <tr>
+                            <td><strong>oncogene_negative_definition</strong></td>
+                            <td>Non-CAGA LUAD lacked actionable alterations in EGFR, KRAS, BRAF, ERBB2, MET exon skipping, and ALK/ROS1/NRG1/RET/NTRK/FGFR fusions by WES and RNA-seq.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>assay_strategy_and_detection_limits</strong></td>
+                            <td>Detected by combined H3K27Ac ChIP-seq, WGS-SV mapping, and peak-to-gene correlation. The study notes that CDK4/MDM2 loci also show CNV amplification hotspots, so CDK4 may reflect mixed regulatory and copy-number effects rather than a purely hidden structural driver.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>missed_driver_reclassified_after_broader_testing</strong></td>
+                            <td>Not explicitly described as a reclassified missed driver; it is a high-ranking candidate in the broadened analysis.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>driver_event_class</strong></td>
+                            <td>transcriptional outlier and/or copy-number-associated candidate with SE-SV overlap</td>
+                        </tr>
+                        <tr>
+                            <td><strong>candidate_driver_gene_or_locus</strong></td>
+                            <td>CDK4 locus</td>
+                        </tr>
+                        <tr>
+                            <td><strong>structural_or_regulatory_activation_mechanism</strong></td>
+                            <td>Super-enhancer formation accompanied by structural variant overlap, with possible contribution from copy-number amplification at the CDK4/MDM2 hotspot.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>functional_consequence</strong></td>
+                            <td>Elevated expression; pathway-level enrichment in cancer-related processes is reported for SE-SV overlap regions containing CDK4.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>co_alteration_or_combinatorial_requirement</strong></td>
+                            <td>Complex chromothripsis-like copy-number amplification at the CDK4/MDM2 locus is mentioned as a possible additional mechanism in some cases.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>human_prevalence_or_enrichment</strong></td>
+                            <td>Ranked prominently in the SE-to-gene analysis and highlighted among genes with outlier expression in non-CAGA LUAD; the paper also notes CDK4/MDM2 copy-number hotspots in the cohort.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>functional_or_clinical_validation</strong></td>
+                            <td>No direct functional validation of CDK4 as a hidden driver is shown in this paper.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>initial_negative_call_basis</strong></td>
+                            <td>Same negative-calling workflow as other non-CAGA tumors: lack of canonical actionable alterations on WES and RNA-seq.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>negative_call_failure_mode</strong></td>
+                            <td>copy_number_not_interpreted</td>
+                        </tr>
+                        <tr>
+                            <td><strong>rescue_modality</strong></td>
+                            <td>integrated_multiomic</td>
+                        </tr>
+                        <tr>
+                            <td><strong>final_explanatory_status</strong></td>
+                            <td>rescued_noncanonical_driver</td>
+                        </tr>
+                        <tr>
+                            <td><strong>post_workup_unexplained_fraction</strong></td>
+                            <td>Not specifically stated for CDK4; part of the candidate set emerging from expanded workup.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>driver_mechanism_family</strong></td>
+                            <td>super_enhancer_with_sv</td>
+                        </tr>
+                        <tr>
+                            <td><strong>signaling_activation_mode</strong></td>
+                            <td>overexpression</td>
+                        </tr>
+                        <tr>
+                            <td><strong>oncogenic_unit_type</strong></td>
+                            <td>single_gene_lesion</td>
+                        </tr>
+                        <tr>
+                            <td><strong>mechanistic_directness</strong></td>
+                            <td>likely_driver</td>
+                        </tr>
+                        <tr>
+                            <td><strong>histologic_subtype_normalized</strong></td>
+                            <td>nonmucinous_adenocarcinoma</td>
+                        </tr>
+                        <tr>
+                            <td><strong>lineage_marker_state</strong></td>
+                            <td><span class="empty-note">null</span></td>
+                        </tr>
+                        <tr>
+                            <td><strong>inferred_lineage_program</strong></td>
+                            <td>unknown</td>
+                        </tr>
+                        <tr>
+                            <td><strong>mucinous_program_evidence</strong></td>
+                            <td><span class="empty-note">null</span></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="extraction-instance-container" id="e2189.4">
+                <h3 class="extraction-instance">Extracted Data Instance 4 (e2189.4)</h3>
+                <div class="extraction-query"><strong>Extraction Query:</strong> Extract any mentions of hidden genomic, structural, regulatory, or assay-missed drivers in oncogene-negative lung adenocarcinoma.</div>
+                <table>
+                    <thead>
+                        <tr>
+                            <th style="width: 30%;">Field</th>
+                            <th style="width: 70%;">Value</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><strong>name_short</strong></td>
+                            <td>MDM2</td>
+                        </tr>
+                        <tr>
+                            <td><strong>name_full</strong></td>
+                            <td>MDM2 proto-oncogene</td>
+                        </tr>
+                        <tr>
+                            <td><strong>brief_description</strong></td>
+                            <td>MDM2 is identified alongside CDK4 as a prominent gene in the super-enhancer/structural-variant-linked outlier expression analysis of non-CAGA LUAD. The paper suggests it may represent a driver-like event in some tumors, but also notes frequent copy-number amplification at the CDK4/MDM2 locus.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>citation_title</strong></td>
+                            <td>Mechanism of ERBB2 gene overexpression by the formation of super-enhancer with genomic structural abnormalities in lung adenocarcinoma without clinically actionable genetic alterations</td>
+                        </tr>
+                        <tr>
+                            <td><strong>mention_or_use</strong></td>
+                            <td>use</td>
+                        </tr>
+                        <tr>
+                            <td><strong>oncogene_negative_definition</strong></td>
+                            <td>Non-CAGA LUAD were negative for canonical actionable events on WES and RNA-seq across EGFR, KRAS, BRAF, ERBB2, MET exon skipping, and ALK/ROS1/NRG1/RET/NTRK/FGFR fusions.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>assay_strategy_and_detection_limits</strong></td>
+                            <td>Characterized through integrated SE-to-gene analysis with H3K27Ac ChIP-seq and WGS SV calling. The study explicitly notes that the CDK4/MDM2 locus can show copy-number amplification and complex chromothripsis, making regulatory vs copy-number causation potentially mixed.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>missed_driver_reclassified_after_broader_testing</strong></td>
+                            <td>No explicit reclassification of a specific MDM2-negative case is shown; it is a candidate emerging from integrated analysis.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>driver_event_class</strong></td>
+                            <td>transcriptional outlier and/or copy-number-associated candidate with SE-SV overlap</td>
+                        </tr>
+                        <tr>
+                            <td><strong>candidate_driver_gene_or_locus</strong></td>
+                            <td>MDM2 locus</td>
+                        </tr>
+                        <tr>
+                            <td><strong>structural_or_regulatory_activation_mechanism</strong></td>
+                            <td>Super-enhancer/structural-variant overlap with possible copy-number amplification.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>functional_consequence</strong></td>
+                            <td>Aberrant expression in a cancer-relevant locus; the paper frames it as a putative driver-related abnormality.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>co_alteration_or_combinatorial_requirement</strong></td>
+                            <td>Complex chromothripsis events and extensive copy-number amplification at the CDK4/MDM2 locus are discussed as possible accompanying alterations.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>human_prevalence_or_enrichment</strong></td>
+                            <td>Highlighted as one of the top genes in the SE-to-gene analysis of non-CAGA LUAD; precise prevalence not specified in the excerpt.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>functional_or_clinical_validation</strong></td>
+                            <td>No direct functional validation in this study.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>initial_negative_call_basis</strong></td>
+                            <td>Negative status derived from absence of canonical actionable lesions on WES and RNA-seq.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>negative_call_failure_mode</strong></td>
+                            <td>copy_number_not_interpreted</td>
+                        </tr>
+                        <tr>
+                            <td><strong>rescue_modality</strong></td>
+                            <td>integrated_multiomic</td>
+                        </tr>
+                        <tr>
+                            <td><strong>final_explanatory_status</strong></td>
+                            <td>rescued_noncanonical_driver</td>
+                        </tr>
+                        <tr>
+                            <td><strong>post_workup_unexplained_fraction</strong></td>
+                            <td>Not explicitly quantified for MDM2.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>driver_mechanism_family</strong></td>
+                            <td>super_enhancer_with_sv</td>
+                        </tr>
+                        <tr>
+                            <td><strong>signaling_activation_mode</strong></td>
+                            <td>overexpression</td>
+                        </tr>
+                        <tr>
+                            <td><strong>oncogenic_unit_type</strong></td>
+                            <td>single_gene_lesion</td>
+                        </tr>
+                        <tr>
+                            <td><strong>mechanistic_directness</strong></td>
+                            <td>likely_driver</td>
+                        </tr>
+                        <tr>
+                            <td><strong>histologic_subtype_normalized</strong></td>
+                            <td>nonmucinous_adenocarcinoma</td>
+                        </tr>
+                        <tr>
+                            <td><strong>lineage_marker_state</strong></td>
+                            <td><span class="empty-note">null</span></td>
+                        </tr>
+                        <tr>
+                            <td><strong>inferred_lineage_program</strong></td>
+                            <td>unknown</td>
+                        </tr>
+                        <tr>
+                            <td><strong>mucinous_program_evidence</strong></td>
+                            <td><span class="empty-note">null</span></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>Potentially Relevant New Papers (mentioned by this paper)</h2>
+            <ol>
+                <li>Whole-genome characterization of lung adenocarcinomas lacking alterations in the RTK/RAS/RAF pathway <em>(Rating: 2)</em></li>
+                <li>Structural variations in cancer and the 3D genome <em>(Rating: 2)</em></li>
+                <li>Patterns of somatic structural variation in human cancer genomes <em>(Rating: 2)</em></li>
+                <li>ec DNA hubs drive cooperative intermolecular oncogene expression <em>(Rating: 1)</em></li>
+                <li>A 3D map of the human genome at kilobase resolution reveals principles of chromatin looping <em>(Rating: 1)</em></li>
+            </ol>
+        </div>
+
+        </div>
+
+    </div>
+</body>
+</html>

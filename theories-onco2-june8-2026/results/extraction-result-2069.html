@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Extraction extraction-result-2069 - Theorizer</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+    <div class="header">
+        <a href="../index.html"><i class="fas fa-flask"></i> Theorizer</a>
+    </div>
+
+    <div class="content">
+        <h1>Extracted Data Details for extraction-result-2069</h1>
+
+        <div class="section">
+            <h2>Extracted Data (Header)</h2>
+            <div class="info-section">
+                <p><strong>Extraction ID:</strong> extraction-result-2069</p>
+                <p><strong>Extraction Schema Used (ID):</strong> <a href="../schemas/extraction-schema-1843.html">extraction-schema-1843</a></p>
+                <div class="extraction-query"><strong>Extraction Query:</strong> Extract any mentions of hidden genomic, structural, regulatory, or assay-missed drivers in oncogene-negative lung adenocarcinoma.</div>
+                <p><strong>Paper ID:</strong> paper-be750e68fd5efd82b4cb83e3832c105b5b467a05</p>
+                <p><strong>Paper Title:</strong> <a href="https://www.semanticscholar.org/paper/be750e68fd5efd82b4cb83e3832c105b5b467a05" target="_blank">Transcriptome Meta-Analysis of Lung Cancer Reveals Recurrent Aberrations in NRG1 and Hippo Pathway Genes</a></p>
+                <p><strong>Paper Venue:</strong> Nature Communications</p>
+                <p><strong>Paper TL;DR:</strong> It is shown that gene fusions in NRG1, NF1and Hippo pathway genes are recurrent mostly among lung cancers lacking known driver mutations, and higher numbers of gene fusion is an independent prognostic factor for poor survival in lung cancer.</p>
+                <p><strong>Paper Abstract:</strong> Lung cancer is emerging as a paradigm for disease molecular subtyping, facilitating targeted therapy based on driving somatic alterations. Here we perform transcriptome analysis of 153 samples representing lung adenocarcinomas, squamous cell carcinomas, large cell lung cancer, adenoid cystic carcinomas and cell lines. By integrating our data with The Cancer Genome Atlas and published sources, we analyse 753 lung cancer samples for gene fusions and other transcriptomic alterations. We show that higher numbers of gene fusions is an independent prognostic factor for poor survival in lung cancer. Our analysis confirms the recently reported CD74-NRG1 fusion and suggests that NRG1, NF1 and Hippo pathway fusions may play important roles in tumours without known driver mutations. In addition, we observe exon-skipping events in c-MET, which are attributable to splice site mutations. These classes of genetic aberrations may play a significant role in the genesis of lung cancers lacking known driver mutations. Targeted cancer therapy requires knowledge of driver aberrations. Here the authors perform large-scale transcriptome analysis, and show that gene fusions in NRG1, NF1and Hippo pathway genes are recurrent mostly among lung cancers lacking known driver mutations.</p>
+                <p><strong>Cost:</strong> 0.031</p>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>Extracted Data (Details)</h2>
+            <div class="extraction-instance-container" id="e2069.0">
+                <h3 class="extraction-instance">Extracted Data Instance 0 (e2069.0)</h3>
+                <div class="extraction-query"><strong>Extraction Query:</strong> Extract any mentions of hidden genomic, structural, regulatory, or assay-missed drivers in oncogene-negative lung adenocarcinoma.</div>
+                <table>
+                    <thead>
+                        <tr>
+                            <th style="width: 30%;">Field</th>
+                            <th style="width: 70%;">Value</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><strong>name_short</strong></td>
+                            <td>NRG1 rearrangements</td>
+                        </tr>
+                        <tr>
+                            <td><strong>name_full</strong></td>
+                            <td>Neuregulin 1 rearrangements, including CD74-NRG1, RBPMS-NRG1, WRN-NRG1, SDC4-NRG1, and RAB2IL1-NRG1</td>
+                        </tr>
+                        <tr>
+                            <td><strong>brief_description</strong></td>
+                            <td>The paper reports recurrent NRG1 fusions and/or outlier overexpression in driver-unknown lung cancers, with the EGF-domain-containing 3' end of NRG1 preserved. In some cases the fusion places NRG1 under a heterologous promoter (e.g., WRN-NRG1) or creates a chimeric, likely secreted/functional NRG1 protein (e.g., CD74-NRG1 and SDC4-NRG1).</td>
+                        </tr>
+                        <tr>
+                            <td><strong>citation_title</strong></td>
+                            <td>Transcriptome Meta-Analysis of Lung Cancer Reveals Recurrent Aberrations in NRG1 and Hippo Pathway Genes</td>
+                        </tr>
+                        <tr>
+                            <td><strong>mention_or_use</strong></td>
+                            <td>use</td>
+                        </tr>
+                        <tr>
+                            <td><strong>oncogene_negative_definition</strong></td>
+                            <td>Driver-negative (also termed driver unknown) lung cancer samples were those lacking known driver alterations after integrative analysis of mutation status for well-known cancer genes and RNA-seq-based fusion detection. The paper explicitly assessed KRAS, EGFR, BRAF, PIK3CA, TP53, NF1, and other known lung cancer genes, and classified samples as driver-negative when no known driver event was detected by these assays.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>assay_strategy_and_detection_limits</strong></td>
+                            <td>Discovery was based on strand-specific paired-end RNA-seq (RNASeq) across UMICH, TCGA, and Seoul cohorts, with fusion calling by TopHat-fusion and prioritization by a random forest classifier using fusion structure, spanning/encompassing reads, alignment quality, and 3' partner expression. Limits/blind spots noted in the paper include the fact that RNA-seq primarily detects expressed rearrangements, spurious fusions can arise from template switching/chimeras/multimapping, and some NRG1-aberrant cases had outlier expression without detectable fusion by FISH or with unclear cellular localization for certain fusion products.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>missed_driver_reclassified_after_broader_testing</strong></td>
+                            <td>Yes. Tumors initially considered driver-negative were reclassified after RNA-seq fusion/outlier-expression analysis to harbor NRG1 rearrangements or NRG1 outlier expression. Examples include CD74-NRG1, RBPMS-NRG1, WRN-NRG1, SDC4-NRG1, and RAB2IL1-NRG1, plus additional cases with NRG1 outlier expression without a detected fusion. These were missed by prior driver mutation testing because they were noncanonical rearrangements/transcriptional outliers rather than recurrent point mutations or copy-number events.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>driver_event_class</strong></td>
+                            <td>Fusion / regulatory outlier expression</td>
+                        </tr>
+                        <tr>
+                            <td><strong>candidate_driver_gene_or_locus</strong></td>
+                            <td>NRG1 (neuregulin 1), with fusion partners CD74, RBPMS, WRN, SDC4, and RAB2IL1</td>
+                        </tr>
+                        <tr>
+                            <td><strong>structural_or_regulatory_activation_mechanism</strong></td>
+                            <td>Preservation of the NRG1 C-terminal EGF domain in all identified fusions, enabling receptor interaction; in some fusions the partner gene likely supplies promoter activity or secretion/localization signals, producing either chimeric proteins or overexpression of full-length NRG1.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>functional_consequence</strong></td>
+                            <td>NRG1 aberration was associated with outlier tumor expression, presumed autocrine ERBB signaling, and oncogenic phenotypes. In cell models, NRG1 knockdown reduced proliferation, while CD74-NRG1 overexpression increased proliferation, migration, EMT markers, and ERBB/SRC pathway signaling.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>co_alteration_or_combinatorial_requirement</strong></td>
+                            <td>NRG1-fusion index cases and most NRG1 outlier-expression cases were described as lacking known driver mutations. The paper also notes similarity to driver-negative subsets rather than requiring canonical co-drivers, though CD74-NRG1 was linked independently to mucinous LUAD and HNF4A-high expression in one index case.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>human_prevalence_or_enrichment</strong></td>
+                            <td>NRG1 was perturbed in 3.9% (15/386) of driver-unknown lung cancer samples. The paper states that all NRG1 fusion index samples were in samples without known driver mutations and that additional NRG1 outlier-expression cases were also enriched in driver-unknown samples; one additional RAB2IL1-NRG1 fusion was found in TCGA ovarian cancer.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>functional_or_clinical_validation</strong></td>
+                            <td>Validated by RNA-seq discovery plus qPCR/Western blot pathway readouts, knockdown of endogenous NRG1 in H1793 cells, and stable expression of CD74-NRG1 in BEAS-2B cells showing increased proliferation, migration, EMT, and ERBB3/ERK/JNK signaling. The paper also reports independent prior discovery of CD74-NRG1 in lung adenocarcinoma and notes FISH did not detect rearrangements in some outlier-expression cases.</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="extraction-instance-container" id="e2069.1">
+                <h3 class="extraction-instance">Extracted Data Instance 1 (e2069.1)</h3>
+                <div class="extraction-query"><strong>Extraction Query:</strong> Extract any mentions of hidden genomic, structural, regulatory, or assay-missed drivers in oncogene-negative lung adenocarcinoma.</div>
+                <table>
+                    <thead>
+                        <tr>
+                            <th style="width: 30%;">Field</th>
+                            <th style="width: 70%;">Value</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><strong>name_short</strong></td>
+                            <td>Hippo fusions</td>
+                        </tr>
+                        <tr>
+                            <td><strong>name_full</strong></td>
+                            <td>Gene fusions affecting Hippo pathway members, including NF2, LATS1, YAP1, WWTR1 (TAZ), HIPK2, TAOK1, TAOK3, FAT1, DCHS2, and PTPN14</td>
+                        </tr>
+                        <tr>
+                            <td><strong>brief_description</strong></td>
+                            <td>The paper reports recurrent fusions involving core and accessory Hippo pathway genes in lung cancer, often truncating tumor suppressor members or preserving functional domains in oncogenic members. These events were mostly found in tumors lacking known driver mutations and may represent previously underappreciated pathway-altering drivers.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>citation_title</strong></td>
+                            <td>Transcriptome Meta-Analysis of Lung Cancer Reveals Recurrent Aberrations in NRG1 and Hippo Pathway Genes</td>
+                        </tr>
+                        <tr>
+                            <td><strong>mention_or_use</strong></td>
+                            <td>use</td>
+                        </tr>
+                        <tr>
+                            <td><strong>oncogene_negative_definition</strong></td>
+                            <td>Driver-negative samples were those without known canonical lung cancer driver mutations or fusions after the study's mutation and RNA-seq fusion workflow. The paper emphasizes that the vast majority of index Hippo fusion cases lacked known driver mutations (10 out of 14).</td>
+                        </tr>
+                        <tr>
+                            <td><strong>assay_strategy_and_detection_limits</strong></td>
+                            <td>RNA-seq fusion calling (TopHat-fusion) followed by structural/functional annotation and manual inspection was used to detect these rearrangements. The authors note that prior studies had found no evidence for non-synonymous mutations in Hippo genes in lung cancer, indicating that standard mutation-only profiling would miss these fusion-based lesions; additional copy-number and expression analysis (via cBioPortal) was used in some cases.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>missed_driver_reclassified_after_broader_testing</strong></td>
+                            <td>Yes. Tumors initially lacking known driver mutations were later found to harbor Hippo-pathway fusions such as NF2-OSBP2, NF2-MORC2, WWTR1-SLC9A9, and others. These were missed because the lesions are structural rearrangements, not point mutations, and several produce truncated proteins rather than canonical activating SNVs.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>driver_event_class</strong></td>
+                            <td>Fusion</td>
+                        </tr>
+                        <tr>
+                            <td><strong>candidate_driver_gene_or_locus</strong></td>
+                            <td>Hippo pathway genes, especially NF2, LATS1, YAP1, WWTR1, HIPK2, TAOK1, TAOK3, FAT1, DCHS2, and PTPN14</td>
+                        </tr>
+                        <tr>
+                            <td><strong>structural_or_regulatory_activation_mechanism</strong></td>
+                            <td>Tumor suppressor fusions generally truncated the protein or removed critical domains, causing loss of function; oncogenic fusions such as those involving YAP1 or WWTR1 retained crucial functional domains, consistent with retained oncogenic activity.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>functional_consequence</strong></td>
+                            <td>Loss of negative regulation or aberrant pathway activation within the Hippo cascade, with copy-number loss/low expression of FAT1 and copy gain/elevated expression of YAP1 in representative index cases. The paper interprets these as novel mechanisms of altering Hippo pathway genes that may promote a transforming phenotype.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>co_alteration_or_combinatorial_requirement</strong></td>
+                            <td>Most index fusion samples lacked known driver mutations (10/14). The paper also reports accompanying copy-number and expression changes in some cases, e.g., FAT1 loss with low mRNA expression and YAP1 copy gain with elevated expression.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>human_prevalence_or_enrichment</strong></td>
+                            <td>Hippo pathway fusions were described as 2.6% of driver-unknown lung cancer cases in the summary, with 10 of 33 Hippo pathway members identified as fusion partners. The index fusion set was enriched for tumors without known drivers.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>functional_or_clinical_validation</strong></td>
+                            <td>Validation was primarily bioinformatic/structural: recurrent fusion detection, domain-retention/truncation analysis, and integration with copy-number/expression data. The paper does not report wet-lab transformation assays for these Hippo fusions.</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="extraction-instance-container" id="e2069.2">
+                <h3 class="extraction-instance">Extracted Data Instance 2 (e2069.2)</h3>
+                <div class="extraction-query"><strong>Extraction Query:</strong> Extract any mentions of hidden genomic, structural, regulatory, or assay-missed drivers in oncogene-negative lung adenocarcinoma.</div>
+                <table>
+                    <thead>
+                        <tr>
+                            <th style="width: 30%;">Field</th>
+                            <th style="width: 70%;">Value</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><strong>name_short</strong></td>
+                            <td>NF1 destructive fusions</td>
+                        </tr>
+                        <tr>
+                            <td><strong>name_full</strong></td>
+                            <td>Inactivating NF1 fusions, including GOSR1-NF1, NLK-NF1, NF1-PSMD11, NF1-DRG2_Antisense, and NF1-MYO15A_Antisense</td>
+                        </tr>
+                        <tr>
+                            <td><strong>brief_description</strong></td>
+                            <td>The study identifies recurrent truncating or otherwise destructive NF1 fusions in lung cancer, indicating an alternate mechanism of NF1 loss beyond point mutations. The fusions were enriched in driver-negative tumors and often appeared to arise from genomic deletion or inversion.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>citation_title</strong></td>
+                            <td>Transcriptome Meta-Analysis of Lung Cancer Reveals Recurrent Aberrations in NRG1 and Hippo Pathway Genes</td>
+                        </tr>
+                        <tr>
+                            <td><strong>mention_or_use</strong></td>
+                            <td>use</td>
+                        </tr>
+                        <tr>
+                            <td><strong>oncogene_negative_definition</strong></td>
+                            <td>The relevant subset was samples without known drivers after mutation and fusion analysis; 27 of 33 NF1-aberrant samples were in driver-negative tumors. The study also refers to driver unknown samples when quantifying NF1 events.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>assay_strategy_and_detection_limits</strong></td>
+                            <td>RNA-seq fusion detection plus integrative mutation analysis identified NF1 fusions and deleterious mutations. The authors further examined exon/intron-spanning junctions to find additional NF1 rearrangements and inferred genomic deletion or centromeric inversion from read evidence; purely mutation-based assays would miss these structural events.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>missed_driver_reclassified_after_broader_testing</strong></td>
+                            <td>Yes. Tumors initially classified as driver-negative were reclassified when RNA-seq revealed truncating NF1 fusions and when comprehensive junction analysis found additional antisense fusions. These were missed initially because they are structural rearrangements and, in some cases, involve antisense partners or noncanonical junctions.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>driver_event_class</strong></td>
+                            <td>Fusion / structural rearrangement</td>
+                        </tr>
+                        <tr>
+                            <td><strong>candidate_driver_gene_or_locus</strong></td>
+                            <td>NF1</td>
+                        </tr>
+                        <tr>
+                            <td><strong>structural_or_regulatory_activation_mechanism</strong></td>
+                            <td>Loss-of-function through truncating ORFs or destruction of functional domains; read evidence suggested genomic deletion for most fusions and centromeric inversion for LS2.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>functional_consequence</strong></td>
+                            <td>NF1 inactivation, with expected derepression of RAS/mTOR signaling and loss of tumor suppressor function.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>co_alteration_or_combinatorial_requirement</strong></td>
+                            <td>Some tumors carried both NF1 fusion and somatic NF1 mutation, potentially affecting both alleles. Twenty out of 29 mutated NF1 samples and all NF1 truncating fusions were in samples without known drivers, accounting for 6.2% (24/386) of that subpopulation.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>human_prevalence_or_enrichment</strong></td>
+                            <td>33 samples with NF1 aberrations overall; predominantly in driver-negative samples (27/33). The summary states NF1 truncating mutations/fusions account for 6.2% of driver-unknown lung cancer cases.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>functional_or_clinical_validation</strong></td>
+                            <td>Validation relied on integrative transcriptome analysis, fusion architecture interpretation, and read evidence supporting deletion/inversion mechanisms. The paper cites prior knowledge that NF1 loss promotes proliferation via RAS- and PI3K-dependent pathways, but does not report new functional assays for these NF1 fusions.</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="extraction-instance-container" id="e2069.3">
+                <h3 class="extraction-instance">Extracted Data Instance 3 (e2069.3)</h3>
+                <div class="extraction-query"><strong>Extraction Query:</strong> Extract any mentions of hidden genomic, structural, regulatory, or assay-missed drivers in oncogene-negative lung adenocarcinoma.</div>
+                <table>
+                    <thead>
+                        <tr>
+                            <th style="width: 30%;">Field</th>
+                            <th style="width: 70%;">Value</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><strong>name_short</strong></td>
+                            <td>MET exon 14 skipping</td>
+                        </tr>
+                        <tr>
+                            <td><strong>name_full</strong></td>
+                            <td>c-MET exon-14 skipping with splice-site mutations in some cases</td>
+                        </tr>
+                        <tr>
+                            <td><strong>brief_description</strong></td>
+                            <td>The paper detects recurrent exon-14 skipping in MET, often in driver-unknown lung cancers, and shows that a subset is caused by splice donor-site mutations adjacent to the skipped exon. This represents a hidden driver that can be missed by assays limited to point mutations or canonical coding exons.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>citation_title</strong></td>
+                            <td>Transcriptome Meta-Analysis of Lung Cancer Reveals Recurrent Aberrations in NRG1 and Hippo Pathway Genes</td>
+                        </tr>
+                        <tr>
+                            <td><strong>mention_or_use</strong></td>
+                            <td>use</td>
+                        </tr>
+                        <tr>
+                            <td><strong>oncogene_negative_definition</strong></td>
+                            <td>Driver-unknown samples were those lacking known driver alterations after the study's mutation and fusion analysis. MET exon-14 skipping was present in 14 of 15 informative samples from this subpopulation, contributing to the driver-negative cohort.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>assay_strategy_and_detection_limits</strong></td>
+                            <td>RNA-seq was used to identify exon skipping, and matched DNA mutation data (available in a subset) was used to link the skipping to splice donor-site mutations. This event may be missed by assays that do not interrogate RNA splicing or by DNA assays that do not cover the relevant intronic splice junctions.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>missed_driver_reclassified_after_broader_testing</strong></td>
+                            <td>Yes. Driver-negative tumors were reclassified as MET-driven after RNA-seq revealed exon-14 skipping; in 5/15 cases the event was attributable to a splice donor-site mutation near D1010, showing why conventional testing could miss it without transcriptome or splice-junction analysis.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>driver_event_class</strong></td>
+                            <td>Exon skipping</td>
+                        </tr>
+                        <tr>
+                            <td><strong>candidate_driver_gene_or_locus</strong></td>
+                            <td>MET (exon 14 splice region / juxtamembrane domain)</td>
+                        </tr>
+                        <tr>
+                            <td><strong>structural_or_regulatory_activation_mechanism</strong></td>
+                            <td>Skipping of exon 14 deletes the juxtamembrane region, known to activate MET; in some cases the skipping is driven by splice-site mutation adjacent to D1010.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>functional_consequence</strong></td>
+                            <td>Activating MET deletion/exon skipping, expected to enhance oncogenic signaling.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>co_alteration_or_combinatorial_requirement</strong></td>
+                            <td>In 5 out of 15 samples, exon-14 skipping co-occurred with a splice donor-site mutation; one additional sample had a nonsense mutation accompanying skipping.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>human_prevalence_or_enrichment</strong></td>
+                            <td>15 total samples, 14 of which were driver-unknown; the paper reports a 3.6% (14/386) recurrence rate in the driver-unknown subpopulation.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>functional_or_clinical_validation</strong></td>
+                            <td>Validated by RNA-seq splice-junction evidence and concordance with previously described MET exon-14 skipping in the H596 cell line. The paper also references prior functional studies establishing MET exon-14 skipping as activating.</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="extraction-instance-container" id="e2069.4">
+                <h3 class="extraction-instance">Extracted Data Instance 4 (e2069.4)</h3>
+                <div class="extraction-query"><strong>Extraction Query:</strong> Extract any mentions of hidden genomic, structural, regulatory, or assay-missed drivers in oncogene-negative lung adenocarcinoma.</div>
+                <table>
+                    <thead>
+                        <tr>
+                            <th style="width: 30%;">Field</th>
+                            <th style="width: 70%;">Value</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><strong>name_short</strong></td>
+                            <td>ROS1/FGFR3 outliers</td>
+                        </tr>
+                        <tr>
+                            <td><strong>name_full</strong></td>
+                            <td>Outlier expression of ROS1 and FGFR3 kinase genes without detectable fusions</td>
+                        </tr>
+                        <tr>
+                            <td><strong>brief_description</strong></td>
+                            <td>The paper reports samples with high ROS1 or FGFR3 expression in the absence of detectable gene fusions, suggesting a hidden regulatory driver state not captured by fusion calling. The authors propose that such outlier expression may be oncogenic and actionable.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>citation_title</strong></td>
+                            <td>Transcriptome Meta-Analysis of Lung Cancer Reveals Recurrent Aberrations in NRG1 and Hippo Pathway Genes</td>
+                        </tr>
+                        <tr>
+                            <td><strong>mention_or_use</strong></td>
+                            <td>use</td>
+                        </tr>
+                        <tr>
+                            <td><strong>oncogene_negative_definition</strong></td>
+                            <td>These cases were mostly in samples classified as driver unknown and lacking evidence of canonical fusions after the study's RNA-seq and classifier workflow.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>assay_strategy_and_detection_limits</strong></td>
+                            <td>RNA-seq expression analysis plus fusion detection; fluorescence in situ hybridization (FISH) was applied to ROS1 (n=1) and RET (n=3) outlier index cases and did not detect rearrangements. The paper explicitly notes that the mechanism of overexpression remains to be determined, highlighting a blind spot of rearrangement-focused testing.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>missed_driver_reclassified_after_broader_testing</strong></td>
+                            <td>Partially. The tumors were not reclassified to a specific structural event, but broader transcriptome analysis identified outlier kinase expression as a potential driver state that had been missed by fusion testing and FISH.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>driver_event_class</strong></td>
+                            <td>Transcriptional outlier / regulatory activation</td>
+                        </tr>
+                        <tr>
+                            <td><strong>candidate_driver_gene_or_locus</strong></td>
+                            <td>ROS1 and FGFR3</td>
+                        </tr>
+                        <tr>
+                            <td><strong>structural_or_regulatory_activation_mechanism</strong></td>
+                            <td>Unresolved; the paper does not identify a rearrangement and notes that FISH failed to detect gene rearrangements. The hidden mechanism is therefore inferred to be noncanonical regulatory activation or another not-yet-defined mechanism.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>functional_consequence</strong></td>
+                            <td>Marked overexpression of kinase transcripts in tumors without detectable fusions; authors suggest this may act as an oncogenic driver and could be actionable.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>co_alteration_or_combinatorial_requirement</strong></td>
+                            <td>The outlier-expression cases were described as almost exclusively driver-unknown and lacking evidence of fusions. No specific cooperating alteration was established.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>human_prevalence_or_enrichment</strong></td>
+                            <td>ROS1 outlier expression was found in 6 samples across the combined cohort; tumors with ROS1 and FGFR3 outlier expression were almost exclusively driver-unknown (ROS1 Fisher exact test P=0.004; FGFR3 P=0.086).</td>
+                        </tr>
+                        <tr>
+                            <td><strong>functional_or_clinical_validation</strong></td>
+                            <td>No direct functional validation of the outlier state is shown here beyond FISH negativity for rearrangements and its enrichment in driver-unknown tumors. The paper frames this as a candidate oncogenic driver requiring further study.</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>Potentially Relevant New Papers (mentioned by this paper)</h2>
+            <ol>
+                <li>CD74-NRG1 Fusions in Lung Adenocarcinoma <em>(Rating: 2)</em></li>
+                <li>Druggable oncogene fusions in invasive mucinous lung adenocarcinoma <em>(Rating: 2)</em></li>
+                <li>Somatic mutations lead to an oncogenic deletion of met in lung cancer <em>(Rating: 2)</em></li>
+                <li>The transcriptional landscape and mutational profile of lung adenocarcinoma <em>(Rating: 1)</em></li>
+                <li>Identification of new ALK and RET gene fusions from colorectal and lung cancer biopsies <em>(Rating: 1)</em></li>
+            </ol>
+        </div>
+
+        </div>
+
+    </div>
+</body>
+</html>

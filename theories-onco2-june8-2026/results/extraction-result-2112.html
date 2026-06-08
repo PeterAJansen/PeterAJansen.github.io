@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Extraction extraction-result-2112 - Theorizer</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+    <div class="header">
+        <a href="../index.html"><i class="fas fa-flask"></i> Theorizer</a>
+    </div>
+
+    <div class="content">
+        <h1>Extracted Data Details for extraction-result-2112</h1>
+
+        <div class="section">
+            <h2>Extracted Data (Header)</h2>
+            <div class="info-section">
+                <p><strong>Extraction ID:</strong> extraction-result-2112</p>
+                <p><strong>Extraction Schema Used (ID):</strong> <a href="../schemas/extraction-schema-1843.html">extraction-schema-1843</a></p>
+                <div class="extraction-query"><strong>Extraction Query:</strong> Extract any mentions of hidden genomic, structural, regulatory, or assay-missed drivers in oncogene-negative lung adenocarcinoma.</div>
+                <p><strong>Paper ID:</strong> paper-6ccfdf8d96f99e3489b4ea6139724520d4d76107</p>
+                <p><strong>Paper Title:</strong> <a href="https://www.semanticscholar.org/paper/6ccfdf8d96f99e3489b4ea6139724520d4d76107" target="_blank">Pan-cancer analysis of somatic copy number alterations implicates IRS4 and IGF2 in enhancer hijacking</a></p>
+                <p><strong>Paper Venue:</strong> Nature Genetics</p>
+                <p><strong>Paper TL;DR:</strong> A framework for inferring cancer-related gene overexpression resulting from CRE reorganization by integrating SCNAs, gene expression data and information on topologically associating domains (TADs) is presented and enables systematic inference of CRE rearrangements mediating dysregulation in cancer.</p>
+                <p><strong>Paper Abstract:</strong> Extensive prior research focused on somatic copy-number alterations (SCNAs) affecting cancer genes, yet the extent to which recurrent SCNAs exert their influence through rearrangement of cis-regulatory elements (CREs) remains unclear. Here we present a framework for inferring cancer-related gene overexpression resulting from CRE reorganization (e.g., enhancer hijacking) by integrating SCNAs, gene expression data and information on topologically associating domains (TADs). Analysis of 7,416 cancer genomes uncovered several pan-cancer candidate genes, including IRS4, SMARCA1 and TERT. We demonstrate that IRS4 overexpression in lung cancer is associated with recurrent deletions in cis, and we present evidence supporting a tumor-promoting role. We additionally pursued cancer-type-specific analyses and uncovered IGF2 as a target for enhancer hijacking in colorectal cancer. Recurrent tandem duplications intersecting with a TAD boundary mediate de novo formation of a 3D contact domain comprising IGF2 and a lineage-specific super-enhancer, resulting in high-level gene activation. Our framework enables systematic inference of CRE rearrangements mediating dysregulation in cancer.</p>
+                <p><strong>Cost:</strong> 0.029</p>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>Extracted Data (Details)</h2>
+            <div class="extraction-instance-container" id="e2112.0">
+                <h3 class="extraction-instance">Extracted Data Instance 0 (e2112.0)</h3>
+                <div class="extraction-query"><strong>Extraction Query:</strong> Extract any mentions of hidden genomic, structural, regulatory, or assay-missed drivers in oncogene-negative lung adenocarcinoma.</div>
+                <table>
+                    <thead>
+                        <tr>
+                            <th style="width: 30%;">Field</th>
+                            <th style="width: 70%;">Value</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><strong>name_short</strong></td>
+                            <td>IRS4 cis-SCNA dysregulation</td>
+                        </tr>
+                        <tr>
+                            <td><strong>name_full</strong></td>
+                            <td>Insulin receptor substrate 4 (IRS4) dysregulation by recurrent cis structural alterations, including deletions and amplifications</td>
+                        </tr>
+                        <tr>
+                            <td><strong>brief_description</strong></td>
+                            <td>The paper identifies IRS4 as a pan-cancer cis-dysregulated locus, with recurrent deletions downstream of the gene and occasional focal amplifications associated with very strong IRS4 overexpression. In lung squamous carcinoma, the deletions intersect a TAD boundary/CTCF insulator region and are interpreted as causing enhancer access and active chromatin spreading rather than simple dosage change.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>citation_title</strong></td>
+                            <td>Pan-cancer analysis of somatic copy number alterations implicates IRS4 and IGF2 in enhancer hijacking</td>
+                        </tr>
+                        <tr>
+                            <td><strong>mention_or_use</strong></td>
+                            <td>use</td>
+                        </tr>
+                        <tr>
+                            <td><strong>oncogene_negative_definition</strong></td>
+                            <td>In the TCGA lung cohorts analyzed with CESAM, the paper notes that SCNAs associated with IRS4 overexpression are confined to lung squamous cell carcinoma (LUSC), with none of the TCGA lung adenocarcinoma samples exhibiting such events. The analysis used SNP6-derived SCNA breakpoint data integrated with matched RNA-seq expression from TCGA donors (7,416 donors total across 26 tumor types).</td>
+                        </tr>
+                        <tr>
+                            <td><strong>assay_strategy_and_detection_limits</strong></td>
+                            <td>Discovery was via CESAM, which integrates SNP6 array-derived SCNA breakpoints with matched RNA-seq, using TAD-binned cis association testing and copy-number-adjusted regression. The paper explicitly notes limitations of SNP6 arrays versus WGS for rearrangement resolution and that balanced translocations are incompletely captured by SCNA profiling; it also excludes high-level focal amplicons (copy-number >=4) from CESAM, which could miss super-enhancer amplification events.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>missed_driver_reclassified_after_broader_testing</strong></td>
+                            <td>Yes, in the sense that lung adenocarcinoma samples were initially negative for IRS4-associated SCNAs in the TCGA CESAM screen, but the paper does not report a later reclassification of a specific lung adenocarcinoma case. The broader point is that oncogene-negative by standard cohort analysis can hide regulatory drivers; here the rescued alteration is IRS4 cis deletion/duplication-associated dysregulation, uncovered by CESAM plus follow-up chromatin and 4C-seq validation in LUSC, not LUAD.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>driver_event_class</strong></td>
+                            <td>Enhancer hijacking / cis-regulatory dysregulation via recurrent structural alteration</td>
+                        </tr>
+                        <tr>
+                            <td><strong>candidate_driver_gene_or_locus</strong></td>
+                            <td>IRS4 locus on chrX; recurrent deletions cluster ~103 kb downstream of IRS4 and intersect a downstream TAD boundary/CTCF insulator region; occasional focal IRS4 amplifications were also observed.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>structural_or_regulatory_activation_mechanism</strong></td>
+                            <td>The authors propose TAD boundary or insulator loss-mediated spreading of active chromatin, with an already-established promoter-enhancer looping state becoming dysregulated when recurrent deletions remove boundary/insulator function. This permits access to a candidate enhancer downstream of IRS4 and raises H3K27ac at the promoter and enhancer.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>functional_consequence</strong></td>
+                            <td>Marked IRS4 transcriptional overexpression, on average ~400-fold in LUSC deletion carriers versus non-carriers, with pathway-level implication of PI3K/AKT signaling. The paper also reports tumor-promoting effects in vivo.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>co_alteration_or_combinatorial_requirement</strong></td>
+                            <td>IRS4 events are mutually exclusive with IRS2 expression to some extent in LUSC (inverse correlation noted), suggesting complementary PI3K/AKT activation roles. There is also co-occurrence of IRS4 cis deletions with FGFR1 amplifications in some samples, which the authors note may jointly reinforce PI3K/AKT signaling.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>human_prevalence_or_enrichment</strong></td>
+                            <td>Among TCGA lung cancers, IRS4-associated SCNAs occur in LUSC but not in lung adenocarcinoma samples. In LUSC, the recurrence level is reported as 4.4%, and the authors state 22 LUSC samples were observed with IRS4 cis SCNAs; across 10 tumor types, 48 samples showed IRS4 overexpression. In primary LUSC specimens, 11 of 94 (12%) showed >10-fold IRS4 overexpression by RT-qPCR.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>functional_or_clinical_validation</strong></td>
+                            <td>The paper provides in vivo validation: HCC-15 lung squamous cancer cells overexpressing IRS4 formed significantly larger xenograft tumors than controls in two mouse experiments. Additional support comes from RT-qPCR in primary LUSC, long-range paired-end sequencing identifying IRS4-proximal rearrangements in 9 of 10 IRS4-overexpressing specimens, ChIP-seq showing increased H3K27ac, and 4C-seq demonstrating physical proximity between the candidate enhancer and IRS4.</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="extraction-instance-container" id="e2112.1">
+                <h3 class="extraction-instance">Extracted Data Instance 1 (e2112.1)</h3>
+                <div class="extraction-query"><strong>Extraction Query:</strong> Extract any mentions of hidden genomic, structural, regulatory, or assay-missed drivers in oncogene-negative lung adenocarcinoma.</div>
+                <table>
+                    <thead>
+                        <tr>
+                            <th style="width: 30%;">Field</th>
+                            <th style="width: 70%;">Value</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><strong>name_short</strong></td>
+                            <td>IGF2 TanDup enhancer hijacking</td>
+                        </tr>
+                        <tr>
+                            <td><strong>name_full</strong></td>
+                            <td>IGF2 locus tandem duplication-mediated enhancer hijacking through de novo 3D contact domain formation</td>
+                        </tr>
+                        <tr>
+                            <td><strong>brief_description</strong></td>
+                            <td>The paper identifies a colorectal cancer mechanism in which single-copy tandem duplications spanning the IGF2 locus extend across a TAD boundary and reposition IGF2 next to a lineage-specific super-enhancer. This creates a new 3D contact domain that drives extreme IGF2 overexpression independent of simple copy-number gain.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>citation_title</strong></td>
+                            <td>Pan-cancer analysis of somatic copy number alterations implicates IRS4 and IGF2 in enhancer hijacking</td>
+                        </tr>
+                        <tr>
+                            <td><strong>mention_or_use</strong></td>
+                            <td>use</td>
+                        </tr>
+                        <tr>
+                            <td><strong>oncogene_negative_definition</strong></td>
+                            <td>The paper does not define a canonical driver-negative lung adenocarcinoma cohort for IGF2. Instead, it analyzes TCGA colorectal cancers using SNP6-derived SCNA calls and matched RNA-seq, identifying IGF2 dysregulation in tumors with nearby cis SCNAs.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>assay_strategy_and_detection_limits</strong></td>
+                            <td>CESAM was used for discovery from SNP6 arrays plus RNA-seq, followed by long-range paired-end sequencing to resolve structural rearrangements, ChIP-seq for H3K27ac and CTCF, 4C-seq for 3D interactions, and luciferase assays for enhancer function. A stated limitation is that CESAM does not consider recurrent focal amplicons with copy-number >=4, balanced translocations are incompletely captured by SCNA profiling, and standard copy-number calling alone could misinterpret the event as dosage increase.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>missed_driver_reclassified_after_broader_testing</strong></td>
+                            <td>Yes in a mechanistic sense: the recurrent IGF2 locus gains in CRC were previously thought to be recurrent focal amplifications, but broader testing reclassified the event as single-copy tandem duplications that create a new contact domain and enhancer hijacking mechanism. The rescued alteration was the TAD-spanning tandem duplication; it was missed initially because array-based copy-number analysis suggested dosage gain rather than structural/topological rewiring.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>driver_event_class</strong></td>
+                            <td>Enhancer hijacking via tandem duplication and de novo contact-domain formation</td>
+                        </tr>
+                        <tr>
+                            <td><strong>candidate_driver_gene_or_locus</strong></td>
+                            <td>IGF2 locus on chromosome 11, with a lineage-specific super-enhancer in the adjacent TAD and the known IGF2 cognate enhancer not being the active element in this context.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>structural_or_regulatory_activation_mechanism</strong></td>
+                            <td>Single-copy tandem duplications extend over a TAD boundary and bring IGF2 into physical contact with a normally inaccessible lineage-specific super-enhancer, generating a de novo 3D contact domain. Increased CTCF binding is consistent with boundary use in the rearranged locus.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>functional_consequence</strong></td>
+                            <td>Massive IGF2 overexpression, often >250-fold in CRC carriers. The super-enhancer, not the cognate IGF2 enhancer, is the dominant regulatory element in the duplication carriers.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>co_alteration_or_combinatorial_requirement</strong></td>
+                            <td>The key requirement is the combination of IGF2 locus duplication plus inclusion of the adjacent super-enhancer across the intervening TAD boundary. The paper also notes that larger IGF2 duplications that do not form this contact domain fail to produce appreciable IGF2 overexpression.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>human_prevalence_or_enrichment</strong></td>
+                            <td>In TCGA CRC, 22 of 378 tumors (6%) showed IGF2 upregulation with cis SCNAs; 20 had gains and 2 had focal deletions. The recurrent gains were typically single-copy duplications, and only one sample had higher-level amplification. The paper notes that three larger somatic duplications in TCGA did not produce appreciable IGF2 overexpression.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>functional_or_clinical_validation</strong></td>
+                            <td>Validation includes RT-qPCR showing outlier IGF2 expression in two primary CRC-derived spheroids, long-range paired-end sequencing confirming TAD-spanning tandem duplications, H3K27ac ChIP-seq showing enhancer activity, luciferase assays demonstrating activity of the super-enhancer fragments in CRC cells, and 4C-seq proving physical interaction between IGF2 and the super-enhancer only in duplication carriers.</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="extraction-instance-container" id="e2112.2">
+                <h3 class="extraction-instance">Extracted Data Instance 2 (e2112.2)</h3>
+                <div class="extraction-query"><strong>Extraction Query:</strong> Extract any mentions of hidden genomic, structural, regulatory, or assay-missed drivers in oncogene-negative lung adenocarcinoma.</div>
+                <table>
+                    <thead>
+                        <tr>
+                            <th style="width: 30%;">Field</th>
+                            <th style="width: 70%;">Value</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><strong>name_short</strong></td>
+                            <td>CESAM</td>
+                        </tr>
+                        <tr>
+                            <td><strong>name_full</strong></td>
+                            <td>Cis Expression Structural Alteration Mapping</td>
+                        </tr>
+                        <tr>
+                            <td><strong>brief_description</strong></td>
+                            <td>CESAM is the paper’s computational framework for discovering cis-regulatory driver events by integrating SCNA breakpoints with matched gene expression and TAD information. It is not itself a biological driver, but it is central to the detection of hidden, assay-missed regulatory alterations such as enhancer hijacking.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>citation_title</strong></td>
+                            <td>here</td>
+                        </tr>
+                        <tr>
+                            <td><strong>mention_or_use</strong></td>
+                            <td>use</td>
+                        </tr>
+                        <tr>
+                            <td><strong>oncogene_negative_definition</strong></td>
+                            <td>CESAM was applied to 7,416 TCGA donors with matched SNP6-derived SCNA and RNA-seq data across 26 tumor types, while excluding breast cancer because genomic inflation could not be adequately controlled. It searches for cis expression changes associated with structural breakpoints near genes, especially in recurrently altered TADs.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>assay_strategy_and_detection_limits</strong></td>
+                            <td>The strategy combines copy-number breakpoint genotyping, RNA-seq expression quantification, TAD-binned regression, independent filtering, and post hoc filtering for gene dosage and fusions. Limitations include SNP6 resolution rather than WGS, incomplete capture of balanced translocations, and exclusion of high-level focal amplicons (copy-number >=4), which can cause CESAM to miss super-enhancer amplification events.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>missed_driver_reclassified_after_broader_testing</strong></td>
+                            <td>The framework is explicitly designed to rescue drivers missed by standard recurrent SCNA analysis, reclassifying some deletions/gains as regulatory events rather than classic tumor suppressor/onco-gene dosage changes. In this paper it rescues IRS4 and IGF2 cis-regulatory drivers, including a locus that was previously interpreted as simple amplification.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>driver_event_class</strong></td>
+                            <td>Computational discovery framework for cis-regulatory structural alteration drivers</td>
+                        </tr>
+                        <tr>
+                            <td><strong>candidate_driver_gene_or_locus</strong></td>
+                            <td>Not applicable as a single locus; applied to IRS4, IGF2, TERT, SMARCA1, FAM135B and others.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>structural_or_regulatory_activation_mechanism</strong></td>
+                            <td>Associates expression outliers with nearby SCNA breakpoints within TADs, then interprets recurrent breakpoint patterns as enhancer hijacking, boundary disruption, or other cis-regulatory rewiring events.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>functional_consequence</strong></td>
+                            <td>Enables systematic inference of oncogenic gene dysregulation from structural alterations that may not change coding sequence or obvious copy number in a canonical way.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>co_alteration_or_combinatorial_requirement</strong></td>
+                            <td>Requires matched SCNA and RNA-seq data, TAD annotations, and filtering against direct dosage effects and recurrent fusions to prioritize likely cis-regulatory drivers.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>human_prevalence_or_enrichment</strong></td>
+                            <td>Across 7,416 genomes, CESAM identified 18 pan-cancer cis-regulatory candidate loci and 98 additional candidates in tumor-type-specific analyses. The paper argues that this indicates enhancer hijacking may be fairly common in cancer.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>functional_or_clinical_validation</strong></td>
+                            <td>Validated by applying the framework to IRS4 and IGF2 and then experimentally confirming the predicted regulatory mechanisms with ChIP-seq, 4C-seq, luciferase assays, and mouse xenografts.</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>Potentially Relevant New Papers (mentioned by this paper)</h2>
+            <ol>
+                <li>Activation of proto-oncogenes by disruption of chromosome neighborhoods <em>(Rating: 2)</em></li>
+                <li>Disruptions of topological chromatin domains cause pathogenic rewiring of gene-enhancer interactions <em>(Rating: 2)</em></li>
+                <li>Enhancer hijacking activates GFI1 family oncogenes in medulloblastoma <em>(Rating: 2)</em></li>
+                <li>TERT rearrangements are frequent in neuroblastoma and identify aggressive tumors <em>(Rating: 2)</em></li>
+                <li>The landscape and therapeutic relevance of cancer-associated transcript fusions <em>(Rating: 1)</em></li>
+            </ol>
+        </div>
+
+        </div>
+
+    </div>
+</body>
+</html>

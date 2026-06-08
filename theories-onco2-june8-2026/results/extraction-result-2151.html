@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Extraction extraction-result-2151 - Theorizer</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+    <div class="header">
+        <a href="../index.html"><i class="fas fa-flask"></i> Theorizer</a>
+    </div>
+
+    <div class="content">
+        <h1>Extracted Data Details for extraction-result-2151</h1>
+
+        <div class="section">
+            <h2>Extracted Data (Header)</h2>
+            <div class="info-section">
+                <p><strong>Extraction ID:</strong> extraction-result-2151</p>
+                <p><strong>Extraction Schema Used (ID):</strong> <a href="../schemas/extraction-schema-1843.html">extraction-schema-1843</a></p>
+                <div class="extraction-query"><strong>Extraction Query:</strong> Extract any mentions of hidden genomic, structural, regulatory, or assay-missed drivers in oncogene-negative lung adenocarcinoma.</div>
+                <p><strong>Paper ID:</strong> paper-6ccfdf8d96f99e3489b4ea6139724520d4d76107</p>
+                <p><strong>Paper Title:</strong> <a href="https://www.semanticscholar.org/paper/6ccfdf8d96f99e3489b4ea6139724520d4d76107" target="_blank">Pan-cancer analysis of somatic copy number alterations implicates IRS4 and IGF2 in enhancer hijacking</a></p>
+                <p><strong>Paper Venue:</strong> Nature Genetics</p>
+                <p><strong>Paper TL;DR:</strong> A framework for inferring cancer-related gene overexpression resulting from CRE reorganization by integrating SCNAs, gene expression data and information on topologically associating domains (TADs) is presented and enables systematic inference of CRE rearrangements mediating dysregulation in cancer.</p>
+                <p><strong>Paper Abstract:</strong> Extensive prior research focused on somatic copy-number alterations (SCNAs) affecting cancer genes, yet the extent to which recurrent SCNAs exert their influence through rearrangement of cis-regulatory elements (CREs) remains unclear. Here we present a framework for inferring cancer-related gene overexpression resulting from CRE reorganization (e.g., enhancer hijacking) by integrating SCNAs, gene expression data and information on topologically associating domains (TADs). Analysis of 7,416 cancer genomes uncovered several pan-cancer candidate genes, including IRS4, SMARCA1 and TERT. We demonstrate that IRS4 overexpression in lung cancer is associated with recurrent deletions in cis, and we present evidence supporting a tumor-promoting role. We additionally pursued cancer-type-specific analyses and uncovered IGF2 as a target for enhancer hijacking in colorectal cancer. Recurrent tandem duplications intersecting with a TAD boundary mediate de novo formation of a 3D contact domain comprising IGF2 and a lineage-specific super-enhancer, resulting in high-level gene activation. Our framework enables systematic inference of CRE rearrangements mediating dysregulation in cancer.</p>
+                <p><strong>Cost:</strong> 0.012</p>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>Extracted Data (Details)</h2>
+            <div class="extraction-instance-container" id="e2151.0">
+                <h3 class="extraction-instance">Extracted Data Instance 0 (e2151.0)</h3>
+                <div class="extraction-query"><strong>Extraction Query:</strong> Extract any mentions of hidden genomic, structural, regulatory, or assay-missed drivers in oncogene-negative lung adenocarcinoma.</div>
+                <table>
+                    <thead>
+                        <tr>
+                            <th style="width: 30%;">Field</th>
+                            <th style="width: 70%;">Value</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><strong>name_short</strong></td>
+                            <td>IGF2 tandem-duplication enhancer hijacking</td>
+                        </tr>
+                        <tr>
+                            <td><strong>name_full</strong></td>
+                            <td>IGF2 activation by tandem duplication-mediated de novo contact domain formation and super-enhancer hijacking</td>
+                        </tr>
+                        <tr>
+                            <td><strong>brief_description</strong></td>
+                            <td>The paper identifies recurrent single-copy tandem duplications at the IGF2 locus in colorectal cancer that span a TAD boundary and bring IGF2 into physical contact with a lineage-specific super-enhancer in the adjacent TAD. This creates a de novo 3D contact domain and drives extreme IGF2 overexpression, providing a hidden regulatory driver not explained by simple gene-dosage increase.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>citation_title</strong></td>
+                            <td>Pan-cancer analysis of somatic copy number alterations implicates IRS4 and IGF2 in enhancer hijacking</td>
+                        </tr>
+                        <tr>
+                            <td><strong>mention_or_use</strong></td>
+                            <td>use</td>
+                        </tr>
+                        <tr>
+                            <td><strong>oncogene_negative_definition</strong></td>
+                            <td>The paper does not define an explicit oncogene-negative CRC subset, but it compares IGF2-overexpressing CRCs carrying nearby SCNAs against CRC non-carrier controls from the same cohort. The relevant cohorts were TCGA colorectal cancers profiled by SNP6 copy-number arrays and RNA-seq, with validation in primary CRC-derived spheroids and targeted structural assays.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>assay_strategy_and_detection_limits</strong></td>
+                            <td>CESAM used SNP6 array-derived SCNA breakpoints, matched RNA-seq, TAD annotations, and then follow-up with RT-qPCR, long-range paired-end sequencing, ChIP-seq for H3K27ac and CTCF, 4C-seq, and luciferase enhancer assays. The authors explicitly note that CESAM does not consider recurrent focal amplicons with copy-number >=4 and does not systematically capture balanced translocations; SNP6 resolution is lower than WGS, so smaller or more complex rearrangements could be missed.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>missed_driver_reclassified_after_broader_testing</strong></td>
+                            <td>Yes. CRC cases initially thought to reflect IGF2 locus amplification/gene dosage were reclassified by broader testing as tandem-duplication-mediated enhancer hijacking. The rescued alteration was a single-copy tandem duplication spanning a TAD boundary and super-enhancer; it was missed initially because SNP6/standard copy-number interpretation suggested dosage gain, whereas long-range sequencing and 3D chromatin assays revealed a topological mechanism.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>driver_event_class</strong></td>
+                            <td>enhancer hijacking via tandem duplication and de novo contact domain formation</td>
+                        </tr>
+                        <tr>
+                            <td><strong>candidate_driver_gene_or_locus</strong></td>
+                            <td>IGF2 locus on chromosome 11, together with an adjacent lineage-specific super-enhancer in the neighboring TAD; the duplication spans the TAD boundary and excludes the known IGF2 cognate enhancer</td>
+                        </tr>
+                        <tr>
+                            <td><strong>structural_or_regulatory_activation_mechanism</strong></td>
+                            <td>Single-copy tandem duplications create a new 3D chromatin contact domain that places IGF2 and a normally inaccessible super-enhancer in the same looped regulatory neighborhood, enabling enhancer hijacking and bypassing the usual TAD separation.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>functional_consequence</strong></td>
+                            <td>Extreme IGF2 overexpression (>250-fold in carrier versus non-carrier CRCs), loss of interaction with the cognate enhancer, and acquisition of physical interaction with the super-enhancer; the locus is described as oncogenically dysregulated.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>co_alteration_or_combinatorial_requirement</strong></td>
+                            <td>The tandem duplication must span the intervening TAD boundary and include the lineage-specific super-enhancer; by comparison, larger IGF2 duplications that do not form the new contact domain did not produce appreciable overexpression. The paper also notes that IGF2 and miR-483 are jointly upregulated at this locus, but the enhancer-hijacking mechanism specifically explains IGF2 activation.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>human_prevalence_or_enrichment</strong></td>
+                            <td>In TCGA CRC, 22 of 378 tumors (6%) exhibited IGF2 upregulation with cis SCNAs. Among these, 20 had gains and 2 had focal deletions; most gains were single-copy duplications, with only one sample showing a higher-level amplification. In the spheroid validation set, 2 CRC-derived spheroids (CRCP5S and CRCP7S) showed IGF2 overexpression and matching tandem duplications.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>functional_or_clinical_validation</strong></td>
+                            <td>Long-range paired-end sequencing confirmed tandem duplications in CRCP5S and CRCP7S, matching SNP6 calls. ChIP-seq showed H3K27ac at the adjacent super-enhancer, luciferase assays demonstrated enhancer activity in CRC cells, and 4C-seq verified new physical interaction between IGF2 and the super-enhancer in carrier spheroids but not controls. The paper also showed that larger duplications lacking the topological reorganization did not appreciably upregulate IGF2, strengthening the causal claim.</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>Potentially Relevant New Papers (mentioned by this paper)</h2>
+            <ol>
+                <li>Enhancer hijacking activates GFI1 family oncogenes in medulloblastoma <em>(Rating: 2)</em></li>
+                <li>Telomerase activation by genomic rearrangements in high-risk neuroblastoma <em>(Rating: 2)</em></li>
+                <li>TERT rearrangements are frequent in neuroblastoma and identify aggressive tumors <em>(Rating: 2)</em></li>
+                <li>A Single Oncogenic Enhancer Rearrangement Causes Concomitant EVI1 and GATA2 Deregulation in Leukemia <em>(Rating: 2)</em></li>
+                <li>Activation of proto-oncogenes by disruption of chromosome neighborhoods <em>(Rating: 2)</em></li>
+                <li>Disruptions of topological chromatin domains cause pathogenic rewiring of gene-enhancer interactions <em>(Rating: 2)</em></li>
+            </ol>
+        </div>
+
+        </div>
+
+    </div>
+</body>
+</html>

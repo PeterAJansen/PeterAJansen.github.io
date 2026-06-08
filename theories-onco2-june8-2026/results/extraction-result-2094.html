@@ -1,0 +1,643 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Extraction extraction-result-2094 - Theorizer</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+    <div class="header">
+        <a href="../index.html"><i class="fas fa-flask"></i> Theorizer</a>
+    </div>
+
+    <div class="content">
+        <h1>Extracted Data Details for extraction-result-2094</h1>
+
+        <div class="section">
+            <h2>Extracted Data (Header)</h2>
+            <div class="info-section">
+                <p><strong>Extraction ID:</strong> extraction-result-2094</p>
+                <p><strong>Extraction Schema Used (ID):</strong> <a href="../schemas/extraction-schema-1843.html">extraction-schema-1843</a></p>
+                <div class="extraction-query"><strong>Extraction Query:</strong> Extract any mentions of hidden genomic, structural, regulatory, or assay-missed drivers in oncogene-negative lung adenocarcinoma.</div>
+                <p><strong>Paper ID:</strong> paper-e8a3190c700c4beac48794b11513c08cd39dd49e</p>
+                <p><strong>Paper Title:</strong> <a href="https://www.semanticscholar.org/paper/e8a3190c700c4beac48794b11513c08cd39dd49e" target="_blank">Comprehensive molecular profiling of lung adenocarcinoma</a></p>
+                <p><strong>Paper Venue:</strong> Nature</p>
+                <p><strong>Paper TL;DR:</strong> High rates of somatic mutation were seen, including RIT1 activating mutations and newly described loss-of-function MGA mutations which are mutually exclusive with focal MYC amplification, and MAPK and PI(3)K pathway activity was explained by known mutations in only a fraction of cases, suggesting additional, unexplained mechanisms of pathway activation.</p>
+                <p><strong>Paper Abstract:</strong> Adenocarcinoma of the lung is the leading cause of cancer death worldwide. Here we report molecular profiling of 230 resected lung adenocarcinomas using messenger RNA, microRNA and DNA sequencing integrated with copy number, methylation and proteomic analyses. High rates of somatic mutation were seen (mean 8.9 mutations per megabase). Eighteen genes were statistically significantly mutated, including RIT1 activating mutations and newly described loss-of-function MGA mutations which are mutually exclusive with focal MYC amplification. EGFR mutations were more frequent in female patients, whereas mutations in RBM10 were more common in males. Aberrations in NF1, MET, ERBB2 and RIT1 occurred in 13% of cases and were enriched in samples otherwise lacking an activated oncogene, suggesting a driver role for these events in certain tumours. DNA and mRNA sequence from the same tumour highlighted splicing alterations driven by somatic genomic changes, including exon 14 skipping in MET mRNA in 4% of cases. MAPK and PI(3)K pathway activity, when measured at the protein level, was explained by known mutations in only a fraction of cases, suggesting additional, unexplained mechanisms of pathway activation. These data establish a foundation for classification and further investigations of lung adenocarcinoma molecular pathogenesis.</p>
+                <p><strong>Cost:</strong> 0.032</p>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>Extracted Data (Details)</h2>
+            <div class="extraction-instance-container" id="e2094.0">
+                <h3 class="extraction-instance">Extracted Data Instance 0 (e2094.0)</h3>
+                <div class="extraction-query"><strong>Extraction Query:</strong> Extract any mentions of hidden genomic, structural, regulatory, or assay-missed drivers in oncogene-negative lung adenocarcinoma.</div>
+                <table>
+                    <thead>
+                        <tr>
+                            <th style="width: 30%;">Field</th>
+                            <th style="width: 70%;">Value</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><strong>name_short</strong></td>
+                            <td>MET amp</td>
+                        </tr>
+                        <tr>
+                            <td><strong>name_full</strong></td>
+                            <td>Focal MET amplification</td>
+                        </tr>
+                        <tr>
+                            <td><strong>brief_description</strong></td>
+                            <td>A focal copy-number gain of the MET receptor tyrosine kinase locus was found specifically in the oncogene-negative subset of lung adenocarcinomas. The authors interpret it as a previously unrecognized candidate driver event that can activate RTK/RAS/RAF signaling in otherwise driver-negative tumors.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>citation_title</strong></td>
+                            <td>Comprehensive molecular profiling of lung adenocarcinoma</td>
+                        </tr>
+                        <tr>
+                            <td><strong>mention_or_use</strong></td>
+                            <td>use</td>
+                        </tr>
+                        <tr>
+                            <td><strong>oncogene_negative_definition</strong></td>
+                            <td>The oncogene-negative cohort consisted of 87/230 TCGA lung adenocarcinomas lacking a known activating RTK/RAS/RAF pathway event. The paper states that tumours were considered oncogene-positive if they harboured known activating mutations in KRAS, EGFR, BRAF, ERBB2, MAP2K1, NRAS, HRAS, MET exon 14 skipping, or fusions involving ROS1, ALK, or RET; DNA amplification events were not considered driver events before the comparison. Oncogene-negative status was therefore defined after integrating WES, RNA-seq, and copy-number analysis against these canonical drivers.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>assay_strategy_and_detection_limits</strong></td>
+                            <td>Discovery used WES on tumor/normal pairs, RNA sequencing to detect fusions and exon skipping, and GISTIC copy-number analysis. A limitation explicitly noted is that DNA amplification events were not counted as drivers in the initial oncogene-positive/negative classification, so focal amplifications could be 'hidden' until the copy-number comparison; the paper also emphasizes that DNA sequencing alone missed some pathway-activated tumors, and that protein-level pathway activity revealed additional cases without obvious genomic lesions.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>missed_driver_reclassified_after_broader_testing</strong></td>
+                            <td>Yes. Tumors initially classed as oncogene-negative were reclassified when broader copy-number analysis identified unique focal MET amplifications in this subset. These were missed in the initial canonical oncogene screen because amplifications were not considered driver events before the comparison.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>driver_event_class</strong></td>
+                            <td>Focal amplification / copy-number gain</td>
+                        </tr>
+                        <tr>
+                            <td><strong>candidate_driver_gene_or_locus</strong></td>
+                            <td>MET</td>
+                        </tr>
+                        <tr>
+                            <td><strong>structural_or_regulatory_activation_mechanism</strong></td>
+                            <td>Dosage increase of the MET locus, leading to increased receptor abundance and pathway activation.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>functional_consequence</strong></td>
+                            <td>Proposed activation of the RTK/RAS/RAF signaling pathway in oncogene-negative lung adenocarcinoma.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>co_alteration_or_combinatorial_requirement</strong></td>
+                            <td>The paper does not specify a required cooperating alteration for MET-amplified tumors. It places MET amplification alongside other oncogene-negative-enriched events (ERBB2 amplification, NF1 and RIT1 mutations) as alternative mechanisms of RTK/RAS/RAF activation.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>human_prevalence_or_enrichment</strong></td>
+                            <td>Reported as unique focal amplifications specific to the oncogene-negative subset (n=87). The paper does not give a precise percentage for MET amplification alone in the text provided, but it states that MET amplifications were significant in oncogene-negative tumors and contributed to the overall 76% RTK/RAS/RAF activation rate.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>functional_or_clinical_validation</strong></td>
+                            <td>Validation is primarily inferential from recurrent focal enrichment in oncogene-negative tumors and pathway-context interpretation. The paper does not report a dedicated functional assay for MET amplification itself in this study, but it frames MET amplification as a candidate driver based on recurrence and pathway logic.</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="extraction-instance-container" id="e2094.1">
+                <h3 class="extraction-instance">Extracted Data Instance 1 (e2094.1)</h3>
+                <div class="extraction-query"><strong>Extraction Query:</strong> Extract any mentions of hidden genomic, structural, regulatory, or assay-missed drivers in oncogene-negative lung adenocarcinoma.</div>
+                <table>
+                    <thead>
+                        <tr>
+                            <th style="width: 30%;">Field</th>
+                            <th style="width: 70%;">Value</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><strong>name_short</strong></td>
+                            <td>ERBB2 amp</td>
+                        </tr>
+                        <tr>
+                            <td><strong>name_full</strong></td>
+                            <td>Focal ERBB2 amplification</td>
+                        </tr>
+                        <tr>
+                            <td><strong>brief_description</strong></td>
+                            <td>A focal amplification of ERBB2 was found specifically in oncogene-negative lung adenocarcinomas. The authors nominate it as a hidden driver event and suggest it may be targetable with HER2/ERBB2-directed therapy.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>citation_title</strong></td>
+                            <td>Comprehensive molecular profiling of lung adenocarcinoma</td>
+                        </tr>
+                        <tr>
+                            <td><strong>mention_or_use</strong></td>
+                            <td>use</td>
+                        </tr>
+                        <tr>
+                            <td><strong>oncogene_negative_definition</strong></td>
+                            <td>Same oncogene-negative cohort definition as above: tumors lacking known activating KRAS, EGFR, BRAF, ERBB2 point/insertion driver events, MAP2K1, NRAS, HRAS, MET exon 14 skipping, or ALK/ROS1/RET fusions by integrated DNA/RNA analysis, with DNA amplifications not initially counted as drivers.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>assay_strategy_and_detection_limits</strong></td>
+                            <td>Detected by GISTIC copy-number analysis after the initial driver-classification framework. The paper notes that DNA amplification events were not considered driver events before the oncogene-positive/negative comparison, which is the key blind spot allowing these events to be 'hidden' in the original negative group.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>missed_driver_reclassified_after_broader_testing</strong></td>
+                            <td>Yes. Focal ERBB2 amplification in tumors initially called oncogene-negative was revealed by broader copy-number analysis. The reason it was missed initially was that amplification events were excluded from the original driver classification.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>driver_event_class</strong></td>
+                            <td>Focal amplification / copy-number gain</td>
+                        </tr>
+                        <tr>
+                            <td><strong>candidate_driver_gene_or_locus</strong></td>
+                            <td>ERBB2 (HER2)</td>
+                        </tr>
+                        <tr>
+                            <td><strong>structural_or_regulatory_activation_mechanism</strong></td>
+                            <td>Dosage increase of ERBB2, increasing receptor tyrosine kinase signaling.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>functional_consequence</strong></td>
+                            <td>Implied activation of the RTK/RAS/RAF pathway; the authors specifically recommend greater implementation of ERBB2/HER2 inhibitors.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>co_alteration_or_combinatorial_requirement</strong></td>
+                            <td>No required co-alteration is specified for the amplification itself. It is grouped with MET amplification as an oncogene-negative-enriched RTK driver.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>human_prevalence_or_enrichment</strong></td>
+                            <td>Unique focal amplifications were specific to the oncogene-negative subset (n=87). The text does not state an exact frequency for ERBB2 amplification alone in the excerpt, but it is described as significant in that subset.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>functional_or_clinical_validation</strong></td>
+                            <td>Supported by recurrence in oncogene-negative tumors and therapeutic interpretability, but no direct functional experiment on ERBB2 amplification is reported in this study.</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="extraction-instance-container" id="e2094.2">
+                <h3 class="extraction-instance">Extracted Data Instance 2 (e2094.2)</h3>
+                <div class="extraction-query"><strong>Extraction Query:</strong> Extract any mentions of hidden genomic, structural, regulatory, or assay-missed drivers in oncogene-negative lung adenocarcinoma.</div>
+                <table>
+                    <thead>
+                        <tr>
+                            <th style="width: 30%;">Field</th>
+                            <th style="width: 70%;">Value</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><strong>name_short</strong></td>
+                            <td>NF1 LOF</td>
+                        </tr>
+                        <tr>
+                            <td><strong>name_full</strong></td>
+                            <td>NF1 loss-of-function mutation</td>
+                        </tr>
+                        <tr>
+                            <td><strong>brief_description</strong></td>
+                            <td>Loss-of-function mutations in NF1 were enriched among oncogene-negative tumors and interpreted as driver events that activate RTK/RAS/RAF signaling by relieving negative regulation of RAS. The study states it identified all classes of NF1 loss-of-function defects.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>citation_title</strong></td>
+                            <td>Comprehensive molecular profiling of lung adenocarcinoma</td>
+                        </tr>
+                        <tr>
+                            <td><strong>mention_or_use</strong></td>
+                            <td>use</td>
+                        </tr>
+                        <tr>
+                            <td><strong>oncogene_negative_definition</strong></td>
+                            <td>Oncogene-negative tumors were those without known activating RTK/RAS/RAF oncogenes by WES/RNA-seq/copy-number integrated screening. NF1 was then tested independently in the oncogene-negative and oncogene-positive subsets.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>assay_strategy_and_detection_limits</strong></td>
+                            <td>Whole-exome sequencing was used to identify coding NF1 defects. The authors note a prior limitation in the field and emphasize that this study was the first capable of identifying all classes of loss-of-function NF1 defects, implying earlier assays may have missed noncanonical loss-of-function alleles or the full spectrum of inactivating variants.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>missed_driver_reclassified_after_broader_testing</strong></td>
+                            <td>Yes, at the level of the cohort: NF1 mutations were enriched in tumors initially lacking canonical oncogene lesions. The paper does not describe an individual tumor rescue from a specific assay failure, but it does state that broader analysis enabled detection of all classes of NF1 loss-of-function defects and their enrichment in the negative subset.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>driver_event_class</strong></td>
+                            <td>Loss-of-function mutation</td>
+                        </tr>
+                        <tr>
+                            <td><strong>candidate_driver_gene_or_locus</strong></td>
+                            <td>NF1</td>
+                        </tr>
+                        <tr>
+                            <td><strong>structural_or_regulatory_activation_mechanism</strong></td>
+                            <td>Biallelic or functional loss of neurofibromin-mediated negative regulation of RAS, releasing RTK/RAS/RAF pathway activity.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>functional_consequence</strong></td>
+                            <td>Activation of MAPK and PI(3)K signaling via RAS pathway derepression.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>co_alteration_or_combinatorial_requirement</strong></td>
+                            <td>The paper does not specify a mandatory second hit, but treats NF1 loss as one of several mutually informative RTK/RAS/RAF-activating events in oncogene-negative tumors.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>human_prevalence_or_enrichment</strong></td>
+                            <td>NF1 mutations occurred in 11% of all cases overall and were significantly enriched in oncogene-negative tumors (P < 0.01).</td>
+                        </tr>
+                        <tr>
+                            <td><strong>functional_or_clinical_validation</strong></td>
+                            <td>No direct functional assay was performed for the NF1 lesions in this paper, but the authors cite NF1 as a driver-class event based on enrichment in oncogene-negative tumors and known biology of RAS pathway inhibition.</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="extraction-instance-container" id="e2094.3">
+                <h3 class="extraction-instance">Extracted Data Instance 3 (e2094.3)</h3>
+                <div class="extraction-query"><strong>Extraction Query:</strong> Extract any mentions of hidden genomic, structural, regulatory, or assay-missed drivers in oncogene-negative lung adenocarcinoma.</div>
+                <table>
+                    <thead>
+                        <tr>
+                            <th style="width: 30%;">Field</th>
+                            <th style="width: 70%;">Value</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><strong>name_short</strong></td>
+                            <td>RIT1 mut</td>
+                        </tr>
+                        <tr>
+                            <td><strong>name_full</strong></td>
+                            <td>RIT1 activating mutation</td>
+                        </tr>
+                        <tr>
+                            <td><strong>brief_description</strong></td>
+                            <td>Activating mutations in RIT1 were found exclusively in the oncogene-negative subset and clustered around residue Q79. The authors show these mutations transform NIH3T3 cells and activate MAPK and PI(3)K signaling, supporting a driver role.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>citation_title</strong></td>
+                            <td>Comprehensive molecular profiling of lung adenocarcinoma</td>
+                        </tr>
+                        <tr>
+                            <td><strong>mention_or_use</strong></td>
+                            <td>use</td>
+                        </tr>
+                        <tr>
+                            <td><strong>oncogene_negative_definition</strong></td>
+                            <td>Oncogene-negative tumors lacked the canonical activating RTK/RAS/RAF events defined in the study, and RIT1 mutations were analyzed within this subset.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>assay_strategy_and_detection_limits</strong></td>
+                            <td>Detected by whole-exome sequencing and confirmed in the integrated mutational analysis. Because RIT1 was not previously a common canonical driver, it represents a less obvious genomic driver that could be missed by narrower panels focused only on established oncogenes.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>missed_driver_reclassified_after_broader_testing</strong></td>
+                            <td>Yes. Tumors initially considered driver-negative were found to harbor RIT1 mutations after broad WES-based discovery. The hidden nature of the event stemmed from it being a newly described, uncommon driver rather than a canonical pre-specified one.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>driver_event_class</strong></td>
+                            <td>Rare activating SNV / clustered missense mutation</td>
+                        </tr>
+                        <tr>
+                            <td><strong>candidate_driver_gene_or_locus</strong></td>
+                            <td>RIT1 (cluster around residue Q79)</td>
+                        </tr>
+                        <tr>
+                            <td><strong>structural_or_regulatory_activation_mechanism</strong></td>
+                            <td>Activating missense changes in the switch-II-like region, homologous to Q61 in RAS, likely alter GTPase signaling regulation.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>functional_consequence</strong></td>
+                            <td>Transforms NIH3T3 cells and activates MAPK and PI(3)K signaling.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>co_alteration_or_combinatorial_requirement</strong></td>
+                            <td>All RIT1 mutations occurred in the oncogene-negative subset; the paper does not specify a required cooperating alteration.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>human_prevalence_or_enrichment</strong></td>
+                            <td>RIT1 mutations were seen in 2% of cases overall and were significantly enriched in oncogene-negative tumors; all RIT1 mutations occurred in that subset.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>functional_or_clinical_validation</strong></td>
+                            <td>Direct functional validation was reported: transformation of NIH3T3 cells and activation of MAPK and PI(3)K signaling.</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="extraction-instance-container" id="e2094.4">
+                <h3 class="extraction-instance">Extracted Data Instance 4 (e2094.4)</h3>
+                <div class="extraction-query"><strong>Extraction Query:</strong> Extract any mentions of hidden genomic, structural, regulatory, or assay-missed drivers in oncogene-negative lung adenocarcinoma.</div>
+                <table>
+                    <thead>
+                        <tr>
+                            <th style="width: 30%;">Field</th>
+                            <th style="width: 70%;">Value</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><strong>name_short</strong></td>
+                            <td>MET exon 14</td>
+                        </tr>
+                        <tr>
+                            <td><strong>name_full</strong></td>
+                            <td>MET exon 14 skipping</td>
+                        </tr>
+                        <tr>
+                            <td><strong>brief_description</strong></td>
+                            <td>Somatic DNA lesions leading to MET exon 14 skipping were identified by combined DNA and RNA sequencing. This is a structural/splicing-based hidden driver mechanism because the oncogenic consequence is expressed at the RNA level and can be missed without transcript analysis.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>citation_title</strong></td>
+                            <td>Comprehensive molecular profiling of lung adenocarcinoma</td>
+                        </tr>
+                        <tr>
+                            <td><strong>mention_or_use</strong></td>
+                            <td>use</td>
+                        </tr>
+                        <tr>
+                            <td><strong>oncogene_negative_definition</strong></td>
+                            <td>These tumors were not classified as oncogene-negative once MET exon 14 skipping was identified, because the paper explicitly counted MET exon 14 skipping as a known activating RTK/RAS/RAF somatic event defining oncogene-positive status.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>assay_strategy_and_detection_limits</strong></td>
+                            <td>The event was discovered only through integration of DNA sequencing with mRNA sequencing. The paper notes that ten tumors had somatic MET DNA alterations with exon 14 skipping in RNA; in nine, a 5' or 3' splice site mutation or deletion was found, and in one the mechanism remained unclear. This illustrates a blind spot of DNA-only testing and the need for transcript-level assays to detect functional exon skipping.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>missed_driver_reclassified_after_broader_testing</strong></td>
+                            <td>Yes. Tumors that might otherwise appear driver-negative were reclassified as oncogene-positive once RNA-seq revealed MET exon 14 skipping. The mechanism was missed initially because it required RNA-level detection and, in one case, the causal DNA lesion did not obviously explain the skipping.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>driver_event_class</strong></td>
+                            <td>Splice-site mutation/deletion causing exon skipping</td>
+                        </tr>
+                        <tr>
+                            <td><strong>candidate_driver_gene_or_locus</strong></td>
+                            <td>MET exon 14</td>
+                        </tr>
+                        <tr>
+                            <td><strong>structural_or_regulatory_activation_mechanism</strong></td>
+                            <td>Cis-acting splice-site disruption or deletion causes skipping of exon 14, producing a stabilized MET protein.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>functional_consequence</strong></td>
+                            <td>Stabilized MET receptor and pathway activation.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>co_alteration_or_combinatorial_requirement</strong></td>
+                            <td>Ten tumors had MET DNA alterations with exon 14 skipping in RNA; in nine, a splice-site mutation or deletion was identified. One case involved MET Y1003* with an unknown skipping mechanism.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>human_prevalence_or_enrichment</strong></td>
+                            <td>MET exon 14 skipping occurred in 4% of cases in the abstract and in ten tumors in the detailed text; it was found among oncogene-negative tumors before reclassification as oncogene-positive.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>functional_or_clinical_validation</strong></td>
+                            <td>Validation consisted of matched DNA/RNA evidence linking somatic alterations to exon 14 skipping and the known biology of MET exon 14 skipping as an activating event.</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="extraction-instance-container" id="e2094.5">
+                <h3 class="extraction-instance">Extracted Data Instance 5 (e2094.5)</h3>
+                <div class="extraction-query"><strong>Extraction Query:</strong> Extract any mentions of hidden genomic, structural, regulatory, or assay-missed drivers in oncogene-negative lung adenocarcinoma.</div>
+                <table>
+                    <thead>
+                        <tr>
+                            <th style="width: 30%;">Field</th>
+                            <th style="width: 70%;">Value</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><strong>name_short</strong></td>
+                            <td>MET Y1003*</td>
+                        </tr>
+                        <tr>
+                            <td><strong>name_full</strong></td>
+                            <td>MET Y1003 stop-codon mutation associated with exon 14 skipping</td>
+                        </tr>
+                        <tr>
+                            <td><strong>brief_description</strong></td>
+                            <td>A MET nonsense mutation at Y1003 was associated with exon 14 skipping in RNA. The paper proposes that this coding change may disrupt splicing enhancer sequences, revealing a noncanonical, assay-missed splicing driver mechanism.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>citation_title</strong></td>
+                            <td>Comprehensive molecular profiling of lung adenocarcinoma</td>
+                        </tr>
+                        <tr>
+                            <td><strong>mention_or_use</strong></td>
+                            <td>use</td>
+                        </tr>
+                        <tr>
+                            <td><strong>oncogene_negative_definition</strong></td>
+                            <td>This event was identified in a tumor otherwise part of the broader driver-discovery workflow; it is not part of the final oncogene-negative set because MET exon 14 skipping is treated as an activating driver event.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>assay_strategy_and_detection_limits</strong></td>
+                            <td>Detected only after combining DNA and mRNA sequencing. The authors state that the codon affected by Y1003* is predicted to disrupt multiple splicing enhancer sequences, but the mechanism of skipping remains unknown, highlighting how a coding mutation can act through an unanticipated RNA-splicing mechanism that would be missed by annotation focused only on protein truncation.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>missed_driver_reclassified_after_broader_testing</strong></td>
+                            <td>Yes. A tumor with a MET Y1003* mutation was reinterpreted through RNA analysis as having MET exon 14 skipping. The hidden mechanism was missed initially because the DNA alteration did not immediately reveal its splicing consequence.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>driver_event_class</strong></td>
+                            <td>Nonsense mutation with cryptic splicing effect</td>
+                        </tr>
+                        <tr>
+                            <td><strong>candidate_driver_gene_or_locus</strong></td>
+                            <td>MET Y1003*</td>
+                        </tr>
+                        <tr>
+                            <td><strong>structural_or_regulatory_activation_mechanism</strong></td>
+                            <td>Predicted disruption of splicing enhancer sequences leading to exon 14 skipping.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>functional_consequence</strong></td>
+                            <td>MET exon 14 skipping and likely receptor stabilization/activation.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>co_alteration_or_combinatorial_requirement</strong></td>
+                            <td>No additional cooperating alteration is specified beyond the Y1003* mutation itself causing skipping.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>human_prevalence_or_enrichment</strong></td>
+                            <td>Mentioned as one of the MET exon 14 skipping cases among ten tumors with MET DNA alterations and skipping; no separate frequency is given.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>functional_or_clinical_validation</strong></td>
+                            <td>Supported by matched RNA evidence showing exon 14 skipping in the tumor carrying MET Y1003*.</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="extraction-instance-container" id="e2094.6">
+                <h3 class="extraction-instance">Extracted Data Instance 6 (e2094.6)</h3>
+                <div class="extraction-query"><strong>Extraction Query:</strong> Extract any mentions of hidden genomic, structural, regulatory, or assay-missed drivers in oncogene-negative lung adenocarcinoma.</div>
+                <table>
+                    <thead>
+                        <tr>
+                            <th style="width: 30%;">Field</th>
+                            <th style="width: 70%;">Value</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><strong>name_short</strong></td>
+                            <td>U2AF1 S34F</td>
+                        </tr>
+                        <tr>
+                            <td><strong>name_full</strong></td>
+                            <td>U2AF1 S34F splicing-factor mutation</td>
+                        </tr>
+                        <tr>
+                            <td><strong>brief_description</strong></td>
+                            <td>Recurrent U2AF1 S34F mutations were linked to a characteristic set of alternative splicing changes, including altered splicing of CTNNB1. This is a regulatory driver class that may be missed if only DNA-coding events are considered without transcriptome analysis.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>citation_title</strong></td>
+                            <td>Comprehensive molecular profiling of lung adenocarcinoma</td>
+                        </tr>
+                        <tr>
+                            <td><strong>mention_or_use</strong></td>
+                            <td>use</td>
+                        </tr>
+                        <tr>
+                            <td><strong>oncogene_negative_definition</strong></td>
+                            <td>U2AF1-mutant tumors were not the primary oncogene-negative cohort definition, but the study notes that U2AF1 mutations were common among tumors and could contribute to cancer phenotypes via RNA-processing alterations.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>assay_strategy_and_detection_limits</strong></td>
+                            <td>WES identified U2AF1 S34F mutations, and RNA-seq was essential to detect the 129 splicing events associated with these mutations. The paper explicitly describes the power of concurrent DNA and RNA analysis to delineate cis and trans RNA-processing mechanisms, implying a blind spot for DNA-only assays.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>missed_driver_reclassified_after_broader_testing</strong></td>
+                            <td>Partially. The study did not reclassify these as oncogene-negative tumors, but it did reveal functional consequences of the U2AF1 mutation that would be missed without RNA-seq, including a large set of associated splicing events.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>driver_event_class</strong></td>
+                            <td>Splicing-factor mutation</td>
+                        </tr>
+                        <tr>
+                            <td><strong>candidate_driver_gene_or_locus</strong></td>
+                            <td>U2AF1 S34F</td>
+                        </tr>
+                        <tr>
+                            <td><strong>structural_or_regulatory_activation_mechanism</strong></td>
+                            <td>Alteration of 3'-splice-site recognition by the U2AF1 splicing factor.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>functional_consequence</strong></td>
+                            <td>129 splicing events, mainly cassette exons and alternative 3' splice sites, with alternative splicing of CTNNB1 specifically associated with U2AF1 mutation.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>co_alteration_or_combinatorial_requirement</strong></td>
+                            <td>No specific cooperating alteration is reported, though the analysis emphasizes trans-acting splicing effects.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>human_prevalence_or_enrichment</strong></td>
+                            <td>Eight samples harboured U2AF1 S34F.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>functional_or_clinical_validation</strong></td>
+                            <td>Validated by transcriptome-wide association of 129 splicing events with U2AF1 S34F status and consistency with known U2AF1 splice-site biology.</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="extraction-instance-container" id="e2094.7">
+                <h3 class="extraction-instance">Extracted Data Instance 7 (e2094.7)</h3>
+                <div class="extraction-query"><strong>Extraction Query:</strong> Extract any mentions of hidden genomic, structural, regulatory, or assay-missed drivers in oncogene-negative lung adenocarcinoma.</div>
+                <table>
+                    <thead>
+                        <tr>
+                            <th style="width: 30%;">Field</th>
+                            <th style="width: 70%;">Value</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><strong>name_short</strong></td>
+                            <td>MGA LOF</td>
+                        </tr>
+                        <tr>
+                            <td><strong>name_full</strong></td>
+                            <td>Loss-of-function mutation of MGA</td>
+                        </tr>
+                        <tr>
+                            <td><strong>brief_description</strong></td>
+                            <td>Recurrent loss-of-function mutations in MGA were newly described in this study and were mutually exclusive with focal MYC amplification. The authors suggest this provides a hitherto unappreciated mechanism of MYC pathway activation.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>citation_title</strong></td>
+                            <td>Comprehensive molecular profiling of lung adenocarcinoma</td>
+                        </tr>
+                        <tr>
+                            <td><strong>mention_or_use</strong></td>
+                            <td>use</td>
+                        </tr>
+                        <tr>
+                            <td><strong>oncogene_negative_definition</strong></td>
+                            <td>Not a canonical oncogene-negative RTK/RAS/RAF event, but a newly identified hidden driver-like alteration that was discovered through broad WES analysis.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>assay_strategy_and_detection_limits</strong></td>
+                            <td>Detected by WES and statistical mutation analysis across 412 tumor/normal pairs. The paper emphasizes it as newly described, implying that narrower pre-existing driver lists would have missed it.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>missed_driver_reclassified_after_broader_testing</strong></td>
+                            <td>Yes, in the sense of discovery of a previously unappreciated driver-like event. The paper does not describe a specific tumor being reclassified from driver-negative to driver-positive by this alteration in the main text.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>driver_event_class</strong></td>
+                            <td>Loss-of-function mutation</td>
+                        </tr>
+                        <tr>
+                            <td><strong>candidate_driver_gene_or_locus</strong></td>
+                            <td>MGA</td>
+                        </tr>
+                        <tr>
+                            <td><strong>structural_or_regulatory_activation_mechanism</strong></td>
+                            <td>Inactivation of a Max-interacting MYC-pathway regulator, relieving suppression of MYC-pathway activity.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>functional_consequence</strong></td>
+                            <td>Potential MYC pathway activation.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>co_alteration_or_combinatorial_requirement</strong></td>
+                            <td>Loss-of-function MGA mutations were mutually exclusive with focal MYC amplification.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>human_prevalence_or_enrichment</strong></td>
+                            <td>Recurrent mutations occurred in 8% of samples; LOF frameshift and nonsense mutations were mutually exclusive with focal MYC amplification (Fisher's exact P = 0.04).</td>
+                        </tr>
+                        <tr>
+                            <td><strong>functional_or_clinical_validation</strong></td>
+                            <td>Support is based on recurrence, mutual exclusivity with MYC amplification, and known pathway biology; no direct functional assay is described in this paper.</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>Potentially Relevant New Papers (mentioned by this paper)</h2>
+            <ol>
+                <li>Somatic mutations affect key pathways in lung adenocarcinoma <em>(Rating: 2)</em></li>
+                <li>Mapping the hallmarks of lung adenocarcinoma with massively parallel sequencing <em>(Rating: 2)</em></li>
+                <li>The transcriptional landscape and mutational profile of lung adenocarcinoma <em>(Rating: 2)</em></li>
+                <li>Comprehensive genomic characterization of squamous cell lung cancers <em>(Rating: 1)</em></li>
+            </ol>
+        </div>
+
+        </div>
+
+    </div>
+</body>
+</html>

@@ -1,0 +1,735 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Extraction extraction-result-1896 - Theorizer</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+    <div class="header">
+        <a href="../index.html"><i class="fas fa-flask"></i> Theorizer</a>
+    </div>
+
+    <div class="content">
+        <h1>Extracted Data Details for extraction-result-1896</h1>
+
+        <div class="section">
+            <h2>Extracted Data (Header)</h2>
+            <div class="info-section">
+                <p><strong>Extraction ID:</strong> extraction-result-1896</p>
+                <p><strong>Extraction Schema Used (ID):</strong> <a href="../schemas/extraction-schema-1841.html">extraction-schema-1841</a></p>
+                <div class="extraction-query"><strong>Extraction Query:</strong> Extract any mentions of driver-negative or oncogene-negative lung adenocarcinoma cases, cohorts, models, or subgroups; the evidence for why they are considered driver-negative; candidate alternative drivers or mechanisms; proposed subtypes; validation strategies; comparisons to other cancers; and therapeutic implications.</div>
+                <p><strong>Paper ID:</strong> paper-e7857e99530ddf2ad66db2168d5084de0ce25d5b</p>
+                <p><strong>Paper Title:</strong> <a href="https://www.semanticscholar.org/paper/e7857e99530ddf2ad66db2168d5084de0ce25d5b" target="_blank">Proteogenomics of non-small cell lung cancer reveals molecular subtypes associated with specific therapeutic targets and immune evasion mechanisms</a></p>
+                <p><strong>Paper Venue:</strong> Nature Cancer</p>
+                <p><strong>Paper TL;DR:</strong> Proteogenomic analysis of non-small cell lung cancer is performed and molecular subtypes with distinct immune-evasion mechanisms and therapeutic targets are identified and classification method is developed and validated in separate clinical cohorts.</p>
+                <p><strong>Paper Abstract:</strong> Despite major advancements in lung cancer treatment, long-term survival is still rare and a deeper understanding of molecular phenotypes would allow the identification of specific cancer dependencies and immune-evasion mechanisms. Here we performed in-depth mass-spectrometry-based proteogenomic analysis of 141 tumors representing all major histologies of non-small cell lung cancer (NSCLC). We identified six distinct proteome subtypes with striking differences in immune cell composition and subtype-specific expression of immune checkpoints. Unexpectedly, high neoantigen burden was linked to global hypomethylation and complex neoantigens mapped to genomic regions, such as endogenous retroviral elements and introns, in immune-cold subtypes. Further, we linked immune evasion with LAG-3 via STK11 mutation-dependent HNF1A activation and FGL1 expression. Finally, we develop a data-independent acquisition mass-spectrometry-based NSCLC subtype classification method, validate it in an independent cohort of 208 NSCLC cases and demonstrate its clinical utility by analyzing an additional cohort of 84 late-stage NSCLC biopsy samples. Lehtiö and colleagues perform proteogenomic analysis of non-small cell lung cancer and identify molecular subtypes with distinct immune-evasion mechanisms and therapeutic targets and validate their classification method in separate clinical cohorts.</p>
+                <p><strong>Cost:</strong> 0.044</p>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>Extracted Data (Details)</h2>
+            <div class="extraction-instance-container" id="e1896.0">
+                <h3 class="extraction-instance">Extracted Data Instance 0 (e1896.0)</h3>
+                <div class="extraction-query"><strong>Extraction Query:</strong> Extract any mentions of driver-negative or oncogene-negative lung adenocarcinoma cases, cohorts, models, or subgroups; the evidence for why they are considered driver-negative; candidate alternative drivers or mechanisms; proposed subtypes; validation strategies; comparisons to other cancers; and therapeutic implications.</div>
+                <table>
+                    <thead>
+                        <tr>
+                            <th style="width: 30%;">Field</th>
+                            <th style="width: 70%;">Value</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><strong>name_short</strong></td>
+                            <td>Subtype 4 LUAD/STK11-FGL1</td>
+                        </tr>
+                        <tr>
+                            <td><strong>name_full</strong></td>
+                            <td>NSCLC proteome Subtype 4 (lung adenocarcinoma-enriched subgroup with STK11 inactivation, FGL1/CPS1/HNF1A upregulation)</td>
+                        </tr>
+                        <tr>
+                            <td><strong>brief_description</strong></td>
+                            <td>An AC-enriched proteome subtype that the paper links to STK11 loss/inactivation and a liver-like transcriptional program characterized by FGL1, CPS1, and HNF1A. It is proposed to represent an immune-cold, mTOR-addicted subgroup that may be missed by mutation-only driver annotation because STK11 mutation alone did not fully capture pathway inactivation.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>citation_title</strong></td>
+                            <td>here</td>
+                        </tr>
+                        <tr>
+                            <td><strong>mention_or_use</strong></td>
+                            <td>use</td>
+                        </tr>
+                        <tr>
+                            <td><strong>cohort_or_model</strong></td>
+                            <td>Discovery NSCLC cohort (141 resected tumors) with emphasis on adenocarcinoma-enriched Subtype 4; validated in an independent NSCLC validation cohort (208 cases), TCGA-LUAD, and NSCLC cell lines from GDSC</td>
+                        </tr>
+                        <tr>
+                            <td><strong>cancer_context</strong></td>
+                            <td>Non-small cell lung cancer, especially lung adenocarcinoma / AC-enriched tumors; driver-negative or noncanonical-driver-like subset within a proteome-defined NSCLC subgroup</td>
+                        </tr>
+                        <tr>
+                            <td><strong>driver_negative_definition</strong></td>
+                            <td>Not defined as canonical EGFR/KRAS/ALK/ROS1/BRAF/MET/RET/ERBB2-negative by a formal clinical panel in the paper; rather, the subgroup is notable because STK11 mutation status alone was insufficient to explain pathway state, and some STK11 wild-type LUADs showed low STK11 expression with high FGL1/CPS1/HNF1A, suggesting alternative STK11 inactivation mechanisms. Evidence for driver-negative-like behavior comes from phenotype-level proteomics and pathway activation rather than a single canonical oncogenic driver mutation.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>driver_negative_frequency</strong></td>
+                            <td>Not reported as a driver-negative fraction. Within the 141-sample discovery cohort, Subtype 4 was one of six subtypes and was AC-enriched; STK11 mutation was strongly associated with this subtype, but the paper also highlights STK11 wild-type LUAD cases with the same FGL1/CPS1-high phenotype.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>profiling_modalities</strong></td>
+                            <td>Deep MS-based proteomics (DDA and DIA), mutation panel sequencing (370 genes), genome-wide DNA methylation, mRNA expression profiling, IHC, synthetic peptide validation, and cell line drug-sensitivity analysis</td>
+                        </tr>
+                        <tr>
+                            <td><strong>candidate_mechanism_category</strong></td>
+                            <td>Tumor suppressor loss with epigenetic/transcriptional dysregulation; alternative pathway activation; autocrine/paracrine immune checkpoint ligand signaling; metabolic dependency</td>
+                        </tr>
+                        <tr>
+                            <td><strong>candidate_driver_or_mechanism</strong></td>
+                            <td>STK11/LKB1 inactivation leading to loss of AMPK control, activation of HNF1A, and upregulation of FGL1 and CPS1; mTOR pathway activation and potential LAG-3/FGL1 immune evasion</td>
+                        </tr>
+                        <tr>
+                            <td><strong>mechanistic_description</strong></td>
+                            <td>The paper proposes that STK11 inactivation abolishes AMPK-dependent restraint, permitting increased mTOR signaling and activation of liver-specific transcriptional programs via HNF1A, which in turn upregulate FGL1 and CPS1. FGL1 is presented as a secreted LAG-3 ligand that could suppress T-cell activation and reduce immune infiltration.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>evidence_type</strong></td>
+                            <td>Cross-omics correlation, mutation association, in vitro perturbation, drug sensitivity, and cross-cancer analogy</td>
+                        </tr>
+                        <tr>
+                            <td><strong>key_evidence</strong></td>
+                            <td>FGL1 showed a strong negative correlation with STK11 at the protein level, and STK11-mutant cases clustered with high FGL1/CPS1/HNF1A. In TCGA-LUAD, FGL1 and CPS1 were elevated in STK11-mutant AC, while STK11-wild-type LUAD with high FGL1/CPS1 had reduced STK11 expression. In cell lines, FGL1/CPS1-high NSCLC cells were more sensitive to docetaxel and multiple mTOR inhibitors. AMPK activation reduced HNF1A and FGL1 in HepG2 and STK11-mutant lung cancer cells, and STK11wt re-expression in NCI-H1944 reduced FGL1 and HNF1A.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>negative_or_counter_evidence</strong></td>
+                            <td>The paper explicitly notes that STK11 mutation alone could not predict sensitivity to mTOR inhibitors, implying incomplete capture of functional pathway inactivation. The mechanism for epigenetic regulation of HNF1A was not fully elucidated, and the STK11 rescue experiment was described as poorly tolerated by cells.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>subtype_name</strong></td>
+                            <td>Subtype 4</td>
+                        </tr>
+                        <tr>
+                            <td><strong>subtype_features</strong></td>
+                            <td>AC-enriched proteome subtype with very low immune signals, high TMB but low antigen presentation machinery, low global/promoter methylation, high FGL1 and CPS1, association with STK11 mutation and liver-specific HNF1A activation, and enrichment of immune-cold phenotype</td>
+                        </tr>
+                        <tr>
+                            <td><strong>parallel_in_other_cancers</strong></td>
+                            <td>Hepatocellular carcinoma also showed high FGL1 and CPS1 mRNA, consistent with a liver-specific program. The paper also references liver transcriptional biology and reprogramming literature as an analogy for HNF1A-driven expression.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>validation_approach</strong></td>
+                            <td>Orthogonal validation across proteomics, transcriptomics, methylation, and TCGA datasets; independent NSCLC cohort classification by DIA-MS; synthetic peptide validation for proteogenomic findings; AMPK-activation perturbation; STK11wt rescue in lung cancer cells; drug-sensitivity analysis in GDSC</td>
+                        </tr>
+                        <tr>
+                            <td><strong>validation_result</strong></td>
+                            <td>Subtype 4 was reproduced in the independent 208-case NSCLC validation cohort, with 8/9 FGL1/CPS1-positive cases classified as Subtype 4. AMPK activation reduced HNF1A/FGL1, and STK11wt re-expression reduced FGL1 and HNF1A. High FGL1/CPS1 cells were more sensitive to mTOR inhibitors and docetaxel.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>therapeutic_implication</strong></td>
+                            <td>Potential stratification for LAG-3/FGL1 checkpoint inhibition, possibly combined with mTOR inhibitors; FGL1/CPS1 expression may also indicate mTOR addiction and suggest docetaxel sensitivity.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>therapeutic_evidence</strong></td>
+                            <td>The paper states that Subtype 4 could function as stratification for checkpoint inhibitors targeting LAG-3 or FGL1, and that FGL1/CPS1-high NSCLC cells were more sensitive to several mTOR-targeting compounds and docetaxel. It further argues that combining LAG-3/FGL1 checkpoint blockade with mTOR inhibitors may be beneficial.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>clinical_or_demographic_association</strong></td>
+                            <td>Primarily adenocarcinoma; immune-cold; enriched for STK11 mutation; in TCGA-LUAD, FGL1/CPS1-high cases were especially evident in lung adenocarcinoma and some STK11-wild-type tumors with reduced STK11 expression. The subtype also showed poorer survival trend than Subtype 1 in the LUAD classifier analysis.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>study_limitations</strong></td>
+                            <td>The paper does not define Subtype 4 as a formally driver-negative cohort, and the alternative inactivation mechanism for STK11 remains incompletely resolved. Cell-line validation was limited to a small number of models, and the rescue experiment was poorly tolerated, limiting mechanistic depth.</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="extraction-instance-container" id="e1896.1">
+                <h3 class="extraction-instance">Extracted Data Instance 1 (e1896.1)</h3>
+                <div class="extraction-query"><strong>Extraction Query:</strong> Extract any mentions of driver-negative or oncogene-negative lung adenocarcinoma cases, cohorts, models, or subgroups; the evidence for why they are considered driver-negative; candidate alternative drivers or mechanisms; proposed subtypes; validation strategies; comparisons to other cancers; and therapeutic implications.</div>
+                <table>
+                    <thead>
+                        <tr>
+                            <th style="width: 30%;">Field</th>
+                            <th style="width: 70%;">Value</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><strong>name_short</strong></td>
+                            <td>Subtype 1 EGFR-mutant</td>
+                        </tr>
+                        <tr>
+                            <td><strong>name_full</strong></td>
+                            <td>NSCLC proteome Subtype 1 (EGFR mutation-enriched adenocarcinoma subtype)</td>
+                        </tr>
+                        <tr>
+                            <td><strong>brief_description</strong></td>
+                            <td>An adenocarcinoma-enriched proteome subtype that is strongly associated with EGFR mutations and a TRU-like expression pattern. The paper contrasts this subtype with driver-negative-like tumors by showing that it is a canonical driver-defined subgroup rather than an oncogene-negative one.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>citation_title</strong></td>
+                            <td>here</td>
+                        </tr>
+                        <tr>
+                            <td><strong>mention_or_use</strong></td>
+                            <td>use</td>
+                        </tr>
+                        <tr>
+                            <td><strong>cohort_or_model</strong></td>
+                            <td>Discovery NSCLC cohort; replicated in the independent validation cohort and TCGA-LUAD transcriptomics cohort</td>
+                        </tr>
+                        <tr>
+                            <td><strong>cancer_context</strong></td>
+                            <td>Lung adenocarcinoma / NSCLC</td>
+                        </tr>
+                        <tr>
+                            <td><strong>driver_negative_definition</strong></td>
+                            <td>Not driver-negative; included here as a comparator because the paper uses EGFR-mutant disease as a canonical driver-defined subtype against which driver-negative-like phenotypes are contrasted.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>driver_negative_frequency</strong></td>
+                            <td>Not applicable</td>
+                        </tr>
+                        <tr>
+                            <td><strong>profiling_modalities</strong></td>
+                            <td>MS proteomics, mutation panel sequencing, RNA expression, methylation, DIA-MS validation, IHC</td>
+                        </tr>
+                        <tr>
+                            <td><strong>candidate_mechanism_category</strong></td>
+                            <td>Canonical oncogene activation</td>
+                        </tr>
+                        <tr>
+                            <td><strong>candidate_driver_or_mechanism</strong></td>
+                            <td>EGFR mutation</td>
+                        </tr>
+                        <tr>
+                            <td><strong>mechanistic_description</strong></td>
+                            <td>Subtype 1 is characterized by EGFR mutation enrichment and TRU-like molecular features; it is immune-cold with low neoantigen burden and low checkpoint ligand expression relative to other subtypes.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>evidence_type</strong></td>
+                            <td>Mutation enrichment and subtype classification</td>
+                        </tr>
+                        <tr>
+                            <td><strong>key_evidence</strong></td>
+                            <td>EGFR mutations were enriched in Subtype 1 in the discovery cohort, and EGFR-mutant cases were also classified to Subtype 1 in 13/19 cases in the validation cohort. The TCGA-LUAD classifier reproduced a similar subtype with better survival trend than Subtype 4.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>negative_or_counter_evidence</strong></td>
+                            <td>This subtype does not represent driver-negative disease, but the paper notes its low immune infiltration and refractoriness to checkpoint inhibitors.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>subtype_name</strong></td>
+                            <td>Subtype 1</td>
+                        </tr>
+                        <tr>
+                            <td><strong>subtype_features</strong></td>
+                            <td>TRU-like adenocarcinoma subtype, enriched in never-smokers, EGFR-mutant, low proliferation, immune-cold, low neoantigen burden</td>
+                        </tr>
+                        <tr>
+                            <td><strong>parallel_in_other_cancers</strong></td>
+                            <td><span class="empty-note">null</span></td>
+                        </tr>
+                        <tr>
+                            <td><strong>validation_approach</strong></td>
+                            <td>Independent cohort classification and TCGA-LUAD re-training/validation</td>
+                        </tr>
+                        <tr>
+                            <td><strong>validation_result</strong></td>
+                            <td>EGFR-mutant cases mapped predominantly to Subtype 1 in validation, supporting reproducibility of the subtype.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>therapeutic_implication</strong></td>
+                            <td>Suggests classic EGFR-targeted therapy context rather than driver-negative therapy.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>therapeutic_evidence</strong></td>
+                            <td>The paper notes EGFR-mutant NSCLC is generally refractory to checkpoint inhibitors.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>clinical_or_demographic_association</strong></td>
+                            <td>Enriched in never-smokers and linked to TRU-like adenocarcinoma expression features.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>study_limitations</strong></td>
+                            <td>Not a driver-negative subgroup; included mainly as a comparator.</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="extraction-instance-container" id="e1896.2">
+                <h3 class="extraction-instance">Extracted Data Instance 2 (e1896.2)</h3>
+                <div class="extraction-query"><strong>Extraction Query:</strong> Extract any mentions of driver-negative or oncogene-negative lung adenocarcinoma cases, cohorts, models, or subgroups; the evidence for why they are considered driver-negative; candidate alternative drivers or mechanisms; proposed subtypes; validation strategies; comparisons to other cancers; and therapeutic implications.</div>
+                <table>
+                    <thead>
+                        <tr>
+                            <th style="width: 30%;">Field</th>
+                            <th style="width: 70%;">Value</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><strong>name_short</strong></td>
+                            <td>Subtype 2 PD-L1/TMB-high</td>
+                        </tr>
+                        <tr>
+                            <td><strong>name_full</strong></td>
+                            <td>NSCLC proteome Subtype 2 (immune-infiltrated, PD-L1-high, TMB-high adenocarcinoma subtype)</td>
+                        </tr>
+                        <tr>
+                            <td><strong>brief_description</strong></td>
+                            <td>An immune-infiltrated adenocarcinoma subtype with high TMB, high antigen presentation machinery, high PD-L1, and high CXCL9. The paper uses it as the prototypic subtype likely to respond to PD-1/PD-L1 blockade, not as a driver-negative case.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>citation_title</strong></td>
+                            <td>here</td>
+                        </tr>
+                        <tr>
+                            <td><strong>mention_or_use</strong></td>
+                            <td>use</td>
+                        </tr>
+                        <tr>
+                            <td><strong>cohort_or_model</strong></td>
+                            <td>Discovery NSCLC cohort; independent validation and TCGA-LUAD classification</td>
+                        </tr>
+                        <tr>
+                            <td><strong>cancer_context</strong></td>
+                            <td>Lung adenocarcinoma / NSCLC</td>
+                        </tr>
+                        <tr>
+                            <td><strong>driver_negative_definition</strong></td>
+                            <td>Not driver-negative; used as a contrast subtype with strong immune activation and PD-L1 expression.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>driver_negative_frequency</strong></td>
+                            <td>Not applicable</td>
+                        </tr>
+                        <tr>
+                            <td><strong>profiling_modalities</strong></td>
+                            <td>MS proteomics, mutation panel sequencing, TMB/APM scoring, IHC, transcriptomics validation</td>
+                        </tr>
+                        <tr>
+                            <td><strong>candidate_mechanism_category</strong></td>
+                            <td>Immune-activated subtype</td>
+                        </tr>
+                        <tr>
+                            <td><strong>candidate_driver_or_mechanism</strong></td>
+                            <td>PD-L1/PD-1 axis; high neoantigen presentation context</td>
+                        </tr>
+                        <tr>
+                            <td><strong>mechanistic_description</strong></td>
+                            <td>Subtype 2 has high TMB and antigen presentation machinery, high PD-L1 and CXCL9, and abundant T-cell infiltration and IFN signaling, consistent with an inflamed phenotype.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>evidence_type</strong></td>
+                            <td>Immune phenotype and biomarker correlation</td>
+                        </tr>
+                        <tr>
+                            <td><strong>key_evidence</strong></td>
+                            <td>Subtype 2 had the clearest PD-L1 marker signal, the highest CXCL9, and combined high TMB with high APM, which the authors interpret as a context likely to generate and present neoantigens effectively.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>negative_or_counter_evidence</strong></td>
+                            <td>Not driver-negative; low immune-cold comparison limits relevance to the query except as a therapeutic comparator.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>subtype_name</strong></td>
+                            <td>Subtype 2</td>
+                        </tr>
+                        <tr>
+                            <td><strong>subtype_features</strong></td>
+                            <td>T-cell/IFN-rich, PD-L1-high, CXCL9-high, high TMB and APM, low purity, solid growth pattern in many ACs</td>
+                        </tr>
+                        <tr>
+                            <td><strong>parallel_in_other_cancers</strong></td>
+                            <td>The paper references a similar TMB/APM framework used in endometrial carcinoma.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>validation_approach</strong></td>
+                            <td>IHC for PD-L1/CD3/CD8, transcriptomic classifier validation, and independent cohort DIA-MS classification</td>
+                        </tr>
+                        <tr>
+                            <td><strong>validation_result</strong></td>
+                            <td>Subtype 2 was reproduced across cohorts and showed biomarker features consistent with checkpoint inhibitor responsiveness.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>therapeutic_implication</strong></td>
+                            <td>Predicted sensitivity to PD-1/PD-L1 checkpoint inhibition.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>therapeutic_evidence</strong></td>
+                            <td>High PD-L1, CXCL9, IFNγ signaling, and APM are all presented as indicators of response to PD1/PD-L1 blockade.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>clinical_or_demographic_association</strong></td>
+                            <td>Associated with immune infiltration and lower tumor purity.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>study_limitations</strong></td>
+                            <td>Not driver-negative; included for therapeutic comparison.</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="extraction-instance-container" id="e1896.3">
+                <h3 class="extraction-instance">Extracted Data Instance 3 (e1896.3)</h3>
+                <div class="extraction-query"><strong>Extraction Query:</strong> Extract any mentions of driver-negative or oncogene-negative lung adenocarcinoma cases, cohorts, models, or subgroups; the evidence for why they are considered driver-negative; candidate alternative drivers or mechanisms; proposed subtypes; validation strategies; comparisons to other cancers; and therapeutic implications.</div>
+                <table>
+                    <thead>
+                        <tr>
+                            <th style="width: 30%;">Field</th>
+                            <th style="width: 70%;">Value</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><strong>name_short</strong></td>
+                            <td>Subtype 6 SqCC/B7-H4</td>
+                        </tr>
+                        <tr>
+                            <td><strong>name_full</strong></td>
+                            <td>NSCLC proteome Subtype 6 (SqCC-enriched immune-cold subtype with B7-H4 expression)</td>
+                        </tr>
+                        <tr>
+                            <td><strong>brief_description</strong></td>
+                            <td>A squamous cell carcinoma-enriched, immune-cold subtype that the paper links to B7-H4 expression and low methylation. It is relevant as an oncogene-negative/driver-negative-like comparator because it lacks the canonical adenocarcinoma driver framework and instead appears to use immune-evasion mechanisms.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>citation_title</strong></td>
+                            <td>here</td>
+                        </tr>
+                        <tr>
+                            <td><strong>mention_or_use</strong></td>
+                            <td>use</td>
+                        </tr>
+                        <tr>
+                            <td><strong>cohort_or_model</strong></td>
+                            <td>Discovery NSCLC cohort; validation cohort; GEO NSCLC transcriptomics cohort</td>
+                        </tr>
+                        <tr>
+                            <td><strong>cancer_context</strong></td>
+                            <td>Squamous cell lung cancer / NSCLC</td>
+                        </tr>
+                        <tr>
+                            <td><strong>driver_negative_definition</strong></td>
+                            <td>Not defined by exclusion of specific oncogenes; rather, this is a SqCC-enriched subtype outside the canonical EGFR-driven adenocarcinoma setting, with TP53 mutations enriched and no subtype-specific oncogenic driver highlighted beyond immune-evasion markers.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>driver_negative_frequency</strong></td>
+                            <td>Subtype 6 comprised the dominant SqCC cluster, capturing 96% of subtype-assigned SqCC samples in the discovery cohort; the paper does not give a driver-negative fraction.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>profiling_modalities</strong></td>
+                            <td>MS proteomics, mutation panel sequencing, DNA methylation, transcriptomics, IHC, DIA-MS validation</td>
+                        </tr>
+                        <tr>
+                            <td><strong>candidate_mechanism_category</strong></td>
+                            <td>Immune evasion / alternative checkpoint ligand signaling</td>
+                        </tr>
+                        <tr>
+                            <td><strong>candidate_driver_or_mechanism</strong></td>
+                            <td>B7-H4 immune checkpoint ligand</td>
+                        </tr>
+                        <tr>
+                            <td><strong>mechanistic_description</strong></td>
+                            <td>Subtype 6 expresses B7-H4, a T-cell inhibitory ligand that may contribute to immune evasion in SqCC. The subtype also has low global and promoter methylation and high non-canonical peptide burden.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>evidence_type</strong></td>
+                            <td>Subtype-specific protein marker expression and immune-context association</td>
+                        </tr>
+                        <tr>
+                            <td><strong>key_evidence</strong></td>
+                            <td>B7-H4 was identified as a subtype-specific IR ligand in Subtype 6. Subtype 6 also showed immune-cold features, low methylation, and high neoantigen burden (including CTAs/NCPs), suggesting immune evasion despite potentially immunogenic antigen production.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>negative_or_counter_evidence</strong></td>
+                            <td>The receptor for B7-H4 was not identified, and its impact on the immune response in cancer was stated to remain to be shown. This weakens direct mechanistic interpretation.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>subtype_name</strong></td>
+                            <td>Subtype 6</td>
+                        </tr>
+                        <tr>
+                            <td><strong>subtype_features</strong></td>
+                            <td>SqCC-enriched, immune-cold, TP53-mutant, low methylation, high CTA/NCP burden, B7-H4-high</td>
+                        </tr>
+                        <tr>
+                            <td><strong>parallel_in_other_cancers</strong></td>
+                            <td>B7-H4 has been studied in ovarian cancer and rheumatoid arthritis; the paper also notes B7-H4/B7-H3 are higher in SqCC than AC in prior NSCLC studies.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>validation_approach</strong></td>
+                            <td>Independent cohort DIA-MS classification and cross-cohort transcriptomic classification</td>
+                        </tr>
+                        <tr>
+                            <td><strong>validation_result</strong></td>
+                            <td>Subtype 6 was reproduced in validation cohorts; B7-H4 remained subtype-specific in the discovery analysis.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>therapeutic_implication</strong></td>
+                            <td>Potential relevance for B7-H4-targeting immunotherapy or other checkpoint strategies.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>therapeutic_evidence</strong></td>
+                            <td>The paper notes preclinical evidence that targeting B7-H4 reduces tumor growth and lung metastases in mouse models.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>clinical_or_demographic_association</strong></td>
+                            <td>Predominantly squamous histology and immune-cold phenotype.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>study_limitations</strong></td>
+                            <td>No direct functional validation of B7-H4 in this NSCLC subtype.</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="extraction-instance-container" id="e1896.4">
+                <h3 class="extraction-instance">Extracted Data Instance 4 (e1896.4)</h3>
+                <div class="extraction-query"><strong>Extraction Query:</strong> Extract any mentions of driver-negative or oncogene-negative lung adenocarcinoma cases, cohorts, models, or subgroups; the evidence for why they are considered driver-negative; candidate alternative drivers or mechanisms; proposed subtypes; validation strategies; comparisons to other cancers; and therapeutic implications.</div>
+                <table>
+                    <thead>
+                        <tr>
+                            <th style="width: 30%;">Field</th>
+                            <th style="width: 70%;">Value</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><strong>name_short</strong></td>
+                            <td>Subtype 5 LCNEC/E2F1-RB1</td>
+                        </tr>
+                        <tr>
+                            <td><strong>name_full</strong></td>
+                            <td>NSCLC proteome Subtype 5 (highly proliferative LCNEC/SqCC-associated subtype with RB1 mutation and E2F1 activation)</td>
+                        </tr>
+                        <tr>
+                            <td><strong>brief_description</strong></td>
+                            <td>A highly proliferative subtype enriched for LCNEC and RB1 mutations, with elevated E2F1/MYC signaling and oncogene overexpression. It is not a classic driver-negative adenocarcinoma group, but it represents a tumor-phenotype-defined subgroup where noncanonical pathway activation is emphasized.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>citation_title</strong></td>
+                            <td>here</td>
+                        </tr>
+                        <tr>
+                            <td><strong>mention_or_use</strong></td>
+                            <td>use</td>
+                        </tr>
+                        <tr>
+                            <td><strong>cohort_or_model</strong></td>
+                            <td>Discovery NSCLC cohort; independent validation cohort</td>
+                        </tr>
+                        <tr>
+                            <td><strong>cancer_context</strong></td>
+                            <td>Large-cell neuroendocrine carcinoma / NSCLC; some SqCC samples also grouped here</td>
+                        </tr>
+                        <tr>
+                            <td><strong>driver_negative_definition</strong></td>
+                            <td>Not driver-negative; instead characterized by RB1-mutant, highly proliferative disease with clear pathway alterations.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>driver_negative_frequency</strong></td>
+                            <td>Not applicable</td>
+                        </tr>
+                        <tr>
+                            <td><strong>profiling_modalities</strong></td>
+                            <td>MS proteomics, mutation panel sequencing, mRNA/protein correlation, DIA-MS validation</td>
+                        </tr>
+                        <tr>
+                            <td><strong>candidate_mechanism_category</strong></td>
+                            <td>Cell-cycle pathway activation / tumor suppressor loss</td>
+                        </tr>
+                        <tr>
+                            <td><strong>candidate_driver_or_mechanism</strong></td>
+                            <td>RB1 mutation with E2F1/MYC signaling</td>
+                        </tr>
+                        <tr>
+                            <td><strong>mechanistic_description</strong></td>
+                            <td>Subtype 5 is marked by RB1 mutation, high proliferation, elevated E2F1 protein, and E2F signaling, suggesting cell-cycle deregulation as a dominant driver phenotype.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>evidence_type</strong></td>
+                            <td>Mutation enrichment and pathway/protein expression correlation</td>
+                        </tr>
+                        <tr>
+                            <td><strong>key_evidence</strong></td>
+                            <td>Subtype 5 had the highest proliferation, RB1 mutations were enriched, all three SqCC samples in Subtype 5 carried RB1 mutations, and E2F1 protein levels were specifically elevated in this subtype.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>negative_or_counter_evidence</strong></td>
+                            <td>The paper does not identify a therapeutic target unique to this subtype beyond marker proteins BCL2 and CDK2, and it lacks direct functional validation of the RB1/E2F1 axis.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>subtype_name</strong></td>
+                            <td>Subtype 5</td>
+                        </tr>
+                        <tr>
+                            <td><strong>subtype_features</strong></td>
+                            <td>LCNEC-enriched, highly proliferative, RB1-mutant, E2F/MYC-enriched, oncogene-overexpressing, relatively immune-cold</td>
+                        </tr>
+                        <tr>
+                            <td><strong>parallel_in_other_cancers</strong></td>
+                            <td><span class="empty-note">null</span></td>
+                        </tr>
+                        <tr>
+                            <td><strong>validation_approach</strong></td>
+                            <td>Cross-cohort proteome classification and validation cohort marker assessment</td>
+                        </tr>
+                        <tr>
+                            <td><strong>validation_result</strong></td>
+                            <td>Subtype 5 reproduced in validation cohort; 3/5 LCNEC cases were classified into Subtype 5, and all five Subtype 5 cases in the validation cohort showed high BCL2 and CDK2.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>therapeutic_implication</strong></td>
+                            <td>Potentially targetable oncogenic proteins BCL2 and CDK2 were highlighted as subtype markers.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>therapeutic_evidence</strong></td>
+                            <td>The validation cohort showed high BCL2 and CDK2 in all Subtype 5 cases, and these were described as targetable oncogenic proteins.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>clinical_or_demographic_association</strong></td>
+                            <td>LCNEC association and high proliferation; some SqCC samples also grouped here.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>study_limitations</strong></td>
+                            <td>No direct functional testing of BCL2/CDK2 targeting was performed.</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="extraction-instance-container" id="e1896.5">
+                <h3 class="extraction-instance">Extracted Data Instance 5 (e1896.5)</h3>
+                <div class="extraction-query"><strong>Extraction Query:</strong> Extract any mentions of driver-negative or oncogene-negative lung adenocarcinoma cases, cohorts, models, or subgroups; the evidence for why they are considered driver-negative; candidate alternative drivers or mechanisms; proposed subtypes; validation strategies; comparisons to other cancers; and therapeutic implications.</div>
+                <table>
+                    <thead>
+                        <tr>
+                            <th style="width: 30%;">Field</th>
+                            <th style="width: 70%;">Value</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><strong>name_short</strong></td>
+                            <td>IRS4 analogy</td>
+                        </tr>
+                        <tr>
+                            <td><strong>name_full</strong></td>
+                            <td>IRS4 as an example of a protein-level oncogenic driver with poor mRNA-protein correlation</td>
+                        </tr>
+                        <tr>
+                            <td><strong>brief_description</strong></td>
+                            <td>The paper mentions IRS4 as a known oncogenic driver in breast cancers to illustrate that protein-level outlier expression may reflect functional driver activity not obvious from mRNA alone. This is an example used to motivate proteogenomic analysis rather than a lung adenocarcinoma-specific driver-negative mechanism.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>citation_title</strong></td>
+                            <td>here</td>
+                        </tr>
+                        <tr>
+                            <td><strong>mention_or_use</strong></td>
+                            <td>mention</td>
+                        </tr>
+                        <tr>
+                            <td><strong>cohort_or_model</strong></td>
+                            <td>NSCLC cohort proteogenomic analysis</td>
+                        </tr>
+                        <tr>
+                            <td><strong>cancer_context</strong></td>
+                            <td>NSCLC proteogenomics with cross-cancer analogy to breast cancer</td>
+                        </tr>
+                        <tr>
+                            <td><strong>driver_negative_definition</strong></td>
+                            <td>Not applicable</td>
+                        </tr>
+                        <tr>
+                            <td><strong>driver_negative_frequency</strong></td>
+                            <td>Not applicable</td>
+                        </tr>
+                        <tr>
+                            <td><strong>profiling_modalities</strong></td>
+                            <td>mRNA-protein correlation analysis</td>
+                        </tr>
+                        <tr>
+                            <td><strong>candidate_mechanism_category</strong></td>
+                            <td>Cross-cancer analogy / post-transcriptional regulation</td>
+                        </tr>
+                        <tr>
+                            <td><strong>candidate_driver_or_mechanism</strong></td>
+                            <td>IRS4</td>
+                        </tr>
+                        <tr>
+                            <td><strong>mechanistic_description</strong></td>
+                            <td>Mentioned as a known oncogenic driver in breast cancer in the context of poor mRNA-protein correlation, illustrating that a protein can behave as a driver even if transcript abundance is not predictive.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>evidence_type</strong></td>
+                            <td>Cross-cancer analogy</td>
+                        </tr>
+                        <tr>
+                            <td><strong>key_evidence</strong></td>
+                            <td>The paper lists IRS4 among genes with discordant mRNA-protein behavior, alongside examples of post-transcriptional regulation.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>negative_or_counter_evidence</strong></td>
+                            <td>No direct NSCLC functional validation for IRS4 is provided.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>subtype_name</strong></td>
+                            <td><span class="empty-note">null</span></td>
+                        </tr>
+                        <tr>
+                            <td><strong>subtype_features</strong></td>
+                            <td><span class="empty-note">null</span></td>
+                        </tr>
+                        <tr>
+                            <td><strong>parallel_in_other_cancers</strong></td>
+                            <td>Breast cancer</td>
+                        </tr>
+                        <tr>
+                            <td><strong>validation_approach</strong></td>
+                            <td><span class="empty-note">null</span></td>
+                        </tr>
+                        <tr>
+                            <td><strong>validation_result</strong></td>
+                            <td><span class="empty-note">null</span></td>
+                        </tr>
+                        <tr>
+                            <td><strong>therapeutic_implication</strong></td>
+                            <td><span class="empty-note">null</span></td>
+                        </tr>
+                        <tr>
+                            <td><strong>therapeutic_evidence</strong></td>
+                            <td><span class="empty-note">null</span></td>
+                        </tr>
+                        <tr>
+                            <td><strong>clinical_or_demographic_association</strong></td>
+                            <td><span class="empty-note">null</span></td>
+                        </tr>
+                        <tr>
+                            <td><strong>study_limitations</strong></td>
+                            <td>Only mentioned as an analogy; not a studied lung cancer mechanism.</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>Potentially Relevant New Papers (mentioned by this paper)</h2>
+            <ol>
+                <li>Proteogenomic Characterization Reveals Therapeutic Vulnerabilities in Lung Adenocarcinoma <em>(Rating: 2)</em></li>
+                <li>Integrative Proteomic Characterization of Human Lung Adenocarcinoma <em>(Rating: 2)</em></li>
+                <li>Proteogenomics of Non-smoking Lung Cancer in East Asia Delineates Molecular Signatures of Pathogenesis and Progression <em>(Rating: 2)</em></li>
+                <li>Comprehensive molecular profiling of lung adenocarcinoma <em>(Rating: 2)</em></li>
+            </ol>
+        </div>
+
+        </div>
+
+    </div>
+</body>
+</html>

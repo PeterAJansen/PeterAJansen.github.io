@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Extraction extraction-result-2003 - Theorizer</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+    <div class="header">
+        <a href="../index.html"><i class="fas fa-flask"></i> Theorizer</a>
+    </div>
+
+    <div class="content">
+        <h1>Extracted Data Details for extraction-result-2003</h1>
+
+        <div class="section">
+            <h2>Extracted Data (Header)</h2>
+            <div class="info-section">
+                <p><strong>Extraction ID:</strong> extraction-result-2003</p>
+                <p><strong>Extraction Schema Used (ID):</strong> <a href="../schemas/extraction-schema-1842.html">extraction-schema-1842</a></p>
+                <div class="extraction-query"><strong>Extraction Query:</strong> Extract any mentions of hidden drivers, pathway states, subtype structure, validation evidence, and therapeutic implications in oncogene-negative or driver-negative lung adenocarcinoma.</div>
+                <p><strong>Paper ID:</strong> paper-586c3cad75197c4783f4ef63ee007892933ed1e4</p>
+                <p><strong>Paper Title:</strong> <a href="https://www.semanticscholar.org/paper/586c3cad75197c4783f4ef63ee007892933ed1e4" target="_blank">Oncogenic context shapes the fitness landscape of tumor suppression</a></p>
+                <p><strong>Paper Venue:</strong> Nature Communications</p>
+                <p><strong>Paper TL;DR:</strong> It is shown that the fitness landscape is rugged—the effect of tumor suppressor inactivation often switches between beneficial and deleterious depending on the oncogenic context—and shows no evidence of diminishing-returns epistasis within variants of the same oncogene.</p>
+                <p><strong>Paper Abstract:</strong> Tumors acquire alterations in oncogenes and tumor suppressor genes in an adaptive walk through the fitness landscape of tumorigenesis. However, the interactions between oncogenes and tumor suppressor genes that shape this landscape remain poorly resolved and cannot be revealed by human cancer genomics alone. Here, we use a multiplexed, autochthonous mouse platform to model and quantify the initiation and growth of more than one hundred genotypes of lung tumors across four oncogenic contexts: KRAS G12D, KRAS G12C, BRAF V600E, and EGFR L858R. We show that the fitness landscape is rugged—the effect of tumor suppressor inactivation often switches between beneficial and deleterious depending on the oncogenic context—and shows no evidence of diminishing-returns epistasis within variants of the same oncogene. These findings argue against a simple linear signaling relationship amongst these three oncogenes and imply a critical role for off-axis signaling in determining the fitness effects of inactivating tumor suppressors.</p>
+                <p><strong>Cost:</strong> 0.012</p>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>Extracted Data (Details)</h2>
+            <div class="extraction-instance-container" id="e2003.0">
+                <h3 class="extraction-instance">Extracted Data Instance 0 (e2003.0)</h3>
+                <div class="extraction-query"><strong>Extraction Query:</strong> Extract any mentions of hidden drivers, pathway states, subtype structure, validation evidence, and therapeutic implications in oncogene-negative or driver-negative lung adenocarcinoma.</div>
+                <table>
+                    <thead>
+                        <tr>
+                            <th style="width: 30%;">Field</th>
+                            <th style="width: 70%;">Value</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><strong>name_short</strong></td>
+                            <td>LUAD oncogene context</td>
+                        </tr>
+                        <tr>
+                            <td><strong>name_full</strong></td>
+                            <td>Oncogenic context in lung adenocarcinoma (KRAS G12D, KRAS G12C, BRAF V600E, EGFR L858R)</td>
+                        </tr>
+                        <tr>
+                            <td><strong>brief_description</strong></td>
+                            <td>The paper does not study oncogene-negative LUAD directly; instead it defines and compares oncogenic contexts using KRAS G12D, KRAS G12C, BRAF V600E, and EGFR L858R. The central finding relevant to driver-negative biology is that tumor suppressor loss and pathway state effects are highly context dependent and often cannot be predicted from the activated oncogene alone.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>citation_title</strong></td>
+                            <td>Oncogenic context shapes the fitness landscape of tumor suppression</td>
+                        </tr>
+                        <tr>
+                            <td><strong>mention_or_use</strong></td>
+                            <td>use</td>
+                        </tr>
+                        <tr>
+                            <td><strong>driver_negative_definition</strong></td>
+                            <td>No explicit oncogene-negative/driver-negative LUAD cohort is defined in this paper. The closest operational definition is the sgInert control state, in which tumors are initiated by engineered oncogenes but lack CRISPR/Cas9-mediated inactivation of any of the 28 tested tumor suppressors (non-targeting or inert-cutting sgRNAs), serving as the baseline for comparing the fitness effects of tumor suppressor loss.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>candidate_driver_pathway_or_mechanism</strong></td>
+                            <td>The paper argues against a simple linear EGFR→KRAS→BRAF model and instead emphasizes off-axis signaling and context-dependent tumor suppressor loss as determinants of tumor fitness. For driver-negative or hidden-driver logic, the implied mechanism is that functional pathway state is shaped by combinations of tumor suppressor inactivation and oncogenic context, especially involving RAS/MAPK and related off-axis pathways.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>alteration_or_activation_mode</strong></td>
+                            <td>Context-dependent co-loss/inactivation of tumor suppressors rather than a single canonical driver alteration. The study focuses on CRISPR/Cas9-mediated tumor suppressor knockout on top of activated oncogenes, with effects mediated by oncogene-proximal regulators (e.g. NF1, wild-type KRAS) and off-axis tumor suppressors (e.g. PTEN, LKB1, SETD2, KEAP1, KMT2D, Nf2).</td>
+                        </tr>
+                        <tr>
+                            <td><strong>implicated_gene_axis_or_pathway</strong></td>
+                            <td>RAS/MAPK axis with off-axis signaling branches; specifically NF1/KRASWT regulation of RAS signaling, and additional pathways including PI3K/AKT (PTEN), STK11/LKB1-related programs, chromatin regulation (SETD2, KMT2D), oxidative stress/NRF2 axis (KEAP1), and NF2-associated signaling.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>pathway_activation_evidence</strong></td>
+                            <td>The paper provides no direct phosphoproteomic or IHC pathway-activation readouts in driver-negative LUAD because it is a mouse functional genomics study. Instead, pathway state is inferred causally from genotype-dependent fitness effects: e.g. NF1 or KRASWT loss increases KRAS- and EGFR-driven tumor growth as expected from increased downstream signaling, while the same losses are neutral in BRAF-driven tumors; PTEN loss is strongly beneficial across contexts; and several KRAS-beneficial suppressor losses become deleterious in EGFR contexts.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>driver_negative_subtype</strong></td>
+                            <td>No explicit molecular subtype of oncogene-negative LUAD is proposed. The closest implicit subtype is a pathway-state subtype defined by oncogenic context and tumor suppressor co-alteration, with one special case being EGFR-driven, low-TMB LUAD where mouse causal effects correlate with human co-mutation frequencies.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>clinical_or_exposure_context</strong></td>
+                            <td>The only explicit clinical context relevant to hidden-driver inference is that EGFR-driven LUAD has low tumor mutational burden, enabling better alignment between causal mouse effects and human co-mutation frequencies. The paper also notes that in KRAS- and BRAF-mutant human lung cancers, high TMB and passenger mutations obscure functional inference.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>cross_cancer_parallel</strong></td>
+                            <td>The discussion parallels other systems where driver-state or co-mutation context shapes therapeutic response, including EGFR inhibitor and chemotherapy studies in Tuba-seq models. It also cites broader cancer-genomics work on passenger mutations, co-occurring alterations, and the difficulty of inferring epistasis from observational data.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>therapeutic_vulnerability_or_implication</strong></td>
+                            <td>Therapeutic implications are indirect but important: because pathway fitness costs are rugged and context dependent, drug effects targeting oncogenes or co-linear nodes may also depend on tumor suppressor status. The authors suggest that matching patients to therapies based on both oncogene and tumor suppressor alterations may improve outcomes; they specifically reference prior Tuba-seq work on EGFR inhibitors and chemotherapy as examples of context-dependent drug response.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>validation_evidence_and_model_system</strong></td>
+                            <td>Validation is extensive but in a preclinical mouse GEMM/Tuba-seq platform, not in a driver-negative human LUAD cohort. Evidence includes repeated in vivo experiments across >100 genotypes, multiple independent study groups, correlated effects of independent sgRNAs targeting the same gene, and concordance of expected positive controls such as NF1 and KRASWT. Human validation is retrospective and limited to correlation of mouse causal effects with AACR Project GENIE co-mutation frequencies, strongest in EGFR-driven low-TMB LUAD.</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="extraction-instance-container" id="e2003.1">
+                <h3 class="extraction-instance">Extracted Data Instance 1 (e2003.1)</h3>
+                <div class="extraction-query"><strong>Extraction Query:</strong> Extract any mentions of hidden drivers, pathway states, subtype structure, validation evidence, and therapeutic implications in oncogene-negative or driver-negative lung adenocarcinoma.</div>
+                <table>
+                    <thead>
+                        <tr>
+                            <th style="width: 30%;">Field</th>
+                            <th style="width: 70%;">Value</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><strong>name_short</strong></td>
+                            <td>NF1</td>
+                        </tr>
+                        <tr>
+                            <td><strong>name_full</strong></td>
+                            <td>NF1 (neurofibromin 1)</td>
+                        </tr>
+                        <tr>
+                            <td><strong>brief_description</strong></td>
+                            <td>NF1 is a negative regulator of RAS signaling and one of the paper's validation examples for context-dependent tumor suppressor effects. Its inactivation increased tumor size/number in KRAS- and EGFR-driven tumors but not in BRAF-driven tumors, consistent with canonical pathway expectations.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>citation_title</strong></td>
+                            <td>Oncogenic context shapes the fitness landscape of tumor suppression</td>
+                        </tr>
+                        <tr>
+                            <td><strong>mention_or_use</strong></td>
+                            <td>use</td>
+                        </tr>
+                        <tr>
+                            <td><strong>driver_negative_definition</strong></td>
+                            <td>Not applicable as a direct driver-negative biomarker; instead, NF1 is used as a functional perturbation to infer pathway dependence in sgRNA-initiated mouse tumors lacking additional tumor suppressor targets.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>candidate_driver_pathway_or_mechanism</strong></td>
+                            <td>Hidden driver logic is consistent with RAS pathway dependence and the importance of upstream negative regulation. Loss of NF1 reveals dependence on RAS/MAPK signaling state.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>alteration_or_activation_mode</strong></td>
+                            <td>Loss of a negative regulator of oncogenic KRAS signaling.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>implicated_gene_axis_or_pathway</strong></td>
+                            <td>RAS GTPase cycling; downstream MAPK signaling.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>pathway_activation_evidence</strong></td>
+                            <td>Evidence is functional rather than biochemical: NF1 inactivation increased KRAS- and EGFR-driven tumor growth and number, while having no effect in BRAF-driven tumors, matching the expected pathway topology.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>driver_negative_subtype</strong></td>
+                            <td><span class="empty-note">null</span></td>
+                        </tr>
+                        <tr>
+                            <td><strong>clinical_or_exposure_context</strong></td>
+                            <td><span class="empty-note">null</span></td>
+                        </tr>
+                        <tr>
+                            <td><strong>cross_cancer_parallel</strong></td>
+                            <td>The paper notes that NF1 loss is a known regulator in KRAS-driven lung cancer and is expected to increase signaling in EGFR-driven tumors as well, illustrating cross-oncogene pathway logic.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>therapeutic_vulnerability_or_implication</strong></td>
+                            <td>Suggests that tumors with NF1 loss may show increased dependence on RAS/MAPK-targeting therapies or altered response to upstream inhibition, though the paper does not directly test drugs here.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>validation_evidence_and_model_system</strong></td>
+                            <td>Validated in vivo in autochthonous GEMMs using Tuba-seq, across multiple independent study groups and confirmed with independent sgRNAs.</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="extraction-instance-container" id="e2003.2">
+                <h3 class="extraction-instance">Extracted Data Instance 2 (e2003.2)</h3>
+                <div class="extraction-query"><strong>Extraction Query:</strong> Extract any mentions of hidden drivers, pathway states, subtype structure, validation evidence, and therapeutic implications in oncogene-negative or driver-negative lung adenocarcinoma.</div>
+                <table>
+                    <thead>
+                        <tr>
+                            <th style="width: 30%;">Field</th>
+                            <th style="width: 70%;">Value</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><strong>name_short</strong></td>
+                            <td>KRASWT</td>
+                        </tr>
+                        <tr>
+                            <td><strong>name_full</strong></td>
+                            <td>Wild-type KRAS</td>
+                        </tr>
+                        <tr>
+                            <td><strong>brief_description</strong></td>
+                            <td>Wild-type KRAS is treated as an oncogene-proximal negative regulator or co-linear node whose inactivation has context-specific effects. Its loss increased growth in KRAS-driven tumors, reduced growth in EGFR-driven tumors, and had no effect in BRAF-driven tumors.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>citation_title</strong></td>
+                            <td>Oncogenic context shapes the fitness landscape of tumor suppression</td>
+                        </tr>
+                        <tr>
+                            <td><strong>mention_or_use</strong></td>
+                            <td>use</td>
+                        </tr>
+                        <tr>
+                            <td><strong>driver_negative_definition</strong></td>
+                            <td>Not a driver-negative classifier; rather, KRASWT knockout is used to interrogate whether tumors remain dependent on co-linear RAS signaling in different oncogenic contexts.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>candidate_driver_pathway_or_mechanism</strong></td>
+                            <td>Co-linear RAS signaling dependence and pathway competition between oncogenic and wild-type KRAS.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>alteration_or_activation_mode</strong></td>
+                            <td>CRISPR/Cas9-mediated loss of wild-type KRAS.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>implicated_gene_axis_or_pathway</strong></td>
+                            <td>RAS signaling downstream of EGFR and upstream of BRAF/MAPK.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>pathway_activation_evidence</strong></td>
+                            <td>Functional evidence: KRASWT loss increased KRAS G12C/G12D tumor growth, decreased EGFR-driven growth, and did not affect BRAF-driven tumors, matching predicted pathway wiring.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>driver_negative_subtype</strong></td>
+                            <td><span class="empty-note">null</span></td>
+                        </tr>
+                        <tr>
+                            <td><strong>clinical_or_exposure_context</strong></td>
+                            <td><span class="empty-note">null</span></td>
+                        </tr>
+                        <tr>
+                            <td><strong>cross_cancer_parallel</strong></td>
+                            <td>Used as a validation example of the canonical EGFR→KRAS→BRAF pathway model and its limitations.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>therapeutic_vulnerability_or_implication</strong></td>
+                            <td>Implicates co-linear pathway targeting logic; EGFR-driven tumors may be sensitive to perturbations that reduce KRAS function, whereas KRAS-mutant tumors may be buffered by wild-type KRAS loss.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>validation_evidence_and_model_system</strong></td>
+                            <td>In vivo functional validation with multiple study groups and correlated sgRNA effects.</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>Potentially Relevant New Papers (mentioned by this paper)</h2>
+            <ol>
+                <li>Genetic determinants of EGFR-driven lung cancer growth and therapeutic response in vivo <em>(Rating: 2)</em></li>
+                <li>A functional taxonomy of tumor suppression in oncogenic KRAS-driven lung cancer <em>(Rating: 2)</em></li>
+                <li>Quantitative in vivo analyses reveal a complex pharmacogenomic landscape in lung adenocarcinoma <em>(Rating: 2)</em></li>
+                <li>Co-occurring genomic alterations define major subsets of KRAS-mutant lung adenocarcinoma with distinct biology, immune profiles, and therapeutic vulnerabilities <em>(Rating: 2)</em></li>
+                <li>The genetics and biology of KRAS in lung cancer <em>(Rating: 1)</em></li>
+            </ol>
+        </div>
+
+        </div>
+
+    </div>
+</body>
+</html>

@@ -1,0 +1,442 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Extraction extraction-result-2385 - Theorizer</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+    <div class="header">
+        <a href="../index.html"><i class="fas fa-flask"></i> Theorizer</a>
+    </div>
+
+    <div class="content">
+        <h1>Extracted Data Details for extraction-result-2385</h1>
+
+        <div class="section">
+            <h2>Extracted Data (Header)</h2>
+            <div class="info-section">
+                <p><strong>Extraction ID:</strong> extraction-result-2385</p>
+                <p><strong>Extraction Schema Used (ID):</strong> <a href="../schemas/extraction-schema-1846.html">extraction-schema-1846</a></p>
+                <div class="extraction-query"><strong>Extraction Query:</strong> Extract any mentions of hidden drivers, pathway states, subtype structure, validation evidence, and therapeutic implications in oncogene-negative or driver-negative lung adenocarcinoma.</div>
+                <p><strong>Paper ID:</strong> paper-dae9cd3d9b6585db9c2e36cda4aa37c0f5f1d696</p>
+                <p><strong>Paper Title:</strong> <a href="https://www.semanticscholar.org/paper/dae9cd3d9b6585db9c2e36cda4aa37c0f5f1d696" target="_blank">Fully accessible fitness landscape of oncogene-negative lung adenocarcinoma</a></p>
+                <p><strong>Paper Venue:</strong> bioRxiv</p>
+                <p><strong>Paper TL;DR:</strong> The results suggest that while predicting cancer evolution will be challenging, acquiring the multiple alterations required for the growth of oncogene-negative tumors can be facilitated by the lack of constraints on mutational order.</p>
+                <p><strong>Paper Abstract:</strong> Cancer genomes are almost invariably complex with genomic alterations cooperating during each step of carcinogenesis. In cancers that lack a single dominant oncogene mutation, cooperation between the inactivation of multiple tumor suppressor genes can drive tumor initiation and growth. Here, we shed light on how the sequential acquisition of genomic alterations generates oncogene-negative lung tumors. We couple tumor barcoding with combinatorial and multiplexed somatic genome editing to characterize the fitness landscapes of three tumor suppressor genes NF1, RASA1, and PTEN, the inactivation of which jointly drives oncogene-negative lung adenocarcinoma initiation and growth. The fitness landscape was surprisingly accessible, with each additional mutation leading to growth advantage. Furthermore, the fitness landscapes remained fully accessible across backgrounds with additional tumor suppressor mutations. These results suggest that while predicting cancer evolution will be challenging, acquiring the multiple alterations required for the growth of oncogene-negative tumors can be facilitated by the lack of constraints on mutational order.</p>
+                <p><strong>Cost:</strong> 0.027</p>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>Extracted Data (Details)</h2>
+            <div class="extraction-instance-container" id="e2385.0">
+                <h3 class="extraction-instance">Extracted Data Instance 0 (e2385.0)</h3>
+                <div class="extraction-query"><strong>Extraction Query:</strong> Extract any mentions of hidden drivers, pathway states, subtype structure, validation evidence, and therapeutic implications in oncogene-negative or driver-negative lung adenocarcinoma.</div>
+                <table>
+                    <thead>
+                        <tr>
+                            <th style="width: 30%;">Field</th>
+                            <th style="width: 70%;">Value</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><strong>name_short</strong></td>
+                            <td>oncogene-negative LUAD</td>
+                        </tr>
+                        <tr>
+                            <td><strong>name_full</strong></td>
+                            <td>Oncogene-negative lung adenocarcinoma</td>
+                        </tr>
+                        <tr>
+                            <td><strong>brief_description</strong></td>
+                            <td>Lung adenocarcinomas that lack canonical oncogene mutations and are often driven by coincident inactivation of multiple tumor suppressor genes. In this paper, the authors focus on a subset driven by combinatorial loss of NF1, RASA1, and PTEN and show that the resulting fitness landscape is unexpectedly smooth and fully accessible.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>citation_title</strong></td>
+                            <td>Fully accessible fitness landscape of oncogene-negative lung adenocarcinoma</td>
+                        </tr>
+                        <tr>
+                            <td><strong>mention_or_use</strong></td>
+                            <td>use</td>
+                        </tr>
+                        <tr>
+                            <td><strong>driver_negative_definition</strong></td>
+                            <td>The paper defines oncogene-negative lung adenocarcinoma as LUAD lacking oncogene mutations, with the broader discussion emphasizing tumors that are not driven by a single dominant oncogene alteration and instead may arise from combinatorial tumor suppressor loss. Operationally, the study models this by CRISPR/Cas9-mediated inactivation of tumor suppressors in mouse lung epithelial cells, using Tuba-seq in TC, Trp53-deficient TC, Keap1-deficient TC, Lkb1-deficient TC, and Cas9-negative KrasLSL-G12D;T control mice.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>candidate_driver_pathway_or_mechanism</strong></td>
+                            <td>The main driver hypothesis is combinatorial tumor suppressor loss, specifically coincident inactivation of NF1, RASA1, and PTEN, which jointly drives oncogene-negative lung adenocarcinoma initiation and growth. The paper links this to activation of MAPK and PI3K pathway signaling and argues that oncogene-negative tumors may gain fitness through sequential loss of multiple negative regulators rather than a hidden single oncogene.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>alteration_or_activation_mode</strong></td>
+                            <td>Combinatorial co-loss of negative regulators through homozygous CRISPR/Cas9 knockout of tumor suppressor genes; the paper examines all single-, double-, and triple-mutant combinations of Nf1, Rasa1, and Pten, and additional background losses of Trp53, Keap1, or Lkb1.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>implicated_gene_axis_or_pathway</strong></td>
+                            <td>NF1/RASA1/PTEN loss with downstream MAPK and PI3K pathway activation; background effects from TP53, KEAP1, and LKB1 are also analyzed as modifiers of tumor initiation, size, and landscape topology.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>pathway_activation_evidence</strong></td>
+                            <td>The paper cites its prior work showing activation of MAP Kinase (MAPK) and PI3 Kinase (PI3K) pathway as a potent driver of a subset of oncogene-negative lung tumors, but in this study the primary evidence is fitness-based rather than direct phospho-readouts. The study does not report pERK/pAKT/pS6 measurements in the provided text; activation is genetically explained by Nf1/Rasa1/Pten loss and inferred from the previously established driver context.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>driver_negative_subtype</strong></td>
+                            <td>A combinatorially driven oncogene-negative LUAD subtype defined by loss of NF1, RASA1, and PTEN and by accessibility of the mutational path to the triple-mutant state. The subtype is genomics-based and functional, not transcriptomic or proteomic, and remains accessible across Trp53-, Keap1-, and partially Lkb1-altered backgrounds.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>clinical_or_exposure_context</strong></td>
+                            <td>The paper states that oncogene-negative tumors represent about 20% of lung adenocarcinoma cases and affect about 150,000 patients each year worldwide. No specific smoking, sex, ancestry, or mucinous-histology enrichment is defined in the provided text.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>cross_cancer_parallel</strong></td>
+                            <td>The authors contrast this smooth landscape with rugged fitness landscapes in diverse evolutionary systems and with oncogene-driven lung cancer models in which Trp53, Lkb1, and Keap1 have different effects. They also compare the context dependence of TP53, KEAP1, and LKB1 to their roles in KRAS-, EGFR-, and BRAF-driven lung cancer.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>therapeutic_vulnerability_or_implication</strong></td>
+                            <td>The paper suggests that defining cancer fitness landscapes could reveal therapeutic vulnerabilities, and it notes that acquiring driver alterations that generate oncogene-negative tumors may be facilitated by the lack of constraints on mutational order. No drug sensitivity experiment is reported here, so the therapeutic implication is conceptual rather than directly actionable in this study.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>validation_evidence_and_model_system</strong></td>
+                            <td>Validation is performed in genetically engineered mouse models using combinatorial and multiplexed somatic CRISPR/Cas9 editing, lentiviral tumor barcoding, and Tuba-seq. The accessible landscape is supported by replicate analyses, bootstrap resampling, multiple-transduction correction, a Cas9-negative KrasLSL-G12D;T control, and comparison across Trp53-, Keap1-, and Lkb1-altered backgrounds.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>driver_negative_scope_class</strong></td>
+                            <td>no_known_actionable_driver</td>
+                        </tr>
+                        <tr>
+                            <td><strong>excluded_driver_genes_and_alteration_types</strong></td>
+                            <td>The study's negative definition excludes canonical oncogene mutations in general, but the paper does not provide a clinical assay list of excluded genes beyond the absence of oncogene mutations. In the experimental model, the modeled alterations are tumor suppressor inactivations rather than oncogene hotspot mutation, fusion, exon skipping, amplification, or other actionable-driver classes.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>negative_call_assay_stack</strong></td>
+                            <td>not_formally_defined</td>
+                        </tr>
+                        <tr>
+                            <td><strong>negative_call_confidence</strong></td>
+                            <td>low</td>
+                        </tr>
+                        <tr>
+                            <td><strong>rescued_hidden_driver_after_deeper_testing</strong></td>
+                            <td>unresolved_after_broad_testing</td>
+                        </tr>
+                        <tr>
+                            <td><strong>primary_hidden_driver_mechanism_class</strong></td>
+                            <td>tumor_suppressor_co_loss</td>
+                        </tr>
+                        <tr>
+                            <td><strong>secondary_mechanism_classes</strong></td>
+                            <td>phosphoproteomic_pathway_state, unresolved</td>
+                        </tr>
+                        <tr>
+                            <td><strong>mechanism_requires_specific_genetic_lesion</strong></td>
+                            <td>yes</td>
+                        </tr>
+                        <tr>
+                            <td><strong>mechanism_is_tumor_intrinsic_or_extrinsic</strong></td>
+                            <td>tumor_intrinsic</td>
+                        </tr>
+                        <tr>
+                            <td><strong>mechanism_biologic_level</strong></td>
+                            <td>dna</td>
+                        </tr>
+                        <tr>
+                            <td><strong>causal_evidence_tier</strong></td>
+                            <td>tier_4_in_vivo_model</td>
+                        </tr>
+                        <tr>
+                            <td><strong>evidence_modalities_present</strong></td>
+                            <td>GEMM, CRISPR_Cas9_somatic_editing, tumor_barcoding, high_throughput_barcode_sequencing, histology, IHC, bootstrap_statistics, control_genotype_comparison</td>
+                        </tr>
+                        <tr>
+                            <td><strong>therapeutic_actionability_evidence_tier</strong></td>
+                            <td>inferential_only</td>
+                        </tr>
+                        <tr>
+                            <td><strong>paper_claim_strength</strong></td>
+                            <td>mechanistic</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="extraction-instance-container" id="e2385.1">
+                <h3 class="extraction-instance">Extracted Data Instance 1 (e2385.1)</h3>
+                <div class="extraction-query"><strong>Extraction Query:</strong> Extract any mentions of hidden drivers, pathway states, subtype structure, validation evidence, and therapeutic implications in oncogene-negative or driver-negative lung adenocarcinoma.</div>
+                <table>
+                    <thead>
+                        <tr>
+                            <th style="width: 30%;">Field</th>
+                            <th style="width: 70%;">Value</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><strong>name_short</strong></td>
+                            <td>Nf1/Rasa1/Pten</td>
+                        </tr>
+                        <tr>
+                            <td><strong>name_full</strong></td>
+                            <td>Nf1, Rasa1, and Pten combinatorial inactivation</td>
+                        </tr>
+                        <tr>
+                            <td><strong>brief_description</strong></td>
+                            <td>A three-gene tumor suppressor axis whose joint loss is identified as a potent driver of oncogene-negative lung adenocarcinoma. The paper shows that each additional mutation increases relative fitness in any order, yielding a fully accessible landscape across multiple mouse genetic backgrounds.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>citation_title</strong></td>
+                            <td>Fully accessible fitness landscape of oncogene-negative lung adenocarcinoma</td>
+                        </tr>
+                        <tr>
+                            <td><strong>mention_or_use</strong></td>
+                            <td>use</td>
+                        </tr>
+                        <tr>
+                            <td><strong>driver_negative_definition</strong></td>
+                            <td>In the study's operational framework, the relevant oncogene-negative state is a lung adenocarcinoma model in which driver activity comes from loss of tumor suppressors rather than oncogene activation. The system is tested by editing Nf1, Rasa1, and Pten in TC mice and related backgrounds and quantifying tumor initiation and clonal growth by Tuba-seq.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>candidate_driver_pathway_or_mechanism</strong></td>
+                            <td>Combinatorial tumor suppressor inactivation is proposed as the hidden driver logic, with NF1, RASA1, and PTEN loss acting together to substitute for a missing strong oncogene driver. This is the principal mechanism behind the oncogene-negative tumors in the paper.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>alteration_or_activation_mode</strong></td>
+                            <td>Homozygous loss-of-function via CRISPR/Cas9-mediated gene inactivation in all single, double, and triple combinations; the paper also assesses the effect of adding Trp53, Keap1, or Lkb1 deficiency.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>implicated_gene_axis_or_pathway</strong></td>
+                            <td>NF1/RASA1/PTEN with MAPK and PI3K pathway activation downstream of their loss.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>pathway_activation_evidence</strong></td>
+                            <td>The paper references prior evidence that combined Nf1, Rasa1, and Pten inactivation activates MAPK and PI3K signaling. In the current work, the support is functional and landscape-based: the triple-mutant genotype has the highest relative fitness, and all sequential routes to it increase fitness, consistent with a pathway-activating tumor suppressor-loss model.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>driver_negative_subtype</strong></td>
+                            <td>A fully accessible combinatorial-loss subtype of oncogene-negative LUAD defined by Nf1;Rasa1;Pten triple deficiency. The subtype is defined by genotype and fitness topology, not by a transcriptomic classifier.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>clinical_or_exposure_context</strong></td>
+                            <td>No direct clinical covariates are provided for this genotype-defined subtype in the text, beyond its relevance to oncogene-negative LUAD broadly.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>cross_cancer_parallel</strong></td>
+                            <td>The paper uses this axis as an example of a smooth cancer fitness landscape in contrast to the rugged landscapes often seen in evolutionary systems and in oncogene-driven lung cancer.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>therapeutic_vulnerability_or_implication</strong></td>
+                            <td>The authors suggest that oncogene-negative tumors may have therapeutic vulnerabilities, but no specific inhibitor is tested for the NF1/RASA1/PTEN axis here. The implication is that pathway dependence may be exploitable, but the paper remains preclinical and conceptual.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>validation_evidence_and_model_system</strong></td>
+                            <td>Validated in vivo in mouse lung tumors generated by lentiviral CRISPR/Cas9 editing and quantified by Tuba-seq. Robustness is shown across independent cohorts, multiple-transduction corrections, and different background genotypes.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>driver_negative_scope_class</strong></td>
+                            <td>no_known_actionable_driver</td>
+                        </tr>
+                        <tr>
+                            <td><strong>excluded_driver_genes_and_alteration_types</strong></td>
+                            <td>Not a clinical exclusion list; the study experimentally focuses on inactivating Nf1, Rasa1, and Pten rather than oncogene hotspot mutations or fusions.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>negative_call_assay_stack</strong></td>
+                            <td>not_formally_defined</td>
+                        </tr>
+                        <tr>
+                            <td><strong>negative_call_confidence</strong></td>
+                            <td>low</td>
+                        </tr>
+                        <tr>
+                            <td><strong>rescued_hidden_driver_after_deeper_testing</strong></td>
+                            <td>none_reported</td>
+                        </tr>
+                        <tr>
+                            <td><strong>primary_hidden_driver_mechanism_class</strong></td>
+                            <td>tumor_suppressor_co_loss</td>
+                        </tr>
+                        <tr>
+                            <td><strong>secondary_mechanism_classes</strong></td>
+                            <td>unresolved</td>
+                        </tr>
+                        <tr>
+                            <td><strong>mechanism_requires_specific_genetic_lesion</strong></td>
+                            <td>yes</td>
+                        </tr>
+                        <tr>
+                            <td><strong>mechanism_is_tumor_intrinsic_or_extrinsic</strong></td>
+                            <td>tumor_intrinsic</td>
+                        </tr>
+                        <tr>
+                            <td><strong>mechanism_biologic_level</strong></td>
+                            <td>dna</td>
+                        </tr>
+                        <tr>
+                            <td><strong>causal_evidence_tier</strong></td>
+                            <td>tier_4_in_vivo_model</td>
+                        </tr>
+                        <tr>
+                            <td><strong>evidence_modalities_present</strong></td>
+                            <td>GEMM, CRISPR_Cas9_somatic_editing, tumor_barcoding, barcode_sequencing, relative_fitness_mapping, bootstrap_statistics, histology</td>
+                        </tr>
+                        <tr>
+                            <td><strong>therapeutic_actionability_evidence_tier</strong></td>
+                            <td>none</td>
+                        </tr>
+                        <tr>
+                            <td><strong>paper_claim_strength</strong></td>
+                            <td>mechanistic</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="extraction-instance-container" id="e2385.2">
+                <h3 class="extraction-instance">Extracted Data Instance 2 (e2385.2)</h3>
+                <div class="extraction-query"><strong>Extraction Query:</strong> Extract any mentions of hidden drivers, pathway states, subtype structure, validation evidence, and therapeutic implications in oncogene-negative or driver-negative lung adenocarcinoma.</div>
+                <table>
+                    <thead>
+                        <tr>
+                            <th style="width: 30%;">Field</th>
+                            <th style="width: 70%;">Value</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><strong>name_short</strong></td>
+                            <td>MAPK/PI3K</td>
+                        </tr>
+                        <tr>
+                            <td><strong>name_full</strong></td>
+                            <td>MAP Kinase and PI3 Kinase pathway activation</td>
+                        </tr>
+                        <tr>
+                            <td><strong>brief_description</strong></td>
+                            <td>A signaling-state explanation invoked for a subset of oncogene-negative lung tumors, downstream of combinatorial inactivation of Nf1, Rasa1, and Pten. In this paper it is treated as the pathway state that likely substitutes for a hidden oncogene driver and helps explain tumor initiation and growth.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>citation_title</strong></td>
+                            <td>Fully accessible fitness landscape of oncogene-negative lung adenocarcinoma</td>
+                        </tr>
+                        <tr>
+                            <td><strong>mention_or_use</strong></td>
+                            <td>mention</td>
+                        </tr>
+                        <tr>
+                            <td><strong>driver_negative_definition</strong></td>
+                            <td>Oncogene-negative LUAD is framed as tumors lacking a dominant oncogene mutation and instead driven by pathway-level consequences of multiple tumor suppressor losses. The cited pathway state is tied to that concept but is not independently assayed in this paper.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>candidate_driver_pathway_or_mechanism</strong></td>
+                            <td>The candidate mechanism is activation of MAPK and PI3K signaling caused by loss of upstream negative regulators, especially NF1, RASA1, and PTEN. The authors suggest that oncogene-negative tumors may comprise diverse combinations of alterations that activate these pathways.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>alteration_or_activation_mode</strong></td>
+                            <td>Pathway activation through co-loss of negative regulators rather than direct oncogene mutation.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>implicated_gene_axis_or_pathway</strong></td>
+                            <td>MAPK and PI3K pathways.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>pathway_activation_evidence</strong></td>
+                            <td>The provided text attributes MAPK and PI3K activation to prior work rather than to direct measurements in this study. Evidence here is genetic and functional: the tumor suppressor-loss genotypes that should activate these pathways show increasing fitness and dominate tumor burden.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>driver_negative_subtype</strong></td>
+                            <td>Pathway-activated oncogene-negative LUAD with MAPK/PI3K signaling elevated due to tumor suppressor loss.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>clinical_or_exposure_context</strong></td>
+                            <td>No specific exposure or demographic context is given in the text for this pathway state.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>cross_cancer_parallel</strong></td>
+                            <td>The paper contrasts this pathway-state model with oncogene-driven lung cancer and with sign-epistatic systems in general.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>therapeutic_vulnerability_or_implication</strong></td>
+                            <td>The pathway-state framing suggests potential therapeutic vulnerabilities in MAPK/PI3K-dependent oncogene-negative tumors, but the paper does not test targeted inhibitors here.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>validation_evidence_and_model_system</strong></td>
+                            <td>Prior study-based support plus in vivo fitness mapping in GEMMs. The current paper validates the pathway-linked genotype by showing accessible stepwise fitness gains in mouse tumors.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>driver_negative_scope_class</strong></td>
+                            <td>no_known_actionable_driver</td>
+                        </tr>
+                        <tr>
+                            <td><strong>excluded_driver_genes_and_alteration_types</strong></td>
+                            <td>No clinical exclusion workflow is specified; the study is not a diagnostic-negative panel paper.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>negative_call_assay_stack</strong></td>
+                            <td>not_formally_defined</td>
+                        </tr>
+                        <tr>
+                            <td><strong>negative_call_confidence</strong></td>
+                            <td>low</td>
+                        </tr>
+                        <tr>
+                            <td><strong>rescued_hidden_driver_after_deeper_testing</strong></td>
+                            <td>unresolved_after_broad_testing</td>
+                        </tr>
+                        <tr>
+                            <td><strong>primary_hidden_driver_mechanism_class</strong></td>
+                            <td>phosphoproteomic_pathway_state</td>
+                        </tr>
+                        <tr>
+                            <td><strong>secondary_mechanism_classes</strong></td>
+                            <td>tumor_suppressor_co_loss</td>
+                        </tr>
+                        <tr>
+                            <td><strong>mechanism_requires_specific_genetic_lesion</strong></td>
+                            <td>mixed</td>
+                        </tr>
+                        <tr>
+                            <td><strong>mechanism_is_tumor_intrinsic_or_extrinsic</strong></td>
+                            <td>tumor_intrinsic</td>
+                        </tr>
+                        <tr>
+                            <td><strong>mechanism_biologic_level</strong></td>
+                            <td>protein_phosphosite</td>
+                        </tr>
+                        <tr>
+                            <td><strong>causal_evidence_tier</strong></td>
+                            <td>tier_2_expression_or_proteomic_association</td>
+                        </tr>
+                        <tr>
+                            <td><strong>evidence_modalities_present</strong></td>
+                            <td>genetic_context, in_vivo_fitness_mapping, prior_study_reference</td>
+                        </tr>
+                        <tr>
+                            <td><strong>therapeutic_actionability_evidence_tier</strong></td>
+                            <td>inferential_only</td>
+                        </tr>
+                        <tr>
+                            <td><strong>paper_claim_strength</strong></td>
+                            <td>hypothesis_generating</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>Potentially Relevant New Papers (mentioned by this paper)</h2>
+            <ol>
+                <li>Combinatorial inactivation of tumor suppressors efficiently initiates lung adenocarcinoma with therapeutic vulnerabilities <em>(Rating: 2)</em></li>
+                <li>Fully accessible fitness landscape of oncogene-negative lung adenocarcinoma <em>(Rating: 2)</em></li>
+                <li>A functional taxonomy of tumor suppression in oncogenic KRAS-driven lung cancer <em>(Rating: 2)</em></li>
+                <li>Mapping the in vivo fitness landscape of lung adenocarcinoma tumor suppression in mice <em>(Rating: 2)</em></li>
+                <li>Genetic determinants of EGFR-driven lung cancer growth and therapeutic response in vivo <em>(Rating: 1)</em></li>
+            </ol>
+        </div>
+
+        </div>
+
+    </div>
+</body>
+</html>

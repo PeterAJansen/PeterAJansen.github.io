@@ -1,0 +1,510 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Extraction extraction-result-1878 - Theorizer</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+    <div class="header">
+        <a href="../index.html"><i class="fas fa-flask"></i> Theorizer</a>
+    </div>
+
+    <div class="content">
+        <h1>Extracted Data Details for extraction-result-1878</h1>
+
+        <div class="section">
+            <h2>Extracted Data (Header)</h2>
+            <div class="info-section">
+                <p><strong>Extraction ID:</strong> extraction-result-1878</p>
+                <p><strong>Extraction Schema Used (ID):</strong> <a href="../schemas/extraction-schema-1841.html">extraction-schema-1841</a></p>
+                <div class="extraction-query"><strong>Extraction Query:</strong> Extract any mentions of driver-negative or oncogene-negative lung adenocarcinoma cases, cohorts, models, or subgroups; the evidence for why they are considered driver-negative; candidate alternative drivers or mechanisms; proposed subtypes; validation strategies; comparisons to other cancers; and therapeutic implications.</div>
+                <p><strong>Paper ID:</strong> paper-67d0ea760d2894ea062f6661bde83f31b4203cc5</p>
+                <p><strong>Paper Title:</strong> <a href="https://www.semanticscholar.org/paper/67d0ea760d2894ea062f6661bde83f31b4203cc5" target="_blank">Inhibitor-sensitive FGFR2 and FGFR3 mutations in lung squamous cell carcinoma.</a></p>
+                <p><strong>Paper Venue:</strong> Cancer Research</p>
+                <p><strong>Paper TL;DR:</strong> The oncogenic nature of mutations observed in FGFR2 and FGFR3, each of which are observed in 3% of samples, are described, for a mutation rate of 6% across both genes.</p>
+                <p><strong>Paper Abstract:</strong> A comprehensive description of genomic alterations in lung squamous cell carcinoma (lung SCC) has recently been reported, enabling the identification of genomic events that contribute to the oncogenesis of this disease. In lung SCC, one of the most frequently altered receptor tyrosine kinase families is the fibroblast growth factor receptor (FGFR) family, with amplification or mutation observed in all four family members. Here, we describe the oncogenic nature of mutations observed in FGFR2 and FGFR3, each of which are observed in 3% of samples, for a mutation rate of 6% across both genes. Using cell culture and xenograft models, we show that several of these mutations drive cellular transformation. Transformation can be reversed by small-molecule FGFR inhibitors currently being developed for clinical use. We also show that mutations in the extracellular domains of FGFR2 lead to constitutive FGFR dimerization. In addition, we report a patient with an FGFR2-mutated oral SCC who responded to the multitargeted tyrosine kinase inhibitor pazopanib. These findings provide new insights into driving oncogenic events in a subset of lung squamous cancers, and recommend future clinical studies with FGFR inhibitors in patients with lung and head and neck SCC.</p>
+                <p><strong>Cost:</strong> 0.026</p>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>Extracted Data (Details)</h2>
+            <div class="extraction-instance-container" id="e1878.0">
+                <h3 class="extraction-instance">Extracted Data Instance 0 (e1878.0)</h3>
+                <div class="extraction-query"><strong>Extraction Query:</strong> Extract any mentions of driver-negative or oncogene-negative lung adenocarcinoma cases, cohorts, models, or subgroups; the evidence for why they are considered driver-negative; candidate alternative drivers or mechanisms; proposed subtypes; validation strategies; comparisons to other cancers; and therapeutic implications.</div>
+                <table>
+                    <thead>
+                        <tr>
+                            <th style="width: 30%;">Field</th>
+                            <th style="width: 70%;">Value</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><strong>name_short</strong></td>
+                            <td>TCGA lung SqCC FGFR-mutant subset</td>
+                        </tr>
+                        <tr>
+                            <td><strong>name_full</strong></td>
+                            <td>TCGA lung squamous cell carcinoma samples harboring FGFR2 or FGFR3 mutations</td>
+                        </tr>
+                        <tr>
+                            <td><strong>brief_description</strong></td>
+                            <td>This is a lung squamous cell carcinoma subset in which recurrent FGFR2 or FGFR3 mutations were identified and functionally validated as oncogenic. The paper argues these are potentially targetable driver events, but it does not define these tumors as classic 'driver-negative' lung adenocarcinoma cases.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>citation_title</strong></td>
+                            <td>Inhibitor-sensitive FGFR2 and FGFR3 mutations in lung squamous cell carcinoma</td>
+                        </tr>
+                        <tr>
+                            <td><strong>mention_or_use</strong></td>
+                            <td>use</td>
+                        </tr>
+                        <tr>
+                            <td><strong>cohort_or_model</strong></td>
+                            <td>TCGA lung squamous cell carcinoma cohort (178 tumor/normal exome pairs) plus one TCGA-excluded sample (TCGA-21-1083)</td>
+                        </tr>
+                        <tr>
+                            <td><strong>cancer_context</strong></td>
+                            <td>Lung squamous cell carcinoma, not lung adenocarcinoma</td>
+                        </tr>
+                        <tr>
+                            <td><strong>driver_negative_definition</strong></td>
+                            <td>Not a driver-negative cohort; the paper notes that some FGFR-mutant tumors had no known oncogenic somatic mutations aside from common co-alterations such as TP53 or PIK3CA, but it does not systematically define these as driver-negative by excluding canonical lung adenocarcinoma drivers.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>driver_negative_frequency</strong></td>
+                            <td>Not reported as a driver-negative frequency. Among 10 FGFR-mutant TCGA cases, 3 co-occurred with known oncogene mutations; the remaining cases lacked other known oncogenic somatic mutations except common co-alterations (TP53 8/10, PIK3CA 3/10, SOX2 amplification 4/10, CDKN2A deletion 2/10).</td>
+                        </tr>
+                        <tr>
+                            <td><strong>profiling_modalities</strong></td>
+                            <td>TCGA whole-exome sequencing review; public sequencing data from excluded samples; transcriptome sequencing for a separate head and neck case; functional validation in NIH-3T3 soft agar, xenograft assays, Ba/F3 dependency assays, immunoblotting, and dimerization assays</td>
+                        </tr>
+                        <tr>
+                            <td><strong>candidate_mechanism_category</strong></td>
+                            <td>rare coding mutation</td>
+                        </tr>
+                        <tr>
+                            <td><strong>candidate_driver_or_mechanism</strong></td>
+                            <td>FGFR2 and FGFR3 activating mutations</td>
+                        </tr>
+                        <tr>
+                            <td><strong>mechanistic_description</strong></td>
+                            <td>Recurrent extracellular-domain and kinase-domain mutations in FGFR2/FGFR3 drive ligand-sensitive or constitutive receptor activation, downstream FRS2/ERK/AKT signaling, anchorage-independent growth, and tumor formation; extracellular-domain cysteine mutations can form intermolecular disulfide-linked dimers.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>evidence_type</strong></td>
+                            <td>recurrent alteration in tumors; functional dependency screen; perturbation experiment; drug sensitivity; cross-cancer analogy</td>
+                        </tr>
+                        <tr>
+                            <td><strong>key_evidence</strong></td>
+                            <td>The authors found 5 FGFR2 and 6 FGFR3 mutations in 178 TCGA lung SqCC tumor/normal pairs plus one additional FGFR2 K660N case excluded from TCGA. Several mutations transformed NIH-3T3 cells in soft agar, formed xenograft tumors, showed FGFR signaling dependence in Ba/F3 cells, and were inhibited by FGFR-targeted drugs such as BGJ398, ponatinib, dovitinib, and pazopanib.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>negative_or_counter_evidence</strong></td>
+                            <td>The paper explicitly notes that some mutations were not transforming; it also emphasizes that co-occurring oncogenic events and high tumor heterogeneity mean FGFR mutations may not be the sole oncogenic driver in every sample.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>subtype_name</strong></td>
+                            <td><span class="empty-note">null</span></td>
+                        </tr>
+                        <tr>
+                            <td><strong>subtype_features</strong></td>
+                            <td>Basal expression subtype enrichment was reported for FGFR kinase alterations (Fisher's exact test p=0.016); tumors were from older current/former smokers and were mostly early-stage resected squamous cancers.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>parallel_in_other_cancers</strong></td>
+                            <td>Analogous activating FGFR2 mutations in endometrial carcinoma and FGFR3 mutations in urothelial carcinoma; the paper also notes similar somatic FGFR mutations in malignancies and germline FGFR mutations in congenital syndromes.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>validation_approach</strong></td>
+                            <td>Orthogonal confirmation of a patient mutation by Sanger sequencing; expression of mutant receptors in NIH-3T3 and Ba/F3 cells; soft agar transformation assays; xenograft tumorigenicity; non-reducing/reducing gel dimerization assays; inhibitor response assays; immunoblotting for phospho-FGFR/FRS2/ERK/AKT.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>validation_result</strong></td>
+                            <td>Multiple FGFR2/3 mutants induced colony formation and xenograft growth; BGJ398 slowed or reversed tumor growth in mice; FGF1 stimulated dimerization and colony formation for FGFR2 extracellular-domain mutants; FGFR inhibitors reduced signaling and proliferation in Ba/F3 and NIH-3T3 systems.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>therapeutic_implication</strong></td>
+                            <td>Supports therapeutic targeting of FGFR2/FGFR3-mutant squamous tumors with FGFR inhibitors, including selective FGFR kinase inhibitors and some multi-kinase inhibitors.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>therapeutic_evidence</strong></td>
+                            <td>In vitro and in vivo drug sensitivity to BGJ398, ponatinib, dovitinib, and pazopanib was shown for transforming FGFR-mutant models; tumors in mice slowed or reversed growth with BGJ398; a head and neck SqCC patient with FGFR2 P253R had a partial clinical response to pazopanib.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>clinical_or_demographic_association</strong></td>
+                            <td>FGFR-mutant TCGA lung SqCC patients ranged from 58 to 81 years old, were all current or former smokers with 9-63 pack-years, and had mostly T1/T2, N0/N1 resected tumors.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>study_limitations</strong></td>
+                            <td>Not a lung adenocarcinoma study; sample size is small for mutant subgroups; not all observed mutations were transforming; co-alterations and intratumoral heterogeneity complicate attribution of driver status; in vivo sensitivity cannot be directly inferred from the models.</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="extraction-instance-container" id="e1878.1">
+                <h3 class="extraction-instance">Extracted Data Instance 1 (e1878.1)</h3>
+                <div class="extraction-query"><strong>Extraction Query:</strong> Extract any mentions of driver-negative or oncogene-negative lung adenocarcinoma cases, cohorts, models, or subgroups; the evidence for why they are considered driver-negative; candidate alternative drivers or mechanisms; proposed subtypes; validation strategies; comparisons to other cancers; and therapeutic implications.</div>
+                <table>
+                    <thead>
+                        <tr>
+                            <th style="width: 30%;">Field</th>
+                            <th style="width: 70%;">Value</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><strong>name_short</strong></td>
+                            <td>LUSC-21-1078</td>
+                        </tr>
+                        <tr>
+                            <td><strong>name_full</strong></td>
+                            <td>TCGA lung squamous cell carcinoma sample LUSC-21-1078 with FGFR and additional oncogenic mutations</td>
+                        </tr>
+                        <tr>
+                            <td><strong>brief_description</strong></td>
+                            <td>This is a specific lung squamous cell carcinoma case used by the authors as an example of a tumor with FGFR mutation plus multiple known oncogenic alterations. It illustrates the point that FGFR-mutant tumors may not be purely single-driver lesions.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>citation_title</strong></td>
+                            <td>Inhibitor-sensitive FGFR2 and FGFR3 mutations in lung squamous cell carcinoma</td>
+                        </tr>
+                        <tr>
+                            <td><strong>mention_or_use</strong></td>
+                            <td>mention</td>
+                        </tr>
+                        <tr>
+                            <td><strong>cohort_or_model</strong></td>
+                            <td>Individual TCGA lung SqCC case LUSC-21-1078</td>
+                        </tr>
+                        <tr>
+                            <td><strong>cancer_context</strong></td>
+                            <td>Lung squamous cell carcinoma</td>
+                        </tr>
+                        <tr>
+                            <td><strong>driver_negative_definition</strong></td>
+                            <td>Not driver-negative; this case harbored mutations in HRAS codon 61, PDGFRA codon 842, a novel ERBB2 E1021Q mutation, and a non-canonical KRAS G118S mutation.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>driver_negative_frequency</strong></td>
+                            <td>One of the 10 FGFR-mutant TCGA cases; among FGFR-mutant cases it is one of the exceptions with multiple known oncogenic alterations.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>profiling_modalities</strong></td>
+                            <td>Exome sequencing review of TCGA data</td>
+                        </tr>
+                        <tr>
+                            <td><strong>candidate_mechanism_category</strong></td>
+                            <td>alternative pathway activation</td>
+                        </tr>
+                        <tr>
+                            <td><strong>candidate_driver_or_mechanism</strong></td>
+                            <td>HRAS, PDGFRA, ERBB2, and KRAS co-alterations alongside FGFR mutation</td>
+                        </tr>
+                        <tr>
+                            <td><strong>mechanistic_description</strong></td>
+                            <td>The case suggests that a tumor with an FGFR alteration may also contain other plausible oncogenic drivers, complicating interpretation of whether FGFR is the sole or dominant driver.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>evidence_type</strong></td>
+                            <td>co-occurring alterations</td>
+                        </tr>
+                        <tr>
+                            <td><strong>key_evidence</strong></td>
+                            <td>LUSC-21-1078 was reported to harbor HRAS codon 61 and PDGFRA codon 842 mutations plus ERBB2 E1021Q and KRAS G118S, in addition to FGFR alteration(s).</td>
+                        </tr>
+                        <tr>
+                            <td><strong>negative_or_counter_evidence</strong></td>
+                            <td>This case weakens a simplistic driver-negative/driver-positive dichotomy because multiple known oncogenic mutations are present.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>subtype_name</strong></td>
+                            <td><span class="empty-note">null</span></td>
+                        </tr>
+                        <tr>
+                            <td><strong>subtype_features</strong></td>
+                            <td><span class="empty-note">null</span></td>
+                        </tr>
+                        <tr>
+                            <td><strong>parallel_in_other_cancers</strong></td>
+                            <td><span class="empty-note">null</span></td>
+                        </tr>
+                        <tr>
+                            <td><strong>validation_approach</strong></td>
+                            <td>No direct validation; cited as a genomic example</td>
+                        </tr>
+                        <tr>
+                            <td><strong>validation_result</strong></td>
+                            <td>N/A</td>
+                        </tr>
+                        <tr>
+                            <td><strong>therapeutic_implication</strong></td>
+                            <td>Highlights the possibility that FGFR-targeted therapy might need to be considered in the context of co-drivers or combination therapy.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>therapeutic_evidence</strong></td>
+                            <td>The paper notes heterogeneity and that some tumors with FGFR mutations may not be solely driven by FGFR.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>clinical_or_demographic_association</strong></td>
+                            <td><span class="empty-note">null</span></td>
+                        </tr>
+                        <tr>
+                            <td><strong>study_limitations</strong></td>
+                            <td>Single-case genomic observation without functional dissection of which alteration dominates.</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="extraction-instance-container" id="e1878.2">
+                <h3 class="extraction-instance">Extracted Data Instance 2 (e1878.2)</h3>
+                <div class="extraction-query"><strong>Extraction Query:</strong> Extract any mentions of driver-negative or oncogene-negative lung adenocarcinoma cases, cohorts, models, or subgroups; the evidence for why they are considered driver-negative; candidate alternative drivers or mechanisms; proposed subtypes; validation strategies; comparisons to other cancers; and therapeutic implications.</div>
+                <table>
+                    <thead>
+                        <tr>
+                            <th style="width: 30%;">Field</th>
+                            <th style="width: 70%;">Value</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><strong>name_short</strong></td>
+                            <td>Basal subtype</td>
+                        </tr>
+                        <tr>
+                            <td><strong>name_full</strong></td>
+                            <td>Basal expression subtype of lung squamous cell carcinoma</td>
+                        </tr>
+                        <tr>
+                            <td><strong>brief_description</strong></td>
+                            <td>The paper reports enrichment of FGFR kinase alterations in the basal expression subtype of lung squamous cell carcinoma. This is a molecular subtype association rather than a driver-negative definition.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>citation_title</strong></td>
+                            <td>Inhibitor-sensitive FGFR2 and FGFR3 mutations in lung squamous cell carcinoma</td>
+                        </tr>
+                        <tr>
+                            <td><strong>mention_or_use</strong></td>
+                            <td>mention</td>
+                        </tr>
+                        <tr>
+                            <td><strong>cohort_or_model</strong></td>
+                            <td>TCGA lung SqCC expression subtyping framework</td>
+                        </tr>
+                        <tr>
+                            <td><strong>cancer_context</strong></td>
+                            <td>Lung squamous cell carcinoma</td>
+                        </tr>
+                        <tr>
+                            <td><strong>driver_negative_definition</strong></td>
+                            <td>Not a driver-negative subtype; rather, a molecular expression subtype enriched for FGFR kinase alterations.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>driver_negative_frequency</strong></td>
+                            <td>FGFR kinase alterations were significantly enriched in this subtype; no subtype prevalence for driver-negative cases is given.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>profiling_modalities</strong></td>
+                            <td>Expression subtyping integrated with mutation analysis</td>
+                        </tr>
+                        <tr>
+                            <td><strong>candidate_mechanism_category</strong></td>
+                            <td>molecular subtype</td>
+                        </tr>
+                        <tr>
+                            <td><strong>candidate_driver_or_mechanism</strong></td>
+                            <td>Basal expression program associated with FGFR kinase alterations</td>
+                        </tr>
+                        <tr>
+                            <td><strong>mechanistic_description</strong></td>
+                            <td>The basal expression subtype may represent a biological context in which FGFR kinase alterations are more common and potentially actionable.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>evidence_type</strong></td>
+                            <td>association analysis</td>
+                        </tr>
+                        <tr>
+                            <td><strong>key_evidence</strong></td>
+                            <td>FGFR kinase alterations were significantly enriched in the basal expression subtype with Fisher's exact test p=0.016.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>negative_or_counter_evidence</strong></td>
+                            <td>The paper does not establish causality between basal subtype and FGFR mutation biology.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>subtype_name</strong></td>
+                            <td>Basal expression subtype</td>
+                        </tr>
+                        <tr>
+                            <td><strong>subtype_features</strong></td>
+                            <td>Expression-defined subtype of lung SqCC</td>
+                        </tr>
+                        <tr>
+                            <td><strong>parallel_in_other_cancers</strong></td>
+                            <td><span class="empty-note">null</span></td>
+                        </tr>
+                        <tr>
+                            <td><strong>validation_approach</strong></td>
+                            <td>Statistical enrichment analysis</td>
+                        </tr>
+                        <tr>
+                            <td><strong>validation_result</strong></td>
+                            <td>Significant association reported (p=0.016)</td>
+                        </tr>
+                        <tr>
+                            <td><strong>therapeutic_implication</strong></td>
+                            <td>May help prioritize FGFR testing or FGFR inhibitor trials in basal-subtype lung SqCC.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>therapeutic_evidence</strong></td>
+                            <td>The implication is inferential, based on enrichment of actionable FGFR alterations.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>clinical_or_demographic_association</strong></td>
+                            <td><span class="empty-note">null</span></td>
+                        </tr>
+                        <tr>
+                            <td><strong>study_limitations</strong></td>
+                            <td>Subtype association is correlative and not validated as a predictive biomarker.</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="extraction-instance-container" id="e1878.3">
+                <h3 class="extraction-instance">Extracted Data Instance 3 (e1878.3)</h3>
+                <div class="extraction-query"><strong>Extraction Query:</strong> Extract any mentions of driver-negative or oncogene-negative lung adenocarcinoma cases, cohorts, models, or subgroups; the evidence for why they are considered driver-negative; candidate alternative drivers or mechanisms; proposed subtypes; validation strategies; comparisons to other cancers; and therapeutic implications.</div>
+                <table>
+                    <thead>
+                        <tr>
+                            <th style="width: 30%;">Field</th>
+                            <th style="width: 70%;">Value</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><strong>name_short</strong></td>
+                            <td>Head and neck FGFR2 P253R case</td>
+                        </tr>
+                        <tr>
+                            <td><strong>name_full</strong></td>
+                            <td>Squamous cell carcinoma of the head and neck patient with FGFR2 P253R mutation and response to pazopanib</td>
+                        </tr>
+                        <tr>
+                            <td><strong>brief_description</strong></td>
+                            <td>A patient with oral/head-and-neck squamous cell carcinoma carrying FGFR2 P253R showed a marked reduction in tumor size after pazopanib treatment. The case is used as correlative support for FGFR-targeted therapy in FGFR2-mutant squamous tumors.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>citation_title</strong></td>
+                            <td>Inhibitor-sensitive FGFR2 and FGFR3 mutations in lung squamous cell carcinoma</td>
+                        </tr>
+                        <tr>
+                            <td><strong>mention_or_use</strong></td>
+                            <td>use</td>
+                        </tr>
+                        <tr>
+                            <td><strong>cohort_or_model</strong></td>
+                            <td>Single patient with oral squamous cell carcinoma of the tongue</td>
+                        </tr>
+                        <tr>
+                            <td><strong>cancer_context</strong></td>
+                            <td>Head and neck squamous cell carcinoma / oral squamous cell carcinoma</td>
+                        </tr>
+                        <tr>
+                            <td><strong>driver_negative_definition</strong></td>
+                            <td>Not driver-negative; the tumor had a somatic FGFR2 P253R mutation confirmed by RNA sequencing and Sanger sequencing.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>driver_negative_frequency</strong></td>
+                            <td>Single case; not a frequency estimate.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>profiling_modalities</strong></td>
+                            <td>RNA sequencing, Sanger confirmation, clinical observation</td>
+                        </tr>
+                        <tr>
+                            <td><strong>candidate_mechanism_category</strong></td>
+                            <td>rare coding mutation</td>
+                        </tr>
+                        <tr>
+                            <td><strong>candidate_driver_or_mechanism</strong></td>
+                            <td>FGFR2 P253R</td>
+                        </tr>
+                        <tr>
+                            <td><strong>mechanistic_description</strong></td>
+                            <td>Extracellular-domain FGFR2 mutation presumed to be transforming and FGFR inhibitor-sensitive, analogous to FGFR2-mutant lung and endometrial tumors.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>evidence_type</strong></td>
+                            <td>clinical response; functional analogy</td>
+                        </tr>
+                        <tr>
+                            <td><strong>key_evidence</strong></td>
+                            <td>The patient experienced a marked reduction in tumor size 12 days after starting daily pazopanib, after prior surgery, radiation, chemotherapy, and cetuximab.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>negative_or_counter_evidence</strong></td>
+                            <td>The authors explicitly state this observation does not definitively identify FGFR2 as the target of pazopanib.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>subtype_name</strong></td>
+                            <td><span class="empty-note">null</span></td>
+                        </tr>
+                        <tr>
+                            <td><strong>subtype_features</strong></td>
+                            <td>Locally advanced tongue squamous cell carcinoma; no tobacco or alcohol history</td>
+                        </tr>
+                        <tr>
+                            <td><strong>parallel_in_other_cancers</strong></td>
+                            <td>FGFR2 mutations previously observed in endometrial carcinoma and in head and neck squamous cell carcinoma sequencing studies</td>
+                        </tr>
+                        <tr>
+                            <td><strong>validation_approach</strong></td>
+                            <td>RNA-seq detection plus CLIA Sanger confirmation; functional assays referenced in parallel model systems</td>
+                        </tr>
+                        <tr>
+                            <td><strong>validation_result</strong></td>
+                            <td>Clinical partial response observed; mutation confirmed by orthogonal sequencing</td>
+                        </tr>
+                        <tr>
+                            <td><strong>therapeutic_implication</strong></td>
+                            <td>Supports considering FGFR inhibitors for FGFR2-mutant squamous cell carcinomas of the head and neck.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>therapeutic_evidence</strong></td>
+                            <td>Pazopanib treatment was followed by a rapid tumor reduction; the paper also reports preclinical sensitivity of FGFR-mutant models to pazopanib and other FGFR inhibitors.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>clinical_or_demographic_association</strong></td>
+                            <td>Patient was 52 years old, with no tobacco or alcohol history, and had recurrent locally advanced disease after multiple prior therapies.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>study_limitations</strong></td>
+                            <td>Single correlative case; pazopanib is multi-targeted so target attribution is uncertain.</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>Potentially Relevant New Papers (mentioned by this paper)</h2>
+            <ol>
+                <li>Comprehensive genomic characterization of squamous cell lung cancers <em>(Rating: 2)</em></li>
+                <li>Targeting mutant fibroblast growth factor receptors in cancer <em>(Rating: 2)</em></li>
+                <li>Drug-sensitive FGFR2 mutations in endometrial carcinoma <em>(Rating: 2)</em></li>
+                <li>Frequent activating FGFR2 mutations in endometrial carcinomas parallel germline mutations associated with craniosynostosis and skeletal dysplasia syndromes <em>(Rating: 2)</em></li>
+                <li>Frequent activating mutations of FGFR3 in human bladder and cervix carcinomas <em>(Rating: 2)</em></li>
+                <li>Inhibitor-sensitive FGFR1 amplification in human non-small cell lung cancer <em>(Rating: 1)</em></li>
+                <li>The mutational landscape of head and neck squamous cell carcinoma <em>(Rating: 1)</em></li>
+            </ol>
+        </div>
+
+        </div>
+
+    </div>
+</body>
+</html>

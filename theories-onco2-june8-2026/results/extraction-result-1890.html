@@ -1,0 +1,624 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Extraction extraction-result-1890 - Theorizer</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+    <div class="header">
+        <a href="../index.html"><i class="fas fa-flask"></i> Theorizer</a>
+    </div>
+
+    <div class="content">
+        <h1>Extracted Data Details for extraction-result-1890</h1>
+
+        <div class="section">
+            <h2>Extracted Data (Header)</h2>
+            <div class="info-section">
+                <p><strong>Extraction ID:</strong> extraction-result-1890</p>
+                <p><strong>Extraction Schema Used (ID):</strong> <a href="../schemas/extraction-schema-1841.html">extraction-schema-1841</a></p>
+                <div class="extraction-query"><strong>Extraction Query:</strong> Extract any mentions of driver-negative or oncogene-negative lung adenocarcinoma cases, cohorts, models, or subgroups; the evidence for why they are considered driver-negative; candidate alternative drivers or mechanisms; proposed subtypes; validation strategies; comparisons to other cancers; and therapeutic implications.</div>
+                <p><strong>Paper ID:</strong> paper-e5ec3dd82621c7b7eec312cd09fead78b37979d2</p>
+                <p><strong>Paper Title:</strong> <a href="https://www.semanticscholar.org/paper/e5ec3dd82621c7b7eec312cd09fead78b37979d2" target="_blank">Multiomics Analysis Reveals Molecular Changes during Early Progression of Precancerous Lesions to Lung Adenocarcinoma in Never-Smokers</a></p>
+                <p><strong>Paper Venue:</strong> Cancer Research</p>
+                <p><strong>Paper Abstract:</strong> Integrative analysis of multiomics data revealed coordination between immune and nonimmune cells during early progression of precancerous lesions to lung adenocarcinomas and shed light on the molecular characteristics of clinically defined subtypes.</p>
+                <p><strong>Cost:</strong> 0.037</p>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>Extracted Data (Details)</h2>
+            <div class="extraction-instance-container" id="e1890.0">
+                <h3 class="extraction-instance">Extracted Data Instance 0 (e1890.0)</h3>
+                <div class="extraction-query"><strong>Extraction Query:</strong> Extract any mentions of driver-negative or oncogene-negative lung adenocarcinoma cases, cohorts, models, or subgroups; the evidence for why they are considered driver-negative; candidate alternative drivers or mechanisms; proposed subtypes; validation strategies; comparisons to other cancers; and therapeutic implications.</div>
+                <table>
+                    <thead>
+                        <tr>
+                            <th style="width: 30%;">Field</th>
+                            <th style="width: 70%;">Value</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><strong>name_short</strong></td>
+                            <td>EGFR/TP53-positive-selection LUAD</td>
+                        </tr>
+                        <tr>
+                            <td><strong>name_full</strong></td>
+                            <td>Positive selection for EGFR and TP53 mutations during early lung adenocarcinoma progression</td>
+                        </tr>
+                        <tr>
+                            <td><strong>brief_description</strong></td>
+                            <td>The paper does not define a formal driver-negative cohort, but it uses WES to show that EGFR and TP53 are positively selected across the transition from AAH to AIS to MIA and early-stage lung adenocarcinoma in mostly never-smokers. This serves as the main canonical-driver framework against which the AIS-enriched BRAF/KRAS outlier pattern is contrasted.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>citation_title</strong></td>
+                            <td>Multiomics Analysis Reveals Molecular Changes during Early Progression of Precancerous Lesions to Lung Adenocarcinoma in Never-Smokers</td>
+                        </tr>
+                        <tr>
+                            <td><strong>mention_or_use</strong></td>
+                            <td>use</td>
+                        </tr>
+                        <tr>
+                            <td><strong>cohort_or_model</strong></td>
+                            <td>East Asian cohort of 167 surgically resected lung adenocarcinoma-spectrum nodules from 2017–2021; 154/167 were nonsmokers; pathologies included AAH (25), AIS (69), and MIA (73), with paired MIA_nonInv and MIA_Inv transcriptomes</td>
+                        </tr>
+                        <tr>
+                            <td><strong>cancer_context</strong></td>
+                            <td>early-stage lung adenocarcinoma in never-smokers / precancerous-to-invasive LUAD progression</td>
+                        </tr>
+                        <tr>
+                            <td><strong>driver_negative_definition</strong></td>
+                            <td>No explicit driver-negative subgroup was defined. Canonical driver status was assessed by whole-exome sequencing of tumor/normal FFPE tissue, with somatic variants called by Mutect2 and filtered by depth, allele fraction, and COSMIC documentation; the paper emphasizes EGFR and TP53 as positively selected, while BRAF and KRAS are atypically enriched in AIS. It does not state a comprehensive negative panel such as EGFR/KRAS/ALK/ROS1/RET/MET/ERBB2 fusion-negative.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>driver_negative_frequency</strong></td>
+                            <td>Not reported as a dedicated driver-negative frequency. The paper reports mutation rates for individual genes and notes that EGFR and BRAF were the two most highly mutated genes overall, with only one patient harboring both (BRAF as copy-number loss).</td>
+                        </tr>
+                        <tr>
+                            <td><strong>profiling_modalities</strong></td>
+                            <td>Whole-exome sequencing, bulk RNA sequencing, single-cell RNA-seq reanalysis, spatial transcriptomics, ssGSEA, TIMER, CLIMB, SCISSOR, EcoTyper</td>
+                        </tr>
+                        <tr>
+                            <td><strong>candidate_mechanism_category</strong></td>
+                            <td>canonical oncogene activation and tumor suppressor loss; alternative subtype biology rather than an explicit driver-negative mechanism</td>
+                        </tr>
+                        <tr>
+                            <td><strong>candidate_driver_or_mechanism</strong></td>
+                            <td>EGFR, TP53, BRAF, KRAS; with downstream angiogenesis and EMT-associated stromal programs (tip ECs, mCAFs) as progression-linked mechanisms</td>
+                        </tr>
+                        <tr>
+                            <td><strong>mechanistic_description</strong></td>
+                            <td>EGFR mutations are linked to angiogenesis via VEGF upregulation and endothelial activation, while TP53 loss is linked to EMT. BRAF and KRAS were unusually enriched in AIS, suggesting a possible AIS-associated proliferative state rather than a driver-negative state.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>evidence_type</strong></td>
+                            <td>recurrent alteration in tumors; cross-cohort comparison; pathway/biological interpretation</td>
+                        </tr>
+                        <tr>
+                            <td><strong>key_evidence</strong></td>
+                            <td>In 159 WES-evaluable patients, five genes showed positive selection from AAH to AIS to MIA to stage I LUAD: EGFR (44 patients), TP53 (11), KMT2D (10), FCGBP (6), and RNF213 (8). BRAF (29 patients) and KRAS (6) were outliers, being highly mutated in AIS (Fisher exact P=0.001 and P=0.005) and within AIS in AIS1. Similar patterns were noted in prior cohorts, supporting non-cohort-specific enrichment.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>negative_or_counter_evidence</strong></td>
+                            <td>The study does not present functional validation of these mutations as drivers in this cohort, and it explicitly notes that BRAF/KRAS enrichment might be influenced by small sample size. It also does not establish a formal driver-negative classification or rule out other canonical drivers comprehensively.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>subtype_name</strong></td>
+                            <td><span class="empty-note">null</span></td>
+                        </tr>
+                        <tr>
+                            <td><strong>subtype_features</strong></td>
+                            <td><span class="empty-note">null</span></td>
+                        </tr>
+                        <tr>
+                            <td><strong>parallel_in_other_cancers</strong></td>
+                            <td>BRAF oncogenic mutations are discussed in the context of other cancers as promoting proliferation; KMT2D is noted as a driver of lung squamous cell carcinoma progression.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>validation_approach</strong></td>
+                            <td>Cross-cohort replication in external LUAD datasets (Chen2020, TCGA, Zhao 2022, Sivakumar 2017, Xiang 2022); integration with histology, tumor size, and subtype analysis</td>
+                        </tr>
+                        <tr>
+                            <td><strong>validation_result</strong></td>
+                            <td>Mutation patterns for EGFR, TP53, and BRAF were similar across independent early-stage LUAD cohorts, suggesting the findings are not cohort-specific and may apply to nonsmoking patients.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>therapeutic_implication</strong></td>
+                            <td>Supports early interception concepts in LUAD, including antiangiogenic strategies and vessel normalization in lesions with angiogenic features; canonical EGFR-targeted strategies remain biologically relevant.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>therapeutic_evidence</strong></td>
+                            <td>The paper notes that angiogenesis can increase ctDNA and circulating tumor proteins for early detection, and cites established antiangiogenic agents and vessel-normalization approaches as potential early interventions. It does not test treatment response.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>clinical_or_demographic_association</strong></td>
+                            <td>Mostly East Asian never-smokers; EGFR mutation rate was characteristically high in East Asian patients compared with TCGA (more European ancestry). AIS enrichment was associated with larger tumor size and late AIS radiologic non-pGGO features.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>study_limitations</strong></td>
+                            <td>Retrospective design; all patients were East Asian and mostly nonsmokers; resected nodules may not represent all AAH lesions, especially dormant pGGO nodules; no longitudinal sampling; no functional follow-up of the candidate mutations.</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="extraction-instance-container" id="e1890.1">
+                <h3 class="extraction-instance">Extracted Data Instance 1 (e1890.1)</h3>
+                <div class="extraction-query"><strong>Extraction Query:</strong> Extract any mentions of driver-negative or oncogene-negative lung adenocarcinoma cases, cohorts, models, or subgroups; the evidence for why they are considered driver-negative; candidate alternative drivers or mechanisms; proposed subtypes; validation strategies; comparisons to other cancers; and therapeutic implications.</div>
+                <table>
+                    <thead>
+                        <tr>
+                            <th style="width: 30%;">Field</th>
+                            <th style="width: 70%;">Value</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><strong>name_short</strong></td>
+                            <td>AIS3</td>
+                        </tr>
+                        <tr>
+                            <td><strong>name_full</strong></td>
+                            <td>Late-stage adenocarcinoma in situ subtype 3</td>
+                        </tr>
+                        <tr>
+                            <td><strong>brief_description</strong></td>
+                            <td>AIS3 is a molecular subtype identified by clustering AIS samples using nonimmune cell markers, and it is the subtype most strongly linked to non-pGGO radiology and to a proposed transition toward invasion. It is not a driver-negative subtype per se, but it is the most relevant noncanonical progression state in the paper.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>citation_title</strong></td>
+                            <td>Multiomics Analysis Reveals Molecular Changes during Early Progression of Precancerous Lesions to Lung Adenocarcinoma in Never-Smokers</td>
+                        </tr>
+                        <tr>
+                            <td><strong>mention_or_use</strong></td>
+                            <td>use</td>
+                        </tr>
+                        <tr>
+                            <td><strong>cohort_or_model</strong></td>
+                            <td>AIS nodules from the 167-patient cohort; subtype clustering performed on bulk RNA-seq using nonimmune cell markers derived from lung adenocarcinoma scRNA-seq</td>
+                        </tr>
+                        <tr>
+                            <td><strong>cancer_context</strong></td>
+                            <td>precursor lung adenocarcinoma / late AIS progression in never-smokers</td>
+                        </tr>
+                        <tr>
+                            <td><strong>driver_negative_definition</strong></td>
+                            <td>Not a driver-negative group by definition. It is a pathologic subtype defined by transcriptomic clustering rather than by absence of canonical drivers.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>driver_negative_frequency</strong></td>
+                            <td>Not reported.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>profiling_modalities</strong></td>
+                            <td>Bulk RNA-seq, scRNA-seq marker-derived gene sets, ssGSEA, SCISSOR, spatial transcriptomics, EcoTyper</td>
+                        </tr>
+                        <tr>
+                            <td><strong>candidate_mechanism_category</strong></td>
+                            <td>angiogenesis and stromal remodeling</td>
+                        </tr>
+                        <tr>
+                            <td><strong>candidate_driver_or_mechanism</strong></td>
+                            <td>Tip endothelial cells (tip ECs) and matrix cancer-associated fibroblasts (mCAFs)</td>
+                        </tr>
+                        <tr>
+                            <td><strong>mechanistic_description</strong></td>
+                            <td>AIS3 is proposed to represent a late AIS phase in which newly developing vasculature and EMT-driving stromal programs emerge; tip ECs and mCAFs co-vary with AIS3 and are implicated in angiogenesis, EMT, and the pre-invasive-to-invasive transition.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>evidence_type</strong></td>
+                            <td>single-cell state association; subtype clustering; spatial transcriptomic validation; cross-method concordance</td>
+                        </tr>
+                        <tr>
+                            <td><strong>key_evidence</strong></td>
+                            <td>AIS3-associated ECs were enriched for tip EC markers by SCISSOR. EC and stromal ssGSEA scores decreased early then rose at AIS3; invasive-region ECs were increased in spatial transcriptomics. Among 10 CAF subtypes, mCAFs co-varied with tip ECs in all analyzed subtype pairs, and representative markers were higher in AIS3 than AAH.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>negative_or_counter_evidence</strong></td>
+                            <td>The subtype was inferred from transcriptomic clustering and association analyses, not from perturbation experiments. The paper states that the proposed ordering of subtypes is provisional and that not all tumors may pass through all subtypes.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>subtype_name</strong></td>
+                            <td>AIS3</td>
+                        </tr>
+                        <tr>
+                            <td><strong>subtype_features</strong></td>
+                            <td>Late AIS; associated with non-pGGO CT phenotype; higher EC and stromal activity than AIS1/2; linked to tip ECs, mCAFs, angiogenesis, EMT, and tissue invasion</td>
+                        </tr>
+                        <tr>
+                            <td><strong>parallel_in_other_cancers</strong></td>
+                            <td>mCAFs are characterized using subtype frameworks previously described in breast cancer and confirmed in non-small cell lung cancer.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>validation_approach</strong></td>
+                            <td>SCISSOR-based integration of bulk and single-cell data; spatial transcriptomics of MIA samples; comparison to independent scRNA-seq datasets; EcoTyper ecosystem assignment</td>
+                        </tr>
+                        <tr>
+                            <td><strong>validation_result</strong></td>
+                            <td>AIS3-associated ECs were enriched for tip ECs; mCAF and tip EC marker trends were higher in AIS3 than AAH; spatial transcriptomics showed EC enrichment in invasive regions, consistent with the AIS3 angiogenesis model.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>therapeutic_implication</strong></td>
+                            <td>Supports antiangiogenic or vessel-normalization early-intervention strategies in late AIS and potentially in lesions at high risk of invasion.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>therapeutic_evidence</strong></td>
+                            <td>The discussion links angiogenesis to increased ctDNA release and cites existing antiangiogenic and vessel-normalization therapies as plausible early interventions. No direct drug testing was performed.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>clinical_or_demographic_association</strong></td>
+                            <td>AIS3 was more associated with non-pGGO radiology than AIS1/2. The cohort was predominantly never-smokers and East Asian.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>study_limitations</strong></td>
+                            <td>Subtype boundaries are computational and provisional; no direct functional perturbation of tip ECs or mCAFs; limited spatial transcriptomic sampling (two MIA cases).</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="extraction-instance-container" id="e1890.2">
+                <h3 class="extraction-instance">Extracted Data Instance 2 (e1890.2)</h3>
+                <div class="extraction-query"><strong>Extraction Query:</strong> Extract any mentions of driver-negative or oncogene-negative lung adenocarcinoma cases, cohorts, models, or subgroups; the evidence for why they are considered driver-negative; candidate alternative drivers or mechanisms; proposed subtypes; validation strategies; comparisons to other cancers; and therapeutic implications.</div>
+                <table>
+                    <thead>
+                        <tr>
+                            <th style="width: 30%;">Field</th>
+                            <th style="width: 70%;">Value</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><strong>name_short</strong></td>
+                            <td>MIA1/MIA2</td>
+                        </tr>
+                        <tr>
+                            <td><strong>name_full</strong></td>
+                            <td>Minimally invasive adenocarcinoma molecular subtypes 1 and 2</td>
+                        </tr>
+                        <tr>
+                            <td><strong>brief_description</strong></td>
+                            <td>MIA_nonInv clustering yielded two subtypes that extended to paired invasive MIA components, indicating that the noninvasive transcriptome captures invasive-state organization. These are not described as driver-negative subtypes, but they are important progression-related groups.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>citation_title</strong></td>
+                            <td>Multiomics Analysis Reveals Molecular Changes during Early Progression of Precancerous Lesions to Lung Adenocarcinoma in Never-Smokers</td>
+                        </tr>
+                        <tr>
+                            <td><strong>mention_or_use</strong></td>
+                            <td>use</td>
+                        </tr>
+                        <tr>
+                            <td><strong>cohort_or_model</strong></td>
+                            <td>MIA_nonInv and paired MIA_Inv from the 167-patient cohort</td>
+                        </tr>
+                        <tr>
+                            <td><strong>cancer_context</strong></td>
+                            <td>early invasive lung adenocarcinoma in never-smokers</td>
+                        </tr>
+                        <tr>
+                            <td><strong>driver_negative_definition</strong></td>
+                            <td>Not applicable; these are transcriptomic subtypes rather than driver-negative case definitions.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>driver_negative_frequency</strong></td>
+                            <td>Not reported.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>profiling_modalities</strong></td>
+                            <td>Bulk RNA-seq, ssGSEA, SCISSOR, spatial transcriptomics, deconvolution, WES</td>
+                        </tr>
+                        <tr>
+                            <td><strong>candidate_mechanism_category</strong></td>
+                            <td>angiogenesis and stromal remodeling</td>
+                        </tr>
+                        <tr>
+                            <td><strong>candidate_driver_or_mechanism</strong></td>
+                            <td>EC-rich and stromal-rich programs; invasive-region endothelial enrichment</td>
+                        </tr>
+                        <tr>
+                            <td><strong>mechanistic_description</strong></td>
+                            <td>MIA subtypes reflect late progression states with distinct nonimmune cell compositions; the invasive component shows increased EC abundance and transcriptomic differences driven by endothelial programs.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>evidence_type</strong></td>
+                            <td>bulk transcriptomics with deconvolution; spatial transcriptomics validation; paired-sample differential analysis</td>
+                        </tr>
+                        <tr>
+                            <td><strong>key_evidence</strong></td>
+                            <td>Only 24 DEGs distinguished pGGO vs non-pGGO in MIA_nonInv and none in AIS or MIA_Inv, yet EC ssGSEA scores were higher in MIA_Inv, and 96 genes upregulated in MIA_Inv vs MIA_nonInv were highly expressed in ECs. Spatial transcriptomics confirmed higher EC abundance in invasive regions.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>negative_or_counter_evidence</strong></td>
+                            <td>The paper notes that transcriptomic differences were subtle in MIA_Inv and that pGGO/non-pGGO associations were not significant in MIA_Inv.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>subtype_name</strong></td>
+                            <td>MIA_nonInv1/MIA_nonInv2; MIA_Inv1/MIA_Inv2; MIA1/MIA2</td>
+                        </tr>
+                        <tr>
+                            <td><strong>subtype_features</strong></td>
+                            <td>MIA subtypes defined by nonimmune markers; extend across paired invasive and noninvasive components; associated with EC and stromal abundance patterns</td>
+                        </tr>
+                        <tr>
+                            <td><strong>parallel_in_other_cancers</strong></td>
+                            <td><span class="empty-note">null</span></td>
+                        </tr>
+                        <tr>
+                            <td><strong>validation_approach</strong></td>
+                            <td>Paired differential expression; spatial transcriptomics; deconvolution with scRNA-seq reference</td>
+                        </tr>
+                        <tr>
+                            <td><strong>validation_result</strong></td>
+                            <td>Subtype structure was preserved across paired invasive components, and spatial data confirmed subtype-consistent EC/stromal localization patterns.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>therapeutic_implication</strong></td>
+                            <td>Implicates vascular remodeling as a potential early target in minimally invasive disease.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>therapeutic_evidence</strong></td>
+                            <td>No direct treatment experiments; inference is based on association of invasive regions with EC enrichment and angiogenesis-related programs.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>clinical_or_demographic_association</strong></td>
+                            <td>MIA nodules were less often pGGO than AIS and had more non-pGGO/solid components on CT.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>study_limitations</strong></td>
+                            <td>Subtypes were derived from a single cohort and require independent replication; invasive and noninvasive transcriptomes were sampled from resected lesions only.</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="extraction-instance-container" id="e1890.3">
+                <h3 class="extraction-instance">Extracted Data Instance 3 (e1890.3)</h3>
+                <div class="extraction-query"><strong>Extraction Query:</strong> Extract any mentions of driver-negative or oncogene-negative lung adenocarcinoma cases, cohorts, models, or subgroups; the evidence for why they are considered driver-negative; candidate alternative drivers or mechanisms; proposed subtypes; validation strategies; comparisons to other cancers; and therapeutic implications.</div>
+                <table>
+                    <thead>
+                        <tr>
+                            <th style="width: 30%;">Field</th>
+                            <th style="width: 70%;">Value</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><strong>name_short</strong></td>
+                            <td>TCGA LUAD comparison</td>
+                        </tr>
+                        <tr>
+                            <td><strong>name_full</strong></td>
+                            <td>The Cancer Genome Atlas lung adenocarcinoma cohort comparison</td>
+                        </tr>
+                        <tr>
+                            <td><strong>brief_description</strong></td>
+                            <td>TCGA is used as an external comparator for mutation frequencies in the study, highlighting that the East Asian never-smoker cohort has distinct molecular features, especially high EGFR mutation rates. It is not a driver-negative cohort but provides comparative context for canonical-driver patterns.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>citation_title</strong></td>
+                            <td>here</td>
+                        </tr>
+                        <tr>
+                            <td><strong>mention_or_use</strong></td>
+                            <td>use</td>
+                        </tr>
+                        <tr>
+                            <td><strong>cohort_or_model</strong></td>
+                            <td>External TCGA lung adenocarcinoma cohort accessed via UCSC Xena/TCGA Hub</td>
+                        </tr>
+                        <tr>
+                            <td><strong>cancer_context</strong></td>
+                            <td>lung adenocarcinoma, pan-cohort comparison</td>
+                        </tr>
+                        <tr>
+                            <td><strong>driver_negative_definition</strong></td>
+                            <td>Not defined in this paper.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>driver_negative_frequency</strong></td>
+                            <td>Not reported.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>profiling_modalities</strong></td>
+                            <td>Comparative somatic mutation analysis</td>
+                        </tr>
+                        <tr>
+                            <td><strong>candidate_mechanism_category</strong></td>
+                            <td>cross-cohort molecular comparison</td>
+                        </tr>
+                        <tr>
+                            <td><strong>candidate_driver_or_mechanism</strong></td>
+                            <td>EGFR and BRAF mutation prevalence differences across ethnic/cohort contexts</td>
+                        </tr>
+                        <tr>
+                            <td><strong>mechanistic_description</strong></td>
+                            <td>The comparison illustrates that EGFR mutations are much more frequent in the East Asian never-smoker cohort than in TCGA, whereas mutation patterns in BRAF/KRAS differ, emphasizing cohort-specific driver landscapes.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>evidence_type</strong></td>
+                            <td>cross-cohort comparison</td>
+                        </tr>
+                        <tr>
+                            <td><strong>key_evidence</strong></td>
+                            <td>The study reports a characteristically high EGFR mutation rate in East Asian patients from this cohort and the Chen2020 cohort compared with TCGA LUAD.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>negative_or_counter_evidence</strong></td>
+                            <td>The comparison is descriptive and does not establish causal mechanisms.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>subtype_name</strong></td>
+                            <td><span class="empty-note">null</span></td>
+                        </tr>
+                        <tr>
+                            <td><strong>subtype_features</strong></td>
+                            <td><span class="empty-note">null</span></td>
+                        </tr>
+                        <tr>
+                            <td><strong>parallel_in_other_cancers</strong></td>
+                            <td><span class="empty-note">null</span></td>
+                        </tr>
+                        <tr>
+                            <td><strong>validation_approach</strong></td>
+                            <td>External cohort comparison to TCGA and Chen2020 mutation datasets</td>
+                        </tr>
+                        <tr>
+                            <td><strong>validation_result</strong></td>
+                            <td>Showed cohort-dependent differences in driver mutation frequencies.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>therapeutic_implication</strong></td>
+                            <td>Supports population-aware use of EGFR-targeted strategies and suggests that biomarker prevalence differs by ancestry/smoking status.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>therapeutic_evidence</strong></td>
+                            <td>No direct therapy data; inference is from mutation prevalence.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>clinical_or_demographic_association</strong></td>
+                            <td>East Asian vs TCGA (more European ancestry); mostly never-smokers versus mixed-smoking TCGA cohorts.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>study_limitations</strong></td>
+                            <td>Differences across cohorts may reflect ascertainment, stage mix, ancestry, and sequencing platform differences.</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="extraction-instance-container" id="e1890.4">
+                <h3 class="extraction-instance">Extracted Data Instance 4 (e1890.4)</h3>
+                <div class="extraction-query"><strong>Extraction Query:</strong> Extract any mentions of driver-negative or oncogene-negative lung adenocarcinoma cases, cohorts, models, or subgroups; the evidence for why they are considered driver-negative; candidate alternative drivers or mechanisms; proposed subtypes; validation strategies; comparisons to other cancers; and therapeutic implications.</div>
+                <table>
+                    <thead>
+                        <tr>
+                            <th style="width: 30%;">Field</th>
+                            <th style="width: 70%;">Value</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><strong>name_short</strong></td>
+                            <td>Chen2020 LUAD cohort</td>
+                        </tr>
+                        <tr>
+                            <td><strong>name_full</strong></td>
+                            <td>Proteogenomics of non-smoking lung cancer in East Asia delineates molecular signatures of pathogenesis and progression</td>
+                        </tr>
+                        <tr>
+                            <td><strong>brief_description</strong></td>
+                            <td>This is an external Taiwanese nonsmoking LUAD cohort used for comparison of mutation rates and progression patterns. It helps validate that the EGFR/TP53/BRAF patterns are not unique to the present cohort.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>citation_title</strong></td>
+                            <td>Proteogenomics of non-smoking lung cancer in East Asia delineates molecular signatures of pathogenesis and progression</td>
+                        </tr>
+                        <tr>
+                            <td><strong>mention_or_use</strong></td>
+                            <td>mention</td>
+                        </tr>
+                        <tr>
+                            <td><strong>cohort_or_model</strong></td>
+                            <td>Taiwanese nonsmoking lung adenocarcinoma cohort from Chen et al. 2020</td>
+                        </tr>
+                        <tr>
+                            <td><strong>cancer_context</strong></td>
+                            <td>non-smoking East Asian lung adenocarcinoma</td>
+                        </tr>
+                        <tr>
+                            <td><strong>driver_negative_definition</strong></td>
+                            <td>Not defined in this paper.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>driver_negative_frequency</strong></td>
+                            <td>Not reported here.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>profiling_modalities</strong></td>
+                            <td>Referenced external proteogenomic/mutation cohort</td>
+                        </tr>
+                        <tr>
+                            <td><strong>candidate_mechanism_category</strong></td>
+                            <td>cross-cohort validation</td>
+                        </tr>
+                        <tr>
+                            <td><strong>candidate_driver_or_mechanism</strong></td>
+                            <td>EGFR, TP53, BRAF mutation trajectories</td>
+                        </tr>
+                        <tr>
+                            <td><strong>mechanistic_description</strong></td>
+                            <td>Used to show that the present cohort’s mutation patterns resemble those of another nonsmoking East Asian cohort.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>evidence_type</strong></td>
+                            <td>cross-cohort analogy</td>
+                        </tr>
+                        <tr>
+                            <td><strong>key_evidence</strong></td>
+                            <td>The paper states that similar mutation patterns were identified in Chen2020, including high EGFR mutation rates relative to TCGA and cohort-level agreement with the current study.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>negative_or_counter_evidence</strong></td>
+                            <td>Only referenced secondarily; details are not reanalyzed in this paper.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>subtype_name</strong></td>
+                            <td><span class="empty-note">null</span></td>
+                        </tr>
+                        <tr>
+                            <td><strong>subtype_features</strong></td>
+                            <td><span class="empty-note">null</span></td>
+                        </tr>
+                        <tr>
+                            <td><strong>parallel_in_other_cancers</strong></td>
+                            <td><span class="empty-note">null</span></td>
+                        </tr>
+                        <tr>
+                            <td><strong>validation_approach</strong></td>
+                            <td>External comparison</td>
+                        </tr>
+                        <tr>
+                            <td><strong>validation_result</strong></td>
+                            <td>Used to support non-cohort-specific mutation patterns.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>therapeutic_implication</strong></td>
+                            <td>Reinforces relevance of EGFR-centered targeted strategies in nonsmoking East Asian LUAD.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>therapeutic_evidence</strong></td>
+                            <td>Indirect, based on mutation prevalence.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>clinical_or_demographic_association</strong></td>
+                            <td>Taiwanese; mostly nonsmoking; stage I LUAD.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>study_limitations</strong></td>
+                            <td>Not directly analyzed in this paper.</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>Potentially Relevant New Papers (mentioned by this paper)</h2>
+            <ol>
+                <li>Proteogenomics of non-smoking lung cancer in East Asia delineates molecular signatures of pathogenesis and progression <em>(Rating: 2)</em></li>
+                <li>Immune evolution from preneoplasia to invasive lung adenocarcinomas and underlying molecular features <em>(Rating: 2)</em></li>
+                <li>Distinct mutational features across preinvasive and invasive subtypes identified through comprehensive profiling of surgically resected lung adenocarcinoma <em>(Rating: 2)</em></li>
+                <li>Genomic landscape of atypical adenomatous hyperplasia reveals divergent modes to lung adenocarcinoma <em>(Rating: 2)</em></li>
+                <li>Delineating the dynamic evolution from preneoplasia to invasive lung adenocarcinoma by integrating single-cell RNA sequencing and spatial transcriptomics <em>(Rating: 2)</em></li>
+                <li>Multi-region exome sequencing reveals genomic evolution from preneoplasia to lung adenocarcinoma <em>(Rating: 2)</em></li>
+                <li>Increased tumor intrinsic growth potential and decreased immune function orchestrate the progression of lung adenocarcinoma <em>(Rating: 1)</em></li>
+                <li>Targeted sequencing reveals clonal genetic changes in the progression of early lung neoplasms and paired circulating DNA <em>(Rating: 1)</em></li>
+            </ol>
+        </div>
+
+        </div>
+
+    </div>
+</body>
+</html>

@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Extraction extraction-result-2212 - Theorizer</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+    <div class="header">
+        <a href="../index.html"><i class="fas fa-flask"></i> Theorizer</a>
+    </div>
+
+    <div class="content">
+        <h1>Extracted Data Details for extraction-result-2212</h1>
+
+        <div class="section">
+            <h2>Extracted Data (Header)</h2>
+            <div class="info-section">
+                <p><strong>Extraction ID:</strong> extraction-result-2212</p>
+                <p><strong>Extraction Schema Used (ID):</strong> <a href="../schemas/extraction-schema-1844.html">extraction-schema-1844</a></p>
+                <div class="extraction-query"><strong>Extraction Query:</strong> Extract any mentions of hidden genomic, structural, regulatory, or assay-missed drivers in oncogene-negative lung adenocarcinoma.</div>
+                <p><strong>Paper ID:</strong> paper-fd9628af748f8fbecdc3bfd5f373fc000798e815</p>
+                <p><strong>Paper Title:</strong> <a href="https://www.semanticscholar.org/paper/fd9628af748f8fbecdc3bfd5f373fc000798e815" target="_blank">Nkx2-1 represses a latent gastric differentiation program in lung adenocarcinoma.</a></p>
+                <p><strong>Paper Venue:</strong> Molecules and Cells</p>
+                <p><strong>Paper TL;DR:</strong> Observations suggest that loss of both active and latent differentiation programs is required for tumors to reach a primitive, poorly differentiated state.</p>
+                <p><strong>Cost:</strong> 0.011</p>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>Extracted Data (Details)</h2>
+            <div class="extraction-instance-container" id="e2212.0">
+                <h3 class="extraction-instance">Extracted Data Instance 0 (e2212.0)</h3>
+                <div class="extraction-query"><strong>Extraction Query:</strong> Extract any mentions of hidden genomic, structural, regulatory, or assay-missed drivers in oncogene-negative lung adenocarcinoma.</div>
+                <table>
+                    <thead>
+                        <tr>
+                            <th style="width: 30%;">Field</th>
+                            <th style="width: 70%;">Value</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><strong>name_short</strong></td>
+                            <td>Nkx2-1 loss</td>
+                        </tr>
+                        <tr>
+                            <td><strong>name_full</strong></td>
+                            <td>Loss of Nkx2-1 (TTF1) function in lung adenocarcinoma</td>
+                        </tr>
+                        <tr>
+                            <td><strong>brief_description</strong></td>
+                            <td>This paper does not describe a hidden genomic alteration discovered by broader sequencing, but it does identify a lineage-state change that can act as an assay-missed or noncanonical driver of oncogene-negative behavior in lung adenocarcinoma. Loss of Nkx2-1 de-represses a latent gastric differentiation program, promotes mucinous differentiation, and increases tumor initiation and growth in Kras-driven mouse lung tumors.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>citation_title</strong></td>
+                            <td>Nkx2-1 Represses a Latent Gastric Differentiation Program in Lung Adenocarcinoma</td>
+                        </tr>
+                        <tr>
+                            <td><strong>mention_or_use</strong></td>
+                            <td>use</td>
+                        </tr>
+                        <tr>
+                            <td><strong>oncogene_negative_definition</strong></td>
+                            <td>The relevant negative state is Nkx2-1-negative / TTF1-negative lung adenocarcinoma, modeled as KrasLSL-G12D;Nkx2-1F/F tumors after Ad-Cre, KrasFSF-G12D;RosaCreERT2;Nkx2-1F/F tumors after tamoxifen, and human NKX2-1-negative mucinous lung adenocarcinomas. The paper does not define this by a DNA driver panel; it is defined by loss of NKX2-1 protein and lineage identity relative to NKX2-1-positive control tumors, alongside activation of gastric markers and absence of pulmonary markers such as proSPC.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>assay_strategy_and_detection_limits</strong></td>
+                            <td>Discovery pipeline was multiomic and histology-based rather than a canonical driver search panel: conditional mouse genetics, IHC, mucin stains, qRT-PCR, Affymetrix exon arrays, ChIP-Seq for Nkx2-1/Foxa1/2/histone marks, RNAi, and rescue by Nkx2-1 re-expression. The blind spot explicitly discussed is that loss of Nkx2-1 alone was insufficient to explain all poorly differentiated/metastatic states; additional genetic or epigenetic changes, including de-repression of Hmga2, were likely required. The paper also notes that some tumors with stochastic Nkx2-1 loss later became Hmga2-positive, while most engineered Nkx2-1-deleted tumors did not, implying assay or biology missed drivers beyond Nkx2-1 loss.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>missed_driver_reclassified_after_broader_testing</strong></td>
+                            <td>Yes, but only at the pathway/lineage level rather than as a newly discovered DNA lesion: tumors initially appearing simply Nkx2-1-negative were later found, after broader expression/epigenetic and functional testing, to have activation of a latent gastric differentiation program with Hnf4α, Gkn1, Ctse, Pdx1, and other GI markers. In a later combinatorial test, loss of Hnf4a with Nkx2-1 was sufficient to de-repress Hmga2, revealing a second differentiation-layer regulator not captured by Nkx2-1 loss alone. The paper also states that additional genetic and epigenetic changes are likely required for the highly metastatic Hmga2-positive state.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>driver_event_class</strong></td>
+                            <td>lineage-state switch / regulatory de-repression rather than a discrete SNV or fusion</td>
+                        </tr>
+                        <tr>
+                            <td><strong>candidate_driver_gene_or_locus</strong></td>
+                            <td>Nkx2-1, Hnf4a, Hmga2, and downstream gastric differentiation loci including Gkn1, Ctse, Pdx1, Muc5AC, and Vsig1</td>
+                        </tr>
+                        <tr>
+                            <td><strong>structural_or_regulatory_activation_mechanism</strong></td>
+                            <td>Loss of a master lineage regulator (Nkx2-1) releases repression of gastrointestinal transcriptional programs and enables Foxa1/2 relocalization to gastric targets; combined loss of Nkx2-1 and Hnf4α permits de-repression of the embryonal proto-oncogene Hmga2.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>functional_consequence</strong></td>
+                            <td>Conversion from pulmonary identity toward gastric-like differentiation, increased mucin production, altered glandular morphology, increased tumor initiation/burden, and in the double-loss setting de-repression of Hmga2.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>co_alteration_or_combinatorial_requirement</strong></td>
+                            <td>Nkx2-1 loss alone promoted mucinous, well-differentiated tumors, but not full metastatic dedifferentiation. Additional genetic/epigenetic changes were likely required for Hmga2-positive poorly differentiated tumors. Combined deletion of Nkx2-1 and Hnf4a de-repressed Hmga2 but reduced tumor burden, indicating that partial loss of gastric differentiation was not sufficient to enhance growth.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>human_prevalence_or_enrichment</strong></td>
+                            <td>NKX2-1-negative tumors are the subset most associated with mucinous human lung adenocarcinoma. The paper examined 37 human lung adenocarcinomas: 11 NKX2-1-negative mucinous tumors and 26 NKX2-1-positive tumors. GKN1 was expressed in 6/11 NKX2-1-negative mucinous tumors and in 0/26 NKX2-1-positive tumors; CTSE was strongly and diffusely expressed in 11/11 NKX2-1-negative mucinous tumors and was negative or only focal in most NKX2-1-positive tumors.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>functional_or_clinical_validation</strong></td>
+                            <td>Validated by conditional mouse genetics, histology, mucin staining, IHC, expression profiling, ChIP-Seq, Foxa1/2 perturbation, and Nkx2-1 re-expression experiments. Human mucinous lung adenocarcinomas showed the same gastric-marker pattern, supporting clinical relevance.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>initial_negative_call_basis</strong></td>
+                            <td>Structured negative call in this paper was effectively: [IHC for NKX2-1/TTF1 negative] + [loss of pulmonary markers such as proSPC/CCSP] + [presence of mucinous morphology and gastric markers such as HNF4α, GKN1, CTSE, PDX1]. It was not based on a genomic panel or sequencing-based absence-of-driver criterion.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>negative_call_failure_mode</strong></td>
+                            <td>still_unexplained</td>
+                        </tr>
+                        <tr>
+                            <td><strong>rescue_modality</strong></td>
+                            <td>integrated_multiomic</td>
+                        </tr>
+                        <tr>
+                            <td><strong>final_explanatory_status</strong></td>
+                            <td>rescued_pathway_state_without_single_lesion</td>
+                        </tr>
+                        <tr>
+                            <td><strong>post_workup_unexplained_fraction</strong></td>
+                            <td>Most tumors with engineered Nkx2-1 loss were explained as gastric-like/mucinous, well-differentiated tumors. However, the paper states that poorly differentiated Hmga2-positive metastatic tumors require additional genetic and epigenetic changes beyond Nkx2-1 loss, and does not give a single residual unexplained numerator/denominator for oncogene-negative human cases.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>driver_mechanism_family</strong></td>
+                            <td>['lineage_state_switch', 'tumor_suppressor_negative_regulator_loss', 'chromatin_domain_event']</td>
+                        </tr>
+                        <tr>
+                            <td><strong>signaling_activation_mode</strong></td>
+                            <td>chromatin_rewiring and loss_of_transcriptional_repression with de novo recruitment of FOXA1/2 to gastric loci</td>
+                        </tr>
+                        <tr>
+                            <td><strong>oncogenic_unit_type</strong></td>
+                            <td>lineage_program</td>
+                        </tr>
+                        <tr>
+                            <td><strong>mechanistic_directness</strong></td>
+                            <td>lineage_modifier</td>
+                        </tr>
+                        <tr>
+                            <td><strong>histologic_subtype_normalized</strong></td>
+                            <td>invasive_mucinous_adenocarcinoma</td>
+                        </tr>
+                        <tr>
+                            <td><strong>lineage_marker_state</strong></td>
+                            <td>NKX2_1_TTF1 negative; HNF4A positive; GI_gastric_marker_program positive</td>
+                        </tr>
+                        <tr>
+                            <td><strong>inferred_lineage_program</strong></td>
+                            <td>gastric_like</td>
+                        </tr>
+                        <tr>
+                            <td><strong>mucinous_program_evidence</strong></td>
+                            <td>pathology, mucin_stain, MUC5AC_expression, secretory_morphology</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>Potentially Relevant New Papers (mentioned by this paper)</h2>
+            <ol>
+                <li>Suppression of lung adenocarcinoma progression by Nkx2-1 <em>(Rating: 2)</em></li>
+                <li>Kras(G12D) and Nkx2-1 haploinsufficiency induce mucinous adenocarcinoma of the lung <em>(Rating: 2)</em></li>
+                <li>Genotypic and histological evolution of lung cancers acquiring resistance to EGFR inhibitors <em>(Rating: 1)</em></li>
+            </ol>
+        </div>
+
+        </div>
+
+    </div>
+</body>
+</html>

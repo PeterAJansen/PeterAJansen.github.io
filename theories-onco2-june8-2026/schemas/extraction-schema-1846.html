@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Extraction Schema extraction-schema-1846 - Theorizer</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+    <div class="header">
+        <a href="../index.html"><i class="fas fa-flask"></i> Theorizer</a>
+    </div>
+
+    <div class="content">
+        <h1>Extraction Schema Details for extraction-schema-1846</h1>
+
+        <div class="section">
+            <h2>Extraction Schema (General Information)</h2>
+            <div class="info-section">
+                <p><strong>Schema ID:</strong> extraction-schema-1846</p>
+                <p><strong>Extraction Query:</strong> Extract any mentions of hidden drivers, pathway states, subtype structure, validation evidence, and therapeutic implications in oncogene-negative or driver-negative lung adenocarcinoma.</p>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>Extraction Schema (Details)</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th style="width: 20%;">Field Name</th>
+                        <th style="width: 15%;">Type</th>
+                        <th style="width: 65%;">Description</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><strong>driver_negative_definition</strong></td>
+                        <td>str</td>
+                        <td>How the paper defines oncogene-negative or driver-negative LUAD. Include which canonical genes, pathways, or alteration classes were excluded, what assays were used, and what exactly counts as negative.</td>
+                    </tr>
+                    <tr>
+                        <td><strong>candidate_driver_pathway_or_mechanism</strong></td>
+                        <td>str</td>
+                        <td>The main driver hypothesis proposed for the driver-negative tumors. Include whether the paper argues for rare genes, pathway activation state, tumor suppressor loss, proteomic activation, ligand dependence, epigenetic regulation, microenvironmental dependence, microbiome-related effects, lineage state, or another mechanism.</td>
+                    </tr>
+                    <tr>
+                        <td><strong>alteration_or_activation_mode</strong></td>
+                        <td>str</td>
+                        <td>How the proposed driver operates. Examples: rare mutation, fusion, exon skipping, amplification, deletion, noncoding regulatory event, epigenetic silencing, outlier expression, protein loss, phosphoproteomic activation, ligand-receptor stimulation, or combinatorial co-loss of negative regulators.</td>
+                    </tr>
+                    <tr>
+                        <td><strong>implicated_gene_axis_or_pathway</strong></td>
+                        <td>str</td>
+                        <td>The specific gene, gene set, ligand-receptor axis, or pathway implicated as functionally important. Examples: NF1/RASA1/PTEN loss, MAPK, PI3K/AKT/mTOR, SHP2, ERBB signaling, Hippo/YAP, oxidative stress, chromatin remodeling, cell-cycle program.</td>
+                    </tr>
+                    <tr>
+                        <td><strong>pathway_activation_evidence</strong></td>
+                        <td>str</td>
+                        <td>Evidence that a pathway is activated or suppressed in the driver-negative tumors. Include markers such as pERK, pAKT, pS6, inferred kinase activity, expression signatures, IHC, or phosphoproteomic readouts, and note whether activation is genetically explained or unexplained.</td>
+                    </tr>
+                    <tr>
+                        <td><strong>driver_negative_subtype</strong></td>
+                        <td>str</td>
+                        <td>Any explicit or implicit subtype within driver-negative LUAD proposed by the paper. Include subtype label, defining features, and whether the subtype is based on genomics, transcriptomics, proteomics, immune context, metabolism, lineage state, histology, or integrated multi-omics.</td>
+                    </tr>
+                    <tr>
+                        <td><strong>clinical_or_exposure_context</strong></td>
+                        <td>str</td>
+                        <td>Clinical, pathologic, or etiologic features linked to the driver-negative cases or subtype, such as smoking status, never-smoker status, age, sex, stage, mucinous histology, ancestry, prior treatment, prognosis, or recurrence.</td>
+                    </tr>
+                    <tr>
+                        <td><strong>cross_cancer_parallel</strong></td>
+                        <td>str</td>
+                        <td>Any explicit comparison to other cancers with similar driver-negative biology, hidden driver logic, pathway dependence, lineage program, or therapeutic vulnerability.</td>
+                    </tr>
+                    <tr>
+                        <td><strong>therapeutic_vulnerability_or_implication</strong></td>
+                        <td>str</td>
+                        <td>Any therapeutic implication linked to the candidate driver, pathway state, or subtype. Include drugs, inhibitor classes, immunotherapy relevance, synthetic lethal hypotheses, biomarker-linked treatment strategies, and whether evidence is preclinical or clinical.</td>
+                    </tr>
+                    <tr>
+                        <td><strong>validation_evidence_and_model_system</strong></td>
+                        <td>str</td>
+                        <td>How the paper validates the proposed driver or subtype. Include model system and validation strength, such as independent cohort replication, cell lines, organoids, xenografts, GEMMs, knockdown or overexpression, rescue experiments, inhibitor sensitivity, or patient response.</td>
+                    </tr>
+                    <tr>
+                        <td><strong>driver_negative_scope_class</strong></td>
+                        <td>str</td>
+                        <td>Normalize the paper's negative definition into a controlled category such as egfr_alk_only, egfr_kras_alk, broad_clinical_panel, rtk_ras_raf_axis, no_known_actionable_driver, not_formally_defined, or not_applicable. Extract what the paper actually operationalized, not an inferred broader meaning.</td>
+                    </tr>
+                    <tr>
+                        <td><strong>excluded_driver_genes_and_alteration_types</strong></td>
+                        <td>str</td>
+                        <td>List the exact genes and alteration classes explicitly ruled out, preserving type detail such as hotspot mutation, non-hotspot mutation, exon skipping, amplification, fusion, CNV, IHC, FISH, WES, WGS, or RNA-seq.</td>
+                    </tr>
+                    <tr>
+                        <td><strong>negative_call_assay_stack</strong></td>
+                        <td>str</td>
+                        <td>Extract the ordered assay sequence used to establish negativity, from initial clinical testing to rescue assays. Represent as a short ordered list such as ARMS_PCR -> FISH -> panel_NGS -> WGS -> RNA_seq.</td>
+                    </tr>
+                    <tr>
+                        <td><strong>negative_call_confidence</strong></td>
+                        <td>str</td>
+                        <td>Assign low, medium, or high confidence for the negative call based on assay breadth, purity concerns, and whether broad DNA plus RNA methods were used. Lower confidence if the paper reports likely false negatives or limited-panel ascertainment.</td>
+                    </tr>
+                    <tr>
+                        <td><strong>rescued_hidden_driver_after_deeper_testing</strong></td>
+                        <td>str</td>
+                        <td>Record whether initially negative cases were later reclassified by broader testing, using values such as none_reported, yes_specific_driver_found, mixed_some_rescued, or unresolved_after_broad_testing. Also briefly name the rescued event if present.</td>
+                    </tr>
+                    <tr>
+                        <td><strong>primary_hidden_driver_mechanism_class</strong></td>
+                        <td>str</td>
+                        <td>Assign one dominant class from a controlled vocabulary: rare_coding_oncogene, kinase_fusion, ligand_fusion_or_ligand_presentation, exon_skipping_splicing_activation, copy_number_or_amplicon_driver, enhancer_hijacking_3d_genome, tumor_suppressor_co_loss, phosphoproteomic_pathway_state, lineage_plasticity_cell_state, microenvironment_ecosystem_state, metabolic_dependency_state, mutational_process_genomic_instability, technical_false_negative, or unresolved.</td>
+                    </tr>
+                    <tr>
+                        <td><strong>secondary_mechanism_classes</strong></td>
+                        <td>str</td>
+                        <td>List additional mechanism classes if the paper argues for more than one biologic layer. Keep the primary class as the paper's main explanatory logic.</td>
+                    </tr>
+                    <tr>
+                        <td><strong>mechanism_requires_specific_genetic_lesion</strong></td>
+                        <td>str</td>
+                        <td>Record yes, no, mixed, or unclear depending on whether the proposed explanation depends on a specific somatic lesion rather than a state or ecosystem.</td>
+                    </tr>
+                    <tr>
+                        <td><strong>mechanism_is_tumor_intrinsic_or_extrinsic</strong></td>
+                        <td>str</td>
+                        <td>Classify the mechanism as tumor_intrinsic, microenvironment_extrinsic, mixed, mutational_process_level, or technical_artifact.</td>
+                    </tr>
+                    <tr>
+                        <td><strong>mechanism_biologic_level</strong></td>
+                        <td>str</td>
+                        <td>Classify the dominant biologic level as dna, splicing_rna, chromatin_3d_genome, protein_phosphosite, lineage_state, microenvironment_ecosystem, or evolutionary_process.</td>
+                    </tr>
+                    <tr>
+                        <td><strong>causal_evidence_tier</strong></td>
+                        <td>str</td>
+                        <td>Assign the strongest support level as one of tier_1_genomic_or_correlative_only, tier_2_expression_or_proteomic_association, tier_3_functional_cell_model, tier_4_in_vivo_model, or tier_5_human_clinical_response_or_multimodal_causal_support.</td>
+                    </tr>
+                    <tr>
+                        <td><strong>evidence_modalities_present</strong></td>
+                        <td>str</td>
+                        <td>List all evidence modalities reported, such as recurrence_statistics, WGS, RNA_seq, phosphoproteomics, IHC, knockdown, rescue, transformation_assay, organoid, xenograft, GEMM, retrospective_clinical_response, or prospective_clinical_response.</td>
+                    </tr>
+                    <tr>
+                        <td><strong>therapeutic_actionability_evidence_tier</strong></td>
+                        <td>str</td>
+                        <td>Assign none, inferential_only, preclinical_cell, preclinical_in_vivo, retrospective_clinical, or prospective_clinical for the therapy implication.</td>
+                    </tr>
+                    <tr>
+                        <td><strong>paper_claim_strength</strong></td>
+                        <td>str</td>
+                        <td>Classify the authors' framing as descriptive, hypothesis_generating, mechanistic, biomarker_proposal, or clinically_actionable.</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+    </div>
+</body>
+</html>

@@ -1,0 +1,685 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Extraction extraction-result-2182 - Theorizer</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+    <div class="header">
+        <a href="../index.html"><i class="fas fa-flask"></i> Theorizer</a>
+    </div>
+
+    <div class="content">
+        <h1>Extracted Data Details for extraction-result-2182</h1>
+
+        <div class="section">
+            <h2>Extracted Data (Header)</h2>
+            <div class="info-section">
+                <p><strong>Extraction ID:</strong> extraction-result-2182</p>
+                <p><strong>Extraction Schema Used (ID):</strong> <a href="../schemas/extraction-schema-1844.html">extraction-schema-1844</a></p>
+                <div class="extraction-query"><strong>Extraction Query:</strong> Extract any mentions of hidden genomic, structural, regulatory, or assay-missed drivers in oncogene-negative lung adenocarcinoma.</div>
+                <p><strong>Paper ID:</strong> paper-13db4a5663dab5c9a7dcdc1223d82ebd2c833aae</p>
+                <p><strong>Paper Title:</strong> <a href="https://www.semanticscholar.org/paper/13db4a5663dab5c9a7dcdc1223d82ebd2c833aae" target="_blank">Intratumor Heterogeneity in Early Lung Adenocarcinoma</a></p>
+                <p><strong>Paper Venue:</strong> Frontiers in Oncology</p>
+                <p><strong>Paper TL;DR:</strong> Some of the current known determinants of lung adenocarcinoma behavior are summarized and recent efforts to dissect its intratumor heterogeneity are discussed.</p>
+                <p><strong>Paper Abstract:</strong> Lung cancer is one of the deadliest diseases in the world and is the leading cause of cancer-related deaths. Among the histological types, adenocarcinoma is the most common, and it is characterized by a high degree of heterogeneity at many levels including clinical, behavioral, cellular and molecular. While most lung cancers are known for their aggressive behavior, up to 18.5% of lung cancers detected by CT screening are indolent and put patients at risk for overdiagnosis and overtreatment. The cellular and molecular underpinnings of tumor behavior remain largely unknown. In the recent years, the study of intratumor heterogeneity has become an attractive strategy to understand tumor progression. This review will summarize some of the current known determinants of lung adenocarcinoma behavior and discuss recent efforts to dissect its intratumor heterogeneity.</p>
+                <p><strong>Cost:</strong> 0.02</p>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>Extracted Data (Details)</h2>
+            <div class="extraction-instance-container" id="e2182.0">
+                <h3 class="extraction-instance">Extracted Data Instance 0 (e2182.0)</h3>
+                <div class="extraction-query"><strong>Extraction Query:</strong> Extract any mentions of hidden genomic, structural, regulatory, or assay-missed drivers in oncogene-negative lung adenocarcinoma.</div>
+                <table>
+                    <thead>
+                        <tr>
+                            <th style="width: 30%;">Field</th>
+                            <th style="width: 70%;">Value</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><strong>name_short</strong></td>
+                            <td>HER2 amplification</td>
+                        </tr>
+                        <tr>
+                            <td><strong>name_full</strong></td>
+                            <td>ERBB2 (HER2) amplification</td>
+                        </tr>
+                        <tr>
+                            <td><strong>brief_description</strong></td>
+                            <td>In oncogene-negative lung adenocarcinoma samples from TCGA, significant HER2 copy-number amplification was proposed as a previously unrecognized driver event that could activate the RTK/RAS/RAF pathway. The review notes that HER2 amplification was found specifically in the subset lacking canonical driver oncogene mutations.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>citation_title</strong></td>
+                            <td>Intratumor Heterogeneity in Early Lung Adenocarcinoma</td>
+                        </tr>
+                        <tr>
+                            <td><strong>mention_or_use</strong></td>
+                            <td>mention</td>
+                        </tr>
+                        <tr>
+                            <td><strong>oncogene_negative_definition</strong></td>
+                            <td>TCGA lung adenocarcinoma subset defined as tumors lacking a canonical driver oncogene mutation; the paper states that 38% of samples did not carry a driver oncogene mutation, and in that negative subset TCGA proposed new driver genes. The canonical drivers discussed include KRAS, EGFR, BRAF, MAP2K1, MET exon 14 skipping, ROS1, ALK, RET, HER2, NF1, and RIT1, but the paper does not specify a single uniform panel used for the negative call beyond TCGA comprehensive molecular profiling.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>assay_strategy_and_detection_limits</strong></td>
+                            <td>The source paper is a review summarizing TCGA and multiregion sequencing studies. For the oncogene-negative cohort, the relevant discovery pipeline was TCGA comprehensive molecular profiling, which included analysis of somatic mutations, copy-number alterations, and gene fusions; the review specifically notes amplification calls for HER2 and MET in driver-negative tumors. Blind spots implied by the paper are that driver-negative status depended on the set of canonical oncogenes assayed, and that some late driver mutations or non-canonical events may not have been captured by earlier single-region or single-modality analyses.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>missed_driver_reclassified_after_broader_testing</strong></td>
+                            <td>No specific individual tumor is described as being reclassified from negative to positive after broader testing in this paper. Instead, the review reports that broader TCGA profiling of the driver-negative subset uncovered HER2 amplification as a new candidate driver.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>driver_event_class</strong></td>
+                            <td>copy_number amplification</td>
+                        </tr>
+                        <tr>
+                            <td><strong>candidate_driver_gene_or_locus</strong></td>
+                            <td>HER2 / ERBB2</td>
+                        </tr>
+                        <tr>
+                            <td><strong>structural_or_regulatory_activation_mechanism</strong></td>
+                            <td>Dosage increase through gene amplification, leading to increased HER2 signaling output.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>functional_consequence</strong></td>
+                            <td>Proposed activation of RTK/RAS/RAF signaling in tumors otherwise lacking canonical driver oncogene mutations.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>co_alteration_or_combinatorial_requirement</strong></td>
+                            <td>The paper does not specify a required cooperating alteration for HER2 amplification in this context.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>human_prevalence_or_enrichment</strong></td>
+                            <td>Described as significant amplification events in the 38% of TCGA lung adenocarcinomas that lacked a canonical driver oncogene mutation; no exact HER2 percentage is given in the text for this specific negative subset, though HER2 was also amplified in 14% of TCGA samples overall when discussed later in the copy-number section.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>functional_or_clinical_validation</strong></td>
+                            <td>The paper cites TCGA as the source of the observation and presents it as a proposed driver; no direct functional validation is provided in this review for the amplification event itself.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>initial_negative_call_basis</strong></td>
+                            <td>[TCGA comprehensive molecular profiling; canonical driver oncogene mutation absent; negative for known RTK/RAS/RAF pathway oncogene mutations such as KRAS, EGFR, BRAF, MAP2K1, MET exon 14 skipping, ROS1, ALK, RET]</td>
+                        </tr>
+                        <tr>
+                            <td><strong>negative_call_failure_mode</strong></td>
+                            <td>copy_number_not_interpreted</td>
+                        </tr>
+                        <tr>
+                            <td><strong>rescue_modality</strong></td>
+                            <td>integrated_multiomic</td>
+                        </tr>
+                        <tr>
+                            <td><strong>final_explanatory_status</strong></td>
+                            <td>rescued_noncanonical_driver</td>
+                        </tr>
+                        <tr>
+                            <td><strong>post_workup_unexplained_fraction</strong></td>
+                            <td>38% of samples were initially driver-oncogene-negative; the paper does not state how many remained unexplained after the broader profiling in this review.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>driver_mechanism_family</strong></td>
+                            <td>ecDNA_or_double_minute_amp</td>
+                        </tr>
+                        <tr>
+                            <td><strong>signaling_activation_mode</strong></td>
+                            <td>overexpression</td>
+                        </tr>
+                        <tr>
+                            <td><strong>oncogenic_unit_type</strong></td>
+                            <td>single_gene_lesion</td>
+                        </tr>
+                        <tr>
+                            <td><strong>mechanistic_directness</strong></td>
+                            <td>likely_driver</td>
+                        </tr>
+                        <tr>
+                            <td><strong>histologic_subtype_normalized</strong></td>
+                            <td><span class="empty-note">null</span></td>
+                        </tr>
+                        <tr>
+                            <td><strong>lineage_marker_state</strong></td>
+                            <td><span class="empty-note">null</span></td>
+                        </tr>
+                        <tr>
+                            <td><strong>inferred_lineage_program</strong></td>
+                            <td><span class="empty-note">null</span></td>
+                        </tr>
+                        <tr>
+                            <td><strong>mucinous_program_evidence</strong></td>
+                            <td><span class="empty-note">null</span></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="extraction-instance-container" id="e2182.1">
+                <h3 class="extraction-instance">Extracted Data Instance 1 (e2182.1)</h3>
+                <div class="extraction-query"><strong>Extraction Query:</strong> Extract any mentions of hidden genomic, structural, regulatory, or assay-missed drivers in oncogene-negative lung adenocarcinoma.</div>
+                <table>
+                    <thead>
+                        <tr>
+                            <th style="width: 30%;">Field</th>
+                            <th style="width: 70%;">Value</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><strong>name_short</strong></td>
+                            <td>MET amplification</td>
+                        </tr>
+                        <tr>
+                            <td><strong>name_full</strong></td>
+                            <td>MET copy-number amplification</td>
+                        </tr>
+                        <tr>
+                            <td><strong>brief_description</strong></td>
+                            <td>In oncogene-negative lung adenocarcinoma, MET amplification was identified by TCGA as a previously unrecognized driver event. The paper notes that higher MET copy number in primary lung adenocarcinoma at diagnosis has been associated with poor prognosis.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>citation_title</strong></td>
+                            <td>Intratumor Heterogeneity in Early Lung Adenocarcinoma</td>
+                        </tr>
+                        <tr>
+                            <td><strong>mention_or_use</strong></td>
+                            <td>mention</td>
+                        </tr>
+                        <tr>
+                            <td><strong>oncogene_negative_definition</strong></td>
+                            <td>TCGA lung adenocarcinoma subset lacking a canonical driver oncogene mutation; the review says 38% of samples did not carry a driver oncogene mutation and that significant MET amplification events were proposed in this negative subset.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>assay_strategy_and_detection_limits</strong></td>
+                            <td>TCGA comprehensive molecular profiling as summarized in the review, including copy-number analysis. The blind spot is that tumors without canonical sequence-level oncogenic alterations may still harbor actionable copy-number drivers not captured by mutation-only assays.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>missed_driver_reclassified_after_broader_testing</strong></td>
+                            <td>No specific tumor-level rescue is described; the broader TCGA workup identified MET amplification as a hidden driver in the oncogene-negative subset.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>driver_event_class</strong></td>
+                            <td>copy_number amplification</td>
+                        </tr>
+                        <tr>
+                            <td><strong>candidate_driver_gene_or_locus</strong></td>
+                            <td>MET</td>
+                        </tr>
+                        <tr>
+                            <td><strong>structural_or_regulatory_activation_mechanism</strong></td>
+                            <td>Dosage increase via amplification, with the paper also noting MET exon 14 skipping elsewhere as a distinct activating event that removes a negative regulatory site.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>functional_consequence</strong></td>
+                            <td>Activation of RTK/RAS/RAF pathway signaling; higher MET copy number has been associated with poor prognosis.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>co_alteration_or_combinatorial_requirement</strong></td>
+                            <td>The paper does not specify a cooperating alteration requirement.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>human_prevalence_or_enrichment</strong></td>
+                            <td>Reported as a significant amplification event in oncogene-negative samples; the broader TCGA copy-number section also states MET amplification occurred in 18% of TCGA samples overall, while MET exon 14 skipping occurred in 4.3%.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>functional_or_clinical_validation</strong></td>
+                            <td>Association with poor prognosis is reported for higher MET copy number in primary lung adenocarcinoma at diagnosis; otherwise no direct functional assay is described in this paper.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>initial_negative_call_basis</strong></td>
+                            <td>[TCGA comprehensive molecular profiling; absence of canonical driver oncogene mutation in the 38% negative subset]</td>
+                        </tr>
+                        <tr>
+                            <td><strong>negative_call_failure_mode</strong></td>
+                            <td>copy_number_not_interpreted</td>
+                        </tr>
+                        <tr>
+                            <td><strong>rescue_modality</strong></td>
+                            <td>integrated_multiomic</td>
+                        </tr>
+                        <tr>
+                            <td><strong>final_explanatory_status</strong></td>
+                            <td>rescued_noncanonical_driver</td>
+                        </tr>
+                        <tr>
+                            <td><strong>post_workup_unexplained_fraction</strong></td>
+                            <td>38% of samples were initially driver-oncogene-negative; the paper does not quantify how many remained unexplained after adding copy-number analysis.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>driver_mechanism_family</strong></td>
+                            <td>ecDNA_or_double_minute_amp</td>
+                        </tr>
+                        <tr>
+                            <td><strong>signaling_activation_mode</strong></td>
+                            <td>overexpression</td>
+                        </tr>
+                        <tr>
+                            <td><strong>oncogenic_unit_type</strong></td>
+                            <td>single_gene_lesion</td>
+                        </tr>
+                        <tr>
+                            <td><strong>mechanistic_directness</strong></td>
+                            <td>likely_driver</td>
+                        </tr>
+                        <tr>
+                            <td><strong>histologic_subtype_normalized</strong></td>
+                            <td><span class="empty-note">null</span></td>
+                        </tr>
+                        <tr>
+                            <td><strong>lineage_marker_state</strong></td>
+                            <td><span class="empty-note">null</span></td>
+                        </tr>
+                        <tr>
+                            <td><strong>inferred_lineage_program</strong></td>
+                            <td><span class="empty-note">null</span></td>
+                        </tr>
+                        <tr>
+                            <td><strong>mucinous_program_evidence</strong></td>
+                            <td><span class="empty-note">null</span></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="extraction-instance-container" id="e2182.2">
+                <h3 class="extraction-instance">Extracted Data Instance 2 (e2182.2)</h3>
+                <div class="extraction-query"><strong>Extraction Query:</strong> Extract any mentions of hidden genomic, structural, regulatory, or assay-missed drivers in oncogene-negative lung adenocarcinoma.</div>
+                <table>
+                    <thead>
+                        <tr>
+                            <th style="width: 30%;">Field</th>
+                            <th style="width: 70%;">Value</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><strong>name_short</strong></td>
+                            <td>NF1</td>
+                        </tr>
+                        <tr>
+                            <td><strong>name_full</strong></td>
+                            <td>Neurofibromin 1</td>
+                        </tr>
+                        <tr>
+                            <td><strong>brief_description</strong></td>
+                            <td>NF1 is described as a tumor suppressor that negatively regulates RAS, and it was mutated in a fraction of lung adenocarcinomas. In the context of driver-negative disease, it is listed among previously unrecognized driver genes implicated in RTK/RAS/RAF pathway activation.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>citation_title</strong></td>
+                            <td>Intratumor Heterogeneity in Early Lung Adenocarcinoma</td>
+                        </tr>
+                        <tr>
+                            <td><strong>mention_or_use</strong></td>
+                            <td>mention</td>
+                        </tr>
+                        <tr>
+                            <td><strong>oncogene_negative_definition</strong></td>
+                            <td>Driver-negative TCGA lung adenocarcinoma subset lacking canonical driver oncogene mutation; NF1 is included among previously unrecognized driver genes proposed in that subset.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>assay_strategy_and_detection_limits</strong></td>
+                            <td>TCGA comprehensive profiling, including mutation analysis. The implied limitation is that negative tumors for canonical oncogenes may harbor loss-of-function tumor suppressor lesions that are not primary oncogene hotspots.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>missed_driver_reclassified_after_broader_testing</strong></td>
+                            <td>No specific rescue case is described; NF1 mutation was identified by broader profiling as a candidate driver in oncogene-negative samples.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>driver_event_class</strong></td>
+                            <td>rare_snv_or_indel</td>
+                        </tr>
+                        <tr>
+                            <td><strong>candidate_driver_gene_or_locus</strong></td>
+                            <td>NF1</td>
+                        </tr>
+                        <tr>
+                            <td><strong>structural_or_regulatory_activation_mechanism</strong></td>
+                            <td>Loss of negative regulation of RAS signaling.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>functional_consequence</strong></td>
+                            <td>Relief of RAS inhibition and presumed pathway activation.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>co_alteration_or_combinatorial_requirement</strong></td>
+                            <td>The paper does not specify a required co-alteration, although NF1 is discussed in the broader RTK/RAS/RAF context alongside other alterations.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>human_prevalence_or_enrichment</strong></td>
+                            <td>NF1 was mutated in 8.3% of TCGA lung adenocarcinoma samples; the review frames it as a candidate driver relevant to the 38% oncogene-negative subset.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>functional_or_clinical_validation</strong></td>
+                            <td>No direct functional validation is presented in this review; it is cited as a tumor suppressor driver candidate from TCGA.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>initial_negative_call_basis</strong></td>
+                            <td>[Negative for canonical driver oncogene mutation on TCGA profiling]</td>
+                        </tr>
+                        <tr>
+                            <td><strong>negative_call_failure_mode</strong></td>
+                            <td>still_unexplained</td>
+                        </tr>
+                        <tr>
+                            <td><strong>rescue_modality</strong></td>
+                            <td>integrated_multiomic</td>
+                        </tr>
+                        <tr>
+                            <td><strong>final_explanatory_status</strong></td>
+                            <td>rescued_noncanonical_driver</td>
+                        </tr>
+                        <tr>
+                            <td><strong>post_workup_unexplained_fraction</strong></td>
+                            <td>38% of samples were initially driver-oncogene-negative; the paper does not state the residual unexplained fraction after identifying NF1 and other candidates.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>driver_mechanism_family</strong></td>
+                            <td>tumor_suppressor_negative_regulator_loss</td>
+                        </tr>
+                        <tr>
+                            <td><strong>signaling_activation_mode</strong></td>
+                            <td>loss_of_gap_function</td>
+                        </tr>
+                        <tr>
+                            <td><strong>oncogenic_unit_type</strong></td>
+                            <td>single_gene_lesion</td>
+                        </tr>
+                        <tr>
+                            <td><strong>mechanistic_directness</strong></td>
+                            <td>likely_driver</td>
+                        </tr>
+                        <tr>
+                            <td><strong>histologic_subtype_normalized</strong></td>
+                            <td><span class="empty-note">null</span></td>
+                        </tr>
+                        <tr>
+                            <td><strong>lineage_marker_state</strong></td>
+                            <td><span class="empty-note">null</span></td>
+                        </tr>
+                        <tr>
+                            <td><strong>inferred_lineage_program</strong></td>
+                            <td><span class="empty-note">null</span></td>
+                        </tr>
+                        <tr>
+                            <td><strong>mucinous_program_evidence</strong></td>
+                            <td><span class="empty-note">null</span></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="extraction-instance-container" id="e2182.3">
+                <h3 class="extraction-instance">Extracted Data Instance 3 (e2182.3)</h3>
+                <div class="extraction-query"><strong>Extraction Query:</strong> Extract any mentions of hidden genomic, structural, regulatory, or assay-missed drivers in oncogene-negative lung adenocarcinoma.</div>
+                <table>
+                    <thead>
+                        <tr>
+                            <th style="width: 30%;">Field</th>
+                            <th style="width: 70%;">Value</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><strong>name_short</strong></td>
+                            <td>RIT1</td>
+                        </tr>
+                        <tr>
+                            <td><strong>name_full</strong></td>
+                            <td>Ras Like Without CAAX 1</td>
+                        </tr>
+                        <tr>
+                            <td><strong>brief_description</strong></td>
+                            <td>RIT1 is highlighted as a newly identified oncogene driver in lung adenocarcinoma. The paper states that RIT1 mutations can activate MAPK and PI(3)K signaling, positioning it as a non-canonical driver relevant to tumors lacking standard oncogene mutations.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>citation_title</strong></td>
+                            <td>Intratumor Heterogeneity in Early Lung Adenocarcinoma</td>
+                        </tr>
+                        <tr>
+                            <td><strong>mention_or_use</strong></td>
+                            <td>mention</td>
+                        </tr>
+                        <tr>
+                            <td><strong>oncogene_negative_definition</strong></td>
+                            <td>The review places RIT1 among previously unrecognized driver genes identified in the 38% of TCGA lung adenocarcinomas that lacked canonical driver oncogene mutations.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>assay_strategy_and_detection_limits</strong></td>
+                            <td>TCGA comprehensive molecular profiling; the limitation is that driver-negative tumors may contain uncommon oncogenic point mutations outside the usual hotspot set.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>missed_driver_reclassified_after_broader_testing</strong></td>
+                            <td>No single-tumor rescue is described in the paper; RIT1 is presented as a broader-profiled noncanonical driver.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>driver_event_class</strong></td>
+                            <td>rare_snv_or_indel</td>
+                        </tr>
+                        <tr>
+                            <td><strong>candidate_driver_gene_or_locus</strong></td>
+                            <td>RIT1</td>
+                        </tr>
+                        <tr>
+                            <td><strong>structural_or_regulatory_activation_mechanism</strong></td>
+                            <td>Activating mutation of an oncogene leading to downstream pathway activation.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>functional_consequence</strong></td>
+                            <td>Activation of MAPK and PI(3)K signaling.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>co_alteration_or_combinatorial_requirement</strong></td>
+                            <td>The paper does not describe a cooperating alteration requirement.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>human_prevalence_or_enrichment</strong></td>
+                            <td>RIT1 is mutated in 2.2% of lung adenocarcinoma cases according to the review.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>functional_or_clinical_validation</strong></td>
+                            <td>The paper cites prior work showing that RIT1 mutations activate MAPK and PI(3)K signaling in NIH3T3 cells.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>initial_negative_call_basis</strong></td>
+                            <td>[Canonical driver oncogene mutation absent in TCGA negative subset]</td>
+                        </tr>
+                        <tr>
+                            <td><strong>negative_call_failure_mode</strong></td>
+                            <td>still_unexplained</td>
+                        </tr>
+                        <tr>
+                            <td><strong>rescue_modality</strong></td>
+                            <td>integrated_multiomic</td>
+                        </tr>
+                        <tr>
+                            <td><strong>final_explanatory_status</strong></td>
+                            <td>rescued_noncanonical_driver</td>
+                        </tr>
+                        <tr>
+                            <td><strong>post_workup_unexplained_fraction</strong></td>
+                            <td>38% of samples were initially driver-oncogene-negative; the review does not provide the remaining unexplained proportion after RIT1 and other candidates.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>driver_mechanism_family</strong></td>
+                            <td>mutational_process_state</td>
+                        </tr>
+                        <tr>
+                            <td><strong>signaling_activation_mode</strong></td>
+                            <td>downstream_phospho_network_activation</td>
+                        </tr>
+                        <tr>
+                            <td><strong>oncogenic_unit_type</strong></td>
+                            <td>single_gene_lesion</td>
+                        </tr>
+                        <tr>
+                            <td><strong>mechanistic_directness</strong></td>
+                            <td>direct_driver</td>
+                        </tr>
+                        <tr>
+                            <td><strong>histologic_subtype_normalized</strong></td>
+                            <td><span class="empty-note">null</span></td>
+                        </tr>
+                        <tr>
+                            <td><strong>lineage_marker_state</strong></td>
+                            <td><span class="empty-note">null</span></td>
+                        </tr>
+                        <tr>
+                            <td><strong>inferred_lineage_program</strong></td>
+                            <td><span class="empty-note">null</span></td>
+                        </tr>
+                        <tr>
+                            <td><strong>mucinous_program_evidence</strong></td>
+                            <td><span class="empty-note">null</span></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="extraction-instance-container" id="e2182.4">
+                <h3 class="extraction-instance">Extracted Data Instance 4 (e2182.4)</h3>
+                <div class="extraction-query"><strong>Extraction Query:</strong> Extract any mentions of hidden genomic, structural, regulatory, or assay-missed drivers in oncogene-negative lung adenocarcinoma.</div>
+                <table>
+                    <thead>
+                        <tr>
+                            <th style="width: 30%;">Field</th>
+                            <th style="width: 70%;">Value</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><strong>name_short</strong></td>
+                            <td>Chromosomal instability / genome doubling</td>
+                        </tr>
+                        <tr>
+                            <td><strong>name_full</strong></td>
+                            <td>Chromosomal instability with genome doubling and subclonal diversification</td>
+                        </tr>
+                        <tr>
+                            <td><strong>brief_description</strong></td>
+                            <td>The review emphasizes that some tumors without canonical driver oncogene alterations may instead be explained by early chromosomal instability and genome doubling that precede subclonal diversification. This is framed as a hidden driver-like process that can generate copy-number changes and mutational heterogeneity rather than a single lesion.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>citation_title</strong></td>
+                            <td>Intratumor Heterogeneity in Early Lung Adenocarcinoma</td>
+                        </tr>
+                        <tr>
+                            <td><strong>mention_or_use</strong></td>
+                            <td>use</td>
+                        </tr>
+                        <tr>
+                            <td><strong>oncogene_negative_definition</strong></td>
+                            <td>Applied to tumors in multiregion sequencing studies that were not explained solely by canonical driver oncogene mutations and instead exhibited branching evolution and genome-wide instability.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>assay_strategy_and_detection_limits</strong></td>
+                            <td>Multiregion sequencing and phylogenetic inference revealed genome doubling and branched evolution. The limitation highlighted is that single-region or truncal-driver-focused analyses can overlook heterogeneity and instability-driven progression.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>missed_driver_reclassified_after_broader_testing</strong></td>
+                            <td>No specific lesion is rescued; broader multiregion sequencing reclassified some apparently straightforward tumors as driven by chromosomal instability and late subclonal events rather than only truncal oncogene mutations.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>driver_event_class</strong></td>
+                            <td>structural_complexity</td>
+                        </tr>
+                        <tr>
+                            <td><strong>candidate_driver_gene_or_locus</strong></td>
+                            <td>Genome-wide chromosomal instability / genome doubling</td>
+                        </tr>
+                        <tr>
+                            <td><strong>structural_or_regulatory_activation_mechanism</strong></td>
+                            <td>Truncal genome doubling followed by copy-number alteration and mutational burst, enabling subclonal diversification.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>functional_consequence</strong></td>
+                            <td>Increased intratumor heterogeneity, potential relapse, and drug resistance.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>co_alteration_or_combinatorial_requirement</strong></td>
+                            <td>The paper states that truncal driver mutations often occur before genome doubling, suggesting a sequence in which early driver alterations are followed by chromosomal instability and then subclonal diversification.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>human_prevalence_or_enrichment</strong></td>
+                            <td>Observed across multiregion sequencing studies of lung adenocarcinoma; the paper does not give a single percentage for genome doubling here, but notes it as a common feature in the evolutionary studies discussed.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>functional_or_clinical_validation</strong></td>
+                            <td>Association of chromosomal instability with drug resistance and relapse is cited, supporting its biological relevance; however, this review does not present new experiments.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>initial_negative_call_basis</strong></td>
+                            <td>[Single-region or truncal-driver-centric analyses; absence of obvious canonical driver oncogene explanation]</td>
+                        </tr>
+                        <tr>
+                            <td><strong>negative_call_failure_mode</strong></td>
+                            <td>sampling_heterogeneity</td>
+                        </tr>
+                        <tr>
+                            <td><strong>rescue_modality</strong></td>
+                            <td>wgs_sv</td>
+                        </tr>
+                        <tr>
+                            <td><strong>final_explanatory_status</strong></td>
+                            <td>rescued_pathway_state_without_single_lesion</td>
+                        </tr>
+                        <tr>
+                            <td><strong>post_workup_unexplained_fraction</strong></td>
+                            <td>Not stated; the paper indicates that many late driver mutations and subclonal events remained to be characterized in these studies.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>driver_mechanism_family</strong></td>
+                            <td>pathway_state</td>
+                        </tr>
+                        <tr>
+                            <td><strong>signaling_activation_mode</strong></td>
+                            <td>chromatin_rewiring</td>
+                        </tr>
+                        <tr>
+                            <td><strong>oncogenic_unit_type</strong></td>
+                            <td>pathway_state</td>
+                        </tr>
+                        <tr>
+                            <td><strong>mechanistic_directness</strong></td>
+                            <td>pathway_modifier</td>
+                        </tr>
+                        <tr>
+                            <td><strong>histologic_subtype_normalized</strong></td>
+                            <td><span class="empty-note">null</span></td>
+                        </tr>
+                        <tr>
+                            <td><strong>lineage_marker_state</strong></td>
+                            <td><span class="empty-note">null</span></td>
+                        </tr>
+                        <tr>
+                            <td><strong>inferred_lineage_program</strong></td>
+                            <td><span class="empty-note">null</span></td>
+                        </tr>
+                        <tr>
+                            <td><strong>mucinous_program_evidence</strong></td>
+                            <td><span class="empty-note">null</span></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>Potentially Relevant New Papers (mentioned by this paper)</h2>
+            <ol>
+                <li>Comprehensive molecular profiling of lung adenocarcinoma <em>(Rating: 2)</em></li>
+                <li>Mapping the hallmarks of lung adenocarcinoma with massively parallel sequencing <em>(Rating: 2)</em></li>
+                <li>Tracking the evolution of nonsmall-cell lung cancer <em>(Rating: 2)</em></li>
+                <li>Intratumor heterogeneity in localized lung adenocarcinomas delineated by multiregion sequencing <em>(Rating: 2)</em></li>
+                <li>Spatial and temporal diversity in genomic instability processes defines lung cancer evolution <em>(Rating: 2)</em></li>
+                <li>Genomic underpinnings of tumor behavior in in situ and early lung adenocarcinoma <em>(Rating: 1)</em></li>
+                <li>Allele-specific HLA loss and immune escape in lung cancer evolution <em>(Rating: 1)</em></li>
+                <li>Neoantigen-directed immune escape in lung cancer evolution <em>(Rating: 1)</em></li>
+            </ol>
+        </div>
+
+        </div>
+
+    </div>
+</body>
+</html>

@@ -1,0 +1,718 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Extraction extraction-result-2156 - Theorizer</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+    <div class="header">
+        <a href="../index.html"><i class="fas fa-flask"></i> Theorizer</a>
+    </div>
+
+    <div class="content">
+        <h1>Extracted Data Details for extraction-result-2156</h1>
+
+        <div class="section">
+            <h2>Extracted Data (Header)</h2>
+            <div class="info-section">
+                <p><strong>Extraction ID:</strong> extraction-result-2156</p>
+                <p><strong>Extraction Schema Used (ID):</strong> <a href="../schemas/extraction-schema-1843.html">extraction-schema-1843</a></p>
+                <div class="extraction-query"><strong>Extraction Query:</strong> Extract any mentions of hidden genomic, structural, regulatory, or assay-missed drivers in oncogene-negative lung adenocarcinoma.</div>
+                <p><strong>Paper ID:</strong> paper-22e6247a08af366f7f19620c7fc58a5b5d861d4d</p>
+                <p><strong>Paper Title:</strong> <a href="https://www.semanticscholar.org/paper/22e6247a08af366f7f19620c7fc58a5b5d861d4d" target="_blank">The landscape of kinase fusions in cancer</a></p>
+                <p><strong>Paper Venue:</strong> Nature Communications</p>
+                <p><strong>Paper TL;DR:</strong> Heuristics for reliably detecting gene fusion events in RNA-seq data are developed and applied and are able to discover several novel and recurrent fusions involving kinases, which have immediate clinical implications and expand the therapeutic options for cancer patients.</p>
+                <p><strong>Paper Abstract:</strong> Human cancer genomes harbour a variety of alterations leading to the deregulation of key pathways in tumour cells. The genomic characterization of tumours has uncovered numerous genes recurrently mutated, deleted or amplified, but gene fusions have not been characterized as extensively. Here we develop heuristics for reliably detecting gene fusion events in RNA-seq data and apply them to nearly 7,000 samples from The Cancer Genome Atlas. We thereby are able to discover several novel and recurrent fusions involving kinases. These findings have immediate clinical implications and expand the therapeutic options for cancer patients, as approved or exploratory drugs exist for many of these kinases. Kinases activated by gene fusions represent potentially important targets for the development of cancer drugs. Here, the authors develop a method for detecting gene fusion events in RNA sequencing data from The Cancer Genome Atlas and identify several novel recurrent fusions involving kinases.</p>
+                <p><strong>Cost:</strong> 0.023</p>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>Extracted Data (Details)</h2>
+            <div class="extraction-instance-container" id="e2156.0">
+                <h3 class="extraction-instance">Extracted Data Instance 0 (e2156.0)</h3>
+                <div class="extraction-query"><strong>Extraction Query:</strong> Extract any mentions of hidden genomic, structural, regulatory, or assay-missed drivers in oncogene-negative lung adenocarcinoma.</div>
+                <table>
+                    <thead>
+                        <tr>
+                            <th style="width: 30%;">Field</th>
+                            <th style="width: 70%;">Value</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><strong>name_short</strong></td>
+                            <td>EML4-ALK</td>
+                        </tr>
+                        <tr>
+                            <td><strong>name_full</strong></td>
+                            <td>EML4–ALK fusion</td>
+                        </tr>
+                        <tr>
+                            <td><strong>brief_description</strong></td>
+                            <td>A recurrent ALK fusion detected in ~1% of lung adenocarcinomas in this study. The paper cites it as a known oncogenic rearrangement and recapitulates its presence in TCGA lung adenocarcinoma.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>citation_title</strong></td>
+                            <td>The landscape of kinase fusions in cancer</td>
+                        </tr>
+                        <tr>
+                            <td><strong>mention_or_use</strong></td>
+                            <td>use</td>
+                        </tr>
+                        <tr>
+                            <td><strong>oncogene_negative_definition</strong></td>
+                            <td>In the paper, lung adenocarcinoma samples were screened by RNA-seq across TCGA (513 samples for the lung adenocarcinoma subset discussed in the text) for recurrent kinase fusions. The study used chimeric and split-read evidence from RNA-seq alignments, then retained recurrent, in-frame fusions preserving the kinase catalytic domain; samples lacking such a fusion were effectively negative for the kinase-fusion drivers assayed here.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>assay_strategy_and_detection_limits</strong></td>
+                            <td>Genome-wide RNA-seq fusion detection using STAR, with chimeric-read and split-read support, strand concordance, recurrent-event filtering, and manual IGV review. Blind spots included fusions not expressed at RNA level, events lacking exon–exon junction support, alignment artifacts from homologous/repetitive sequence, very high-expression trans-splicing artifacts, singleton events excluded by the recurrence threshold, and passenger rearrangements or copy-number amplifications not captured as functional kinase fusions.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>missed_driver_reclassified_after_broader_testing</strong></td>
+                            <td>Yes, in the sense that the pipeline rediscovered an established driver that would be missed by tests not designed to detect fusions. EML4–ALK was identified in ~1% (5/513) of lung adenocarcinoma samples; it is a fusion event that targeted DNA mutation-focused profiling could miss, and it required RNA-seq fusion calling.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>driver_event_class</strong></td>
+                            <td>Kinase fusion</td>
+                        </tr>
+                        <tr>
+                            <td><strong>candidate_driver_gene_or_locus</strong></td>
+                            <td>EML4–ALK</td>
+                        </tr>
+                        <tr>
+                            <td><strong>structural_or_regulatory_activation_mechanism</strong></td>
+                            <td>Kinase-domain-preserving fusion producing an ALK fusion kinase; the general mechanistic theme in the paper is rearrangement-driven oncogene activation via fusion.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>functional_consequence</strong></td>
+                            <td>Activation of ALK signaling as an oncogenic driver in lung adenocarcinoma.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>co_alteration_or_combinatorial_requirement</strong></td>
+                            <td>The paper does not report a required cooperating alteration for EML4–ALK in lung adenocarcinoma.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>human_prevalence_or_enrichment</strong></td>
+                            <td>~1% (5/513) of lung adenocarcinoma samples in the study; also cited as a known lung adenocarcinoma driver. The paper frames ALK fusions as recurrent but low-frequency across tumor types.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>functional_or_clinical_validation</strong></td>
+                            <td>Supported by extensive prior clinical and biological literature cited by the paper, including responsiveness to ALK inhibitors; within this paper, validation is via recurrent detection in TCGA RNA-seq and manual curation rather than new functional experiments.</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="extraction-instance-container" id="e2156.1">
+                <h3 class="extraction-instance">Extracted Data Instance 1 (e2156.1)</h3>
+                <div class="extraction-query"><strong>Extraction Query:</strong> Extract any mentions of hidden genomic, structural, regulatory, or assay-missed drivers in oncogene-negative lung adenocarcinoma.</div>
+                <table>
+                    <thead>
+                        <tr>
+                            <th style="width: 30%;">Field</th>
+                            <th style="width: 70%;">Value</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><strong>name_short</strong></td>
+                            <td>ROS1</td>
+                        </tr>
+                        <tr>
+                            <td><strong>name_full</strong></td>
+                            <td>C-ros oncogene 1 (ROS1) fusion</td>
+                        </tr>
+                        <tr>
+                            <td><strong>brief_description</strong></td>
+                            <td>A recurrent ROS1 fusion class detected in lung adenocarcinoma and other cancers. In lung adenocarcinoma, the paper reports 8/513 samples with ROS1 fusions, all previously described.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>citation_title</strong></td>
+                            <td>The landscape of kinase fusions in cancer</td>
+                        </tr>
+                        <tr>
+                            <td><strong>mention_or_use</strong></td>
+                            <td>use</td>
+                        </tr>
+                        <tr>
+                            <td><strong>oncogene_negative_definition</strong></td>
+                            <td>Lung adenocarcinoma TCGA RNA-seq samples were interrogated for recurrent in-frame kinase fusions using chimeric and split-read evidence. Samples without a detectable recurrent kinase fusion by this pipeline were considered negative for the assay-captured kinase-fusion drivers.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>assay_strategy_and_detection_limits</strong></td>
+                            <td>RNA-seq fusion discovery with STAR and stringent recurrent-fusion filtering, excluding events in normals and many likely artifacts. Limitation: only expressed fusions with detectable chimeric/split reads would be found; DNA-level rearrangements without RNA expression or rare nonrecurrent events could be missed.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>missed_driver_reclassified_after_broader_testing</strong></td>
+                            <td>The paper does not describe a newly rescued ROS1-negative lung adenocarcinoma sample; it simply reports RNA-seq detection of already known ROS1 fusions in 8/513 lung adenocarcinomas.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>driver_event_class</strong></td>
+                            <td>Kinase fusion</td>
+                        </tr>
+                        <tr>
+                            <td><strong>candidate_driver_gene_or_locus</strong></td>
+                            <td>ROS1 fusions</td>
+                        </tr>
+                        <tr>
+                            <td><strong>structural_or_regulatory_activation_mechanism</strong></td>
+                            <td>Fusion of ROS1 to partner genes producing an activated kinase, generally by rearrangement-mediated constitutive activation.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>functional_consequence</strong></td>
+                            <td>Oncogenic activation of ROS1 signaling in a subset of lung adenocarcinomas.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>co_alteration_or_combinatorial_requirement</strong></td>
+                            <td>No specific cooperating alteration is described here for lung adenocarcinoma ROS1 fusions.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>human_prevalence_or_enrichment</strong></td>
+                            <td>8/513 lung adenocarcinoma samples in the study. The paper notes these were previously described ROS1 fusions.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>functional_or_clinical_validation</strong></td>
+                            <td>The paper relies on prior literature and recurrence in TCGA RNA-seq; no new functional assay was reported for ROS1 in this work.</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="extraction-instance-container" id="e2156.2">
+                <h3 class="extraction-instance">Extracted Data Instance 2 (e2156.2)</h3>
+                <div class="extraction-query"><strong>Extraction Query:</strong> Extract any mentions of hidden genomic, structural, regulatory, or assay-missed drivers in oncogene-negative lung adenocarcinoma.</div>
+                <table>
+                    <thead>
+                        <tr>
+                            <th style="width: 30%;">Field</th>
+                            <th style="width: 70%;">Value</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><strong>name_short</strong></td>
+                            <td>RET</td>
+                        </tr>
+                        <tr>
+                            <td><strong>name_full</strong></td>
+                            <td>RET proto-oncogene fusions</td>
+                        </tr>
+                        <tr>
+                            <td><strong>brief_description</strong></td>
+                            <td>RET fusions were identified in multiple cancers and included new partners and new indications. The paper emphasizes that dimerization motifs in partner genes likely activate RET, making these potentially actionable hidden drivers in tumors not otherwise known to harbor canonical RET alterations.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>citation_title</strong></td>
+                            <td>The landscape of kinase fusions in cancer</td>
+                        </tr>
+                        <tr>
+                            <td><strong>mention_or_use</strong></td>
+                            <td>use</td>
+                        </tr>
+                        <tr>
+                            <td><strong>oncogene_negative_definition</strong></td>
+                            <td>Tumors were called negative for canonical kinase-fusion drivers unless RNA-seq showed a recurrent in-frame fusion preserving the kinase domain. For RET, the discovery approach was the same transcriptome-wide fusion scan across TCGA.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>assay_strategy_and_detection_limits</strong></td>
+                            <td>RNA-seq-based fusion discovery with recurrence and manual curation. Detection depends on transcript expression and breakpoints observable in RNA; purely DNA-level RET rearrangements, lowly expressed fusions, or events filtered as probable artifacts could be missed.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>missed_driver_reclassified_after_broader_testing</strong></td>
+                            <td>Yes in the sense of broader testing revealing RET fusions in tumor types not previously recognized. The paper reports novel RET partners (AKAP13, FKBP15, SPECC1L, TBL1XR1) and new indications including colon adenocarcinoma and breast cancer; these were found by RNA-seq fusion testing.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>driver_event_class</strong></td>
+                            <td>Kinase fusion</td>
+                        </tr>
+                        <tr>
+                            <td><strong>candidate_driver_gene_or_locus</strong></td>
+                            <td>RET with novel partners AKAP13, FKBP15, SPECC1L, TBL1XR1; also CCDC6–RET and ERC1–RET in additional indications</td>
+                        </tr>
+                        <tr>
+                            <td><strong>structural_or_regulatory_activation_mechanism</strong></td>
+                            <td>Partner-derived dimerization motifs, including coiled-coil and LisH motifs, are proposed to activate RET through constitutive dimerization.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>functional_consequence</strong></td>
+                            <td>Predicted RET activation and oncogenic signaling.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>co_alteration_or_combinatorial_requirement</strong></td>
+                            <td>No explicit required co-alteration is reported; the paper notes fusions are mutually exclusive among recurrent thyroid kinase fusions.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>human_prevalence_or_enrichment</strong></td>
+                            <td>Observed in four of the 20 cancer types analyzed. Specific new single cases are noted in colon adenocarcinoma and breast cancer; recurrent CCDC6–RET was seen in thyroid cancer.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>functional_or_clinical_validation</strong></td>
+                            <td>Structural/domain analysis supports activation; clinical validation is inferred from the known druggability of RET and prior reports, not from new functional assays in this paper.</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="extraction-instance-container" id="e2156.3">
+                <h3 class="extraction-instance">Extracted Data Instance 3 (e2156.3)</h3>
+                <div class="extraction-query"><strong>Extraction Query:</strong> Extract any mentions of hidden genomic, structural, regulatory, or assay-missed drivers in oncogene-negative lung adenocarcinoma.</div>
+                <table>
+                    <thead>
+                        <tr>
+                            <th style="width: 30%;">Field</th>
+                            <th style="width: 70%;">Value</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><strong>name_short</strong></td>
+                            <td>BRAF</td>
+                        </tr>
+                        <tr>
+                            <td><strong>name_full</strong></td>
+                            <td>BRAF fusions</td>
+                        </tr>
+                        <tr>
+                            <td><strong>brief_description</strong></td>
+                            <td>BRAF fusions were found across several tumor types, including novel partners and novel indications. The paper highlights that some fusions delete the first eight exons or provide dimerization motifs, leading to constitutively active BRAF dimers that may be RAF-inhibitor resistant.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>citation_title</strong></td>
+                            <td>The landscape of kinase fusions in cancer</td>
+                        </tr>
+                        <tr>
+                            <td><strong>mention_or_use</strong></td>
+                            <td>use</td>
+                        </tr>
+                        <tr>
+                            <td><strong>oncogene_negative_definition</strong></td>
+                            <td>Lung adenocarcinoma was not the focus for BRAF here, but the same RNA-seq fusion pipeline defined recurrent kinase-fusion-positive versus negative tumors by identifying in-frame fusion transcripts preserving kinase domains.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>assay_strategy_and_detection_limits</strong></td>
+                            <td>RNA-seq fusion detection, filtered for recurrent functional events. Limitations include dependence on transcript expression, exclusion of some likely passengers, and inability to directly assess DNA rearrangements without transcription.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>missed_driver_reclassified_after_broader_testing</strong></td>
+                            <td>The paper does not describe a driver-negative tumor later rescued specifically by BRAF testing in lung adenocarcinoma. It does report new BRAF fusions and new indications identified by broader pan-cancer RNA-seq.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>driver_event_class</strong></td>
+                            <td>Kinase fusion</td>
+                        </tr>
+                        <tr>
+                            <td><strong>candidate_driver_gene_or_locus</strong></td>
+                            <td>BRAF fusions including AGK–BRAF, SND1–BRAF, MACF1–BRAF, TAX1BP1–BRAF, CDC27–BRAF, ATG7–BRAF, ZC3HAV1–BRAF, FAM114A2–BRAF, TRIM24–BRAF</td>
+                        </tr>
+                        <tr>
+                            <td><strong>structural_or_regulatory_activation_mechanism</strong></td>
+                            <td>Coiled-coil or zinc-finger dimerization motifs from 5' partners and/or loss of the first eight BRAF exons promote constitutive dimerization and activation.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>functional_consequence</strong></td>
+                            <td>Constitutive MAPK pathway activation and tumorigenesis; some fusions are described as poorly sensitive to RAF inhibitors but potentially sensitive to MEK inhibition.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>co_alteration_or_combinatorial_requirement</strong></td>
+                            <td>In melanoma, BRAF fusions were exclusive of other known oncogenic events such as BRAF and NRAS mutations.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>human_prevalence_or_enrichment</strong></td>
+                            <td>Observed across multiple cancers, including melanoma, prostate and thyroid. Exact frequencies are not central for lung adenocarcinoma in this paper.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>functional_or_clinical_validation</strong></td>
+                            <td>Mechanistic interpretation is supported by domain structure and prior studies cited in the paper; clinical relevance is inferred from known pathway dependence and inhibitor sensitivity patterns.</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="extraction-instance-container" id="e2156.4">
+                <h3 class="extraction-instance">Extracted Data Instance 4 (e2156.4)</h3>
+                <div class="extraction-query"><strong>Extraction Query:</strong> Extract any mentions of hidden genomic, structural, regulatory, or assay-missed drivers in oncogene-negative lung adenocarcinoma.</div>
+                <table>
+                    <thead>
+                        <tr>
+                            <th style="width: 30%;">Field</th>
+                            <th style="width: 70%;">Value</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><strong>name_short</strong></td>
+                            <td>FGFR3-TACC3</td>
+                        </tr>
+                        <tr>
+                            <td><strong>name_full</strong></td>
+                            <td>FGFR3–TACC3 fusion</td>
+                        </tr>
+                        <tr>
+                            <td><strong>brief_description</strong></td>
+                            <td>A recurrent FGFR fusion detected across multiple tumor types and in a novel indication. The paper treats FGFR3–TACC3 as a kinase-fusion driver with therapeutic implications for FGFR inhibitors.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>citation_title</strong></td>
+                            <td>The landscape of kinase fusions in cancer</td>
+                        </tr>
+                        <tr>
+                            <td><strong>mention_or_use</strong></td>
+                            <td>use</td>
+                        </tr>
+                        <tr>
+                            <td><strong>oncogene_negative_definition</strong></td>
+                            <td>Samples were considered negative unless the RNA-seq pipeline identified recurrent in-frame kinase fusions. For FGFR3–TACC3, detection required chimeric/split reads and manual review.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>assay_strategy_and_detection_limits</strong></td>
+                            <td>RNA-seq fusion discovery with filters excluding artifacts and nonrecurrent events. It can miss silent genomic rearrangements or low-expression fusions.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>missed_driver_reclassified_after_broader_testing</strong></td>
+                            <td>The paper reports a single FGFR3–TACC3 fusion in papillary renal carcinoma, a novel indication discovered by broader pan-cancer testing.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>driver_event_class</strong></td>
+                            <td>Kinase fusion</td>
+                        </tr>
+                        <tr>
+                            <td><strong>candidate_driver_gene_or_locus</strong></td>
+                            <td>FGFR3–TACC3</td>
+                        </tr>
+                        <tr>
+                            <td><strong>structural_or_regulatory_activation_mechanism</strong></td>
+                            <td>Fusion of FGFR3 to TACC3 creates an activated receptor tyrosine kinase fusion, likely aided by partner-mediated structural effects.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>functional_consequence</strong></td>
+                            <td>Oncogenic FGFR pathway activation.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>co_alteration_or_combinatorial_requirement</strong></td>
+                            <td>No specific co-alteration is described here.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>human_prevalence_or_enrichment</strong></td>
+                            <td>Observed across eight of 20 tumor types; a novel single occurrence was reported in papillary renal carcinoma.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>functional_or_clinical_validation</strong></td>
+                            <td>Supported by recurrence, domain architecture, and prior literature; the paper does not add a new functional assay.</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="extraction-instance-container" id="e2156.5">
+                <h3 class="extraction-instance">Extracted Data Instance 5 (e2156.5)</h3>
+                <div class="extraction-query"><strong>Extraction Query:</strong> Extract any mentions of hidden genomic, structural, regulatory, or assay-missed drivers in oncogene-negative lung adenocarcinoma.</div>
+                <table>
+                    <thead>
+                        <tr>
+                            <th style="width: 30%;">Field</th>
+                            <th style="width: 70%;">Value</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><strong>name_short</strong></td>
+                            <td>TBL1XR1-PIK3CA</td>
+                        </tr>
+                        <tr>
+                            <td><strong>name_full</strong></td>
+                            <td>TBL1XR1–PIK3CA fusion</td>
+                        </tr>
+                        <tr>
+                            <td><strong>brief_description</strong></td>
+                            <td>A promoter fusion discovered in breast cancer and also observed in prostate adenocarcinoma. The fusion preserves the full wild-type PIK3CA coding sequence and appears to drive PIK3CA overexpression rather than producing a chimeric protein with altered kinase structure.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>citation_title</strong></td>
+                            <td>The landscape of kinase fusions in cancer</td>
+                        </tr>
+                        <tr>
+                            <td><strong>mention_or_use</strong></td>
+                            <td>use</td>
+                        </tr>
+                        <tr>
+                            <td><strong>oncogene_negative_definition</strong></td>
+                            <td>Breast cancer and prostate adenocarcinoma samples were screened by RNA-seq for recurrent kinase fusions; tumors lacking a recurrent in-frame kinase fusion detectable by this assay were negative in the context of the paper.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>assay_strategy_and_detection_limits</strong></td>
+                            <td>RNA-seq fusion calling with supporting chimeric/split reads and manual curation. Promoter fusions were detectable only if the relevant transcript was expressed; DNA-level copy-number events without fusion transcripts were outside this specific detection strategy.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>missed_driver_reclassified_after_broader_testing</strong></td>
+                            <td>Yes. PIK3CA was already known as a mutation/amplification driver, but these promoter fusions were newly recognized by RNA-seq as an additional mechanism in tumors that may otherwise not have shown canonical PIK3CA activating mutations.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>driver_event_class</strong></td>
+                            <td>Promoter fusion</td>
+                        </tr>
+                        <tr>
+                            <td><strong>candidate_driver_gene_or_locus</strong></td>
+                            <td>TBL1XR1–PIK3CA</td>
+                        </tr>
+                        <tr>
+                            <td><strong>structural_or_regulatory_activation_mechanism</strong></td>
+                            <td>Juxtaposition of the TBL1XR1 promoter and 5' UTR to the intact PIK3CA coding region, driving transcriptional upregulation of wild-type PIK3CA.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>functional_consequence</strong></td>
+                            <td>PIK3CA overexpression with highest mRNA levels among samples of the respective tumor types when not amplified.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>co_alteration_or_combinatorial_requirement</strong></td>
+                            <td>In the samples described, PIK3CA was not amplified when the fusion-driven overexpression was observed.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>human_prevalence_or_enrichment</strong></td>
+                            <td>Two fusions in 1,072 breast cancer samples and one in 335 prostate adenocarcinomas. The paper also reports one FNDC3B–PIK3CA fusion in endometrial carcinoma.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>functional_or_clinical_validation</strong></td>
+                            <td>Validated by fusion transcript sequence showing intact PIK3CA coding sequence and by concordant high PIK3CA mRNA expression; the authors infer therapeutic relevance for PI3K/AKT/mTOR inhibition.</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="extraction-instance-container" id="e2156.6">
+                <h3 class="extraction-instance">Extracted Data Instance 6 (e2156.6)</h3>
+                <div class="extraction-query"><strong>Extraction Query:</strong> Extract any mentions of hidden genomic, structural, regulatory, or assay-missed drivers in oncogene-negative lung adenocarcinoma.</div>
+                <table>
+                    <thead>
+                        <tr>
+                            <th style="width: 30%;">Field</th>
+                            <th style="width: 70%;">Value</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><strong>name_short</strong></td>
+                            <td>WASF2-FGR</td>
+                        </tr>
+                        <tr>
+                            <td><strong>name_full</strong></td>
+                            <td>WASF2–FGR fusion</td>
+                        </tr>
+                        <tr>
+                            <td><strong>brief_description</strong></td>
+                            <td>A recurrent promoter fusion causing FGR overexpression in primary tumors. The paper frames this as a previously undocumented genetic deregulation of an Src family kinase.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>citation_title</strong></td>
+                            <td>The landscape of kinase fusions in cancer</td>
+                        </tr>
+                        <tr>
+                            <td><strong>mention_or_use</strong></td>
+                            <td>use</td>
+                        </tr>
+                        <tr>
+                            <td><strong>oncogene_negative_definition</strong></td>
+                            <td>The relevant tumors were not positive for known canonical drivers of FGR and were identified through pan-cancer RNA-seq fusion screening; the study focused on recurrent kinase fusions in otherwise uncharacterized contexts.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>assay_strategy_and_detection_limits</strong></td>
+                            <td>RNA-seq fusion detection with recurrence filtering and manual review. Because the mechanism is regulatory rather than a kinase-domain-preserving chimeric kinase, it still required transcript evidence and could be missed by assays not capturing RNA chimeras.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>missed_driver_reclassified_after_broader_testing</strong></td>
+                            <td>Yes. FGR had not been genetically linked to cancer before, and this fusion-based regulatory activation was only revealed by broader RNA-seq-based fusion discovery.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>driver_event_class</strong></td>
+                            <td>Promoter fusion</td>
+                        </tr>
+                        <tr>
+                            <td><strong>candidate_driver_gene_or_locus</strong></td>
+                            <td>WASF2–FGR</td>
+                        </tr>
+                        <tr>
+                            <td><strong>structural_or_regulatory_activation_mechanism</strong></td>
+                            <td>The promoter and 5' UTR of WASF2 are fused to the 5' UTR of FGR, leading to mis- or overexpression of the wild-type FGR transcript.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>functional_consequence</strong></td>
+                            <td>Overexpression of full-length FGR; the paper suggests a previously undocumented mechanism of deregulation of an Src family member.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>co_alteration_or_combinatorial_requirement</strong></td>
+                            <td>The paper does not report an obligate cooperating alteration; it notes proximity on chromosome 1 and a likely tandem-repeat mechanism.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>human_prevalence_or_enrichment</strong></td>
+                            <td>Three fusions were found, in lung squamous carcinoma, ovarian serous cystadenocarcinoma and skin cutaneous melanoma, with exact same breakpoints in all cases.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>functional_or_clinical_validation</strong></td>
+                            <td>Supported by recurrent breakpoint identity, expression outlier status, and mechanistic inference from gene structure; no direct transformation assay was reported.</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="extraction-instance-container" id="e2156.7">
+                <h3 class="extraction-instance">Extracted Data Instance 7 (e2156.7)</h3>
+                <div class="extraction-query"><strong>Extraction Query:</strong> Extract any mentions of hidden genomic, structural, regulatory, or assay-missed drivers in oncogene-negative lung adenocarcinoma.</div>
+                <table>
+                    <thead>
+                        <tr>
+                            <th style="width: 30%;">Field</th>
+                            <th style="width: 70%;">Value</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><strong>name_short</strong></td>
+                            <td>ANXA4-PKN1</td>
+                        </tr>
+                        <tr>
+                            <td><strong>name_full</strong></td>
+                            <td>ANXA4–PKN1 fusion</td>
+                        </tr>
+                        <tr>
+                            <td><strong>brief_description</strong></td>
+                            <td>A recurrent PKN1 fusion in lung squamous cell carcinoma. The fusion truncates the inhibitory N terminus of PKN1 and is predicted to activate the kinase without meaningful contribution from the partner.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>citation_title</strong></td>
+                            <td>The landscape of kinase fusions in cancer</td>
+                        </tr>
+                        <tr>
+                            <td><strong>mention_or_use</strong></td>
+                            <td>use</td>
+                        </tr>
+                        <tr>
+                            <td><strong>oncogene_negative_definition</strong></td>
+                            <td>Samples were considered negative for this driver class unless RNA-seq identified a recurrent in-frame kinase fusion preserving the kinase catalytic domain or otherwise indicating a functional fusion; these PKN1 fusions were discovered in that screen.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>assay_strategy_and_detection_limits</strong></td>
+                            <td>RNA-seq fusion discovery; it can miss events not transcribed, low-level events, or events with structural complexity not yielding clear chimeric/split reads.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>missed_driver_reclassified_after_broader_testing</strong></td>
+                            <td>The paper does not describe a prior driver-negative classification being specifically rescued to ANXA4–PKN1, but it presents it as a new recurrent fusion uncovered by broader RNA-seq screening.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>driver_event_class</strong></td>
+                            <td>Kinase fusion</td>
+                        </tr>
+                        <tr>
+                            <td><strong>candidate_driver_gene_or_locus</strong></td>
+                            <td>ANXA4–PKN1</td>
+                        </tr>
+                        <tr>
+                            <td><strong>structural_or_regulatory_activation_mechanism</strong></td>
+                            <td>N-terminal truncation removes PKN1 regulatory domains that suppress kinase activity in the absence of Rho-GTP binding; the partner contributes little sequence.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>functional_consequence</strong></td>
+                            <td>Predicted constitutive activation of PKN1 and increased mRNA expression in the fusion-harboring sample.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>co_alteration_or_combinatorial_requirement</strong></td>
+                            <td>No specific cooperating alteration is reported.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>human_prevalence_or_enrichment</strong></td>
+                            <td>One of two PKN1 fusions reported; the pair of fusions was found in lung squamous cell carcinoma and hepatocellular carcinoma, with high mRNA expression in the respective tumor types.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>functional_or_clinical_validation</strong></td>
+                            <td>Supported by domain truncation analysis and elevated expression; no direct functional assay was reported.</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="extraction-instance-container" id="e2156.8">
+                <h3 class="extraction-instance">Extracted Data Instance 8 (e2156.8)</h3>
+                <div class="extraction-query"><strong>Extraction Query:</strong> Extract any mentions of hidden genomic, structural, regulatory, or assay-missed drivers in oncogene-negative lung adenocarcinoma.</div>
+                <table>
+                    <thead>
+                        <tr>
+                            <th style="width: 30%;">Field</th>
+                            <th style="width: 70%;">Value</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><strong>name_short</strong></td>
+                            <td>TECR-PKN1</td>
+                        </tr>
+                        <tr>
+                            <td><strong>name_full</strong></td>
+                            <td>TECR–PKN1 fusion</td>
+                        </tr>
+                        <tr>
+                            <td><strong>brief_description</strong></td>
+                            <td>A second recurrent PKN1 fusion reported by the paper. It encodes a truncated PKN1 lacking its N terminus, suggesting loss of autoinhibition and kinase activation.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>citation_title</strong></td>
+                            <td>The landscape of kinase fusions in cancer</td>
+                        </tr>
+                        <tr>
+                            <td><strong>mention_or_use</strong></td>
+                            <td>use</td>
+                        </tr>
+                        <tr>
+                            <td><strong>oncogene_negative_definition</strong></td>
+                            <td>Detected through the study's RNA-seq fusion screen in samples otherwise lacking known kinase-fusion drivers.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>assay_strategy_and_detection_limits</strong></td>
+                            <td>RNA-seq-based fusion calling, which is blind to unexpressed DNA-level rearrangements and can be confounded by artifacts if not filtered.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>missed_driver_reclassified_after_broader_testing</strong></td>
+                            <td>No specific prior negative-to-positive reclassification is described; it is presented as a newly observed recurrent fusion from broader screening.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>driver_event_class</strong></td>
+                            <td>Kinase fusion</td>
+                        </tr>
+                        <tr>
+                            <td><strong>candidate_driver_gene_or_locus</strong></td>
+                            <td>TECR–PKN1</td>
+                        </tr>
+                        <tr>
+                            <td><strong>structural_or_regulatory_activation_mechanism</strong></td>
+                            <td>Truncation of the PKN1 N terminus removes inhibitory regulatory motifs; the partner sequence contributes only a few amino acids.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>functional_consequence</strong></td>
+                            <td>Predicted constitutive activation of PKN1 and high mRNA expression.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>co_alteration_or_combinatorial_requirement</strong></td>
+                            <td>No cooperating alteration reported.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>human_prevalence_or_enrichment</strong></td>
+                            <td>Part of the two PKN1 fusions reported; the paper states these occurred in lung squamous cell carcinoma and hepatocellular carcinoma.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>functional_or_clinical_validation</strong></td>
+                            <td>Supported by structural interpretation and expression outlier data; no direct functional assay is reported.</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>Potentially Relevant New Papers (mentioned by this paper)</h2>
+            <ol>
+                <li>Identification of the transforming EML4-ALK fusion gene in non-small-cell lung cancer <em>(Rating: 2)</em></li>
+                <li>RET fusions define a unique molecular and clinicopathologic subtype of non-small-cell lung cancer <em>(Rating: 2)</em></li>
+                <li>The oncogenic lung cancer fusion kinase CD74-ROS activates a novel invasiveness pathway through E-Syt1 phosphorylation <em>(Rating: 2)</em></li>
+                <li>Identification of new ALK and RET gene fusions from colorectal and lung cancer biopsies <em>(Rating: 2)</em></li>
+                <li>Exploration of the gene fusion landscape of glioblastoma using transcriptome sequencing and copy number data <em>(Rating: 2)</em></li>
+            </ol>
+        </div>
+
+        </div>
+
+    </div>
+</body>
+</html>

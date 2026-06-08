@@ -1,0 +1,572 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Extraction extraction-result-2427 - Theorizer</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+    <div class="header">
+        <a href="../index.html"><i class="fas fa-flask"></i> Theorizer</a>
+    </div>
+
+    <div class="content">
+        <h1>Extracted Data Details for extraction-result-2427</h1>
+
+        <div class="section">
+            <h2>Extracted Data (Header)</h2>
+            <div class="info-section">
+                <p><strong>Extraction ID:</strong> extraction-result-2427</p>
+                <p><strong>Extraction Schema Used (ID):</strong> <a href="../schemas/extraction-schema-1846.html">extraction-schema-1846</a></p>
+                <div class="extraction-query"><strong>Extraction Query:</strong> Extract any mentions of hidden drivers, pathway states, subtype structure, validation evidence, and therapeutic implications in oncogene-negative or driver-negative lung adenocarcinoma.</div>
+                <p><strong>Paper ID:</strong> paper-c9bf20e4cf37fa4abe1087b7821621d05a73b2d7</p>
+                <p><strong>Paper Title:</strong> <a href="https://www.semanticscholar.org/paper/c9bf20e4cf37fa4abe1087b7821621d05a73b2d7" target="_blank">Proteogenomics of Non-smoking Lung Cancer in East Asia Delineates Molecular Signatures of Pathogenesis and Progression.</a></p>
+                <p><strong>Paper Venue:</strong> Cell</p>
+                <p><strong>Paper TL;DR:</strong> A deep comprehensive proteogenomic study on a prospectively collected cohort in Taiwan, representing early stage, predominantly female, non-smoking lung adenocarcinoma, revealed the cellular remodeling underpinning clinical trajectories and nominated candidate biomarkers for patient stratification and therapeutic intervention.</p>
+                <p><strong>Paper Abstract:</strong> Lung cancer in East Asia is characterized by a high percentage of never-smokers, early onset and predominant EGFR mutations. To illuminate the molecular phenotype of this demographically distinct disease, we performed a deep comprehensive proteogenomic study on a prospectively collected cohort in Taiwan, representing early stage, predominantly female, non-smoking lung adenocarcinoma. Integrated genomic, proteomic, and phosphoproteomic analysis delineated the demographically distinct molecular attributes and hallmarks of tumor progression. Mutational signature analysis revealed age- and gender-related mutagenesis mechanisms, characterized by high prevalence of APOBEC mutational signature in younger females and over-representation of environmental carcinogen-like mutational signatures in older females. A proteomics-informed classification distinguished the clinical characteristics of early stage patients with EGFR mutations. Furthermore, integrated protein network analysis revealed the cellular remodeling underpinning clinical trajectories and nominated candidate biomarkers for patient stratification and therapeutic intervention. This multi-omic molecular architecture may help develop strategies for management of early stage never-smoker lung adenocarcinoma.</p>
+                <p><strong>Cost:</strong> 0.04</p>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>Extracted Data (Details)</h2>
+            <div class="extraction-instance-container" id="e2427.0">
+                <h3 class="extraction-instance">Extracted Data Instance 0 (e2427.0)</h3>
+                <div class="extraction-query"><strong>Extraction Query:</strong> Extract any mentions of hidden drivers, pathway states, subtype structure, validation evidence, and therapeutic implications in oncogene-negative or driver-negative lung adenocarcinoma.</div>
+                <table>
+                    <thead>
+                        <tr>
+                            <th style="width: 30%;">Field</th>
+                            <th style="width: 70%;">Value</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><strong>name_short</strong></td>
+                            <td>Driver-negative LUAD (operationalized)</td>
+                        </tr>
+                        <tr>
+                            <td><strong>name_full</strong></td>
+                            <td>Oncogene-negative / driver-negative lung adenocarcinoma in this paper</td>
+                        </tr>
+                        <tr>
+                            <td><strong>brief_description</strong></td>
+                            <td>The paper does not provide a formal, clinical test-based definition of driver-negative LUAD. Instead, it operationalizes a 'negative' context mainly as tumors lacking EGFR activating mutations (EGFR-WT) in the proteogenomic analyses, and in a few places as never-smoker tumors without APOBEC signature or as patients without EGFR-L858R in a proteomic subtype; the study does not systematically establish broader EGFR/ALK/KRAS-negative status by a dedicated diagnostic workflow.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>citation_title</strong></td>
+                            <td>Proteogenomics of Non-smoking Lung Cancer in East Asia Delineates Molecular Signatures of Pathogenesis and Progression</td>
+                        </tr>
+                        <tr>
+                            <td><strong>mention_or_use</strong></td>
+                            <td>use</td>
+                        </tr>
+                        <tr>
+                            <td><strong>driver_negative_definition</strong></td>
+                            <td>No single explicit definition of oncogene-negative LUAD is given. The closest operational definitions are: (i) EGFR-wild-type tumors within the Taiwanese early-stage LUAD cohort; (ii) a 'mixed group' of never-smokers without APOBEC signature, 95% of whom had EGFR activating mutation (therefore not driver-negative); and (iii) stage IB tumors without EGFR-L858R in proteomic subtype analyses. The study used WES, RNA-seq, proteomics, and phosphoproteomics on patient-matched tumors and adjacent normal tissues, but did not report a targeted negative-call pipeline against a broad canonical driver panel for a formally driver-negative subset.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>candidate_driver_pathway_or_mechanism</strong></td>
+                            <td>The paper's main hidden-driver logic for non-smoking LUAD is not a single recurrent rare oncogene but a pathway-state model: constitutive MAPK signaling activity can exist even in EGFR-wild-type tumors, and this activity may be driven by KRAS mutations in some cases or be modulated by TP53 mutation status. Separately, for many never-smoker/female tumors the authors emphasize APOBEC mutagenesis, environmental carcinogen-associated mutational processes, and proteomic subtype structure rather than a single hidden driver.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>alteration_or_activation_mode</strong></td>
+                            <td>Phosphoproteomic pathway activation state, with occasional rare coding oncogenic mutations (notably KRAS) and tumor suppressor-associated modulation (TP53). In the most relevant hidden-driver-like observation, MAPK pathway activity was inferred from coordinated phosphosite abundance and was present in both EGFR-WT and EGFR-mutant tumors, indicating pathway activation not fully explained by EGFR genotype.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>implicated_gene_axis_or_pathway</strong></td>
+                            <td>MAPK cascade / EGFR-MEK-ERK axis; EGFR, KRAS, TP53, and KIT are linked to pathway-state variation. The paper also links EGFR activating mutations to EGFR phosphorylation and downstream MAPK co-phosphorylation signatures.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>pathway_activation_evidence</strong></td>
+                            <td>Evidence comes from phosphoproteomics and co-phosphorylation analysis: EGFR activating mutations (L858R, Del19) correlated with increased phosphorylation of EGFR S1064 and Y1197; EGFR-pY1197 correlated with MAP2K2-pT394 and MAPK3-pT198/pT202, supporting downstream MAPK activation. A ranked co-phosphorylation signature showed that MAPK signaling was commonly activated among EGFR-WT and EGFR-mutant tumors, with high MAPK activity in some EGFR-WT cases and low MAPK signaling in many EGFR-mutant/TP53-mutant tumors. The activation is partly genetically explained by EGFR or KRAS but also appears state-level and not fully genotype-determined.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>driver_negative_subtype</strong></td>
+                            <td>Proteomic subtype 2 is the closest driver-negative-like subtype: a smaller group of mostly stage IA/IB early-stage patients without EGFR-L858R mutations. However, the paper does not equate this subtype with complete oncogene negativity because it is defined by proteomic clustering, not by absence of all canonical drivers.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>clinical_or_exposure_context</strong></td>
+                            <td>Predominantly East Asian, never-smoker, early-stage LUAD, enriched in women. The pathway-state observations are framed in the context of treatment-naive Taiwanese patients, with additional stratification by stage (especially stage IB), EGFR mutation class, TP53 mutation, sex, and smoking history.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>cross_cancer_parallel</strong></td>
+                            <td>The paper explicitly notes that anti-correlation between TP53 mutation and MAPK pathway activity has also been observed in TCGA LUAD, and it cites prior work on EGFR/ERK signaling, mutant p53-MCM chromatin axis, and APOBEC mutagenesis in other cancers. It also compares APOBEC-high tumors to immunotherapy-responsive contexts in advanced NSCLC.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>therapeutic_vulnerability_or_implication</strong></td>
+                            <td>Potential vulnerabilities include immunotherapy selection for APOBEC-high, EGFR-wild-type female patients; synthetic-lethal opportunity around TP53 mutation and TOP2A/etoposide sensitivity; and actionable kinase targets in APOBEC-high female tumors, especially CDK1, CDK2, and Aurora B kinase (AurB). The paper also suggests closer follow-up and possibly adjuvant therapy for stage IB EGFR-L858R patients, but that is not a driver-negative implication.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>validation_evidence_and_model_system</strong></td>
+                            <td>Validation is correlative and multimodal rather than functional. Evidence includes independent retrospective clinical cohort validation of EGFR-L858R versus Del19 survival differences in stage IB LUAD, public drug-response data showing TP53-mutant lung cancer cell lines were more sensitive to etoposide, and internal proteogenomic/phosphoproteomic replication across patient samples. No knockdown, rescue, xenograft, or organoid functional testing for a hidden driver in driver-negative tumors is reported.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>driver_negative_scope_class</strong></td>
+                            <td>rtk_ras_raf_axis</td>
+                        </tr>
+                        <tr>
+                            <td><strong>excluded_driver_genes_and_alteration_types</strong></td>
+                            <td>Not formally excluded by a dedicated negative-call panel. The paper's closest operational exclusions are absence of EGFR activating mutations when discussing EGFR-WT cases, and lack of EGFR-L858R in a proteomic subtype. It also analyzes TP53, RBM10, KRAS, APC, ERBB2, KIT, and others, but does not rule these out uniformly. Alteration types explicitly discussed include hotspot activating mutations, exon 19 deletion, mutation, and phosphosite changes; no broad FISH/CNV/fusion exclusion workflow is reported for a driver-negative call.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>negative_call_assay_stack</strong></td>
+                            <td>WES -> RNA-seq -> proteomics -> phosphoproteomics</td>
+                        </tr>
+                        <tr>
+                            <td><strong>negative_call_confidence</strong></td>
+                            <td>low</td>
+                        </tr>
+                        <tr>
+                            <td><strong>rescued_hidden_driver_after_deeper_testing</strong></td>
+                            <td>mixed_some_rescued; some EGFR-WT tumors with high MAPK activity were later found to harbor KRAS mutations, but the broader driver-negative state remains unresolved rather than systematically rescued</td>
+                        </tr>
+                        <tr>
+                            <td><strong>primary_hidden_driver_mechanism_class</strong></td>
+                            <td>phosphoproteomic_pathway_state</td>
+                        </tr>
+                        <tr>
+                            <td><strong>secondary_mechanism_classes</strong></td>
+                            <td>rare_coding_oncogene; tumor_suppressor_co_loss; mutational_process_genomic_instability</td>
+                        </tr>
+                        <tr>
+                            <td><strong>mechanism_requires_specific_genetic_lesion</strong></td>
+                            <td>mixed</td>
+                        </tr>
+                        <tr>
+                            <td><strong>mechanism_is_tumor_intrinsic_or_extrinsic</strong></td>
+                            <td>tumor_intrinsic</td>
+                        </tr>
+                        <tr>
+                            <td><strong>mechanism_biologic_level</strong></td>
+                            <td>protein_phosphosite</td>
+                        </tr>
+                        <tr>
+                            <td><strong>causal_evidence_tier</strong></td>
+                            <td>tier_2_expression_or_proteomic_association</td>
+                        </tr>
+                        <tr>
+                            <td><strong>evidence_modalities_present</strong></td>
+                            <td>WES, RNA_seq, proteomics, phosphoproteomics, recurrence_statistics, retrospective_clinical_response, survival_analysis, qtl_analysis, mutational_signature_analysis, kinase_enrichment, independent_validation_cohort</td>
+                        </tr>
+                        <tr>
+                            <td><strong>therapeutic_actionability_evidence_tier</strong></td>
+                            <td>retrospective_clinical</td>
+                        </tr>
+                        <tr>
+                            <td><strong>paper_claim_strength</strong></td>
+                            <td>hypothesis_generating</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="extraction-instance-container" id="e2427.1">
+                <h3 class="extraction-instance">Extracted Data Instance 1 (e2427.1)</h3>
+                <div class="extraction-query"><strong>Extraction Query:</strong> Extract any mentions of hidden drivers, pathway states, subtype structure, validation evidence, and therapeutic implications in oncogene-negative or driver-negative lung adenocarcinoma.</div>
+                <table>
+                    <thead>
+                        <tr>
+                            <th style="width: 30%;">Field</th>
+                            <th style="width: 70%;">Value</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><strong>name_short</strong></td>
+                            <td>MAPK pathway state</td>
+                        </tr>
+                        <tr>
+                            <td><strong>name_full</strong></td>
+                            <td>Mitogen-Activated Protein Kinase signaling cascade</td>
+                        </tr>
+                        <tr>
+                            <td><strong>brief_description</strong></td>
+                            <td>A central pathway-state signal in the study. The authors show coordinated phosphorylation across the EGFR-MEK-ERK axis and rank tumors by MAPK signaling activity, including EGFR-wild-type tumors with high MAPK activity and EGFR/TP53-mutant tumors with low MAPK activity.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>citation_title</strong></td>
+                            <td>here</td>
+                        </tr>
+                        <tr>
+                            <td><strong>mention_or_use</strong></td>
+                            <td>use</td>
+                        </tr>
+                        <tr>
+                            <td><strong>driver_negative_definition</strong></td>
+                            <td><span class="empty-note">null</span></td>
+                        </tr>
+                        <tr>
+                            <td><strong>candidate_driver_pathway_or_mechanism</strong></td>
+                            <td>A hidden driver-like pathway state that may underlie some ostensibly driver-negative tumors.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>alteration_or_activation_mode</strong></td>
+                            <td>Phosphorylation-based pathway activation state; not necessarily tied to a single canonical oncogenic lesion.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>implicated_gene_axis_or_pathway</strong></td>
+                            <td>EGFR-MAP2K2-MAPK3-MAPK1 axis, with downstream nodes including RSK2, cPLA2, and STMN1; modified by KRAS and TP53 status.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>pathway_activation_evidence</strong></td>
+                            <td>EGFR-pY1197 correlated with MAP2K2-pT394 and MAPK3-pT198/pT202, and the downstream phosphoprotein cascade supported MAPK activation. Patients were ranked by a median relative-abundance MAPK signature, showing heterogeneous activation across EGFR-WT and EGFR-mutant tumors.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>driver_negative_subtype</strong></td>
+                            <td>EGFR-wild-type tumors with high MAPK activity; stage IB late-like tumors with low MAPK activity when TP53-mutant or EGFR-L858R-mutant.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>clinical_or_exposure_context</strong></td>
+                            <td>Observed in never-smoker Taiwanese LUAD, with stage dependence and interaction with TP53 mutations; later-stage tumors with lymph node metastasis showed lower MAPK activity.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>cross_cancer_parallel</strong></td>
+                            <td>The paper cites anti-correlation between TP53 mutation and MAPK activity in TCGA LUAD and contextualizes the pathway within oncogenic EGF receptor signaling studies.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>therapeutic_vulnerability_or_implication</strong></td>
+                            <td>Suggests pathway-level targeting could be relevant even when EGFR mutations are absent, but the paper does not directly test MAPK inhibitors in patient samples. It mainly supports biomarker stratification and points to known targeted therapy logic in EGFR/KRAS-driven disease.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>validation_evidence_and_model_system</strong></td>
+                            <td>Patient proteomics/phosphoproteomics with correlation analyses; no direct functional inhibitor validation in model systems.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>driver_negative_scope_class</strong></td>
+                            <td>rtk_ras_raf_axis</td>
+                        </tr>
+                        <tr>
+                            <td><strong>excluded_driver_genes_and_alteration_types</strong></td>
+                            <td>None explicitly excluded.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>negative_call_assay_stack</strong></td>
+                            <td>phosphoproteomics -> co-phosphorylation analysis -> clinical correlation</td>
+                        </tr>
+                        <tr>
+                            <td><strong>negative_call_confidence</strong></td>
+                            <td>medium</td>
+                        </tr>
+                        <tr>
+                            <td><strong>rescued_hidden_driver_after_deeper_testing</strong></td>
+                            <td>yes_specific_driver_found; KRAS mutations accounted for high MAPK activity in some EGFR-WT cases</td>
+                        </tr>
+                        <tr>
+                            <td><strong>primary_hidden_driver_mechanism_class</strong></td>
+                            <td>phosphoproteomic_pathway_state</td>
+                        </tr>
+                        <tr>
+                            <td><strong>secondary_mechanism_classes</strong></td>
+                            <td>rare_coding_oncogene; tumor_suppressor_co_loss</td>
+                        </tr>
+                        <tr>
+                            <td><strong>mechanism_requires_specific_genetic_lesion</strong></td>
+                            <td>mixed</td>
+                        </tr>
+                        <tr>
+                            <td><strong>mechanism_is_tumor_intrinsic_or_extrinsic</strong></td>
+                            <td>tumor_intrinsic</td>
+                        </tr>
+                        <tr>
+                            <td><strong>mechanism_biologic_level</strong></td>
+                            <td>protein_phosphosite</td>
+                        </tr>
+                        <tr>
+                            <td><strong>causal_evidence_tier</strong></td>
+                            <td>tier_2_expression_or_proteomic_association</td>
+                        </tr>
+                        <tr>
+                            <td><strong>evidence_modalities_present</strong></td>
+                            <td>phosphoproteomics, correlation_analysis, pathway_signature_ranking, clinical_correlation</td>
+                        </tr>
+                        <tr>
+                            <td><strong>therapeutic_actionability_evidence_tier</strong></td>
+                            <td>inferential_only</td>
+                        </tr>
+                        <tr>
+                            <td><strong>paper_claim_strength</strong></td>
+                            <td>mechanistic</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="extraction-instance-container" id="e2427.2">
+                <h3 class="extraction-instance">Extracted Data Instance 2 (e2427.2)</h3>
+                <div class="extraction-query"><strong>Extraction Query:</strong> Extract any mentions of hidden drivers, pathway states, subtype structure, validation evidence, and therapeutic implications in oncogene-negative or driver-negative lung adenocarcinoma.</div>
+                <table>
+                    <thead>
+                        <tr>
+                            <th style="width: 30%;">Field</th>
+                            <th style="width: 70%;">Value</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><strong>name_short</strong></td>
+                            <td>Proteomic subtype 2</td>
+                        </tr>
+                        <tr>
+                            <td><strong>name_full</strong></td>
+                            <td>Proteomic subtype 2 of early-stage LUAD</td>
+                        </tr>
+                        <tr>
+                            <td><strong>brief_description</strong></td>
+                            <td>A proteomic cluster defined by unsupervised consensus clustering. It is enriched for early-stage patients and is specifically described as mostly IA/IB tumors without EGFR-L858R mutation, suggesting a distinct molecular state relative to subtype 1 and subtype 3.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>citation_title</strong></td>
+                            <td>here</td>
+                        </tr>
+                        <tr>
+                            <td><strong>mention_or_use</strong></td>
+                            <td>use</td>
+                        </tr>
+                        <tr>
+                            <td><strong>driver_negative_definition</strong></td>
+                            <td>Not a formal driver-negative definition, but the subtype is described as consisting of early-stage patients (mostly IA and IB) without EGFR-L858R mutations.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>candidate_driver_pathway_or_mechanism</strong></td>
+                            <td>Subtype-level proteomic state rather than a single hidden driver; includes distinct network features and is contrasted with the more advanced subtype 1 and the early-stage immune-rich subtype 3.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>alteration_or_activation_mode</strong></td>
+                            <td>Multi-omic proteomic cluster state.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>implicated_gene_axis_or_pathway</strong></td>
+                            <td>Broader proteomic programs; the paper notes subtype-specific differences in cell junction, adhesion, signal transduction, aminoacyl-tRNA biosynthesis, TRAPP complex, and chromatin modification networks in the subtype comparison.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>pathway_activation_evidence</strong></td>
+                            <td>Subtype 2 showed a distinct proteomic profile, but the paper does not identify a single activated pathway uniquely driving it.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>driver_negative_subtype</strong></td>
+                            <td>Proteomic subtype 2, mostly early-stage IA/IB and without EGFR-L858R.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>clinical_or_exposure_context</strong></td>
+                            <td>Early stage, Taiwanese LUAD cohort; contrasted against smoking history, mutational burden, and stage-based refined classification.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>cross_cancer_parallel</strong></td>
+                            <td>None explicitly beyond general proteomic subtype literature.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>therapeutic_vulnerability_or_implication</strong></td>
+                            <td>The subtype itself is used for patient stratification, but no direct targeted therapy is assigned to it.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>validation_evidence_and_model_system</strong></td>
+                            <td>Unsupervised consensus clustering of proteomics with alignment to clinical features; no external functional validation for subtype 2 specifically.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>driver_negative_scope_class</strong></td>
+                            <td>not_formally_defined</td>
+                        </tr>
+                        <tr>
+                            <td><strong>excluded_driver_genes_and_alteration_types</strong></td>
+                            <td>EGFR-L858R mutation is explicitly absent in this subtype description; other drivers are not systematically excluded.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>negative_call_assay_stack</strong></td>
+                            <td>proteomics -> consensus clustering -> clinical annotation</td>
+                        </tr>
+                        <tr>
+                            <td><strong>negative_call_confidence</strong></td>
+                            <td>low</td>
+                        </tr>
+                        <tr>
+                            <td><strong>rescued_hidden_driver_after_deeper_testing</strong></td>
+                            <td>unresolved_after_broad_testing</td>
+                        </tr>
+                        <tr>
+                            <td><strong>primary_hidden_driver_mechanism_class</strong></td>
+                            <td>lineage_plasticity_cell_state</td>
+                        </tr>
+                        <tr>
+                            <td><strong>secondary_mechanism_classes</strong></td>
+                            <td>phosphoproteomic_pathway_state</td>
+                        </tr>
+                        <tr>
+                            <td><strong>mechanism_requires_specific_genetic_lesion</strong></td>
+                            <td>no</td>
+                        </tr>
+                        <tr>
+                            <td><strong>mechanism_is_tumor_intrinsic_or_extrinsic</strong></td>
+                            <td>tumor_intrinsic</td>
+                        </tr>
+                        <tr>
+                            <td><strong>mechanism_biologic_level</strong></td>
+                            <td>lineage_state</td>
+                        </tr>
+                        <tr>
+                            <td><strong>causal_evidence_tier</strong></td>
+                            <td>tier_2_expression_or_proteomic_association</td>
+                        </tr>
+                        <tr>
+                            <td><strong>evidence_modalities_present</strong></td>
+                            <td>proteomics, phosphoproteomics, clinical_annotation, consensus_clustering</td>
+                        </tr>
+                        <tr>
+                            <td><strong>therapeutic_actionability_evidence_tier</strong></td>
+                            <td>none</td>
+                        </tr>
+                        <tr>
+                            <td><strong>paper_claim_strength</strong></td>
+                            <td>descriptive</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="extraction-instance-container" id="e2427.3">
+                <h3 class="extraction-instance">Extracted Data Instance 3 (e2427.3)</h3>
+                <div class="extraction-query"><strong>Extraction Query:</strong> Extract any mentions of hidden drivers, pathway states, subtype structure, validation evidence, and therapeutic implications in oncogene-negative or driver-negative lung adenocarcinoma.</div>
+                <table>
+                    <thead>
+                        <tr>
+                            <th style="width: 30%;">Field</th>
+                            <th style="width: 70%;">Value</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><strong>name_short</strong></td>
+                            <td>APOBEC-high EGFR-WT female state</td>
+                        </tr>
+                        <tr>
+                            <td><strong>name_full</strong></td>
+                            <td>APOBEC-high mutagenic state in EGFR-wild-type female never-smoker LUAD</td>
+                        </tr>
+                        <tr>
+                            <td><strong>brief_description</strong></td>
+                            <td>An age- and sex-associated mutational process state that the paper argues may contribute to early-onset disease, especially in younger females without EGFR mutations. Although not a canonical oncogene driver, it is presented as a potential hidden contributor to oncogenesis and patient stratification.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>citation_title</strong></td>
+                            <td>here</td>
+                        </tr>
+                        <tr>
+                            <td><strong>mention_or_use</strong></td>
+                            <td>use</td>
+                        </tr>
+                        <tr>
+                            <td><strong>driver_negative_definition</strong></td>
+                            <td>The relevant negative context is EGFR-wild-type female tumors, especially those without EGFR activating mutations, where APOBEC-high signature is enriched.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>candidate_driver_pathway_or_mechanism</strong></td>
+                            <td>Mutational process / genomic instability mechanism rather than a single driver gene.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>alteration_or_activation_mode</strong></td>
+                            <td>APOBEC cytidine deaminase mutagenesis, particularly C>T and C>G mutations in TCW contexts.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>implicated_gene_axis_or_pathway</strong></td>
+                            <td>APOBEC3 family, DNA repair/replication pathways, BER components (MBD4, APEX1, FEN1, POLD2), and activated kinases CDK1, CDK2, and Aurora B.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>pathway_activation_evidence</strong></td>
+                            <td>High APOBEC signature correlated with upregulation of APOBEC3 enzymes at the protein level and with DNA repair/replication proteins in female tumors. Phosphosites in DNA damage/repair proteins (ATR-T1989, UIMC1-S101) were differentially regulated, and kinase enrichment identified CDK1, CDK2, and AurB as activated in APOBEC-high females.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>driver_negative_subtype</strong></td>
+                            <td>APOBEC-high, EGFR-wild-type female group; also the undefined 'mixed' group is mentioned but is mostly EGFR-mutant and therefore not driver-negative.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>clinical_or_exposure_context</strong></td>
+                            <td>Younger females, never-smokers, East Asian/Taiwanese LUAD; associated with prolonged survival in the TCGA cohort and possible immunotherapy responsiveness.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>cross_cancer_parallel</strong></td>
+                            <td>The paper cites APOBEC-driven early-onset squamous cell carcinoma and APOBEC mutagenesis in metastatic thoracic tumors.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>therapeutic_vulnerability_or_implication</strong></td>
+                            <td>Potential selection biomarker for immunotherapy, especially in young EGFR-WT females. CDK1, CDK2, and Aurora B are proposed as actionable intervention candidates; this is inferential/preclinical rather than prospectively tested in this cohort.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>validation_evidence_and_model_system</strong></td>
+                            <td>Patient cohort analysis with proteomic/phosphoproteomic confirmation, external TCGA survival association, and comparison to an advanced NSCLC immunotherapy cohort showing a marginally significant association with prolonged progression-free survival.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>driver_negative_scope_class</strong></td>
+                            <td>not_formally_defined</td>
+                        </tr>
+                        <tr>
+                            <td><strong>excluded_driver_genes_and_alteration_types</strong></td>
+                            <td>EGFR activating mutations are absent by subgroup definition; no broader driver panel exclusion is performed.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>negative_call_assay_stack</strong></td>
+                            <td>NMF mutational_signature_analysis -> APOBEC stratification -> proteomics/phosphoproteomics -> survival_analysis</td>
+                        </tr>
+                        <tr>
+                            <td><strong>negative_call_confidence</strong></td>
+                            <td>medium</td>
+                        </tr>
+                        <tr>
+                            <td><strong>rescued_hidden_driver_after_deeper_testing</strong></td>
+                            <td>none_reported</td>
+                        </tr>
+                        <tr>
+                            <td><strong>primary_hidden_driver_mechanism_class</strong></td>
+                            <td>mutational_process_genomic_instability</td>
+                        </tr>
+                        <tr>
+                            <td><strong>secondary_mechanism_classes</strong></td>
+                            <td>phosphoproteomic_pathway_state; metabolic_dependency_state</td>
+                        </tr>
+                        <tr>
+                            <td><strong>mechanism_requires_specific_genetic_lesion</strong></td>
+                            <td>no</td>
+                        </tr>
+                        <tr>
+                            <td><strong>mechanism_is_tumor_intrinsic_or_extrinsic</strong></td>
+                            <td>mutational_process_level</td>
+                        </tr>
+                        <tr>
+                            <td><strong>mechanism_biologic_level</strong></td>
+                            <td>evolutionary_process</td>
+                        </tr>
+                        <tr>
+                            <td><strong>causal_evidence_tier</strong></td>
+                            <td>tier_2_expression_or_proteomic_association</td>
+                        </tr>
+                        <tr>
+                            <td><strong>evidence_modalities_present</strong></td>
+                            <td>mutational_signature_analysis, proteomics, phosphoproteomics, kinase_enrichment, survival_analysis, retrospective_clinical_response, independent_validation_cohort</td>
+                        </tr>
+                        <tr>
+                            <td><strong>therapeutic_actionability_evidence_tier</strong></td>
+                            <td>retrospective_clinical</td>
+                        </tr>
+                        <tr>
+                            <td><strong>paper_claim_strength</strong></td>
+                            <td>hypothesis_generating</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>Potentially Relevant New Papers (mentioned by this paper)</h2>
+            <ol>
+                <li>Proteogenomic characterization reveals therapeutic vulnerabilities in lung adenocarcinoma <em>(Rating: 2)</em></li>
+                <li>Comprehensive molecular profiling of lung adenocarcinoma <em>(Rating: 2)</em></li>
+                <li>Characteristics of genomic alterations of lung adenocarcinoma in young never-smokers <em>(Rating: 1)</em></li>
+                <li>Integrated Proteogenomic Characterization of Human High-Grade Serous Ovarian Cancer <em>(Rating: 1)</em></li>
+                <li>Integrated Proteogenomic Characterization of HBV-Related Hepatocellular Carcinoma <em>(Rating: 1)</em></li>
+            </ol>
+        </div>
+
+        </div>
+
+    </div>
+</body>
+</html>

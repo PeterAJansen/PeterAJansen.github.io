@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Extraction extraction-result-2066 - Theorizer</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+    <div class="header">
+        <a href="../index.html"><i class="fas fa-flask"></i> Theorizer</a>
+    </div>
+
+    <div class="content">
+        <h1>Extracted Data Details for extraction-result-2066</h1>
+
+        <div class="section">
+            <h2>Extracted Data (Header)</h2>
+            <div class="info-section">
+                <p><strong>Extraction ID:</strong> extraction-result-2066</p>
+                <p><strong>Extraction Schema Used (ID):</strong> <a href="../schemas/extraction-schema-1843.html">extraction-schema-1843</a></p>
+                <div class="extraction-query"><strong>Extraction Query:</strong> Extract any mentions of hidden genomic, structural, regulatory, or assay-missed drivers in oncogene-negative lung adenocarcinoma.</div>
+                <p><strong>Paper ID:</strong> paper-f99b0e7b008bc694df3ab1a61414837eb94bab22</p>
+                <p><strong>Paper Title:</strong> <a href="https://www.semanticscholar.org/paper/f99b0e7b008bc694df3ab1a61414837eb94bab22" target="_blank">Proteogenomic analysis of lung adenocarcinoma reveals tumor heterogeneity, survival determinants, and therapeutically relevant pathways</a></p>
+                <p><strong>Paper Venue:</strong> Cell Reports Medicine</p>
+                <p><strong>Paper TL;DR:</strong> It is found that protein expression is more often associated with patient survival than RNA, and this proteogenomic characterization provides a foundation for molecularly informed medicine in LUAD.</p>
+                <p><strong>Paper Abstract:</strong> Summary We present a deep proteogenomic profiling study of 87 lung adenocarcinoma (LUAD) tumors from the United States, integrating whole-genome sequencing, transcriptome sequencing, proteomics and phosphoproteomics by mass spectrometry, and reverse-phase protein arrays. We identify three subtypes from somatic genome signature analysis, including a transition-high subtype enriched with never smokers, a transversion-high subtype enriched with current smokers, and a structurally altered subtype enriched with former smokers, TP53 alterations, and genome-wide structural alterations. We show that within-tumor correlations of RNA and protein expression associate with tumor purity and immune cell profiles. We detect and independently validate expression signatures of RNA and protein that predict patient survival. Additionally, among co-measured genes, we found that protein expression is more often associated with patient survival than RNA. Finally, integrative analysis characterizes three expression subtypes with divergent mutations, proteomic regulatory networks, and therapeutic vulnerabilities. This proteogenomic characterization provides a foundation for molecularly informed medicine in LUAD.</p>
+                <p><strong>Cost:</strong> 0.044</p>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>Extracted Data (Details)</h2>
+            <div class="extraction-instance-container" id="e2066.0">
+                <h3 class="extraction-instance">Extracted Data Instance 0 (e2066.0)</h3>
+                <div class="extraction-query"><strong>Extraction Query:</strong> Extract any mentions of hidden genomic, structural, regulatory, or assay-missed drivers in oncogene-negative lung adenocarcinoma.</div>
+                <table>
+                    <thead>
+                        <tr>
+                            <th style="width: 30%;">Field</th>
+                            <th style="width: 70%;">Value</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><strong>name_short</strong></td>
+                            <td>TP53-structural-altered subtype</td>
+                        </tr>
+                        <tr>
+                            <td><strong>name_full</strong></td>
+                            <td>Structurally altered lung adenocarcinoma subtype enriched for TP53 alterations and genome-wide structural alterations</td>
+                        </tr>
+                        <tr>
+                            <td><strong>brief_description</strong></td>
+                            <td>The paper defines a whole-genome signature subtype characterized by the MMRD1 indel signature and medium-long inversion structural-variant signature, with the highest burden of deletions and inversions. It is enriched for former smokers and TP53 somatic mutations, making TP53-linked structural genome disorganization a major hidden driver state in this cohort.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>citation_title</strong></td>
+                            <td>Proteogenomic analysis of lung adenocarcinoma reveals tumor heterogeneity, survival determinants, and therapeutically relevant pathways</td>
+                        </tr>
+                        <tr>
+                            <td><strong>mention_or_use</strong></td>
+                            <td>use</td>
+                        </tr>
+                        <tr>
+                            <td><strong>oncogene_negative_definition</strong></td>
+                            <td>In the context of canonical LUAD drivers assayed by whole-genome sequencing, tumors were categorized across somatic alterations including EGFR, KRAS, STK11, KEAP1, TP53, SMARCA4, copy-number alterations, structural variants, fusions, and recurrent non-coding regulatory mutations. The oncogene-negative or driver-negative concept is not operationalized as a formal cohort label in the paper, but the discussion explicitly refers to PP tumors as "the majority of PP tumors do not possess targetable oncogene mutations," and later notes KRAS-negative PP tumors refractory to targeted therapy. The study's discovery pipeline used WGS, RNA-seq, MS proteomics/phosphoproteomics, and RPPA rather than a targeted panel.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>assay_strategy_and_detection_limits</strong></td>
+                            <td>Tumors underwent paired tumor-normal WGS (somatic SNVs/indels with Strelka2, SVs with Manta plus Break Point Inspector, CNAs with Canvas), RNA-seq, global proteomics, phosphoproteomics, and RPPA. Non-coding regulatory elements were interrogated with MutEnricher; fusions were assessed from RNA-seq via MapSplice; patient-specific variant peptides were searched in proteogenomic databases. The paper explicitly notes several blind spots: no normal adjacent tissue for tumor-vs-normal expression comparison, limited adjuvant/neo-adjuvant data, and that some regulome or low-level driver events may only be inferable through integrative analyses rather than a single assay.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>missed_driver_reclassified_after_broader_testing</strong></td>
+                            <td>Yes, in the sense that tumors lacking targetable oncogene mutations were further stratified by whole-genome mutational signatures and proteogenomic network analyses into a structurally altered subtype. This broader testing did not rescue a single specific canonical oncogene, but it reclassified a subset of previously non-informative tumors into a TP53- and SV-driven state defined by high inversion/deletion burden and mutant TP53 expression signature.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>driver_event_class</strong></td>
+                            <td>Complex structural-variant–driven genome disorganization with TP53-associated mutagenesis</td>
+                        </tr>
+                        <tr>
+                            <td><strong>candidate_driver_gene_or_locus</strong></td>
+                            <td>TP53; structurally altered genome with recurrent deletion and inversion burden</td>
+                        </tr>
+                        <tr>
+                            <td><strong>structural_or_regulatory_activation_mechanism</strong></td>
+                            <td>Loss of TP53 function is proposed to permit accumulation of structural alterations over time; the subtype is mechanistically associated with genome-wide structural disorganization, including deletions and inversions, rather than a single focal activating mutation.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>functional_consequence</strong></td>
+                            <td>High structural-variant burden, elevated TP53 pSer15 (DNA-damage response), and a strong mutant TP53 expression signature. The subtype may reflect tumors arising after smoking exposure has ceased, with structural damage accumulating in a TP53-null context.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>co_alteration_or_combinatorial_requirement</strong></td>
+                            <td>Enriched in former smokers; associated with intermediate smoking mutational signatures plus TP53 mutation, high SV burden, and high TMB. The paper suggests a combination of prior tobacco mutagenesis and subsequent TP53 loss/checkpoint failure as the explanatory framework.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>human_prevalence_or_enrichment</strong></td>
+                            <td>The structurally altered subtype was one of three WGS-derived clusters in 87 LUAD tumors and was enriched for former smokers and TP53 alterations. The paper does not give a precise percentage for TP53-mutant tumors within this subtype in the text excerpt, but states TP53 somatic mutations were most frequent there and the subtype had the most structural deletions and inversions.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>functional_or_clinical_validation</strong></td>
+                            <td>Validation is correlative rather than experimental: TP53 pSer15 was elevated by RPPA, mutant TP53 RNA-signature scores were highest, and the subtype’s mutational pattern was consistent with an independent LUAD cohort cited by the authors. No transformation or knockdown assay was reported in this paper.</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="extraction-instance-container" id="e2066.1">
+                <h3 class="extraction-instance">Extracted Data Instance 1 (e2066.1)</h3>
+                <div class="extraction-query"><strong>Extraction Query:</strong> Extract any mentions of hidden genomic, structural, regulatory, or assay-missed drivers in oncogene-negative lung adenocarcinoma.</div>
+                <table>
+                    <thead>
+                        <tr>
+                            <th style="width: 30%;">Field</th>
+                            <th style="width: 70%;">Value</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><strong>name_short</strong></td>
+                            <td>STK11 regulatory locus</td>
+                        </tr>
+                        <tr>
+                            <td><strong>name_full</strong></td>
+                            <td>Recurrently mutated STK11 gene locus with structural-variant breakpoints</td>
+                        </tr>
+                        <tr>
+                            <td><strong>brief_description</strong></td>
+                            <td>The authors report significantly recurrent structural-variant breakpoints within the STK11 locus when clustering somatic SV breakpoints across tumors. This indicates a hidden structural driver class that may not be captured by point-mutation-only analyses.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>citation_title</strong></td>
+                            <td>Proteogenomic analysis of lung adenocarcinoma reveals tumor heterogeneity, survival determinants, and therapeutically relevant pathways</td>
+                        </tr>
+                        <tr>
+                            <td><strong>mention_or_use</strong></td>
+                            <td>use</td>
+                        </tr>
+                        <tr>
+                            <td><strong>oncogene_negative_definition</strong></td>
+                            <td>The analysis defines recurrent genomic alteration calls from WGS, including coding SNVs/indels, non-coding regulatory mutations, CNAs, and SVs. Tumors can be considered driver-negative with respect to canonical actionable oncogenes if they lack EGFR or KRAS/other targetable alterations, but the paper does not impose a single explicit negative label for this locus.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>assay_strategy_and_detection_limits</strong></td>
+                            <td>Whole-genome sequencing with SV calling by Manta and refinement by Break Point Inspector; recurrent breakpoints were identified by clustering SV breakends. This captures rearrangements missed by exon-focused or SNV-only assays, but the paper does not provide direct functional validation of the locus-specific SVs.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>missed_driver_reclassified_after_broader_testing</strong></td>
+                            <td>Yes, recurrent STK11-locus SV breakpoints were detected only after SV clustering of WGS data, indicating a class of alteration that would be missed by analyses restricted to coding SNVs/indels.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>driver_event_class</strong></td>
+                            <td>Structural variant / breakpoint cluster in a tumor suppressor locus</td>
+                        </tr>
+                        <tr>
+                            <td><strong>candidate_driver_gene_or_locus</strong></td>
+                            <td>STK11 locus</td>
+                        </tr>
+                        <tr>
+                            <td><strong>structural_or_regulatory_activation_mechanism</strong></td>
+                            <td>Likely gene-disrupting structural rearrangement affecting STK11, inferred from recurrent breakpoints in the locus.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>functional_consequence</strong></td>
+                            <td>The paper does not directly measure the functional consequence of the STK11-locus SVs in this sentence, but STK11 alteration is generally linked in the paper to the PP subtype and metabolic reprogramming. Here the key observation is recurrent locus targeting by SVs.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>co_alteration_or_combinatorial_requirement</strong></td>
+                            <td>These alterations did not associate with the somatic signature subtypes in the manuscript. Elsewhere in the paper STK11 alterations frequently co-occur with KEAP1 alterations in the PP subtype, but this specific SV-locus observation is presented independently.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>human_prevalence_or_enrichment</strong></td>
+                            <td>Described as significantly recurrent across the cohort, but no exact count is provided in the main text excerpt.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>functional_or_clinical_validation</strong></td>
+                            <td>No direct functional validation reported for the STK11 SVs; the evidence is recurrence from WGS breakpoint clustering.</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="extraction-instance-container" id="e2066.2">
+                <h3 class="extraction-instance">Extracted Data Instance 2 (e2066.2)</h3>
+                <div class="extraction-query"><strong>Extraction Query:</strong> Extract any mentions of hidden genomic, structural, regulatory, or assay-missed drivers in oncogene-negative lung adenocarcinoma.</div>
+                <table>
+                    <thead>
+                        <tr>
+                            <th style="width: 30%;">Field</th>
+                            <th style="width: 70%;">Value</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><strong>name_short</strong></td>
+                            <td>Non-coding SFTPD/SFTPA1/SFTPA2 regulatory element</td>
+                        </tr>
+                        <tr>
+                            <td><strong>name_full</strong></td>
+                            <td>Recurrently mutated non-coding regulatory element associated with reduced SFTPD, SFTPA1, and SFTPA2 expression</td>
+                        </tr>
+                        <tr>
+                            <td><strong>brief_description</strong></td>
+                            <td>The study identifies a recurrently mutated non-coding regulatory element that behaves as a somatic QTL, associated with decreased RNA expression of surfactant genes SFTPD, SFTPA1, and SFTPA2. This is a hidden regulatory driver class that would be missed by coding-only assays.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>citation_title</strong></td>
+                            <td>Proteogenomic analysis of lung adenocarcinoma reveals tumor heterogeneity, survival determinants, and therapeutically relevant pathways</td>
+                        </tr>
+                        <tr>
+                            <td><strong>mention_or_use</strong></td>
+                            <td>use</td>
+                        </tr>
+                        <tr>
+                            <td><strong>oncogene_negative_definition</strong></td>
+                            <td>The paper's broad genomic survey includes non-coding regulatory regions beyond canonical coding driver genes. Driver-negative tumors in the practical sense are those lacking targetable oncogene mutations, but the reported regulatory event is discovered irrespective of that label by a non-coding recurrence/QTL framework.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>assay_strategy_and_detection_limits</strong></td>
+                            <td>Detected by whole-genome sequencing combined with MutEnricher analysis of LUAD-specific non-coding regulatory regions (promoters, 3' UTRs, 5' UTRs, distal enhancers) and somatic QTL modeling linking regulatory mutations to cis-gene expression. This approach can detect regulatory lesions missed by WES or coding-focused mutation calling.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>missed_driver_reclassified_after_broader_testing</strong></td>
+                            <td>Yes. The recurrent regulatory element associated with surfactant-gene repression was discovered only through non-coding recurrence/QTL analysis of WGS data; it would be missed by assays that do not interrogate regulatory DNA or transcript-level cis effects.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>driver_event_class</strong></td>
+                            <td>Non-coding regulatory mutation / somatic regulatory QTL</td>
+                        </tr>
+                        <tr>
+                            <td><strong>candidate_driver_gene_or_locus</strong></td>
+                            <td>Regulatory element controlling SFTPD, SFTPA1, and SFTPA2</td>
+                        </tr>
+                        <tr>
+                            <td><strong>structural_or_regulatory_activation_mechanism</strong></td>
+                            <td>Regulatory element mutation linked in cis to reduced expression of surfactant genes, consistent with loss of enhancer/promoter function or altered transcriptional control.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>functional_consequence</strong></td>
+                            <td>Reduced RNA expression of SFTPD, SFTPA1, and SFTPA2.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>co_alteration_or_combinatorial_requirement</strong></td>
+                            <td>No explicit cooperating alteration is stated for this element.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>human_prevalence_or_enrichment</strong></td>
+                            <td>The element is described as recurrently mutated, but the excerpt does not give exact counts or enrichment statistics.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>functional_or_clinical_validation</strong></td>
+                            <td>Validation is statistical and transcript-linked rather than experimental: the element is reported as a somatic QTL with cis genes and reduced target-gene RNA expression.</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="extraction-instance-container" id="e2066.3">
+                <h3 class="extraction-instance">Extracted Data Instance 3 (e2066.3)</h3>
+                <div class="extraction-query"><strong>Extraction Query:</strong> Extract any mentions of hidden genomic, structural, regulatory, or assay-missed drivers in oncogene-negative lung adenocarcinoma.</div>
+                <table>
+                    <thead>
+                        <tr>
+                            <th style="width: 30%;">Field</th>
+                            <th style="width: 70%;">Value</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><strong>name_short</strong></td>
+                            <td>MMRD1 / medium-long inversion subtype</td>
+                        </tr>
+                        <tr>
+                            <td><strong>name_full</strong></td>
+                            <td>Mutational-signature subtype defined by MMRD1 indels and medium-long inversion structural variants</td>
+                        </tr>
+                        <tr>
+                            <td><strong>brief_description</strong></td>
+                            <td>This signature subtype is a genome-wide hidden driver state in LUAD rather than a single gene lesion. It is characterized by indel patterns consistent with DNA replication/repair slippage and by a distinctive structural-variant spectrum dominated by medium-long inversions.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>citation_title</strong></td>
+                            <td>Proteogenomic analysis of lung adenocarcinoma reveals tumor heterogeneity, survival determinants, and therapeutically relevant pathways</td>
+                        </tr>
+                        <tr>
+                            <td><strong>mention_or_use</strong></td>
+                            <td>use</td>
+                        </tr>
+                        <tr>
+                            <td><strong>oncogene_negative_definition</strong></td>
+                            <td>Not a gene-level oncogene-negative cohort definition; instead, this is one of three WGS-derived somatic signature subtypes used to classify tumors based on genome alteration profiles.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>assay_strategy_and_detection_limits</strong></td>
+                            <td>Derived from WGS-based correlated topic modeling across SNVs, indels, and SVs. The class depends on broad genome-wide mutation spectra, and would be invisible to targeted hotspot assays or assays focusing on only one alteration class.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>missed_driver_reclassified_after_broader_testing</strong></td>
+                            <td>Yes, tumors with no obvious canonical driver were reclassified into a distinct structural/genomic subtype by joint SNV-indel-SV signature analysis.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>driver_event_class</strong></td>
+                            <td>Genome-wide mutational signature / structural-variant pattern</td>
+                        </tr>
+                        <tr>
+                            <td><strong>candidate_driver_gene_or_locus</strong></td>
+                            <td>No single gene; signature defined by MMRD1 indel pattern and medium-long inversion SV pattern</td>
+                        </tr>
+                        <tr>
+                            <td><strong>structural_or_regulatory_activation_mechanism</strong></td>
+                            <td>Suggests defective DNA repair/checkpoint biology and ongoing structural genome instability rather than focal oncogene activation.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>functional_consequence</strong></td>
+                            <td>High burden of deletions and inversions, high TMB, and association with former smokers and TP53 alterations.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>co_alteration_or_combinatorial_requirement</strong></td>
+                            <td>Enrichment for former smokers and TP53 mutations, with intermediate smoking signatures; the paper interprets the subtype as tobacco mutagenesis plus impaired DNA-damage checkpoint control.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>human_prevalence_or_enrichment</strong></td>
+                            <td>One of three major mutational-signature subtypes in 87 tumors; the structurally altered subtype was enriched for former smokers and had the most structural deletions and inversions. Exact prevalence is not provided in the text excerpt.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>functional_or_clinical_validation</strong></td>
+                            <td>Validated by association with TP53 pSer15, mutant TP53 RNA signature, and independent cohort consistency noted by the authors.</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>Potentially Relevant New Papers (mentioned by this paper)</h2>
+            <ol>
+                <li>Whole-genome characterization of lung adenocarcinomas lacking alterations in the RTK/RAS/RAF pathway <em>(Rating: 2)</em></li>
+                <li>Proteogenomic characterization reveals therapeutic vulnerabilities in lung adenocarcinoma <em>(Rating: 2)</em></li>
+                <li>Proteogenomics of non-smoking lung cancer in east asia delineates molecular signatures of pathogenesis and progression <em>(Rating: 1)</em></li>
+                <li>Comprehensive molecular profiling of lung adenocarcinoma <em>(Rating: 1)</em></li>
+            </ol>
+        </div>
+
+        </div>
+
+    </div>
+</body>
+</html>

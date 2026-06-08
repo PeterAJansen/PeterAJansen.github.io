@@ -1,0 +1,444 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Extraction extraction-result-2450 - Theorizer</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+    <div class="header">
+        <a href="../index.html"><i class="fas fa-flask"></i> Theorizer</a>
+    </div>
+
+    <div class="content">
+        <h1>Extracted Data Details for extraction-result-2450</h1>
+
+        <div class="section">
+            <h2>Extracted Data (Header)</h2>
+            <div class="info-section">
+                <p><strong>Extraction ID:</strong> extraction-result-2450</p>
+                <p><strong>Extraction Schema Used (ID):</strong> <a href="../schemas/extraction-schema-1846.html">extraction-schema-1846</a></p>
+                <div class="extraction-query"><strong>Extraction Query:</strong> Extract any mentions of hidden drivers, pathway states, subtype structure, validation evidence, and therapeutic implications in oncogene-negative or driver-negative lung adenocarcinoma.</div>
+                <p><strong>Paper ID:</strong> paper-6ccfdf8d96f99e3489b4ea6139724520d4d76107</p>
+                <p><strong>Paper Title:</strong> <a href="https://www.semanticscholar.org/paper/6ccfdf8d96f99e3489b4ea6139724520d4d76107" target="_blank">Pan-cancer analysis of somatic copy number alterations implicates IRS4 and IGF2 in enhancer hijacking</a></p>
+                <p><strong>Paper Venue:</strong> Nature Genetics</p>
+                <p><strong>Paper TL;DR:</strong> A framework for inferring cancer-related gene overexpression resulting from CRE reorganization by integrating SCNAs, gene expression data and information on topologically associating domains (TADs) is presented and enables systematic inference of CRE rearrangements mediating dysregulation in cancer.</p>
+                <p><strong>Paper Abstract:</strong> Extensive prior research focused on somatic copy-number alterations (SCNAs) affecting cancer genes, yet the extent to which recurrent SCNAs exert their influence through rearrangement of cis-regulatory elements (CREs) remains unclear. Here we present a framework for inferring cancer-related gene overexpression resulting from CRE reorganization (e.g., enhancer hijacking) by integrating SCNAs, gene expression data and information on topologically associating domains (TADs). Analysis of 7,416 cancer genomes uncovered several pan-cancer candidate genes, including IRS4, SMARCA1 and TERT. We demonstrate that IRS4 overexpression in lung cancer is associated with recurrent deletions in cis, and we present evidence supporting a tumor-promoting role. We additionally pursued cancer-type-specific analyses and uncovered IGF2 as a target for enhancer hijacking in colorectal cancer. Recurrent tandem duplications intersecting with a TAD boundary mediate de novo formation of a 3D contact domain comprising IGF2 and a lineage-specific super-enhancer, resulting in high-level gene activation. Our framework enables systematic inference of CRE rearrangements mediating dysregulation in cancer.</p>
+                <p><strong>Cost:</strong> 0.033</p>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>Extracted Data (Details)</h2>
+            <div class="extraction-instance-container" id="e2450.0">
+                <h3 class="extraction-instance">Extracted Data Instance 0 (e2450.0)</h3>
+                <div class="extraction-query"><strong>Extraction Query:</strong> Extract any mentions of hidden drivers, pathway states, subtype structure, validation evidence, and therapeutic implications in oncogene-negative or driver-negative lung adenocarcinoma.</div>
+                <table>
+                    <thead>
+                        <tr>
+                            <th style="width: 30%;">Field</th>
+                            <th style="width: 70%;">Value</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><strong>name_short</strong></td>
+                            <td>IRS4</td>
+                        </tr>
+                        <tr>
+                            <td><strong>name_full</strong></td>
+                            <td>Insulin receptor substrate 4</td>
+                        </tr>
+                        <tr>
+                            <td><strong>brief_description</strong></td>
+                            <td>The paper identifies IRS4 as a recurrently dysregulated locus in lung squamous cell carcinoma, but it is not a lung adenocarcinoma driver-negative entity. It is mentioned in the context of pathway biology relevant to oncogene-negative lung cancers because IRS4 can promote PI3K/AKT signaling, and the paper explicitly notes that TCGA lung adenocarcinoma samples did not show the IRS4-associated SCNAs seen in LUSC.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>citation_title</strong></td>
+                            <td>Pan-cancer analysis of somatic copy number alterations implicates IRS4 and IGF2 in enhancer hijacking</td>
+                        </tr>
+                        <tr>
+                            <td><strong>mention_or_use</strong></td>
+                            <td>use</td>
+                        </tr>
+                        <tr>
+                            <td><strong>driver_negative_definition</strong></td>
+                            <td>Not formally defined for lung adenocarcinoma in this paper. The only relevant negative statement is that among TCGA lung cancer cohorts, IRS4-associated SCNAs were confined to lung squamous cell carcinoma, with none of the TCGA lung adenocarcinoma samples exhibiting such events.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>candidate_driver_pathway_or_mechanism</strong></td>
+                            <td>A hidden driver mechanism involving cis-regulatory disruption of IRS4, with prior literature suggesting IRS4 can activate the PI3K/AKT pathway. In the paper’s own data, recurrent deletions downstream of IRS4 appear to derepress IRS4 via TAD boundary/insulator disruption and spreading of active chromatin, but this is described for LUSC rather than LUAD.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>alteration_or_activation_mode</strong></td>
+                            <td>Cis deletion at a TAD boundary/insulator region causing outlier IRS4 overexpression and active chromatin changes; the mechanism is enhancer/insulator disruption rather than coding mutation.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>implicated_gene_axis_or_pathway</strong></td>
+                            <td>IRS4-PI3K/AKT signaling axis; also mention of FGFR1 cooperation/signaling.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>pathway_activation_evidence</strong></td>
+                            <td>The paper cites prior work showing IRS4 overexpression induces phosphatidylinositol 3,4,5-trisphosphate and AKT activation, and that AKT inhibitors block IRS4 growth-promoting effects in vitro. In this paper, direct pathway activation readouts are not provided for LUAD; instead, the authors note absence of IRS4-associated SCNAs in lung adenocarcinoma.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>driver_negative_subtype</strong></td>
+                            <td>No explicit LUAD driver-negative subtype is proposed. The only explicit lung subtype discussed is LUSC with IRS4-associated cis deletions; LUAD is used as a contrast cohort lacking these events.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>clinical_or_exposure_context</strong></td>
+                            <td>Relevant only as a contrast across TCGA lung cohorts: the paper states IRS4-associated SCNAs are confined to LUSC and absent in LUAD. No smoking, histology, or prognosis context is assigned to LUAD in this paper.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>cross_cancer_parallel</strong></td>
+                            <td>The paper compares IRS4 dysregulation across sarcoma and cervical squamous carcinoma, and notes the same genomic interval is also seen in benign uterine leiomyoma. This is framed as a shared cis-regulatory alteration across cancers.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>therapeutic_vulnerability_or_implication</strong></td>
+                            <td>Indirect and preclinical only: prior work cited in the paper indicates AKT inhibitors block the growth-promoting effect of IRS4 in vitro, suggesting PI3K/AKT pathway inhibition as a possible vulnerability. The paper itself does not test therapy in LUAD.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>validation_evidence_and_model_system</strong></td>
+                            <td>For IRS4, the paper validates tumor-promoting effects in HCC-15 lung squamous cancer xenografts, plus RT-qPCR, immunohistochemistry, flow cytometry, long-range paired-end sequencing, ChIP-seq, and 4C-seq in primary LUSC samples. No validation in LUAD is reported.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>driver_negative_scope_class</strong></td>
+                            <td>not_formally_defined</td>
+                        </tr>
+                        <tr>
+                            <td><strong>excluded_driver_genes_and_alteration_types</strong></td>
+                            <td>No formal excluded-driver list for LUAD. The paper only states that IRS4-associated SCNAs are absent in TCGA lung adenocarcinoma samples.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>negative_call_assay_stack</strong></td>
+                            <td>TCGA_SNP6_SCNA + matched RNA-seq analysis -> cohort comparison across lung cancer subtypes; no dedicated LUAD rescue assay was performed.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>negative_call_confidence</strong></td>
+                            <td>medium</td>
+                        </tr>
+                        <tr>
+                            <td><strong>rescued_hidden_driver_after_deeper_testing</strong></td>
+                            <td>none_reported for LUAD; the paper does not reclassify LUAD cases with a hidden driver</td>
+                        </tr>
+                        <tr>
+                            <td><strong>primary_hidden_driver_mechanism_class</strong></td>
+                            <td>unresolved</td>
+                        </tr>
+                        <tr>
+                            <td><strong>secondary_mechanism_classes</strong></td>
+                            <td>none</td>
+                        </tr>
+                        <tr>
+                            <td><strong>mechanism_requires_specific_genetic_lesion</strong></td>
+                            <td>unclear</td>
+                        </tr>
+                        <tr>
+                            <td><strong>mechanism_is_tumor_intrinsic_or_extrinsic</strong></td>
+                            <td>tumor_intrinsic</td>
+                        </tr>
+                        <tr>
+                            <td><strong>mechanism_biologic_level</strong></td>
+                            <td>chromatin_3d_genome</td>
+                        </tr>
+                        <tr>
+                            <td><strong>causal_evidence_tier</strong></td>
+                            <td>tier_4_in_vivo_model</td>
+                        </tr>
+                        <tr>
+                            <td><strong>evidence_modalities_present</strong></td>
+                            <td>recurrence_statistics, RNA_seq, SCNA_analysis, ChIP_seq, 4C_seq, RT_qPCR, immunohistochemistry, flow_cytometry, xenograft, long_range_paired_end_sequencing</td>
+                        </tr>
+                        <tr>
+                            <td><strong>therapeutic_actionability_evidence_tier</strong></td>
+                            <td>inferential_only</td>
+                        </tr>
+                        <tr>
+                            <td><strong>paper_claim_strength</strong></td>
+                            <td>descriptive</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="extraction-instance-container" id="e2450.1">
+                <h3 class="extraction-instance">Extracted Data Instance 1 (e2450.1)</h3>
+                <div class="extraction-query"><strong>Extraction Query:</strong> Extract any mentions of hidden drivers, pathway states, subtype structure, validation evidence, and therapeutic implications in oncogene-negative or driver-negative lung adenocarcinoma.</div>
+                <table>
+                    <thead>
+                        <tr>
+                            <th style="width: 30%;">Field</th>
+                            <th style="width: 70%;">Value</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><strong>name_short</strong></td>
+                            <td>IGF2</td>
+                        </tr>
+                        <tr>
+                            <td><strong>name_full</strong></td>
+                            <td>Insulin-like growth factor 2</td>
+                        </tr>
+                        <tr>
+                            <td><strong>brief_description</strong></td>
+                            <td>The paper identifies IGF2 as a hidden enhancer-hijacking target in colorectal cancer, not lung adenocarcinoma. It is nevertheless relevant to the query because it exemplifies the paper’s broader concept of latent regulatory drivers and because it points to a general model of oncogene-negative tumors being driven by noncoding structural rearrangements.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>citation_title</strong></td>
+                            <td>Pan-cancer analysis of somatic copy number alterations implicates IRS4 and IGF2 in enhancer hijacking</td>
+                        </tr>
+                        <tr>
+                            <td><strong>mention_or_use</strong></td>
+                            <td>use</td>
+                        </tr>
+                        <tr>
+                            <td><strong>driver_negative_definition</strong></td>
+                            <td>Not formally defined for LUAD. In the paper, IGF2 is used as an exemplar of an otherwise hidden driver activated by structural rearrangement, with the negative comparator being samples lacking the relevant cis tandem duplication.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>candidate_driver_pathway_or_mechanism</strong></td>
+                            <td>Enhancer hijacking via de novo 3D contact domain formation that exposes IGF2 to a lineage-specific super-enhancer. This is a hidden-driver mechanism based on noncoding genome architecture rather than a canonical coding oncogene mutation.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>alteration_or_activation_mode</strong></td>
+                            <td>Single-copy tandem duplication spanning a TAD boundary and super-enhancer, producing a new contact domain and high-level outlier IGF2 expression.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>implicated_gene_axis_or_pathway</strong></td>
+                            <td>IGF2 enhancer/super-enhancer axis; by implication IGF2 signaling and growth factor biology.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>pathway_activation_evidence</strong></td>
+                            <td>The paper reports >250-fold IGF2 overexpression in CRC samples with the tandem duplication, H3K27ac enrichment at the candidate super-enhancer, luciferase enhancer activity, and 4C-seq physical interaction between IGF2 and the super-enhancer. No direct pathway phospho-readouts are provided.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>driver_negative_subtype</strong></td>
+                            <td>No LUAD subtype is defined. Within CRC, the relevant subtype is IGF2-rearranged/tandem-duplication carriers with super-enhancer hijacking.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>clinical_or_exposure_context</strong></td>
+                            <td>CRC context only; no LUAD clinical context is defined. The paper notes that IGF2 is associated in the literature with aggressive and chemotherapy-resistant cancer.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>cross_cancer_parallel</strong></td>
+                            <td>The paper frames IGF2 rearrangement as a new example of enhancer hijacking, analogous in concept to prior medulloblastoma, neuroblastoma, and leukemia enhancer-hijacking events.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>therapeutic_vulnerability_or_implication</strong></td>
+                            <td>Potentially points to targeting IGF2-associated signaling or the dependency created by super-enhancer hijacking, but no therapeutic intervention is tested. The implication is biomarker-oriented rather than clinically actionable.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>validation_evidence_and_model_system</strong></td>
+                            <td>Validated with primary CRC spheroid cultures, RT-qPCR, long-range paired-end sequencing, ChIP-seq, luciferase enhancer assays, 4C-seq, and comparison to non-carrier controls. No lung model or LUAD validation is reported.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>driver_negative_scope_class</strong></td>
+                            <td>not_formally_defined</td>
+                        </tr>
+                        <tr>
+                            <td><strong>excluded_driver_genes_and_alteration_types</strong></td>
+                            <td>No formal excluded-driver list for LUAD; in CRC the paper contrasts IGF2 tandem duplications with larger IGF2 duplications and with non-carrier controls.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>negative_call_assay_stack</strong></td>
+                            <td>TCGA_SNP6_SCNA + matched RNA-seq -> RT_qPCR in primary spheroids -> long_range_paired_end_sequencing -> ChIP_seq -> luciferase_assay -> 4C_seq</td>
+                        </tr>
+                        <tr>
+                            <td><strong>negative_call_confidence</strong></td>
+                            <td>high</td>
+                        </tr>
+                        <tr>
+                            <td><strong>rescued_hidden_driver_after_deeper_testing</strong></td>
+                            <td>yes_specific_driver_found; tandem duplication-mediated enhancer hijacking of IGF2</td>
+                        </tr>
+                        <tr>
+                            <td><strong>primary_hidden_driver_mechanism_class</strong></td>
+                            <td>enhancer_hijacking_3d_genome</td>
+                        </tr>
+                        <tr>
+                            <td><strong>secondary_mechanism_classes</strong></td>
+                            <td>copy_number_or_amplicon_driver</td>
+                        </tr>
+                        <tr>
+                            <td><strong>mechanism_requires_specific_genetic_lesion</strong></td>
+                            <td>yes</td>
+                        </tr>
+                        <tr>
+                            <td><strong>mechanism_is_tumor_intrinsic_or_extrinsic</strong></td>
+                            <td>tumor_intrinsic</td>
+                        </tr>
+                        <tr>
+                            <td><strong>mechanism_biologic_level</strong></td>
+                            <td>chromatin_3d_genome</td>
+                        </tr>
+                        <tr>
+                            <td><strong>causal_evidence_tier</strong></td>
+                            <td>tier_4_in_vivo_model</td>
+                        </tr>
+                        <tr>
+                            <td><strong>evidence_modalities_present</strong></td>
+                            <td>recurrence_statistics, SCNA_analysis, RNA_seq, RT_qPCR, long_range_paired_end_sequencing, ChIP_seq, luciferase_assay, 4C_seq</td>
+                        </tr>
+                        <tr>
+                            <td><strong>therapeutic_actionability_evidence_tier</strong></td>
+                            <td>inferential_only</td>
+                        </tr>
+                        <tr>
+                            <td><strong>paper_claim_strength</strong></td>
+                            <td>mechanistic</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="extraction-instance-container" id="e2450.2">
+                <h3 class="extraction-instance">Extracted Data Instance 2 (e2450.2)</h3>
+                <div class="extraction-query"><strong>Extraction Query:</strong> Extract any mentions of hidden drivers, pathway states, subtype structure, validation evidence, and therapeutic implications in oncogene-negative or driver-negative lung adenocarcinoma.</div>
+                <table>
+                    <thead>
+                        <tr>
+                            <th style="width: 30%;">Field</th>
+                            <th style="width: 70%;">Value</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><strong>name_short</strong></td>
+                            <td>CESAM</td>
+                        </tr>
+                        <tr>
+                            <td><strong>name_full</strong></td>
+                            <td>cis Expression Structural Alteration Mapping</td>
+                        </tr>
+                        <tr>
+                            <td><strong>brief_description</strong></td>
+                            <td>CESAM is the computational framework introduced by the paper to infer hidden driver events from the joint pattern of structural variation and gene expression. It is not a biological driver, but it is central to the paper’s logic for detecting oncogene-negative or driver-negative states that are actually explained by cis-regulatory rearrangements.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>citation_title</strong></td>
+                            <td>here</td>
+                        </tr>
+                        <tr>
+                            <td><strong>mention_or_use</strong></td>
+                            <td>use</td>
+                        </tr>
+                        <tr>
+                            <td><strong>driver_negative_definition</strong></td>
+                            <td>Not a biological definition; CESAM operationalizes candidates by identifying SCNA breakpoints associated with outlier expression in cis within TAD-bounded search windows, after excluding low-expression, low-variance, and high-copy-number-amplified loci. This means that a sample can be 'negative' for canonical coding-driver explanations but positive for a cis-regulatory structural alteration.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>candidate_driver_pathway_or_mechanism</strong></td>
+                            <td>Detects hidden drivers operating through enhancer hijacking, boundary disruption, promoter/CRE juxtaposition, or de novo contact-domain formation. In this paper, it is used to reveal IRS4 and IGF2 examples.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>alteration_or_activation_mode</strong></td>
+                            <td>Integrated SCNA breakpoint-to-expression association using TAD-aware cis analysis, with dosage-adjusted regression.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>implicated_gene_axis_or_pathway</strong></td>
+                            <td>Not one axis; broadly CREs, TAD boundaries, enhancers, super-enhancers, and overexpressed cancer genes such as IRS4 and IGF2.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>pathway_activation_evidence</strong></td>
+                            <td>Evidence is statistical and multi-omic: recurrence of SCNAs, expression fold-change, enrichment of CRE annotations at distal breakpoints, and downstream experimental validation for selected hits.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>driver_negative_subtype</strong></td>
+                            <td>Not applicable as a subtype. CESAM is a discovery method that can uncover hidden subtypes defined by cis-regulatory structural alterations.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>clinical_or_exposure_context</strong></td>
+                            <td>Applied across 26 TCGA tumor types; no specific LUAD clinical subgroup is defined by CESAM in this paper.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>cross_cancer_parallel</strong></td>
+                            <td>Designed for pan-cancer application and compared conceptually with GISTIC-based driver discovery and prior enhancer-hijacking examples in medulloblastoma, neuroblastoma, and leukemia.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>therapeutic_vulnerability_or_implication</strong></td>
+                            <td>Suggests that some driver-negative tumors may harbor actionable cis-regulatory drivers missed by standard analyses; thus it may improve biomarker discovery and treatment stratification, though no direct therapy is tested.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>validation_evidence_and_model_system</strong></td>
+                            <td>Validated by known loci and by experimental follow-up on IRS4 and IGF2 using primary tumors, spheroids, xenografts, ChIP-seq, 4C-seq, and luciferase assays.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>driver_negative_scope_class</strong></td>
+                            <td>not_applicable</td>
+                        </tr>
+                        <tr>
+                            <td><strong>excluded_driver_genes_and_alteration_types</strong></td>
+                            <td>Excludes loci with low expression, low variance, and recurrent high-level amplifications/deletions as a filtering step; also filters likely fusion events and residual dosage effects.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>negative_call_assay_stack</strong></td>
+                            <td>SCNA_breakpoint_matrix + RNA_seq + TAD_annotation -> dosage_adjusted_regression -> FDR_filtering -> manual_CRE_annotation</td>
+                        </tr>
+                        <tr>
+                            <td><strong>negative_call_confidence</strong></td>
+                            <td>high</td>
+                        </tr>
+                        <tr>
+                            <td><strong>rescued_hidden_driver_after_deeper_testing</strong></td>
+                            <td>yes_specific_driver_found; several cis-regulatory drivers validated (IRS4, IGF2)</td>
+                        </tr>
+                        <tr>
+                            <td><strong>primary_hidden_driver_mechanism_class</strong></td>
+                            <td>unresolved</td>
+                        </tr>
+                        <tr>
+                            <td><strong>secondary_mechanism_classes</strong></td>
+                            <td>enhancer_hijacking_3d_genome, copy_number_or_amplicon_driver, tumor_suppressor_co_loss</td>
+                        </tr>
+                        <tr>
+                            <td><strong>mechanism_requires_specific_genetic_lesion</strong></td>
+                            <td>mixed</td>
+                        </tr>
+                        <tr>
+                            <td><strong>mechanism_is_tumor_intrinsic_or_extrinsic</strong></td>
+                            <td>tumor_intrinsic</td>
+                        </tr>
+                        <tr>
+                            <td><strong>mechanism_biologic_level</strong></td>
+                            <td>chromatin_3d_genome</td>
+                        </tr>
+                        <tr>
+                            <td><strong>causal_evidence_tier</strong></td>
+                            <td>tier_4_in_vivo_model</td>
+                        </tr>
+                        <tr>
+                            <td><strong>evidence_modalities_present</strong></td>
+                            <td>recurrence_statistics, SCNA_analysis, RNA_seq, ChIP_seq, 4C_seq, luciferase_assay, RT_qPCR, xenograft, long_range_paired_end_sequencing</td>
+                        </tr>
+                        <tr>
+                            <td><strong>therapeutic_actionability_evidence_tier</strong></td>
+                            <td>inferential_only</td>
+                        </tr>
+                        <tr>
+                            <td><strong>paper_claim_strength</strong></td>
+                            <td>methodological</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>Potentially Relevant New Papers (mentioned by this paper)</h2>
+            <ol>
+                <li>Enhancer hijacking activates GFI1 family oncogenes in medulloblastoma <em>(Rating: 2)</em></li>
+                <li>Telomerase activation by genomic rearrangements in high-risk neuroblastoma <em>(Rating: 2)</em></li>
+                <li>TERT rearrangements are frequent in neuroblastoma and identify aggressive tumors <em>(Rating: 2)</em></li>
+                <li>Activation of proto-oncogenes by disruption of chromosome neighborhoods <em>(Rating: 2)</em></li>
+                <li>A Single Oncogenic Enhancer Rearrangement Causes Concomitant EVI1 and GATA2 Deregulation in Leukemia <em>(Rating: 2)</em></li>
+                <li>Disruptions of topological chromatin domains cause pathogenic rewiring of gene-enhancer interactions <em>(Rating: 2)</em></li>
+                <li>When deletions gain functions: commandeering epigenetic mechanisms <em>(Rating: 1)</em></li>
+            </ol>
+        </div>
+
+        </div>
+
+    </div>
+</body>
+</html>

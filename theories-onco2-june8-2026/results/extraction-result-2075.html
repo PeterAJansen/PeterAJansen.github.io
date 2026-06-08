@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Extraction extraction-result-2075 - Theorizer</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+    <div class="header">
+        <a href="../index.html"><i class="fas fa-flask"></i> Theorizer</a>
+    </div>
+
+    <div class="content">
+        <h1>Extracted Data Details for extraction-result-2075</h1>
+
+        <div class="section">
+            <h2>Extracted Data (Header)</h2>
+            <div class="info-section">
+                <p><strong>Extraction ID:</strong> extraction-result-2075</p>
+                <p><strong>Extraction Schema Used (ID):</strong> <a href="../schemas/extraction-schema-1843.html">extraction-schema-1843</a></p>
+                <div class="extraction-query"><strong>Extraction Query:</strong> Extract any mentions of hidden genomic, structural, regulatory, or assay-missed drivers in oncogene-negative lung adenocarcinoma.</div>
+                <p><strong>Paper ID:</strong> paper-e4681ea02e1af0cd14f533480ea653896c9e157d</p>
+                <p><strong>Paper Title:</strong> <a href="https://www.semanticscholar.org/paper/e4681ea02e1af0cd14f533480ea653896c9e157d" target="_blank">Genomic and evolutionary classification of lung cancer in never smokers</a></p>
+                <p><strong>Paper Venue:</strong> Nature Genetics</p>
+                <p><strong>Paper TL;DR:</strong> W Whole-genome sequencing of lung cancer in never smokers identifies different copy number subtypes and shows a lack of tobacco smoking signatures, even in cases exposed to secondhand smoke, creating avenues for personalized treatment in LCINS.</p>
+                <p><strong>Paper Abstract:</strong> Lung cancer in never smokers (LCINS) is a common cause of cancer mortality but its genomic landscape is poorly characterized. Here high-coverage whole-genome sequencing of 232 LCINS showed 3 subtypes defined by copy number aberrations. The dominant subtype (piano), which is rare in lung cancer in smokers, features somatic UBA1 mutations, germline AR variants and stem cell-like properties, including low mutational burden, high intratumor heterogeneity, long telomeres, frequent KRAS mutations and slow growth, as suggested by the occurrence of cancer drivers’ progenitor cells many years before tumor diagnosis. The other subtypes are characterized by specific amplifications and EGFR mutations (mezzo-forte) and whole-genome doubling (forte). No strong tobacco smoking signatures were detected, even in cases with exposure to secondhand tobacco smoke. Genes within the receptor tyrosine kinase–Ras pathway had distinct impacts on survival; five genomic alterations independently doubled mortality. These findings create avenues for personalized treatment in LCINS. Whole-genome sequencing of lung cancer in never smokers identifies different copy number subtypes and shows a lack of tobacco smoking signatures, even in cases exposed to secondhand smoke.</p>
+                <p><strong>Cost:</strong> 0.029</p>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>Extracted Data (Details)</h2>
+            <div class="extraction-instance-container" id="e2075.0">
+                <h3 class="extraction-instance">Extracted Data Instance 0 (e2075.0)</h3>
+                <div class="extraction-query"><strong>Extraction Query:</strong> Extract any mentions of hidden genomic, structural, regulatory, or assay-missed drivers in oncogene-negative lung adenocarcinoma.</div>
+                <table>
+                    <thead>
+                        <tr>
+                            <th style="width: 30%;">Field</th>
+                            <th style="width: 70%;">Value</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><strong>name_short</strong></td>
+                            <td>piano tumors with no detected known driver</td>
+                        </tr>
+                        <tr>
+                            <td><strong>name_full</strong></td>
+                            <td>Lung adenocarcinomas in the piano subtype lacking an apparent known cancer driver gene mutation or fusion</td>
+                        </tr>
+                        <tr>
+                            <td><strong>brief_description</strong></td>
+                            <td>The paper explicitly notes that a subset of quiet 'piano' tumors, especially LUAD in this subtype, rarely harbored a known recurrent driver, with the authors hypothesizing that unmeasured or unrecognized alterations in genes such as NOTCH1, ARID1A, or similar stemness-related genes could drive these cancers. They also suggest that some cases may have been diagnosed before a dominant clone emerged, leaving no clearly detectable canonical driver by their assays.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>citation_title</strong></td>
+                            <td>Genomic and evolutionary classification of lung cancer in never smokers</td>
+                        </tr>
+                        <tr>
+                            <td><strong>mention_or_use</strong></td>
+                            <td>use</td>
+                        </tr>
+                        <tr>
+                            <td><strong>oncogene_negative_definition</strong></td>
+                            <td>The relevant oncogene-negative/driver-sparse subset is described operationally as tumors in the SCNA-defined 'piano' subtype, particularly LUAD within this subtype, that 'rarely harbored a known recurrent driver, with the exception of mutations in NKX2–1, SETD2 and UBA1' and in which alterations in KRAS, UBA1, RET and ARID1A were mutually exclusive. The cohort was profiled by high-coverage WGS of matched tumor-normal pairs, with driver discovery based on somatic SNVs/indels, SVs/fusions, SCNAs, LOH, and mutational signatures; 35 tumors also had RNA-seq for orthogonal stemness assessment.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>assay_strategy_and_detection_limits</strong></td>
+                            <td>The discovery pipeline used high-coverage whole-genome sequencing (tumor mean 85x; normal mean 31.6x) on 232 treatment-naïve never-smoker lung cancers, with somatic SNVs/indels called by multiple callers, SVs by Meerkat, SCNAs by Battenberg/GISTIC, driver-gene selection by IntOGen, fusion selection from known oncogenic fusions, and RNA-seq in 35 adenocarcinomas for stemness markers. The paper's stated blind spots are that some tumors had 'no detected known cancer driver gene mutations or fusions'; the authors further infer that NOTCH1, ARID1A or similar genes 'could' account for such cases, implying the assay strategy may miss noncoding/regulatory lesions, very low-clonality events, or drivers not represented among current known-cancer-gene and fusion lists.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>missed_driver_reclassified_after_broader_testing</strong></td>
+                            <td>No specific tumor is reported as being reclassified from driver-negative to driver-positive after additional testing. Instead, the authors propose a hypothetical explanation that mutations in NOTCH1, ARID1A or other similar-function genes 'could drive some of the tumors with no detected known cancer driver gene mutations or fusions,' and they use RNA-seq only as orthogonal support for a stemness model rather than as a rescue assay for a missed driver.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>driver_event_class</strong></td>
+                            <td>Unresolved/putative hidden driver; candidate point mutations and/or fusions not detected by the canonical driver calls, potentially including noncanonical stem-cell-related SNVs/indels or other unmeasured alterations.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>candidate_driver_gene_or_locus</strong></td>
+                            <td>NOTCH1, ARID1A, and other genes with similar function; the discussion also points to KRAS, UBA1, RET, and NKX2–1 as piano-enriched drivers but these were detected rather than hidden. The paper does not name a specific noncoding locus or enhancer.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>structural_or_regulatory_activation_mechanism</strong></td>
+                            <td>Hypothesized to promote exit from quiescence and stem-like proliferation; for the named candidates, the proposed mechanism is not a specific structural lesion but a functional effect of mutations in genes that regulate stem cell expansion, progenitor survival, chromatin remodeling, or telomere cohesion. The paper does not establish enhancer hijacking, promoter swapping, or a particular structural activation mechanism for the hidden driver cases.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>functional_consequence</strong></td>
+                            <td>Potential induction of stem-cell-like state, exit from quiescence, high intra-tumor heterogeneity, and generation of a dominant clone after a long latent period. The RNA-seq data show higher 'development score' and basal-cell marker/lineage infidelity signal in piano tumors, which the authors interpret as consistent with stemness.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>co_alteration_or_combinatorial_requirement</strong></td>
+                            <td>Alterations in KRAS, UBA1, RET and ARID1A were mutually exclusive in piano, suggesting alternative mutually exclusive routes rather than a required combination. The authors speculate that NOTCH1, ARID1A or other similar genes could substitute as drivers in tumors lacking known driver mutations/fusions; they also note that some piano tumors may have been diagnosed before acquisition of a dominant clone.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>human_prevalence_or_enrichment</strong></td>
+                            <td>The paper does not give a direct percentage for the 'no detected known driver' group, but states that LUAD in piano 'rarely harbored a known recurrent driver' and that piano had a scarcity of driver mutations overall. Piano comprised 49.6% of all tumors; among recurrently mutated genes, piano-specific enrichment included SETD2 (8/10 in piano), NKX2–1 mutations (n=4, only in piano), UBA1 (6/9 in piano), and RET fusions present only in piano (2.6% of tumors overall).</td>
+                        </tr>
+                        <tr>
+                            <td><strong>functional_or_clinical_validation</strong></td>
+                            <td>Validation is indirect rather than definitive: the stemness hypothesis is supported by RNA-seq-derived development score and basal-cell lineage infidelity markers being higher in piano, by long telomeres, low mutational burden, high ITH, and estimated long latency before diagnosis. However, the paper explicitly says 'Larger studies are needed to verify the WGS-based stemness hypothesis' and does not provide transformation assays or direct functional validation of a hidden driver.</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="extraction-instance-container" id="e2075.1">
+                <h3 class="extraction-instance">Extracted Data Instance 1 (e2075.1)</h3>
+                <div class="extraction-query"><strong>Extraction Query:</strong> Extract any mentions of hidden genomic, structural, regulatory, or assay-missed drivers in oncogene-negative lung adenocarcinoma.</div>
+                <table>
+                    <thead>
+                        <tr>
+                            <th style="width: 30%;">Field</th>
+                            <th style="width: 70%;">Value</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><strong>name_short</strong></td>
+                            <td>NOTCH1</td>
+                        </tr>
+                        <tr>
+                            <td><strong>name_full</strong></td>
+                            <td>Notch Receptor 1</td>
+                        </tr>
+                        <tr>
+                            <td><strong>brief_description</strong></td>
+                            <td>NOTCH1 is highlighted as a plausible hidden driver in tumors lacking known driver mutations or fusions. The authors note that NOTCH1 mutations have been found in normal and near-normal bronchial epithelial cells from former smokers and suggest that NOTCH1, ARID1A, or similar genes could promote exit from quiescence and drive some driver-negative tumors.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>citation_title</strong></td>
+                            <td>Genomic and evolutionary classification of lung cancer in never smokers</td>
+                        </tr>
+                        <tr>
+                            <td><strong>mention_or_use</strong></td>
+                            <td>mention</td>
+                        </tr>
+                        <tr>
+                            <td><strong>oncogene_negative_definition</strong></td>
+                            <td>Same oncogene-negative context as the piano tumors lacking known recurrent driver mutations or fusions; the paper does not state that NOTCH1 was detected as a recurrent driver in this cohort.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>assay_strategy_and_detection_limits</strong></td>
+                            <td>WGS-based discovery focused on recurrently mutated genes, SCNAs, SVs, and known driver fusions, with a subset of RNA-seq. The paper does not report a NOTCH1-specific assay or demonstrate detection of noncoding NOTCH1 alterations.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>missed_driver_reclassified_after_broader_testing</strong></td>
+                            <td>No.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>driver_event_class</strong></td>
+                            <td>Candidate hidden point mutation/coding alteration; not directly demonstrated here.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>candidate_driver_gene_or_locus</strong></td>
+                            <td>NOTCH1</td>
+                        </tr>
+                        <tr>
+                            <td><strong>structural_or_regulatory_activation_mechanism</strong></td>
+                            <td>Proposed to affect stem cell expansion and progenitor cell survival, potentially helping cells exit quiescence. No specific structural mechanism was established.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>functional_consequence</strong></td>
+                            <td>Potential promotion of a stem-like, quiescence-exiting state that could support tumor initiation in low-driver-burden piano tumors.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>co_alteration_or_combinatorial_requirement</strong></td>
+                            <td>Suggested as an alternative to ARID1A or other similar-function genes; mutually exclusive with KRAS, UBA1, RET and ARID1A in piano only at the level of the named alterations being mutually exclusive, not specifically with NOTCH1.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>human_prevalence_or_enrichment</strong></td>
+                            <td>Mentioned as a hypothetical candidate; no cohort frequency in this study is reported for NOTCH1.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>functional_or_clinical_validation</strong></td>
+                            <td>No direct validation in this paper; supporting rationale is prior literature and the association of piano tumors with stemness markers.</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="extraction-instance-container" id="e2075.2">
+                <h3 class="extraction-instance">Extracted Data Instance 2 (e2075.2)</h3>
+                <div class="extraction-query"><strong>Extraction Query:</strong> Extract any mentions of hidden genomic, structural, regulatory, or assay-missed drivers in oncogene-negative lung adenocarcinoma.</div>
+                <table>
+                    <thead>
+                        <tr>
+                            <th style="width: 30%;">Field</th>
+                            <th style="width: 70%;">Value</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><strong>name_short</strong></td>
+                            <td>ARID1A</td>
+                        </tr>
+                        <tr>
+                            <td><strong>name_full</strong></td>
+                            <td>AT-Rich Interaction Domain 1A</td>
+                        </tr>
+                        <tr>
+                            <td><strong>brief_description</strong></td>
+                            <td>ARID1A is emphasized as another candidate hidden driver in driver-sparse piano tumors. The authors cite its roles in telomere cohesion, tissue regeneration, and cell-cycle entry, and note that ARID1A alterations occur in normal/near-normal bronchial epithelial cells from former smokers.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>citation_title</strong></td>
+                            <td>Genomic and evolutionary classification of lung cancer in never smokers</td>
+                        </tr>
+                        <tr>
+                            <td><strong>mention_or_use</strong></td>
+                            <td>mention</td>
+                        </tr>
+                        <tr>
+                            <td><strong>oncogene_negative_definition</strong></td>
+                            <td>Candidate explanation for piano tumors that 'rarely harbored a known recurrent driver'; not directly identified as a hidden lesion in a specific tumor by a dedicated assay in this paper.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>assay_strategy_and_detection_limits</strong></td>
+                            <td>Detected/considered in WGS-based variant calls and discussed as a potential driver; the paper does not report an ARID1A-specific rescue assay or structural analysis beyond standard WGS.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>missed_driver_reclassified_after_broader_testing</strong></td>
+                            <td>No.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>driver_event_class</strong></td>
+                            <td>Candidate hidden coding alteration; not directly established as structural or regulatory in this study.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>candidate_driver_gene_or_locus</strong></td>
+                            <td>ARID1A</td>
+                        </tr>
+                        <tr>
+                            <td><strong>structural_or_regulatory_activation_mechanism</strong></td>
+                            <td>Loss or mutation of ARID1A could impair telomere cohesion and promote entry into the cell cycle / exit from quiescence, consistent with a stem-like state.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>functional_consequence</strong></td>
+                            <td>Potentially increases proliferative competence and supports regeneration-like or stem-cell-like behavior, which the authors link to piano tumors.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>co_alteration_or_combinatorial_requirement</strong></td>
+                            <td>Alterations in KRAS, UBA1, RET and ARID1A were reported as mutually exclusive in piano, implying alternative routes rather than a combined requirement.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>human_prevalence_or_enrichment</strong></td>
+                            <td>The paper does not provide a separate cohort frequency for ARID1A alterations in the main results beyond noting it in the contextual discussion.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>functional_or_clinical_validation</strong></td>
+                            <td>Indirect support only; the paper cites prior work on ARID1A biology and notes higher stemness-associated RNA-seq scores in piano tumors.</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>Potentially Relevant New Papers (mentioned by this paper)</h2>
+            <ol>
+                <li>Tracing Oncogene Rearrangements in the Mutational History of Lung Adenocarcinoma <em>(Rating: 2)</em></li>
+                <li>Whole-genome characterization of lung adenocarcinomas lacking the RTK/RAS/RAF pathway <em>(Rating: 2)</em></li>
+                <li>Comprehensive molecular profiling of lung adenocarcinoma <em>(Rating: 2)</em></li>
+                <li>The genomic and epigenomic evolutionary history of papillary renal cell carcinomas <em>(Rating: 1)</em></li>
+            </ol>
+        </div>
+
+        </div>
+
+    </div>
+</body>
+</html>

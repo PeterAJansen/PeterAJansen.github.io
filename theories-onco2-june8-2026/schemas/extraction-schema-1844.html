@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Extraction Schema extraction-schema-1844 - Theorizer</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+    <div class="header">
+        <a href="../index.html"><i class="fas fa-flask"></i> Theorizer</a>
+    </div>
+
+    <div class="content">
+        <h1>Extraction Schema Details for extraction-schema-1844</h1>
+
+        <div class="section">
+            <h2>Extraction Schema (General Information)</h2>
+            <div class="info-section">
+                <p><strong>Schema ID:</strong> extraction-schema-1844</p>
+                <p><strong>Extraction Query:</strong> Extract any mentions of hidden genomic, structural, regulatory, or assay-missed drivers in oncogene-negative lung adenocarcinoma.</p>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>Extraction Schema (Details)</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th style="width: 20%;">Field Name</th>
+                        <th style="width: 15%;">Type</th>
+                        <th style="width: 65%;">Description</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><strong>oncogene_negative_definition</strong></td>
+                        <td>str</td>
+                        <td>Operational definition of the negative cohort, including the exact tested genes, events, and platforms used to call the tumor negative for canonical drivers.</td>
+                    </tr>
+                    <tr>
+                        <td><strong>assay_strategy_and_detection_limits</strong></td>
+                        <td>str</td>
+                        <td>The discovery pipeline used to search for drivers, including targeted DNA panel, WES, WGS, RNA-seq, fusion assay, methylation, cDNA methods, FISH, IHC, or other tests, plus stated blind spots or failure modes.</td>
+                    </tr>
+                    <tr>
+                        <td><strong>missed_driver_reclassified_after_broader_testing</strong></td>
+                        <td>str</td>
+                        <td>Whether a tumor initially labeled driver-negative was later reclassified after broader or deeper testing. Include the rescued alteration, rescue modality, and why it was missed initially, such as poor coverage, no RNA assay, structural complexity, low purity, or noncanonical domain location.</td>
+                    </tr>
+                    <tr>
+                        <td><strong>driver_event_class</strong></td>
+                        <td>str</td>
+                        <td>The class of hidden genomic or regulatory event discovered. Examples: rare SNV, indel, fusion, exon skipping, amplification, focal deletion, complex rearrangement, enhancer hijacking, promoter mutation, noncoding regulatory event, or transcriptional outlier.</td>
+                    </tr>
+                    <tr>
+                        <td><strong>candidate_driver_gene_or_locus</strong></td>
+                        <td>str</td>
+                        <td>The specific gene, fusion, locus, or regulatory element implicated as the hidden driver. Include partner genes for fusions and nearby target genes for regulatory events.</td>
+                    </tr>
+                    <tr>
+                        <td><strong>structural_or_regulatory_activation_mechanism</strong></td>
+                        <td>str</td>
+                        <td>Mechanistic interpretation of the event, such as kinase-domain-preserving fusion, promoter swapping, enhancer hijacking, super-enhancer formation, coiled-coil mediated activation, dosage increase, biallelic suppressor loss, or truncating inactivation.</td>
+                    </tr>
+                    <tr>
+                        <td><strong>functional_consequence</strong></td>
+                        <td>str</td>
+                        <td>The reported biological consequence of the event, such as pathway activation, overexpression, exon skipping, loss of negative regulation, receptor activation, or transcriptional outlier behavior.</td>
+                    </tr>
+                    <tr>
+                        <td><strong>co_alteration_or_combinatorial_requirement</strong></td>
+                        <td>str</td>
+                        <td>Any reported cooperating alterations or minimal combinations required for tumorigenesis. Include co-occurring suppressor losses, mutual exclusivity, or multi-hit combinations that together explain driver-negative disease.</td>
+                    </tr>
+                    <tr>
+                        <td><strong>human_prevalence_or_enrichment</strong></td>
+                        <td>str</td>
+                        <td>Frequency or enrichment of the hidden event in the driver-negative subset or human cohorts, including counts, percentages, and comparisons against driver-positive tumors when reported.</td>
+                    </tr>
+                    <tr>
+                        <td><strong>functional_or_clinical_validation</strong></td>
+                        <td>str</td>
+                        <td>Evidence that the hidden event is a real driver, such as transformation assays, knockdown, overexpression, xenografts, pathway readouts, matched targeted therapy response, or independent cohort replication.</td>
+                    </tr>
+                    <tr>
+                        <td><strong>initial_negative_call_basis</strong></td>
+                        <td>str</td>
+                        <td>Extract the exact assays and decision rules used for the initial driver-negative call. Represent as a concise structured list naming modality, genomic regions/classes covered, and what counted as negative.</td>
+                    </tr>
+                    <tr>
+                        <td><strong>negative_call_failure_mode</strong></td>
+                        <td>str</td>
+                        <td>Classify the most likely reason for the initial negative call using normalized categories such as limited_hotspot_panel, low_tumor_purity, fusion_not_assayed, splice_event_not_assayed, noncoding_event_not_assayed, copy_number_not_interpreted, structural_complexity, protein_state_only, sampling_heterogeneity, or still_unexplained.</td>
+                    </tr>
+                    <tr>
+                        <td><strong>rescue_modality</strong></td>
+                        <td>str</td>
+                        <td>If a driver or mechanism was later uncovered, extract the modality or modalities that rescued it, such as deep_wes, wgs_sv, rna_seq_fusion, fish, ihc, phosphoproteomics, methylation, long_read, hi_c, or integrated_multiomic.</td>
+                    </tr>
+                    <tr>
+                        <td><strong>final_explanatory_status</strong></td>
+                        <td>str</td>
+                        <td>Classify the final state after broadened workup as rescued_canonical_driver, rescued_noncanonical_driver, rescued_regulatory_driver, rescued_pathway_state_without_single_lesion, or still_unexplained.</td>
+                    </tr>
+                    <tr>
+                        <td><strong>post_workup_unexplained_fraction</strong></td>
+                        <td>str</td>
+                        <td>Extract the numerator and denominator, or concise prose, for how many cases remained unexplained after the expanded workup in that study population.</td>
+                    </tr>
+                    <tr>
+                        <td><strong>driver_mechanism_family</strong></td>
+                        <td>str</td>
+                        <td>Assign one or more normalized mechanism families to the event or state, using a controlled vocabulary such as kinase_fusion_dimerization, ligand_fusion_autocrine_juxtacrine, enhancer_hijacking, super_enhancer_with_sv, exon_skipping_regulatory_loss, ectodomain_structural_activation, tumor_suppressor_negative_regulator_loss, ecDNA_or_double_minute_amp, topological_boundary_disruption, phospho_state_outlier, mutational_process_state, or lineage_state_switch.</td>
+                    </tr>
+                    <tr>
+                        <td><strong>signaling_activation_mode</strong></td>
+                        <td>str</td>
+                        <td>Extract the immediate activation logic in concise mechanistic language, such as constitutive_dimerization, ligand_presentation, receptor_stabilization, overexpression, loss_of_gap_function, loss_of_ubiquitin_mediated_downregulation, chromatin_rewiring, or downstream_phospho_network_activation.</td>
+                    </tr>
+                    <tr>
+                        <td><strong>oncogenic_unit_type</strong></td>
+                        <td>str</td>
+                        <td>Classify the main explanatory unit as single_gene_lesion, gene_pair_fusion, multi_gene_amplicon, pathway_state, chromatin_domain_event, lineage_program, mutational_process, or combinatorial_suppressor_state.</td>
+                    </tr>
+                    <tr>
+                        <td><strong>mechanistic_directness</strong></td>
+                        <td>str</td>
+                        <td>Label whether the paper supports the event as direct_driver, likely_driver, co_driver, lineage_modifier, pathway_modifier, or biomarker_only.</td>
+                    </tr>
+                    <tr>
+                        <td><strong>histologic_subtype_normalized</strong></td>
+                        <td>str</td>
+                        <td>Extract standardized histology labels such as invasive_mucinous_adenocarcinoma, nonmucinous_adenocarcinoma, mucinous_cribriform_pattern, lepidic, acinar, papillary, solid, carcinoid_like, or mixed_pattern.</td>
+                    </tr>
+                    <tr>
+                        <td><strong>lineage_marker_state</strong></td>
+                        <td>str</td>
+                        <td>Extract normalized lineage marker status if discussed, especially NKX2_1_TTF1, HNF4A, GI_gastric_marker_program, TRU_marker_state, basal_marker_state, alveolar_type2_like_state, or stemness_score, using values such as high, low, positive, negative, or mixed.</td>
+                    </tr>
+                    <tr>
+                        <td><strong>inferred_lineage_program</strong></td>
+                        <td>str</td>
+                        <td>Extract the inferred lineage or cell-state program as terminal_respiratory_unit, alveolar_type2_like, gastric_like, gastrointestinal_like, basal_like, progenitor_like, quiescent_stem_like, or unknown.</td>
+                    </tr>
+                    <tr>
+                        <td><strong>mucinous_program_evidence</strong></td>
+                        <td>str</td>
+                        <td>If a mucinous phenotype is discussed, record the evidence source such as pathology, mucin_stain, MUC5AC_expression, MUC5B_expression, or secretory_morphology.</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+    </div>
+</body>
+</html>

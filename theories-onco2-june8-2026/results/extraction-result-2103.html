@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Extraction extraction-result-2103 - Theorizer</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+    <div class="header">
+        <a href="../index.html"><i class="fas fa-flask"></i> Theorizer</a>
+    </div>
+
+    <div class="content">
+        <h1>Extracted Data Details for extraction-result-2103</h1>
+
+        <div class="section">
+            <h2>Extracted Data (Header)</h2>
+            <div class="info-section">
+                <p><strong>Extraction ID:</strong> extraction-result-2103</p>
+                <p><strong>Extraction Schema Used (ID):</strong> <a href="../schemas/extraction-schema-1843.html">extraction-schema-1843</a></p>
+                <div class="extraction-query"><strong>Extraction Query:</strong> Extract any mentions of hidden genomic, structural, regulatory, or assay-missed drivers in oncogene-negative lung adenocarcinoma.</div>
+                <p><strong>Paper ID:</strong> paper-959150eeab58285763a80e91cdea39ef1cab3cb4</p>
+                <p><strong>Paper Title:</strong> <a href="https://www.semanticscholar.org/paper/959150eeab58285763a80e91cdea39ef1cab3cb4" target="_blank">Oncogenic and sorafenib-sensitive ARAF mutations in lung adenocarcinoma.</a></p>
+                <p><strong>Paper Venue:</strong> Journal of Clinical Investigation</p>
+                <p><strong>Paper TL;DR:</strong> Results suggest that mutant ARAF is an oncogenic driver in lung adenocarcinoma and an indicator of sorafenib response, and a nearby residue in the related kinase RAF1 was shown to transform immortalized human airway epithelial cells in a sorAFenib-sensitive manner.</p>
+                <p><strong>Cost:</strong> 0.02</p>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>Extracted Data (Details)</h2>
+            <div class="extraction-instance-container" id="e2103.0">
+                <h3 class="extraction-instance">Extracted Data Instance 0 (e2103.0)</h3>
+                <div class="extraction-query"><strong>Extraction Query:</strong> Extract any mentions of hidden genomic, structural, regulatory, or assay-missed drivers in oncogene-negative lung adenocarcinoma.</div>
+                <table>
+                    <thead>
+                        <tr>
+                            <th style="width: 30%;">Field</th>
+                            <th style="width: 70%;">Value</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><strong>name_short</strong></td>
+                            <td>ARAF S214C</td>
+                        </tr>
+                        <tr>
+                            <td><strong>name_full</strong></td>
+                            <td>ARAF serine 214 cysteine substitution</td>
+                        </tr>
+                        <tr>
+                            <td><strong>brief_description</strong></td>
+                            <td>A somatic missense mutation in ARAF identified by whole-genome sequencing and RNA-seq in a long-term sorafenib responder with lung adenocarcinoma. The paper proposes it as the most likely oncogenic driver in this otherwise driver-negative tumor and shows it transforms airway epithelial cells in a sorafenib-sensitive manner.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>citation_title</strong></td>
+                            <td>here</td>
+                        </tr>
+                        <tr>
+                            <td><strong>mention_or_use</strong></td>
+                            <td>use</td>
+                        </tr>
+                        <tr>
+                            <td><strong>oncogene_negative_definition</strong></td>
+                            <td>The patient tumor was considered negative for canonical lung adenocarcinoma drivers because whole-genome sequencing found no hot spot mutations in KRAS, EGFR, BRAF, ERBB2, or PIK3CA; no gene fusions involving ALK, ROS1, or RET; and no other known oncogenic alterations. Germline WGS also did not reveal rare deleterious germline coding mutations in 29 known sorafenib target genes.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>assay_strategy_and_detection_limits</strong></td>
+                            <td>The discovery pipeline used matched tumor-normal whole-genome sequencing (37.9x tumor, 37.7x normal) plus RNA sequencing of the primary tumor. It detected 25,150 somatic mutations, 101 nonsynonymous coding changes, and 2 in-frame fusions by WGS, but only 15 variants were expressed at >2 supporting RNA reads. The paper explicitly notes that broad low-level copy gains were present without high-level focal amplifications, and that initial profiling did not reveal known recurrent oncogenic alterations or other sorafenib-target alterations.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>missed_driver_reclassified_after_broader_testing</strong></td>
+                            <td>Yes. A tumor initially lacking known actionable drivers was reclassified as harboring a likely driver after broader unbiased WGS/RNA-seq revealed the expressed ARAF S214C mutation. It was missed by standard driver-gene expectations because it is a noncanonical RAF-family alteration outside classic hotspots such as BRAF V600/ G469 and because the tumor otherwise lacked common lung adenocarcinoma oncogenes.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>driver_event_class</strong></td>
+                            <td>rare somatic SNV / missense hotspot mutation</td>
+                        </tr>
+                        <tr>
+                            <td><strong>candidate_driver_gene_or_locus</strong></td>
+                            <td>ARAF codon 214 (p.S214C), a Raf-family serine-threonine kinase</td>
+                        </tr>
+                        <tr>
+                            <td><strong>structural_or_regulatory_activation_mechanism</strong></td>
+                            <td>Non-kinase-domain Raf-family hotspot mutation in the CR2 regulatory region; the paper suggests it likely disrupts 14-3-3 binding and thereby relieves negative regulation of RAF signaling.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>functional_consequence</strong></td>
+                            <td>Increased MEK phosphorylation and anchorage-independent growth/soft agar colony formation in immortalized tracheobronchial epithelial cells, consistent with MAPK pathway activation and oncogenic transformation.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>co_alteration_or_combinatorial_requirement</strong></td>
+                            <td>The tumor also showed low-level broad gains including 1-2 copy gain of 4q12 (PDGFRA, KIT, KDR), but the paper argues these were not the primary driver because there were no high-level focal amplifications and no other known oncogenic alterations. The main explanatory event was the ARAF codon 214 mutation.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>human_prevalence_or_enrichment</strong></td>
+                            <td>Observed as 3 ARAF codon 214 mutant cases among 564 lung adenocarcinomas profiled across TCGA and the authors' prior cohort, corresponding to roughly 1% frequency; the paper also reports one sorafenib-responsive index case. Across 4,608 TCGA pan-cancer cases, additional codon 214/nearby RAF1 hotspot mutations were found in 21 tumor types, with notable counts in colorectal adenocarcinoma, gastric adenocarcinoma, and cutaneous melanoma.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>functional_or_clinical_validation</strong></td>
+                            <td>Expressing ARAF S214C (and two other codon 214 variants) in AALE cells increased soft agar colony formation and MEK phosphorylation, and these phenotypes were inhibited by sorafenib and trametinib. The index patient had a near-complete response to sorafenib lasting about 5 years, providing matched clinical support.</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="extraction-instance-container" id="e2103.1">
+                <h3 class="extraction-instance">Extracted Data Instance 1 (e2103.1)</h3>
+                <div class="extraction-query"><strong>Extraction Query:</strong> Extract any mentions of hidden genomic, structural, regulatory, or assay-missed drivers in oncogene-negative lung adenocarcinoma.</div>
+                <table>
+                    <thead>
+                        <tr>
+                            <th style="width: 30%;">Field</th>
+                            <th style="width: 70%;">Value</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><strong>name_short</strong></td>
+                            <td>ARAF S214F</td>
+                        </tr>
+                        <tr>
+                            <td><strong>name_full</strong></td>
+                            <td>ARAF serine 214 phenylalanine substitution</td>
+                        </tr>
+                        <tr>
+                            <td><strong>brief_description</strong></td>
+                            <td>A second codon 214 ARAF mutant reported among lung adenocarcinoma cases and functionally tested alongside S214C. It behaved as an oncogenic, sorafenib-sensitive ARAF variant in epithelial transformation assays.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>citation_title</strong></td>
+                            <td>here</td>
+                        </tr>
+                        <tr>
+                            <td><strong>mention_or_use</strong></td>
+                            <td>use</td>
+                        </tr>
+                        <tr>
+                            <td><strong>oncogene_negative_definition</strong></td>
+                            <td>The relevant lung adenocarcinoma cases were discussed in the context of tumors lacking known driver alterations; the paper states that 4 of the 6 lung adenocarcinoma cases with ARAF/RAF1 hotspot mutations lacked somatic mutations in any known lung adenocarcinoma oncogenes.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>assay_strategy_and_detection_limits</strong></td>
+                            <td>Detected through WGS-based mutation discovery, then supported by RNA-seq and by comparison to independent cohort data. The assay strategy emphasizes that conventional hotspot-driven testing could miss such rare noncanonical RAF-family alterations.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>missed_driver_reclassified_after_broader_testing</strong></td>
+                            <td>Yes, in the broader sense that codon 214 RAF-family alterations were only revealed by comprehensive sequencing of driver-negative cases, rather than by testing of standard lung cancer oncogenes.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>driver_event_class</strong></td>
+                            <td>rare somatic missense mutation</td>
+                        </tr>
+                        <tr>
+                            <td><strong>candidate_driver_gene_or_locus</strong></td>
+                            <td>ARAF codon 214 (p.S214F)</td>
+                        </tr>
+                        <tr>
+                            <td><strong>structural_or_regulatory_activation_mechanism</strong></td>
+                            <td>Likely same CR2 regulatory-region mechanism as ARAF S214C, involving loss of inhibitory 14-3-3-dependent regulation.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>functional_consequence</strong></td>
+                            <td>Enhanced anchorage-independent growth and increased MEK phosphorylation in AALE cells.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>co_alteration_or_combinatorial_requirement</strong></td>
+                            <td>No specific cooperating alteration was required in the assay system; the mutation alone was sufficient to drive the observed phenotypes in epithelial cells.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>human_prevalence_or_enrichment</strong></td>
+                            <td>Part of the codon 214 ARAF mutation group reported in lung adenocarcinoma; the paper states 3 ARAF codon 214 mutant cases among 564 lung adenocarcinomas overall (including the index case).</td>
+                        </tr>
+                        <tr>
+                            <td><strong>functional_or_clinical_validation</strong></td>
+                            <td>Functional testing in AALE cells showed soft agar growth and pathway activation, with sorafenib sensitivity comparable to other codon 214 mutants.</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="extraction-instance-container" id="e2103.2">
+                <h3 class="extraction-instance">Extracted Data Instance 2 (e2103.2)</h3>
+                <div class="extraction-query"><strong>Extraction Query:</strong> Extract any mentions of hidden genomic, structural, regulatory, or assay-missed drivers in oncogene-negative lung adenocarcinoma.</div>
+                <table>
+                    <thead>
+                        <tr>
+                            <th style="width: 30%;">Field</th>
+                            <th style="width: 70%;">Value</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><strong>name_short</strong></td>
+                            <td>ARAF S214T</td>
+                        </tr>
+                        <tr>
+                            <td><strong>name_full</strong></td>
+                            <td>ARAF serine 214 threonine substitution</td>
+                        </tr>
+                        <tr>
+                            <td><strong>brief_description</strong></td>
+                            <td>A third codon 214 ARAF mutant identified in lung adenocarcinoma and functionally analyzed in the paper. Like other ARAF codon 214 variants, it promoted transformation and remained sorafenib-sensitive in cell assays.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>citation_title</strong></td>
+                            <td>here</td>
+                        </tr>
+                        <tr>
+                            <td><strong>mention_or_use</strong></td>
+                            <td>use</td>
+                        </tr>
+                        <tr>
+                            <td><strong>oncogene_negative_definition</strong></td>
+                            <td>Identified in the context of lung adenocarcinoma cases that lacked known canonical oncogenic alterations, as part of the codon 214 RAF-family hotspot discovery.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>assay_strategy_and_detection_limits</strong></td>
+                            <td>Detected through broad sequencing and follow-up cohort analysis rather than targeted hotspot testing; the paper frames this as an example of rare driver discovery requiring large-scale genomic surveys.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>missed_driver_reclassified_after_broader_testing</strong></td>
+                            <td>Yes, as part of the broader reclassification of driver-negative tumors after WGS-based discovery of rare RAF-family hotspot mutations.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>driver_event_class</strong></td>
+                            <td>rare somatic missense mutation</td>
+                        </tr>
+                        <tr>
+                            <td><strong>candidate_driver_gene_or_locus</strong></td>
+                            <td>ARAF codon 214 (p.S214T)</td>
+                        </tr>
+                        <tr>
+                            <td><strong>structural_or_regulatory_activation_mechanism</strong></td>
+                            <td>Probable loss of normal CR2-region regulation and 14-3-3 binding, analogous to the other codon 214 substitutions.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>functional_consequence</strong></td>
+                            <td>Anchorage-independent growth and MEK/ERK pathway activation in transformed epithelial cells.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>co_alteration_or_combinatorial_requirement</strong></td>
+                            <td>No required co-alteration reported.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>human_prevalence_or_enrichment</strong></td>
+                            <td>Included among the reported ARAF codon 214 lung adenocarcinoma cases; the paper describes 3 ARAF codon 214 mutant cases among 564 lung adenocarcinomas.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>functional_or_clinical_validation</strong></td>
+                            <td>AALE soft agar assays and signaling readouts showed oncogenic behavior, and sorafenib inhibited these phenotypes.</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="extraction-instance-container" id="e2103.3">
+                <h3 class="extraction-instance">Extracted Data Instance 3 (e2103.3)</h3>
+                <div class="extraction-query"><strong>Extraction Query:</strong> Extract any mentions of hidden genomic, structural, regulatory, or assay-missed drivers in oncogene-negative lung adenocarcinoma.</div>
+                <table>
+                    <thead>
+                        <tr>
+                            <th style="width: 30%;">Field</th>
+                            <th style="width: 70%;">Value</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><strong>name_short</strong></td>
+                            <td>RAF1 S257/S259</td>
+                        </tr>
+                        <tr>
+                            <td><strong>name_full</strong></td>
+                            <td>RAF1 serine 257 and serine 259 hotspot substitutions</td>
+                        </tr>
+                        <tr>
+                            <td><strong>brief_description</strong></td>
+                            <td>Paralogous RAF1 mutations near the ARAF codon 214 site were found in lung adenocarcinoma and shown to be transforming and drug-sensitive. The paper treats them as part of the same novel Raf-family hotspot and suggests they may underlie driver-negative disease when canonical oncogenes are absent.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>citation_title</strong></td>
+                            <td>here</td>
+                        </tr>
+                        <tr>
+                            <td><strong>mention_or_use</strong></td>
+                            <td>use</td>
+                        </tr>
+                        <tr>
+                            <td><strong>oncogene_negative_definition</strong></td>
+                            <td>Among the 6 lung adenocarcinoma cases with ARAF codon 214 or RAF1 codon 257/259 mutations, 4 lacked somatic mutations in any known lung adenocarcinoma oncogenes.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>assay_strategy_and_detection_limits</strong></td>
+                            <td>Found by comprehensive sequencing and cross-cohort comparison, not by routine driver-panel testing. The paper emphasizes that these rare variants would likely evade nomination by statistical analysis of a few hundred or even thousands of genomes.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>missed_driver_reclassified_after_broader_testing</strong></td>
+                            <td>Yes. Driver-negative lung adenocarcinomas were later explained by rare RAF1 hotspot mutations discovered through broader sequencing and functional follow-up.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>driver_event_class</strong></td>
+                            <td>rare somatic missense mutation hotspot</td>
+                        </tr>
+                        <tr>
+                            <td><strong>candidate_driver_gene_or_locus</strong></td>
+                            <td>RAF1 p.S257 and p.S259 (including reported p.S257W, p.S257L, p.S259F, and p.S259A variants)</td>
+                        </tr>
+                        <tr>
+                            <td><strong>structural_or_regulatory_activation_mechanism</strong></td>
+                            <td>Mutation of a Raf CR2-domain phosphorylation site that negatively regulates Ras binding and RAF1 activation via 14-3-3 binding; analogous to the proposed ARAF mechanism.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>functional_consequence</strong></td>
+                            <td>Anchorage-independent growth with increased MEK/ERK phosphorylation, indicating MAPK pathway activation.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>co_alteration_or_combinatorial_requirement</strong></td>
+                            <td>One RAF1 p.S257W tumor also harbored KRAS G12V, and one RAF1 p.S259F tumor also harbored BRAF p.G469V, suggesting some cases may carry additional driver events. However, the RAF1 hotspot mutations were also seen in cases lacking known oncogenes.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>human_prevalence_or_enrichment</strong></td>
+                            <td>The paper reports 3 additional cases with RAF1 mutations at the paralogous or nearby residue in the 564 lung adenocarcinoma cohort, and mentions additional RAF1 hotspot mutations in other cancers and in Noonan syndrome.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>functional_or_clinical_validation</strong></td>
+                            <td>RAF1 p.S257L and p.S259A induced anchorage-independent growth and increased MEK/ERK phosphorylation in AALE and NIH-3T3 cells; these phenotypes were sensitive to sorafenib and trametinib.</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="extraction-instance-container" id="e2103.4">
+                <h3 class="extraction-instance">Extracted Data Instance 4 (e2103.4)</h3>
+                <div class="extraction-query"><strong>Extraction Query:</strong> Extract any mentions of hidden genomic, structural, regulatory, or assay-missed drivers in oncogene-negative lung adenocarcinoma.</div>
+                <table>
+                    <thead>
+                        <tr>
+                            <th style="width: 30%;">Field</th>
+                            <th style="width: 70%;">Value</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><strong>name_short</strong></td>
+                            <td>4q12 gain</td>
+                        </tr>
+                        <tr>
+                            <td><strong>name_full</strong></td>
+                            <td>Broad low-level copy-number gain of chromosome 4q12 encompassing PDGFRA, KIT, and KDR</td>
+                        </tr>
+                        <tr>
+                            <td><strong>brief_description</strong></td>
+                            <td>A broad, low-level copy-number increase involving canonical sorafenib target genes was observed in the index tumor. The authors note that similar 4q12 gain had been seen before in non-small-cell lung cancer lines but without clear sensitivity to tyrosine kinase inhibitors, and they did not interpret it as the primary driver here.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>citation_title</strong></td>
+                            <td>here</td>
+                        </tr>
+                        <tr>
+                            <td><strong>mention_or_use</strong></td>
+                            <td>use</td>
+                        </tr>
+                        <tr>
+                            <td><strong>oncogene_negative_definition</strong></td>
+                            <td>The tumor was still considered driver-negative for canonical alterations because there were no hot spot mutations in KRAS, EGFR, BRAF, ERBB2, or PIK3CA and no ALK, ROS1, or RET fusions, despite low-level broad gains.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>assay_strategy_and_detection_limits</strong></td>
+                            <td>Detected by WGS copy-number analysis. The paper highlights a limitation of the observed gains: they were broad and low-level (1-4 copies) rather than high-level focal amplifications, reducing confidence that they represented the key oncogenic event.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>missed_driver_reclassified_after_broader_testing</strong></td>
+                            <td>No; this alteration was observed but not reclassified as the driver because it lacked the hallmarks of a focal high-level amplification and had precedent for not predicting TKI sensitivity.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>driver_event_class</strong></td>
+                            <td>broad low-level copy-number gain</td>
+                        </tr>
+                        <tr>
+                            <td><strong>candidate_driver_gene_or_locus</strong></td>
+                            <td>Chromosome 4q12 region including PDGFRA, KIT, and KDR</td>
+                        </tr>
+                        <tr>
+                            <td><strong>structural_or_regulatory_activation_mechanism</strong></td>
+                            <td>Dosage increase of tyrosine kinase target genes via broad chromosomal gain rather than focal amplification.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>functional_consequence</strong></td>
+                            <td>Potential increased copy number of sorafenib targets, but no demonstrated causal driver role in this case.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>co_alteration_or_combinatorial_requirement</strong></td>
+                            <td>Co-occurred with ARAF S214C and a complex landscape of other somatic mutations, but the paper did not attribute oncogene addiction or clinical response to the 4q12 gain.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>human_prevalence_or_enrichment</strong></td>
+                            <td>The paper states that 4q12 gain has been observed previously in non-small-cell lung cancer lines; no enrichment estimate is provided for this case beyond the low-level gains noted in the index tumor.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>functional_or_clinical_validation</strong></td>
+                            <td>No direct validation as a driver in this paper; the authors cite prior work indicating that 4q12 gain was not associated with sensitivity to imatinib or sunitinib.</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>Potentially Relevant New Papers (mentioned by this paper)</h2>
+            <ol>
+                <li>Mapping the hallmarks of lung adenocarcinoma with massively parallel sequencing <em>(Rating: 2)</em></li>
+                <li>Genomic landscape of non-small cell lung cancer in smokers and never-smokers <em>(Rating: 2)</em></li>
+                <li>Diverse somatic mutation patterns and pathway alterations in human cancers <em>(Rating: 1)</em></li>
+                <li>Characterizing the cancer genome in lung adenocarcinoma <em>(Rating: 2)</em></li>
+            </ol>
+        </div>
+
+        </div>
+
+    </div>
+</body>
+</html>

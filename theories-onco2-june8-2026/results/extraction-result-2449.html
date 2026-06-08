@@ -1,0 +1,962 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Extraction extraction-result-2449 - Theorizer</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+    <div class="header">
+        <a href="../index.html"><i class="fas fa-flask"></i> Theorizer</a>
+    </div>
+
+    <div class="content">
+        <h1>Extracted Data Details for extraction-result-2449</h1>
+
+        <div class="section">
+            <h2>Extracted Data (Header)</h2>
+            <div class="info-section">
+                <p><strong>Extraction ID:</strong> extraction-result-2449</p>
+                <p><strong>Extraction Schema Used (ID):</strong> <a href="../schemas/extraction-schema-1846.html">extraction-schema-1846</a></p>
+                <div class="extraction-query"><strong>Extraction Query:</strong> Extract any mentions of hidden drivers, pathway states, subtype structure, validation evidence, and therapeutic implications in oncogene-negative or driver-negative lung adenocarcinoma.</div>
+                <p><strong>Paper ID:</strong> paper-50887357062d6f1468d1f9a759bac0981eebfe69</p>
+                <p><strong>Paper Title:</strong> <a href="https://www.semanticscholar.org/paper/50887357062d6f1468d1f9a759bac0981eebfe69" target="_blank">Multi-Omics Integrative Analysis of Lung Adenocarcinoma: An in silico Profiling for Precise Medicine</a></p>
+                <p><strong>Paper Venue:</strong> Frontiers in Medicine</p>
+                <p><strong>Paper TL;DR:</strong> A comprehensive analysis of the five types of omics data using five clustering algorithms to reveal the molecular characteristics of LUAD patients provides new insights into LUAD subtypes and potential clinical treatment strategies to guide personalized management and treatment.</p>
+                <p><strong>Paper Abstract:</strong> Lung adenocarcinoma (LUAD) is one of the most common histological subtypes of lung cancer. The aim of this study was to construct consensus clusters based on multi-omics data and multiple algorithms. In order to identify specific molecular characteristics and facilitate the use of precision medicine on patients we used gene expression, DNA methylation, gene mutations, copy number variation data, and clinical data of LUAD patients for clustering. Consensus clusters were obtained using a consensus ensemble of five multi-omics integrative algorithms. Four molecular subtypes were identified. The CS1 and CS2 subtypes had better prognosis. Based on the immune and drug sensitivity predictions, we inferred that CS1 may be less responsive to immunotherapy and less sensitive to chemotherapeutic drugs. The high immune infiltration of CS2 cells may respond well to immunotherapy. Additionally, the CS2 subtype may also respond to EGFR molecular targeted therapy. The CS3 and CS4 subtypes were associated with poor prognosis. These two subtypes had more mutations, especially TP53 ones, as well as higher sensitivity to chemotherapeutics for lung cancer. However, CS3 was enriched in immune-related pathways and may respond to anti-PD1 immunotherapy. In addition, CS1 and CS4 were less sensitive to ferroptosis inhibitors. We performed a comprehensive analysis of the five types of omics data using five clustering algorithms to reveal the molecular characteristics of LUAD patients. These findings provide new insights into LUAD subtypes and potential clinical treatment strategies to guide personalized management and treatment.</p>
+                <p><strong>Cost:</strong> 0.036</p>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>Extracted Data (Details)</h2>
+            <div class="extraction-instance-container" id="e2449.0">
+                <h3 class="extraction-instance">Extracted Data Instance 0 (e2449.0)</h3>
+                <div class="extraction-query"><strong>Extraction Query:</strong> Extract any mentions of hidden drivers, pathway states, subtype structure, validation evidence, and therapeutic implications in oncogene-negative or driver-negative lung adenocarcinoma.</div>
+                <table>
+                    <thead>
+                        <tr>
+                            <th style="width: 30%;">Field</th>
+                            <th style="width: 70%;">Value</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><strong>name_short</strong></td>
+                            <td>CS1</td>
+                        </tr>
+                        <tr>
+                            <td><strong>name_full</strong></td>
+                            <td>Consensus Subtype 1</td>
+                        </tr>
+                        <tr>
+                            <td><strong>brief_description</strong></td>
+                            <td>One of four LUAD molecular subtypes defined by consensus integration of multi-omics data (mRNA, lncRNA, miRNA, DNA methylation, somatic mutation). CS1 had relatively favorable prognosis, was enriched for metabolic pathways, had low immune-pathway activity, fewer mutations than CS3/CS4, and was inferred to be less responsive to immunotherapy and less sensitive to some chemotherapeutics and ferroptosis inhibitors.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>citation_title</strong></td>
+                            <td>here</td>
+                        </tr>
+                        <tr>
+                            <td><strong>mention_or_use</strong></td>
+                            <td>use</td>
+                        </tr>
+                        <tr>
+                            <td><strong>driver_negative_definition</strong></td>
+                            <td>Not formally a driver-negative definition. The paper does not define CS1 as oncogene-negative; instead it is a consensus LUAD subtype from multi-omics clustering using transcriptomic, epigenomic, and mutation features.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>candidate_driver_pathway_or_mechanism</strong></td>
+                            <td>Predominantly a metabolic-program subtype with relatively low immune signaling and fewer oncogenic pathway activations than CS3/CS4; no specific hidden oncogenic driver is proposed.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>alteration_or_activation_mode</strong></td>
+                            <td>State-level pathway enrichment rather than a single causal lesion; characterized by pathway activation/inactivation patterns inferred from GSVA.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>implicated_gene_axis_or_pathway</strong></td>
+                            <td>Metabolic pathways, with comparatively weak immune-related pathway activation and lower activation of oncogenic programs than CS3/CS4.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>pathway_activation_evidence</strong></td>
+                            <td>GSVA enrichment heatmaps showed CS1 was enriched in more metabolic pathways and was barely enriched in immune-related pathways; tumor-associated oncogenic pathways were less activated than in CS4. This is correlative/inferred from expression signatures, not directly measured phospho-signaling.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>driver_negative_subtype</strong></td>
+                            <td>CS1; transcriptomics/epigenomics/mutation-based multi-omics subtype.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>clinical_or_exposure_context</strong></td>
+                            <td>Associated with relatively favorable overall survival; enriched for male patients compared with CS2/CS3, but no specific exposure-defined driver-negative clinical class was proposed.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>cross_cancer_parallel</strong></td>
+                            <td><span class="empty-note">null</span></td>
+                        </tr>
+                        <tr>
+                            <td><strong>therapeutic_vulnerability_or_implication</strong></td>
+                            <td>Predicted to be less responsive to immunotherapy and less sensitive to common chemotherapeutics; also less sensitive to ferroptosis inhibitors (ML162, ML210, trend for erastin).</td>
+                        </tr>
+                        <tr>
+                            <td><strong>validation_evidence_and_model_system</strong></td>
+                            <td>Validated indirectly by nearest template prediction in three external GEO cohorts (GSE68465, GSE72094, GSE41271) with consistent prognostic trends; no functional model system was used.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>driver_negative_scope_class</strong></td>
+                            <td>not_formally_defined</td>
+                        </tr>
+                        <tr>
+                            <td><strong>excluded_driver_genes_and_alteration_types</strong></td>
+                            <td>None explicitly excluded; no clinical testing workflow for known drivers was reported.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>negative_call_assay_stack</strong></td>
+                            <td><span class="empty-note">null</span></td>
+                        </tr>
+                        <tr>
+                            <td><strong>negative_call_confidence</strong></td>
+                            <td>low</td>
+                        </tr>
+                        <tr>
+                            <td><strong>rescued_hidden_driver_after_deeper_testing</strong></td>
+                            <td>unresolved_after_broad_testing</td>
+                        </tr>
+                        <tr>
+                            <td><strong>primary_hidden_driver_mechanism_class</strong></td>
+                            <td>unresolved</td>
+                        </tr>
+                        <tr>
+                            <td><strong>secondary_mechanism_classes</strong></td>
+                            <td>metabolic_dependency_state</td>
+                        </tr>
+                        <tr>
+                            <td><strong>mechanism_requires_specific_genetic_lesion</strong></td>
+                            <td>no</td>
+                        </tr>
+                        <tr>
+                            <td><strong>mechanism_is_tumor_intrinsic_or_extrinsic</strong></td>
+                            <td>mixed</td>
+                        </tr>
+                        <tr>
+                            <td><strong>mechanism_biologic_level</strong></td>
+                            <td>lineage_state</td>
+                        </tr>
+                        <tr>
+                            <td><strong>causal_evidence_tier</strong></td>
+                            <td>tier_1_genomic_or_correlative_only</td>
+                        </tr>
+                        <tr>
+                            <td><strong>evidence_modalities_present</strong></td>
+                            <td>RNA_seq, DNA_methylation, somatic_mutation_profiling, consensus_clustering, GSVA, survival_analysis, external_cohort_replication, drug_sensitivity_prediction</td>
+                        </tr>
+                        <tr>
+                            <td><strong>therapeutic_actionability_evidence_tier</strong></td>
+                            <td>retrospective_clinical</td>
+                        </tr>
+                        <tr>
+                            <td><strong>paper_claim_strength</strong></td>
+                            <td>descriptive</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="extraction-instance-container" id="e2449.1">
+                <h3 class="extraction-instance">Extracted Data Instance 1 (e2449.1)</h3>
+                <div class="extraction-query"><strong>Extraction Query:</strong> Extract any mentions of hidden drivers, pathway states, subtype structure, validation evidence, and therapeutic implications in oncogene-negative or driver-negative lung adenocarcinoma.</div>
+                <table>
+                    <thead>
+                        <tr>
+                            <th style="width: 30%;">Field</th>
+                            <th style="width: 70%;">Value</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><strong>name_short</strong></td>
+                            <td>CS2</td>
+                        </tr>
+                        <tr>
+                            <td><strong>name_full</strong></td>
+                            <td>Consensus Subtype 2</td>
+                        </tr>
+                        <tr>
+                            <td><strong>brief_description</strong></td>
+                            <td>One of four LUAD molecular subtypes defined by consensus multi-omics clustering. CS2 had relatively favorable prognosis, was immune-hot, showed fewer CNAs than other subtypes, had more EGFR mutations than the other groups, and was predicted to respond better to immunotherapy and possibly EGFR-targeted therapy.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>citation_title</strong></td>
+                            <td>here</td>
+                        </tr>
+                        <tr>
+                            <td><strong>mention_or_use</strong></td>
+                            <td>use</td>
+                        </tr>
+                        <tr>
+                            <td><strong>driver_negative_definition</strong></td>
+                            <td>Not formally driver-negative; the paper instead uses CS2 as a multi-omics subtype that may capture cases with actionable EGFR alterations and immune-hot biology.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>candidate_driver_pathway_or_mechanism</strong></td>
+                            <td>Potential EGFR-driven actionable subtype with strong immune infiltration; the paper does not frame it as hidden-driver-negative, but as a molecularly distinguishable subgroup with treatment implications.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>alteration_or_activation_mode</strong></td>
+                            <td>More frequent EGFR mutations relative to CS3; pathway state defined by immune activation rather than a single lesion.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>implicated_gene_axis_or_pathway</strong></td>
+                            <td>EGFR and immune-related pathways; comparatively downregulated oncogenic/cell-cycle signatures versus CS4.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>pathway_activation_evidence</strong></td>
+                            <td>Immune pathway GSVA showed CS2 as immune-hot with high infiltration of monocytes, macrophages, dendritic cells, and some B and T cells. Mutation analysis showed EGFR mutations were more frequent in CS2 than in CS3; TIDE and SubMap suggested immunotherapy responsiveness.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>driver_negative_subtype</strong></td>
+                            <td>CS2; transcriptomics/immune-context/mutation-based multi-omics subtype.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>clinical_or_exposure_context</strong></td>
+                            <td>Enriched for elderly patients and more female patients; prognosis favorable relative to CS3/CS4.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>cross_cancer_parallel</strong></td>
+                            <td><span class="empty-note">null</span></td>
+                        </tr>
+                        <tr>
+                            <td><strong>therapeutic_vulnerability_or_implication</strong></td>
+                            <td>Predicted better response to immunotherapy and possibly EGFR molecular targeted therapy; also potentially responsive to KRAS inhibitor (e.g., sotorasib) was mentioned in discussion as a comparative possibility, though this was not specific to CS2 driver-negative biology.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>validation_evidence_and_model_system</strong></td>
+                            <td>Supported by TIDE, SubMap, MATH comparisons, drug-sensitivity prediction, and external cohort NTP validation; no experimental wet-lab validation.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>driver_negative_scope_class</strong></td>
+                            <td>not_formally_defined</td>
+                        </tr>
+                        <tr>
+                            <td><strong>excluded_driver_genes_and_alteration_types</strong></td>
+                            <td>None explicitly excluded.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>negative_call_assay_stack</strong></td>
+                            <td><span class="empty-note">null</span></td>
+                        </tr>
+                        <tr>
+                            <td><strong>negative_call_confidence</strong></td>
+                            <td>low</td>
+                        </tr>
+                        <tr>
+                            <td><strong>rescued_hidden_driver_after_deeper_testing</strong></td>
+                            <td>yes_specific_driver_found</td>
+                        </tr>
+                        <tr>
+                            <td><strong>primary_hidden_driver_mechanism_class</strong></td>
+                            <td>rare_coding_oncogene</td>
+                        </tr>
+                        <tr>
+                            <td><strong>secondary_mechanism_classes</strong></td>
+                            <td>phosphoproteomic_pathway_state</td>
+                        </tr>
+                        <tr>
+                            <td><strong>mechanism_requires_specific_genetic_lesion</strong></td>
+                            <td>yes</td>
+                        </tr>
+                        <tr>
+                            <td><strong>mechanism_is_tumor_intrinsic_or_extrinsic</strong></td>
+                            <td>mixed</td>
+                        </tr>
+                        <tr>
+                            <td><strong>mechanism_biologic_level</strong></td>
+                            <td>dna</td>
+                        </tr>
+                        <tr>
+                            <td><strong>causal_evidence_tier</strong></td>
+                            <td>tier_1_genomic_or_correlative_only</td>
+                        </tr>
+                        <tr>
+                            <td><strong>evidence_modalities_present</strong></td>
+                            <td>RNA_seq, DNA_methylation, somatic_mutation_profiling, immune_deconvolution_CIBERSORT, MCPcounter, TIDE, SubMap, GSVA, drug_sensitivity_prediction, external_cohort_replication</td>
+                        </tr>
+                        <tr>
+                            <td><strong>therapeutic_actionability_evidence_tier</strong></td>
+                            <td>retrospective_clinical</td>
+                        </tr>
+                        <tr>
+                            <td><strong>paper_claim_strength</strong></td>
+                            <td>biomarker_proposal</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="extraction-instance-container" id="e2449.2">
+                <h3 class="extraction-instance">Extracted Data Instance 2 (e2449.2)</h3>
+                <div class="extraction-query"><strong>Extraction Query:</strong> Extract any mentions of hidden drivers, pathway states, subtype structure, validation evidence, and therapeutic implications in oncogene-negative or driver-negative lung adenocarcinoma.</div>
+                <table>
+                    <thead>
+                        <tr>
+                            <th style="width: 30%;">Field</th>
+                            <th style="width: 70%;">Value</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><strong>name_short</strong></td>
+                            <td>CS3</td>
+                        </tr>
+                        <tr>
+                            <td><strong>name_full</strong></td>
+                            <td>Consensus Subtype 3</td>
+                        </tr>
+                        <tr>
+                            <td><strong>brief_description</strong></td>
+                            <td>One of four LUAD molecular subtypes with poor prognosis, high mutation burden, frequent TP53 mutation, immune-hot but also oncogene-pathway-rich biology, and strong activation of immune and malignant programs. CS3 was predicted to respond to anti-PD-1 immunotherapy and to be relatively sensitive to common chemotherapy.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>citation_title</strong></td>
+                            <td>here</td>
+                        </tr>
+                        <tr>
+                            <td><strong>mention_or_use</strong></td>
+                            <td>use</td>
+                        </tr>
+                        <tr>
+                            <td><strong>driver_negative_definition</strong></td>
+                            <td>Not formally driver-negative; the paper uses CS3 as a multi-omics-defined subgroup with abundant mutations and immune activation, not as a canonical oncogene-negative class.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>candidate_driver_pathway_or_mechanism</strong></td>
+                            <td>A mixed immune-inflamed plus oncogenic state, with TP53-mutant/high-TMB biology and activation of EMT, angiogenesis, hypoxia, apoptosis, and PI3K/AKT/mTOR signaling.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>alteration_or_activation_mode</strong></td>
+                            <td>Predominantly tumor-suppressor alteration and pathway-state activation rather than a single classic oncogenic driver; TP53 mutations were enriched, and multiple oncogenic signatures were upregulated.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>implicated_gene_axis_or_pathway</strong></td>
+                            <td>TP53, TMB-associated neoantigen load, EMT, angiogenesis, hypoxia, apoptosis, PI3K/AKT/mTOR, interferon/IL-2-STAT5/IL-6-JAK-STAT3 inflammatory pathways.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>pathway_activation_evidence</strong></td>
+                            <td>GSVA heatmaps showed activation of immune-related pathways and several oncogenic pathways. CS3 also had higher TMB, more mutations than CS1/CS2, and more TP53-mutant cases; CIBERSORT/MCPcounter showed immune infiltration; SubMap suggested anti-PD-1 responsiveness.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>driver_negative_subtype</strong></td>
+                            <td>CS3; integrated multi-omics subtype with immune and oncogenic pathway activation.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>clinical_or_exposure_context</strong></td>
+                            <td>Poor prognosis; more female patients than CS1/CS4; high TP53 mutation frequency. No specific smoking or histology-enriched driver-negative category was defined.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>cross_cancer_parallel</strong></td>
+                            <td><span class="empty-note">null</span></td>
+                        </tr>
+                        <tr>
+                            <td><strong>therapeutic_vulnerability_or_implication</strong></td>
+                            <td>Predicted to be more sensitive to cisplatin, paclitaxel, docetaxel, and vinorelbine; may respond to anti-PD-1 immunotherapy; also used as the context for comparing immunotherapy response and intra-tumoral heterogeneity.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>validation_evidence_and_model_system</strong></td>
+                            <td>TIDE, SubMap, MATH, MCPcounter, CIBERSORT, drug-sensitivity prediction, and external NTP validation cohorts. No functional in vitro/in vivo model validation.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>driver_negative_scope_class</strong></td>
+                            <td>not_formally_defined</td>
+                        </tr>
+                        <tr>
+                            <td><strong>excluded_driver_genes_and_alteration_types</strong></td>
+                            <td>None explicitly excluded.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>negative_call_assay_stack</strong></td>
+                            <td><span class="empty-note">null</span></td>
+                        </tr>
+                        <tr>
+                            <td><strong>negative_call_confidence</strong></td>
+                            <td>low</td>
+                        </tr>
+                        <tr>
+                            <td><strong>rescued_hidden_driver_after_deeper_testing</strong></td>
+                            <td>yes_specific_driver_found</td>
+                        </tr>
+                        <tr>
+                            <td><strong>primary_hidden_driver_mechanism_class</strong></td>
+                            <td>tumor_suppressor_co_loss</td>
+                        </tr>
+                        <tr>
+                            <td><strong>secondary_mechanism_classes</strong></td>
+                            <td>phosphoproteomic_pathway_state</td>
+                        </tr>
+                        <tr>
+                            <td><strong>mechanism_requires_specific_genetic_lesion</strong></td>
+                            <td>mixed</td>
+                        </tr>
+                        <tr>
+                            <td><strong>mechanism_is_tumor_intrinsic_or_extrinsic</strong></td>
+                            <td>mixed</td>
+                        </tr>
+                        <tr>
+                            <td><strong>mechanism_biologic_level</strong></td>
+                            <td>dna</td>
+                        </tr>
+                        <tr>
+                            <td><strong>causal_evidence_tier</strong></td>
+                            <td>tier_1_genomic_or_correlative_only</td>
+                        </tr>
+                        <tr>
+                            <td><strong>evidence_modalities_present</strong></td>
+                            <td>RNA_seq, DNA_methylation, somatic_mutation_profiling, TMB, MATH, CIBERSORT, MCPcounter, TIDE, SubMap, GSVA, survival_analysis, drug_sensitivity_prediction, external_cohort_replication</td>
+                        </tr>
+                        <tr>
+                            <td><strong>therapeutic_actionability_evidence_tier</strong></td>
+                            <td>retrospective_clinical</td>
+                        </tr>
+                        <tr>
+                            <td><strong>paper_claim_strength</strong></td>
+                            <td>biomarker_proposal</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="extraction-instance-container" id="e2449.3">
+                <h3 class="extraction-instance">Extracted Data Instance 3 (e2449.3)</h3>
+                <div class="extraction-query"><strong>Extraction Query:</strong> Extract any mentions of hidden drivers, pathway states, subtype structure, validation evidence, and therapeutic implications in oncogene-negative or driver-negative lung adenocarcinoma.</div>
+                <table>
+                    <thead>
+                        <tr>
+                            <th style="width: 30%;">Field</th>
+                            <th style="width: 70%;">Value</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><strong>name_short</strong></td>
+                            <td>CS4</td>
+                        </tr>
+                        <tr>
+                            <td><strong>name_full</strong></td>
+                            <td>Consensus Subtype 4</td>
+                        </tr>
+                        <tr>
+                            <td><strong>brief_description</strong></td>
+                            <td>One of four LUAD molecular subtypes with the worst prognosis. CS4 had high mutation burden, frequent TP53 mutation, strong activation of cell-cycle and oncogenic pathways, EMT, and was predicted to be relatively sensitive to standard chemotherapy but less sensitive to ferroptosis inhibitors.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>citation_title</strong></td>
+                            <td>here</td>
+                        </tr>
+                        <tr>
+                            <td><strong>mention_or_use</strong></td>
+                            <td>use</td>
+                        </tr>
+                        <tr>
+                            <td><strong>driver_negative_definition</strong></td>
+                            <td>Not formally driver-negative; the paper uses CS4 as a multi-omics subtype enriched for aggressive pathway-state features rather than a canonical driver-negative category.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>candidate_driver_pathway_or_mechanism</strong></td>
+                            <td>A proliferative, oncogenic, EMT-high, poor-prognosis state with abundant copy-number alterations and mutations, especially TP53.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>alteration_or_activation_mode</strong></td>
+                            <td>Copy-number alteration plus mutational burden and pathway activation state.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>implicated_gene_axis_or_pathway</strong></td>
+                            <td>TP53, PI3K/AKT/mTOR, mitotic spindle, G2M checkpoint, E2F targets, unfolded protein response, mTORC1 signaling, DNA repair, MYC targets, EMT, angiogenesis, hypoxia.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>pathway_activation_evidence</strong></td>
+                            <td>GSVA showed strong activation of cell-cycle and oncogenic pathways; CS4 had more CNAs, higher TMB, more mutations, and high TP53 mutation frequency. These features were linked to poor prognosis and predicted drug responses.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>driver_negative_subtype</strong></td>
+                            <td>CS4; integrated multi-omics subtype.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>clinical_or_exposure_context</strong></td>
+                            <td>Worst prognosis among the four subtypes; more male patients than CS2/CS3; higher stage proportion than some subtypes.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>cross_cancer_parallel</strong></td>
+                            <td><span class="empty-note">null</span></td>
+                        </tr>
+                        <tr>
+                            <td><strong>therapeutic_vulnerability_or_implication</strong></td>
+                            <td>Predicted to be more sensitive to cisplatin, paclitaxel, docetaxel, and vinorelbine; less sensitive to ferroptosis inhibitors (ML162, ML210, trend for erastin).</td>
+                        </tr>
+                        <tr>
+                            <td><strong>validation_evidence_and_model_system</strong></td>
+                            <td>External cohort NTP validation and in silico drug-sensitivity prediction; no experimental model system validation.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>driver_negative_scope_class</strong></td>
+                            <td>not_formally_defined</td>
+                        </tr>
+                        <tr>
+                            <td><strong>excluded_driver_genes_and_alteration_types</strong></td>
+                            <td>None explicitly excluded.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>negative_call_assay_stack</strong></td>
+                            <td><span class="empty-note">null</span></td>
+                        </tr>
+                        <tr>
+                            <td><strong>negative_call_confidence</strong></td>
+                            <td>low</td>
+                        </tr>
+                        <tr>
+                            <td><strong>rescued_hidden_driver_after_deeper_testing</strong></td>
+                            <td>yes_specific_driver_found</td>
+                        </tr>
+                        <tr>
+                            <td><strong>primary_hidden_driver_mechanism_class</strong></td>
+                            <td>copy_number_or_amplicon_driver</td>
+                        </tr>
+                        <tr>
+                            <td><strong>secondary_mechanism_classes</strong></td>
+                            <td>tumor_suppressor_co_loss, phosphoproteomic_pathway_state</td>
+                        </tr>
+                        <tr>
+                            <td><strong>mechanism_requires_specific_genetic_lesion</strong></td>
+                            <td>mixed</td>
+                        </tr>
+                        <tr>
+                            <td><strong>mechanism_is_tumor_intrinsic_or_extrinsic</strong></td>
+                            <td>tumor_intrinsic</td>
+                        </tr>
+                        <tr>
+                            <td><strong>mechanism_biologic_level</strong></td>
+                            <td>dna</td>
+                        </tr>
+                        <tr>
+                            <td><strong>causal_evidence_tier</strong></td>
+                            <td>tier_1_genomic_or_correlative_only</td>
+                        </tr>
+                        <tr>
+                            <td><strong>evidence_modalities_present</strong></td>
+                            <td>RNA_seq, DNA_methylation, somatic_mutation_profiling, SCNA_GISTIC2.0, TMB, GSVA, survival_analysis, drug_sensitivity_prediction, external_cohort_replication</td>
+                        </tr>
+                        <tr>
+                            <td><strong>therapeutic_actionability_evidence_tier</strong></td>
+                            <td>retrospective_clinical</td>
+                        </tr>
+                        <tr>
+                            <td><strong>paper_claim_strength</strong></td>
+                            <td>biomarker_proposal</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="extraction-instance-container" id="e2449.4">
+                <h3 class="extraction-instance">Extracted Data Instance 4 (e2449.4)</h3>
+                <div class="extraction-query"><strong>Extraction Query:</strong> Extract any mentions of hidden drivers, pathway states, subtype structure, validation evidence, and therapeutic implications in oncogene-negative or driver-negative lung adenocarcinoma.</div>
+                <table>
+                    <thead>
+                        <tr>
+                            <th style="width: 30%;">Field</th>
+                            <th style="width: 70%;">Value</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><strong>name_short</strong></td>
+                            <td>EGFR</td>
+                        </tr>
+                        <tr>
+                            <td><strong>name_full</strong></td>
+                            <td>Epidermal Growth Factor Receptor</td>
+                        </tr>
+                        <tr>
+                            <td><strong>brief_description</strong></td>
+                            <td>A canonical actionable LUAD oncogene mentioned as a therapeutic target and as a mutation enriched in the CS2 subtype. The paper links EGFR mutation status to possible benefit from EGFR-targeted therapy.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>citation_title</strong></td>
+                            <td>here</td>
+                        </tr>
+                        <tr>
+                            <td><strong>mention_or_use</strong></td>
+                            <td>use</td>
+                        </tr>
+                        <tr>
+                            <td><strong>driver_negative_definition</strong></td>
+                            <td>Not a driver-negative definition; EGFR is used as an example of a canonical actionable driver that is not uniformly present across LUAD subtypes.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>candidate_driver_pathway_or_mechanism</strong></td>
+                            <td>Canonical receptor tyrosine kinase driver signaling in LUAD.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>alteration_or_activation_mode</strong></td>
+                            <td>Mutation.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>implicated_gene_axis_or_pathway</strong></td>
+                            <td>EGFR and downstream RTK signaling pathways.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>pathway_activation_evidence</strong></td>
+                            <td>The paper reports EGFR mutations were more frequent in CS2 than CS3; no phospho- or protein-level validation was performed here.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>driver_negative_subtype</strong></td>
+                            <td>CS2 was the subtype with more frequent EGFR mutations, not a driver-negative subtype.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>clinical_or_exposure_context</strong></td>
+                            <td>Potentially enriched in the better-prognosis CS2 subtype; cited as a therapeutic target for TKI-based treatment.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>cross_cancer_parallel</strong></td>
+                            <td>Mentioned as a representative targeted-therapy paradigm in NSCLC, analogous to other RTK-driven cancers.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>therapeutic_vulnerability_or_implication</strong></td>
+                            <td>Potential benefit from EGFR molecular targeted therapy / EGFR-TKI. This is inferential and based on subtype mutation enrichment, not response data.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>validation_evidence_and_model_system</strong></td>
+                            <td>In silico mutation comparison across subtypes and external cohort subtype prediction; no experimental validation.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>driver_negative_scope_class</strong></td>
+                            <td>rtk_ras_raf_axis</td>
+                        </tr>
+                        <tr>
+                            <td><strong>excluded_driver_genes_and_alteration_types</strong></td>
+                            <td>None</td>
+                        </tr>
+                        <tr>
+                            <td><strong>negative_call_assay_stack</strong></td>
+                            <td><span class="empty-note">null</span></td>
+                        </tr>
+                        <tr>
+                            <td><strong>negative_call_confidence</strong></td>
+                            <td>medium</td>
+                        </tr>
+                        <tr>
+                            <td><strong>rescued_hidden_driver_after_deeper_testing</strong></td>
+                            <td>yes_specific_driver_found</td>
+                        </tr>
+                        <tr>
+                            <td><strong>primary_hidden_driver_mechanism_class</strong></td>
+                            <td>rare_coding_oncogene</td>
+                        </tr>
+                        <tr>
+                            <td><strong>secondary_mechanism_classes</strong></td>
+                            <td><span class="empty-note">null</span></td>
+                        </tr>
+                        <tr>
+                            <td><strong>mechanism_requires_specific_genetic_lesion</strong></td>
+                            <td>yes</td>
+                        </tr>
+                        <tr>
+                            <td><strong>mechanism_is_tumor_intrinsic_or_extrinsic</strong></td>
+                            <td>tumor_intrinsic</td>
+                        </tr>
+                        <tr>
+                            <td><strong>mechanism_biologic_level</strong></td>
+                            <td>dna</td>
+                        </tr>
+                        <tr>
+                            <td><strong>causal_evidence_tier</strong></td>
+                            <td>tier_1_genomic_or_correlative_only</td>
+                        </tr>
+                        <tr>
+                            <td><strong>evidence_modalities_present</strong></td>
+                            <td>somatic_mutation_profiling, consensus_clustering, external_cohort_replication</td>
+                        </tr>
+                        <tr>
+                            <td><strong>therapeutic_actionability_evidence_tier</strong></td>
+                            <td>inferential_only</td>
+                        </tr>
+                        <tr>
+                            <td><strong>paper_claim_strength</strong></td>
+                            <td>biomarker_proposal</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="extraction-instance-container" id="e2449.5">
+                <h3 class="extraction-instance">Extracted Data Instance 5 (e2449.5)</h3>
+                <div class="extraction-query"><strong>Extraction Query:</strong> Extract any mentions of hidden drivers, pathway states, subtype structure, validation evidence, and therapeutic implications in oncogene-negative or driver-negative lung adenocarcinoma.</div>
+                <table>
+                    <thead>
+                        <tr>
+                            <th style="width: 30%;">Field</th>
+                            <th style="width: 70%;">Value</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><strong>name_short</strong></td>
+                            <td>TP53</td>
+                        </tr>
+                        <tr>
+                            <td><strong>name_full</strong></td>
+                            <td>Tumor Protein P53</td>
+                        </tr>
+                        <tr>
+                            <td><strong>brief_description</strong></td>
+                            <td>A frequently mutated tumor suppressor highlighted as the top mutated gene in the LUAD cohort and enriched in CS3/CS4. The authors associate TP53-mutant, high-TMB biology with poorer prognosis and possible immunotherapy relevance.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>citation_title</strong></td>
+                            <td>here</td>
+                        </tr>
+                        <tr>
+                            <td><strong>mention_or_use</strong></td>
+                            <td>use</td>
+                        </tr>
+                        <tr>
+                            <td><strong>driver_negative_definition</strong></td>
+                            <td>Not a driver-negative definition; TP53 is used as a major alteration associated with LUAD subtypes and prognosis.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>candidate_driver_pathway_or_mechanism</strong></td>
+                            <td>Tumor suppressor loss / altered genomic stability and immune responsiveness.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>alteration_or_activation_mode</strong></td>
+                            <td>Mutation, especially missense mutation.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>implicated_gene_axis_or_pathway</strong></td>
+                            <td>TP53-centered genomic instability and downstream immune response associations.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>pathway_activation_evidence</strong></td>
+                            <td>TP53 had the highest mutation frequency (52% of samples), with especially high mutation rates in CS3 and CS4; the discussion notes TP53 missense mutations have been associated with better anti-PD-1/L1 outcomes in prior studies.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>driver_negative_subtype</strong></td>
+                            <td>CS3 and CS4 were TP53-rich subtypes.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>clinical_or_exposure_context</strong></td>
+                            <td>Associated with poorer prognosis in this cohort via subtype enrichment; discussed as a biomarker-relevant feature for immunotherapy.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>cross_cancer_parallel</strong></td>
+                            <td>The paper cites prior work showing a specific TP53 subtype as a biomarker for immune checkpoint inhibitors in lung adenocarcinoma.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>therapeutic_vulnerability_or_implication</strong></td>
+                            <td>Potentially informs anti-PD-1/L1 immunotherapy responsiveness; also part of the rationale for the TP53/KRAS-mutant immunotherapy-favorable population mentioned in the discussion.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>validation_evidence_and_model_system</strong></td>
+                            <td>Observational subtype association plus literature-based support; no direct functional validation.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>driver_negative_scope_class</strong></td>
+                            <td>no_known_actionable_driver</td>
+                        </tr>
+                        <tr>
+                            <td><strong>excluded_driver_genes_and_alteration_types</strong></td>
+                            <td>None</td>
+                        </tr>
+                        <tr>
+                            <td><strong>negative_call_assay_stack</strong></td>
+                            <td><span class="empty-note">null</span></td>
+                        </tr>
+                        <tr>
+                            <td><strong>negative_call_confidence</strong></td>
+                            <td>medium</td>
+                        </tr>
+                        <tr>
+                            <td><strong>rescued_hidden_driver_after_deeper_testing</strong></td>
+                            <td>yes_specific_driver_found</td>
+                        </tr>
+                        <tr>
+                            <td><strong>primary_hidden_driver_mechanism_class</strong></td>
+                            <td>tumor_suppressor_co_loss</td>
+                        </tr>
+                        <tr>
+                            <td><strong>secondary_mechanism_classes</strong></td>
+                            <td>mutational_process_genomic_instability</td>
+                        </tr>
+                        <tr>
+                            <td><strong>mechanism_requires_specific_genetic_lesion</strong></td>
+                            <td>yes</td>
+                        </tr>
+                        <tr>
+                            <td><strong>mechanism_is_tumor_intrinsic_or_extrinsic</strong></td>
+                            <td>tumor_intrinsic</td>
+                        </tr>
+                        <tr>
+                            <td><strong>mechanism_biologic_level</strong></td>
+                            <td>dna</td>
+                        </tr>
+                        <tr>
+                            <td><strong>causal_evidence_tier</strong></td>
+                            <td>tier_1_genomic_or_correlative_only</td>
+                        </tr>
+                        <tr>
+                            <td><strong>evidence_modalities_present</strong></td>
+                            <td>somatic_mutation_profiling, TMB, survival_analysis, literature_support</td>
+                        </tr>
+                        <tr>
+                            <td><strong>therapeutic_actionability_evidence_tier</strong></td>
+                            <td>inferential_only</td>
+                        </tr>
+                        <tr>
+                            <td><strong>paper_claim_strength</strong></td>
+                            <td>biomarker_proposal</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="extraction-instance-container" id="e2449.6">
+                <h3 class="extraction-instance">Extracted Data Instance 6 (e2449.6)</h3>
+                <div class="extraction-query"><strong>Extraction Query:</strong> Extract any mentions of hidden drivers, pathway states, subtype structure, validation evidence, and therapeutic implications in oncogene-negative or driver-negative lung adenocarcinoma.</div>
+                <table>
+                    <thead>
+                        <tr>
+                            <th style="width: 30%;">Field</th>
+                            <th style="width: 70%;">Value</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><strong>name_short</strong></td>
+                            <td>KRAS</td>
+                        </tr>
+                        <tr>
+                            <td><strong>name_full</strong></td>
+                            <td>Kirsten Rat Sarcoma Viral Oncogene Homolog</td>
+                        </tr>
+                        <tr>
+                            <td><strong>brief_description</strong></td>
+                            <td>A canonical LUAD oncogene mentioned among top mutated genes, with particularly high mutation frequency in CS1 and discussion of possible KRAS-inhibitor relevance. The paper also notes mutual exclusivity between KRAS and TP53 in the cohort.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>citation_title</strong></td>
+                            <td>here</td>
+                        </tr>
+                        <tr>
+                            <td><strong>mention_or_use</strong></td>
+                            <td>use</td>
+                        </tr>
+                        <tr>
+                            <td><strong>driver_negative_definition</strong></td>
+                            <td>Not a driver-negative definition; KRAS is cited as a common LUAD driver and a possible source of hidden actionable biology in a subset of cases.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>candidate_driver_pathway_or_mechanism</strong></td>
+                            <td>Canonical RAS-pathway oncogene.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>alteration_or_activation_mode</strong></td>
+                            <td>Mutation.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>implicated_gene_axis_or_pathway</strong></td>
+                            <td>KRAS / RAS signaling.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>pathway_activation_evidence</strong></td>
+                            <td>KRAS was among the top five mutated genes; the paper reports KRAS and TP53 were mutually exclusive in mutation co-occurrence analysis.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>driver_negative_subtype</strong></td>
+                            <td>No dedicated driver-negative subtype; KRAS mutation was especially frequent in CS1 according to the discussion.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>clinical_or_exposure_context</strong></td>
+                            <td>Potentially linked to worse chemotherapy response and reduced EGFR-TKI efficacy in the discussion.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>cross_cancer_parallel</strong></td>
+                            <td>The discussion mentions KRAS inhibitor sotorasib as a possible comparator for LUAD therapy.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>therapeutic_vulnerability_or_implication</strong></td>
+                            <td>Possible responsiveness to KRAS inhibitor sotorasib; KRAS mutation may also imply unfavorable chemotherapy response and affect EGFR-TKI efficacy.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>validation_evidence_and_model_system</strong></td>
+                            <td>Subtype-level mutation analysis and literature citation; no direct KRAS inhibitor testing.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>driver_negative_scope_class</strong></td>
+                            <td>rtk_ras_raf_axis</td>
+                        </tr>
+                        <tr>
+                            <td><strong>excluded_driver_genes_and_alteration_types</strong></td>
+                            <td>None</td>
+                        </tr>
+                        <tr>
+                            <td><strong>negative_call_assay_stack</strong></td>
+                            <td><span class="empty-note">null</span></td>
+                        </tr>
+                        <tr>
+                            <td><strong>negative_call_confidence</strong></td>
+                            <td>medium</td>
+                        </tr>
+                        <tr>
+                            <td><strong>rescued_hidden_driver_after_deeper_testing</strong></td>
+                            <td>yes_specific_driver_found</td>
+                        </tr>
+                        <tr>
+                            <td><strong>primary_hidden_driver_mechanism_class</strong></td>
+                            <td>rare_coding_oncogene</td>
+                        </tr>
+                        <tr>
+                            <td><strong>secondary_mechanism_classes</strong></td>
+                            <td><span class="empty-note">null</span></td>
+                        </tr>
+                        <tr>
+                            <td><strong>mechanism_requires_specific_genetic_lesion</strong></td>
+                            <td>yes</td>
+                        </tr>
+                        <tr>
+                            <td><strong>mechanism_is_tumor_intrinsic_or_extrinsic</strong></td>
+                            <td>tumor_intrinsic</td>
+                        </tr>
+                        <tr>
+                            <td><strong>mechanism_biologic_level</strong></td>
+                            <td>dna</td>
+                        </tr>
+                        <tr>
+                            <td><strong>causal_evidence_tier</strong></td>
+                            <td>tier_1_genomic_or_correlative_only</td>
+                        </tr>
+                        <tr>
+                            <td><strong>evidence_modalities_present</strong></td>
+                            <td>somatic_mutation_profiling, co-occurrence_analysis, literature_support</td>
+                        </tr>
+                        <tr>
+                            <td><strong>therapeutic_actionability_evidence_tier</strong></td>
+                            <td>inferential_only</td>
+                        </tr>
+                        <tr>
+                            <td><strong>paper_claim_strength</strong></td>
+                            <td>biomarker_proposal</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>Potentially Relevant New Papers (mentioned by this paper)</h2>
+            <ol>
+                <li>Comprehensive molecular profiling of lung adenocarcinoma <em>(Rating: 2)</em></li>
+                <li>Analysis of lung adenocarcinoma subtypes based on immune signatures identifies clinical implications for cancer therapy <em>(Rating: 2)</em></li>
+                <li>Systematical identifications of prognostic meaningful lung adenocarcinoma subtypes and the underlying mutational and expressional characters <em>(Rating: 2)</em></li>
+                <li>Multi-omics analysis of genomics, epigenomics and transcriptomics for molecular subtypes and core genes for lung adenocarcinoma <em>(Rating: 2)</em></li>
+                <li>Gene expression classification of lung adenocarcinoma into molecular subtypes <em>(Rating: 1)</em></li>
+            </ol>
+        </div>
+
+        </div>
+
+    </div>
+</body>
+</html>

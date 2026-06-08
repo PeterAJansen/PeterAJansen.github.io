@@ -1,0 +1,763 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Extraction extraction-result-2272 - Theorizer</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+    <div class="header">
+        <a href="../index.html"><i class="fas fa-flask"></i> Theorizer</a>
+    </div>
+
+    <div class="content">
+        <h1>Extracted Data Details for extraction-result-2272</h1>
+
+        <div class="section">
+            <h2>Extracted Data (Header)</h2>
+            <div class="info-section">
+                <p><strong>Extraction ID:</strong> extraction-result-2272</p>
+                <p><strong>Extraction Schema Used (ID):</strong> <a href="../schemas/extraction-schema-1845.html">extraction-schema-1845</a></p>
+                <div class="extraction-query"><strong>Extraction Query:</strong> Extract any mentions of driver-negative or oncogene-negative lung adenocarcinoma cases, cohorts, models, or subgroups; the evidence for why they are considered driver-negative; candidate alternative drivers or mechanisms; proposed subtypes; validation strategies; comparisons to other cancers; and therapeutic implications.</div>
+                <p><strong>Paper ID:</strong> paper-a643b2b8206d3ac014ad901f3fc4b27f1c13e2e5</p>
+                <p><strong>Paper Title:</strong> <a href="https://www.semanticscholar.org/paper/a643b2b8206d3ac014ad901f3fc4b27f1c13e2e5" target="_blank">Co-occurring genomic alterations define major subsets of KRAS - mutant lung adenocarcinoma with distinct biology, immune profiles, and therapeutic vulnerabilities</a></p>
+                <p><strong>Paper Venue:</strong> Cancer Discovery</p>
+                <p><strong>Paper TL;DR:</strong> Evidence that co-occurring genomic alterations identify subgroups of KRAS-mutant LUAC with distinct biology and therapeutic vulnerabilities is provided, providing evidence that co-occurring genomic alterations identify subgroups of KRAS-mutant LUAC with distinct biology and therapeutic vulnerabilities.</p>
+                <p><strong>Paper Abstract:</strong> The molecular underpinnings that drive the heterogeneity of KRAS-mutant lung adenocarcinoma (LUAC) are poorly characterized. We performed an integrative analysis of genomic, transcriptomic and proteomic data from early-stage and chemo-refractory LUAC and identified three robust subsets of KRAS-mutant LUAC dominated, respectively, by co-occurring genetic events in STK11/LKB1 (the KL subgroup), TP53 (KP) and CDKN2A/B inactivation coupled with low expression of the NKX2-1 (TTF1) transcription factor (KC). We further reveal biologically and therapeutically relevant differences between the subgroups. KC tumors frequently exhibited mucinous histology and suppressed mTORC1 signaling. KL tumors had high rates of KEAP1 mutational inactivation and expressed lower levels of immune markers, including PD-L1. KP tumors demonstrated higher levels of somatic mutations, inflammatory markers, immune checkpoint effector molecules and improved relapse-free survival. Differences in drug sensitivity patterns were also observed; notably, KL cells showed increased vulnerability to HSP90-inhibitor therapy. This work provides evidence that co-occurring genomic alterations identify subgroups of KRAS-mutant LUAC with distinct biology and therapeutic vulnerabilities.</p>
+                <p><strong>Cost:</strong> 0.029</p>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>Extracted Data (Details)</h2>
+            <div class="extraction-instance-container" id="e2272.0">
+                <h3 class="extraction-instance">Extracted Data Instance 0 (e2272.0)</h3>
+                <div class="extraction-query"><strong>Extraction Query:</strong> Extract any mentions of driver-negative or oncogene-negative lung adenocarcinoma cases, cohorts, models, or subgroups; the evidence for why they are considered driver-negative; candidate alternative drivers or mechanisms; proposed subtypes; validation strategies; comparisons to other cancers; and therapeutic implications.</div>
+                <table>
+                    <thead>
+                        <tr>
+                            <th style="width: 30%;">Field</th>
+                            <th style="width: 70%;">Value</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><strong>name_short</strong></td>
+                            <td>KC subgroup</td>
+                        </tr>
+                        <tr>
+                            <td><strong>name_full</strong></td>
+                            <td>KRAS-mutant lung adenocarcinoma cluster with CDKN2A/B inactivation and low NKX2-1 (TTF1) expression</td>
+                        </tr>
+                        <tr>
+                            <td><strong>brief_description</strong></td>
+                            <td>A major KRAS-mutant LUAC subset defined by bi-allelic CDKN2A/CDKN2B loss/inactivation together with low TTF1/NKX2-1 expression. The paper frames this as a biologically distinct subgroup that often shows mucinous/GI-like differentiation and reduced mTORC1 signaling rather than a canonical oncogene-addicted state.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>citation_title</strong></td>
+                            <td>here</td>
+                        </tr>
+                        <tr>
+                            <td><strong>mention_or_use</strong></td>
+                            <td>use</td>
+                        </tr>
+                        <tr>
+                            <td><strong>cohort_or_model</strong></td>
+                            <td>TCGA KRAS-mutant LUAC training set (n=68) plus PROSPECT/Chitale chemotherapy-naïve validation cohorts and BATTLE-2 platinum-refractory cohort</td>
+                        </tr>
+                        <tr>
+                            <td><strong>cancer_context</strong></td>
+                            <td>lung adenocarcinoma, with emphasis on KRAS-mutant LUAC across early-stage, locally advanced, and metastatic platinum-refractory disease</td>
+                        </tr>
+                        <tr>
+                            <td><strong>driver_negative_definition</strong></td>
+                            <td>Not a classic driver-negative cohort; rather, many KC tumors lacked an obvious recurrent co-occurring genomic alteration besides KRAS mutation. The defining non-KRAS feature was low TTF1/NKX2-1 expression, with CDKN2A/B inactivation by bi-allelic deletion or mutation in a substantial fraction but not all cases.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>driver_negative_frequency</strong></td>
+                            <td>No explicit driver-negative percentage reported. The paper notes that many KC tumors did not have observable copy-number alterations in CDKN2A/CDKN2B; combined CDKN2A alterations were present in 7/15 KC tumors versus 1/23 KL and 5/30 KP in the TCGA cohort.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>profiling_modalities</strong></td>
+                            <td>RNA-seq/RNA expression arrays, RPPA proteomics, immunohistochemistry, somatic mutation profiling, copy-number analysis (GISTIC2.0/SNP arrays), miRNA profiling, GSEA</td>
+                        </tr>
+                        <tr>
+                            <td><strong>candidate_mechanism_category</strong></td>
+                            <td>lineage_factor_dependency</td>
+                        </tr>
+                        <tr>
+                            <td><strong>candidate_driver_or_mechanism</strong></td>
+                            <td>Low NKX2-1 (TTF1) expression with CDKN2A/B loss; GI-like differentiation program</td>
+                        </tr>
+                        <tr>
+                            <td><strong>mechanistic_description</strong></td>
+                            <td>Loss of the lung lineage factor TTF1/NKX2-1 is proposed to release repression of a latent gastric/gastrointestinal differentiation program, while CDKN2A/B loss may further impact differentiation state. The KC subgroup shows mucinous histology, elevated HNF4A/PDX1, HMGA2 upregulation, and reduced mTORC1 output.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>evidence_type</strong></td>
+                            <td>multiplatform expression/lineage-state association with orthogonal IHC and histology validation</td>
+                        </tr>
+                        <tr>
+                            <td><strong>key_evidence</strong></td>
+                            <td>TTF1 protein and mRNA were almost uniformly suppressed in KC tumors (protein P=3.78e-07; mRNA P=1.02e-09 in TCGA), confirmed in PROSPECT and BATTLE-2, and also by IHC. In TCGA, 6/15 KC tumors were invasive mucinous carcinomas; GI differentiation markers HNF4A and PDX1 were elevated, and mucin markers CK20, MUC5B, and AGR2 were upregulated.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>negative_or_counter_evidence</strong></td>
+                            <td>Many KC tumors lacked a single clear recurrent genomic alteration beyond low TTF1 expression, so the exact causal driver is not fully resolved. CDKN2A/B alterations were absent in a substantial fraction of KC tumors, and the paper does not functionally prove NKX2-1 loss is sufficient in human tumors.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>subtype_name</strong></td>
+                            <td>KC</td>
+                        </tr>
+                        <tr>
+                            <td><strong>subtype_features</strong></td>
+                            <td>CDKN2A/B inactivation; low NKX2-1/TTF1; mucinous histology; GI-like differentiation; elevated HNF4A, PDX1, HMGA2; reduced phospho-S6 and phospho-4EBP1; elevated wild-type p53 target transcripts; mixed immune picture</td>
+                        </tr>
+                        <tr>
+                            <td><strong>parallel_in_other_cancers</strong></td>
+                            <td>The paper compares the immune phenotype and relapse associations to colorectal cancer, and notes GEMM parallels in KRAS-driven murine lung cancer with Nkx2-1 loss producing mucinous adenocarcinoma.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>validation_approach</strong></td>
+                            <td>Orthogonal validation by RPPA, mRNA analysis, and IHC for TTF1; histologic review for mucinous subtype; GSEA for GI-like and p53-related signatures</td>
+                        </tr>
+                        <tr>
+                            <td><strong>validation_result</strong></td>
+                            <td>TTF1 suppression was replicated across TCGA, PROSPECT, and BATTLE-2, and IHC showed little to no staining in KC tumors. The lineage-state interpretation was supported by mucinous histology and GI-marker enrichment.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>therapeutic_implication</strong></td>
+                            <td>Potential biomarker-defined LUAC subtype; reduced mTORC1 signaling and lineage plasticity may indicate distinct vulnerabilities, but no direct therapeutic target was validated for this subgroup in the paper.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>therapeutic_evidence</strong></td>
+                            <td>The paper mainly provides biologic characterization rather than a KC-specific drug sensitivity result. It highlights suppressed mTORC1 signaling and suggests clinical biomarker use for identifying KC tumors.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>clinical_or_demographic_association</strong></td>
+                            <td>Often invasive mucinous carcinoma; cluster representation stable across disease stage; low TTF1 may aid pathological identification.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>study_limitations</strong></td>
+                            <td>Causal sufficiency of NKX2-1 loss and CDKN2A/B loss was not proven in human tumors; many KC tumors lacked detectable CDKN2A/B copy-number loss; no dedicated KC-targeted functional therapy screen was performed.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>driver_negativity_confidence</strong></td>
+                            <td>moderate</td>
+                        </tr>
+                        <tr>
+                            <td><strong>negative_status_basis</strong></td>
+                            <td>kras_mutant_noncanonical_lineage_state</td>
+                        </tr>
+                        <tr>
+                            <td><strong>tested_driver_classes</strong></td>
+                            <td>hotspot_snv_indel, exome_mutation, focal_amplification, broad_copy_number, protein_abundance, phosphoproteomics, epigenomics</td>
+                        </tr>
+                        <tr>
+                            <td><strong>untested_or_underpowered_driver_classes</strong></td>
+                            <td>fusion_rearrangement, exon_skipping_splicing, noncoding_regulatory</td>
+                        </tr>
+                        <tr>
+                            <td><strong>false_negative_rescue_evidence</strong></td>
+                            <td><span class="empty-note">null</span></td>
+                        </tr>
+                        <tr>
+                            <td><strong>sample_purity_detection_limit_issue</strong></td>
+                            <td>none explicitly discussed for KC; note that many tumors lacked observable CDKN2A/CDKN2B copy-number alterations despite the subtype definition</td>
+                        </tr>
+                        <tr>
+                            <td><strong>mapk_output_state</strong></td>
+                            <td>unresolved</td>
+                        </tr>
+                        <tr>
+                            <td><strong>pi3k_akt_mtor_output_state</strong></td>
+                            <td>low</td>
+                        </tr>
+                        <tr>
+                            <td><strong>rtk_or_her_family_activation_state</strong></td>
+                            <td>unclear</td>
+                        </tr>
+                        <tr>
+                            <td><strong>signaling_readout_assay</strong></td>
+                            <td>RPPA phosphoproteomics (phospho-S6 Ser240/244, phospho-4EBP1 Thr37; PI3K score)</td>
+                        </tr>
+                        <tr>
+                            <td><strong>genome_protein_discordance_flag</strong></td>
+                            <td>yes</td>
+                        </tr>
+                        <tr>
+                            <td><strong>driver_mechanism_route</strong></td>
+                            <td>lineage_factor_dependency</td>
+                        </tr>
+                        <tr>
+                            <td><strong>altered_molecular_layer</strong></td>
+                            <td>protein_abundance</td>
+                        </tr>
+                        <tr>
+                            <td><strong>functional_consequence_type</strong></td>
+                            <td>transcriptional_reprogramming</td>
+                        </tr>
+                        <tr>
+                            <td><strong>canonical_pathway_reinstatement_flag</strong></td>
+                            <td>no</td>
+                        </tr>
+                        <tr>
+                            <td><strong>alternative_driver_axis</strong></td>
+                            <td>lineage_plasticity</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="extraction-instance-container" id="e2272.1">
+                <h3 class="extraction-instance">Extracted Data Instance 1 (e2272.1)</h3>
+                <div class="extraction-query"><strong>Extraction Query:</strong> Extract any mentions of driver-negative or oncogene-negative lung adenocarcinoma cases, cohorts, models, or subgroups; the evidence for why they are considered driver-negative; candidate alternative drivers or mechanisms; proposed subtypes; validation strategies; comparisons to other cancers; and therapeutic implications.</div>
+                <table>
+                    <thead>
+                        <tr>
+                            <th style="width: 30%;">Field</th>
+                            <th style="width: 70%;">Value</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><strong>name_short</strong></td>
+                            <td>KL subgroup</td>
+                        </tr>
+                        <tr>
+                            <td><strong>name_full</strong></td>
+                            <td>KRAS-mutant lung adenocarcinoma cluster with STK11/LKB1 inactivation</td>
+                        </tr>
+                        <tr>
+                            <td><strong>brief_description</strong></td>
+                            <td>A major KRAS-mutant LUAC subset dominated by STK11/LKB1 loss and frequently co-mutated with KEAP1, with functional inactivation of the LKB1-AMPK axis even in some STK11-wild-type tumors. The subgroup shows oxidative, proteotoxic, and energetic stress-adaptation programs and relative immune inertness.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>citation_title</strong></td>
+                            <td>here</td>
+                        </tr>
+                        <tr>
+                            <td><strong>mention_or_use</strong></td>
+                            <td>use</td>
+                        </tr>
+                        <tr>
+                            <td><strong>cohort_or_model</strong></td>
+                            <td>TCGA KRAS-mutant LUACs; PROSPECT/Chitale chemotherapy-naïve validation cohort; BATTLE-2 platinum-refractory cohort; isogenic KRAS-mutant NSCLC cell lines</td>
+                        </tr>
+                        <tr>
+                            <td><strong>cancer_context</strong></td>
+                            <td>lung adenocarcinoma, KRAS-mutant disease, including early-stage and metastatic platinum-refractory settings</td>
+                        </tr>
+                        <tr>
+                            <td><strong>driver_negative_definition</strong></td>
+                            <td>Not oncogene-negative, but a KRAS-driven subgroup in which many tumors lack another canonical co-driver detectable by sequencing and instead show pathway-level LKB1-AMPK inactivation; some cases are STK11-mutation negative yet functionally LKB1-deficient.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>driver_negative_frequency</strong></td>
+                            <td>No driver-negative prevalence reported. The paper states that LKB1-mutation-negative KL tumors often still showed reduced LKB1 protein/mRNA and copy-loss at the STK11 locus; KEAP1 alterations were also common in KL.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>profiling_modalities</strong></td>
+                            <td>RNA expression profiling, RPPA proteomics, somatic mutation profiling, copy-number analysis, clonality analysis, GSEA, miRNA profiling, drug sensitivity assays, Western blotting, qRT-PCR</td>
+                        </tr>
+                        <tr>
+                            <td><strong>candidate_mechanism_category</strong></td>
+                            <td>truncating_tumor_suppressor_loss</td>
+                        </tr>
+                        <tr>
+                            <td><strong>candidate_driver_or_mechanism</strong></td>
+                            <td>STK11/LKB1 loss with KEAP1/NRF2 activation and UPR/oxidative stress adaptation</td>
+                        </tr>
+                        <tr>
+                            <td><strong>mechanistic_description</strong></td>
+                            <td>Loss of STK11/LKB1 inactivates the LKB1-AMPK axis, altering metabolism, mTORC1 output, and stress responses. Frequent KEAP1 loss activates NRF2-mediated antioxidant and cytoprotective transcription, and the subgroup also shows unfolded protein response/ER chaperone upregulation.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>evidence_type</strong></td>
+                            <td>recurrent alteration plus pathway enrichment and functional drug-sensitivity validation</td>
+                        </tr>
+                        <tr>
+                            <td><strong>key_evidence</strong></td>
+                            <td>STK11/LKB1 co-mutations were the most significantly enriched event in KL (P=1.03e-05). LKB1 protein and phospho-AMPK Thr172 were reduced in KL; LKB1-mutation-negative KL tumors still had lower LKB1 mRNA/protein and more copy-number loss at STK11. KEAP1 and NRF2 signatures were enriched, and KL cells showed increased HSP90-inhibitor sensitivity.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>negative_or_counter_evidence</strong></td>
+                            <td>Not all KL tumors had detectable STK11 mutation, and some mechanistic conclusions rely on pathway signatures rather than direct causal intervention in primary tumors. KEAP1 was not uniformly mutated, implying additional mechanisms of NRF2 activation.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>subtype_name</strong></td>
+                            <td>KL</td>
+                        </tr>
+                        <tr>
+                            <td><strong>subtype_features</strong></td>
+                            <td>STK11/LKB1 inactivation; frequent KEAP1 co-mutation; low LKB1 and phospho-AMPK; NRF2 antioxidant program; UPR/ER chaperones; altered bioenergetics; low immune engagement; HSP90 vulnerability</td>
+                        </tr>
+                        <tr>
+                            <td><strong>parallel_in_other_cancers</strong></td>
+                            <td>The paper analogizes to genetically engineered murine NSCLC with Stk11/Lkb1 inactivation and to tuberous sclerosis/UPR biology via mTORC1-related stress responses.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>validation_approach</strong></td>
+                            <td>Cross-cohort mutation enrichment analysis; orthogonal mRNA/protein/RPPA validation; copy-number analysis; isogenic rescue and knockdown experiments; drug sensitivity assays in cell lines</td>
+                        </tr>
+                        <tr>
+                            <td><strong>validation_result</strong></td>
+                            <td>The KL subtype was reproduced in PROSPECT and BATTLE-2. LKB1 re-expression in deficient cell lines increased HSP90 IC50, while LKB1 knockdown increased sensitivity, supporting a direct role for LKB1 loss.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>therapeutic_implication</strong></td>
+                            <td>HSP90 inhibition as a therapeutic vulnerability; potential targeting of NRF2-mediated antioxidant responses and UPR pathways in LKB1-deficient tumors</td>
+                        </tr>
+                        <tr>
+                            <td><strong>therapeutic_evidence</strong></td>
+                            <td>KL^m^/KPL^m^ cell lines were more sensitive to 17-AAG, ganetespib, and AUY922 than KP^m^ lines; dicumarol reduced 17-AAG sensitivity; ganetespib suppressed c-MYC, HIF-1 target CA9, mTORC1, MAPK, SRC, CHK1, IRE1A, and PERK.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>clinical_or_demographic_association</strong></td>
+                            <td>Enriched among chemo-naïve and metastatic cohorts; often immune-inert; relapse-free survival worse than KP; may include tumors with functional LKB1 inactivation despite wild-type STK11 sequence.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>study_limitations</strong></td>
+                            <td>Some KL tumors are STK11-wild type but functionally LKB1-deficient, making genomic assignment incomplete; drug findings are preclinical; cohort sizes for some validations are small.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>driver_negativity_confidence</strong></td>
+                            <td>moderate</td>
+                        </tr>
+                        <tr>
+                            <td><strong>negative_status_basis</strong></td>
+                            <td>kras_mutant_lkb1_functional_loss</td>
+                        </tr>
+                        <tr>
+                            <td><strong>tested_driver_classes</strong></td>
+                            <td>hotspot_snv_indel, exome_mutation, focal_amplification, broad_copy_number, protein_abundance, phosphoproteomics, noncoding_regulatory</td>
+                        </tr>
+                        <tr>
+                            <td><strong>untested_or_underpowered_driver_classes</strong></td>
+                            <td>fusion_rearrangement, exon_skipping_splicing, genome_mutation</td>
+                        </tr>
+                        <tr>
+                            <td><strong>false_negative_rescue_evidence</strong></td>
+                            <td>functional_stk11_loss_detected_in_stk11_wild_type_cases via low LKB1 protein/mRNA and copy-loss at STK11 locus</td>
+                        </tr>
+                        <tr>
+                            <td><strong>sample_purity_detection_limit_issue</strong></td>
+                            <td>none explicitly noted as a driver-detection limitation; the paper emphasizes that some STK11-wild type tumors nevertheless show functional pathway loss</td>
+                        </tr>
+                        <tr>
+                            <td><strong>mapk_output_state</strong></td>
+                            <td>mixed</td>
+                        </tr>
+                        <tr>
+                            <td><strong>pi3k_akt_mtor_output_state</strong></td>
+                            <td>mixed</td>
+                        </tr>
+                        <tr>
+                            <td><strong>rtk_or_her_family_activation_state</strong></td>
+                            <td>unclear</td>
+                        </tr>
+                        <tr>
+                            <td><strong>signaling_readout_assay</strong></td>
+                            <td>RPPA phosphoproteomics (phospho-AMPK Thr172, phospho-S6, phospho-4EBP1, phospho-ERK1/2), Western blotting</td>
+                        </tr>
+                        <tr>
+                            <td><strong>genome_protein_discordance_flag</strong></td>
+                            <td>yes</td>
+                        </tr>
+                        <tr>
+                            <td><strong>driver_mechanism_route</strong></td>
+                            <td>truncating_tumor_suppressor_loss</td>
+                        </tr>
+                        <tr>
+                            <td><strong>altered_molecular_layer</strong></td>
+                            <td>protein_abundance</td>
+                        </tr>
+                        <tr>
+                            <td><strong>functional_consequence_type</strong></td>
+                            <td>loss_of_negative_regulation</td>
+                        </tr>
+                        <tr>
+                            <td><strong>canonical_pathway_reinstatement_flag</strong></td>
+                            <td>no</td>
+                        </tr>
+                        <tr>
+                            <td><strong>alternative_driver_axis</strong></td>
+                            <td>metabolic_stress</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="extraction-instance-container" id="e2272.2">
+                <h3 class="extraction-instance">Extracted Data Instance 2 (e2272.2)</h3>
+                <div class="extraction-query"><strong>Extraction Query:</strong> Extract any mentions of driver-negative or oncogene-negative lung adenocarcinoma cases, cohorts, models, or subgroups; the evidence for why they are considered driver-negative; candidate alternative drivers or mechanisms; proposed subtypes; validation strategies; comparisons to other cancers; and therapeutic implications.</div>
+                <table>
+                    <thead>
+                        <tr>
+                            <th style="width: 30%;">Field</th>
+                            <th style="width: 70%;">Value</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><strong>name_short</strong></td>
+                            <td>KP subgroup</td>
+                        </tr>
+                        <tr>
+                            <td><strong>name_full</strong></td>
+                            <td>KRAS-mutant lung adenocarcinoma cluster with TP53 co-mutation</td>
+                        </tr>
+                        <tr>
+                            <td><strong>brief_description</strong></td>
+                            <td>A major KRAS-mutant LUAC subset dominated by TP53 co-mutation, higher overall mutational burden, and strong inflammatory/immune checkpoint signatures. The paper links this group to improved relapse-free survival and potential sensitivity to immune checkpoint blockade.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>citation_title</strong></td>
+                            <td>here</td>
+                        </tr>
+                        <tr>
+                            <td><strong>mention_or_use</strong></td>
+                            <td>use</td>
+                        </tr>
+                        <tr>
+                            <td><strong>cohort_or_model</strong></td>
+                            <td>TCGA KRAS-mutant LUACs; PROSPECT/Chitale validation cohort; BATTLE-2 platinum-refractory cohort; KRAS-mutant NSCLC cell lines</td>
+                        </tr>
+                        <tr>
+                            <td><strong>cancer_context</strong></td>
+                            <td>lung adenocarcinoma, KRAS-mutant disease across early-stage and metastatic platinum-refractory cohorts</td>
+                        </tr>
+                        <tr>
+                            <td><strong>driver_negative_definition</strong></td>
+                            <td>Not a driver-negative cohort. KP is a KRAS-driven subgroup in which TP53 is the dominant co-occurring alteration; the paper contrasts this biology with other KRAS subgroups rather than defining oncogene-negative tumors.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>driver_negative_frequency</strong></td>
+                            <td>No driver-negative prevalence reported. The paper notes KP tumors have higher somatic mutation load than KL despite similar smoking exposure.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>profiling_modalities</strong></td>
+                            <td>RNA expression profiling, RPPA proteomics, somatic mutation profiling, copy-number analysis, miRNA profiling, GSEA, IPA, IHC</td>
+                        </tr>
+                        <tr>
+                            <td><strong>candidate_mechanism_category</strong></td>
+                            <td>truncating_tumor_suppressor_loss</td>
+                        </tr>
+                        <tr>
+                            <td><strong>candidate_driver_or_mechanism</strong></td>
+                            <td>TP53 loss/inactivation with inflammatory and immunoediting programs</td>
+                        </tr>
+                        <tr>
+                            <td><strong>mechanistic_description</strong></td>
+                            <td>TP53-mutant tumors show higher mutational burden, inflammatory signaling, and immune checkpoint expression, consistent with immunoediting and a tumor-immune interaction state that may favor checkpoint blockade responsiveness.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>evidence_type</strong></td>
+                            <td>recurrent alteration plus immune-pathway enrichment and prognostic association</td>
+                        </tr>
+                        <tr>
+                            <td><strong>key_evidence</strong></td>
+                            <td>TP53 co-mutations were the most significantly enriched event in KP (P=3.8e-06). KP tumors had higher overall mutation load, enriched inflammatory and immune-tolerance/escape gene sets, increased PD-L1/PD-1/CTLA-4 expression, and longer relapse-free survival versus KL/KC.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>negative_or_counter_evidence</strong></td>
+                            <td>The paper does not functionally prove TP53 loss is the sole cause of the immune phenotype. In the heavily pretreated BATTLE-2 cohort, triple-mutant KRAS/STK11/TP53 tumors were more frequent, complicating simple subtype boundaries.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>subtype_name</strong></td>
+                            <td>KP</td>
+                        </tr>
+                        <tr>
+                            <td><strong>subtype_features</strong></td>
+                            <td>TP53 co-mutation; higher mutation burden; inflammatory and interferon signatures; PD-L1/PD-1/CTLA-4 expression; dense lymphocyte infiltration trend; improved relapse-free survival</td>
+                        </tr>
+                        <tr>
+                            <td><strong>parallel_in_other_cancers</strong></td>
+                            <td>The paper explicitly compares the immune-signal/prognostic relationship to colorectal cancer, where tumor-infiltrating T cells correlate with better outcomes.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>validation_approach</strong></td>
+                            <td>Cross-cohort mutation enrichment, GSEA/IPA, PD-L1 IHC and mRNA validation, survival analysis</td>
+                        </tr>
+                        <tr>
+                            <td><strong>validation_result</strong></td>
+                            <td>The KP immune phenotype was reproduced in PROSPECT and BATTLE-2, with higher PD-L1 mRNA and IHC scores in KP than KL and longer RFS in PROSPECT.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>therapeutic_implication</strong></td>
+                            <td>Potential sensitivity to immune checkpoint blockade, including PD-L1, PD-1, and CTLA-4 inhibitors</td>
+                        </tr>
+                        <tr>
+                            <td><strong>therapeutic_evidence</strong></td>
+                            <td>KP tumors expressed higher levels of PD-L1, PD-1, and CTLA-4, and the authors cite preclinical support for checkpoint therapy in this setting.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>clinical_or_demographic_association</strong></td>
+                            <td>Associated with higher mutation load despite similar smoking exposure; improved relapse-free survival after surgery; immune-inflamed phenotype</td>
+                        </tr>
+                        <tr>
+                            <td><strong>study_limitations</strong></td>
+                            <td>Prospective validation is needed; survival analysis had limited sample size; mechanistic immunoediting conclusions are indirect.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>driver_negativity_confidence</strong></td>
+                            <td>moderate</td>
+                        </tr>
+                        <tr>
+                            <td><strong>negative_status_basis</strong></td>
+                            <td>kras_mutant_tp53_co_mutant</td>
+                        </tr>
+                        <tr>
+                            <td><strong>tested_driver_classes</strong></td>
+                            <td>hotspot_snv_indel, exome_mutation, focal_amplification, broad_copy_number, protein_abundance, phosphoproteomics, epigenomics</td>
+                        </tr>
+                        <tr>
+                            <td><strong>untested_or_underpowered_driver_classes</strong></td>
+                            <td>fusion_rearrangement, exon_skipping_splicing, noncoding_regulatory</td>
+                        </tr>
+                        <tr>
+                            <td><strong>false_negative_rescue_evidence</strong></td>
+                            <td><span class="empty-note">null</span></td>
+                        </tr>
+                        <tr>
+                            <td><strong>sample_purity_detection_limit_issue</strong></td>
+                            <td>none explicitly discussed</td>
+                        </tr>
+                        <tr>
+                            <td><strong>mapk_output_state</strong></td>
+                            <td>unresolved</td>
+                        </tr>
+                        <tr>
+                            <td><strong>pi3k_akt_mtor_output_state</strong></td>
+                            <td>mixed</td>
+                        </tr>
+                        <tr>
+                            <td><strong>rtk_or_her_family_activation_state</strong></td>
+                            <td>unclear</td>
+                        </tr>
+                        <tr>
+                            <td><strong>signaling_readout_assay</strong></td>
+                            <td>RPPA phosphoproteomics, RNA signatures, IHC for PD-L1</td>
+                        </tr>
+                        <tr>
+                            <td><strong>genome_protein_discordance_flag</strong></td>
+                            <td>no</td>
+                        </tr>
+                        <tr>
+                            <td><strong>driver_mechanism_route</strong></td>
+                            <td>truncating_tumor_suppressor_loss</td>
+                        </tr>
+                        <tr>
+                            <td><strong>altered_molecular_layer</strong></td>
+                            <td>dna_sequence</td>
+                        </tr>
+                        <tr>
+                            <td><strong>functional_consequence_type</strong></td>
+                            <td>immune_exclusion</td>
+                        </tr>
+                        <tr>
+                            <td><strong>canonical_pathway_reinstatement_flag</strong></td>
+                            <td>no</td>
+                        </tr>
+                        <tr>
+                            <td><strong>alternative_driver_axis</strong></td>
+                            <td>immune</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="extraction-instance-container" id="e2272.3">
+                <h3 class="extraction-instance">Extracted Data Instance 3 (e2272.3)</h3>
+                <div class="extraction-query"><strong>Extraction Query:</strong> Extract any mentions of driver-negative or oncogene-negative lung adenocarcinoma cases, cohorts, models, or subgroups; the evidence for why they are considered driver-negative; candidate alternative drivers or mechanisms; proposed subtypes; validation strategies; comparisons to other cancers; and therapeutic implications.</div>
+                <table>
+                    <thead>
+                        <tr>
+                            <th style="width: 30%;">Field</th>
+                            <th style="width: 70%;">Value</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><strong>name_short</strong></td>
+                            <td>KRAS-allele analysis</td>
+                        </tr>
+                        <tr>
+                            <td><strong>name_full</strong></td>
+                            <td>Assessment of common KRAS amino-acid substitutions across expression subgroups</td>
+                        </tr>
+                        <tr>
+                            <td><strong>brief_description</strong></td>
+                            <td>The paper explicitly tests whether particular KRAS alleles explain subgrouping and finds no evidence for enrichment of specific amino-acid substitutions across KC, KL, and KP. This functions as a negative result against a simple KRAS-allele-defined driver model.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>citation_title</strong></td>
+                            <td>here</td>
+                        </tr>
+                        <tr>
+                            <td><strong>mention_or_use</strong></td>
+                            <td>use</td>
+                        </tr>
+                        <tr>
+                            <td><strong>cohort_or_model</strong></td>
+                            <td>TCGA KRAS-mutant LUACs and validation cohorts</td>
+                        </tr>
+                        <tr>
+                            <td><strong>cancer_context</strong></td>
+                            <td>KRAS-mutant lung adenocarcinoma</td>
+                        </tr>
+                        <tr>
+                            <td><strong>driver_negative_definition</strong></td>
+                            <td>Specific KRAS codon-12 alleles were compared across subgroups; lack of enrichment means subgrouping is not explained by allele-specific KRAS dependence.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>driver_negative_frequency</strong></td>
+                            <td>Not applicable; this is a negative comparison rather than a driver-negative cohort.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>profiling_modalities</strong></td>
+                            <td>Somatic mutation profiling, statistical enrichment testing</td>
+                        </tr>
+                        <tr>
+                            <td><strong>candidate_mechanism_category</strong></td>
+                            <td>null negative finding</td>
+                        </tr>
+                        <tr>
+                            <td><strong>candidate_driver_or_mechanism</strong></td>
+                            <td>No specific KRAS amino-acid substitution was supported as the driver of subgroup identity</td>
+                        </tr>
+                        <tr>
+                            <td><strong>mechanistic_description</strong></td>
+                            <td>The authors initially hypothesized that allele-specific KRAS substitutions might underlie diversity, but did not observe consistent subgroup enrichment for KRAS G12C, G12V, or G12D.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>evidence_type</strong></td>
+                            <td>negative association test</td>
+                        </tr>
+                        <tr>
+                            <td><strong>key_evidence</strong></td>
+                            <td>Comparison of KRAS G12C, G12V, G12D, and other grouped alleles across clusters showed no evidence of enrichment (p=0.3). In the validation cohort, allele distribution was again not different (P=0.338).</td>
+                        </tr>
+                        <tr>
+                            <td><strong>negative_or_counter_evidence</strong></td>
+                            <td>The paper does not exclude more subtle KRAS functional differences beyond these common allele groups, only that they do not explain the major subgroup structure.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>subtype_name</strong></td>
+                            <td><span class="empty-note">null</span></td>
+                        </tr>
+                        <tr>
+                            <td><strong>subtype_features</strong></td>
+                            <td>No cluster-specific KRAS allele enrichment</td>
+                        </tr>
+                        <tr>
+                            <td><strong>parallel_in_other_cancers</strong></td>
+                            <td><span class="empty-note">null</span></td>
+                        </tr>
+                        <tr>
+                            <td><strong>validation_approach</strong></td>
+                            <td>Cross-cohort allele distribution comparison</td>
+                        </tr>
+                        <tr>
+                            <td><strong>validation_result</strong></td>
+                            <td>No consistent association between allele class and expression cluster membership was found.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>therapeutic_implication</strong></td>
+                            <td>Suggests therapy should not be stratified solely by common KRAS codon-12 allele class in this disease setting.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>therapeutic_evidence</strong></td>
+                            <td>No allele-specific enrichment across major subgroups; therefore allele alone is insufficient as a predictive biomarker here.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>clinical_or_demographic_association</strong></td>
+                            <td>None reported</td>
+                        </tr>
+                        <tr>
+                            <td><strong>study_limitations</strong></td>
+                            <td>Only common allele classes were emphasized; rare KRAS alleles were not the focus.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>driver_negativity_confidence</strong></td>
+                            <td>not_applicable</td>
+                        </tr>
+                        <tr>
+                            <td><strong>negative_status_basis</strong></td>
+                            <td>n/a</td>
+                        </tr>
+                        <tr>
+                            <td><strong>tested_driver_classes</strong></td>
+                            <td>hotspot_snv_indel</td>
+                        </tr>
+                        <tr>
+                            <td><strong>untested_or_underpowered_driver_classes</strong></td>
+                            <td>fusion_rearrangement, exon_skipping_splicing, focal_amplification, broad_copy_number, noncoding_regulatory</td>
+                        </tr>
+                        <tr>
+                            <td><strong>false_negative_rescue_evidence</strong></td>
+                            <td><span class="empty-note">null</span></td>
+                        </tr>
+                        <tr>
+                            <td><strong>sample_purity_detection_limit_issue</strong></td>
+                            <td>none</td>
+                        </tr>
+                        <tr>
+                            <td><strong>mapk_output_state</strong></td>
+                            <td>unresolved</td>
+                        </tr>
+                        <tr>
+                            <td><strong>pi3k_akt_mtor_output_state</strong></td>
+                            <td>unresolved</td>
+                        </tr>
+                        <tr>
+                            <td><strong>rtk_or_her_family_activation_state</strong></td>
+                            <td>unclear</td>
+                        </tr>
+                        <tr>
+                            <td><strong>signaling_readout_assay</strong></td>
+                            <td>Somatic allele frequency comparison</td>
+                        </tr>
+                        <tr>
+                            <td><strong>genome_protein_discordance_flag</strong></td>
+                            <td>no</td>
+                        </tr>
+                        <tr>
+                            <td><strong>driver_mechanism_route</strong></td>
+                            <td>activating_point_mutation</td>
+                        </tr>
+                        <tr>
+                            <td><strong>altered_molecular_layer</strong></td>
+                            <td>dna_sequence</td>
+                        </tr>
+                        <tr>
+                            <td><strong>functional_consequence_type</strong></td>
+                            <td>pathway_activation</td>
+                        </tr>
+                        <tr>
+                            <td><strong>canonical_pathway_reinstatement_flag</strong></td>
+                            <td>yes</td>
+                        </tr>
+                        <tr>
+                            <td><strong>alternative_driver_axis</strong></td>
+                            <td><span class="empty-note">null</span></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>Potentially Relevant New Papers (mentioned by this paper)</h2>
+            <ol>
+                <li>Nullifying the CDKN2AB locus promotes mutant K-ras lung tumorigenesis <em>(Rating: 2)</em></li>
+                <li>NKx2-1 represses a latent gastric differentiation program in lung adenocarcinoma <em>(Rating: 2)</em></li>
+                <li>LKB1 loss induces characteristic patterns of gene expression in human tumors associated with NRF2 activation and attenuation of PI3K-AKT <em>(Rating: 1)</em></li>
+                <li>LKB1 modulates lung cancer differentiation and metastasis <em>(Rating: 1)</em></li>
+            </ol>
+        </div>
+
+        </div>
+
+    </div>
+</body>
+</html>

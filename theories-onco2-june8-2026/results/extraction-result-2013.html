@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Extraction extraction-result-2013 - Theorizer</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+    <div class="header">
+        <a href="../index.html"><i class="fas fa-flask"></i> Theorizer</a>
+    </div>
+
+    <div class="content">
+        <h1>Extracted Data Details for extraction-result-2013</h1>
+
+        <div class="section">
+            <h2>Extracted Data (Header)</h2>
+            <div class="info-section">
+                <p><strong>Extraction ID:</strong> extraction-result-2013</p>
+                <p><strong>Extraction Schema Used (ID):</strong> <a href="../schemas/extraction-schema-1842.html">extraction-schema-1842</a></p>
+                <div class="extraction-query"><strong>Extraction Query:</strong> Extract any mentions of hidden drivers, pathway states, subtype structure, validation evidence, and therapeutic implications in oncogene-negative or driver-negative lung adenocarcinoma.</div>
+                <p><strong>Paper ID:</strong> paper-8c3b025b441f5771d830bc9e456002c788cb061e</p>
+                <p><strong>Paper Title:</strong> <a href="https://www.semanticscholar.org/paper/8c3b025b441f5771d830bc9e456002c788cb061e" target="_blank">Mapping the in vivo fitness landscape of lung adenocarcinoma tumor suppression in mice</a></p>
+                <p><strong>Paper Venue:</strong> Nature Genetics</p>
+                <p><strong>Paper TL;DR:</strong> This work integrates tumor barcoding, CRISPR/Cas9-mediated genome editing and ultra-deep barcode sequencing to interrogate pairwise combinations of tumor suppressor alterations in autochthonous mouse models of human lung adenocarcinoma to identify a landscape of context dependence and differential effect strengths.</p>
+                <p><strong>Paper Abstract:</strong> The functional impact of most genomic alterations found in cancer, alone or in combination, remains largely unknown. Here we integrate tumor barcoding, CRISPR/Cas9-mediated genome editing and ultra-deep barcode sequencing to interrogate pairwise combinations of tumor suppressor alterations in autochthonous mouse models of human lung adenocarcinoma. We map the tumor suppressive effects of 31 common lung adenocarcinoma genotypes and identify a landscape of context dependence and differential effect strengths. In vivo analysis of pairwise combinations of tumor suppressor losses using a barcode-based assay in mice identifies unpredicted genetic interactions and shows that the effects of tumor suppressor alterations can be context-dependent.</p>
+                <p><strong>Cost:</strong> 0.014</p>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>Extracted Data (Details)</h2>
+            <div class="extraction-instance-container" id="e2013.0">
+                <h3 class="extraction-instance">Extracted Data Instance 0 (e2013.0)</h3>
+                <div class="extraction-query"><strong>Extraction Query:</strong> Extract any mentions of hidden drivers, pathway states, subtype structure, validation evidence, and therapeutic implications in oncogene-negative or driver-negative lung adenocarcinoma.</div>
+                <table>
+                    <thead>
+                        <tr>
+                            <th style="width: 30%;">Field</th>
+                            <th style="width: 70%;">Value</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><strong>name_short</strong></td>
+                            <td>TP53</td>
+                        </tr>
+                        <tr>
+                            <td><strong>name_full</strong></td>
+                            <td>Tumor protein p53</td>
+                        </tr>
+                        <tr>
+                            <td><strong>brief_description</strong></td>
+                            <td>A canonical tumor suppressor that the paper studies as a context-shaping alteration in lung adenocarcinoma. TP53 loss changes the fitness effects of additional tumor suppressor inactivation, enabling more alterations to become adaptive and altering the magnitude of growth advantages conferred by other losses.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>citation_title</strong></td>
+                            <td>Mapping the in vivo fitness landscape of lung adenocarcinoma tumor suppression in mice</td>
+                        </tr>
+                        <tr>
+                            <td><strong>mention_or_use</strong></td>
+                            <td>use</td>
+                        </tr>
+                        <tr>
+                            <td><strong>driver_negative_definition</strong></td>
+                            <td>The paper does not define a classic 'driver-negative' oncogene-negative LUAD cohort; instead, it analyzes tumors driven by KrasG12D and then asks which additional tumor suppressor losses are adaptive. In this framework, tumors lacking TP53 are a context in which other alterations can become functionally important, but the study does not operationalize driver-negative status as absence of known oncogenic drivers by sequencing.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>candidate_driver_pathway_or_mechanism</strong></td>
+                            <td>Tumor suppressor-loss context dependence / hidden fitness landscape rather than a single hidden oncogene. TP53 loss is proposed to potentiate subsequent tumor evolution by making more mutations adaptive.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>alteration_or_activation_mode</strong></td>
+                            <td>Combinatorial co-loss of a major tumor suppressor, TP53, altering the fitness effects of other alterations.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>implicated_gene_axis_or_pathway</strong></td>
+                            <td>TP53-centered tumor suppressor pathway interactions, especially complementary interaction with the RB1 pathway.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>pathway_activation_evidence</strong></td>
+                            <td>Fitness effects measured by Tuba-seq showed that in Trp53-deficient tumors, Rb1 loss conferred a much stronger growth advantage than in Trp53-proficient tumors. The paper also reports enrichment of TP53 and RB1 co-alterations in human LUAD, consistent with the inferred pathway interaction; it does not provide phospho-pathway readouts such as pERK or pAKT.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>driver_negative_subtype</strong></td>
+                            <td>No explicit subtype label is proposed for driver-negative LUAD. The closest implicit state is a Trp53-deficient context in which the set of adaptive tumor suppressor alterations expands.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>clinical_or_exposure_context</strong></td>
+                            <td>Human lung adenocarcinomas with TP53/RB1 co-alterations are enriched in TCGA and GENIE datasets. The paper links this altered landscape to potential evolution toward treatment resistance and metastasis, but does not specify smoking or histologic subgroups for this interaction.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>cross_cancer_parallel</strong></td>
+                            <td>The authors frame TP53 deficiency as a general evolutionary potentiator that can increase predictability loss and facilitate treatment resistance and metastasis, concepts broadly relevant across cancers rather than being unique to lung adenocarcinoma.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>therapeutic_vulnerability_or_implication</strong></td>
+                            <td>Suggests that TP53 loss can change which secondary alterations matter for tumor growth and may affect subsequent therapeutic resistance. The paper does not test a drug directly, but implies that pathway-context-aware targeting of RB1-linked cell-cycle control could be relevant.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>validation_evidence_and_model_system</strong></td>
+                            <td>Validated in autochthonous GEMMs using Tuba-seq in KT;Cas9 and KPT;Cas9 mice, with independent confirmation using conventional Cre/loxP mouse models for Trp53 and Rb1 loss. Human TCGA and GENIE co-occurrence analysis provides external genomic support.</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="extraction-instance-container" id="e2013.1">
+                <h3 class="extraction-instance">Extracted Data Instance 1 (e2013.1)</h3>
+                <div class="extraction-query"><strong>Extraction Query:</strong> Extract any mentions of hidden drivers, pathway states, subtype structure, validation evidence, and therapeutic implications in oncogene-negative or driver-negative lung adenocarcinoma.</div>
+                <table>
+                    <thead>
+                        <tr>
+                            <th style="width: 30%;">Field</th>
+                            <th style="width: 70%;">Value</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><strong>name_short</strong></td>
+                            <td>RB1</td>
+                        </tr>
+                        <tr>
+                            <td><strong>name_full</strong></td>
+                            <td>RB transcriptional corepressor 1</td>
+                        </tr>
+                        <tr>
+                            <td><strong>brief_description</strong></td>
+                            <td>A tumor suppressor whose loss is adaptive in multiple genetic contexts and whose effect is strongly enhanced by TP53 deficiency. The paper uses RB1 as a key example of a context-dependent tumor suppressor alteration that maps onto a major cell-cycle pathway.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>citation_title</strong></td>
+                            <td>Mapping the in vivo fitness landscape of lung adenocarcinoma tumor suppression in mice</td>
+                        </tr>
+                        <tr>
+                            <td><strong>mention_or_use</strong></td>
+                            <td>use</td>
+                        </tr>
+                        <tr>
+                            <td><strong>driver_negative_definition</strong></td>
+                            <td>Not a driver-negative definition per se, but RB1 loss is examined among putative tumor suppressor alterations in Kras-driven LUAD. Its importance emerges especially when canonical drivers or suppressors are not the sole determinants of growth, i.e. in context-dependent settings.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>candidate_driver_pathway_or_mechanism</strong></td>
+                            <td>Cell-cycle pathway dysregulation through loss of RB1 tumor suppressor function; the paper argues RB1 loss becomes a stronger adaptive event in a TP53-deficient background.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>alteration_or_activation_mode</strong></td>
+                            <td>Tumor suppressor deletion / inactivation.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>implicated_gene_axis_or_pathway</strong></td>
+                            <td>RB1 cell-cycle control pathway, with strong complementary interaction with TP53.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>pathway_activation_evidence</strong></td>
+                            <td>Tuba-seq showed increased tumor size from Rb1 loss in both Trp53-proficient and Trp53-deficient tumors, with a much larger effect in the latter. Indel analysis confirmed efficient CRISPR editing at the Rb1 locus, and conventional Cre/loxP models confirmed the growth effect. Human LUAD data showed co-occurrence enrichment of RB1 and TP53 alterations.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>driver_negative_subtype</strong></td>
+                            <td>No explicit subtype label; the implicit subtype is a TP53-deficient, RB1-sensitive context within LUAD.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>clinical_or_exposure_context</strong></td>
+                            <td>RB1 and TP53 alterations co-occurred in TCGA and GENIE lung adenocarcinoma samples. The paper notes this may matter for treatment resistance and metastatic progression.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>cross_cancer_parallel</strong></td>
+                            <td>RB1/TP53 pathway interaction is presented as a broad cancer evolutionary principle involving complementary tumor suppressor pathways.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>therapeutic_vulnerability_or_implication</strong></td>
+                            <td>Implied therapeutic relevance through altered cell-cycle regulation and possible influence on treatment resistance; however, no RB1-targeted therapy is tested in this paper.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>validation_evidence_and_model_system</strong></td>
+                            <td>Validated by multiplexed autochthonous mouse Tuba-seq experiments and by conventional Cre/loxP-based mouse models. External validation comes from human LUAD genomic co-occurrence data.</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="extraction-instance-container" id="e2013.2">
+                <h3 class="extraction-instance">Extracted Data Instance 2 (e2013.2)</h3>
+                <div class="extraction-query"><strong>Extraction Query:</strong> Extract any mentions of hidden drivers, pathway states, subtype structure, validation evidence, and therapeutic implications in oncogene-negative or driver-negative lung adenocarcinoma.</div>
+                <table>
+                    <thead>
+                        <tr>
+                            <th style="width: 30%;">Field</th>
+                            <th style="width: 70%;">Value</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><strong>name_short</strong></td>
+                            <td>LKB1 / STK11</td>
+                        </tr>
+                        <tr>
+                            <td><strong>name_full</strong></td>
+                            <td>Liver kinase B1 / serine/threonine kinase 11</td>
+                        </tr>
+                        <tr>
+                            <td><strong>brief_description</strong></td>
+                            <td>A frequently inactivated LUAD tumor suppressor that defines a fast-growing background in the study. The paper shows that Lkb1 loss changes the landscape of which additional tumor suppressor alterations are adaptive, with diminishing returns for many further losses.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>citation_title</strong></td>
+                            <td>Mapping the in vivo fitness landscape of lung adenocarcinoma tumor suppression in mice</td>
+                        </tr>
+                        <tr>
+                            <td><strong>mention_or_use</strong></td>
+                            <td>use</td>
+                        </tr>
+                        <tr>
+                            <td><strong>driver_negative_definition</strong></td>
+                            <td>Not a driver-negative LUAD definition, but LKB1 loss is used as a major background to probe context dependence among additional alterations. The paper emphasizes that already fast-growing Lkb1-deficient tumors show attenuation of additional growth benefits.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>candidate_driver_pathway_or_mechanism</strong></td>
+                            <td>Tumor suppressor loss creating an altered pathway state and a rugged fitness landscape; the study highlights diminishing returns epistasis in the Lkb1-deficient background.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>alteration_or_activation_mode</strong></td>
+                            <td>Deletion / loss of tumor suppressor function.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>implicated_gene_axis_or_pathway</strong></td>
+                            <td>LKB1-associated growth control; contrasts with RB1 and SETD2 effects. The paper does not assign a single downstream pathway readout but frames LKB1 as a major context-setting tumor suppressor.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>pathway_activation_evidence</strong></td>
+                            <td>In KLT;Cas9 mice, only Apc and Rb1 inactivation significantly increased tumor size, while Setd2 loss had little effect. Human LUAD showed mutual exclusivity between LKB1 (STK11) and SETD2 mutations. No phosphoproteomic evidence is presented.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>driver_negative_subtype</strong></td>
+                            <td>Implicitly an LKB1-deficient subtype with attenuated additional fitness gains; not a formal molecular subtype label.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>clinical_or_exposure_context</strong></td>
+                            <td>The paper notes that Lkb1 is frequently inactivated in human LUAD and that co-alteration patterns support the mouse findings. No specific exposure such as smoking is assigned here.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>cross_cancer_parallel</strong></td>
+                            <td>Diminishing returns epistasis is described as common in evolution generally, suggesting analogous context-dependent landscapes in other cancers.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>therapeutic_vulnerability_or_implication</strong></td>
+                            <td>Suggests that therapeutic response may depend strongly on LKB1 status because additional losses have reduced marginal effects in Lkb1-deficient tumors. The paper does not test treatment but suggests broader fitness profiling to support biomarker-linked strategies.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>validation_evidence_and_model_system</strong></td>
+                            <td>Validated in KLT;Cas9 autochthonous mouse tumors with Tuba-seq, with an orthogonal de-multiplexed sgRNA and histologic tumor-area analysis for Setd2-related experiments, plus human LUAD mutual exclusivity analysis.</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="extraction-instance-container" id="e2013.3">
+                <h3 class="extraction-instance">Extracted Data Instance 3 (e2013.3)</h3>
+                <div class="extraction-query"><strong>Extraction Query:</strong> Extract any mentions of hidden drivers, pathway states, subtype structure, validation evidence, and therapeutic implications in oncogene-negative or driver-negative lung adenocarcinoma.</div>
+                <table>
+                    <thead>
+                        <tr>
+                            <th style="width: 30%;">Field</th>
+                            <th style="width: 70%;">Value</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><strong>name_short</strong></td>
+                            <td>SETD2</td>
+                        </tr>
+                        <tr>
+                            <td><strong>name_full</strong></td>
+                            <td>SET domain containing 2</td>
+                        </tr>
+                        <tr>
+                            <td><strong>brief_description</strong></td>
+                            <td>A chromatin-associated tumor suppressor whose effects are strongly context-dependent in this study. SETD2 loss promotes growth in Lkb1-proficient tumors but gives little benefit in Lkb1-deficient tumors, and the paper notes mutual exclusivity with LKB1 alterations in human LUAD.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>citation_title</strong></td>
+                            <td>Mapping the in vivo fitness landscape of lung adenocarcinoma tumor suppression in mice</td>
+                        </tr>
+                        <tr>
+                            <td><strong>mention_or_use</strong></td>
+                            <td>use</td>
+                        </tr>
+                        <tr>
+                            <td><strong>driver_negative_definition</strong></td>
+                            <td>Not used to define driver-negative LUAD, but used to show that some candidate driver/suppressor events only matter in particular contexts. The study treats SETD2 as one of several putative tumor suppressors whose adaptive value depends on background.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>candidate_driver_pathway_or_mechanism</strong></td>
+                            <td>Context-dependent tumor suppressor loss, likely via chromatin regulation rather than a classical hidden oncogenic driver.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>alteration_or_activation_mode</strong></td>
+                            <td>Loss of tumor suppressor function via inactivation / deletion by CRISPR.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>implicated_gene_axis_or_pathway</strong></td>
+                            <td>SETD2-dependent chromatin regulation; mutually exclusive with LKB1 alterations.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>pathway_activation_evidence</strong></td>
+                            <td>Setd2 inactivation enhanced Lkb1-proficient lung tumor growth but conferred little growth advantage on Lkb1-deficient tumors. The authors explicitly state there is no evidence that Lkb1 and Setd2 function in the same pathway, yet the genetic interaction is strong. Human LUAD data show mutual exclusivity between LKB1 and SETD2 mutations.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>driver_negative_subtype</strong></td>
+                            <td>Implicit Lkb1-proficient versus Lkb1-deficient states rather than a named subtype.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>clinical_or_exposure_context</strong></td>
+                            <td>Human LUAD co-mutation patterns support the context dependence; no specific exposure context is given.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>cross_cancer_parallel</strong></td>
+                            <td>Illustrates how chromatin-regulatory tumor suppressor effects can be highly context-specific, a principle likely generalizable beyond lung cancer.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>therapeutic_vulnerability_or_implication</strong></td>
+                            <td>Suggests that chromatin pathway vulnerabilities may depend on LKB1 status; the paper proposes future use of the multiplexed in vivo platform to study therapeutic response, but does not test a Setd2-targeted therapy.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>validation_evidence_and_model_system</strong></td>
+                            <td>Validated by Tuba-seq in KPT;Cas9 and KLT;Cas9 mice, then independently confirmed with de-multiplexed vectors, a second sgRNA targeting Setd2, and traditional tumor-area quantification. Supported by human LUAD mutual exclusivity data.</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="extraction-instance-container" id="e2013.4">
+                <h3 class="extraction-instance">Extracted Data Instance 4 (e2013.4)</h3>
+                <div class="extraction-query"><strong>Extraction Query:</strong> Extract any mentions of hidden drivers, pathway states, subtype structure, validation evidence, and therapeutic implications in oncogene-negative or driver-negative lung adenocarcinoma.</div>
+                <table>
+                    <thead>
+                        <tr>
+                            <th style="width: 30%;">Field</th>
+                            <th style="width: 70%;">Value</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><strong>name_short</strong></td>
+                            <td>APC</td>
+                        </tr>
+                        <tr>
+                            <td><strong>name_full</strong></td>
+                            <td>Adenomatous polyposis coli</td>
+                        </tr>
+                        <tr>
+                            <td><strong>brief_description</strong></td>
+                            <td>A tumor suppressor whose loss provides a growth advantage across all three genetic backgrounds studied. APC is one of the few alterations that remains broadly tumor suppressive/driver-like regardless of TP53 or LKB1 context.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>citation_title</strong></td>
+                            <td>Mapping the in vivo fitness landscape of lung adenocarcinoma tumor suppression in mice</td>
+                        </tr>
+                        <tr>
+                            <td><strong>mention_or_use</strong></td>
+                            <td>use</td>
+                        </tr>
+                        <tr>
+                            <td><strong>driver_negative_definition</strong></td>
+                            <td>Not a driver-negative definition, but APC is included among common candidate tumor suppressor alterations examined in Kras-driven LUAD. Its broad effect helps illustrate that some alterations are context-general rather than hidden by driver-negativity.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>candidate_driver_pathway_or_mechanism</strong></td>
+                            <td>Canonical tumor suppressor loss affecting growth in all contexts examined; the paper notes APC loss is a key driver of lung cancer growth.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>alteration_or_activation_mode</strong></td>
+                            <td>Tumor suppressor inactivation.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>implicated_gene_axis_or_pathway</strong></td>
+                            <td>APC-associated growth control; the paper does not expand mechanistically beyond labeling it a key driver.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>pathway_activation_evidence</strong></td>
+                            <td>APC inactivation significantly increased tumor size in KT;Cas9, KPT;Cas9, and KLT;Cas9 mice. This consistency across contexts serves as the main evidence.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>driver_negative_subtype</strong></td>
+                            <td>None explicitly proposed.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>clinical_or_exposure_context</strong></td>
+                            <td>The paper notes APC is a key driver of lung cancer growth, but gives no exposure or subtype context.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>cross_cancer_parallel</strong></td>
+                            <td>APC is a well-known driver in other cancers, but the paper does not compare in detail.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>therapeutic_vulnerability_or_implication</strong></td>
+                            <td>No direct therapy implication is tested; APC is used as evidence that some tumor suppressor losses are broadly adaptive.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>validation_evidence_and_model_system</strong></td>
+                            <td>Validated in vivo by Tuba-seq across three GEMM backgrounds; also analyzed via sgRNA representation and tumor-size distributions.</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>Potentially Relevant New Papers (mentioned by this paper)</h2>
+            <ol>
+                <li>Cancer Genome Atlas Research Network <em>(Rating: 2)</em></li>
+                <li>AACR Project GENIE Consortium <em>(Rating: 2)</em></li>
+                <li>Mapping the in vivo fitness landscape of lung adenocarcinoma tumor suppression in mice <em>(Rating: 2)</em></li>
+            </ol>
+        </div>
+
+        </div>
+
+    </div>
+</body>
+</html>

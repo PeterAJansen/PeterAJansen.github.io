@@ -1,0 +1,766 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Extraction extraction-result-2362 - Theorizer</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+    <div class="header">
+        <a href="../index.html"><i class="fas fa-flask"></i> Theorizer</a>
+    </div>
+
+    <div class="content">
+        <h1>Extracted Data Details for extraction-result-2362</h1>
+
+        <div class="section">
+            <h2>Extracted Data (Header)</h2>
+            <div class="info-section">
+                <p><strong>Extraction ID:</strong> extraction-result-2362</p>
+                <p><strong>Extraction Schema Used (ID):</strong> <a href="../schemas/extraction-schema-1845.html">extraction-schema-1845</a></p>
+                <div class="extraction-query"><strong>Extraction Query:</strong> Extract any mentions of driver-negative or oncogene-negative lung adenocarcinoma cases, cohorts, models, or subgroups; the evidence for why they are considered driver-negative; candidate alternative drivers or mechanisms; proposed subtypes; validation strategies; comparisons to other cancers; and therapeutic implications.</div>
+                <p><strong>Paper ID:</strong> paper-d4360b837ad279873cf571689137000eb05cec22</p>
+                <p><strong>Paper Title:</strong> <a href="https://www.semanticscholar.org/paper/d4360b837ad279873cf571689137000eb05cec22" target="_blank">Genomic–transcriptomic evolution in lung cancer and metastasis</a></p>
+                <p><strong>Paper Venue:</strong> Nature</p>
+                <p><strong>Paper TL;DR:</strong> Intratumour transcriptomic diversity is investigated in 354 non-small cell lung cancer tumours from 347 out of the first 421 patients prospectively recruited into the TRACERx study, and the interplay between the genome and transcriptome in influencing ITH, lung cancer evolution and metastasis is highlighted.</p>
+                <p><strong>Paper Abstract:</strong> Computational and machine-learning approaches that integrate genomic and transcriptomic variation from paired primary and metastatic non-small cell lung cancer samples from the TRACERx cohort reveal the role of transcriptional events in tumour evolution. Intratumour heterogeneity (ITH) fuels lung cancer evolution, which leads to immune evasion and resistance to therapy^ 1 . Here, using paired whole-exome and RNA sequencing data, we investigate intratumour transcriptomic diversity in 354 non-small cell lung cancer tumours from 347 out of the first 421 patients prospectively recruited into the TRACERx study^ 2 , 3 . Analyses of 947 tumour regions, representing both primary and metastatic disease, alongside 96 tumour-adjacent normal tissue samples implicate the transcriptome as a major source of phenotypic variation. Gene expression levels and ITH relate to patterns of positive and negative selection during tumour evolution. We observe frequent copy number-independent allele-specific expression that is linked to epigenomic dysfunction. Allele-specific expression can also result in genomic–transcriptomic parallel evolution, which converges on cancer gene disruption. We extract signatures of RNA single-base substitutions and link their aetiology to the activity of the RNA-editing enzymes ADAR and APOBEC3A, thereby revealing otherwise undetected ongoing APOBEC activity in tumours. Characterizing the transcriptomes of primary–metastatic tumour pairs, we combine multiple machine-learning approaches that leverage genomic and transcriptomic variables to link metastasis-seeding potential to the evolutionary context of mutations and increased proliferation within primary tumour regions. These results highlight the interplay between the genome and transcriptome in influencing ITH, lung cancer evolution and metastasis.</p>
+                <p><strong>Cost:</strong> 0.026</p>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>Extracted Data (Details)</h2>
+            <div class="extraction-instance-container" id="e2362.0">
+                <h3 class="extraction-instance">Extracted Data Instance 0 (e2362.0)</h3>
+                <div class="extraction-query"><strong>Extraction Query:</strong> Extract any mentions of driver-negative or oncogene-negative lung adenocarcinoma cases, cohorts, models, or subgroups; the evidence for why they are considered driver-negative; candidate alternative drivers or mechanisms; proposed subtypes; validation strategies; comparisons to other cancers; and therapeutic implications.</div>
+                <table>
+                    <thead>
+                        <tr>
+                            <th style="width: 30%;">Field</th>
+                            <th style="width: 70%;">Value</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><strong>name_short</strong></td>
+                            <td>Non-LUADs clustering with LUAD</td>
+                        </tr>
+                        <tr>
+                            <td><strong>name_full</strong></td>
+                            <td>Non-lung adenocarcinoma non-small cell lung cancers clustering with lung adenocarcinomas by expression patterns</td>
+                        </tr>
+                        <tr>
+                            <td><strong>brief_description</strong></td>
+                            <td>A subset of centrally reviewed non-LUAD NSCLC tumors clustered with LUADs in UMAP space based on gene expression. These tumors were enriched for LUAD-specific driver mutations and often showed LUAD morphology or TTF-1 positivity, suggesting they are phenotypically closer to LUAD than their original histologic class.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>citation_title</strong></td>
+                            <td>here</td>
+                        </tr>
+                        <tr>
+                            <td><strong>mention_or_use</strong></td>
+                            <td>use</td>
+                        </tr>
+                        <tr>
+                            <td><strong>cohort_or_model</strong></td>
+                            <td>TRACERx 421 cohort (347 patients; 354 NSCLC tumours; UMAP analysis on 914 primary regions, 33 relapse/recurrence samples, and 96 normal samples)</td>
+                        </tr>
+                        <tr>
+                            <td><strong>cancer_context</strong></td>
+                            <td>NSCLC, with focus on non-LUAD tumors that phenotypically cluster with LUAD</td>
+                        </tr>
+                        <tr>
+                            <td><strong>driver_negative_definition</strong></td>
+                            <td>Not a formal driver-negative cohort; these are non-LUAD tumors by central pathology review that nonetheless cluster with LUADs and are enriched for LUAD-specific driver mutations. The paper notes they were 23-fold more likely to harbor a LUAD-specific driver mutation than other non-LUADs.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>driver_negative_frequency</strong></td>
+                            <td>27/184 non-LUAD tumours (14.7%) clustered with LUADs; among these, 18/27 (66.7%) were TTF-1-positive or exhibited LUAD morphology</td>
+                        </tr>
+                        <tr>
+                            <td><strong>profiling_modalities</strong></td>
+                            <td>whole-exome sequencing, RNA-seq, immunohistochemistry, central pathology review, UMAP clustering, Fisher exact testing for driver enrichment</td>
+                        </tr>
+                        <tr>
+                            <td><strong>candidate_mechanism_category</strong></td>
+                            <td>lineage plasticity / histology-mismatch with LUAD-like program</td>
+                        </tr>
+                        <tr>
+                            <td><strong>candidate_driver_or_mechanism</strong></td>
+                            <td>LUAD-specific driver mutations and LUAD-like transcriptional program (including association with KRAS, EGFR, STK11, RBM10 enriched in LUADs)</td>
+                        </tr>
+                        <tr>
+                            <td><strong>mechanistic_description</strong></td>
+                            <td>The data suggest that some tumors classified histologically as non-LUAD are molecularly and phenotypically LUAD-like, potentially reflecting an adenocarcinomatous component or mixed lineage state rather than a truly driver-negative entity.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>evidence_type</strong></td>
+                            <td>cross-modal clustering and enrichment analysis</td>
+                        </tr>
+                        <tr>
+                            <td><strong>key_evidence</strong></td>
+                            <td>Non-LUAD tumors clustering with LUADs were 23 times more likely to harbor a LUAD-specific driver mutation than other non-LUADs (Fisher’s exact test P = 2.7 × 10^-11). 67% (18/27) were TTF-1 positive or showed LUAD morphology.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>negative_or_counter_evidence</strong></td>
+                            <td>The paper does not claim these are oncogene-negative; instead, it argues the opposite—these tumors are enriched for known LUAD drivers. Their classification remains histologically non-LUAD, so they are not a driver-negative rescue example.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>subtype_name</strong></td>
+                            <td>LUAD-like non-LUAD NSCLC</td>
+                        </tr>
+                        <tr>
+                            <td><strong>subtype_features</strong></td>
+                            <td>UMAP clustering with LUAD expression profiles; enrichment for LUAD driver mutations; frequent TTF-1 positivity and/or LUAD morphology; possible adenocarcinomatous component</td>
+                        </tr>
+                        <tr>
+                            <td><strong>parallel_in_other_cancers</strong></td>
+                            <td><span class="empty-note">null</span></td>
+                        </tr>
+                        <tr>
+                            <td><strong>validation_approach</strong></td>
+                            <td>Central pathological slide review; immunohistochemistry for TTF-1, p63, p40, CD56, synaptophysin, chromogranin, and pan-cytokeratin; genomic enrichment testing for LUAD drivers</td>
+                        </tr>
+                        <tr>
+                            <td><strong>validation_result</strong></td>
+                            <td>Pathology review confirmed that many of these cases had LUAD-like features; the molecular enrichment of LUAD drivers was statistically strong.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>therapeutic_implication</strong></td>
+                            <td>Suggests that tumors classified as non-LUAD but molecularly LUAD-like may be more appropriately considered for LUAD-directed biomarker frameworks and therapies tied to LUAD drivers.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>therapeutic_evidence</strong></td>
+                            <td>Indirect only; the paper does not present treatment response data, but the presence of LUAD drivers implies actionability consistent with LUAD-targeted paradigms.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>clinical_or_demographic_association</strong></td>
+                            <td>Non-LUAD NSCLC tumors; some were four LUSCs; 67% of clustered tumors were TTF-1 positive or had LUAD morphology</td>
+                        </tr>
+                        <tr>
+                            <td><strong>study_limitations</strong></td>
+                            <td>Not a true driver-negative cohort; classification based on central pathology can mismatch molecular phenotype; no direct clinical response data</td>
+                        </tr>
+                        <tr>
+                            <td><strong>driver_negativity_confidence</strong></td>
+                            <td>not_applicable</td>
+                        </tr>
+                        <tr>
+                            <td><strong>negative_status_basis</strong></td>
+                            <td><span class="empty-note">null</span></td>
+                        </tr>
+                        <tr>
+                            <td><strong>tested_driver_classes</strong></td>
+                            <td>hotspot_snv_indel, exome_mutation, broad_copy_number, spatial_microenvironment</td>
+                        </tr>
+                        <tr>
+                            <td><strong>untested_or_underpowered_driver_classes</strong></td>
+                            <td>fusion_rearrangement, exon_skipping_splicing, noncoding_regulatory, phosphoproteomics, protein_abundance</td>
+                        </tr>
+                        <tr>
+                            <td><strong>false_negative_rescue_evidence</strong></td>
+                            <td><span class="empty-note">null</span></td>
+                        </tr>
+                        <tr>
+                            <td><strong>sample_purity_detection_limit_issue</strong></td>
+                            <td>No explicit evidence of false-negative driver rescue; no low-purity rescue claim in this section</td>
+                        </tr>
+                        <tr>
+                            <td><strong>mapk_output_state</strong></td>
+                            <td>unresolved</td>
+                        </tr>
+                        <tr>
+                            <td><strong>pi3k_akt_mtor_output_state</strong></td>
+                            <td>unresolved</td>
+                        </tr>
+                        <tr>
+                            <td><strong>rtk_or_her_family_activation_state</strong></td>
+                            <td>unclear</td>
+                        </tr>
+                        <tr>
+                            <td><strong>signaling_readout_assay</strong></td>
+                            <td>RNA-seq expression clustering; IHC for TTF-1 and morphology review</td>
+                        </tr>
+                        <tr>
+                            <td><strong>genome_protein_discordance_flag</strong></td>
+                            <td>unclear</td>
+                        </tr>
+                        <tr>
+                            <td><strong>driver_mechanism_route</strong></td>
+                            <td>microenvironmental_state</td>
+                        </tr>
+                        <tr>
+                            <td><strong>altered_molecular_layer</strong></td>
+                            <td>cell_state_composition</td>
+                        </tr>
+                        <tr>
+                            <td><strong>functional_consequence_type</strong></td>
+                            <td>transcriptional_reprogramming</td>
+                        </tr>
+                        <tr>
+                            <td><strong>canonical_pathway_reinstatement_flag</strong></td>
+                            <td>unclear</td>
+                        </tr>
+                        <tr>
+                            <td><strong>alternative_driver_axis</strong></td>
+                            <td>lineage_state</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="extraction-instance-container" id="e2362.1">
+                <h3 class="extraction-instance">Extracted Data Instance 1 (e2362.1)</h3>
+                <div class="extraction-query"><strong>Extraction Query:</strong> Extract any mentions of driver-negative or oncogene-negative lung adenocarcinoma cases, cohorts, models, or subgroups; the evidence for why they are considered driver-negative; candidate alternative drivers or mechanisms; proposed subtypes; validation strategies; comparisons to other cancers; and therapeutic implications.</div>
+                <table>
+                    <thead>
+                        <tr>
+                            <th style="width: 30%;">Field</th>
+                            <th style="width: 70%;">Value</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><strong>name_short</strong></td>
+                            <td>SETD2-deficient CN-ind ASE</td>
+                        </tr>
+                        <tr>
+                            <td><strong>name_full</strong></td>
+                            <td>SETD2-deficient tumors and isogenic cell lines showing increased copy-number-independent allele-specific expression</td>
+                        </tr>
+                        <tr>
+                            <td><strong>brief_description</strong></td>
+                            <td>The paper links inactivating mutations in epigenetic modifier genes, especially SETD2, KDM5C, and KMT2B, to increased CN-independent ASE in NSCLC. SETD2-deficient isogenic cell lines from lung, kidney, and liver showed higher CN-independent ASE than wild type, supporting an epigenetic mechanism for transcriptomic diversity.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>citation_title</strong></td>
+                            <td>here</td>
+                        </tr>
+                        <tr>
+                            <td><strong>mention_or_use</strong></td>
+                            <td>use</td>
+                        </tr>
+                        <tr>
+                            <td><strong>cohort_or_model</strong></td>
+                            <td>TRACERx 421 cohort; matched RRBS/RNA-seq subset (31 patients, 96 tumour regions); public isogenic cell lines H1650 (lung), 786-0 (renal), and HepG2 (liver)</td>
+                        </tr>
+                        <tr>
+                            <td><strong>cancer_context</strong></td>
+                            <td>NSCLC, with emphasis on LUAD and transcriptomic heterogeneity; validation across non-lung cancer cell lines</td>
+                        </tr>
+                        <tr>
+                            <td><strong>driver_negative_definition</strong></td>
+                            <td>Not defined as canonical oncogene-negative; rather, the candidate mechanism explains transcriptomic heterogeneity in tumors with epigenetic modifier driver mutations and may represent an alternative to classic RTK/RAS drivers.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>driver_negative_frequency</strong></td>
+                            <td>No frequency of driver-negative tumors is provided; SETD2/KDM5C/KMT2B mutations were present in a subset of tumors, and the paper notes mutations in SETD2, KDM5C and KMT2B were independently predictive of higher CN-independent ASE.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>profiling_modalities</strong></td>
+                            <td>whole-exome sequencing, RNA-seq, RRBS methylation, CAMDAC deconvolution, allele-specific expression analysis, isogenic cell-line RNA-seq</td>
+                        </tr>
+                        <tr>
+                            <td><strong>candidate_mechanism_category</strong></td>
+                            <td>epigenetic dysregulation</td>
+                        </tr>
+                        <tr>
+                            <td><strong>candidate_driver_or_mechanism</strong></td>
+                            <td>SETD2 loss, with related support for KDM5C and KMT2B mutations</td>
+                        </tr>
+                        <tr>
+                            <td><strong>mechanistic_description</strong></td>
+                            <td>Loss of epigenetic modifiers is proposed to increase CN-independent ASE, likely through altered chromatin and DNA methylation states that shift parental allele usage and transcriptional output.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>evidence_type</strong></td>
+                            <td>tumor association plus orthogonal isogenic cell-line validation</td>
+                        </tr>
+                        <tr>
+                            <td><strong>key_evidence</strong></td>
+                            <td>In multivariable models, mutations in SETD2, KDM5C, and KMT2B independently predicted higher CN-independent ASE. In SETD2-deficient isogenic cells, CN-independent ASE increased relative to wild type across H1650, 786-0, and HepG2 (P = 0.009).</td>
+                        </tr>
+                        <tr>
+                            <td><strong>negative_or_counter_evidence</strong></td>
+                            <td>No direct causal rescue in the paper beyond isogenic deficiency comparison; the SETD2 validation is based on public datasets without matched contemporaneous DNA-seq, so ASE and CN calling relied on proxies.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>subtype_name</strong></td>
+                            <td><span class="empty-note">null</span></td>
+                        </tr>
+                        <tr>
+                            <td><strong>subtype_features</strong></td>
+                            <td>Higher CN-independent ASE; association with promoter allele-specific methylation and global hypomethylation; linked to mutations in SETD2, KDM5C, KMT2B; enriched in LUAD for methylation-linked effects</td>
+                        </tr>
+                        <tr>
+                            <td><strong>parallel_in_other_cancers</strong></td>
+                            <td>SETD2 loss is also discussed in renal cell carcinoma and liver cell-line contexts, and SETD2 loss has been linked to oncogenic transcriptional output and metastasis in kidney cancer in cited literature</td>
+                        </tr>
+                        <tr>
+                            <td><strong>validation_approach</strong></td>
+                            <td>Orthogonal RRBS/CAMDAC analysis of promoter allele-specific methylation; multivariable modeling; validation in public SETD2-deficient isogenic cell lines from lung, kidney, and liver</td>
+                        </tr>
+                        <tr>
+                            <td><strong>validation_result</strong></td>
+                            <td>CN-independent ASE was 8.4 times more likely at promoters with ASM than those without; SETD2-deficient isogenic cell lines showed increased CN-independent ASE versus wild type (P = 0.009).</td>
+                        </tr>
+                        <tr>
+                            <td><strong>therapeutic_implication</strong></td>
+                            <td>Suggests that tumors with SETD2/epigenetic modifier alterations may be vulnerable to therapies targeting epigenetic dysregulation or transcriptional dependencies, though no drug test is performed here.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>therapeutic_evidence</strong></td>
+                            <td>Indirect only; the paper cites prior work linking SETD2 loss to actionable dependencies and oncogenic transcriptional output, but does not test a therapy in this study.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>clinical_or_demographic_association</strong></td>
+                            <td>The methylation-to-CN-independent ASE correlation was significant in LUAD but not LUSC, suggesting histology-specific relevance</td>
+                        </tr>
+                        <tr>
+                            <td><strong>study_limitations</strong></td>
+                            <td>Matched DNA-seq was unavailable for the public cell-line validation datasets; the ASE calling was intentionally stringent and likely underestimates true CN-independent ASE; no direct functional rescue experiments were performed</td>
+                        </tr>
+                        <tr>
+                            <td><strong>driver_negativity_confidence</strong></td>
+                            <td>low</td>
+                        </tr>
+                        <tr>
+                            <td><strong>negative_status_basis</strong></td>
+                            <td>not_driver_negative</td>
+                        </tr>
+                        <tr>
+                            <td><strong>tested_driver_classes</strong></td>
+                            <td>hotspot_snv_indel, exome_mutation, epigenomics</td>
+                        </tr>
+                        <tr>
+                            <td><strong>untested_or_underpowered_driver_classes</strong></td>
+                            <td>fusion_rearrangement, exon_skipping_splicing, noncoding_regulatory, protein_abundance, phosphoproteomics</td>
+                        </tr>
+                        <tr>
+                            <td><strong>false_negative_rescue_evidence</strong></td>
+                            <td><span class="empty-note">null</span></td>
+                        </tr>
+                        <tr>
+                            <td><strong>sample_purity_detection_limit_issue</strong></td>
+                            <td>RNA-only ASE validation in cell lines lacked contemporaneous DNA-seq and could be affected by passage-dependent CN changes; tumor analyses adjusted for purity and tumor transcript fraction but CN-independent ASE was called stringently</td>
+                        </tr>
+                        <tr>
+                            <td><strong>mapk_output_state</strong></td>
+                            <td>unresolved</td>
+                        </tr>
+                        <tr>
+                            <td><strong>pi3k_akt_mtor_output_state</strong></td>
+                            <td>unresolved</td>
+                        </tr>
+                        <tr>
+                            <td><strong>rtk_or_her_family_activation_state</strong></td>
+                            <td>unclear</td>
+                        </tr>
+                        <tr>
+                            <td><strong>signaling_readout_assay</strong></td>
+                            <td>allele-specific expression and promoter methylation (RRBS/CAMDAC); no direct protein phospho-readout</td>
+                        </tr>
+                        <tr>
+                            <td><strong>genome_protein_discordance_flag</strong></td>
+                            <td>no</td>
+                        </tr>
+                        <tr>
+                            <td><strong>driver_mechanism_route</strong></td>
+                            <td>truncating_tumor_suppressor_loss</td>
+                        </tr>
+                        <tr>
+                            <td><strong>altered_molecular_layer</strong></td>
+                            <td>chromatin_epigenome</td>
+                        </tr>
+                        <tr>
+                            <td><strong>functional_consequence_type</strong></td>
+                            <td>transcriptional_reprogramming</td>
+                        </tr>
+                        <tr>
+                            <td><strong>canonical_pathway_reinstatement_flag</strong></td>
+                            <td>no</td>
+                        </tr>
+                        <tr>
+                            <td><strong>alternative_driver_axis</strong></td>
+                            <td>chromatin_splicing</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="extraction-instance-container" id="e2362.2">
+                <h3 class="extraction-instance">Extracted Data Instance 2 (e2362.2)</h3>
+                <div class="extraction-query"><strong>Extraction Query:</strong> Extract any mentions of driver-negative or oncogene-negative lung adenocarcinoma cases, cohorts, models, or subgroups; the evidence for why they are considered driver-negative; candidate alternative drivers or mechanisms; proposed subtypes; validation strategies; comparisons to other cancers; and therapeutic implications.</div>
+                <table>
+                    <thead>
+                        <tr>
+                            <th style="width: 30%;">Field</th>
+                            <th style="width: 70%;">Value</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><strong>name_short</strong></td>
+                            <td>ADAR RNA-SBS1</td>
+                        </tr>
+                        <tr>
+                            <td><strong>name_full</strong></td>
+                            <td>ADAR-associated RNA single-base substitution signature 1</td>
+                        </tr>
+                        <tr>
+                            <td><strong>brief_description</strong></td>
+                            <td>RNA-SBS1 is an A>G-dominated RNA-editing signature that the paper links to ADAR expression and to global hypomethylation in tumours. It is detected in most tumors and is relatively homogeneous across multiregion samples, suggesting a persistent transcriptomic process.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>citation_title</strong></td>
+                            <td>here</td>
+                        </tr>
+                        <tr>
+                            <td><strong>mention_or_use</strong></td>
+                            <td>use</td>
+                        </tr>
+                        <tr>
+                            <td><strong>cohort_or_model</strong></td>
+                            <td>TRACERx 421 cohort RNA-seq data; 333 tumours with >20 RNA variants for signature calling; 280 multiregion tumours for ITH analysis; 80 regions with matched methylation</td>
+                        </tr>
+                        <tr>
+                            <td><strong>cancer_context</strong></td>
+                            <td>NSCLC, especially LUAD and metastasis-seeding primary regions</td>
+                        </tr>
+                        <tr>
+                            <td><strong>driver_negative_definition</strong></td>
+                            <td>Not a driver-negative entity per se; this is an alternative transcriptomic mechanism that may operate in tumors regardless of canonical driver status.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>driver_negative_frequency</strong></td>
+                            <td>RNA-SBS1 was identified in 98% of tumours with sufficient variants; it was detected within all regions of 87.4% of multiregion tumours</td>
+                        </tr>
+                        <tr>
+                            <td><strong>profiling_modalities</strong></td>
+                            <td>RNA-seq, RNA variant calling, de novo RNA-SBS signature extraction, gene expression correlation, RRBS methylation</td>
+                        </tr>
+                        <tr>
+                            <td><strong>candidate_mechanism_category</strong></td>
+                            <td>RNA editing / epigenetic dysregulation</td>
+                        </tr>
+                        <tr>
+                            <td><strong>candidate_driver_or_mechanism</strong></td>
+                            <td>ADAR</td>
+                        </tr>
+                        <tr>
+                            <td><strong>mechanistic_description</strong></td>
+                            <td>ADAR-mediated A-to-I RNA editing is proposed to generate the RNA-SBS1 signature and may be linked to aberrant hypomethylation in tumours.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>evidence_type</strong></td>
+                            <td>signature derivation plus expression correlation and epigenetic association</td>
+                        </tr>
+                        <tr>
+                            <td><strong>key_evidence</strong></td>
+                            <td>RNA-SBS1 consisted predominantly of A>G transitions, showed a strong correlation with ADAR expression (Pearson r = 0.42, FDR = 2.4 × 10^-14), and correlated with global hypomethylation in tumour regions (r = -0.35, P = 0.008).</td>
+                        </tr>
+                        <tr>
+                            <td><strong>negative_or_counter_evidence</strong></td>
+                            <td>The paper does not establish a direct causal link from ADAR to tumorigenesis; the signature is an inferred editing process, and three RNA-SBS signatures remain of unknown aetiology.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>subtype_name</strong></td>
+                            <td><span class="empty-note">null</span></td>
+                        </tr>
+                        <tr>
+                            <td><strong>subtype_features</strong></td>
+                            <td>High prevalence; low ITH; preserved across metastatic pairs; associated with ADAR expression and hypomethylation in tumours</td>
+                        </tr>
+                        <tr>
+                            <td><strong>parallel_in_other_cancers</strong></td>
+                            <td>ADAR has been linked in the cited literature to epigenetic therapy-induced inverted SINE transcription and ADAR1 dependency in other cancers</td>
+                        </tr>
+                        <tr>
+                            <td><strong>validation_approach</strong></td>
+                            <td>De novo signature extraction, correlation with ADAR expression, comparison to REDIportal known A>G sites, comparison of signature activity between primary, metastatic, and normal tissue, and methylation correlation</td>
+                        </tr>
+                        <tr>
+                            <td><strong>validation_result</strong></td>
+                            <td>RNA 192-channel spectra from curated A>G sites were highly similar to RNA-SBS1 (cosine similarity 0.97); activity was preserved between primary and metastatic samples and correlated with hypomethylation in tumours.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>therapeutic_implication</strong></td>
+                            <td>Potential relevance to ADAR-targeting or epigenetic-therapy strategies, but no therapy is tested here.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>therapeutic_evidence</strong></td>
+                            <td>Indirect only, via literature discussion of ADAR1 dependency in epigenetic dysfunction and the observed link to hypomethylation.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>clinical_or_demographic_association</strong></td>
+                            <td>Tumour-specific RNA-SBS1 activity was not preserved in normal tissue, implying tumour-specific emergence; more broadly associated with NSCLC tumor regions</td>
+                        </tr>
+                        <tr>
+                            <td><strong>study_limitations</strong></td>
+                            <td>Only exonic RNA substitutions were considered, so RNA editing is underestimated; no functional perturbation of ADAR was performed; causality remains inferential</td>
+                        </tr>
+                        <tr>
+                            <td><strong>driver_negativity_confidence</strong></td>
+                            <td>not_applicable</td>
+                        </tr>
+                        <tr>
+                            <td><strong>negative_status_basis</strong></td>
+                            <td><span class="empty-note">null</span></td>
+                        </tr>
+                        <tr>
+                            <td><strong>tested_driver_classes</strong></td>
+                            <td>rna_splice_fusion, rna_outlier_expression, epigenomics</td>
+                        </tr>
+                        <tr>
+                            <td><strong>untested_or_underpowered_driver_classes</strong></td>
+                            <td>fusion_rearrangement, exon_skipping_splicing, noncoding_regulatory, protein_abundance, phosphoproteomics</td>
+                        </tr>
+                        <tr>
+                            <td><strong>false_negative_rescue_evidence</strong></td>
+                            <td><span class="empty-note">null</span></td>
+                        </tr>
+                        <tr>
+                            <td><strong>sample_purity_detection_limit_issue</strong></td>
+                            <td>RNA editing estimates were derived from bulk RNA-seq and may reflect tumor and non-tumor admixture; only exonic events were captured, underestimating total editing</td>
+                        </tr>
+                        <tr>
+                            <td><strong>mapk_output_state</strong></td>
+                            <td>unresolved</td>
+                        </tr>
+                        <tr>
+                            <td><strong>pi3k_akt_mtor_output_state</strong></td>
+                            <td>unresolved</td>
+                        </tr>
+                        <tr>
+                            <td><strong>rtk_or_her_family_activation_state</strong></td>
+                            <td>unclear</td>
+                        </tr>
+                        <tr>
+                            <td><strong>signaling_readout_assay</strong></td>
+                            <td>RNA-SBS signature deconvolution and gene expression correlation; no signaling phospho-assay</td>
+                        </tr>
+                        <tr>
+                            <td><strong>genome_protein_discordance_flag</strong></td>
+                            <td>unclear</td>
+                        </tr>
+                        <tr>
+                            <td><strong>driver_mechanism_route</strong></td>
+                            <td>microenvironmental_state</td>
+                        </tr>
+                        <tr>
+                            <td><strong>altered_molecular_layer</strong></td>
+                            <td>rna_outlier_expression</td>
+                        </tr>
+                        <tr>
+                            <td><strong>functional_consequence_type</strong></td>
+                            <td>transcriptional_reprogramming</td>
+                        </tr>
+                        <tr>
+                            <td><strong>canonical_pathway_reinstatement_flag</strong></td>
+                            <td>no</td>
+                        </tr>
+                        <tr>
+                            <td><strong>alternative_driver_axis</strong></td>
+                            <td>apobec</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="extraction-instance-container" id="e2362.3">
+                <h3 class="extraction-instance">Extracted Data Instance 3 (e2362.3)</h3>
+                <div class="extraction-query"><strong>Extraction Query:</strong> Extract any mentions of driver-negative or oncogene-negative lung adenocarcinoma cases, cohorts, models, or subgroups; the evidence for why they are considered driver-negative; candidate alternative drivers or mechanisms; proposed subtypes; validation strategies; comparisons to other cancers; and therapeutic implications.</div>
+                <table>
+                    <thead>
+                        <tr>
+                            <th style="width: 30%;">Field</th>
+                            <th style="width: 70%;">Value</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><strong>name_short</strong></td>
+                            <td>APOBEC3A RNA-SBS2</td>
+                        </tr>
+                        <tr>
+                            <td><strong>name_full</strong></td>
+                            <td>APOBEC3A-associated RNA single-base substitution signature 2</td>
+                        </tr>
+                        <tr>
+                            <td><strong>brief_description</strong></td>
+                            <td>RNA-SBS2 is a C>T-dominated RNA-editing signature consistent with APOBEC3A activity. The paper links its activity strongly and specifically to APOBEC3A expression, with additional support from motif enrichment.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>citation_title</strong></td>
+                            <td>here</td>
+                        </tr>
+                        <tr>
+                            <td><strong>mention_or_use</strong></td>
+                            <td>use</td>
+                        </tr>
+                        <tr>
+                            <td><strong>cohort_or_model</strong></td>
+                            <td>TRACERx 421 cohort RNA-seq data; 333 tumours with >20 RNA variants for signature calling; 280 multiregion tumours for ITH analysis</td>
+                        </tr>
+                        <tr>
+                            <td><strong>cancer_context</strong></td>
+                            <td>NSCLC</td>
+                        </tr>
+                        <tr>
+                            <td><strong>driver_negative_definition</strong></td>
+                            <td>Not a driver-negative entity; this is an alternative RNA-based mutagenic/transcriptomic mechanism.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>driver_negative_frequency</strong></td>
+                            <td>RNA-SBS2 was present at lower prevalence than RNA-SBS1; the paper does not give a simple single-frequency summary in the text beyond signature detection across the cohort</td>
+                        </tr>
+                        <tr>
+                            <td><strong>profiling_modalities</strong></td>
+                            <td>RNA-seq, RNA variant calling, de novo signature extraction, motif enrichment analysis, gene expression correlation</td>
+                        </tr>
+                        <tr>
+                            <td><strong>candidate_mechanism_category</strong></td>
+                            <td>RNA editing / mutagenic enzyme activity</td>
+                        </tr>
+                        <tr>
+                            <td><strong>candidate_driver_or_mechanism</strong></td>
+                            <td>APOBEC3A</td>
+                        </tr>
+                        <tr>
+                            <td><strong>mechanistic_description</strong></td>
+                            <td>APOBEC3A expression is proposed to underlie the C>T RNA-SBS2 pattern, especially at CAT[C>T] motifs, indicating ongoing APOBEC-mediated RNA editing in tumours.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>evidence_type</strong></td>
+                            <td>signature correlation and motif enrichment</td>
+                        </tr>
+                        <tr>
+                            <td><strong>key_evidence</strong></td>
+                            <td>RNA-SBS2 consisted mainly of C>T transitions, correlated most strongly with APOBEC3A expression (Pearson r = 0.73, FDR = 4.7 × 10^-108), and APOBEC3A remained the strongest independent predictor in multivariable models. Motif enrichment supported APOBEC3A-like CAT[C>T] specificity.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>negative_or_counter_evidence</strong></td>
+                            <td>Associations with the remaining three RNA-SBS signatures did not yield obvious etiologies; the paper does not functionally perturb APOBEC3A.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>subtype_name</strong></td>
+                            <td><span class="empty-note">null</span></td>
+                        </tr>
+                        <tr>
+                            <td><strong>subtype_features</strong></td>
+                            <td>C>T-rich RNA-editing program; linked to APOBEC3A and sometimes APOBEC3F; persists between primary and metastatic samples but not normal tissue</td>
+                        </tr>
+                        <tr>
+                            <td><strong>parallel_in_other_cancers</strong></td>
+                            <td>The paper cites prior reports of APOBEC3A RNA editing hotspots and broader APOBEC mutagenesis in human cancers</td>
+                        </tr>
+                        <tr>
+                            <td><strong>validation_approach</strong></td>
+                            <td>Independent expression correlation, multiple linear regression across APOBEC family members, and local motif enrichment analysis for CAT[C>T] sites; comparison of signature activity in primary, metastatic, and normal tissue</td>
+                        </tr>
+                        <tr>
+                            <td><strong>validation_result</strong></td>
+                            <td>APOBEC3A was the strongest independent predictor of RNA-SBS2; APBEC3A-specific motif enrichment and strong correlation supported the assignment.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>therapeutic_implication</strong></td>
+                            <td>May indicate ongoing APOBEC-driven genomic instability and thus a potential vulnerability or biomarker of evolution and metastasis, but no therapy was directly tested.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>therapeutic_evidence</strong></td>
+                            <td>Indirect only; the paper emphasizes APOBEC enzymes in driving genome instability but does not test drug sensitivity.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>clinical_or_demographic_association</strong></td>
+                            <td>RNA-SBS2 activity appeared tumor-specific and was preserved between metastatic regions and their seeding primaries, suggesting association with tumor evolution rather than normal tissue</td>
+                        </tr>
+                        <tr>
+                            <td><strong>study_limitations</strong></td>
+                            <td>Only exonic RNA variants were considered; causal perturbation of APOBEC3A was not performed; three of five RNA-SBS signatures remain of unknown aetiology</td>
+                        </tr>
+                        <tr>
+                            <td><strong>driver_negativity_confidence</strong></td>
+                            <td>not_applicable</td>
+                        </tr>
+                        <tr>
+                            <td><strong>negative_status_basis</strong></td>
+                            <td><span class="empty-note">null</span></td>
+                        </tr>
+                        <tr>
+                            <td><strong>tested_driver_classes</strong></td>
+                            <td>rna_splice_fusion, rna_outlier_expression</td>
+                        </tr>
+                        <tr>
+                            <td><strong>untested_or_underpowered_driver_classes</strong></td>
+                            <td>fusion_rearrangement, exon_skipping_splicing, noncoding_regulatory, protein_abundance, phosphoproteomics</td>
+                        </tr>
+                        <tr>
+                            <td><strong>false_negative_rescue_evidence</strong></td>
+                            <td><span class="empty-note">null</span></td>
+                        </tr>
+                        <tr>
+                            <td><strong>sample_purity_detection_limit_issue</strong></td>
+                            <td>Bulk RNA-seq can mix tumor and normal-derived transcripts, and only exonic RNA substitutions were called; this likely underestimates true editing burden</td>
+                        </tr>
+                        <tr>
+                            <td><strong>mapk_output_state</strong></td>
+                            <td>unresolved</td>
+                        </tr>
+                        <tr>
+                            <td><strong>pi3k_akt_mtor_output_state</strong></td>
+                            <td>unresolved</td>
+                        </tr>
+                        <tr>
+                            <td><strong>rtk_or_her_family_activation_state</strong></td>
+                            <td>unclear</td>
+                        </tr>
+                        <tr>
+                            <td><strong>signaling_readout_assay</strong></td>
+                            <td>RNA-SBS signature deconvolution and motif enrichment; no direct phospho/protein signaling assay</td>
+                        </tr>
+                        <tr>
+                            <td><strong>genome_protein_discordance_flag</strong></td>
+                            <td>unclear</td>
+                        </tr>
+                        <tr>
+                            <td><strong>driver_mechanism_route</strong></td>
+                            <td>microenvironmental_state</td>
+                        </tr>
+                        <tr>
+                            <td><strong>altered_molecular_layer</strong></td>
+                            <td>rna_outlier_expression</td>
+                        </tr>
+                        <tr>
+                            <td><strong>functional_consequence_type</strong></td>
+                            <td>genome_instability</td>
+                        </tr>
+                        <tr>
+                            <td><strong>canonical_pathway_reinstatement_flag</strong></td>
+                            <td>no</td>
+                        </tr>
+                        <tr>
+                            <td><strong>alternative_driver_axis</strong></td>
+                            <td>apobec</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>Potentially Relevant New Papers (mentioned by this paper)</h2>
+            <ol>
+                <li>Tracking the evolution of non-small-cell lung cancer <em>(Rating: 2)</em></li>
+                <li>The evolution of lung cancer and impact of subclonal selection in TRACERx <em>(Rating: 2)</em></li>
+                <li>The evolution of non-small cell lung cancer metastases in TRACERx <em>(Rating: 2)</em></li>
+                <li>Evolutionary characterization of lung adenocarcinoma morphology in TRACERx <em>(Rating: 1)</em></li>
+                <li>Genomic basis for RNA alterations in cancer <em>(Rating: 2)</em></li>
+                <li>Epigenetic therapy induces transcription of inverted SINEs and ADAR1 dependency <em>(Rating: 1)</em></li>
+                <li>The genomic landscape and clinical relevance of A-to-I RNA editing in human cancers <em>(Rating: 1)</em></li>
+            </ol>
+        </div>
+
+        </div>
+
+    </div>
+</body>
+</html>

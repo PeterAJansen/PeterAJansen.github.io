@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Extraction extraction-result-2048 - Theorizer</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+    <div class="header">
+        <a href="../index.html"><i class="fas fa-flask"></i> Theorizer</a>
+    </div>
+
+    <div class="content">
+        <h1>Extracted Data Details for extraction-result-2048</h1>
+
+        <div class="section">
+            <h2>Extracted Data (Header)</h2>
+            <div class="info-section">
+                <p><strong>Extraction ID:</strong> extraction-result-2048</p>
+                <p><strong>Extraction Schema Used (ID):</strong> <a href="../schemas/extraction-schema-1843.html">extraction-schema-1843</a></p>
+                <div class="extraction-query"><strong>Extraction Query:</strong> Extract any mentions of hidden genomic, structural, regulatory, or assay-missed drivers in oncogene-negative lung adenocarcinoma.</div>
+                <p><strong>Paper ID:</strong> paper-2c2bebc830e9f52b3744f363521f358f2ce4852e</p>
+                <p><strong>Paper Title:</strong> <a href="https://www.semanticscholar.org/paper/2c2bebc830e9f52b3744f363521f358f2ce4852e" target="_blank">Exploring the Glycolytic Mechanisms in “Driver Gene-Negative” Lung Adenocarcinoma (LUAD): A Single-Cell RNA Sequencing Approach to Identify the MIF-HIF-1α Axis</a></p>
+                <p><strong>Paper Venue:</strong> Journal of Cancer</p>
+                <p><strong>Paper TL;DR:</strong> This study elucidated glucose metabolic reprogramming mechanisms and highlighted the MIF-HIF-1α axis as a promising therapeutic target in "driver gene-negative" LUAD, which may offer new avenues for improving outcomes, particularly those lacking conventional targeted therapy options.</p>
+                <p><strong>Paper Abstract:</strong> Background: Patients with "driver gene-negative" LUAD lack effective targeted therapies. This study aimed to elucidate the role of the glycolysis pathway in driver gene-negative LUAD to identify key genes and potential therapeutic targets. Methods: Bulk RNA sequencing data from 49 patients with driver gene-negative LUAD were analyzed. The driver gene-negative status of patients was confirmed by immunoblotting. Gene set enrichment analysis (GSEA) was conducted on six hallmark pathways related to glycolysis. Additionally, key genes were identified and a risk score model was constructed. Finally, single-cell RNA sequencing data were processed using the Seurat package for data cleaning, dimensionality reduction clustering, and cell type identification. Results: GSEA analysis revealed significant enrichment of the glycolysis pathway in driver gene-negative LUAD. Differential expression analysis identified 144 genes associated with the glycolysis pathway. Six glycolysis-related genes (ANKZF1, GPR87, KIF2A, LCT, MIF, SDHC) were identified associated with poor prognosis. Single-cell sequencing analysis validated the key role of MIF in the glycolysis process and revealed a positive feedback regulatory axis between MIF and HIF-1α, which may promoting glycolysis and malignant transformation. Conclusion: This study elucidated glucose metabolic reprogramming mechanisms and highlighted the MIF-HIF-1α axis as a promising therapeutic target in "driver gene-negative" LUAD, which may offer new avenues for improving outcomes, particularly those lacking conventional targeted therapy options.</p>
+                <p><strong>Cost:</strong> 0.018</p>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>Extracted Data (Details)</h2>
+            <div class="extraction-instance-container" id="e2048.0">
+                <h3 class="extraction-instance">Extracted Data Instance 0 (e2048.0)</h3>
+                <div class="extraction-query"><strong>Extraction Query:</strong> Extract any mentions of hidden genomic, structural, regulatory, or assay-missed drivers in oncogene-negative lung adenocarcinoma.</div>
+                <table>
+                    <thead>
+                        <tr>
+                            <th style="width: 30%;">Field</th>
+                            <th style="width: 70%;">Value</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><strong>name_short</strong></td>
+                            <td>driver gene-negative LUAD</td>
+                        </tr>
+                        <tr>
+                            <td><strong>name_full</strong></td>
+                            <td>"Driver gene-negative" lung adenocarcinoma</td>
+                        </tr>
+                        <tr>
+                            <td><strong>brief_description</strong></td>
+                            <td>A LUAD subtype defined in this paper as tumors lacking detectable alterations in the canonical actionable driver set. The authors focus on its glycolytic reprogramming and propose the MIF-HIF-1α axis as a key mechanism, but they do not report discovery of any hidden genomic driver alteration beyond the negative-definition testing itself.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>citation_title</strong></td>
+                            <td>Exploring the Glycolytic Mechanisms in “Driver Gene-Negative” Lung Adenocarcinoma (LUAD): A Single-Cell RNA Sequencing Approach to Identify the MIF-HIF-1α Axis</td>
+                        </tr>
+                        <tr>
+                            <td><strong>mention_or_use</strong></td>
+                            <td>use</td>
+                        </tr>
+                        <tr>
+                            <td><strong>oncogene_negative_definition</strong></td>
+                            <td>Driver gene-negative status was operationally defined by absence of mutations in ALK, EGFR, HER2, KRAS, MET, BRAF, ROS1, and RET. The paper states this status was confirmed by immunohistochemical staining and immunoblotting assays on FFPE tissues; the exact variant-detection platform for each gene is not described in detail in the text provided.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>assay_strategy_and_detection_limits</strong></td>
+                            <td>The discovery workflow used bulk RNA sequencing from 49 previously published driver gene-negative LUAD patients, differential expression analysis, GSEA, LASSO regression, and single-cell RNA sequencing from GSE131907. Negative status was confirmed on FFPE tissue by immunohistochemical staining and immunoblotting. No targeted DNA panel, WES/WGS, fusion assay, methylation assay, or systematic search for noncanonical genomic drivers is described here, so the paper's blind spot is that it does not interrogate broader structural/noncoding alterations that could explain oncogene-negative disease.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>missed_driver_reclassified_after_broader_testing</strong></td>
+                            <td>No hidden genomic, structural, or regulatory driver was reclassified from negative to positive in this paper. The study instead identifies a transcriptomic/metabolic axis (MIF-HIF-1α) associated with the already-defined driver-negative cohort.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>driver_event_class</strong></td>
+                            <td>null</td>
+                        </tr>
+                        <tr>
+                            <td><strong>candidate_driver_gene_or_locus</strong></td>
+                            <td>null</td>
+                        </tr>
+                        <tr>
+                            <td><strong>structural_or_regulatory_activation_mechanism</strong></td>
+                            <td>null</td>
+                        </tr>
+                        <tr>
+                            <td><strong>functional_consequence</strong></td>
+                            <td>The paper reports glycolytic enrichment and malignancy-associated transcriptional programs in the driver-negative cohort, especially involving MIF+ AT2 cells and a positive-feedback relationship between MIF and HIF-1α that increases glycolysis, lactate production, glucose uptake, LDH activity, and proliferation in AT2 cells.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>co_alteration_or_combinatorial_requirement</strong></td>
+                            <td>No genomic co-alteration or combinatorial driver requirement is reported. The functional work instead suggests a regulatory co-dependence between MIF and HIF-1α, where MIF inhibition (ISO-1) can reverse DMOG-induced metabolic and proliferative effects.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>human_prevalence_or_enrichment</strong></td>
+                            <td>The driver-gene-negative subset is described in the introduction as approximately 22%-55% of LUAD cases. In this study, the analyzed cohort comprised 49 driver gene-negative LUAD patients and single-cell data from four driver gene-negative patients, but no hidden driver event prevalence is reported because no additional genomic driver was identified.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>functional_or_clinical_validation</strong></td>
+                            <td>Validation is transcriptomic and cell-based rather than genomic: single-cell RNA-seq identified MIF in epithelial/AT2 cells, GSEA showed higher glycolysis in MIF+AT2 cells, and AT2-cell experiments showed that MIF overexpression or HIF-1α activation increased lactate, glucose uptake, LDH activity, and proliferation, while ISO-1 reversed these effects. However, these results validate a metabolic regulatory axis, not a missed oncogenic alteration.</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="extraction-instance-container" id="e2048.1">
+                <h3 class="extraction-instance">Extracted Data Instance 1 (e2048.1)</h3>
+                <div class="extraction-query"><strong>Extraction Query:</strong> Extract any mentions of hidden genomic, structural, regulatory, or assay-missed drivers in oncogene-negative lung adenocarcinoma.</div>
+                <table>
+                    <thead>
+                        <tr>
+                            <th style="width: 30%;">Field</th>
+                            <th style="width: 70%;">Value</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><strong>name_short</strong></td>
+                            <td>MIF</td>
+                        </tr>
+                        <tr>
+                            <td><strong>name_full</strong></td>
+                            <td>Macrophage migration inhibitory factor</td>
+                        </tr>
+                        <tr>
+                            <td><strong>brief_description</strong></td>
+                            <td>A multifunctional cytokine and the key gene highlighted by the study as linked to glycolysis and malignant transformation in driver gene-negative LUAD. The paper shows that MIF is highly expressed in tumor tissues, enriched in MIF+ AT2 cells, and functionally promotes glycolytic phenotypes, but it is not presented as a hidden genomic driver alteration.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>citation_title</strong></td>
+                            <td>Exploring the Glycolytic Mechanisms in “Driver Gene-Negative” Lung Adenocarcinoma (LUAD): A Single-Cell RNA Sequencing Approach to Identify the MIF-HIF-1α Axis</td>
+                        </tr>
+                        <tr>
+                            <td><strong>mention_or_use</strong></td>
+                            <td>use</td>
+                        </tr>
+                        <tr>
+                            <td><strong>oncogene_negative_definition</strong></td>
+                            <td>Same cohort definition as above: absence of ALK, EGFR, HER2, KRAS, MET, BRAF, ROS1, and RET alterations, confirmed by IHC and immunoblotting on FFPE tissues.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>assay_strategy_and_detection_limits</strong></td>
+                            <td>MIF was identified by integrating bulk RNA-seq DEGs, LASSO selection, single-cell marker-gene intersection, and pathway analyses. The paper does not use a dedicated assay to search for cryptic genomic changes in MIF, nor does it report DNA-level structural variants, promoter alterations, or fusion events affecting MIF.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>missed_driver_reclassified_after_broader_testing</strong></td>
+                            <td>No. MIF is not a previously missed genomic driver rescued by broader testing; it is an expression-defined key gene and cytokine axis implicated in the negative cohort.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>driver_event_class</strong></td>
+                            <td>null</td>
+                        </tr>
+                        <tr>
+                            <td><strong>candidate_driver_gene_or_locus</strong></td>
+                            <td>MIF</td>
+                        </tr>
+                        <tr>
+                            <td><strong>structural_or_regulatory_activation_mechanism</strong></td>
+                            <td>The paper discusses regulatory activation through a MIF-HIF-1α positive feedback loop and notes that HIF-1α is a known transcription factor for MIF. It also cites prior literature that MIF may influence HIF-1α via NF-κB or p53-dependent mechanisms, but no new structural alteration is identified here.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>functional_consequence</strong></td>
+                            <td>Higher MIF expression associates with poorer prognosis, increased glycolysis, higher lactate production, greater glucose uptake, elevated LDH activity, and increased AT2-cell proliferation; MIF+ AT2 cells also show greater glycolytic pathway activity and malignancy-like features.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>co_alteration_or_combinatorial_requirement</strong></td>
+                            <td>Functional synergy/feedback with HIF-1α is emphasized. The study reports that HIF-1α activation and MIF overexpression each augment glycolytic and proliferative phenotypes, and that MIF inhibition can blunt HIF-1α-induced metabolic changes.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>human_prevalence_or_enrichment</strong></td>
+                            <td>MIF is reported as significantly upregulated in tumor versus healthy tissues, with high MIF expression linked to poorer prognosis and advanced disease. No mutation or structural-event prevalence is given.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>functional_or_clinical_validation</strong></td>
+                            <td>Validated by single-cell RNA-seq, GSEA, correlation analysis in patient tumors, survival analysis, and cell-based perturbation experiments using MIF plasmid overexpression and the MIF inhibitor ISO-1.</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="extraction-instance-container" id="e2048.2">
+                <h3 class="extraction-instance">Extracted Data Instance 2 (e2048.2)</h3>
+                <div class="extraction-query"><strong>Extraction Query:</strong> Extract any mentions of hidden genomic, structural, regulatory, or assay-missed drivers in oncogene-negative lung adenocarcinoma.</div>
+                <table>
+                    <thead>
+                        <tr>
+                            <th style="width: 30%;">Field</th>
+                            <th style="width: 70%;">Value</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><strong>name_short</strong></td>
+                            <td>HIF-1α</td>
+                        </tr>
+                        <tr>
+                            <td><strong>name_full</strong></td>
+                            <td>Hypoxia-inducible factor 1 alpha</td>
+                        </tr>
+                        <tr>
+                            <td><strong>brief_description</strong></td>
+                            <td>A hypoxia-responsive transcription factor that the paper identifies as a key regulator and partner in a positive feedback loop with MIF. It is not described as a hidden driver alteration in oncogene-negative LUAD, but rather as a regulatory node contributing to glycolytic reprogramming.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>citation_title</strong></td>
+                            <td>Exploring the Glycolytic Mechanisms in “Driver Gene-Negative” Lung Adenocarcinoma (LUAD): A Single-Cell RNA Sequencing Approach to Identify the MIF-HIF-1α Axis</td>
+                        </tr>
+                        <tr>
+                            <td><strong>mention_or_use</strong></td>
+                            <td>use</td>
+                        </tr>
+                        <tr>
+                            <td><strong>oncogene_negative_definition</strong></td>
+                            <td>Same driver-negative definition based on absence of ALK, EGFR, HER2, KRAS, MET, BRAF, ROS1, and RET alterations.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>assay_strategy_and_detection_limits</strong></td>
+                            <td>HIF-1α is examined through expression correlation, pathway enrichment, and pharmacologic activation with DMOG, not through genomic interrogation for HIF1A alterations or upstream structural drivers.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>missed_driver_reclassified_after_broader_testing</strong></td>
+                            <td>No hidden genomic HIF1A alteration is reported or rescued after broader testing.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>driver_event_class</strong></td>
+                            <td>null</td>
+                        </tr>
+                        <tr>
+                            <td><strong>candidate_driver_gene_or_locus</strong></td>
+                            <td>HIF-1α (HIF1A)</td>
+                        </tr>
+                        <tr>
+                            <td><strong>structural_or_regulatory_activation_mechanism</strong></td>
+                            <td>Regulatory activation/stabilization of HIF-1α is modeled by DMOG, a prolyl hydroxylase inhibitor. The paper proposes a positive feedback loop in which HIF-1α and MIF enhance each other's activity/expression.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>functional_consequence</strong></td>
+                            <td>HIF-1α activation increases lactate production, glucose uptake, LDH activity, and proliferation in AT2 cells, and high HIF-1α expression is associated with poor prognosis in driver gene-negative LUAD.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>co_alteration_or_combinatorial_requirement</strong></td>
+                            <td>Functional interaction with MIF is central; MIF inhibition reverses HIF-1α-driven increases in glycolysis and proliferation.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>human_prevalence_or_enrichment</strong></td>
+                            <td>High HIF-1α expression is associated with poorer prognosis in the patient cohort, but no mutation frequency or structural-event prevalence is reported.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>functional_or_clinical_validation</strong></td>
+                            <td>Validated by correlation in patient tumors and DMOG-based activation assays in AT2 cells, including reversal by the MIF inhibitor ISO-1.</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>Potentially Relevant New Papers (mentioned by this paper)</h2>
+            <p class="empty-note">No potentially relevant new papers extracted.</p>
+        </div>
+
+        </div>
+
+    </div>
+</body>
+</html>

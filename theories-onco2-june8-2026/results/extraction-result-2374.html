@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Extraction extraction-result-2374 - Theorizer</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+    <div class="header">
+        <a href="../index.html"><i class="fas fa-flask"></i> Theorizer</a>
+    </div>
+
+    <div class="content">
+        <h1>Extracted Data Details for extraction-result-2374</h1>
+
+        <div class="section">
+            <h2>Extracted Data (Header)</h2>
+            <div class="info-section">
+                <p><strong>Extraction ID:</strong> extraction-result-2374</p>
+                <p><strong>Extraction Schema Used (ID):</strong> <a href="../schemas/extraction-schema-1846.html">extraction-schema-1846</a></p>
+                <div class="extraction-query"><strong>Extraction Query:</strong> Extract any mentions of hidden drivers, pathway states, subtype structure, validation evidence, and therapeutic implications in oncogene-negative or driver-negative lung adenocarcinoma.</div>
+                <p><strong>Paper ID:</strong> paper-f99b0e7b008bc694df3ab1a61414837eb94bab22</p>
+                <p><strong>Paper Title:</strong> <a href="https://www.semanticscholar.org/paper/f99b0e7b008bc694df3ab1a61414837eb94bab22" target="_blank">Proteogenomic analysis of lung adenocarcinoma reveals tumor heterogeneity, survival determinants, and therapeutically relevant pathways</a></p>
+                <p><strong>Paper Venue:</strong> Cell Reports Medicine</p>
+                <p><strong>Paper TL;DR:</strong> It is found that protein expression is more often associated with patient survival than RNA, and this proteogenomic characterization provides a foundation for molecularly informed medicine in LUAD.</p>
+                <p><strong>Paper Abstract:</strong> Summary We present a deep proteogenomic profiling study of 87 lung adenocarcinoma (LUAD) tumors from the United States, integrating whole-genome sequencing, transcriptome sequencing, proteomics and phosphoproteomics by mass spectrometry, and reverse-phase protein arrays. We identify three subtypes from somatic genome signature analysis, including a transition-high subtype enriched with never smokers, a transversion-high subtype enriched with current smokers, and a structurally altered subtype enriched with former smokers, TP53 alterations, and genome-wide structural alterations. We show that within-tumor correlations of RNA and protein expression associate with tumor purity and immune cell profiles. We detect and independently validate expression signatures of RNA and protein that predict patient survival. Additionally, among co-measured genes, we found that protein expression is more often associated with patient survival than RNA. Finally, integrative analysis characterizes three expression subtypes with divergent mutations, proteomic regulatory networks, and therapeutic vulnerabilities. This proteogenomic characterization provides a foundation for molecularly informed medicine in LUAD.</p>
+                <p><strong>Cost:</strong> 0.041</p>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>Extracted Data (Details)</h2>
+            <div class="extraction-instance-container" id="e2374.0">
+                <h3 class="extraction-instance">Extracted Data Instance 0 (e2374.0)</h3>
+                <div class="extraction-query"><strong>Extraction Query:</strong> Extract any mentions of hidden drivers, pathway states, subtype structure, validation evidence, and therapeutic implications in oncogene-negative or driver-negative lung adenocarcinoma.</div>
+                <table>
+                    <thead>
+                        <tr>
+                            <th style="width: 30%;">Field</th>
+                            <th style="width: 70%;">Value</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><strong>name_short</strong></td>
+                            <td>LUAD</td>
+                        </tr>
+                        <tr>
+                            <td><strong>name_full</strong></td>
+                            <td>Lung adenocarcinoma</td>
+                        </tr>
+                        <tr>
+                            <td><strong>brief_description</strong></td>
+                            <td>The paper profiles 87 resected LUAD tumors by WGS, RNA-seq, proteomics, phosphoproteomics, and RPPA to define somatic-signature subtypes, expression subtypes, survival signatures, and subtype-specific signaling networks. It explicitly notes that many LUAD tumors lack a molecular alteration currently indicated for targeted therapy, but the paper itself does not operationalize a formal 'driver-negative' clinical cohort.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>citation_title</strong></td>
+                            <td>Proteogenomic analysis of lung adenocarcinoma reveals tumor heterogeneity, survival determinants, and therapeutically relevant pathways</td>
+                        </tr>
+                        <tr>
+                            <td><strong>mention_or_use</strong></td>
+                            <td>use</td>
+                        </tr>
+                        <tr>
+                            <td><strong>driver_negative_definition</strong></td>
+                            <td>The paper does not define a formal oncogene-negative/driver-negative cohort by exclusion testing. Instead, it repeatedly refers to a subset of LUAD tumors that 'do not possess a molecular alteration currently indicated for targeted therapy' and to PP tumors in which 'the majority ... do not possess targetable oncogene mutations.' In context, the relevant negative state is broad lack of a currently actionable driver alteration on the assays used here, rather than a single prespecified gene-negative category.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>candidate_driver_pathway_or_mechanism</strong></td>
+                            <td>For tumors lacking targetable oncogene alterations, the paper's main hidden-driver logic is pathway-state and context dependence rather than a single new dominant oncogene: PP tumors are characterized by a cell-cycle/glycolysis program in an immune-cold microenvironment, with high CDK activity, STK11/KEAP1 loss, and metabolic reprogramming; TRU tumors are driven by overactive EGFR signaling; PI tumors are characterized by IFN-γ/inflammatory signaling and checkpoint-ligand expression. The authors also suggest that former smokers with the structurally altered subtype may accumulate structural genome disorganization and TP53 alterations after smoking cessation.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>alteration_or_activation_mode</strong></td>
+                            <td>Predominantly combinatorial pathway-state alteration rather than a single recurrent hidden coding driver: phosphoproteomic kinase activation (CDKs, MAP2K7, EGFR-linked kinases), tumor suppressor co-loss (STK11-KEAP1, SMARCA4-altered PP), and signaling/metabolic rewiring. For the structurally altered genome-signature subtype, the mechanism is genomic instability with TP53 alteration and elevated structural variants.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>implicated_gene_axis_or_pathway</strong></td>
+                            <td>PI subtype: IFN-γ/STAT1/IRF inflammatory signaling, PD-L1 (CD274), CTLA4, HLA, CIITA. TRU subtype: EGFR, ERK/MAPK, PI3K-PDK1, RPS6KA1, PRKCE, BAD. PP subtype: CDK1/2/4, CDC7, RB1 phosphorylation, E2F, MAP2K7/MAPK8, glycolysis/glutaminolysis, STK11, KEAP1/NFE2L2, SMARCA4 synthetic lethal with CDK4/6 inhibition, ferroptosis-protective/SCD1 axis.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>pathway_activation_evidence</strong></td>
+                            <td>Evidence comes from subtype-stratified proteogenomic analyses, especially phosphoproteomics/RPPA and inferred kinase activity. PI tumors show increased STAT1 transcription, global protein expression, TF activity, p-STAT1 S727-linked signaling, PD-L1 protein by three validated antibodies, and CTLA4 RNA. TRU tumors show enhanced EGFR signaling with downstream ERK, PI3K-PDK1, RPS6KA1 activity and multiple substrate phosphosites. PP tumors show enhanced CDK activity inferred from phosphosite patterns including RB1 S780, increased MAP2K7 activity, increased proliferation markers, and metabolic protein upregulation. The paper does not validate these states with perturbation experiments, so the evidence is associative/proteomic rather than causal.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>driver_negative_subtype</strong></td>
+                            <td>The closest subtype is the proteogenomic PP subtype, which is described as 'immune-cold,' enriched for proliferation-related pathways, high purity, and frequent STK11/KEAP1 alterations; the paper also discusses the structurally altered somatic-signature subtype in former smokers with TP53 alterations and high structural variant burden. Neither is formally labeled as 'driver-negative,' but both are the most relevant contexts for tumors lacking canonical actionable oncogene lesions.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>clinical_or_exposure_context</strong></td>
+                            <td>Relevant contexts include former smokers for the structurally altered signature subtype, current smokers for transversion-high tumors, never smokers for transition-high tumors, and high immune infiltration/high TMB for PI tumors. PP tumors have higher tumor purity and reduced immune content; the paper also notes that PP includes KRAS-negative tumors that had been refractory to targeted therapy until recently.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>cross_cancer_parallel</strong></td>
+                            <td>The paper explicitly compares RNA:protein correlation findings to clear cell renal carcinoma and gastric carcinoma, and cites synthetic-lethal and pathway-dependence literature from other cancers, including SMARCA4 loss with CDK4/6 inhibition in NSCLC and STK11/KEAP1-related metabolic vulnerabilities known in lung cancer.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>therapeutic_vulnerability_or_implication</strong></td>
+                            <td>For tumors without targetable oncogene mutations, the paper proposes pathway-based treatment strategies: PI tumors may be most responsive to immune checkpoint inhibitors; TRU tumors may respond to EGFR inhibitors and potentially PRKCE or RPS6KA1-directed compounds; PP tumors may benefit from CDK inhibitors, glutaminase inhibitors, and possibly SCD inhibition plus ferroptosis inducers in STK11-KEAP1 co-mutants. The authors frame these as therapeutic vulnerabilities and call for prospective clinical studies.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>validation_evidence_and_model_system</strong></td>
+                            <td>Validation is by independent cohort replication and cross-platform concordance, not functional perturbation. The survival signatures were validated in the CPTAC LUAD cohort; the tumor-wise RNA:protein heterogeneity pattern was also validated in CPTAC; PD-L1 antibody detection was supported by use of multiple validated antibody clones. No cell-line, organoid, xenograft, GEMM, or inhibitor-response experiments were performed in this paper.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>driver_negative_scope_class</strong></td>
+                            <td>no_known_actionable_driver</td>
+                        </tr>
+                        <tr>
+                            <td><strong>excluded_driver_genes_and_alteration_types</strong></td>
+                            <td>The paper does not provide a formal exclusion list for driver-negative status. Operationally, it refers to cases lacking a 'molecular alteration currently indicated for targeted therapy' and to PP tumors where most cases lack targetable oncogene mutations. Canonical actionable alterations discussed in the paper include EGFR mutations (TRU), KRAS and STK11 mutations (transversion-high), TP53 alterations (structurally altered), and STK11/KEAP1/SMARCA4 alterations (PP), but these are not stated as explicit exclusion criteria for a negative call.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>negative_call_assay_stack</strong></td>
+                            <td>WGS -> RNA-seq -> MS proteomics/phosphoproteomics -> RPPA (for subtype/network assignment and pathway-state inference); however, there is no explicit clinical negative-call pipeline such as panel testing followed by rescue sequencing.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>negative_call_confidence</strong></td>
+                            <td>medium</td>
+                        </tr>
+                        <tr>
+                            <td><strong>rescued_hidden_driver_after_deeper_testing</strong></td>
+                            <td>mixed_some_rescued</td>
+                        </tr>
+                        <tr>
+                            <td><strong>primary_hidden_driver_mechanism_class</strong></td>
+                            <td>phosphoproteomic_pathway_state</td>
+                        </tr>
+                        <tr>
+                            <td><strong>secondary_mechanism_classes</strong></td>
+                            <td>tumor_suppressor_co_loss; microenvironment_ecosystem_state; mutational_process_genomic_instability</td>
+                        </tr>
+                        <tr>
+                            <td><strong>mechanism_requires_specific_genetic_lesion</strong></td>
+                            <td>mixed</td>
+                        </tr>
+                        <tr>
+                            <td><strong>mechanism_is_tumor_intrinsic_or_extrinsic</strong></td>
+                            <td>mixed</td>
+                        </tr>
+                        <tr>
+                            <td><strong>mechanism_biologic_level</strong></td>
+                            <td>protein_phosphosite</td>
+                        </tr>
+                        <tr>
+                            <td><strong>causal_evidence_tier</strong></td>
+                            <td>tier_2_expression_or_proteomic_association</td>
+                        </tr>
+                        <tr>
+                            <td><strong>evidence_modalities_present</strong></td>
+                            <td>WGS, RNA_seq, proteomics, phosphoproteomics, RPPA, recurrence_statistics, inferred_kinase_activity, pathway_enrichment, independent_cohort_replication, retrospective_clinical_association</td>
+                        </tr>
+                        <tr>
+                            <td><strong>therapeutic_actionability_evidence_tier</strong></td>
+                            <td>inferential_only</td>
+                        </tr>
+                        <tr>
+                            <td><strong>paper_claim_strength</strong></td>
+                            <td>hypothesis_generating</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>Potentially Relevant New Papers (mentioned by this paper)</h2>
+            <ol>
+                <li>Proteogenomic characterization reveals therapeutic vulnerabilities in lung adenocarcinoma <em>(Rating: 2)</em></li>
+                <li>Whole-genome characterization of lung adenocarcinomas lacking alterations in the RTK/RAS/RAF pathway <em>(Rating: 2)</em></li>
+                <li>Comprehensive molecular profiling of lung adenocarcinoma <em>(Rating: 2)</em></li>
+                <li>Integrative proteomic characterization of human lung adenocarcinoma <em>(Rating: 1)</em></li>
+                <li>Proteogenomic characterization of non-smoking lung cancer in east asia delineates molecular signatures of pathogenesis and progression <em>(Rating: 1)</em></li>
+            </ol>
+        </div>
+
+        </div>
+
+    </div>
+</body>
+</html>

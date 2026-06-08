@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Extraction extraction-result-2404 - Theorizer</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+    <div class="header">
+        <a href="../index.html"><i class="fas fa-flask"></i> Theorizer</a>
+    </div>
+
+    <div class="content">
+        <h1>Extracted Data Details for extraction-result-2404</h1>
+
+        <div class="section">
+            <h2>Extracted Data (Header)</h2>
+            <div class="info-section">
+                <p><strong>Extraction ID:</strong> extraction-result-2404</p>
+                <p><strong>Extraction Schema Used (ID):</strong> <a href="../schemas/extraction-schema-1846.html">extraction-schema-1846</a></p>
+                <div class="extraction-query"><strong>Extraction Query:</strong> Extract any mentions of hidden drivers, pathway states, subtype structure, validation evidence, and therapeutic implications in oncogene-negative or driver-negative lung adenocarcinoma.</div>
+                <p><strong>Paper ID:</strong> paper-eb2021570b76a0a01da6cc39ac3fc9b046e30a98</p>
+                <p><strong>Paper Title:</strong> <a href="https://www.semanticscholar.org/paper/eb2021570b76a0a01da6cc39ac3fc9b046e30a98" target="_blank">Somatic mutations affect key pathways in lung adenocarcinoma</a></p>
+                <p><strong>Paper Venue:</strong> Nature</p>
+                <p><strong>Paper TL;DR:</strong> Somatic mutations in primary lung adenocarcinoma for several tumour suppressor genes involved in other cancers and for sequence changes in PTPRD as well as the frequently deleted gene LRP1B are found.</p>
+                <p><strong>Paper Abstract:</strong> Determining the genetic basis of cancer requires comprehensive analyses of large collections of histopathologically well-classified primary tumours. Here we report the results of a collaborative study to discover somatic mutations in 188 human lung adenocarcinomas. DNA sequencing of 623 genes with known or potential relationships to cancer revealed more than 1,000 somatic mutations across the samples. Our analysis identified 26 genes that are mutated at significantly high frequencies and thus are probably involved in carcinogenesis. The frequently mutated genes include tyrosine kinases, among them the EGFR homologue ERBB4; multiple ephrin receptor genes, notably EPHA3; vascular endothelial growth factor receptor KDR; and NTRK genes. These data provide evidence of somatic mutations in primary lung adenocarcinoma for several tumour suppressor genes involved in other cancers—including NF1, APC, RB1 and ATM—and for sequence changes in PTPRD as well as the frequently deleted gene LRP1B. The observed mutational profiles correlate with clinical features, smoking status and DNA repair defects. These results are reinforced by data integration including single nucleotide polymorphism array and gene expression array. Our findings shed further light on several important signalling pathways involved in lung adenocarcinoma, and suggest new molecular targets for treatment.</p>
+                <p><strong>Cost:</strong> 0.018</p>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>Extracted Data (Details)</h2>
+            <div class="extraction-instance-container" id="e2404.0">
+                <h3 class="extraction-instance">Extracted Data Instance 0 (e2404.0)</h3>
+                <div class="extraction-query"><strong>Extraction Query:</strong> Extract any mentions of hidden drivers, pathway states, subtype structure, validation evidence, and therapeutic implications in oncogene-negative or driver-negative lung adenocarcinoma.</div>
+                <table>
+                    <thead>
+                        <tr>
+                            <th style="width: 30%;">Field</th>
+                            <th style="width: 70%;">Value</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><strong>name_short</strong></td>
+                            <td>LUAD</td>
+                        </tr>
+                        <tr>
+                            <td><strong>name_full</strong></td>
+                            <td>lung adenocarcinoma</td>
+                        </tr>
+                        <tr>
+                            <td><strong>brief_description</strong></td>
+                            <td>The paper analyzes 188 primary lung adenocarcinomas by targeted resequencing of 623 candidate cancer genes, SNP array copy-number profiling, and gene-expression profiling to identify recurrently mutated genes and pathways. It does not define a formally driver-negative subset, but it does describe tumors with no mutations detected in the sequenced panel and links some of these to stromal contamination, implying possible technical false negatives rather than a distinct biologic driver-negative class.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>citation_title</strong></td>
+                            <td>Somatic mutations affect key pathways in lung adenocarcinoma</td>
+                        </tr>
+                        <tr>
+                            <td><strong>mention_or_use</strong></td>
+                            <td>use</td>
+                        </tr>
+                        <tr>
+                            <td><strong>driver_negative_definition</strong></td>
+                            <td>No formal oncogene-negative or driver-negative definition is provided. The closest operationalization is the set of 25 patients in whom no mutations were found in the 623 sequenced genes; the authors note that 16 of these 25 had higher stromal contamination, suggesting reduced mutation-detection sensitivity rather than true absence of drivers. The study also discusses tumors lacking mutations in key canonical genes such as EGFR and KRAS, but these are not defined as a separate negative category.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>candidate_driver_pathway_or_mechanism</strong></td>
+                            <td>The paper’s main hidden-driver logic is pathway-centric rather than based on a single secret oncogene: recurrent alteration of MAPK, p53, Wnt, cell-cycle, and mTOR signaling, often through loss-of-function of tumor suppressors (for example NF1, ATM, RB1, APC, PTEN, STK11) or gain/amplification of RTK/RAS-axis genes. For apparently mutation-negative tumors, the paper mainly suggests technical limitations and/or incomplete sampling as the explanation, not an alternative hidden driver mechanism.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>alteration_or_activation_mode</strong></td>
+                            <td>Combination of recurrent coding mutations, nonsense/splice-site/frameshift loss-of-function events, focal amplifications, deletions, copy-number gain/loss, and correlated expression changes; for pathway state, the inferred mode is combinatorial co-alteration of pathway members rather than a single alteration class.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>implicated_gene_axis_or_pathway</strong></td>
+                            <td>MAPK signaling, p53 signaling, Wnt signaling, cell-cycle control, and mTOR signaling, with specific recurrently altered genes including EGFR, KRAS, NF1, ATM, TP53, APC, CTNNB1, PTEN, STK11, RB1, MDM2, CDK4, CDK6, CCND1, and CCNE1. The paper also implicates receptor tyrosine kinase families such as ERBB4, EPHA3, KDR, FGFR4, and NTRK genes.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>pathway_activation_evidence</strong></td>
+                            <td>Evidence is largely genomic and correlative: recurrence statistics show many tumors harbor mutations in MAPK, p53, Wnt, cell-cycle, and mTOR pathway genes; copy-number and expression integration shows concordant amplification/deletion and expression shifts for genes such as EGFR, KRAS, TP53, APC, STK11, ATM, and others. The paper does not provide direct phosphoproteomic readouts such as pERK/pAKT/pS6 in this study, so pathway activation is inferred rather than directly measured.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>driver_negative_subtype</strong></td>
+                            <td>No explicit driver-negative subtype is proposed. The closest implicit subgroup is the set of sequenced tumors with no detected mutations in the 623-gene panel, many of which had higher stromal contamination; this is a technical/ascertainment-defined group rather than a genomically or transcriptionally coherent subtype.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>clinical_or_exposure_context</strong></td>
+                            <td>The paper links mutation patterns to smoking status, grade, stage, and histologic subtype. Never-smokers are enriched for EGFR mutations, smokers for KRAS and STK11 mutations; the no-mutation group is enriched for higher stromal contamination. Among histologic subtypes, solid tumors are associated with TP53, LRP1B, and INHBA mutations, while EGFR shows positive correlation with papillary subtype.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>cross_cancer_parallel</strong></td>
+                            <td>The paper explicitly compares several findings to other cancers: NF1 in neurofibromatosis type 1, ATM as a checkpoint kinase regulating p53, RB1 as the retinoblastoma susceptibility gene, APC mutations known in other tumor types, and ERBB2/ERBB4/AKT1/BRAF/PTEN alterations previously described in other cancers. It also notes resemblance to papillomavirus targeting of RB1 and TP53 simultaneously, and to mTOR hyperactivation in neurofibromin-deficient systems.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>therapeutic_vulnerability_or_implication</strong></td>
+                            <td>Therapeutic implications are hypothesis-generating and pathway-based. The authors suggest MEK inhibitors could be tested in NF1-mutant tumors, KDR inhibitors such as sorafenib and sunitinib could be tested in KDR-mutant tumors, and rapamycin/rapamycin analogues should be further tested for tumors with mTOR pathway dysregulation. The paper also reinforces EGFR tyrosine kinase inhibitor sensitivity in EGFR-mutant never-smoker tumors, though that is largely background rather than a new finding here.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>validation_evidence_and_model_system</strong></td>
+                            <td>Validation is primarily genomic and integrative: non-synonymous mutations were confirmed by orthogonal methods or independent PCR/sequencing, and mutation calls were integrated with SNP array and gene-expression data. No functional cell-line, organoid, xenograft, or patient-response validation of a hidden-driver hypothesis is presented in this paper.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>driver_negative_scope_class</strong></td>
+                            <td>not_formally_defined</td>
+                        </tr>
+                        <tr>
+                            <td><strong>excluded_driver_genes_and_alteration_types</strong></td>
+                            <td>No explicit exclusion set is defined. The only operational negative category is absence of detected non-synonymous somatic mutations in the targeted 623-gene coding/splice-site panel; the study does not exclude EGFR/KRAS/ALK specifically, does not perform fusion testing, and does not define negativity using RNA-seq, IHC, or FISH.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>negative_call_assay_stack</strong></td>
+                            <td>targeted_623_gene_DNA_resequencing -> orthogonal_validation_by_independent_PCR_or_other_methods -> SNP_array_and_expression_integration_for_subset</td>
+                        </tr>
+                        <tr>
+                            <td><strong>negative_call_confidence</strong></td>
+                            <td>low</td>
+                        </tr>
+                        <tr>
+                            <td><strong>rescued_hidden_driver_after_deeper_testing</strong></td>
+                            <td>unresolved_after_broad_testing</td>
+                        </tr>
+                        <tr>
+                            <td><strong>primary_hidden_driver_mechanism_class</strong></td>
+                            <td>technical_false_negative</td>
+                        </tr>
+                        <tr>
+                            <td><strong>secondary_mechanism_classes</strong></td>
+                            <td>tumor_suppressor_co_loss, copy_number_or_amplicon_driver, unresolved</td>
+                        </tr>
+                        <tr>
+                            <td><strong>mechanism_requires_specific_genetic_lesion</strong></td>
+                            <td>mixed</td>
+                        </tr>
+                        <tr>
+                            <td><strong>mechanism_is_tumor_intrinsic_or_extrinsic</strong></td>
+                            <td>mixed</td>
+                        </tr>
+                        <tr>
+                            <td><strong>mechanism_biologic_level</strong></td>
+                            <td>dna</td>
+                        </tr>
+                        <tr>
+                            <td><strong>causal_evidence_tier</strong></td>
+                            <td>tier_1_genomic_or_correlative_only</td>
+                        </tr>
+                        <tr>
+                            <td><strong>evidence_modalities_present</strong></td>
+                            <td>recurrence_statistics, targeted_DNA_resequencing, orthogonal_validation, SNP_array_copy_number, gene_expression_array, mutation_copy_number_correlation, mutation_expression_correlation, clinical_correlation, pathway_enrichment</td>
+                        </tr>
+                        <tr>
+                            <td><strong>therapeutic_actionability_evidence_tier</strong></td>
+                            <td>inferential_only</td>
+                        </tr>
+                        <tr>
+                            <td><strong>paper_claim_strength</strong></td>
+                            <td>hypothesis_generating</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>Potentially Relevant New Papers (mentioned by this paper)</h2>
+            <ol>
+                <li>Characterizing the cancer genome in lung adenocarcinoma <em>(Rating: 2)</em></li>
+                <li>Mutational analysis of EGFR and related signaling pathway genes in lung adenocarcinomas identifies a novel somatic kinase domain mutation in FGFR4 <em>(Rating: 1)</em></li>
+                <li>Mutations in the LKB1 tumour suppressor are frequently detected in tumours from Caucasian but not Asian lung cancer patients <em>(Rating: 1)</em></li>
+                <li>EGF receptor gene mutations are common in lung cancers from “never smokers” and are associated with sensitivity of tumors to gefitinib and erlotinib <em>(Rating: 1)</em></li>
+            </ol>
+        </div>
+
+        </div>
+
+    </div>
+</body>
+</html>

@@ -1,0 +1,942 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Extraction extraction-result-2273 - Theorizer</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+    <div class="header">
+        <a href="../index.html"><i class="fas fa-flask"></i> Theorizer</a>
+    </div>
+
+    <div class="content">
+        <h1>Extracted Data Details for extraction-result-2273</h1>
+
+        <div class="section">
+            <h2>Extracted Data (Header)</h2>
+            <div class="info-section">
+                <p><strong>Extraction ID:</strong> extraction-result-2273</p>
+                <p><strong>Extraction Schema Used (ID):</strong> <a href="../schemas/extraction-schema-1845.html">extraction-schema-1845</a></p>
+                <div class="extraction-query"><strong>Extraction Query:</strong> Extract any mentions of driver-negative or oncogene-negative lung adenocarcinoma cases, cohorts, models, or subgroups; the evidence for why they are considered driver-negative; candidate alternative drivers or mechanisms; proposed subtypes; validation strategies; comparisons to other cancers; and therapeutic implications.</div>
+                <p><strong>Paper ID:</strong> paper-0adf692505b01be9dfea7fa7ea80fd9de19fa329</p>
+                <p><strong>Paper Title:</strong> <a href="https://www.semanticscholar.org/paper/0adf692505b01be9dfea7fa7ea80fd9de19fa329" target="_blank">Signatures of Multi-Omics Reveal Distinct Tumor Immune Microenvironment Contributing to Immunotherapy in Lung Adenocarcinoma</a></p>
+                <p><strong>Paper Venue:</strong> Frontiers in Immunology</p>
+                <p><strong>Paper TL;DR:</strong> It is demonstrated that combined multi-omics data could determine molecular subtypes with significant differences of prognosis and TIME in LUAD and suggested potent utility of the signatures to guide immunotherapy.</p>
+                <p><strong>Paper Abstract:</strong> Background Lung adenocarcinoma (LUAD) contains a variety of genomic and epigenomic abnormalities; the effective tumor markers related to these abnormalities need to be further explored. Methods Clustering analysis was performed based on DNA methylation (MET), DNA copy number variation (CNV), and mRNA expression data, and the differences in survival and tumor immune microenvironment (TIME) between subtypes were compared. Further, we evaluated the signatures in terms of both prognostic value and immunological characteristics. Results There was a positive correlation between MET and CNV in LUAD. Integrative analysis of multi-omics data from 443 samples determined molecular subtypes, iC1 and iC2. The fractions of CD8+ T cells and activated CD4+ T cells were higher, the fraction of Tregs was lower, and the expression level of programmed death-ligand 1 (PD-L1) was higher in iC2 with a poor prognosis showing a higher TIDE score. We selected PTTG1, SLC2A1, and FAM83A as signatures of molecular subtypes to build a prognostic risk model and divided patients into high-risk group and low-risk group representing poor prognosis and good prognosis, respectively, which were validated in 180 patients with LUAD. Further, the low-risk group with lower TIDE score had more infiltrating immune cells. In 100 patients with LUAD, the high-risk group with an immunosuppressive state had a higher expression of PD-L1 and lower counts of CD8+ T cells and dendritic cells. Conclusions These findings demonstrated that combined multi-omics data could determine molecular subtypes with significant differences of prognosis and TIME in LUAD and suggested potent utility of the signatures to guide immunotherapy.</p>
+                <p><strong>Cost:</strong> 0.039</p>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>Extracted Data (Details)</h2>
+            <div class="extraction-instance-container" id="e2273.0">
+                <h3 class="extraction-instance">Extracted Data Instance 0 (e2273.0)</h3>
+                <div class="extraction-query"><strong>Extraction Query:</strong> Extract any mentions of driver-negative or oncogene-negative lung adenocarcinoma cases, cohorts, models, or subgroups; the evidence for why they are considered driver-negative; candidate alternative drivers or mechanisms; proposed subtypes; validation strategies; comparisons to other cancers; and therapeutic implications.</div>
+                <table>
+                    <thead>
+                        <tr>
+                            <th style="width: 30%;">Field</th>
+                            <th style="width: 70%;">Value</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><strong>name_short</strong></td>
+                            <td>LUAD TCGA multi-omics cohort</td>
+                        </tr>
+                        <tr>
+                            <td><strong>name_full</strong></td>
+                            <td>The 443-sample lung adenocarcinoma cohort from The Cancer Genome Atlas used for integrative multi-omics analysis</td>
+                        </tr>
+                        <tr>
+                            <td><strong>brief_description</strong></td>
+                            <td>A TCGA LUAD discovery cohort of 443 tumor samples was analyzed using methylation, copy-number variation, mRNA expression, and SNP/MAF data to identify molecular subtypes, prognostic signatures, and immune microenvironment differences. The study does not define these cases as driver-negative; rather, it focuses on multi-omics-derived subtypes and notes the TP53 mutation rate as the highest in the cohort.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>citation_title</strong></td>
+                            <td>Signatures of Multi-Omics Reveal Distinct Tumor Immune Microenvironment Contributing to Immunotherapy in Lung Adenocarcinoma</td>
+                        </tr>
+                        <tr>
+                            <td><strong>mention_or_use</strong></td>
+                            <td>use</td>
+                        </tr>
+                        <tr>
+                            <td><strong>cohort_or_model</strong></td>
+                            <td>TCGA LUAD cohort (443 tumor samples; 59 healthy controls for DEG comparison)</td>
+                        </tr>
+                        <tr>
+                            <td><strong>cancer_context</strong></td>
+                            <td>lung adenocarcinoma (LUAD)</td>
+                        </tr>
+                        <tr>
+                            <td><strong>driver_negative_definition</strong></td>
+                            <td>Not defined as driver-negative or oncogene-negative in the paper; no canonical driver-negative selection criteria were applied. The study instead used MET, CNV, and mRNA data to define molecular subtypes.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>driver_negative_frequency</strong></td>
+                            <td>Not reported</td>
+                        </tr>
+                        <tr>
+                            <td><strong>profiling_modalities</strong></td>
+                            <td>DNA methylation, DNA copy number variation, mRNA expression, SNP/MAF mutation data, integrative clustering (NMF/iCluster), CIBERSORT immune deconvolution, ESTIMATE, TIDE</td>
+                        </tr>
+                        <tr>
+                            <td><strong>candidate_mechanism_category</strong></td>
+                            <td>epigenetic dysregulation; copy-number alteration; alternative pathway activation</td>
+                        </tr>
+                        <tr>
+                            <td><strong>candidate_driver_or_mechanism</strong></td>
+                            <td>MET/CNV-associated transcriptional programs; downstream PTTG1, SLC2A1, and FAM83A signatures; p53 signaling/cell-cycle/apoptosis pathways</td>
+                        </tr>
+                        <tr>
+                            <td><strong>mechanistic_description</strong></td>
+                            <td>The paper proposes that combined methylation and copy-number abnormalities shape distinct LUAD molecular subtypes with divergent immune microenvironments and prognosis. Candidate downstream biology centers on transcriptomic programs involving PTTG1, SLC2A1, and FAM83A, with enrichment for cell cycle, apoptosis, and P53 signaling.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>evidence_type</strong></td>
+                            <td>multi-omics clustering; pathway enrichment; survival association; immune microenvironment association; orthogonal expression validation</td>
+                        </tr>
+                        <tr>
+                            <td><strong>key_evidence</strong></td>
+                            <td>Correlation analyses showed MET and CNV abnormalities were associated, with Gain positively correlated with MetHyper (r = 0.68, p < 0.001) and Loss also positively correlated with MetHyper (r = 0.26, p < 0.001). Integrative clustering of 443 samples produced iC1 (n = 203) and iC2 (n = 240), which differed in OS (p = 0.00089), DFS (p = 0.0063), immune infiltration, PD-L1/PD-1/IDO/LAG3 expression, and TIDE score.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>negative_or_counter_evidence</strong></td>
+                            <td>The study does not provide direct evidence of a discrete driver-negative subset; it also did not perform comprehensive fusion/structural variant testing or functional perturbation to establish causality for candidate mechanisms.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>subtype_name</strong></td>
+                            <td>iC1 / iC2</td>
+                        </tr>
+                        <tr>
+                            <td><strong>subtype_features</strong></td>
+                            <td>iC1 had better prognosis, higher total immune/stromal score, higher dendritic cell and activated NK cell fractions, lower CD8+ and activated CD4+ T-cell fractions than iC2, and lower expression of immune checkpoints. iC2 had worse prognosis, higher PD-1/PD-L1/IDO/LAG3 expression, and lower TIDE score, indicating a more immunosuppressive TIME.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>parallel_in_other_cancers</strong></td>
+                            <td>The authors compare their findings to an integrated multi-omics study in ovarian cancer, noting a similar positive correlation between methylation and CNV abnormalities.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>validation_approach</strong></td>
+                            <td>External validation in GEO dataset GSE31210 (226 LUAD samples) plus validation in a Tianjin cohort (180 patients overall; 41 for RT-qPCR, 100 for immune IHC, 180 for protein-level IHC across signatures).</td>
+                        </tr>
+                        <tr>
+                            <td><strong>validation_result</strong></td>
+                            <td>The prognostic signature remained significant in GSE31210 (OS p < 0.001; 3-year AUC 0.691, 5-year AUC 0.713) and in the Tianjin cohort at mRNA and protein levels; the model also predicted immune microenvironment differences by IHC.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>therapeutic_implication</strong></td>
+                            <td>Potential utility for guiding immunotherapy, especially PD-1/PD-L1 blockade, because low-risk/iC1-like tumors showed more favorable immune contexture and lower TIDE scores.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>therapeutic_evidence</strong></td>
+                            <td>Low-risk tumors had lower PD-L1 and higher infiltrating immune cells, and the authors state that patients in the low-risk group may benefit more from immunotherapy; high-risk tumors showed immunosuppressive features.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>clinical_or_demographic_association</strong></td>
+                            <td>Risk score correlated with clinical stage in the Tianjin cohort, increasing with advancing stage; the high-risk group had worse OS and more advanced disease. Smoking status showed limited/variable association, and no driver-negative-specific demographic enrichment was reported.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>study_limitations</strong></td>
+                            <td>No formal driver-negative cohort was defined; no exhaustive clinical oncogene panel was used; no functional validation of candidate mechanisms was performed; immune deconvolution and IHC can be limited by sample size and tumor heterogeneity.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>driver_negativity_confidence</strong></td>
+                            <td>not_applicable</td>
+                        </tr>
+                        <tr>
+                            <td><strong>negative_status_basis</strong></td>
+                            <td>not_applicable</td>
+                        </tr>
+                        <tr>
+                            <td><strong>tested_driver_classes</strong></td>
+                            <td>hotspot_snv_indel, exome_mutation, broad_copy_number, epigenomics, spatial_microenvironment</td>
+                        </tr>
+                        <tr>
+                            <td><strong>untested_or_underpowered_driver_classes</strong></td>
+                            <td>fusion_rearrangement, exon_skipping_splicing, noncoding_regulatory, phosphoproteomics, protein_abundance, genome_mutation</td>
+                        </tr>
+                        <tr>
+                            <td><strong>false_negative_rescue_evidence</strong></td>
+                            <td>none</td>
+                        </tr>
+                        <tr>
+                            <td><strong>sample_purity_detection_limit_issue</strong></td>
+                            <td>No explicit low-purity or assay-failure caveat was raised; however, the study is RNA/methylation/CNV-centered and therefore could miss occult structural drivers or low-level events.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>mapk_output_state</strong></td>
+                            <td>unresolved</td>
+                        </tr>
+                        <tr>
+                            <td><strong>pi3k_akt_mtor_output_state</strong></td>
+                            <td>unresolved</td>
+                        </tr>
+                        <tr>
+                            <td><strong>rtk_or_her_family_activation_state</strong></td>
+                            <td>unclear</td>
+                        </tr>
+                        <tr>
+                            <td><strong>signaling_readout_assay</strong></td>
+                            <td>No direct phospho-signaling assay; immune checkpoints and pathway inferences were based on transcriptomic, methylation, CNV, and immune deconvolution analyses.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>genome_protein_discordance_flag</strong></td>
+                            <td>unclear</td>
+                        </tr>
+                        <tr>
+                            <td><strong>driver_mechanism_route</strong></td>
+                            <td>microenvironmental_state</td>
+                        </tr>
+                        <tr>
+                            <td><strong>altered_molecular_layer</strong></td>
+                            <td>cell_state_composition</td>
+                        </tr>
+                        <tr>
+                            <td><strong>functional_consequence_type</strong></td>
+                            <td>immune_exclusion</td>
+                        </tr>
+                        <tr>
+                            <td><strong>canonical_pathway_reinstatement_flag</strong></td>
+                            <td>unclear</td>
+                        </tr>
+                        <tr>
+                            <td><strong>alternative_driver_axis</strong></td>
+                            <td>immune</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="extraction-instance-container" id="e2273.1">
+                <h3 class="extraction-instance">Extracted Data Instance 1 (e2273.1)</h3>
+                <div class="extraction-query"><strong>Extraction Query:</strong> Extract any mentions of driver-negative or oncogene-negative lung adenocarcinoma cases, cohorts, models, or subgroups; the evidence for why they are considered driver-negative; candidate alternative drivers or mechanisms; proposed subtypes; validation strategies; comparisons to other cancers; and therapeutic implications.</div>
+                <table>
+                    <thead>
+                        <tr>
+                            <th style="width: 30%;">Field</th>
+                            <th style="width: 70%;">Value</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><strong>name_short</strong></td>
+                            <td>METcor clusters</td>
+                        </tr>
+                        <tr>
+                            <td><strong>name_full</strong></td>
+                            <td>Methylation-correlated gene clusters in lung adenocarcinoma</td>
+                        </tr>
+                        <tr>
+                            <td><strong>brief_description</strong></td>
+                            <td>Clustering based on MET-correlated genes divided LUAD into METCorC1 and METCorC2, which differed in survival and immune microenvironment features. These are not driver-negative tumors, but they represent a molecular subgroup defined by methylation-linked transcriptional programs.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>citation_title</strong></td>
+                            <td>Signatures of Multi-Omics Reveal Distinct Tumor Immune Microenvironment Contributing to Immunotherapy in Lung Adenocarcinoma</td>
+                        </tr>
+                        <tr>
+                            <td><strong>mention_or_use</strong></td>
+                            <td>use</td>
+                        </tr>
+                        <tr>
+                            <td><strong>cohort_or_model</strong></td>
+                            <td>TCGA LUAD METcor analysis</td>
+                        </tr>
+                        <tr>
+                            <td><strong>cancer_context</strong></td>
+                            <td>lung adenocarcinoma</td>
+                        </tr>
+                        <tr>
+                            <td><strong>driver_negative_definition</strong></td>
+                            <td>Not applicable; METcor clustering is not a driver-negative definition.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>driver_negative_frequency</strong></td>
+                            <td>Not reported</td>
+                        </tr>
+                        <tr>
+                            <td><strong>profiling_modalities</strong></td>
+                            <td>DNA methylation, mRNA expression, NMF clustering, CIBERSORT, ESTIMATE, immune checkpoint expression, TIDE</td>
+                        </tr>
+                        <tr>
+                            <td><strong>candidate_mechanism_category</strong></td>
+                            <td>epigenetic dysregulation</td>
+                        </tr>
+                        <tr>
+                            <td><strong>candidate_driver_or_mechanism</strong></td>
+                            <td>MET-correlated gene program</td>
+                        </tr>
+                        <tr>
+                            <td><strong>mechanistic_description</strong></td>
+                            <td>Methylation-linked gene expression differences stratify LUAD into subclusters with distinct immune infiltration and prognosis.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>evidence_type</strong></td>
+                            <td>correlation-based clustering; survival association; immune profiling</td>
+                        </tr>
+                        <tr>
+                            <td><strong>key_evidence</strong></td>
+                            <td>METcorC1 (n = 267) had worse OS (p = 0.0025) and DFS (p = 0.0058) than METcorC2; METcorC1 also had higher CD8+ and activated CD4+ T-cell fractions, lower DC fraction, higher PD-1/PD-L1/IDO/LAG3, and higher TIDE score.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>negative_or_counter_evidence</strong></td>
+                            <td>No mechanistic experiments established methylation as causal.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>subtype_name</strong></td>
+                            <td>METCorC1 / METCorC2</td>
+                        </tr>
+                        <tr>
+                            <td><strong>subtype_features</strong></td>
+                            <td>METCorC1: worse prognosis, lower immune/stromal score, lower DC fraction, higher CD8+ and activated CD4+ T cells, higher immune checkpoint expression, higher TIDE. METCorC2: comparatively favorable prognosis and less immunosuppressive state.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>parallel_in_other_cancers</strong></td>
+                            <td><span class="empty-note">null</span></td>
+                        </tr>
+                        <tr>
+                            <td><strong>validation_approach</strong></td>
+                            <td>Internal clustering and downstream immune/prognostic comparisons; no orthogonal functional validation.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>validation_result</strong></td>
+                            <td>METcor clusters reproduced strong survival and immune differences within TCGA LUAD.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>therapeutic_implication</strong></td>
+                            <td>May inform immunotherapy response stratification through checkpoint/TIDE associations.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>therapeutic_evidence</strong></td>
+                            <td>High checkpoint expression and high TIDE in METCorC1 suggest reduced immunotherapy responsiveness.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>clinical_or_demographic_association</strong></td>
+                            <td>No specific demographic enrichment reported.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>study_limitations</strong></td>
+                            <td>Cluster labels are correlation-derived and not experimentally validated drivers.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>driver_negativity_confidence</strong></td>
+                            <td>not_applicable</td>
+                        </tr>
+                        <tr>
+                            <td><strong>negative_status_basis</strong></td>
+                            <td>not_applicable</td>
+                        </tr>
+                        <tr>
+                            <td><strong>tested_driver_classes</strong></td>
+                            <td>epigenomics, spatial_microenvironment</td>
+                        </tr>
+                        <tr>
+                            <td><strong>untested_or_underpowered_driver_classes</strong></td>
+                            <td>fusion_rearrangement, exon_skipping_splicing, phosphoproteomics, protein_abundance</td>
+                        </tr>
+                        <tr>
+                            <td><strong>false_negative_rescue_evidence</strong></td>
+                            <td>none</td>
+                        </tr>
+                        <tr>
+                            <td><strong>sample_purity_detection_limit_issue</strong></td>
+                            <td><span class="empty-note">null</span></td>
+                        </tr>
+                        <tr>
+                            <td><strong>mapk_output_state</strong></td>
+                            <td>unresolved</td>
+                        </tr>
+                        <tr>
+                            <td><strong>pi3k_akt_mtor_output_state</strong></td>
+                            <td>unresolved</td>
+                        </tr>
+                        <tr>
+                            <td><strong>rtk_or_her_family_activation_state</strong></td>
+                            <td>unclear</td>
+                        </tr>
+                        <tr>
+                            <td><strong>signaling_readout_assay</strong></td>
+                            <td>CIBERSORT/ESTIMATE/TIDE and immune checkpoint mRNA expression</td>
+                        </tr>
+                        <tr>
+                            <td><strong>genome_protein_discordance_flag</strong></td>
+                            <td>unclear</td>
+                        </tr>
+                        <tr>
+                            <td><strong>driver_mechanism_route</strong></td>
+                            <td>microenvironmental_state</td>
+                        </tr>
+                        <tr>
+                            <td><strong>altered_molecular_layer</strong></td>
+                            <td>chromatin_epigenome</td>
+                        </tr>
+                        <tr>
+                            <td><strong>functional_consequence_type</strong></td>
+                            <td>immune_exclusion</td>
+                        </tr>
+                        <tr>
+                            <td><strong>canonical_pathway_reinstatement_flag</strong></td>
+                            <td>unclear</td>
+                        </tr>
+                        <tr>
+                            <td><strong>alternative_driver_axis</strong></td>
+                            <td>immune</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="extraction-instance-container" id="e2273.2">
+                <h3 class="extraction-instance">Extracted Data Instance 2 (e2273.2)</h3>
+                <div class="extraction-query"><strong>Extraction Query:</strong> Extract any mentions of driver-negative or oncogene-negative lung adenocarcinoma cases, cohorts, models, or subgroups; the evidence for why they are considered driver-negative; candidate alternative drivers or mechanisms; proposed subtypes; validation strategies; comparisons to other cancers; and therapeutic implications.</div>
+                <table>
+                    <thead>
+                        <tr>
+                            <th style="width: 30%;">Field</th>
+                            <th style="width: 70%;">Value</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><strong>name_short</strong></td>
+                            <td>CNVcor clusters</td>
+                        </tr>
+                        <tr>
+                            <td><strong>name_full</strong></td>
+                            <td>Copy-number-variation-correlated gene clusters in lung adenocarcinoma</td>
+                        </tr>
+                        <tr>
+                            <td><strong>brief_description</strong></td>
+                            <td>Clustering based on CNV-correlated genes divided LUAD into CNVCorC1 and CNVCorC2 with distinct prognosis and immune features. These are not driver-negative tumors, but a CNV-linked molecular subgroup.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>citation_title</strong></td>
+                            <td>Signatures of Multi-Omics Reveal Distinct Tumor Immune Microenvironment Contributing to Immunotherapy in Lung Adenocarcinoma</td>
+                        </tr>
+                        <tr>
+                            <td><strong>mention_or_use</strong></td>
+                            <td>use</td>
+                        </tr>
+                        <tr>
+                            <td><strong>cohort_or_model</strong></td>
+                            <td>TCGA LUAD CNVcor analysis</td>
+                        </tr>
+                        <tr>
+                            <td><strong>cancer_context</strong></td>
+                            <td>lung adenocarcinoma</td>
+                        </tr>
+                        <tr>
+                            <td><strong>driver_negative_definition</strong></td>
+                            <td>Not applicable; CNVcor clustering is not a driver-negative definition.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>driver_negative_frequency</strong></td>
+                            <td>Not reported</td>
+                        </tr>
+                        <tr>
+                            <td><strong>profiling_modalities</strong></td>
+                            <td>copy-number variation, mRNA expression, NMF clustering, immune deconvolution, immune checkpoint analysis</td>
+                        </tr>
+                        <tr>
+                            <td><strong>candidate_mechanism_category</strong></td>
+                            <td>copy-number alteration</td>
+                        </tr>
+                        <tr>
+                            <td><strong>candidate_driver_or_mechanism</strong></td>
+                            <td>CNV-correlated gene program</td>
+                        </tr>
+                        <tr>
+                            <td><strong>mechanistic_description</strong></td>
+                            <td>Copy-number-linked expression programs partition LUAD into subgroups with different prognosis and immune states.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>evidence_type</strong></td>
+                            <td>correlation-based clustering; survival association; immune profiling</td>
+                        </tr>
+                        <tr>
+                            <td><strong>key_evidence</strong></td>
+                            <td>CNVCorC1 had worse prognosis than CNVCorC2, lower DC fraction, higher CD8+ and activated CD4+ T-cell fractions, and altered PD-1/IDO/LAG3/TIM3 expression, with a dysfunctional T-cell state indicated by TIDE.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>negative_or_counter_evidence</strong></td>
+                            <td>No causal validation; PD-L1 and CTLA4 did not differ significantly between CNVcor clusters.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>subtype_name</strong></td>
+                            <td>CNVCorC1 / CNVCorC2</td>
+                        </tr>
+                        <tr>
+                            <td><strong>subtype_features</strong></td>
+                            <td>CNVCorC1: worse prognosis, lower DC, higher CD8+ and activated CD4+ T cells, immune dysfunction. CNVCorC2: relatively favorable immune contexture.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>parallel_in_other_cancers</strong></td>
+                            <td><span class="empty-note">null</span></td>
+                        </tr>
+                        <tr>
+                            <td><strong>validation_approach</strong></td>
+                            <td>Cluster-based comparison in TCGA and immune deconvolution.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>validation_result</strong></td>
+                            <td>Significant immune/prognostic differences were observed across CNVcor clusters.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>therapeutic_implication</strong></td>
+                            <td>Potential immunotherapy relevance via T-cell dysfunction and checkpoint expression.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>therapeutic_evidence</strong></td>
+                            <td>TIDE suggested dysfunctional T cells in poor-outcome CNVcor clusters.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>clinical_or_demographic_association</strong></td>
+                            <td>No specific demographic association reported.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>study_limitations</strong></td>
+                            <td>No direct functional experiments; cluster definitions depend on gene-expression correlations with CNV.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>driver_negativity_confidence</strong></td>
+                            <td>not_applicable</td>
+                        </tr>
+                        <tr>
+                            <td><strong>negative_status_basis</strong></td>
+                            <td>not_applicable</td>
+                        </tr>
+                        <tr>
+                            <td><strong>tested_driver_classes</strong></td>
+                            <td>broad_copy_number, spatial_microenvironment</td>
+                        </tr>
+                        <tr>
+                            <td><strong>untested_or_underpowered_driver_classes</strong></td>
+                            <td>fusion_rearrangement, exon_skipping_splicing, phosphoproteomics, protein_abundance</td>
+                        </tr>
+                        <tr>
+                            <td><strong>false_negative_rescue_evidence</strong></td>
+                            <td>none</td>
+                        </tr>
+                        <tr>
+                            <td><strong>sample_purity_detection_limit_issue</strong></td>
+                            <td><span class="empty-note">null</span></td>
+                        </tr>
+                        <tr>
+                            <td><strong>mapk_output_state</strong></td>
+                            <td>unresolved</td>
+                        </tr>
+                        <tr>
+                            <td><strong>pi3k_akt_mtor_output_state</strong></td>
+                            <td>unresolved</td>
+                        </tr>
+                        <tr>
+                            <td><strong>rtk_or_her_family_activation_state</strong></td>
+                            <td>unclear</td>
+                        </tr>
+                        <tr>
+                            <td><strong>signaling_readout_assay</strong></td>
+                            <td>CIBERSORT/TIDE and checkpoint mRNA</td>
+                        </tr>
+                        <tr>
+                            <td><strong>genome_protein_discordance_flag</strong></td>
+                            <td>unclear</td>
+                        </tr>
+                        <tr>
+                            <td><strong>driver_mechanism_route</strong></td>
+                            <td>microenvironmental_state</td>
+                        </tr>
+                        <tr>
+                            <td><strong>altered_molecular_layer</strong></td>
+                            <td>cell_state_composition</td>
+                        </tr>
+                        <tr>
+                            <td><strong>functional_consequence_type</strong></td>
+                            <td>immune_exclusion</td>
+                        </tr>
+                        <tr>
+                            <td><strong>canonical_pathway_reinstatement_flag</strong></td>
+                            <td>unclear</td>
+                        </tr>
+                        <tr>
+                            <td><strong>alternative_driver_axis</strong></td>
+                            <td>immune</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="extraction-instance-container" id="e2273.3">
+                <h3 class="extraction-instance">Extracted Data Instance 3 (e2273.3)</h3>
+                <div class="extraction-query"><strong>Extraction Query:</strong> Extract any mentions of driver-negative or oncogene-negative lung adenocarcinoma cases, cohorts, models, or subgroups; the evidence for why they are considered driver-negative; candidate alternative drivers or mechanisms; proposed subtypes; validation strategies; comparisons to other cancers; and therapeutic implications.</div>
+                <table>
+                    <thead>
+                        <tr>
+                            <th style="width: 30%;">Field</th>
+                            <th style="width: 70%;">Value</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><strong>name_short</strong></td>
+                            <td>iC1</td>
+                        </tr>
+                        <tr>
+                            <td><strong>name_full</strong></td>
+                            <td>Integrative cluster 1 from multi-omics analysis of LUAD</td>
+                        </tr>
+                        <tr>
+                            <td><strong>brief_description</strong></td>
+                            <td>One of two integrative multi-omics LUAD subtypes identified by combining methylation, copy-number, and mRNA data. iC1 had better survival and a comparatively immune-infiltrated but less checkpoint-high phenotype than iC2.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>citation_title</strong></td>
+                            <td>Signatures of Multi-Omics Reveal Distinct Tumor Immune Microenvironment Contributing to Immunotherapy in Lung Adenocarcinoma</td>
+                        </tr>
+                        <tr>
+                            <td><strong>mention_or_use</strong></td>
+                            <td>use</td>
+                        </tr>
+                        <tr>
+                            <td><strong>cohort_or_model</strong></td>
+                            <td>TCGA LUAD iCluster analysis</td>
+                        </tr>
+                        <tr>
+                            <td><strong>cancer_context</strong></td>
+                            <td>lung adenocarcinoma</td>
+                        </tr>
+                        <tr>
+                            <td><strong>driver_negative_definition</strong></td>
+                            <td>Not a driver-negative subtype definition.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>driver_negative_frequency</strong></td>
+                            <td>Not reported</td>
+                        </tr>
+                        <tr>
+                            <td><strong>profiling_modalities</strong></td>
+                            <td>methylation, CNV, mRNA expression, iCluster integration, immune deconvolution, TIDE</td>
+                        </tr>
+                        <tr>
+                            <td><strong>candidate_mechanism_category</strong></td>
+                            <td>epigenetic dysregulation; copy-number alteration</td>
+                        </tr>
+                        <tr>
+                            <td><strong>candidate_driver_or_mechanism</strong></td>
+                            <td>integrated MET/CNV/mRNA subtype biology</td>
+                        </tr>
+                        <tr>
+                            <td><strong>mechanistic_description</strong></td>
+                            <td>iC1 appears to reflect a multi-omics state with better prognosis and less immunosuppression relative to iC2.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>evidence_type</strong></td>
+                            <td>integrative clustering; survival and immune comparisons</td>
+                        </tr>
+                        <tr>
+                            <td><strong>key_evidence</strong></td>
+                            <td>iC1 (n = 203) had significantly longer OS than iC2 (p = 0.00089) and longer DFS (p = 0.0063). It had higher immune/stromal scores and more DC/activated NK cells, with lower PD-1, PD-L1, IDO, LAG3 and lower TIDE.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>negative_or_counter_evidence</strong></td>
+                            <td>No mechanistic perturbation data.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>subtype_name</strong></td>
+                            <td>iC1</td>
+                        </tr>
+                        <tr>
+                            <td><strong>subtype_features</strong></td>
+                            <td>Better prognosis; higher stromal/immune score; more DC and activated NK cells; fewer CD8+ and activated CD4+ T cells than iC2; lower immune checkpoint expression and lower TIDE.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>parallel_in_other_cancers</strong></td>
+                            <td>Analogous multi-omics subtype analyses are cited in triple-negative breast cancer, ovarian carcinoma, and lung squamous cell carcinoma.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>validation_approach</strong></td>
+                            <td>Internal TCGA clustering plus external survival and tissue validation of signatures.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>validation_result</strong></td>
+                            <td>Subtype-associated signature model was validated in GSE31210 and the Tianjin cohort.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>therapeutic_implication</strong></td>
+                            <td>Potentially more favorable for immunotherapy than iC2, though the paper does not directly treat subtype-specific therapy.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>therapeutic_evidence</strong></td>
+                            <td>Lower TIDE score and lower checkpoint expression imply better checkpoint inhibitor responsiveness.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>clinical_or_demographic_association</strong></td>
+                            <td>Better outcomes than iC2; no formal demographic enrichment reported.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>study_limitations</strong></td>
+                            <td>Subtype inference is correlative and not established as a mechanistic driver class.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>driver_negativity_confidence</strong></td>
+                            <td>not_applicable</td>
+                        </tr>
+                        <tr>
+                            <td><strong>negative_status_basis</strong></td>
+                            <td>not_applicable</td>
+                        </tr>
+                        <tr>
+                            <td><strong>tested_driver_classes</strong></td>
+                            <td>epigenomics, broad_copy_number, spatial_microenvironment</td>
+                        </tr>
+                        <tr>
+                            <td><strong>untested_or_underpowered_driver_classes</strong></td>
+                            <td>fusion_rearrangement, exon_skipping_splicing, phosphoproteomics, protein_abundance</td>
+                        </tr>
+                        <tr>
+                            <td><strong>false_negative_rescue_evidence</strong></td>
+                            <td>none</td>
+                        </tr>
+                        <tr>
+                            <td><strong>sample_purity_detection_limit_issue</strong></td>
+                            <td><span class="empty-note">null</span></td>
+                        </tr>
+                        <tr>
+                            <td><strong>mapk_output_state</strong></td>
+                            <td>unresolved</td>
+                        </tr>
+                        <tr>
+                            <td><strong>pi3k_akt_mtor_output_state</strong></td>
+                            <td>unresolved</td>
+                        </tr>
+                        <tr>
+                            <td><strong>rtk_or_her_family_activation_state</strong></td>
+                            <td>unclear</td>
+                        </tr>
+                        <tr>
+                            <td><strong>signaling_readout_assay</strong></td>
+                            <td>immune checkpoint mRNA; TIDE; CIBERSORT; ESTIMATE</td>
+                        </tr>
+                        <tr>
+                            <td><strong>genome_protein_discordance_flag</strong></td>
+                            <td>unclear</td>
+                        </tr>
+                        <tr>
+                            <td><strong>driver_mechanism_route</strong></td>
+                            <td>microenvironmental_state</td>
+                        </tr>
+                        <tr>
+                            <td><strong>altered_molecular_layer</strong></td>
+                            <td>cell_state_composition</td>
+                        </tr>
+                        <tr>
+                            <td><strong>functional_consequence_type</strong></td>
+                            <td>immune_exclusion</td>
+                        </tr>
+                        <tr>
+                            <td><strong>canonical_pathway_reinstatement_flag</strong></td>
+                            <td>unclear</td>
+                        </tr>
+                        <tr>
+                            <td><strong>alternative_driver_axis</strong></td>
+                            <td>immune</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="extraction-instance-container" id="e2273.4">
+                <h3 class="extraction-instance">Extracted Data Instance 4 (e2273.4)</h3>
+                <div class="extraction-query"><strong>Extraction Query:</strong> Extract any mentions of driver-negative or oncogene-negative lung adenocarcinoma cases, cohorts, models, or subgroups; the evidence for why they are considered driver-negative; candidate alternative drivers or mechanisms; proposed subtypes; validation strategies; comparisons to other cancers; and therapeutic implications.</div>
+                <table>
+                    <thead>
+                        <tr>
+                            <th style="width: 30%;">Field</th>
+                            <th style="width: 70%;">Value</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><strong>name_short</strong></td>
+                            <td>iC2</td>
+                        </tr>
+                        <tr>
+                            <td><strong>name_full</strong></td>
+                            <td>Integrative cluster 2 from multi-omics analysis of LUAD</td>
+                        </tr>
+                        <tr>
+                            <td><strong>brief_description</strong></td>
+                            <td>The poorer-prognosis integrative LUAD subtype, defined by combined methylation, CNV, and mRNA data. iC2 showed a more immunosuppressive TIME with higher checkpoint expression and worse survival than iC1.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>citation_title</strong></td>
+                            <td>Signatures of Multi-Omics Reveal Distinct Tumor Immune Microenvironment Contributing to Immunotherapy in Lung Adenocarcinoma</td>
+                        </tr>
+                        <tr>
+                            <td><strong>mention_or_use</strong></td>
+                            <td>use</td>
+                        </tr>
+                        <tr>
+                            <td><strong>cohort_or_model</strong></td>
+                            <td>TCGA LUAD iCluster analysis</td>
+                        </tr>
+                        <tr>
+                            <td><strong>cancer_context</strong></td>
+                            <td>lung adenocarcinoma</td>
+                        </tr>
+                        <tr>
+                            <td><strong>driver_negative_definition</strong></td>
+                            <td>Not a driver-negative subtype definition.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>driver_negative_frequency</strong></td>
+                            <td>Not reported</td>
+                        </tr>
+                        <tr>
+                            <td><strong>profiling_modalities</strong></td>
+                            <td>methylation, CNV, mRNA expression, iCluster integration, immune deconvolution, TIDE</td>
+                        </tr>
+                        <tr>
+                            <td><strong>candidate_mechanism_category</strong></td>
+                            <td>epigenetic dysregulation; copy-number alteration</td>
+                        </tr>
+                        <tr>
+                            <td><strong>candidate_driver_or_mechanism</strong></td>
+                            <td>integrated MET/CNV/mRNA subtype biology</td>
+                        </tr>
+                        <tr>
+                            <td><strong>mechanistic_description</strong></td>
+                            <td>iC2 reflects a more aggressive and immunosuppressive state, with poor prognosis and elevated immune checkpoint expression.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>evidence_type</strong></td>
+                            <td>integrative clustering; survival and immune comparisons</td>
+                        </tr>
+                        <tr>
+                            <td><strong>key_evidence</strong></td>
+                            <td>iC2 (n = 240) had worse OS and DFS than iC1, higher PD-1/PD-L1/IDO/LAG3, lower immune/stromal scores, fewer DC and activated NK cells, more CD8+ and activated CD4+ T cells in a dysfunctional context, and higher TIDE.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>negative_or_counter_evidence</strong></td>
+                            <td>No functional validation of the subtype biology.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>subtype_name</strong></td>
+                            <td>iC2</td>
+                        </tr>
+                        <tr>
+                            <td><strong>subtype_features</strong></td>
+                            <td>Worse prognosis; immunosuppressive TIME; higher checkpoint expression; higher TIDE; lower immune/stromal score.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>parallel_in_other_cancers</strong></td>
+                            <td>The authors compare the overall multi-omics approach to studies in ovarian cancer, TNBC, and lung squamous cell carcinoma.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>validation_approach</strong></td>
+                            <td>Internal and external validation of the signature model and IHC-based immune characterization.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>validation_result</strong></td>
+                            <td>The associated risk model and immune features were reproduced across cohorts and tissue assays.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>therapeutic_implication</strong></td>
+                            <td>May be less responsive to immunotherapy and more checkpoint-high.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>therapeutic_evidence</strong></td>
+                            <td>Higher PD-L1 and higher TIDE suggest immune dysfunction and potential resistance to immunotherapy.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>clinical_or_demographic_association</strong></td>
+                            <td>Poorer outcome than iC1.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>study_limitations</strong></td>
+                            <td>Subtype is descriptive rather than causal.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>driver_negativity_confidence</strong></td>
+                            <td>not_applicable</td>
+                        </tr>
+                        <tr>
+                            <td><strong>negative_status_basis</strong></td>
+                            <td>not_applicable</td>
+                        </tr>
+                        <tr>
+                            <td><strong>tested_driver_classes</strong></td>
+                            <td>epigenomics, broad_copy_number, spatial_microenvironment</td>
+                        </tr>
+                        <tr>
+                            <td><strong>untested_or_underpowered_driver_classes</strong></td>
+                            <td>fusion_rearrangement, exon_skipping_splicing, phosphoproteomics, protein_abundance</td>
+                        </tr>
+                        <tr>
+                            <td><strong>false_negative_rescue_evidence</strong></td>
+                            <td>none</td>
+                        </tr>
+                        <tr>
+                            <td><strong>sample_purity_detection_limit_issue</strong></td>
+                            <td><span class="empty-note">null</span></td>
+                        </tr>
+                        <tr>
+                            <td><strong>mapk_output_state</strong></td>
+                            <td>unresolved</td>
+                        </tr>
+                        <tr>
+                            <td><strong>pi3k_akt_mtor_output_state</strong></td>
+                            <td>unresolved</td>
+                        </tr>
+                        <tr>
+                            <td><strong>rtk_or_her_family_activation_state</strong></td>
+                            <td>unclear</td>
+                        </tr>
+                        <tr>
+                            <td><strong>signaling_readout_assay</strong></td>
+                            <td>immune checkpoint mRNA; TIDE; CIBERSORT; ESTIMATE</td>
+                        </tr>
+                        <tr>
+                            <td><strong>genome_protein_discordance_flag</strong></td>
+                            <td>unclear</td>
+                        </tr>
+                        <tr>
+                            <td><strong>driver_mechanism_route</strong></td>
+                            <td>microenvironmental_state</td>
+                        </tr>
+                        <tr>
+                            <td><strong>altered_molecular_layer</strong></td>
+                            <td>cell_state_composition</td>
+                        </tr>
+                        <tr>
+                            <td><strong>functional_consequence_type</strong></td>
+                            <td>immune_exclusion</td>
+                        </tr>
+                        <tr>
+                            <td><strong>canonical_pathway_reinstatement_flag</strong></td>
+                            <td>unclear</td>
+                        </tr>
+                        <tr>
+                            <td><strong>alternative_driver_axis</strong></td>
+                            <td>immune</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>Potentially Relevant New Papers (mentioned by this paper)</h2>
+            <ol>
+                <li>Molecular Subtypes Based on CNVs Related Gene Signatures Identify Candidate Prognostic Biomarkers in Lung Adenocarcinoma <em>(Rating: 2)</em></li>
+                <li>Multi-Omics Profiling Reveals Distinct Microenvironment Characterization and Suggests Immune Escape Mechanisms of Triple-Negative Breast Cancer <em>(Rating: 2)</em></li>
+                <li>Integrated Multi-Omics Analysis of Genomics, Epigenomics, and Transcriptomics in Ovarian Carcinoma <em>(Rating: 2)</em></li>
+                <li>Genomic Landscape and Immune Microenvironment Features of Preinvasive and Early Invasive Lung Adenocarcinoma <em>(Rating: 1)</em></li>
+                <li>Innate Immune Landscape in Early Lung Adenocarcinoma by Paired Single-Cell Analyses <em>(Rating: 1)</em></li>
+            </ol>
+        </div>
+
+        </div>
+
+    </div>
+</body>
+</html>

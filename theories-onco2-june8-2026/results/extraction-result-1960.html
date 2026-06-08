@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Extraction extraction-result-1960 - Theorizer</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+    <div class="header">
+        <a href="../index.html"><i class="fas fa-flask"></i> Theorizer</a>
+    </div>
+
+    <div class="content">
+        <h1>Extracted Data Details for extraction-result-1960</h1>
+
+        <div class="section">
+            <h2>Extracted Data (Header)</h2>
+            <div class="info-section">
+                <p><strong>Extraction ID:</strong> extraction-result-1960</p>
+                <p><strong>Extraction Schema Used (ID):</strong> <a href="../schemas/extraction-schema-1842.html">extraction-schema-1842</a></p>
+                <div class="extraction-query"><strong>Extraction Query:</strong> Extract any mentions of hidden drivers, pathway states, subtype structure, validation evidence, and therapeutic implications in oncogene-negative or driver-negative lung adenocarcinoma.</div>
+                <p><strong>Paper ID:</strong> paper-586c3cad75197c4783f4ef63ee007892933ed1e4</p>
+                <p><strong>Paper Title:</strong> <a href="https://www.semanticscholar.org/paper/586c3cad75197c4783f4ef63ee007892933ed1e4" target="_blank">Oncogenic context shapes the fitness landscape of tumor suppression</a></p>
+                <p><strong>Paper Venue:</strong> Nature Communications</p>
+                <p><strong>Paper TL;DR:</strong> It is shown that the fitness landscape is rugged—the effect of tumor suppressor inactivation often switches between beneficial and deleterious depending on the oncogenic context—and shows no evidence of diminishing-returns epistasis within variants of the same oncogene.</p>
+                <p><strong>Paper Abstract:</strong> Tumors acquire alterations in oncogenes and tumor suppressor genes in an adaptive walk through the fitness landscape of tumorigenesis. However, the interactions between oncogenes and tumor suppressor genes that shape this landscape remain poorly resolved and cannot be revealed by human cancer genomics alone. Here, we use a multiplexed, autochthonous mouse platform to model and quantify the initiation and growth of more than one hundred genotypes of lung tumors across four oncogenic contexts: KRAS G12D, KRAS G12C, BRAF V600E, and EGFR L858R. We show that the fitness landscape is rugged—the effect of tumor suppressor inactivation often switches between beneficial and deleterious depending on the oncogenic context—and shows no evidence of diminishing-returns epistasis within variants of the same oncogene. These findings argue against a simple linear signaling relationship amongst these three oncogenes and imply a critical role for off-axis signaling in determining the fitness effects of inactivating tumor suppressors.</p>
+                <p><strong>Cost:</strong> 0.034</p>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>Extracted Data (Details)</h2>
+            <div class="extraction-instance-container" id="e1960.0">
+                <h3 class="extraction-instance">Extracted Data Instance 0 (e1960.0)</h3>
+                <div class="extraction-query"><strong>Extraction Query:</strong> Extract any mentions of hidden drivers, pathway states, subtype structure, validation evidence, and therapeutic implications in oncogene-negative or driver-negative lung adenocarcinoma.</div>
+                <table>
+                    <thead>
+                        <tr>
+                            <th style="width: 30%;">Field</th>
+                            <th style="width: 70%;">Value</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><strong>name_short</strong></td>
+                            <td>Oncogene-negative LUAD</td>
+                        </tr>
+                        <tr>
+                            <td><strong>name_full</strong></td>
+                            <td>Driver-negative or oncogene-negative lung adenocarcinoma</td>
+                        </tr>
+                        <tr>
+                            <td><strong>brief_description</strong></td>
+                            <td>The paper does not define a separate oncogene-negative LUAD subtype by itself; instead, it notes that many human LUADs carry KRAS, EGFR, or BRAF alterations, and that in high-tumor-mutational-burden tumors many recurrent tumor suppressor alterations are hard to interpret because many mutations are passengers. The closest driver-negative framing in this paper is the discussion of rare or non-mutational regulators of tumor suppressor pathways, especially in EGFR-low-TMB tumors where causal mouse effects correlate with human co-mutation frequencies.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>citation_title</strong></td>
+                            <td>here</td>
+                        </tr>
+                        <tr>
+                            <td><strong>mention_or_use</strong></td>
+                            <td>mention</td>
+                        </tr>
+                        <tr>
+                            <td><strong>driver_negative_definition</strong></td>
+                            <td>No explicit driver-negative LUAD definition is provided. The paper operationalizes oncogenic contexts by excluding or stratifying by canonical driver alterations in KRAS, EGFR, and BRAF, and analyzes tumors arising in genetically engineered mouse models driven by KRAS G12D, KRAS G12C, BRAF V600E, or EGFR L858R. Human-genomic comparisons focus on LUAD cohorts with specific driver classes (KRAS, EGFR, BRAF), with low TMB emphasized for EGFR-mutant disease and high TMB emphasized for KRAS/BRAF-mutant disease.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>candidate_driver_pathway_or_mechanism</strong></td>
+                            <td>The main mechanism emphasized is context-dependent tumor suppressor pathway loss and off-axis signaling rather than a hidden oncogenic driver mutation. The paper argues that oncogene context shapes which tumor suppressor losses are beneficial or deleterious, and specifically highlights PI3K/AKT pathway activation by non-mutational mechanisms in human lung tumors as an example of an important regulatory mechanism that may be missed by mutation-only analyses.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>alteration_or_activation_mode</strong></td>
+                            <td>For the mechanistic focus of this paper, the relevant alteration mode is combinatorial loss of tumor suppressors on top of an established oncogenic driver, plus non-mutational pathway activation in some human tumors. The paper also mentions promoter methylation as a non-mutational mechanism in the context of PTEN expression loss in NSCLC, but does not directly assay this in driver-negative LUAD.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>implicated_gene_axis_or_pathway</strong></td>
+                            <td>KRAS/EGFR/BRAF RAS-pathway axis, with off-axis tumor suppressor pathways including PTEN/PI3K/AKT, NF1/KRASWT regulation, p53, LKB1, SETD2, KEAP1, KMT2D, NFE2L-related stress programs, RNF43/WNT, FBXW7, APC, and others. The paper particularly emphasizes the PI3K/AKT pathway as a non-mutationally activated pathway relevant to human LUAD.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>pathway_activation_evidence</strong></td>
+                            <td>Evidence for pathway state is indirect and mostly inferential in this paper. The strongest explicit statement is that the PI3K pathway is commonly activated by non-mutational mechanisms in human lung tumors, which helps explain why PTEN loss may be functionally important despite being rarely mutated in KRAS- and BRAF-driven cancers. The paper does not present direct pERK, pAKT, or phosphoproteomic data for driver-negative tumors.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>driver_negative_subtype</strong></td>
+                            <td>No formal driver-negative subtype is defined. The closest implicit subtype is EGFR-mutant low-TMB LUAD, where causal mouse effects correlate well with observed human co-mutation frequencies and where deleterious co-mutations such as KEAP1, LKB1, and Nf2 are rare while TP53 co-mutation is common.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>clinical_or_exposure_context</strong></td>
+                            <td>The paper links its human validation analyses to LUAD cohorts from AACR Project GENIE, stratified by oncogene status and tumor mutational burden. It notes that EGFR-driven LUAD generally has low TMB, whereas KRAS- and BRAF-driven tumors generally have high TMB; no smoking, ancestry, sex, or histologic driver-negative clinical subtype is defined here.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>cross_cancer_parallel</strong></td>
+                            <td>The paper explicitly compares its context-dependent epistasis findings to prior work in other cancers and models, including melanoma, pancreatic cancer, and prior Tuba-seq analyses in EGFR inhibitor and chemotherapy settings. It also references PTEN/PI3K pathway activation across solid tumors and BRAF/PI3K or BRAF/p53 cooperation in other tumor types.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>therapeutic_vulnerability_or_implication</strong></td>
+                            <td>The main implication is that therapies targeting oncogenes or co-linear nodes may have context-dependent effects that depend on tumor suppressor status, so patient stratification by both oncogene and tumor suppressor alterations may improve outcomes. The paper specifically mentions prior Tuba-seq work in EGFR inhibitor and chemotherapy contexts and suggests that low response rates to cancer therapy may reflect rugged epistasis. It also highlights PTEN/PI3K/AKT pathway biology as potentially therapeutically relevant in LUAD.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>validation_evidence_and_model_system</strong></td>
+                            <td>Validation is performed primarily in multiplexed autochthonous GEMMs using Tuba-seq across KRAS G12D, KRAS G12C, BRAF V600E, and EGFR L858R lung tumors, with 28 tumor suppressor genes tested across >100 genotypes. Additional validation comes from repeated study groups, independent sgRNAs for the same gene, and retrospective correlation with human LUAD co-mutation frequencies from AACR Project GENIE. For the specific human driver-context analysis, the validation strength is correlational rather than direct experimental testing in driver-negative patient samples.</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="extraction-instance-container" id="e1960.1">
+                <h3 class="extraction-instance">Extracted Data Instance 1 (e1960.1)</h3>
+                <div class="extraction-query"><strong>Extraction Query:</strong> Extract any mentions of hidden drivers, pathway states, subtype structure, validation evidence, and therapeutic implications in oncogene-negative or driver-negative lung adenocarcinoma.</div>
+                <table>
+                    <thead>
+                        <tr>
+                            <th style="width: 30%;">Field</th>
+                            <th style="width: 70%;">Value</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><strong>name_short</strong></td>
+                            <td>PI3K/AKT/PTEN</td>
+                        </tr>
+                        <tr>
+                            <td><strong>name_full</strong></td>
+                            <td>PTEN and the PI3K/AKT pathway</td>
+                        </tr>
+                        <tr>
+                            <td><strong>brief_description</strong></td>
+                            <td>The paper uses PTEN as a key example of a robust tumor suppressor whose loss increases tumor growth and number across oncogenic contexts, and notes that PTEN is rarely mutated in KRAS- and BRAF-driven human lung cancers despite strong fitness effects in mouse models. It further argues that the PI3K pathway is often activated by non-mutational mechanisms in human lung tumors, making PTEN/PI3K/AKT an important off-axis pathway state.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>citation_title</strong></td>
+                            <td>here</td>
+                        </tr>
+                        <tr>
+                            <td><strong>mention_or_use</strong></td>
+                            <td>use</td>
+                        </tr>
+                        <tr>
+                            <td><strong>driver_negative_definition</strong></td>
+                            <td>Not a definition of driver-negative LUAD per se, but the paper’s relevant context is LUAD where some tumors are not easily explained by canonical driver mutation burden alone. It emphasizes cases where mutation frequencies fail to capture functional importance, especially in high-TMB KRAS/BRAF tumors and in low-TMB EGFR tumors.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>candidate_driver_pathway_or_mechanism</strong></td>
+                            <td>Hidden driver-like mechanism via pathway activation state: loss of PTEN leading to PI3K/AKT pathway activation. The paper frames this as a tumor-suppressor pathway effect that is often missed by genomics alone.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>alteration_or_activation_mode</strong></td>
+                            <td>Protein loss / tumor suppressor inactivation, with additional discussion of non-mutational pathway activation in human tumors. The cited human context includes non-genomic activation of the PI3K pathway and promoter methylation as a possible mechanism for PTEN loss in NSCLC.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>implicated_gene_axis_or_pathway</strong></td>
+                            <td>PTEN -> PI3K/AKT pathway.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>pathway_activation_evidence</strong></td>
+                            <td>In this paper, the evidence is functional rather than direct phospho-readout based: Pten inactivation provides a very strong tumor fitness advantage in autochthonous mouse models, and the authors state that the PI3K pathway is commonly activated by non-mutational mechanisms in human lung tumors. No direct pAKT or pS6 data are shown here.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>driver_negative_subtype</strong></td>
+                            <td>No explicit subtype is named, but the relevant implicit context is the set of LUAD cases where canonical mutation data underestimates pathway activation, especially tumors with low apparent driver burden or non-mutational PI3K activation.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>clinical_or_exposure_context</strong></td>
+                            <td>Discussed in human LUAD broadly, with emphasis that PTEN is rarely mutated in KRAS- and BRAF-driven human lung cancers despite its functional importance in the mouse system.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>cross_cancer_parallel</strong></td>
+                            <td>The paper cites PTEN pathway relevance in solid tumors broadly and references prior literature on PTEN loss in lung cancer and other cancers.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>therapeutic_vulnerability_or_implication</strong></td>
+                            <td>Suggests that PI3K/AKT-pathway targeting, or biomarker-guided exploitation of PTEN loss / non-mutational PI3K activation, could be clinically relevant. The paper does not test a therapy here, but explicitly notes that PTEN and other PI3K/AKT members may be important regulators of human lung tumorigenesis.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>validation_evidence_and_model_system</strong></td>
+                            <td>Validated in autochthonous GEMMs with Tuba-seq across multiple oncogenic backgrounds, where Pten loss consistently increases relative tumor size and number across contexts. Human relevance is supported by retrospective co-mutation analysis and by literature on non-mutational PI3K activation.</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="extraction-instance-container" id="e1960.2">
+                <h3 class="extraction-instance">Extracted Data Instance 2 (e1960.2)</h3>
+                <div class="extraction-query"><strong>Extraction Query:</strong> Extract any mentions of hidden drivers, pathway states, subtype structure, validation evidence, and therapeutic implications in oncogene-negative or driver-negative lung adenocarcinoma.</div>
+                <table>
+                    <thead>
+                        <tr>
+                            <th style="width: 30%;">Field</th>
+                            <th style="width: 70%;">Value</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><strong>name_short</strong></td>
+                            <td>NF1/KRASWT</td>
+                        </tr>
+                        <tr>
+                            <td><strong>name_full</strong></td>
+                            <td>NF1 and wild-type KRAS negative regulation of oncogenic RAS signaling</td>
+                        </tr>
+                        <tr>
+                            <td><strong>brief_description</strong></td>
+                            <td>The paper uses NF1 and wild-type KRAS as canonical negative regulators of oncogenic RAS signaling and as validation controls for its fitness landscape framework. Their inactivation behaved as expected in KRAS- and EGFR-driven tumors, supporting the platform’s ability to recover known pathway logic.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>citation_title</strong></td>
+                            <td>here</td>
+                        </tr>
+                        <tr>
+                            <td><strong>mention_or_use</strong></td>
+                            <td>use</td>
+                        </tr>
+                        <tr>
+                            <td><strong>driver_negative_definition</strong></td>
+                            <td>Not an oncogene-negative definition, but relevant to driver-negative reasoning because the paper tests whether tumors depend on upstream RAS regulators in specific oncogenic contexts. The tested cohorts are defined by the presence of KRAS, EGFR, or BRAF driver alleles in GEMMs.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>candidate_driver_pathway_or_mechanism</strong></td>
+                            <td>Canonical pathway-state mechanism: activation of RAS signaling through loss of negative regulators. Inactivation of Nf1 or KrasWT amplifies oncogenic RAS signaling.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>alteration_or_activation_mode</strong></td>
+                            <td>Tumor suppressor loss / negative regulator inactivation.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>implicated_gene_axis_or_pathway</strong></td>
+                            <td>NF1 -> RAS GTPase cycling; wild-type KRAS antagonism of mutant KRAS and EGFR-to-RAS signaling.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>pathway_activation_evidence</strong></td>
+                            <td>The evidence is functional: loss of Nf1 or KrasWT increased KRAS G12C-, KRAS G12D-, and EGFR-driven tumor growth/number, but had no effect in BRAF-driven tumors as expected for a linear pathway model. No phospho-readout is shown here.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>driver_negative_subtype</strong></td>
+                            <td>No subtype defined.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>clinical_or_exposure_context</strong></td>
+                            <td>Not a clinical subtype; included as a mechanistic control in LUAD GEMMs.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>cross_cancer_parallel</strong></td>
+                            <td>The paper discusses these as positive controls consistent with RAS pathway biology across cancer models.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>therapeutic_vulnerability_or_implication</strong></td>
+                            <td>Implies that therapies targeting upstream/downstream RAS pathway nodes may show context-specific vulnerabilities, and that NF1-loss or KRASWT-status could influence response to RAS-pathway therapies. This is discussed conceptually rather than tested directly.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>validation_evidence_and_model_system</strong></td>
+                            <td>Validated in vivo by Tuba-seq in autochthonous mouse lung tumor models and by correlation across independent study groups and sgRNAs. The results matched prior expectations from RAS pathway biology, serving as internal validation.</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>Potentially Relevant New Papers (mentioned by this paper)</h2>
+            <ol>
+                <li>Genetic determinants of EGFR-driven lung cancer growth and therapeutic response in vivo <em>(Rating: 2)</em></li>
+                <li>A functional taxonomy of tumor suppression in oncogenic KRAS-driven lung cancer <em>(Rating: 2)</em></li>
+                <li>Quantitative in vivo analyses reveal a complex pharmacogenomic landscape in lung adenocarcinoma <em>(Rating: 2)</em></li>
+                <li>Co-occurring genomic alterations define major subsets of KRAS-mutant lung adenocarcinoma with distinct biology, immune profiles, and therapeutic vulnerabilities <em>(Rating: 2)</em></li>
+                <li>Comprehensive molecular profiling of lung adenocarcinoma <em>(Rating: 1)</em></li>
+            </ol>
+        </div>
+
+        </div>
+
+    </div>
+</body>
+</html>

@@ -1,0 +1,440 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Extraction extraction-result-2435 - Theorizer</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+    <div class="header">
+        <a href="../index.html"><i class="fas fa-flask"></i> Theorizer</a>
+    </div>
+
+    <div class="content">
+        <h1>Extracted Data Details for extraction-result-2435</h1>
+
+        <div class="section">
+            <h2>Extracted Data (Header)</h2>
+            <div class="info-section">
+                <p><strong>Extraction ID:</strong> extraction-result-2435</p>
+                <p><strong>Extraction Schema Used (ID):</strong> <a href="../schemas/extraction-schema-1846.html">extraction-schema-1846</a></p>
+                <div class="extraction-query"><strong>Extraction Query:</strong> Extract any mentions of hidden drivers, pathway states, subtype structure, validation evidence, and therapeutic implications in oncogene-negative or driver-negative lung adenocarcinoma.</div>
+                <p><strong>Paper ID:</strong> paper-3e87a669558857582d45262356f07c7aeb5d6995</p>
+                <p><strong>Paper Title:</strong> <a href="https://www.semanticscholar.org/paper/3e87a669558857582d45262356f07c7aeb5d6995" target="_blank">Integrative pharmacogenomics revealed three subtypes with different immune landscapes and specific therapeutic responses in lung adenocarcinoma</a></p>
+                <p><strong>Paper Venue:</strong> Computational and Structural Biotechnology Journal</p>
+                <p><strong>Paper Abstract:</strong> Graphical abstract</p>
+                <p><strong>Cost:</strong> 0.024</p>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>Extracted Data (Details)</h2>
+            <div class="extraction-instance-container" id="e2435.0">
+                <h3 class="extraction-instance">Extracted Data Instance 0 (e2435.0)</h3>
+                <div class="extraction-query"><strong>Extraction Query:</strong> Extract any mentions of hidden drivers, pathway states, subtype structure, validation evidence, and therapeutic implications in oncogene-negative or driver-negative lung adenocarcinoma.</div>
+                <table>
+                    <thead>
+                        <tr>
+                            <th style="width: 30%;">Field</th>
+                            <th style="width: 70%;">Value</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><strong>name_short</strong></td>
+                            <td>S-I</td>
+                        </tr>
+                        <tr>
+                            <td><strong>name_full</strong></td>
+                            <td>Pharmacogenomics-based subtype S-I</td>
+                        </tr>
+                        <tr>
+                            <td><strong>brief_description</strong></td>
+                            <td>A reproducible LUAD subtype defined by pharmacogenomics-associated differentially expressed genes and NMF clustering. It is inflammatory, proliferative, and immune-evasion-like, with poor prognosis and apparent sensitivity to immune checkpoint blockers and several subtype-matched drugs.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>citation_title</strong></td>
+                            <td>Integrative pharmacogenomics revealed three subtypes with different immune landscapes and specific therapeutic responses in lung adenocarcinoma</td>
+                        </tr>
+                        <tr>
+                            <td><strong>mention_or_use</strong></td>
+                            <td>use</td>
+                        </tr>
+                        <tr>
+                            <td><strong>driver_negative_definition</strong></td>
+                            <td>Not formally a driver-negative definition. The paper frames the clinical background as LUAD patients without driver mutations receiving platinum-based chemotherapy, but it does not operationally define S-I or the cohorts by exclusion of canonical oncogenic drivers using a specific testing algorithm.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>candidate_driver_pathway_or_mechanism</strong></td>
+                            <td>Inflammation-plus-proliferation with immune evasion. The authors propose that this subtype is characterized by enriched inflammatory pathways and proliferative programs together with an immune-hot but functionally suppressive microenvironment.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>alteration_or_activation_mode</strong></td>
+                            <td>Pathway-state subtype, not a specific recurrent oncogenic alteration. The implicated biology is primarily transcriptional pathway activation and immune-state organization.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>implicated_gene_axis_or_pathway</strong></td>
+                            <td>Inflammatory response, complement, interferon signaling, interleukin signaling, neutrophil degranulation, MYC targets, MTORC1 signaling, G2M checkpoint, E2F targets, telomere maintenance, DNA replication, and mitotic cell-cycle regulation.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>pathway_activation_evidence</strong></td>
+                            <td>QuSAGE and Reactome enrichment showed inflammatory pathways enriched only in S-I and proliferative pathways enriched in S-I and S-II. ssGSEA further supported high inflammatory and proliferative signature scores in S-I across discovery and validation cohorts.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>driver_negative_subtype</strong></td>
+                            <td>Yes, implicitly as one of three pharmacogenomics-based LUAD subtypes; it is not specifically a driver-negative subtype but is contrasted with known LUAD molecular subtypes and therapy-response groups.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>clinical_or_exposure_context</strong></td>
+                            <td>Associated with poor prognosis, advanced stage/high grade in several cohorts, high immune infiltration, high immune score/stromal score/ESTIMATE score, low tumor purity relative to S-II, and similarity to the TCGA 2014 proximal inflammatory subtype.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>cross_cancer_parallel</strong></td>
+                            <td>Melanoma response profiles to PD-1 and CTLA-4 blockade were used in SubMap as the immunotherapy reference set for inference of ICB sensitivity.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>therapeutic_vulnerability_or_implication</strong></td>
+                            <td>Predicted sensitivity to immune checkpoint blockers, doxorubicin, tipifarnib, AZ628, and AZD6244; the ICB implication is based on SubMap similarity to responding melanoma samples and is therefore inferential rather than clinically validated.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>validation_evidence_and_model_system</strong></td>
+                            <td>Validated by NMF-based subtype discovery in TCGA-LUAD, IGP/SubMap replication in seven GEO cohorts, and consistent subtype-specific survival and pathway-signature patterns across cohorts; no functional perturbation model was performed.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>driver_negative_scope_class</strong></td>
+                            <td>not_formally_defined</td>
+                        </tr>
+                        <tr>
+                            <td><strong>excluded_driver_genes_and_alteration_types</strong></td>
+                            <td><span class="empty-note">null</span></td>
+                        </tr>
+                        <tr>
+                            <td><strong>negative_call_assay_stack</strong></td>
+                            <td><span class="empty-note">null</span></td>
+                        </tr>
+                        <tr>
+                            <td><strong>negative_call_confidence</strong></td>
+                            <td>low</td>
+                        </tr>
+                        <tr>
+                            <td><strong>rescued_hidden_driver_after_deeper_testing</strong></td>
+                            <td>unresolved_after_broad_testing</td>
+                        </tr>
+                        <tr>
+                            <td><strong>primary_hidden_driver_mechanism_class</strong></td>
+                            <td>phosphoproteomic_pathway_state</td>
+                        </tr>
+                        <tr>
+                            <td><strong>secondary_mechanism_classes</strong></td>
+                            <td>['lineage_plasticity_cell_state', 'microenvironment_ecosystem_state']</td>
+                        </tr>
+                        <tr>
+                            <td><strong>mechanism_requires_specific_genetic_lesion</strong></td>
+                            <td>no</td>
+                        </tr>
+                        <tr>
+                            <td><strong>mechanism_is_tumor_intrinsic_or_extrinsic</strong></td>
+                            <td>mixed</td>
+                        </tr>
+                        <tr>
+                            <td><strong>mechanism_biologic_level</strong></td>
+                            <td>microenvironment_ecosystem</td>
+                        </tr>
+                        <tr>
+                            <td><strong>causal_evidence_tier</strong></td>
+                            <td>tier_2_expression_or_proteomic_association</td>
+                        </tr>
+                        <tr>
+                            <td><strong>evidence_modalities_present</strong></td>
+                            <td>['RNA_seq', 'microarray', 'recurrence_statistics', 'pathway_enrichment', 'immune_deconvolution', 'SubMap', 'ssGSEA', 'retrospective_cohort_validation']</td>
+                        </tr>
+                        <tr>
+                            <td><strong>therapeutic_actionability_evidence_tier</strong></td>
+                            <td>inferential_only</td>
+                        </tr>
+                        <tr>
+                            <td><strong>paper_claim_strength</strong></td>
+                            <td>biomarker_proposal</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="extraction-instance-container" id="e2435.1">
+                <h3 class="extraction-instance">Extracted Data Instance 1 (e2435.1)</h3>
+                <div class="extraction-query"><strong>Extraction Query:</strong> Extract any mentions of hidden drivers, pathway states, subtype structure, validation evidence, and therapeutic implications in oncogene-negative or driver-negative lung adenocarcinoma.</div>
+                <table>
+                    <thead>
+                        <tr>
+                            <th style="width: 30%;">Field</th>
+                            <th style="width: 70%;">Value</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><strong>name_short</strong></td>
+                            <td>S-II</td>
+                        </tr>
+                        <tr>
+                            <td><strong>name_full</strong></td>
+                            <td>Pharmacogenomics-based subtype S-II</td>
+                        </tr>
+                        <tr>
+                            <td><strong>brief_description</strong></td>
+                            <td>A reproducible LUAD subtype defined by pharmacogenomics-associated genes and NMF clustering. It is proliferative and genetics-driven, with high tumor purity, high TMB, high neoantigen burden, immune-cold behavior, and predicted sensitivity to cisplatin/camptothecin/roscovitine/A.443654 and possibly crizotinib or etoposide.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>citation_title</strong></td>
+                            <td>Integrative pharmacogenomics revealed three subtypes with different immune landscapes and specific therapeutic responses in lung adenocarcinoma</td>
+                        </tr>
+                        <tr>
+                            <td><strong>mention_or_use</strong></td>
+                            <td>use</td>
+                        </tr>
+                        <tr>
+                            <td><strong>driver_negative_definition</strong></td>
+                            <td>Not formally a driver-negative definition. The paper treats S-II as a subtype characterized by genomic instability and proliferative programs rather than by explicit exclusion of oncogenic drivers using clinical molecular testing.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>candidate_driver_pathway_or_mechanism</strong></td>
+                            <td>Genetics-driven proliferative state. The authors argue that mutation burden and copy-number alteration burden are highest in S-II, and that TP53 loss-of-function may contribute to the proliferative phenotype.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>alteration_or_activation_mode</strong></td>
+                            <td>Tumor-suppressor loss and genomic instability state, including frequent mutations, high TMB, and broad copy-number gain/loss burden.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>implicated_gene_axis_or_pathway</strong></td>
+                            <td>TP53 loss, proliferation/cell-cycle programs, and copy-number-amplified loci including 14q13.3 and 11q13.3; the discussion specifically links TITF1/NKX2-1 and CCND1 amplification/overexpression to proliferative signaling.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>pathway_activation_evidence</strong></td>
+                            <td>Mutation landscape analysis showed many top mutated genes were most frequent in S-II; TP53 mutation frequency was similar to S-I and S-II, S-II had the highest TMB, and copy-number alteration burden was highest in S-II. Proliferation ssGSEA scores were high in S-II across cohorts.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>driver_negative_subtype</strong></td>
+                            <td>Yes, implicitly as one of three pharmacogenomics-based LUAD subtypes; it is not a specifically driver-negative subtype but a genomically driven subtype with proliferative biology.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>clinical_or_exposure_context</strong></td>
+                            <td>Associated with immune-cold features, highest tumor purity, highest neoantigen number, poor/intermediate survival relative to S-I and S-III, and frequent association with advanced stage/high grade in the clinical-feature analysis.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>cross_cancer_parallel</strong></td>
+                            <td>No explicit other-cancer parallel is emphasized for the hidden-driver logic, beyond general references to lung cancer oncogenes such as TITF1 and CCND1.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>therapeutic_vulnerability_or_implication</strong></td>
+                            <td>Predicted sensitivity to cisplatin, camptothecin, roscovitine, and A.443654 by integrated ssGSEA/CMap/pRRophetic analysis; the paper also notes the possibility of crizotinib and etoposide sensitivity from the pharmacogenomics analyses.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>validation_evidence_and_model_system</strong></td>
+                            <td>Validated by subtype replication in seven GEO cohorts, consistent survival patterns, and concordant pathway/immune/genomic signatures; no direct functional perturbation or patient-treatment cohort validation was performed.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>driver_negative_scope_class</strong></td>
+                            <td>not_formally_defined</td>
+                        </tr>
+                        <tr>
+                            <td><strong>excluded_driver_genes_and_alteration_types</strong></td>
+                            <td><span class="empty-note">null</span></td>
+                        </tr>
+                        <tr>
+                            <td><strong>negative_call_assay_stack</strong></td>
+                            <td><span class="empty-note">null</span></td>
+                        </tr>
+                        <tr>
+                            <td><strong>negative_call_confidence</strong></td>
+                            <td>low</td>
+                        </tr>
+                        <tr>
+                            <td><strong>rescued_hidden_driver_after_deeper_testing</strong></td>
+                            <td>unresolved_after_broad_testing</td>
+                        </tr>
+                        <tr>
+                            <td><strong>primary_hidden_driver_mechanism_class</strong></td>
+                            <td>tumor_suppressor_co_loss</td>
+                        </tr>
+                        <tr>
+                            <td><strong>secondary_mechanism_classes</strong></td>
+                            <td>['copy_number_or_amplicon_driver', 'mutational_process_genomic_instability']</td>
+                        </tr>
+                        <tr>
+                            <td><strong>mechanism_requires_specific_genetic_lesion</strong></td>
+                            <td>mixed</td>
+                        </tr>
+                        <tr>
+                            <td><strong>mechanism_is_tumor_intrinsic_or_extrinsic</strong></td>
+                            <td>tumor_intrinsic</td>
+                        </tr>
+                        <tr>
+                            <td><strong>mechanism_biologic_level</strong></td>
+                            <td>dna</td>
+                        </tr>
+                        <tr>
+                            <td><strong>causal_evidence_tier</strong></td>
+                            <td>tier_2_expression_or_proteomic_association</td>
+                        </tr>
+                        <tr>
+                            <td><strong>evidence_modalities_present</strong></td>
+                            <td>['mutation_analysis', 'copy_number_alteration_analysis', 'TMB', 'RNA_seq', 'microarray', 'ssGSEA', 'pathway_enrichment', 'retrospective_cohort_validation']</td>
+                        </tr>
+                        <tr>
+                            <td><strong>therapeutic_actionability_evidence_tier</strong></td>
+                            <td>inferential_only</td>
+                        </tr>
+                        <tr>
+                            <td><strong>paper_claim_strength</strong></td>
+                            <td>biomarker_proposal</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="extraction-instance-container" id="e2435.2">
+                <h3 class="extraction-instance">Extracted Data Instance 2 (e2435.2)</h3>
+                <div class="extraction-query"><strong>Extraction Query:</strong> Extract any mentions of hidden drivers, pathway states, subtype structure, validation evidence, and therapeutic implications in oncogene-negative or driver-negative lung adenocarcinoma.</div>
+                <table>
+                    <thead>
+                        <tr>
+                            <th style="width: 30%;">Field</th>
+                            <th style="width: 70%;">Value</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><strong>name_short</strong></td>
+                            <td>S-III</td>
+                        </tr>
+                        <tr>
+                            <td><strong>name_full</strong></td>
+                            <td>Pharmacogenomics-based subtype S-III</td>
+                        </tr>
+                        <tr>
+                            <td><strong>brief_description</strong></td>
+                            <td>A reproducible LUAD subtype defined by pharmacogenomics-associated genes and NMF clustering. It is metabolic and methylation-driven, shows moderate immune infiltration and the best prognosis among the three subtypes, and is predicted to respond better to docetaxel, paclitaxel, vinorelbine, and BIBW2992.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>citation_title</strong></td>
+                            <td>Integrative pharmacogenomics revealed three subtypes with different immune landscapes and specific therapeutic responses in lung adenocarcinoma</td>
+                        </tr>
+                        <tr>
+                            <td><strong>mention_or_use</strong></td>
+                            <td>use</td>
+                        </tr>
+                        <tr>
+                            <td><strong>driver_negative_definition</strong></td>
+                            <td>Not formally a driver-negative definition. The paper describes S-III as a subtype whose biology is dominated by metabolic and epigenetic programs rather than by explicit canonical driver exclusion.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>candidate_driver_pathway_or_mechanism</strong></td>
+                            <td>Metabolic and methylation-driven state. The authors propose that DNA methylation-driven genes underlie much of the subtype's biology, with metabolic pathway enrichment as the defining state.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>alteration_or_activation_mode</strong></td>
+                            <td>Epigenetic regulation plus metabolic pathway-state activation, rather than a single recurrent oncogenic lesion.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>implicated_gene_axis_or_pathway</strong></td>
+                            <td>Bile acid metabolism, fatty acid metabolism, surfactant metabolism, heme metabolism, phospholipid metabolism, and methylation-driven genes such as ADHFE1, SFTA3, and WDR17.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>pathway_activation_evidence</strong></td>
+                            <td>QuSAGE, Reactome, and ssGSEA analyses showed metabolic pathway enrichment and high metabolic signature scores in S-III. MethylMix identified DNA methylation-driven genes with expression-methylation correlations, and most were positively correlated with metabolic signatures.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>driver_negative_subtype</strong></td>
+                            <td>Yes, implicitly as one of three pharmacogenomics-based LUAD subtypes; it is not specifically driver-negative but is the metabolic/methylation-defined subtype in the integrated classification.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>clinical_or_exposure_context</strong></td>
+                            <td>Associated with the best prognosis, earlier stage/good survival distribution, moderate immune infiltration, and partial correspondence with the TCGA 2014 terminal respiratory unit subtype.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>cross_cancer_parallel</strong></td>
+                            <td>No explicit cross-cancer hidden-driver comparison is highlighted for this subtype.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>therapeutic_vulnerability_or_implication</strong></td>
+                            <td>Predicted sensitivity to docetaxel, paclitaxel, vinorelbine, and BIBW2992; these predictions were consistent across ssGSEA, CMap, and pRRophetic analyses for the microtubule agents.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>validation_evidence_and_model_system</strong></td>
+                            <td>Validated in seven independent GEO cohorts with consistent subtype proportions, survival differences, and pathway-signature concordance; no direct experimental perturbation model was used.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>driver_negative_scope_class</strong></td>
+                            <td>not_formally_defined</td>
+                        </tr>
+                        <tr>
+                            <td><strong>excluded_driver_genes_and_alteration_types</strong></td>
+                            <td><span class="empty-note">null</span></td>
+                        </tr>
+                        <tr>
+                            <td><strong>negative_call_assay_stack</strong></td>
+                            <td><span class="empty-note">null</span></td>
+                        </tr>
+                        <tr>
+                            <td><strong>negative_call_confidence</strong></td>
+                            <td>low</td>
+                        </tr>
+                        <tr>
+                            <td><strong>rescued_hidden_driver_after_deeper_testing</strong></td>
+                            <td>unresolved_after_broad_testing</td>
+                        </tr>
+                        <tr>
+                            <td><strong>primary_hidden_driver_mechanism_class</strong></td>
+                            <td>metabolic_dependency_state</td>
+                        </tr>
+                        <tr>
+                            <td><strong>secondary_mechanism_classes</strong></td>
+                            <td>['chromatin_3d_genome', 'lineage_plasticity_cell_state']</td>
+                        </tr>
+                        <tr>
+                            <td><strong>mechanism_requires_specific_genetic_lesion</strong></td>
+                            <td>no</td>
+                        </tr>
+                        <tr>
+                            <td><strong>mechanism_is_tumor_intrinsic_or_extrinsic</strong></td>
+                            <td>tumor_intrinsic</td>
+                        </tr>
+                        <tr>
+                            <td><strong>mechanism_biologic_level</strong></td>
+                            <td>lineage_state</td>
+                        </tr>
+                        <tr>
+                            <td><strong>causal_evidence_tier</strong></td>
+                            <td>tier_2_expression_or_proteomic_association</td>
+                        </tr>
+                        <tr>
+                            <td><strong>evidence_modalities_present</strong></td>
+                            <td>['DNA_methylation', 'methylation_expression_correlation', 'RNA_seq', 'microarray', 'pathway_enrichment', 'ssGSEA', 'retrospective_cohort_validation']</td>
+                        </tr>
+                        <tr>
+                            <td><strong>therapeutic_actionability_evidence_tier</strong></td>
+                            <td>inferential_only</td>
+                        </tr>
+                        <tr>
+                            <td><strong>paper_claim_strength</strong></td>
+                            <td>biomarker_proposal</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>Potentially Relevant New Papers (mentioned by this paper)</h2>
+            <ol>
+                <li>Comprehensive molecular profiling of lung adenocarcinoma. <em>(Rating: 2)</em></li>
+                <li>Next-generation characterization of the Cancer Cell Line Encyclopedia <em>(Rating: 1)</em></li>
+                <li>A landscape of pharmacogenomic interactions in cancer <em>(Rating: 1)</em></li>
+                <li>The immune landscape of cancer <em>(Rating: 1)</em></li>
+            </ol>
+        </div>
+
+        </div>
+
+    </div>
+</body>
+</html>

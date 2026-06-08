@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Extraction extraction-result-2106 - Theorizer</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+    <div class="header">
+        <a href="../index.html"><i class="fas fa-flask"></i> Theorizer</a>
+    </div>
+
+    <div class="content">
+        <h1>Extracted Data Details for extraction-result-2106</h1>
+
+        <div class="section">
+            <h2>Extracted Data (Header)</h2>
+            <div class="info-section">
+                <p><strong>Extraction ID:</strong> extraction-result-2106</p>
+                <p><strong>Extraction Schema Used (ID):</strong> <a href="../schemas/extraction-schema-1843.html">extraction-schema-1843</a></p>
+                <div class="extraction-query"><strong>Extraction Query:</strong> Extract any mentions of hidden genomic, structural, regulatory, or assay-missed drivers in oncogene-negative lung adenocarcinoma.</div>
+                <p><strong>Paper ID:</strong> paper-9c7577d1fb0ed78e0c5d608057a2e8f4e32aa5bd</p>
+                <p><strong>Paper Title:</strong> <a href="https://www.semanticscholar.org/paper/9c7577d1fb0ed78e0c5d608057a2e8f4e32aa5bd" target="_blank">Genomic landscape of non-small-cell lung cancer in smokers and never-smokers</a></p>
+                <p><strong>Paper Venue:</strong> Thorax</p>
+                <p><strong>Paper TL;DR:</strong> Smokers had an average mutation frequency 10-fold higher than never-smokers and a significantly higher chance of developing non-small-cell lung cancer.</p>
+                <p><strong>Cost:</strong> 0.021</p>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>Extracted Data (Details)</h2>
+            <div class="extraction-instance-container" id="e2106.0">
+                <h3 class="extraction-instance">Extracted Data Instance 0 (e2106.0)</h3>
+                <div class="extraction-query"><strong>Extraction Query:</strong> Extract any mentions of hidden genomic, structural, regulatory, or assay-missed drivers in oncogene-negative lung adenocarcinoma.</div>
+                <table>
+                    <thead>
+                        <tr>
+                            <th style="width: 30%;">Field</th>
+                            <th style="width: 70%;">Value</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><strong>name_short</strong></td>
+                            <td>KDELR2-ROS1</td>
+                        </tr>
+                        <tr>
+                            <td><strong>name_full</strong></td>
+                            <td>KDELR2-ROS1 fusion</td>
+                        </tr>
+                        <tr>
+                            <td><strong>brief_description</strong></td>
+                            <td>A novel in-frame ROS1 fusion identified by combined whole-genome and transcriptome sequencing in a never-smoker lung adenocarcinoma sample (LUC11). The paper notes that the 5' partner KDELR2 is novel for ROS1, but does not demonstrate function beyond identifying the fusion.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>citation_title</strong></td>
+                            <td>here</td>
+                        </tr>
+                        <tr>
+                            <td><strong>mention_or_use</strong></td>
+                            <td>use</td>
+                        </tr>
+                        <tr>
+                            <td><strong>oncogene_negative_definition</strong></td>
+                            <td>The study cohort was not defined by prior oncogene-negative selection; instead, 17 NSCLC tumors (16 adenocarcinomas, 1 large cell carcinoma) were analyzed by whole-genome sequencing (25.03-64.49x haploid coverage) plus RNA-seq, with validated somatic rearrangements and variants extended by recurrence screening in 96 additional primary lung adenocarcinomas. Tumors were not called driver-negative by a prespecified canonical-driver assay, but hidden drivers were sought by integrating WGS, RNA-seq, and validation across tumor-normal pairs.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>assay_strategy_and_detection_limits</strong></td>
+                            <td>Discovery used WGS for point mutations, indels, copy-number alterations, and structural variants, plus RNA-seq to identify expressed fusions, followed by orthogonal DNA validation and recurrence screening. Blind spots explicitly noted include underestimation of heterogeneity because low-frequency mutations are difficult to detect at ~30x haploid coverage; WGS alone would miss RNA-level fusion evidence, and the paper emphasizes the need for integrated genome/transcriptome analysis to find novel fusions and structural variants.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>missed_driver_reclassified_after_broader_testing</strong></td>
+                            <td>Yes, in the sense that a novel fusion was only revealed by broader integrated testing: KDELR2-ROS1 was detected as a high-confidence in-frame fusion in LUC11 after combining transcriptome fusion callers (ChimeraScan, deFuse, BreakFusion) with whole-genome SV validation. It would be missed by assays not surveying RNA fusion transcripts or not able to resolve structural rearrangements across the breakpoint.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>driver_event_class</strong></td>
+                            <td>fusion</td>
+                        </tr>
+                        <tr>
+                            <td><strong>candidate_driver_gene_or_locus</strong></td>
+                            <td>KDELR2-ROS1</td>
+                        </tr>
+                        <tr>
+                            <td><strong>structural_or_regulatory_activation_mechanism</strong></td>
+                            <td>In-frame fusion involving ROS1 with a novel 5' partner (KDELR2), consistent with kinase-fusion activation by structural rearrangement and preserved ROS1 kinase domain.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>functional_consequence</strong></td>
+                            <td>The fusion is presented as a potentially oncogenic, therapeutically relevant kinase fusion in NSCLC, analogous to other ROS1, ALK, and RET fusions.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>co_alteration_or_combinatorial_requirement</strong></td>
+                            <td>No specific cooperating alteration is reported for this fusion in the paper. The fusion is described as a standalone structural driver in one never-smoker tumor; the paper notes that the role of the 5' partner in oncogenic activity is not known.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>human_prevalence_or_enrichment</strong></td>
+                            <td>One fusion in 17 sequenced NSCLC tumors; ROS1 fusions are discussed as previously reported in NSCLC and are noted to occur more often in never-smokers than smokers in the introduction, but this paper reports the specific KDELR2-ROS1 fusion as a novel 5' partner in a never-smoker sample.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>functional_or_clinical_validation</strong></td>
+                            <td>Validated orthogonally using whole-genome DNA sequencing after fusion discovery from RNA-seq. The paper does not report transformation assays or drug-response experiments for this specific fusion.</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="extraction-instance-container" id="e2106.1">
+                <h3 class="extraction-instance">Extracted Data Instance 1 (e2106.1)</h3>
+                <div class="extraction-query"><strong>Extraction Query:</strong> Extract any mentions of hidden genomic, structural, regulatory, or assay-missed drivers in oncogene-negative lung adenocarcinoma.</div>
+                <table>
+                    <thead>
+                        <tr>
+                            <th style="width: 30%;">Field</th>
+                            <th style="width: 70%;">Value</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><strong>name_short</strong></td>
+                            <td>EML4-ALK</td>
+                        </tr>
+                        <tr>
+                            <td><strong>name_full</strong></td>
+                            <td>EML4-ALK fusion</td>
+                        </tr>
+                        <tr>
+                            <td><strong>brief_description</strong></td>
+                            <td>A known oncogenic fusion kinase identified in LUC16 by integrated whole-genome and transcriptome sequencing. It is cited as a canonical actionable NSCLC fusion and used in the study as an example of the value of fusion discovery.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>citation_title</strong></td>
+                            <td>here</td>
+                        </tr>
+                        <tr>
+                            <td><strong>mention_or_use</strong></td>
+                            <td>use</td>
+                        </tr>
+                        <tr>
+                            <td><strong>oncogene_negative_definition</strong></td>
+                            <td>See the same study cohort and integrated sequencing framework described above; the paper was not restricted to driver-negative tumors, but it sought hidden drivers across NSCLC samples via WGS plus RNA-seq and validation.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>assay_strategy_and_detection_limits</strong></td>
+                            <td>As with other fusions in this study, EML4-ALK required transcriptome-based fusion discovery plus DNA validation. The paper emphasizes that comprehensive genome/transcriptome analysis is needed to identify novel structural variants and fusions that might be missed by single-platform assays.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>missed_driver_reclassified_after_broader_testing</strong></td>
+                            <td>Yes, the fusion was identified by broader integrated WGS/RNA-seq analysis rather than by a single assay. The paper does not state that it was previously labeled negative, but the fusion exemplifies a driver that can be missed without RNA fusion detection and SV validation.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>driver_event_class</strong></td>
+                            <td>fusion</td>
+                        </tr>
+                        <tr>
+                            <td><strong>candidate_driver_gene_or_locus</strong></td>
+                            <td>EML4-ALK</td>
+                        </tr>
+                        <tr>
+                            <td><strong>structural_or_regulatory_activation_mechanism</strong></td>
+                            <td>Kinase fusion preserving ALK kinase activity, classically activated by structural rearrangement with EML4 as the fusion partner.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>functional_consequence</strong></td>
+                            <td>Oncogenic fusion kinase associated with dramatic response to crizotinib in prior studies and used here as a therapeutic target example.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>co_alteration_or_combinatorial_requirement</strong></td>
+                            <td>No cooperating alteration required is described in this paper.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>human_prevalence_or_enrichment</strong></td>
+                            <td>One validated EML4-ALK fusion among 17 tumors in this cohort; the introduction notes these fusions occur more often in lifelong never-smokers than smokers.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>functional_or_clinical_validation</strong></td>
+                            <td>Validated by orthogonal DNA sequencing after RNA-based fusion detection; prior clinical response to crizotinib is cited in the introduction, but no therapy response from this cohort is reported.</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="extraction-instance-container" id="e2106.2">
+                <h3 class="extraction-instance">Extracted Data Instance 2 (e2106.2)</h3>
+                <div class="extraction-query"><strong>Extraction Query:</strong> Extract any mentions of hidden genomic, structural, regulatory, or assay-missed drivers in oncogene-negative lung adenocarcinoma.</div>
+                <table>
+                    <thead>
+                        <tr>
+                            <th style="width: 30%;">Field</th>
+                            <th style="width: 70%;">Value</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><strong>name_short</strong></td>
+                            <td>ROS1</td>
+                        </tr>
+                        <tr>
+                            <td><strong>name_full</strong></td>
+                            <td>ROS1 kinase fusions</td>
+                        </tr>
+                        <tr>
+                            <td><strong>brief_description</strong></td>
+                            <td>ROS1 rearrangements are discussed as a previously reported class of actionable lung cancer drivers, and the study identifies a novel ROS1 fusion partner, KDELR2. These events are highlighted as examples of hidden structural drivers best found by transcriptome plus genome analysis.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>citation_title</strong></td>
+                            <td>here</td>
+                        </tr>
+                        <tr>
+                            <td><strong>mention_or_use</strong></td>
+                            <td>use</td>
+                        </tr>
+                        <tr>
+                            <td><strong>oncogene_negative_definition</strong></td>
+                            <td>The study searched broadly across 17 NSCLC tumor-normal pairs using WGS and RNA-seq, rather than only testing a predefined driver-negative panel; hidden drivers such as ROS1 fusions were discovered in the integrated analysis.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>assay_strategy_and_detection_limits</strong></td>
+                            <td>RNA fusion callers (ChimeraScan, deFuse, BreakFusion) were used, with DNA validation of candidate fusions. The paper stresses that these events are structurally complex and may require transcriptome evidence to identify correctly.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>missed_driver_reclassified_after_broader_testing</strong></td>
+                            <td>Yes, a novel ROS1 fusion (KDELR2-ROS1) was recovered only after integrating RNA and DNA data, illustrating how a ROS1 event could be missed by assays not designed for fusion detection.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>driver_event_class</strong></td>
+                            <td>fusion</td>
+                        </tr>
+                        <tr>
+                            <td><strong>candidate_driver_gene_or_locus</strong></td>
+                            <td>ROS1 rearrangement; novel fusion KDELR2-ROS1</td>
+                        </tr>
+                        <tr>
+                            <td><strong>structural_or_regulatory_activation_mechanism</strong></td>
+                            <td>Kinase rearrangement/fusion with an in-frame ROS1 kinase component and novel 5' partner.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>functional_consequence</strong></td>
+                            <td>Putative oncogenic kinase activation and a potential therapeutic target in NSCLC.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>co_alteration_or_combinatorial_requirement</strong></td>
+                            <td>No specific co-alteration requirement is reported.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>human_prevalence_or_enrichment</strong></td>
+                            <td>The paper cites ROS1 rearrangements as previously reported in NSCLC and cholangiocarcinoma and notes they are part of the broader set of actionable fusion drivers, especially in never-smokers; it reports one novel ROS1 fusion in this cohort.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>functional_or_clinical_validation</strong></td>
+                            <td>Orthogonal validation by WGS support after RNA-seq detection; no functional assay is presented here.</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>Potentially Relevant New Papers (mentioned by this paper)</h2>
+            <ol>
+                <li>RET, ROS1 and ALK fusions in lung cancer <em>(Rating: 2)</em></li>
+                <li>Identification of new ALK and RET gene fusions from colorectal and lung cancer biopsies <em>(Rating: 2)</em></li>
+                <li>ROS1 rearrangements define a unique molecular class of lung cancers <em>(Rating: 2)</em></li>
+                <li>The genetic basis of early T-cell precursor acute lymphoblastic leukaemia <em>(Rating: 1)</em></li>
+            </ol>
+        </div>
+
+        </div>
+
+    </div>
+</body>
+</html>

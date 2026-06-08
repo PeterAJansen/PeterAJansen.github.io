@@ -1,0 +1,737 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Extraction extraction-result-1913 - Theorizer</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+    <div class="header">
+        <a href="../index.html"><i class="fas fa-flask"></i> Theorizer</a>
+    </div>
+
+    <div class="content">
+        <h1>Extracted Data Details for extraction-result-1913</h1>
+
+        <div class="section">
+            <h2>Extracted Data (Header)</h2>
+            <div class="info-section">
+                <p><strong>Extraction ID:</strong> extraction-result-1913</p>
+                <p><strong>Extraction Schema Used (ID):</strong> <a href="../schemas/extraction-schema-1841.html">extraction-schema-1841</a></p>
+                <div class="extraction-query"><strong>Extraction Query:</strong> Extract any mentions of driver-negative or oncogene-negative lung adenocarcinoma cases, cohorts, models, or subgroups; the evidence for why they are considered driver-negative; candidate alternative drivers or mechanisms; proposed subtypes; validation strategies; comparisons to other cancers; and therapeutic implications.</div>
+                <p><strong>Paper ID:</strong> paper-03867b703b80213b3b6ae1171be08adc8ed3a961</p>
+                <p><strong>Paper Title:</strong> <a href="https://www.semanticscholar.org/paper/03867b703b80213b3b6ae1171be08adc8ed3a961" target="_blank">A functional taxonomy of tumor suppression in oncogenic KRAS-driven lung cancer</a></p>
+                <p><strong>Paper Venue:</strong> Cancer Discovery</p>
+                <p><strong>Paper TL;DR:</strong> A multiplexed mouse model of oncogenic KRAS-driven lung cancer is used to quantify the impact of forty-eight known and putative tumor suppressor genes on diverse aspects of carcinogenesis at an unprecedented scale and resolution and uncover many previously understudied functional tumor suppressors that constrain cancer in vivo.</p>
+                <p><strong>Paper Abstract:</strong> Cancer genotyping has identified a large number of putative tumor suppressor genes. Carcinogenesis is a multi-step process, however the importance and specific roles of many of these genes during tumor initiation, growth and progression remain unknown. Here we use a multiplexed mouse model of oncogenic KRAS-driven lung cancer to quantify the impact of forty-eight known and putative tumor suppressor genes on diverse aspects of carcinogenesis at an unprecedented scale and resolution. We uncover many previously understudied functional tumor suppressors that constrain cancer in vivo. Inactivation of some genes substantially increased growth, while the inactivation of others increases tumor initiation and/or the emergence of exceptionally large tumors. These functional in vivo analyses revealed an unexpectedly complex landscape of tumor suppression that has implications for understanding cancer evolution, interpreting clinical cancer genome sequencing data, and directing approaches to limit tumor initiation and progression.</p>
+                <p><strong>Cost:</strong> 0.046</p>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>Extracted Data (Details)</h2>
+            <div class="extraction-instance-container" id="e1913.0">
+                <h3 class="extraction-instance">Extracted Data Instance 0 (e1913.0)</h3>
+                <div class="extraction-query"><strong>Extraction Query:</strong> Extract any mentions of driver-negative or oncogene-negative lung adenocarcinoma cases, cohorts, models, or subgroups; the evidence for why they are considered driver-negative; candidate alternative drivers or mechanisms; proposed subtypes; validation strategies; comparisons to other cancers; and therapeutic implications.</div>
+                <table>
+                    <thead>
+                        <tr>
+                            <th style="width: 30%;">Field</th>
+                            <th style="width: 70%;">Value</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><strong>name_short</strong></td>
+                            <td>STAG2</td>
+                        </tr>
+                        <tr>
+                            <td><strong>name_full</strong></td>
+                            <td>STAG2 (stromal antigen 2)</td>
+                        </tr>
+                        <tr>
+                            <td><strong>brief_description</strong></td>
+                            <td>A cohesin-complex component identified here as a novel functional tumor suppressor in KRAS-driven lung adenocarcinoma. The paper shows that STAG2 loss can markedly increase lung tumor burden and shorten survival, and that STAG2-low/negative protein expression is relatively common in human LUAD.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>citation_title</strong></td>
+                            <td>A functional taxonomy of tumor suppression in oncogenic KRAS-driven lung cancer</td>
+                        </tr>
+                        <tr>
+                            <td><strong>mention_or_use</strong></td>
+                            <td>use</td>
+                        </tr>
+                        <tr>
+                            <td><strong>cohort_or_model</strong></td>
+                            <td>KrasLSL-G12D/+;R26LSL-Tomato;H11LSL-Cas9 (KT;H11LSL-Cas9) mouse model of autochthonous oncogenic KRAS-driven lung cancer; independent KT;Stag2flox cohorts; human lung adenocarcinoma tissue microarrays (n=479)</td>
+                        </tr>
+                        <tr>
+                            <td><strong>cancer_context</strong></td>
+                            <td>Lung adenocarcinoma / KRAS-driven lung cancer; comparison to human LUAD protein-expression patterns</td>
+                        </tr>
+                        <tr>
+                            <td><strong>driver_negative_definition</strong></td>
+                            <td>Not a canonical 'driver-negative' cohort; instead, the study functionally tests genes considered tumor suppressors in KRAS-driven LUAD by Cas9/sgRNA inactivation. STAG2 is considered driver-like in the sense that its loss can drive growth, and the paper also notes that many genes (including STAG2, CMTR2, CDKN2C) were not strongly predicted from human mutational data despite functional effects.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>driver_negative_frequency</strong></td>
+                            <td>About 20% of 479 human lung adenocarcinomas were low or negative for STAG2 protein; STAG2 is mutated in ~4% of lung adenocarcinomas and cohesin-complex components are altered in ~10% of lung adenocarcinomas.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>profiling_modalities</strong></td>
+                            <td>Somatic CRISPR/Cas9 Tuba-seq in mouse lungs; Cre/lox validation in Stag2flox mice; immunohistochemistry for STAG2, NKX2-1/TTF1, phospho-RPA2, phospho-H2AX, phospho-ERK1/2; whole-genome sequencing and qRT-PCR in a validation subset; human tissue microarray analysis</td>
+                        </tr>
+                        <tr>
+                            <td><strong>candidate_mechanism_category</strong></td>
+                            <td>Tumor suppressor loss / cohesin-complex dysfunction</td>
+                        </tr>
+                        <tr>
+                            <td><strong>candidate_driver_or_mechanism</strong></td>
+                            <td>STAG2 loss</td>
+                        </tr>
+                        <tr>
+                            <td><strong>mechanistic_description</strong></td>
+                            <td>Loss of STAG2, a cohesin component, promotes KRAS-driven lung tumor growth and reduces survival. The authors considered chromosomal instability, increased DNA damage, and activation of MEK/ERK or cGAS/STING signaling as plausible mechanisms based on other contexts, but did not find these to be major drivers in this lung-cancer model.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>evidence_type</strong></td>
+                            <td>Functional CRISPR in vivo screen; orthogonal Cre/lox validation; human protein-expression survey</td>
+                        </tr>
+                        <tr>
+                            <td><strong>key_evidence</strong></td>
+                            <td>In the multiplexed Tuba-seq screen, STAG2 inactivation increased tumor growth to a comparable extent as established tumor suppressors. In follow-up validation, Stag2 inactivation 'dramatically increased' tumor burden in KT;H11LSL-Cas9 mice and shortened overall survival. In human LUAD, ~20% of tumors were low/negative for STAG2 protein, and these were often more poorly differentiated and advanced.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>negative_or_counter_evidence</strong></td>
+                            <td>The paper states that IHC and analysis of canonical target genes suggest chromosomal instability/DNA damage/MEK-ERK/cGAS-STING are unlikely to be the major mechanisms of the growth increase in Stag2-deficient lung cancer. The mechanistic basis therefore remains unresolved.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>subtype_name</strong></td>
+                            <td><span class="empty-note">null</span></td>
+                        </tr>
+                        <tr>
+                            <td><strong>subtype_features</strong></td>
+                            <td>STAG2-low/negative tumors; often more poorly differentiated and more advanced in human LUAD</td>
+                        </tr>
+                        <tr>
+                            <td><strong>parallel_in_other_cancers</strong></td>
+                            <td>STAG2 is implicated as a tumor suppressor in bladder cancer, regulates lineage-specific genes in acute myeloid leukemia, and is mutated across diverse cancer types; cohesin/STAG2 loss in other cancers is associated with chromosomal instability and altered DNA damage responses.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>validation_approach</strong></td>
+                            <td>Independent sgRNA validation in KT;H11LSL-Cas9 mice; Cre/lox validation using Stag2flox alleles; survival analysis; human IHC on 479 LUADs; IHC/target-gene analysis to probe candidate mechanisms; whole-genome sequencing and qRT-PCR in a subset of tumors</td>
+                        </tr>
+                        <tr>
+                            <td><strong>validation_result</strong></td>
+                            <td>Independent validation confirmed that Stag2 inactivation increased lung tumor burden and reduced survival. However, proposed mechanistic readouts did not support chromosomal instability/DNA damage/MEK-ERK/cGAS-STING as major explanations.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>therapeutic_implication</strong></td>
+                            <td>Suggests STAG2 pathway deficiency may define a biologically aggressive LUAD subset and that its downstream consequences could eventually be therapeutically targetable, but no specific therapy is established here.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>therapeutic_evidence</strong></td>
+                            <td>No direct drug-response data are presented for STAG2-deficient lung tumors in this paper.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>clinical_or_demographic_association</strong></td>
+                            <td>STAG2-low/negative human LUADs were often more poorly differentiated and more advanced by tumor grade/stage.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>study_limitations</strong></td>
+                            <td>Mechanism is not resolved; IHC in human tumors is correlative; the paper does not establish a specific actionable target downstream of STAG2 loss.</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="extraction-instance-container" id="e1913.1">
+                <h3 class="extraction-instance">Extracted Data Instance 1 (e1913.1)</h3>
+                <div class="extraction-query"><strong>Extraction Query:</strong> Extract any mentions of driver-negative or oncogene-negative lung adenocarcinoma cases, cohorts, models, or subgroups; the evidence for why they are considered driver-negative; candidate alternative drivers or mechanisms; proposed subtypes; validation strategies; comparisons to other cancers; and therapeutic implications.</div>
+                <table>
+                    <thead>
+                        <tr>
+                            <th style="width: 30%;">Field</th>
+                            <th style="width: 70%;">Value</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><strong>name_short</strong></td>
+                            <td>CMTR2</td>
+                        </tr>
+                        <tr>
+                            <td><strong>name_full</strong></td>
+                            <td>CMTR2 (cap2 2'-O-ribose methyltransferase)</td>
+                        </tr>
+                        <tr>
+                            <td><strong>brief_description</strong></td>
+                            <td>A frequently underappreciated and previously unstudied putative tumor suppressor that the screen found to have a dramatic tumor-growth-suppressive role in KRAS-driven lung cancer. The gene is mutated in a minority of lung adenocarcinomas, but prior functional evidence was very limited.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>citation_title</strong></td>
+                            <td>A functional taxonomy of tumor suppression in oncogenic KRAS-driven lung cancer</td>
+                        </tr>
+                        <tr>
+                            <td><strong>mention_or_use</strong></td>
+                            <td>use</td>
+                        </tr>
+                        <tr>
+                            <td><strong>cohort_or_model</strong></td>
+                            <td>KT;H11LSL-Cas9 mouse model screened with multiplexed Tuba-seq; human LUAD mutation data from TCGA/GENIE/TRACERx for prioritization</td>
+                        </tr>
+                        <tr>
+                            <td><strong>cancer_context</strong></td>
+                            <td>Lung adenocarcinoma / KRAS-driven lung cancer</td>
+                        </tr>
+                        <tr>
+                            <td><strong>driver_negative_definition</strong></td>
+                            <td>Not a driver-negative cohort per se; CMTR2 is included among candidate tumor suppressors because it had mutation and pattern features consistent with loss-of-function but lacked prior evidence as a cancer driver. The paper explicitly states no prior studies had investigated its function in cancer and that it was not included on commercial or academic cancer gene sequencing panels.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>driver_negative_frequency</strong></td>
+                            <td>Mutated in ~2.2% of lung adenocarcinomas and 1.4% of all cancers; not profiled in any GENIE LUAD cases in their panel-based analysis, and excluded from some GENIE co-occurrence analyses for that reason.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>profiling_modalities</strong></td>
+                            <td>Human cancer-genome analysis, including mutation frequency and truncation/hotspot features; multiplexed in vivo CRISPR/Tuba-seq; longitudinal analysis at 15 and 26 weeks</td>
+                        </tr>
+                        <tr>
+                            <td><strong>candidate_mechanism_category</strong></td>
+                            <td>Tumor suppressor loss / RNA cap modification</td>
+                        </tr>
+                        <tr>
+                            <td><strong>candidate_driver_or_mechanism</strong></td>
+                            <td>CMTR2 loss</td>
+                        </tr>
+                        <tr>
+                            <td><strong>mechanistic_description</strong></td>
+                            <td>CMTR2 encodes the sole cap2 2'-O-ribose methylase that modifies mRNA and small nuclear RNA 5' caps; the paper proposes that loss of this function constrains cancer in vivo, but does not define a specific downstream mechanism.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>evidence_type</strong></td>
+                            <td>Functional in vivo screen with human mutational prioritization</td>
+                        </tr>
+                        <tr>
+                            <td><strong>key_evidence</strong></td>
+                            <td>Inactivation of Cmtr2 significantly increased tumor growth in the initial screen and also significantly increased tumor burden after 26 weeks. The paper highlights its effects as particularly dramatic and unexpected.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>negative_or_counter_evidence</strong></td>
+                            <td>No prior cancer studies existed, and no commercial or academic cancer sequencing panels included CMTR2; mechanistic follow-up is lacking.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>subtype_name</strong></td>
+                            <td><span class="empty-note">null</span></td>
+                        </tr>
+                        <tr>
+                            <td><strong>subtype_features</strong></td>
+                            <td><span class="empty-note">null</span></td>
+                        </tr>
+                        <tr>
+                            <td><strong>parallel_in_other_cancers</strong></td>
+                            <td>No specific parallel cancer subtype is described in the paper; it is noted more broadly that mutation profiles and tumor-suppressive function can vary by cancer type.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>validation_approach</strong></td>
+                            <td>Replicated in the multiplexed in vivo screen and in the later 26-week analysis; sgRNA concordance across guides was used as an on-target validation strategy.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>validation_result</strong></td>
+                            <td>Both sgRNAs and multiple time points supported Cmtr2 as a functional tumor suppressor in KRAS-driven lung cancer.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>therapeutic_implication</strong></td>
+                            <td>Potentially identifies a previously unrecognized pathway that could inform early detection or therapy, but no drug or direct therapeutic strategy is proposed.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>therapeutic_evidence</strong></td>
+                            <td>None directly reported.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>clinical_or_demographic_association</strong></td>
+                            <td>No specific clinical/demographic associations reported beyond low mutation prevalence in LUAD.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>study_limitations</strong></td>
+                            <td>Very limited prior evidence; mechanism not elucidated; not profiled on some panels, limiting clinical capture in routine sequencing assays.</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="extraction-instance-container" id="e1913.2">
+                <h3 class="extraction-instance">Extracted Data Instance 2 (e1913.2)</h3>
+                <div class="extraction-query"><strong>Extraction Query:</strong> Extract any mentions of driver-negative or oncogene-negative lung adenocarcinoma cases, cohorts, models, or subgroups; the evidence for why they are considered driver-negative; candidate alternative drivers or mechanisms; proposed subtypes; validation strategies; comparisons to other cancers; and therapeutic implications.</div>
+                <table>
+                    <thead>
+                        <tr>
+                            <th style="width: 30%;">Field</th>
+                            <th style="width: 70%;">Value</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><strong>name_short</strong></td>
+                            <td>RNF43</td>
+                        </tr>
+                        <tr>
+                            <td><strong>name_full</strong></td>
+                            <td>RNF43 (ring finger protein 43)</td>
+                        </tr>
+                        <tr>
+                            <td><strong>brief_description</strong></td>
+                            <td>A Wnt-pathway E3 ubiquitin ligase included as a candidate tumor suppressor because it is frequently mutated in several cancer types and was functionally validated here as a suppressor in KRAS-driven lung cancer. The paper uses RNF43 as an example of commonality between cancer subtypes.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>citation_title</strong></td>
+                            <td>A functional taxonomy of tumor suppression in oncogenic KRAS-driven lung cancer</td>
+                        </tr>
+                        <tr>
+                            <td><strong>mention_or_use</strong></td>
+                            <td>use</td>
+                        </tr>
+                        <tr>
+                            <td><strong>cohort_or_model</strong></td>
+                            <td>KT;H11LSL-Cas9 mouse model with Tuba-seq; human mutational data from TCGA/GENIE/TRACERx for prioritization</td>
+                        </tr>
+                        <tr>
+                            <td><strong>cancer_context</strong></td>
+                            <td>Lung adenocarcinoma / KRAS-driven lung cancer; cross-cancer comparison to colorectal and pancreatic adenocarcinoma</td>
+                        </tr>
+                        <tr>
+                            <td><strong>driver_negative_definition</strong></td>
+                            <td>Not a driver-negative cohort. RNF43 is a candidate tumor suppressor because its mutation pattern and known biology indicate loss-of-function, even though it is more classically discussed in other cancers rather than LUAD.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>driver_negative_frequency</strong></td>
+                            <td>Described as frequently mutated across multiple cancer types; the paper does not give a specific LUAD percentage for RNF43 in the main text.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>profiling_modalities</strong></td>
+                            <td>Cancer-genome prioritization; multiplexed in vivo CRISPR/Tuba-seq; later time-point validation</td>
+                        </tr>
+                        <tr>
+                            <td><strong>candidate_mechanism_category</strong></td>
+                            <td>Tumor suppressor loss / Wnt pathway dysregulation</td>
+                        </tr>
+                        <tr>
+                            <td><strong>candidate_driver_or_mechanism</strong></td>
+                            <td>RNF43 loss</td>
+                        </tr>
+                        <tr>
+                            <td><strong>mechanistic_description</strong></td>
+                            <td>RNF43 is a transmembrane E3 ubiquitin ligase that promotes lysosomal degradation of Wnt receptors; loss of RNF43 is proposed to enhance Wnt signaling and thereby support lung tumor growth, although this paper does not directly test the pathway in lung tumors.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>evidence_type</strong></td>
+                            <td>Functional in vivo screen; cross-cancer analogy</td>
+                        </tr>
+                        <tr>
+                            <td><strong>key_evidence</strong></td>
+                            <td>Inactivation of Rnf43 significantly increased tumor growth, and at the later time point it still increased tumor size metrics. The authors note its effects were dramatic and unexpected.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>negative_or_counter_evidence</strong></td>
+                            <td>No direct mechanistic Wnt-dependency experiments were done in lung tumors here.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>subtype_name</strong></td>
+                            <td><span class="empty-note">null</span></td>
+                        </tr>
+                        <tr>
+                            <td><strong>subtype_features</strong></td>
+                            <td><span class="empty-note">null</span></td>
+                        </tr>
+                        <tr>
+                            <td><strong>parallel_in_other_cancers</strong></td>
+                            <td>Frequently mutated in colorectal and pancreatic adenocarcinoma, where RNF43 deficiency sensitizes cancer cells to porcupine inhibitors.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>validation_approach</strong></td>
+                            <td>Independent sgRNA concordance in vivo and later-time-point analysis; the paper relies on functional Tuba-seq validation rather than direct pathway inhibition experiments.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>validation_result</strong></td>
+                            <td>Rnf43 inactivation was confirmed as tumor suppressive in KRAS-driven lung cancer.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>therapeutic_implication</strong></td>
+                            <td>Suggests that RNF43-deficient tumors may have Wnt/porcupine inhibitor vulnerability, by analogy to colorectal/pancreatic cancer.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>therapeutic_evidence</strong></td>
+                            <td>Only cross-cancer evidence is cited: RNF43 deficiency sensitizes colorectal/pancreatic cancer cells to porcupine inhibitors.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>clinical_or_demographic_association</strong></td>
+                            <td>No specific LUAD clinical association reported in the paper.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>study_limitations</strong></td>
+                            <td>Mechanism not directly shown in LUAD; therapeutic relevance is inferred from other cancers rather than demonstrated here.</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="extraction-instance-container" id="e1913.3">
+                <h3 class="extraction-instance">Extracted Data Instance 3 (e1913.3)</h3>
+                <div class="extraction-query"><strong>Extraction Query:</strong> Extract any mentions of driver-negative or oncogene-negative lung adenocarcinoma cases, cohorts, models, or subgroups; the evidence for why they are considered driver-negative; candidate alternative drivers or mechanisms; proposed subtypes; validation strategies; comparisons to other cancers; and therapeutic implications.</div>
+                <table>
+                    <thead>
+                        <tr>
+                            <th style="width: 30%;">Field</th>
+                            <th style="width: 70%;">Value</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><strong>name_short</strong></td>
+                            <td>KDM6A</td>
+                        </tr>
+                        <tr>
+                            <td><strong>name_full</strong></td>
+                            <td>KDM6A (lysine demethylase 6A, UTX)</td>
+                        </tr>
+                        <tr>
+                            <td><strong>brief_description</strong></td>
+                            <td>An X-linked chromatin regulator identified as a tumor suppressor that can increase tumor initiation and later overall growth in KRAS-driven lung cancer. The paper also emphasizes that its non-enzymatic function may be compensated by UTY, while the lung-cancer effect observed here is most consistent with loss of enzymatic function.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>citation_title</strong></td>
+                            <td>A functional taxonomy of tumor suppression in oncogenic KRAS-driven lung cancer</td>
+                        </tr>
+                        <tr>
+                            <td><strong>mention_or_use</strong></td>
+                            <td>use</td>
+                        </tr>
+                        <tr>
+                            <td><strong>cohort_or_model</strong></td>
+                            <td>KT;H11LSL-Cas9 mouse model; later 26-week cohort; sex-comparison analysis; human LUAD mutation frequencies across TCGA/TRACERx/GENIE</td>
+                        </tr>
+                        <tr>
+                            <td><strong>cancer_context</strong></td>
+                            <td>Lung adenocarcinoma / KRAS-driven lung cancer</td>
+                        </tr>
+                        <tr>
+                            <td><strong>driver_negative_definition</strong></td>
+                            <td>Not a driver-negative cohort. KDM6A is treated as a putative tumor suppressor based on mutation patterns and prior literature, and the screen tests whether its inactivation functionally promotes tumorigenesis.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>driver_negative_frequency</strong></td>
+                            <td>The paper states that at least one member of the COMPASS complex is mutated in 8.9–32.5% of human lung adenocarcinoma, and KDM6A is among the genes involved; no exact KDM6A-specific percentage is provided in the main text here.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>profiling_modalities</strong></td>
+                            <td>Multiplexed in vivo CRISPR/Tuba-seq; sex-stratified analysis; later-time-point validation; DepMap comparison; mutation-frequency analysis in human LUAD datasets</td>
+                        </tr>
+                        <tr>
+                            <td><strong>candidate_mechanism_category</strong></td>
+                            <td>Tumor suppressor loss / epigenetic dysregulation</td>
+                        </tr>
+                        <tr>
+                            <td><strong>candidate_driver_or_mechanism</strong></td>
+                            <td>KDM6A loss</td>
+                        </tr>
+                        <tr>
+                            <td><strong>mechanistic_description</strong></td>
+                            <td>KDM6A is an X-linked histone demethylase with enzymatic and non-enzymatic functions. In this paper, Kdm6a inactivation increases tumor number and later tumor growth, with male and female mice showing similar effects, suggesting the lung-cancer phenotype is most likely driven by loss of its enzymatic function.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>evidence_type</strong></td>
+                            <td>Functional in vivo screen; sex-comparison; orthogonal time-point validation</td>
+                        </tr>
+                        <tr>
+                            <td><strong>key_evidence</strong></td>
+                            <td>Kdm6a inactivation increased tumor number and, at 26 weeks, broadly increased tumor size metrics after initially modest effects. The effects were similar in male and female mice.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>negative_or_counter_evidence</strong></td>
+                            <td>The paper does not establish a direct molecular mechanism in lung tumors; in vitro DepMap data showed that KDM6A loss can paradoxically decrease cell growth in lung adenocarcinoma cell lines.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>subtype_name</strong></td>
+                            <td><span class="empty-note">null</span></td>
+                        </tr>
+                        <tr>
+                            <td><strong>subtype_features</strong></td>
+                            <td>No subtype named, but the result is consistent across sexes and time points</td>
+                        </tr>
+                        <tr>
+                            <td><strong>parallel_in_other_cancers</strong></td>
+                            <td>KDM6A loss has been studied in pancreatic cancer, where it activates super-enhancers and confers sensitivity to BET inhibitors.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>validation_approach</strong></td>
+                            <td>Repeated in vivo measurements at 15 and 26 weeks; male-versus-female comparison; benchmarking against DepMap data; guide concordance across sgRNAs.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>validation_result</strong></td>
+                            <td>The tumor-initiation effect was reproducible across datasets and sexes, and later-time-point effects strengthened the conclusion that Kdm6a constrains early growth and later tumor growth.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>therapeutic_implication</strong></td>
+                            <td>Suggests epigenetic vulnerabilities may exist in KDM6A-deficient tumors; by analogy to other cancers, BET-inhibitor sensitivity could be relevant, but this was not tested in lung cancer here.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>therapeutic_evidence</strong></td>
+                            <td>Only cross-cancer evidence is cited; no therapy data in this paper.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>clinical_or_demographic_association</strong></td>
+                            <td>No strong sex-specific difference was seen despite KDM6A being X-linked.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>study_limitations</strong></td>
+                            <td>Mechanistic basis in lung cancer not directly defined; cell-line dependency data conflicted with in vivo findings.</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="extraction-instance-container" id="e1913.4">
+                <h3 class="extraction-instance">Extracted Data Instance 4 (e1913.4)</h3>
+                <div class="extraction-query"><strong>Extraction Query:</strong> Extract any mentions of driver-negative or oncogene-negative lung adenocarcinoma cases, cohorts, models, or subgroups; the evidence for why they are considered driver-negative; candidate alternative drivers or mechanisms; proposed subtypes; validation strategies; comparisons to other cancers; and therapeutic implications.</div>
+                <table>
+                    <thead>
+                        <tr>
+                            <th style="width: 30%;">Field</th>
+                            <th style="width: 70%;">Value</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><strong>name_short</strong></td>
+                            <td>DNMT3A</td>
+                        </tr>
+                        <tr>
+                            <td><strong>name_full</strong></td>
+                            <td>DNMT3A (DNA methyltransferase 3A)</td>
+                        </tr>
+                        <tr>
+                            <td><strong>brief_description</strong></td>
+                            <td>A DNA methyltransferase whose loss was shown to promote tumor initiation and, especially at later time points, the emergence of rare exceptionally large tumors in KRAS-driven lung cancer. The paper positions DNMT3A loss as an example of a tumor suppressor whose strongest effect is on rare aggressive outliers rather than bulk growth.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>citation_title</strong></td>
+                            <td>A functional taxonomy of tumor suppression in oncogenic KRAS-driven lung cancer</td>
+                        </tr>
+                        <tr>
+                            <td><strong>mention_or_use</strong></td>
+                            <td>use</td>
+                        </tr>
+                        <tr>
+                            <td><strong>cohort_or_model</strong></td>
+                            <td>KT;H11LSL-Cas9 mouse models at 15 and 26 weeks; human LUAD sequencing datasets</td>
+                        </tr>
+                        <tr>
+                            <td><strong>cancer_context</strong></td>
+                            <td>Lung adenocarcinoma / KRAS-driven lung cancer</td>
+                        </tr>
+                        <tr>
+                            <td><strong>driver_negative_definition</strong></td>
+                            <td>Not a driver-negative cohort. DNMT3A is a putative tumor suppressor whose inactivation is being tested for functional impact in lung cancer.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>driver_negative_frequency</strong></td>
+                            <td>No exact LUAD frequency stated in the main text; the paper notes the gene is included based on human mutational data and previous literature.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>profiling_modalities</strong></td>
+                            <td>Multiplexed in vivo CRISPR/Tuba-seq; heavy-tail statistics (Hill's estimator and steepness); human mutational comparison</td>
+                        </tr>
+                        <tr>
+                            <td><strong>candidate_mechanism_category</strong></td>
+                            <td>Tumor suppressor loss / epigenetic dysregulation</td>
+                        </tr>
+                        <tr>
+                            <td><strong>candidate_driver_or_mechanism</strong></td>
+                            <td>DNMT3A loss</td>
+                        </tr>
+                        <tr>
+                            <td><strong>mechanistic_description</strong></td>
+                            <td>Loss of the de novo DNA methyltransferase DNMT3A is proposed to permit rare tumors to acquire exceptionally large growth phenotypes and also contributes to tumor initiation and overall burden.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>evidence_type</strong></td>
+                            <td>Functional in vivo screen; distribution-tail analysis; literature concordance</td>
+                        </tr>
+                        <tr>
+                            <td><strong>key_evidence</strong></td>
+                            <td>After 15 weeks, Dnmt3a inactivation could allow some tumors to grow disproportionately large; after 26 weeks, Dnmt3a-targeted tumors were specifically highlighted as heavy-tailed and the development of exceptionally large tumors was pronounced.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>negative_or_counter_evidence</strong></td>
+                            <td>Most tumors were only modestly affected; the effect is mainly on a rare subset of tumors. No direct molecular mechanism or therapeutic validation is provided.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>subtype_name</strong></td>
+                            <td><span class="empty-note">null</span></td>
+                        </tr>
+                        <tr>
+                            <td><strong>subtype_features</strong></td>
+                            <td>Rare but exceptionally large, heavy-tailed tumor-size phenotype</td>
+                        </tr>
+                        <tr>
+                            <td><strong>parallel_in_other_cancers</strong></td>
+                            <td>The paper notes the emergence of very large Dnmt3a-deficient tumors is consistent with prior oncogenic Kras mouse studies showing increased lung tumor burden with Dnmt3a loss.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>validation_approach</strong></td>
+                            <td>Repeat analysis at 15 and 26 weeks; Hill's estimator and steepness to quantify heavy-tailed tumor size distributions; sgRNA concordance; comparison with prior Cre/lox studies.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>validation_result</strong></td>
+                            <td>Dnmt3a loss was validated as a driver of rare, exceptionally large tumors and broader tumor burden effects at later time points.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>therapeutic_implication</strong></td>
+                            <td>May inform monitoring or intervention strategies aimed at preventing outlier aggressive tumors, but no specific therapy is proposed.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>therapeutic_evidence</strong></td>
+                            <td>No direct therapeutic experiments are reported.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>clinical_or_demographic_association</strong></td>
+                            <td>No demographic association stated.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>study_limitations</strong></td>
+                            <td>Effects are modest in the majority of tumors and predominantly manifest in a rare heavy-tailed subset; mechanism not defined.</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="extraction-instance-container" id="e1913.5">
+                <h3 class="extraction-instance">Extracted Data Instance 5 (e1913.5)</h3>
+                <div class="extraction-query"><strong>Extraction Query:</strong> Extract any mentions of driver-negative or oncogene-negative lung adenocarcinoma cases, cohorts, models, or subgroups; the evidence for why they are considered driver-negative; candidate alternative drivers or mechanisms; proposed subtypes; validation strategies; comparisons to other cancers; and therapeutic implications.</div>
+                <table>
+                    <thead>
+                        <tr>
+                            <th style="width: 30%;">Field</th>
+                            <th style="width: 70%;">Value</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><strong>name_short</strong></td>
+                            <td>CDKN2A</td>
+                        </tr>
+                        <tr>
+                            <td><strong>name_full</strong></td>
+                            <td>CDKN2A (including INK4A and ARF)</td>
+                        </tr>
+                        <tr>
+                            <td><strong>brief_description</strong></td>
+                            <td>A canonical lung adenocarcinoma tumor suppressor that the screen shows can increase tumor number, later overall growth, and the emergence of rare exceptionally large tumors when inactivated. The authors emphasize that both sgRNAs against Cdkn2a likely disrupt both INK4A and ARF, implicating combined Rb and p53 pathway loss.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>citation_title</strong></td>
+                            <td>A functional taxonomy of tumor suppression in oncogenic KRAS-driven lung cancer</td>
+                        </tr>
+                        <tr>
+                            <td><strong>mention_or_use</strong></td>
+                            <td>use</td>
+                        </tr>
+                        <tr>
+                            <td><strong>cohort_or_model</strong></td>
+                            <td>KT;H11LSL-Cas9 mouse model at 15 and 26 weeks; comparison to prior KRAS-driven mouse studies</td>
+                        </tr>
+                        <tr>
+                            <td><strong>cancer_context</strong></td>
+                            <td>Lung adenocarcinoma / KRAS-driven lung cancer</td>
+                        </tr>
+                        <tr>
+                            <td><strong>driver_negative_definition</strong></td>
+                            <td>Not a driver-negative cohort. CDKN2A is a canonical tumor suppressor included as a positive-control-like candidate and tested functionally.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>driver_negative_frequency</strong></td>
+                            <td>Not reported as a single percentage in the main text here; included among major known lung adenocarcinoma tumor suppressors.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>profiling_modalities</strong></td>
+                            <td>Multiplexed in vivo CRISPR/Tuba-seq; heavy-tail and tumor-number analyses; comparison to prior Cre/lox models</td>
+                        </tr>
+                        <tr>
+                            <td><strong>candidate_mechanism_category</strong></td>
+                            <td>Tumor suppressor loss / cell-cycle checkpoint failure</td>
+                        </tr>
+                        <tr>
+                            <td><strong>candidate_driver_or_mechanism</strong></td>
+                            <td>CDKN2A loss</td>
+                        </tr>
+                        <tr>
+                            <td><strong>mechanistic_description</strong></td>
+                            <td>Loss of CDKN2A is proposed to promote tumor initiation, later growth, and rare exceptionally large tumors, likely through combined loss of INK4A and ARF and therefore reduced Rb and p53 pathway activity.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>evidence_type</strong></td>
+                            <td>Functional in vivo screen; heavy-tail analysis; literature concordance</td>
+                        </tr>
+                        <tr>
+                            <td><strong>key_evidence</strong></td>
+                            <td>Cdkn2a inactivation increased tumor number, later tumor burden, and specifically generated heavy-tailed distributions with exceptionally large tumors at 26 weeks.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>negative_or_counter_evidence</strong></td>
+                            <td>The paper notes that effects on tumor initiation and growth can be independent and that Cdkn2a mainly affects rare large tumors, not the majority of tumors.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>subtype_name</strong></td>
+                            <td><span class="empty-note">null</span></td>
+                        </tr>
+                        <tr>
+                            <td><strong>subtype_features</strong></td>
+                            <td>Rare but exceptionally large tumors; increased initiation and later burden</td>
+                        </tr>
+                        <tr>
+                            <td><strong>parallel_in_other_cancers</strong></td>
+                            <td>Consistent with prior oncogenic Kras-driven mouse studies showing increased lung tumor burden with Cdkn2a loss.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>validation_approach</strong></td>
+                            <td>Re-testing at 26 weeks; Hill's estimator and steepness; comparison to prior literature and to p53-heavy-tailed phenotype.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>validation_result</strong></td>
+                            <td>Validated as a determinant of both early tumor number and exceptionally large outlier tumors.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>therapeutic_implication</strong></td>
+                            <td>Supports use of CDKN2A status as a biomarker of aggressive behavior and possible need for early intervention, though no specific drug strategy is tested.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>therapeutic_evidence</strong></td>
+                            <td>No direct therapy data.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>clinical_or_demographic_association</strong></td>
+                            <td>No specific demographic association stated.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>study_limitations</strong></td>
+                            <td>The exact contribution of INK4A versus ARF is not disentangled; functional effects are strongest on a rare aggressive subset.</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>Potentially Relevant New Papers (mentioned by this paper)</h2>
+            <ol>
+                <li>Mapping the in vivo fitness landscape of lung adenocarcinoma tumor suppression in mice <em>(Rating: 2)</em></li>
+                <li>A quantitative and multiplexed approach to uncover the fitness landscape of tumor suppression in vivo <em>(Rating: 2)</em></li>
+                <li>Systematic In Vivo Inactivation of Chromatin-Regulating Enzymes Identifies Setd2 as a Potent Tumor Suppressor in Lung Adenocarcinoma <em>(Rating: 2)</em></li>
+                <li>In vivo CRISPR screening unveils histone demethylase UTX as an important epigenetic regulator in lung tumorigenesis <em>(Rating: 2)</em></li>
+                <li>Genetic determinants of EGFR-Driven Lung Cancer Growth and Therapeutic Response In Vivo <em>(Rating: 1)</em></li>
+                <li>Quantitative in vivo analyses reveal a complex pharmacogenomic landscape in lung adenocarcinoma <em>(Rating: 1)</em></li>
+            </ol>
+        </div>
+
+        </div>
+
+    </div>
+</body>
+</html>

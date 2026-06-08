@@ -1,0 +1,935 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Extraction extraction-result-2204 - Theorizer</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+    <div class="header">
+        <a href="../index.html"><i class="fas fa-flask"></i> Theorizer</a>
+    </div>
+
+    <div class="content">
+        <h1>Extracted Data Details for extraction-result-2204</h1>
+
+        <div class="section">
+            <h2>Extracted Data (Header)</h2>
+            <div class="info-section">
+                <p><strong>Extraction ID:</strong> extraction-result-2204</p>
+                <p><strong>Extraction Schema Used (ID):</strong> <a href="../schemas/extraction-schema-1844.html">extraction-schema-1844</a></p>
+                <div class="extraction-query"><strong>Extraction Query:</strong> Extract any mentions of hidden genomic, structural, regulatory, or assay-missed drivers in oncogene-negative lung adenocarcinoma.</div>
+                <p><strong>Paper ID:</strong> paper-6f703fac33264a37b860ff5019776137a0dac2f9</p>
+                <p><strong>Paper Title:</strong> <a href="https://www.semanticscholar.org/paper/6f703fac33264a37b860ff5019776137a0dac2f9" target="_blank">Distinct patterns of somatic genome alterations in lung adenocarcinomas and squamous cell carcinomas</a></p>
+                <p><strong>Paper Venue:</strong> Nature Genetics</p>
+                <p><strong>Paper TL;DR:</strong> Although targeted therapies for lung ADC and SqCC are largely distinct, immunotherapies may aid in treatment for both subtypes.</p>
+                <p><strong>Paper Abstract:</strong> To compare lung adenocarcinoma (ADC) and lung squamous cell carcinoma (SqCC) and to identify new drivers of lung carcinogenesis, we examined the exome sequences and copy number profiles of 660 lung ADC and 484 lung SqCC tumor–normal pairs. Recurrent alterations in lung SqCCs were more similar to those of other squamous carcinomas than to alterations in lung ADCs. New significantly mutated genes included PPP3CA, DOT1L, and FTSJD1 in lung ADC, RASA1 in lung SqCC, and KLF5, EP300, and CREBBP in both tumor types. New amplification peaks encompassed MIR21 in lung ADC, MIR205 in lung SqCC, and MAPK1 in both. Lung ADCs lacking receptor tyrosine kinase–Ras–Raf pathway alterations had mutations in SOS1, VAV1, RASA1, and ARHGAP35. Regarding neoantigens, 47% of the lung ADC and 53% of the lung SqCC tumors had at least five predicted neoepitopes. Although targeted therapies for lung ADC and SqCC are largely distinct, immunotherapies may aid in treatment for both subtypes.</p>
+                <p><strong>Cost:</strong> 0.03</p>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>Extracted Data (Details)</h2>
+            <div class="extraction-instance-container" id="e2204.0">
+                <h3 class="extraction-instance">Extracted Data Instance 0 (e2204.0)</h3>
+                <div class="extraction-query"><strong>Extraction Query:</strong> Extract any mentions of hidden genomic, structural, regulatory, or assay-missed drivers in oncogene-negative lung adenocarcinoma.</div>
+                <table>
+                    <thead>
+                        <tr>
+                            <th style="width: 30%;">Field</th>
+                            <th style="width: 70%;">Value</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><strong>name_short</strong></td>
+                            <td>SOS1</td>
+                        </tr>
+                        <tr>
+                            <td><strong>name_full</strong></td>
+                            <td>SOS Ras/Rac guanine nucleotide exchange factor 1</td>
+                        </tr>
+                        <tr>
+                            <td><strong>brief_description</strong></td>
+                            <td>A Ras-pathway guanine nucleotide exchange factor that was significantly enriched among oncogene-negative lung adenocarcinomas. The paper reports recurrent p.N233Y mutations in the autoinhibitory DH domain, consistent with gain-of-function activation of Ras signaling.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>citation_title</strong></td>
+                            <td>Distinct patterns of somatic genome alterations in lung adenocarcinomas and squamous cell carcinomas</td>
+                        </tr>
+                        <tr>
+                            <td><strong>mention_or_use</strong></td>
+                            <td>use</td>
+                        </tr>
+                        <tr>
+                            <td><strong>oncogene_negative_definition</strong></td>
+                            <td>Lung adenocarcinomas were defined as oncogene-negative if they lacked any known activating alteration in the RTK/Ras/Raf pathway, specifically no activating SSNV, indel, amplification, or gene fusion in a known RTK/Ras/Raf driver. NF1-altered tumors were excluded from the oncogene-positive group because NF1 mutations are not entirely mutually exclusive with other RTK/Ras/Raf alterations. The negative cohort analyzed here consisted of 242 lung ADCs.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>assay_strategy_and_detection_limits</strong></td>
+                            <td>The discovery pipeline used whole-exome sequencing of tumor/normal pairs plus SNP6 copy-number arrays, with RNA-seq available only for a subset. The paper explicitly notes blind spots for oncogene-negative disease: it may underestimate oncogenic fusions or MET exon 14 skipping because matching RNA-seq was not available for every tumor, and WES cannot assess non-coding regulatory elements or many structural/noncoding drivers.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>missed_driver_reclassified_after_broader_testing</strong></td>
+                            <td>Yes, at the cohort level several tumors initially considered driver-negative were reclassified after broader testing. The paper reports additional canonical alterations found by manual review, including KRAS, EGFR, or ERBB2 mutations in 17 tumors and complex EGFR or MET indels in 11 tumors; it also found MET fusions (including MET-CAPZA2) and TRIM24-NTRK2/KIF5B-MET fusions in tumors without other known activating alterations. These were missed initially because the first-pass analysis relied on standard WES/copy-number calling and incomplete RNA-seq/fusion ascertainment, with complex indels and fusions requiring manual and RNA-based follow-up.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>driver_event_class</strong></td>
+                            <td>rare SNV / pathway-state driver in oncogene-negative samples</td>
+                        </tr>
+                        <tr>
+                            <td><strong>candidate_driver_gene_or_locus</strong></td>
+                            <td>SOS1</td>
+                        </tr>
+                        <tr>
+                            <td><strong>structural_or_regulatory_activation_mechanism</strong></td>
+                            <td>Recurrent mutations clustered in the autoinhibitory domain (DH domain) near the region controlling SOS1 autoinhibition, implying relief of autoinhibition and increased GEF activity.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>functional_consequence</strong></td>
+                            <td>Expected to increase Ras activation through enhanced guanine nucleotide exchange; the paper treats SOS1 as a newly identified Ras pathway driver enriched in oncogene-negative tumors.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>co_alteration_or_combinatorial_requirement</strong></td>
+                            <td>Enriched in oncogene-negative tumors as part of a broader set of 15 enriched genes. The paper does not report a required co-mutation for SOS1 specifically, but notes pathway context with other enriched genes including RASA1, VAV1, and ARHGAP35.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>human_prevalence_or_enrichment</strong></td>
+                            <td>Recurrent p.N233Y mutations were observed in 4 lung adenocarcinomas. SOS1 was among 15 genes significantly enriched among oncogene-negative lung ADCs (FDR q-value < 0.1).</td>
+                        </tr>
+                        <tr>
+                            <td><strong>functional_or_clinical_validation</strong></td>
+                            <td>Structural interpretation was supported by domain localization and analogy to known activating mutations in Noonan syndrome (including p.D309Y in the same region). The paper does not report direct transformation or drug-response experiments for SOS1.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>initial_negative_call_basis</strong></td>
+                            <td>Initial negative call: [WES SSNV/indel calling by MuTect and Indelocator on tumor-normal pairs, plus GISTIC2.0/SNP6 copy-number analysis, plus known RTK/Ras/Raf driver review; negative required absence of activating SSNV, indel, amplification, or gene fusion in known RTK/Ras/Raf genes; NF1 not counted as positive].</td>
+                        </tr>
+                        <tr>
+                            <td><strong>negative_call_failure_mode</strong></td>
+                            <td>still_unexplained</td>
+                        </tr>
+                        <tr>
+                            <td><strong>rescue_modality</strong></td>
+                            <td>deep_wes</td>
+                        </tr>
+                        <tr>
+                            <td><strong>final_explanatory_status</strong></td>
+                            <td>rescued_noncanonical_driver</td>
+                        </tr>
+                        <tr>
+                            <td><strong>post_workup_unexplained_fraction</strong></td>
+                            <td>Even after expanded analysis, 28 lung ADCs remained oncogene-negative for the RTK/Ras/Raf pathway and still harbored STK11 mutations, which the authors suggest may reflect an additional unrecognized KRAS-related alteration complementary to STK11. More broadly, 15% to 25% of lung ADCs still lacked a known detectable alteration in the RTK/Ras/Raf pathway.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>driver_mechanism_family</strong></td>
+                            <td>tumor_suppressor_negative_regulator_loss</td>
+                        </tr>
+                        <tr>
+                            <td><strong>signaling_activation_mode</strong></td>
+                            <td>loss_of_gap_function</td>
+                        </tr>
+                        <tr>
+                            <td><strong>oncogenic_unit_type</strong></td>
+                            <td>single_gene_lesion</td>
+                        </tr>
+                        <tr>
+                            <td><strong>mechanistic_directness</strong></td>
+                            <td>likely_driver</td>
+                        </tr>
+                        <tr>
+                            <td><strong>histologic_subtype_normalized</strong></td>
+                            <td>nonmucinous_adenocarcinoma</td>
+                        </tr>
+                        <tr>
+                            <td><strong>lineage_marker_state</strong></td>
+                            <td><span class="empty-note">null</span></td>
+                        </tr>
+                        <tr>
+                            <td><strong>inferred_lineage_program</strong></td>
+                            <td>unknown</td>
+                        </tr>
+                        <tr>
+                            <td><strong>mucinous_program_evidence</strong></td>
+                            <td><span class="empty-note">null</span></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="extraction-instance-container" id="e2204.1">
+                <h3 class="extraction-instance">Extracted Data Instance 1 (e2204.1)</h3>
+                <div class="extraction-query"><strong>Extraction Query:</strong> Extract any mentions of hidden genomic, structural, regulatory, or assay-missed drivers in oncogene-negative lung adenocarcinoma.</div>
+                <table>
+                    <thead>
+                        <tr>
+                            <th style="width: 30%;">Field</th>
+                            <th style="width: 70%;">Value</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><strong>name_short</strong></td>
+                            <td>RASA1</td>
+                        </tr>
+                        <tr>
+                            <td><strong>name_full</strong></td>
+                            <td>RAS p21 protein activator 1</td>
+                        </tr>
+                        <tr>
+                            <td><strong>brief_description</strong></td>
+                            <td>A Ras GTPase-activating protein that was significantly enriched among oncogene-negative lung adenocarcinomas. The paper frames it as a known Ras pathway member and reports enrichment for loss-of-function mutations, consistent with release of negative regulation of Ras signaling.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>citation_title</strong></td>
+                            <td>Distinct patterns of somatic genome alterations in lung adenocarcinomas and squamous cell carcinomas</td>
+                        </tr>
+                        <tr>
+                            <td><strong>mention_or_use</strong></td>
+                            <td>use</td>
+                        </tr>
+                        <tr>
+                            <td><strong>oncogene_negative_definition</strong></td>
+                            <td>Lung adenocarcinomas were defined as oncogene-negative if they lacked any known activating alteration in the RTK/Ras/Raf pathway, specifically no activating SSNV, indel, amplification, or gene fusion in a known RTK/Ras/Raf driver. NF1-altered tumors were excluded from the oncogene-positive group because NF1 mutations are not entirely mutually exclusive with other RTK/Ras/Raf alterations. The negative cohort analyzed here consisted of 242 lung ADCs.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>assay_strategy_and_detection_limits</strong></td>
+                            <td>Whole-exome sequencing plus copy-number analysis with RNA-seq/fusion analysis in a subset. The paper notes possible undercalling of fusions and MET exon 14 skipping where RNA-seq was unavailable, and inability of WES to assess noncoding regulatory drivers.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>missed_driver_reclassified_after_broader_testing</strong></td>
+                            <td>Yes, at the broader-workup level some initially negative tumors were later found to harbor additional canonical RTK/Ras/Raf alterations on manual review or RNA-based fusion analysis; however, no specific rescue is attributed uniquely to RASA1. RASA1 itself was part of the enriched hidden-driver set identified in the oncogene-negative cohort.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>driver_event_class</strong></td>
+                            <td>loss-of-function mutation</td>
+                        </tr>
+                        <tr>
+                            <td><strong>candidate_driver_gene_or_locus</strong></td>
+                            <td>RASA1</td>
+                        </tr>
+                        <tr>
+                            <td><strong>structural_or_regulatory_activation_mechanism</strong></td>
+                            <td>Inactivation of a Ras GTPase-activating protein, removing a brake on Ras signaling.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>functional_consequence</strong></td>
+                            <td>Expected pathway activation through loss of GAP-mediated Ras inactivation.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>co_alteration_or_combinatorial_requirement</strong></td>
+                            <td>Part of the 15-gene oncogene-negative-enriched set; the paper also notes STK11 co-mutation with KRAS in other tumors and a broader excess of pathway alterations in oncogene-negative cases, but no specific RASA1 combinatorial requirement is reported.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>human_prevalence_or_enrichment</strong></td>
+                            <td>RASA1 was significantly enriched among oncogene-negative lung ADCs (FDR q-value < 0.1) and showed enrichment for loss-of-function mutations (p < 0.01). The abstract also highlights RASA1 among mutations found in lung ADCs lacking RTK/Ras/Raf alterations.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>functional_or_clinical_validation</strong></td>
+                            <td>Supported by enrichment statistics and known pathway biology; the paper does not report direct functional assays for RASA1 in this study.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>initial_negative_call_basis</strong></td>
+                            <td>Initial negative call: [no activating SSNV/indel/amplification/fusion in known RTK/Ras/Raf genes on WES + copy-number + limited RNA-seq fusion analysis; NF1 excluded from positive definition].</td>
+                        </tr>
+                        <tr>
+                            <td><strong>negative_call_failure_mode</strong></td>
+                            <td>still_unexplained</td>
+                        </tr>
+                        <tr>
+                            <td><strong>rescue_modality</strong></td>
+                            <td>deep_wes</td>
+                        </tr>
+                        <tr>
+                            <td><strong>final_explanatory_status</strong></td>
+                            <td>rescued_noncanonical_driver</td>
+                        </tr>
+                        <tr>
+                            <td><strong>post_workup_unexplained_fraction</strong></td>
+                            <td>28 oncogene-negative RTK/Ras/Raf-pathway lung ADCs still had STK11 mutations after broader analysis; overall 15% to 25% of lung ADCs remained without a known detectable RTK/Ras/Raf alteration.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>driver_mechanism_family</strong></td>
+                            <td>tumor_suppressor_negative_regulator_loss</td>
+                        </tr>
+                        <tr>
+                            <td><strong>signaling_activation_mode</strong></td>
+                            <td>loss_of_gap_function</td>
+                        </tr>
+                        <tr>
+                            <td><strong>oncogenic_unit_type</strong></td>
+                            <td>single_gene_lesion</td>
+                        </tr>
+                        <tr>
+                            <td><strong>mechanistic_directness</strong></td>
+                            <td>likely_driver</td>
+                        </tr>
+                        <tr>
+                            <td><strong>histologic_subtype_normalized</strong></td>
+                            <td>nonmucinous_adenocarcinoma</td>
+                        </tr>
+                        <tr>
+                            <td><strong>lineage_marker_state</strong></td>
+                            <td><span class="empty-note">null</span></td>
+                        </tr>
+                        <tr>
+                            <td><strong>inferred_lineage_program</strong></td>
+                            <td>unknown</td>
+                        </tr>
+                        <tr>
+                            <td><strong>mucinous_program_evidence</strong></td>
+                            <td><span class="empty-note">null</span></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="extraction-instance-container" id="e2204.2">
+                <h3 class="extraction-instance">Extracted Data Instance 2 (e2204.2)</h3>
+                <div class="extraction-query"><strong>Extraction Query:</strong> Extract any mentions of hidden genomic, structural, regulatory, or assay-missed drivers in oncogene-negative lung adenocarcinoma.</div>
+                <table>
+                    <thead>
+                        <tr>
+                            <th style="width: 30%;">Field</th>
+                            <th style="width: 70%;">Value</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><strong>name_short</strong></td>
+                            <td>VAV1</td>
+                        </tr>
+                        <tr>
+                            <td><strong>name_full</strong></td>
+                            <td>vav guanine nucleotide exchange factor 1</td>
+                        </tr>
+                        <tr>
+                            <td><strong>brief_description</strong></td>
+                            <td>A Rho-family guanine nucleotide exchange factor that was significantly enriched among oncogene-negative lung adenocarcinomas. The paper describes a recurrent p.S67Y mutation near autoinhibitory interfaces, with prior structural work suggesting increased GEF activity.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>citation_title</strong></td>
+                            <td>Distinct patterns of somatic genome alterations in lung adenocarcinomas and squamous cell carcinomas</td>
+                        </tr>
+                        <tr>
+                            <td><strong>mention_or_use</strong></td>
+                            <td>use</td>
+                        </tr>
+                        <tr>
+                            <td><strong>oncogene_negative_definition</strong></td>
+                            <td>Lung adenocarcinomas were defined as oncogene-negative if they lacked any known activating alteration in the RTK/Ras/Raf pathway, specifically no activating SSNV, indel, amplification, or gene fusion in a known RTK/Ras/Raf driver. NF1-altered tumors were excluded from the oncogene-positive group because NF1 mutations are not entirely mutually exclusive with other RTK/Ras/Raf alterations. The negative cohort analyzed here consisted of 242 lung ADCs.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>assay_strategy_and_detection_limits</strong></td>
+                            <td>Exome sequencing and copy-number profiling were the primary discovery platforms, with partial RNA-seq support. The study emphasizes that fusions and MET exon 14 skipping may be missed without matching RNA-seq and that non-coding regulatory lesions were not interrogated.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>missed_driver_reclassified_after_broader_testing</strong></td>
+                            <td>No specific tumor rescue is attributed to VAV1 alone, but broader testing uncovered additional hidden pathway drivers in initially negative cases. VAV1 was identified by enrichment analysis of the oncogene-negative group.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>driver_event_class</strong></td>
+                            <td>rare SNV</td>
+                        </tr>
+                        <tr>
+                            <td><strong>candidate_driver_gene_or_locus</strong></td>
+                            <td>VAV1</td>
+                        </tr>
+                        <tr>
+                            <td><strong>structural_or_regulatory_activation_mechanism</strong></td>
+                            <td>Mutation near the CH/Ac/PH autoinhibitory interface likely disrupts autoinhibition of the Dbl homology exchange activity.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>functional_consequence</strong></td>
+                            <td>Predicted increase in GEF activity and activation of Rho-family GTPase signaling.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>co_alteration_or_combinatorial_requirement</strong></td>
+                            <td>Part of the 15-gene oncogene-negative-enriched set, alongside SOS1, RASA1, and ARHGAP35; no specific combinatorial dependency is stated.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>human_prevalence_or_enrichment</strong></td>
+                            <td>VAV1 was significantly enriched among oncogene-negative lung ADCs (FDR q-value < 0.1). Recurrent p.S67Y mutations were specifically noted, but the exact count was not given in the text.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>functional_or_clinical_validation</strong></td>
+                            <td>The paper cites prior mutagenesis/structural studies showing that alteration at the comparable site can increase GEF activity. No in-study functional assay is reported.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>initial_negative_call_basis</strong></td>
+                            <td>Initial negative call: [absence of activating SSNV/indel/amplification/fusion in known RTK/Ras/Raf drivers by WES, SNP6 CNV, and limited RNA-seq fusion analysis].</td>
+                        </tr>
+                        <tr>
+                            <td><strong>negative_call_failure_mode</strong></td>
+                            <td>still_unexplained</td>
+                        </tr>
+                        <tr>
+                            <td><strong>rescue_modality</strong></td>
+                            <td>deep_wes</td>
+                        </tr>
+                        <tr>
+                            <td><strong>final_explanatory_status</strong></td>
+                            <td>rescued_noncanonical_driver</td>
+                        </tr>
+                        <tr>
+                            <td><strong>post_workup_unexplained_fraction</strong></td>
+                            <td>28 oncogene-negative RTK/Ras/Raf-pathway lung ADCs still had STK11 mutations after broader analysis; overall 15% to 25% of lung ADCs remained without a known detectable RTK/Ras/Raf alteration.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>driver_mechanism_family</strong></td>
+                            <td>lineage_state_switch</td>
+                        </tr>
+                        <tr>
+                            <td><strong>signaling_activation_mode</strong></td>
+                            <td>downstream_phospho_network_activation</td>
+                        </tr>
+                        <tr>
+                            <td><strong>oncogenic_unit_type</strong></td>
+                            <td>single_gene_lesion</td>
+                        </tr>
+                        <tr>
+                            <td><strong>mechanistic_directness</strong></td>
+                            <td>likely_driver</td>
+                        </tr>
+                        <tr>
+                            <td><strong>histologic_subtype_normalized</strong></td>
+                            <td>nonmucinous_adenocarcinoma</td>
+                        </tr>
+                        <tr>
+                            <td><strong>lineage_marker_state</strong></td>
+                            <td><span class="empty-note">null</span></td>
+                        </tr>
+                        <tr>
+                            <td><strong>inferred_lineage_program</strong></td>
+                            <td>unknown</td>
+                        </tr>
+                        <tr>
+                            <td><strong>mucinous_program_evidence</strong></td>
+                            <td><span class="empty-note">null</span></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="extraction-instance-container" id="e2204.3">
+                <h3 class="extraction-instance">Extracted Data Instance 3 (e2204.3)</h3>
+                <div class="extraction-query"><strong>Extraction Query:</strong> Extract any mentions of hidden genomic, structural, regulatory, or assay-missed drivers in oncogene-negative lung adenocarcinoma.</div>
+                <table>
+                    <thead>
+                        <tr>
+                            <th style="width: 30%;">Field</th>
+                            <th style="width: 70%;">Value</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><strong>name_short</strong></td>
+                            <td>ARHGAP35</td>
+                        </tr>
+                        <tr>
+                            <td><strong>name_full</strong></td>
+                            <td>Rho GTPase activating protein 35</td>
+                        </tr>
+                        <tr>
+                            <td><strong>brief_description</strong></td>
+                            <td>A RhoGAP gene identified among genes significantly enriched in oncogene-negative lung adenocarcinomas. The paper groups it with other pathway regulators and implies loss-of-function as a way to uncover hidden RTK/Ras/Rho pathway activation.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>citation_title</strong></td>
+                            <td>Distinct patterns of somatic genome alterations in lung adenocarcinomas and squamous cell carcinomas</td>
+                        </tr>
+                        <tr>
+                            <td><strong>mention_or_use</strong></td>
+                            <td>use</td>
+                        </tr>
+                        <tr>
+                            <td><strong>oncogene_negative_definition</strong></td>
+                            <td>Lung adenocarcinomas were defined as oncogene-negative if they lacked any known activating alteration in the RTK/Ras/Raf pathway, specifically no activating SSNV, indel, amplification, or gene fusion in a known RTK/Ras/Raf driver. NF1-altered tumors were excluded from the oncogene-positive group because NF1 mutations are not entirely mutually exclusive with other RTK/Ras/Raf alterations. The negative cohort analyzed here consisted of 242 lung ADCs.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>assay_strategy_and_detection_limits</strong></td>
+                            <td>Discovery used WES plus copy-number arrays; RNA-seq/fusion detection was incomplete across the full cohort. The authors explicitly note underestimation of fusions and MET exon 14 skipping without RNA-seq and inability to detect noncoding regulatory drivers.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>missed_driver_reclassified_after_broader_testing</strong></td>
+                            <td>Not specifically rescored as a rescued single tumor event, but it was part of the broader hidden-driver set uncovered in oncogene-negative tumors after pathway-focused enrichment analysis.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>driver_event_class</strong></td>
+                            <td>loss-of-function mutation</td>
+                        </tr>
+                        <tr>
+                            <td><strong>candidate_driver_gene_or_locus</strong></td>
+                            <td>ARHGAP35</td>
+                        </tr>
+                        <tr>
+                            <td><strong>structural_or_regulatory_activation_mechanism</strong></td>
+                            <td>Loss of a GAP for Rho-family signaling, implying reduced GTP hydrolysis and prolonged signaling output.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>functional_consequence</strong></td>
+                            <td>Potential activation of Rho kinase pathway signaling via loss of negative regulation.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>co_alteration_or_combinatorial_requirement</strong></td>
+                            <td>Listed with SOS1, RASA1, and VAV1 among 15 significantly enriched oncogene-negative genes; no specific combinatorial model is reported.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>human_prevalence_or_enrichment</strong></td>
+                            <td>ARHGAP35 was among the 15 genes significantly enriched in oncogene-negative lung ADCs (FDR q-value < 0.1).</td>
+                        </tr>
+                        <tr>
+                            <td><strong>functional_or_clinical_validation</strong></td>
+                            <td>Supported by enrichment and pathway logic only; no direct functional experiments are described.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>initial_negative_call_basis</strong></td>
+                            <td>Initial negative call: [WES/copy-number/RNA-seq-based screen failed to find known canonical RTK/Ras/Raf drivers].</td>
+                        </tr>
+                        <tr>
+                            <td><strong>negative_call_failure_mode</strong></td>
+                            <td>still_unexplained</td>
+                        </tr>
+                        <tr>
+                            <td><strong>rescue_modality</strong></td>
+                            <td>deep_wes</td>
+                        </tr>
+                        <tr>
+                            <td><strong>final_explanatory_status</strong></td>
+                            <td>rescued_noncanonical_driver</td>
+                        </tr>
+                        <tr>
+                            <td><strong>post_workup_unexplained_fraction</strong></td>
+                            <td>28 oncogene-negative RTK/Ras/Raf-pathway lung ADCs still had STK11 mutations after broader analysis; overall 15% to 25% of lung ADCs remained without a known detectable RTK/Ras/Raf alteration.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>driver_mechanism_family</strong></td>
+                            <td>tumor_suppressor_negative_regulator_loss</td>
+                        </tr>
+                        <tr>
+                            <td><strong>signaling_activation_mode</strong></td>
+                            <td>loss_of_gap_function</td>
+                        </tr>
+                        <tr>
+                            <td><strong>oncogenic_unit_type</strong></td>
+                            <td>single_gene_lesion</td>
+                        </tr>
+                        <tr>
+                            <td><strong>mechanistic_directness</strong></td>
+                            <td>likely_driver</td>
+                        </tr>
+                        <tr>
+                            <td><strong>histologic_subtype_normalized</strong></td>
+                            <td>nonmucinous_adenocarcinoma</td>
+                        </tr>
+                        <tr>
+                            <td><strong>lineage_marker_state</strong></td>
+                            <td><span class="empty-note">null</span></td>
+                        </tr>
+                        <tr>
+                            <td><strong>inferred_lineage_program</strong></td>
+                            <td>unknown</td>
+                        </tr>
+                        <tr>
+                            <td><strong>mucinous_program_evidence</strong></td>
+                            <td><span class="empty-note">null</span></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="extraction-instance-container" id="e2204.4">
+                <h3 class="extraction-instance">Extracted Data Instance 4 (e2204.4)</h3>
+                <div class="extraction-query"><strong>Extraction Query:</strong> Extract any mentions of hidden genomic, structural, regulatory, or assay-missed drivers in oncogene-negative lung adenocarcinoma.</div>
+                <table>
+                    <thead>
+                        <tr>
+                            <th style="width: 30%;">Field</th>
+                            <th style="width: 70%;">Value</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><strong>name_short</strong></td>
+                            <td>MET-CAPZA2</td>
+                        </tr>
+                        <tr>
+                            <td><strong>name_full</strong></td>
+                            <td>MET-CAPZA2 fusion</td>
+                        </tr>
+                        <tr>
+                            <td><strong>brief_description</strong></td>
+                            <td>A gene fusion identified in lung adenocarcinoma that retained the MET receptor tyrosine kinase domain. The fusion is described as most likely arising via tandem duplication, joining the 3' end of MET to the 5' end of CAPZA2.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>citation_title</strong></td>
+                            <td>Distinct patterns of somatic genome alterations in lung adenocarcinomas and squamous cell carcinomas</td>
+                        </tr>
+                        <tr>
+                            <td><strong>mention_or_use</strong></td>
+                            <td>use</td>
+                        </tr>
+                        <tr>
+                            <td><strong>oncogene_negative_definition</strong></td>
+                            <td>The oncogene-negative framework was based on lack of known activating SSNV, indel, amplification, or gene fusion in established RTK/Ras/Raf drivers. Tumors with such alterations were categorized as oncogene positive; fusions were only fully assessed where RNA-seq was available, meaning some negative tumors could have been missed initially.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>assay_strategy_and_detection_limits</strong></td>
+                            <td>RNA-seq fusion analysis was only available for a subset of tumors, so fusion drivers could be missed in the initial oncogene-negative call. The fusion was identified through RNA-based fusion analysis and manual inspection of exonic expression.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>missed_driver_reclassified_after_broader_testing</strong></td>
+                            <td>Yes. A tumor initially lacking a known canonical RTK/Ras/Raf alteration was later found to harbor a MET fusion with CAPZA2 by broader RNA-seq/fusion analysis, likely missed initially because the first-pass negative label depended on incomplete fusion ascertainment.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>driver_event_class</strong></td>
+                            <td>fusion</td>
+                        </tr>
+                        <tr>
+                            <td><strong>candidate_driver_gene_or_locus</strong></td>
+                            <td>MET-CAPZA2</td>
+                        </tr>
+                        <tr>
+                            <td><strong>structural_or_regulatory_activation_mechanism</strong></td>
+                            <td>Kinase-domain-preserving fusion, likely generated by tandem duplication, placing MET's 3' kinase domain under the fusion context of CAPZA2.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>functional_consequence</strong></td>
+                            <td>Retains the receptor tyrosine kinase domain and is presented as an activating alteration in the RTK/Ras/Raf pathway.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>co_alteration_or_combinatorial_requirement</strong></td>
+                            <td>Observed in tumors without other known activating alterations in the pathway.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>human_prevalence_or_enrichment</strong></td>
+                            <td>The paper reports this as one of the novel alterations in the RTK/Ras/Raf pathway but does not provide a precise frequency in the main text excerpt.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>functional_or_clinical_validation</strong></td>
+                            <td>The fusion retained the RTK domain and was identified using RNA-seq with exonic expression support; the paper does not report a direct functional assay for this specific fusion.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>initial_negative_call_basis</strong></td>
+                            <td>Initial negative call: [absence of known RTK/Ras/Raf activating SSNV/indel/amplification/fusion in first-pass WES/CNV analysis, with incomplete RNA-seq fusion detection].</td>
+                        </tr>
+                        <tr>
+                            <td><strong>negative_call_failure_mode</strong></td>
+                            <td>fusion_not_assayed</td>
+                        </tr>
+                        <tr>
+                            <td><strong>rescue_modality</strong></td>
+                            <td>rna_seq_fusion</td>
+                        </tr>
+                        <tr>
+                            <td><strong>final_explanatory_status</strong></td>
+                            <td>rescued_canonical_driver</td>
+                        </tr>
+                        <tr>
+                            <td><strong>post_workup_unexplained_fraction</strong></td>
+                            <td>After broader analysis, 499 (76%) lung ADCs had an alteration in known or putative RTK/Ras/Raf driver genes, leaving the remainder without a known alteration in that pathway.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>driver_mechanism_family</strong></td>
+                            <td>kinase_fusion_dimerization</td>
+                        </tr>
+                        <tr>
+                            <td><strong>signaling_activation_mode</strong></td>
+                            <td>constitutive_dimerization</td>
+                        </tr>
+                        <tr>
+                            <td><strong>oncogenic_unit_type</strong></td>
+                            <td>gene_pair_fusion</td>
+                        </tr>
+                        <tr>
+                            <td><strong>mechanistic_directness</strong></td>
+                            <td>direct_driver</td>
+                        </tr>
+                        <tr>
+                            <td><strong>histologic_subtype_normalized</strong></td>
+                            <td>nonmucinous_adenocarcinoma</td>
+                        </tr>
+                        <tr>
+                            <td><strong>lineage_marker_state</strong></td>
+                            <td><span class="empty-note">null</span></td>
+                        </tr>
+                        <tr>
+                            <td><strong>inferred_lineage_program</strong></td>
+                            <td>unknown</td>
+                        </tr>
+                        <tr>
+                            <td><strong>mucinous_program_evidence</strong></td>
+                            <td><span class="empty-note">null</span></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="extraction-instance-container" id="e2204.5">
+                <h3 class="extraction-instance">Extracted Data Instance 5 (e2204.5)</h3>
+                <div class="extraction-query"><strong>Extraction Query:</strong> Extract any mentions of hidden genomic, structural, regulatory, or assay-missed drivers in oncogene-negative lung adenocarcinoma.</div>
+                <table>
+                    <thead>
+                        <tr>
+                            <th style="width: 30%;">Field</th>
+                            <th style="width: 70%;">Value</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><strong>name_short</strong></td>
+                            <td>MET exon 14 skipping</td>
+                        </tr>
+                        <tr>
+                            <td><strong>name_full</strong></td>
+                            <td>MET exon 14 skipping</td>
+                        </tr>
+                        <tr>
+                            <td><strong>brief_description</strong></td>
+                            <td>A splice-altering MET event discussed as an underdetected RTK/Ras/Raf pathway alteration in lung adenocarcinoma. The authors explicitly caution that their study may underestimate its frequency because matching RNA-seq was unavailable for every tumor.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>citation_title</strong></td>
+                            <td>Distinct patterns of somatic genome alterations in lung adenocarcinomas and squamous cell carcinomas</td>
+                        </tr>
+                        <tr>
+                            <td><strong>mention_or_use</strong></td>
+                            <td>mention</td>
+                        </tr>
+                        <tr>
+                            <td><strong>oncogene_negative_definition</strong></td>
+                            <td>The oncogene-negative call excluded tumors with known activating SSNVs, indels, amplifications, or fusions in RTK/Ras/Raf driver genes. MET exon 14 skipping is discussed as an alteration that may have been missed because RNA-seq was not available for all tumors.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>assay_strategy_and_detection_limits</strong></td>
+                            <td>The study used WES, SNP6 copy-number profiling, and RNA-seq when available. A stated blind spot was that MET exon 14 skipping could be underestimated without matching RNA-seq, and the analysis focused on coding exome data rather than noncoding or structural mechanisms.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>missed_driver_reclassified_after_broader_testing</strong></td>
+                            <td>The paper says some tumors may have harbored MET exon 14 skipping events that were not fully captured initially due to missing RNA-seq; it does not give a specific rescued case count in the main text.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>driver_event_class</strong></td>
+                            <td>exon skipping</td>
+                        </tr>
+                        <tr>
+                            <td><strong>candidate_driver_gene_or_locus</strong></td>
+                            <td>MET exon 14</td>
+                        </tr>
+                        <tr>
+                            <td><strong>structural_or_regulatory_activation_mechanism</strong></td>
+                            <td>Splice-altering loss of exon 14 can remove regulatory sequences governing receptor downregulation, producing an activating MET alteration.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>functional_consequence</strong></td>
+                            <td>Activated MET signaling / RTK pathway activation.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>co_alteration_or_combinatorial_requirement</strong></td>
+                            <td>Discussed as an alternative driver in tumors otherwise lacking known canonical RTK/Ras/Raf alterations.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>human_prevalence_or_enrichment</strong></td>
+                            <td>No frequency is given in the main text excerpt; it is mentioned as a potentially undercounted event in the cohort.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>functional_or_clinical_validation</strong></td>
+                            <td>No direct validation in this paper; the event is discussed in the context of prior lung cancer literature and assay limitations.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>initial_negative_call_basis</strong></td>
+                            <td>Initial negative call: [WES plus incomplete RNA-seq fusion/splicing detection; MET exon 14 skipping not fully assay-captured in all cases].</td>
+                        </tr>
+                        <tr>
+                            <td><strong>negative_call_failure_mode</strong></td>
+                            <td>splice_event_not_assayed</td>
+                        </tr>
+                        <tr>
+                            <td><strong>rescue_modality</strong></td>
+                            <td>rna_seq</td>
+                        </tr>
+                        <tr>
+                            <td><strong>final_explanatory_status</strong></td>
+                            <td>still_unexplained</td>
+                        </tr>
+                        <tr>
+                            <td><strong>post_workup_unexplained_fraction</strong></td>
+                            <td>The authors state that 15% to 25% of lung ADCs still lacked a known detectable RTK/Ras/Raf alteration after their expanded workup.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>driver_mechanism_family</strong></td>
+                            <td>exon_skipping_regulatory_loss</td>
+                        </tr>
+                        <tr>
+                            <td><strong>signaling_activation_mode</strong></td>
+                            <td>receptor_stabilization</td>
+                        </tr>
+                        <tr>
+                            <td><strong>oncogenic_unit_type</strong></td>
+                            <td>single_gene_lesion</td>
+                        </tr>
+                        <tr>
+                            <td><strong>mechanistic_directness</strong></td>
+                            <td>likely_driver</td>
+                        </tr>
+                        <tr>
+                            <td><strong>histologic_subtype_normalized</strong></td>
+                            <td>nonmucinous_adenocarcinoma</td>
+                        </tr>
+                        <tr>
+                            <td><strong>lineage_marker_state</strong></td>
+                            <td><span class="empty-note">null</span></td>
+                        </tr>
+                        <tr>
+                            <td><strong>inferred_lineage_program</strong></td>
+                            <td>unknown</td>
+                        </tr>
+                        <tr>
+                            <td><strong>mucinous_program_evidence</strong></td>
+                            <td><span class="empty-note">null</span></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="extraction-instance-container" id="e2204.6">
+                <h3 class="extraction-instance">Extracted Data Instance 6 (e2204.6)</h3>
+                <div class="extraction-query"><strong>Extraction Query:</strong> Extract any mentions of hidden genomic, structural, regulatory, or assay-missed drivers in oncogene-negative lung adenocarcinoma.</div>
+                <table>
+                    <thead>
+                        <tr>
+                            <th style="width: 30%;">Field</th>
+                            <th style="width: 70%;">Value</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><strong>name_short</strong></td>
+                            <td>KLF5</td>
+                        </tr>
+                        <tr>
+                            <td><strong>name_full</strong></td>
+                            <td>Kruppel-like factor 5</td>
+                        </tr>
+                        <tr>
+                            <td><strong>brief_description</strong></td>
+                            <td>A transcription factor identified in the combined Pan-Lung analysis with a novel recurrent mutation in the zinc finger domain. The paper notes a prior super-enhancer duplication associated with increased KLF5 expression in head and neck squamous cell carcinoma, suggesting regulatory activation as a related hidden-driver mode.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>citation_title</strong></td>
+                            <td>Distinct patterns of somatic genome alterations in lung adenocarcinomas and squamous cell carcinomas</td>
+                        </tr>
+                        <tr>
+                            <td><strong>mention_or_use</strong></td>
+                            <td>use</td>
+                        </tr>
+                        <tr>
+                            <td><strong>oncogene_negative_definition</strong></td>
+                            <td>Not part of the oncogene-negative operational definition itself, but identified after combined Pan-Lung analysis of altered genes across adenocarcinoma and squamous cell carcinoma cohorts.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>assay_strategy_and_detection_limits</strong></td>
+                            <td>Identified by exome-based MutSig2CV pan-lung analysis; the paper also notes WES cannot assess noncoding regulatory elements, and mentions a previously reported super-enhancer duplication from another study as a relevant regulatory mechanism.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>missed_driver_reclassified_after_broader_testing</strong></td>
+                            <td>No specific lung tumor is said to have been reclassified from negative to positive for KLF5 in this paper. However, KLF5 exemplifies a hidden driver theme because a noncoding super-enhancer duplication that increases KLF5 expression had been reported previously in another cancer type.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>driver_event_class</strong></td>
+                            <td>rare SNV / regulatory activation mentioned in prior work</td>
+                        </tr>
+                        <tr>
+                            <td><strong>candidate_driver_gene_or_locus</strong></td>
+                            <td>KLF5</td>
+                        </tr>
+                        <tr>
+                            <td><strong>structural_or_regulatory_activation_mechanism</strong></td>
+                            <td>Novel mutation in the zinc finger domain; prior work cited in the paper reports a super-enhancer duplication associated with increased KLF5 expression.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>functional_consequence</strong></td>
+                            <td>Transcription factor alteration with implied activation of a lung developmental regulator; prior super-enhancer event increases expression.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>co_alteration_or_combinatorial_requirement</strong></td>
+                            <td>Regulator FBXW7 was also significantly mutated in lung SqCC and Pan-Lung cohorts, but did not co-occur with KLF5 mutations.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>human_prevalence_or_enrichment</strong></td>
+                            <td>KLF5 was one of 14 genes significantly mutated in the Pan-Lung cohort but not in either individual tumor type. The mutation was observed in both ADCs and SqCCs.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>functional_or_clinical_validation</strong></td>
+                            <td>No direct functional assay in this paper; the paper references prior discovery of a KLF5 super-enhancer duplication in HNSC and notes non-overlap with FBXW7 mutations.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>initial_negative_call_basis</strong></td>
+                            <td>Not applicable as a cohort-level pan-lung discovery rather than an initial driver-negative rescue event.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>negative_call_failure_mode</strong></td>
+                            <td>noncoding_event_not_assayed</td>
+                        </tr>
+                        <tr>
+                            <td><strong>rescue_modality</strong></td>
+                            <td>integrated_multiomic</td>
+                        </tr>
+                        <tr>
+                            <td><strong>final_explanatory_status</strong></td>
+                            <td>rescued_noncanonical_driver</td>
+                        </tr>
+                        <tr>
+                            <td><strong>post_workup_unexplained_fraction</strong></td>
+                            <td><span class="empty-note">null</span></td>
+                        </tr>
+                        <tr>
+                            <td><strong>driver_mechanism_family</strong></td>
+                            <td>enhancer_hijacking</td>
+                        </tr>
+                        <tr>
+                            <td><strong>signaling_activation_mode</strong></td>
+                            <td>overexpression</td>
+                        </tr>
+                        <tr>
+                            <td><strong>oncogenic_unit_type</strong></td>
+                            <td>single_gene_lesion</td>
+                        </tr>
+                        <tr>
+                            <td><strong>mechanistic_directness</strong></td>
+                            <td>co_driver</td>
+                        </tr>
+                        <tr>
+                            <td><strong>histologic_subtype_normalized</strong></td>
+                            <td>mixed_pattern</td>
+                        </tr>
+                        <tr>
+                            <td><strong>lineage_marker_state</strong></td>
+                            <td><span class="empty-note">null</span></td>
+                        </tr>
+                        <tr>
+                            <td><strong>inferred_lineage_program</strong></td>
+                            <td>unknown</td>
+                        </tr>
+                        <tr>
+                            <td><strong>mucinous_program_evidence</strong></td>
+                            <td><span class="empty-note">null</span></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>Potentially Relevant New Papers (mentioned by this paper)</h2>
+            <ol>
+                <li>Comprehensive molecular profiling of lung adenocarcinoma <em>(Rating: 2)</em></li>
+                <li>Comprehensive genomic characterization of squamous cell lung cancers <em>(Rating: 2)</em></li>
+                <li>Mapping the hallmarks of lung adenocarcinoma with massively parallel sequencing <em>(Rating: 2)</em></li>
+                <li>The landscape of kinase fusions in cancer <em>(Rating: 2)</em></li>
+                <li>Systematic discovery of complex insertions and deletions in human cancers <em>(Rating: 2)</em></li>
+                <li>Identification of focally amplified lineage-specific super-enhancers in human epithelial cancers <em>(Rating: 2)</em></li>
+            </ol>
+        </div>
+
+        </div>
+
+    </div>
+</body>
+</html>

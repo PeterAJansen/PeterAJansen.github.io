@@ -1,0 +1,849 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Extraction extraction-result-1904 - Theorizer</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+    <div class="header">
+        <a href="../index.html"><i class="fas fa-flask"></i> Theorizer</a>
+    </div>
+
+    <div class="content">
+        <h1>Extracted Data Details for extraction-result-1904</h1>
+
+        <div class="section">
+            <h2>Extracted Data (Header)</h2>
+            <div class="info-section">
+                <p><strong>Extraction ID:</strong> extraction-result-1904</p>
+                <p><strong>Extraction Schema Used (ID):</strong> <a href="../schemas/extraction-schema-1841.html">extraction-schema-1841</a></p>
+                <div class="extraction-query"><strong>Extraction Query:</strong> Extract any mentions of driver-negative or oncogene-negative lung adenocarcinoma cases, cohorts, models, or subgroups; the evidence for why they are considered driver-negative; candidate alternative drivers or mechanisms; proposed subtypes; validation strategies; comparisons to other cancers; and therapeutic implications.</div>
+                <p><strong>Paper ID:</strong> paper-c1567aa9bd0a6fd536255155509c52a85603f799</p>
+                <p><strong>Paper Title:</strong> <a href="https://www.semanticscholar.org/paper/c1567aa9bd0a6fd536255155509c52a85603f799" target="_blank">Ferroptosis-related gene signature for predicting prognosis and identifying potential therapeutic drug in EGFR wild-type lung adenocarcinoma</a></p>
+                <p><strong>Paper Venue:</strong> Communications Biology</p>
+                <p><strong>Paper TL;DR:</strong> A novel FeSig for predicting prognosis and guiding drug application is developed and 6-Mercaptopurine is identified as a promising drug for patients with EGFR wild type lung adenocarcinoma.</p>
+                <p><strong>Paper Abstract:</strong> Epidermal growth factor receptor wild type lung adenocarcinoma (EGFRWT LUAD) still has limited treatment options and unsatisfactory clinical outcomes. Ferroptosis, as a form of cell death, has been reported to play a dual role in regulating tumor cell survival. In this study, we constructed a 3-ferroptosis-gene signature, FeSig, and verified its accuracy and efficacy in predicting EGFRWT LUAD prognosis at both the RNA and protein levels. Patients with higher FeSig scores were found to have worse clinical outcomes. Additionally, we explored the relationship between FeSig and tumor microenvironment, revealing that enhanced interactions between fibroblasts and tumor cells in FeSighigh patients causing tumor resistance to ferroptosis. To address this challenge, we screened potential drugs from NCI-60 (The US National Cancer Institute 60 human tumour cell line anticancer drug screen) and Connectivity map database, ultimately identifying 6-mercatopurine (6-MP) as a promising candidate. Both in vitro and in vivo experiments demonstrated its efficacy in treating FeSighigh EGFRWT LUAD tumor models. In summary, we develop a novel FeSig for predicting prognosis and guiding drug application. A ferroptosis signature predicts clinical prognosis and identifies 6-Mercaptopurine as a promising drug for patients with EGFR wild type lung adenocarcinoma.</p>
+                <p><strong>Cost:</strong> 0.044</p>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>Extracted Data (Details)</h2>
+            <div class="extraction-instance-container" id="e1904.0">
+                <h3 class="extraction-instance">Extracted Data Instance 0 (e1904.0)</h3>
+                <div class="extraction-query"><strong>Extraction Query:</strong> Extract any mentions of driver-negative or oncogene-negative lung adenocarcinoma cases, cohorts, models, or subgroups; the evidence for why they are considered driver-negative; candidate alternative drivers or mechanisms; proposed subtypes; validation strategies; comparisons to other cancers; and therapeutic implications.</div>
+                <table>
+                    <thead>
+                        <tr>
+                            <th style="width: 30%;">Field</th>
+                            <th style="width: 70%;">Value</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><strong>name_short</strong></td>
+                            <td>EGFRWT LUAD</td>
+                        </tr>
+                        <tr>
+                            <td><strong>name_full</strong></td>
+                            <td>Epidermal growth factor receptor wild-type lung adenocarcinoma</td>
+                        </tr>
+                        <tr>
+                            <td><strong>brief_description</strong></td>
+                            <td>The paper focuses on lung adenocarcinoma cases lacking EGFR mutations, described as having limited treatment options and poor outcomes. It builds and validates a ferroptosis-related prognostic signature in this EGFR wild-type subgroup and explores its tumor microenvironment and drug sensitivity.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>citation_title</strong></td>
+                            <td>Ferroptosis-related gene signature for predicting prognosis and identifying potential therapeutic drug in EGFR wild-type lung adenocarcinoma</td>
+                        </tr>
+                        <tr>
+                            <td><strong>mention_or_use</strong></td>
+                            <td>use</td>
+                        </tr>
+                        <tr>
+                            <td><strong>cohort_or_model</strong></td>
+                            <td>TCGA EGFRWT LUAD cohort; three validation cohorts (GSE31210, oncoSG, GSE11969); tissue microarray cohort of 61 EGFRWT LUAD patients; single-cell LUAD cohort GSE131907; cell lines A549, H441, H1299, H3122; xenograft mouse models with A549 and H3122</td>
+                        </tr>
+                        <tr>
+                            <td><strong>cancer_context</strong></td>
+                            <td>Lung adenocarcinoma, specifically EGFR wild-type disease with prognostic and therapeutic stratification</td>
+                        </tr>
+                        <tr>
+                            <td><strong>driver_negative_definition</strong></td>
+                            <td>EGFR mutation-negative; the Methods state that EGFRMUT patients were excluded from subsequent analysis. The paper does not report additional canonical driver exclusion beyond EGFR status in the analyzed cohorts, although reference GSE31210 is titled as EGFR/KRAS/ALK-negative lung adenocarcinoma.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>driver_negative_frequency</strong></td>
+                            <td>TCGA analysis included 286 EGFRWT LUAD patients split into FeSighigh (n=143) and FeSiglow (n=143). The tissue microarray validation cohort contained 61 EGFRWT LUAD patients after excluding EGFRMUT cases. No overall prevalence of EGFRWT status in the source cohorts is reported.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>profiling_modalities</strong></td>
+                            <td>TCGA RNA-seq and clinical data; GEO/cBioPortal cohort transcriptomic data; univariate and multivariate Cox regression; ssGSEA/GSVA signature scoring; tissue microarray immunofluorescence/multiple immunofluorescence and IHC; Western blot; CCK-8 viability; colony formation; wound healing; ferroptosis flow cytometry with RSL3 and BODIPY C11; single-cell RNA-seq with UMAP, CellChat, NicheNet, pseudobulk GSVA; NCI-60 drug-response correlation; Connectivity Map screening; in vivo xenograft drug testing</td>
+                        </tr>
+                        <tr>
+                            <td><strong>candidate_mechanism_category</strong></td>
+                            <td>Alternative pathway activation; tumor microenvironment-mediated resistance; metabolic/ferroptosis-regulatory program</td>
+                        </tr>
+                        <tr>
+                            <td><strong>candidate_driver_or_mechanism</strong></td>
+                            <td>Ferroptosis resistance program centered on DDIT4, NOX4, and GCLC, with fibroblast-rich tumor microenvironment and IGF-related fibroblast-cancer cell communication</td>
+                        </tr>
+                        <tr>
+                            <td><strong>mechanistic_description</strong></td>
+                            <td>Rather than a canonical oncogenic driver, the paper proposes that high FeSig states are characterized by overexpression of the ferroptosis-inhibitory genes DDIT4, NOX4, and GCLC, coupled with enhanced fibroblast infiltration and fibroblast-epithelial communication. This fibroblast-enriched microenvironment and IGF-binding-related signaling are proposed to help tumor cells resist ferroptosis and associate with worse prognosis.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>evidence_type</strong></td>
+                            <td>Survival association; functional perturbation; single-cell state association; cell-cell communication analysis; drug sensitivity; in vivo validation</td>
+                        </tr>
+                        <tr>
+                            <td><strong>key_evidence</strong></td>
+                            <td>11 prognostic ferroptosis genes were identified, and 3 risk genes (DDIT4, NOX4, GCLC) were used to build FeSig. FeSighigh patients had shorter OS in TCGA (p=0.0048; AUC 0.71/0.63/0.62 for 1/3/5-year OS) and in three validation cohorts. Knockdown of each gene in LUAD cell lines reduced viability, colony formation, and migration, and increased RSL3-induced ferroptosis. FeSighigh tumors showed more fibroblasts by bulk and single-cell analyses, stronger fibroblast-cancer interaction, and a negative correlation between an L-R-T communication score and ferroptosis score in TCGA and three validation cohorts. 6-MP preferentially suppressed FeSighigh A549 cells and tumors and reduced α-SMA-positive fibroblast infiltration in vivo.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>negative_or_counter_evidence</strong></td>
+                            <td>The study does not establish a canonical oncogene-negative driver landscape beyond EGFR wild-type status. The fibroblast-targeting mechanism is correlative and not causally dissected; the L-R-T signature was not significant in GSE11969. The authors note that 6-MP had only partial tumor elimination capacity in vitro and that the mechanism by which 6-MP affects ferroptosis and fibroblasts remains unclear.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>subtype_name</strong></td>
+                            <td>FeSighigh / FeSiglow</td>
+                        </tr>
+                        <tr>
+                            <td><strong>subtype_features</strong></td>
+                            <td>FeSighigh tumors are defined by higher three-gene ferroptosis-inhibitor signature scores, worse survival, higher DDIT4/NOX4/GCLC expression, progression with higher stage, abundant fibroblast infiltration, nest-like CAF barrier-like TME, stronger fibroblast-tumor communication, and higher IGF-binding scores. FeSiglow tumors have lower signature scores and less fibroblast-rich TME.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>parallel_in_other_cancers</strong></td>
+                            <td>The discussion compares ferroptosis regulation and noncanonical resistance programs across multiple cancers, including hepatocellular carcinoma, renal cell carcinoma, esophageal squamous cell carcinoma, gastric cancer, colorectal cancer, triple-negative breast cancer, and non-small-cell lung cancer, but does not identify a specific analogous driver-negative LUAD entity in another cancer.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>validation_approach</strong></td>
+                            <td>Validation was performed using independent transcriptomic cohorts, tissue microarray protein-level immunofluorescence/IHC, gene knockdown in multiple LUAD cell lines, RSL3 ferroptosis assays, single-cell RNA-seq reanalysis, CellChat/NicheNet ligand-receptor inference, NCI-60 and Connectivity Map drug screening, and xenograft testing in mice.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>validation_result</strong></td>
+                            <td>FeSig remained prognostic in GSE31210, oncoSG, and GSE11969. DDIT4 and GCLC protein levels were higher in FeSighigh tissue-array samples. Knockdown of DDIT4/NOX4/GCLC reduced growth/migration and increased ferroptosis sensitivity. 6-MP inhibited colony formation in a dose-dependent manner and was more effective in FeSighigh A549 than FeSiglow H3122 in vitro and in vivo; it also reduced α-SMA-defined fibroblast infiltration in A549 xenografts.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>therapeutic_implication</strong></td>
+                            <td>EGFRWT LUAD patients with FeSighigh tumors may benefit from ferroptosis-oriented or fibroblast/TME-targeting strategies, and 6-mercaptopurine is proposed as a candidate drug for this subgroup. The paper also suggests potential benefit from CAF-targeting therapies.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>therapeutic_evidence</strong></td>
+                            <td>6-MP was identified by intersecting NCI-60 sensitivity correlations with Connectivity Map screening. It decreased colony formation in LUAD cells, was more effective against FeSighigh A549 than FeSiglow H3122 cells, suppressed A549 xenograft growth more strongly than H3122, and reduced fibroblast infiltration/α-SMA area in A549 tumors.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>clinical_or_demographic_association</strong></td>
+                            <td>Higher FeSig score was associated with worse overall survival and increased tumor stage. The paper does not report smoking status, sex, age, or ethnicity associations for the FeSig subgroups.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>study_limitations</strong></td>
+                            <td>Driver-negative status is limited to EGFR wild-type exclusion in the analyzed cohorts, with no comprehensive assessment of other canonical LUAD drivers reported. Mechanistic links between fibroblasts, IGF signaling, ferroptosis resistance, and 6-MP are largely inferential and require further experimental validation. The 6-MP effect was partial in vitro and limited in FeSiglow in vivo tumors, and one validation cohort did not support the L-R-T/ferroptosis correlation.</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="extraction-instance-container" id="e1904.1">
+                <h3 class="extraction-instance">Extracted Data Instance 1 (e1904.1)</h3>
+                <div class="extraction-query"><strong>Extraction Query:</strong> Extract any mentions of driver-negative or oncogene-negative lung adenocarcinoma cases, cohorts, models, or subgroups; the evidence for why they are considered driver-negative; candidate alternative drivers or mechanisms; proposed subtypes; validation strategies; comparisons to other cancers; and therapeutic implications.</div>
+                <table>
+                    <thead>
+                        <tr>
+                            <th style="width: 30%;">Field</th>
+                            <th style="width: 70%;">Value</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><strong>name_short</strong></td>
+                            <td>DDIT4</td>
+                        </tr>
+                        <tr>
+                            <td><strong>name_full</strong></td>
+                            <td>DNA Damage Inducible Transcript 4</td>
+                        </tr>
+                        <tr>
+                            <td><strong>brief_description</strong></td>
+                            <td>DDIT4 is one of the three genes in the FeSig prognostic signature and is treated as a risk gene in EGFR wild-type LUAD. The paper reports that it is upregulated in tumors, associated with poorer outcomes, inhibits ferroptosis, and supports cell growth and migration.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>citation_title</strong></td>
+                            <td>Ferroptosis-related gene signature for predicting prognosis and identifying potential therapeutic drug in EGFR wild-type lung adenocarcinoma</td>
+                        </tr>
+                        <tr>
+                            <td><strong>mention_or_use</strong></td>
+                            <td>use</td>
+                        </tr>
+                        <tr>
+                            <td><strong>cohort_or_model</strong></td>
+                            <td>TCGA EGFRWT LUAD; LUAD cell lines A549 and H1299; tissue microarray EGFRWT LUAD cohort</td>
+                        </tr>
+                        <tr>
+                            <td><strong>cancer_context</strong></td>
+                            <td>EGFR wild-type lung adenocarcinoma</td>
+                        </tr>
+                        <tr>
+                            <td><strong>driver_negative_definition</strong></td>
+                            <td>Not applicable as a driver-negative definition; DDIT4 is studied within EGFR wild-type LUAD after exclusion of EGFR-mutant cases.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>driver_negative_frequency</strong></td>
+                            <td>Not reported specifically for DDIT4.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>profiling_modalities</strong></td>
+                            <td>Transcriptomic analysis, Cox regression, knockdown experiments, Western blot, viability/colony/migration assays, ferroptosis flow cytometry, tissue immunofluorescence</td>
+                        </tr>
+                        <tr>
+                            <td><strong>candidate_mechanism_category</strong></td>
+                            <td>Ferroptosis inhibition / alternative survival pathway activation</td>
+                        </tr>
+                        <tr>
+                            <td><strong>candidate_driver_or_mechanism</strong></td>
+                            <td>DDIT4 overexpression</td>
+                        </tr>
+                        <tr>
+                            <td><strong>mechanistic_description</strong></td>
+                            <td>DDIT4 is proposed to inhibit ferroptosis and thereby support tumor cell survival and progression; the paper states that higher expression predicts poorer clinical outcomes and that knockdown sensitizes cells to the ferroptosis inducer RSL3.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>evidence_type</strong></td>
+                            <td>Survival association; differential expression; functional perturbation</td>
+                        </tr>
+                        <tr>
+                            <td><strong>key_evidence</strong></td>
+                            <td>DDIT4 was one of the 6 risk genes selected by multivariate Cox analysis and was significantly upregulated in tumor tissue. Knockdown in A549 cells reduced viability, colony formation, and migration, and silencing FeSig genes increased the fraction of ferroptotic cells after RSL3 treatment.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>negative_or_counter_evidence</strong></td>
+                            <td>The paper does not provide a detailed DDIT4-specific mechanistic pathway in EGFRWT LUAD.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>subtype_name</strong></td>
+                            <td><span class="empty-note">null</span></td>
+                        </tr>
+                        <tr>
+                            <td><strong>subtype_features</strong></td>
+                            <td><span class="empty-note">null</span></td>
+                        </tr>
+                        <tr>
+                            <td><strong>parallel_in_other_cancers</strong></td>
+                            <td>Mentioned as overexpressed or prognostic in head and neck squamous carcinoma, triple-negative breast cancer, and colorectal cancer; also noted in LUAD literature.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>validation_approach</strong></td>
+                            <td>Knockdown in LUAD cells and protein-level validation in tissue microarrays</td>
+                        </tr>
+                        <tr>
+                            <td><strong>validation_result</strong></td>
+                            <td>DDIT4 protein was higher in FeSighigh tissue-array samples, and DDIT4 knockdown impaired proliferation/migration and increased ferroptosis sensitivity in cell assays.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>therapeutic_implication</strong></td>
+                            <td>DDIT4 may be a biomarker of ferroptosis resistance and poor prognosis in EGFRWT LUAD and could represent a target for sensitizing tumors to ferroptosis-inducing therapy.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>therapeutic_evidence</strong></td>
+                            <td>Silencing DDIT4 increased sensitivity to RSL3-induced ferroptosis and reduced tumor-cell phenotypes in vitro.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>clinical_or_demographic_association</strong></td>
+                            <td>Associated with higher FeSig score, worse overall survival, and higher tumor stage within the EGFRWT LUAD cohort.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>study_limitations</strong></td>
+                            <td>The paper does not dissect whether DDIT4 is a direct regulator of ferroptosis or part of a broader stress-response program.</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="extraction-instance-container" id="e1904.2">
+                <h3 class="extraction-instance">Extracted Data Instance 2 (e1904.2)</h3>
+                <div class="extraction-query"><strong>Extraction Query:</strong> Extract any mentions of driver-negative or oncogene-negative lung adenocarcinoma cases, cohorts, models, or subgroups; the evidence for why they are considered driver-negative; candidate alternative drivers or mechanisms; proposed subtypes; validation strategies; comparisons to other cancers; and therapeutic implications.</div>
+                <table>
+                    <thead>
+                        <tr>
+                            <th style="width: 30%;">Field</th>
+                            <th style="width: 70%;">Value</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><strong>name_short</strong></td>
+                            <td>NOX4</td>
+                        </tr>
+                        <tr>
+                            <td><strong>name_full</strong></td>
+                            <td>NADPH Oxidase 4</td>
+                        </tr>
+                        <tr>
+                            <td><strong>brief_description</strong></td>
+                            <td>NOX4 is one of the three FeSig genes and is treated as a ferroptosis-inhibitory risk gene in EGFR wild-type LUAD. The paper links it to poor prognosis, tumor growth, and fibroblast/TME effects.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>citation_title</strong></td>
+                            <td>Ferroptosis-related gene signature for predicting prognosis and identifying potential therapeutic drug in EGFR wild-type lung adenocarcinoma</td>
+                        </tr>
+                        <tr>
+                            <td><strong>mention_or_use</strong></td>
+                            <td>use</td>
+                        </tr>
+                        <tr>
+                            <td><strong>cohort_or_model</strong></td>
+                            <td>TCGA EGFRWT LUAD; LUAD cell lines H441; single-cell TME analysis; tissue microarray cohort</td>
+                        </tr>
+                        <tr>
+                            <td><strong>cancer_context</strong></td>
+                            <td>EGFR wild-type lung adenocarcinoma</td>
+                        </tr>
+                        <tr>
+                            <td><strong>driver_negative_definition</strong></td>
+                            <td>Not applicable as a driver-negative definition; analyzed within EGFR wild-type LUAD.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>driver_negative_frequency</strong></td>
+                            <td>Not reported specifically for NOX4.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>profiling_modalities</strong></td>
+                            <td>Transcriptomics, Cox regression, knockdown experiments, single-cell communication analysis, tissue staining</td>
+                        </tr>
+                        <tr>
+                            <td><strong>candidate_mechanism_category</strong></td>
+                            <td>Alternative pathway activation / ferroptosis inhibition / microenvironmental remodeling</td>
+                        </tr>
+                        <tr>
+                            <td><strong>candidate_driver_or_mechanism</strong></td>
+                            <td>NOX4 overexpression</td>
+                        </tr>
+                        <tr>
+                            <td><strong>mechanistic_description</strong></td>
+                            <td>NOX4 is proposed to act as a ferroptosis inhibitor and TME modulator. The discussion cites prior NSCLC studies linking NOX4 to drug resistance and CAF-mediated immune exclusion, and the current study finds higher NOX4 in the prognostic signature with stronger fibroblast-rich TME in high-risk tumors.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>evidence_type</strong></td>
+                            <td>Survival association; functional perturbation; literature-based cross-cancer analogy</td>
+                        </tr>
+                        <tr>
+                            <td><strong>key_evidence</strong></td>
+                            <td>NOX4 was selected as a risk gene in multivariate Cox analysis and was upregulated in tumor tissue. Knockdown in H441 cells reduced viability, colony formation, and migration, and FeSig-gene silencing increased ferroptosis after RSL3.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>negative_or_counter_evidence</strong></td>
+                            <td>The paper does not perform a direct NOX4-specific rescue or pathway dissection in EGFRWT LUAD.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>subtype_name</strong></td>
+                            <td><span class="empty-note">null</span></td>
+                        </tr>
+                        <tr>
+                            <td><strong>subtype_features</strong></td>
+                            <td><span class="empty-note">null</span></td>
+                        </tr>
+                        <tr>
+                            <td><strong>parallel_in_other_cancers</strong></td>
+                            <td>Discussed in NSCLC resistance to EGFR-TKIs, cisplatin resistance, macrophage polarization, and CAF-mediated CD8 T-cell exclusion; also mentioned in broader cancer biology.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>validation_approach</strong></td>
+                            <td>Knockdown in LUAD cells and single-cell TME correlation analyses</td>
+                        </tr>
+                        <tr>
+                            <td><strong>validation_result</strong></td>
+                            <td>NOX4 knockdown reduced malignant phenotypes in H441 cells and increased ferroptosis sensitivity; FeSighigh tumors showed more fibroblasts and stronger fibroblast-cancer communication.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>therapeutic_implication</strong></td>
+                            <td>NOX4 could be part of a ferroptosis-sensitization strategy and may be relevant to CAF-targeting or immunotherapy-adjacent approaches.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>therapeutic_evidence</strong></td>
+                            <td>Indirect evidence comes from this study's association of high FeSig with fibroblast-rich TME and from cited literature on NOX4 inhibition improving immunotherapy and reducing NSCLC progression.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>clinical_or_demographic_association</strong></td>
+                            <td>Associated with worse prognosis through inclusion in the FeSig high-risk signature.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>study_limitations</strong></td>
+                            <td>Causal linkage between NOX4 and fibroblast-mediated ferroptosis resistance is not directly demonstrated in this paper.</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="extraction-instance-container" id="e1904.3">
+                <h3 class="extraction-instance">Extracted Data Instance 3 (e1904.3)</h3>
+                <div class="extraction-query"><strong>Extraction Query:</strong> Extract any mentions of driver-negative or oncogene-negative lung adenocarcinoma cases, cohorts, models, or subgroups; the evidence for why they are considered driver-negative; candidate alternative drivers or mechanisms; proposed subtypes; validation strategies; comparisons to other cancers; and therapeutic implications.</div>
+                <table>
+                    <thead>
+                        <tr>
+                            <th style="width: 30%;">Field</th>
+                            <th style="width: 70%;">Value</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><strong>name_short</strong></td>
+                            <td>GCLC</td>
+                        </tr>
+                        <tr>
+                            <td><strong>name_full</strong></td>
+                            <td>Glutamate-Cysteine Ligase Catalytic Subunit</td>
+                        </tr>
+                        <tr>
+                            <td><strong>brief_description</strong></td>
+                            <td>GCLC is the third FeSig gene and a risk-associated ferroptosis inhibitor in EGFR wild-type LUAD. It is upregulated in tumors, linked to poorer survival, and functionally shown to suppress ferroptosis and promote tumor cell phenotypes.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>citation_title</strong></td>
+                            <td>Ferroptosis-related gene signature for predicting prognosis and identifying potential therapeutic drug in EGFR wild-type lung adenocarcinoma</td>
+                        </tr>
+                        <tr>
+                            <td><strong>mention_or_use</strong></td>
+                            <td>use</td>
+                        </tr>
+                        <tr>
+                            <td><strong>cohort_or_model</strong></td>
+                            <td>TCGA EGFRWT LUAD; LUAD cell lines H1299; tissue microarray cohort</td>
+                        </tr>
+                        <tr>
+                            <td><strong>cancer_context</strong></td>
+                            <td>EGFR wild-type lung adenocarcinoma</td>
+                        </tr>
+                        <tr>
+                            <td><strong>driver_negative_definition</strong></td>
+                            <td>Not applicable as a driver-negative definition; analyzed in EGFR wild-type LUAD after EGFR-mutant exclusion.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>driver_negative_frequency</strong></td>
+                            <td>Not reported specifically for GCLC.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>profiling_modalities</strong></td>
+                            <td>Transcriptomic analysis, knockdown experiments, tissue immunofluorescence, ferroptosis assay</td>
+                        </tr>
+                        <tr>
+                            <td><strong>candidate_mechanism_category</strong></td>
+                            <td>Metabolic dependency / ferroptosis inhibition</td>
+                        </tr>
+                        <tr>
+                            <td><strong>candidate_driver_or_mechanism</strong></td>
+                            <td>GCLC overexpression</td>
+                        </tr>
+                        <tr>
+                            <td><strong>mechanistic_description</strong></td>
+                            <td>GCLC is proposed to suppress ferroptosis by supporting glutathione synthesis and, as discussed from prior work, by noncanonical γ-glutamyl-peptide synthesis; in this study its silencing increases ferroptosis sensitivity and reduces malignant phenotypes.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>evidence_type</strong></td>
+                            <td>Survival association; differential expression; functional perturbation</td>
+                        </tr>
+                        <tr>
+                            <td><strong>key_evidence</strong></td>
+                            <td>GCLC was among the 6 risk genes, was significantly upregulated in tumor tissue, and knockdown in H1299 cells reduced viability, colony formation, migration, and increased RSL3-induced ferroptosis.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>negative_or_counter_evidence</strong></td>
+                            <td>The paper does not experimentally dissect canonical versus noncanonical GCLC ferroptosis-suppressive biochemistry in EGFRWT LUAD.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>subtype_name</strong></td>
+                            <td><span class="empty-note">null</span></td>
+                        </tr>
+                        <tr>
+                            <td><strong>subtype_features</strong></td>
+                            <td><span class="empty-note">null</span></td>
+                        </tr>
+                        <tr>
+                            <td><strong>parallel_in_other_cancers</strong></td>
+                            <td>Discussed as an anti-ferroptosis factor in gastric cancer, NSCLC, and hepatocellular carcinoma; cited work supports both glutathione-dependent and GSH-independent ferroptosis suppression.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>validation_approach</strong></td>
+                            <td>Knockdown in LUAD cells, tissue immunofluorescence, RSL3 ferroptosis assay</td>
+                        </tr>
+                        <tr>
+                            <td><strong>validation_result</strong></td>
+                            <td>GCLC was higher in FeSighigh tissue-array samples, and GCLC knockdown increased ferroptosis sensitivity and reduced growth/migration in vitro.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>therapeutic_implication</strong></td>
+                            <td>GCLC may represent a ferroptosis-sensitization target in EGFRWT LUAD, potentially useful for overcoming resistance to ferroptosis-inducing therapy.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>therapeutic_evidence</strong></td>
+                            <td>Functional knockdown increased sensitivity to RSL3-induced ferroptosis; cited literature supports GCLC as a targetable anti-ferroptosis mechanism in NSCLC and other cancers.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>clinical_or_demographic_association</strong></td>
+                            <td>Associated with higher FeSig score, poorer survival, and higher tumor stage.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>study_limitations</strong></td>
+                            <td>The exact downstream metabolic mechanism of GCLC in the present cohort is not directly resolved.</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="extraction-instance-container" id="e1904.4">
+                <h3 class="extraction-instance">Extracted Data Instance 4 (e1904.4)</h3>
+                <div class="extraction-query"><strong>Extraction Query:</strong> Extract any mentions of driver-negative or oncogene-negative lung adenocarcinoma cases, cohorts, models, or subgroups; the evidence for why they are considered driver-negative; candidate alternative drivers or mechanisms; proposed subtypes; validation strategies; comparisons to other cancers; and therapeutic implications.</div>
+                <table>
+                    <thead>
+                        <tr>
+                            <th style="width: 30%;">Field</th>
+                            <th style="width: 70%;">Value</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><strong>name_short</strong></td>
+                            <td>Fibroblast-rich TME</td>
+                        </tr>
+                        <tr>
+                            <td><strong>name_full</strong></td>
+                            <td>Fibroblast-enriched tumor microenvironment</td>
+                        </tr>
+                        <tr>
+                            <td><strong>brief_description</strong></td>
+                            <td>The paper identifies a fibroblast-enriched tumor microenvironment as a distinguishing feature of FeSighigh EGFR wild-type LUAD. This microenvironment is proposed to promote ferroptosis resistance through stronger fibroblast-tumor cell interactions.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>citation_title</strong></td>
+                            <td>Ferroptosis-related gene signature for predicting prognosis and identifying potential therapeutic drug in EGFR wild-type lung adenocarcinoma</td>
+                        </tr>
+                        <tr>
+                            <td><strong>mention_or_use</strong></td>
+                            <td>use</td>
+                        </tr>
+                        <tr>
+                            <td><strong>cohort_or_model</strong></td>
+                            <td>TCGA EGFRWT LUAD; GSE131907 single-cell LUAD cohort; tissue microarray samples; A549 and H3122 xenografts</td>
+                        </tr>
+                        <tr>
+                            <td><strong>cancer_context</strong></td>
+                            <td>EGFR wild-type lung adenocarcinoma tumor microenvironment</td>
+                        </tr>
+                        <tr>
+                            <td><strong>driver_negative_definition</strong></td>
+                            <td>Not a driver-negative definition; a subgroup feature of EGFR wild-type LUAD.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>driver_negative_frequency</strong></td>
+                            <td>Not reported as a prevalence of a distinct fibroblast-rich subtype.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>profiling_modalities</strong></td>
+                            <td>Bulk RNA-seq TME scoring, HE histology, immunofluorescence for α-SMA, single-cell RNA-seq, CellChat, NicheNet, IHC</td>
+                        </tr>
+                        <tr>
+                            <td><strong>candidate_mechanism_category</strong></td>
+                            <td>Tumor microenvironment-mediated resistance</td>
+                        </tr>
+                        <tr>
+                            <td><strong>candidate_driver_or_mechanism</strong></td>
+                            <td>Cancer-associated fibroblast infiltration and CAF-barrier phenotype</td>
+                        </tr>
+                        <tr>
+                            <td><strong>mechanistic_description</strong></td>
+                            <td>FeSighigh tumors show abundant fibroblasts, higher fibroblast marker expression, a CAF-barrier surrounding tumor nests, and enhanced fibroblast-cancer cell communication. The paper proposes that this supports resistance to ferroptosis and may impair immune infiltration.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>evidence_type</strong></td>
+                            <td>Bulk and single-cell state association; histology; cell-cell communication inference; in vivo response to therapy</td>
+                        </tr>
+                        <tr>
+                            <td><strong>key_evidence</strong></td>
+                            <td>Across four datasets, fibroblasts correlated positively with FeSig; fibroblast marker genes COL1A1, COL1A2, and LUM increased with FeSig. HE and α-SMA staining confirmed more fibroblasts in FeSighigh tissues. In single-cell data, fibroblasts comprised 2.85% of FeSighigh versus 0.53% of FeSiglow cells, and CellChat showed stronger fibroblast-epithelial interactions in FeSighigh tumors.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>negative_or_counter_evidence</strong></td>
+                            <td>The evidence is associative and does not prove fibroblasts are the sole cause of the ferroptosis phenotype; α-SMA is not perfectly specific for fibroblasts.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>subtype_name</strong></td>
+                            <td>FeSighigh fibroblast-enriched subtype</td>
+                        </tr>
+                        <tr>
+                            <td><strong>subtype_features</strong></td>
+                            <td>CAF-rich, nest-like/border-like structure, elevated α-SMA, increased fibroblast signatures, stronger fibroblast-epithelial communication, higher IGF-binding pathway scores, worse prognosis</td>
+                        </tr>
+                        <tr>
+                            <td><strong>parallel_in_other_cancers</strong></td>
+                            <td>The discussion compares CAF-barrier-like immune exclusion to fibroblast-associated immune barriers in hepatocellular carcinoma and mentions CAF roles in gastric, colorectal, and glioblastoma contexts.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>validation_approach</strong></td>
+                            <td>Histology, immunofluorescence, single-cell reanalysis, communication inference, and drug perturbation with 6-MP</td>
+                        </tr>
+                        <tr>
+                            <td><strong>validation_result</strong></td>
+                            <td>Fibroblast enrichment was observed consistently in bulk and single-cell analyses, and 6-MP reduced α-SMA-positive fibroblast infiltration in A549 xenografts.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>therapeutic_implication</strong></td>
+                            <td>Patients with this subtype might benefit from CAF-targeting therapies or treatments that remodel the TME; 6-MP is proposed to have such effects in FeSighigh tumors.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>therapeutic_evidence</strong></td>
+                            <td>6-MP reduced fibroblast infiltration in sensitive A549 xenografts and suppressed tumor growth more effectively in FeSighigh than FeSiglow models.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>clinical_or_demographic_association</strong></td>
+                            <td>Associated with higher FeSig score, more advanced stage, and worse overall survival.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>study_limitations</strong></td>
+                            <td>The subtype is inferred rather than prospectively defined; α-SMA may reflect non-fibroblast cells under some conditions, and the mechanism is not fully validated experimentally.</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="extraction-instance-container" id="e1904.5">
+                <h3 class="extraction-instance">Extracted Data Instance 5 (e1904.5)</h3>
+                <div class="extraction-query"><strong>Extraction Query:</strong> Extract any mentions of driver-negative or oncogene-negative lung adenocarcinoma cases, cohorts, models, or subgroups; the evidence for why they are considered driver-negative; candidate alternative drivers or mechanisms; proposed subtypes; validation strategies; comparisons to other cancers; and therapeutic implications.</div>
+                <table>
+                    <thead>
+                        <tr>
+                            <th style="width: 30%;">Field</th>
+                            <th style="width: 70%;">Value</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><strong>name_short</strong></td>
+                            <td>IGF pathway</td>
+                        </tr>
+                        <tr>
+                            <td><strong>name_full</strong></td>
+                            <td>Insulin-like growth factor binding-related signaling pathway</td>
+                        </tr>
+                        <tr>
+                            <td><strong>brief_description</strong></td>
+                            <td>The paper identifies IGF binding-related pathways as a candidate intercellular communication program linked to the FeSighigh state. It is proposed as a mechanism by which fibroblasts may promote ferroptosis resistance in tumor epithelial cells.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>citation_title</strong></td>
+                            <td>Ferroptosis-related gene signature for predicting prognosis and identifying potential therapeutic drug in EGFR wild-type lung adenocarcinoma</td>
+                        </tr>
+                        <tr>
+                            <td><strong>mention_or_use</strong></td>
+                            <td>use</td>
+                        </tr>
+                        <tr>
+                            <td><strong>cohort_or_model</strong></td>
+                            <td>GSE131907 single-cell LUAD cohort; TCGA EGFRWT LUAD and three validation cohorts</td>
+                        </tr>
+                        <tr>
+                            <td><strong>cancer_context</strong></td>
+                            <td>EGFR wild-type lung adenocarcinoma</td>
+                        </tr>
+                        <tr>
+                            <td><strong>driver_negative_definition</strong></td>
+                            <td>Not applicable; pathway inferred within EGFRWT LUAD.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>driver_negative_frequency</strong></td>
+                            <td>Not reported.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>profiling_modalities</strong></td>
+                            <td>NicheNet ligand-target analysis, CellChat pathway analysis, GSVA correlation</td>
+                        </tr>
+                        <tr>
+                            <td><strong>candidate_mechanism_category</strong></td>
+                            <td>Autocrine/paracrine ligand signaling</td>
+                        </tr>
+                        <tr>
+                            <td><strong>candidate_driver_or_mechanism</strong></td>
+                            <td>IGF binding-related pathway / IGF signaling</td>
+                        </tr>
+                        <tr>
+                            <td><strong>mechanistic_description</strong></td>
+                            <td>Ligand-target analysis of fibroblast-cancer cell interactions suggested target genes enriched in IGF binding-related pathways, and CellChat also identified the IGF pathway in FeSighigh tumors. The authors propose that this signaling may contribute to resistance to ferroptosis.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>evidence_type</strong></td>
+                            <td>Pathway enrichment; cell-cell communication inference; correlation analysis</td>
+                        </tr>
+                        <tr>
+                            <td><strong>key_evidence</strong></td>
+                            <td>The predicted target genes of fibroblast-derived ligands were enriched for IGF binding-related GO terms. Higher FeSig scores were associated with higher IGF binding scores in four datasets. The L-R-T communication score derived from NicheNet was negatively correlated with ferroptosis score in TCGA (Rs=-0.293), GSE31210 (Rs=-0.405), and oncoSG (Rs=-0.296), but not GSE11969 (Rs=-0.033, p=0.803).</td>
+                        </tr>
+                        <tr>
+                            <td><strong>negative_or_counter_evidence</strong></td>
+                            <td>The pathway is inferred computationally; the authors explicitly state that the mechanism needs further investigation. The association failed in GSE11969.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>subtype_name</strong></td>
+                            <td><span class="empty-note">null</span></td>
+                        </tr>
+                        <tr>
+                            <td><strong>subtype_features</strong></td>
+                            <td><span class="empty-note">null</span></td>
+                        </tr>
+                        <tr>
+                            <td><strong>parallel_in_other_cancers</strong></td>
+                            <td>No direct cross-cancer IGF-ferroptosis example is established in the paper, though IGF-like signaling is generally discussed as a candidate intercellular mechanism.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>validation_approach</strong></td>
+                            <td>Computational ligand-target and pathway analyses, followed by correlation with ferroptosis scores across independent cohorts</td>
+                        </tr>
+                        <tr>
+                            <td><strong>validation_result</strong></td>
+                            <td>Computational analyses supported IGF-related signaling as a candidate mechanism, but one cohort did not validate the negative correlation with ferroptosis.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>therapeutic_implication</strong></td>
+                            <td>IGF or related pathways may be therapeutic targets for EGFRWT LUAD, especially in FeSighigh tumors.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>therapeutic_evidence</strong></td>
+                            <td>Only inferential evidence is provided; no direct inhibition experiment was performed.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>clinical_or_demographic_association</strong></td>
+                            <td>Associated with FeSighigh status and worse prognosis indirectly via the communication signature.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>study_limitations</strong></td>
+                            <td>The mechanism is speculative and not experimentally validated; cohort inconsistency exists.</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="extraction-instance-container" id="e1904.6">
+                <h3 class="extraction-instance">Extracted Data Instance 6 (e1904.6)</h3>
+                <div class="extraction-query"><strong>Extraction Query:</strong> Extract any mentions of driver-negative or oncogene-negative lung adenocarcinoma cases, cohorts, models, or subgroups; the evidence for why they are considered driver-negative; candidate alternative drivers or mechanisms; proposed subtypes; validation strategies; comparisons to other cancers; and therapeutic implications.</div>
+                <table>
+                    <thead>
+                        <tr>
+                            <th style="width: 30%;">Field</th>
+                            <th style="width: 70%;">Value</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><strong>name_short</strong></td>
+                            <td>6-MP</td>
+                        </tr>
+                        <tr>
+                            <td><strong>name_full</strong></td>
+                            <td>6-Mercaptopurine</td>
+                        </tr>
+                        <tr>
+                            <td><strong>brief_description</strong></td>
+                            <td>6-Mercaptopurine is identified by drug-screening as a candidate compound for FeSighigh EGFR wild-type LUAD. The paper validates its anti-tumor activity in cell culture and mouse xenografts, with stronger effects in the FeSighigh model.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>citation_title</strong></td>
+                            <td>Ferroptosis-related gene signature for predicting prognosis and identifying potential therapeutic drug in EGFR wild-type lung adenocarcinoma</td>
+                        </tr>
+                        <tr>
+                            <td><strong>mention_or_use</strong></td>
+                            <td>use</td>
+                        </tr>
+                        <tr>
+                            <td><strong>cohort_or_model</strong></td>
+                            <td>NCI-60 drug screen; Connectivity Map; GDSC LUAD cell lines; A549 (FeSighigh) and H3122 (FeSiglow); xenograft mice</td>
+                        </tr>
+                        <tr>
+                            <td><strong>cancer_context</strong></td>
+                            <td>EGFR wild-type lung adenocarcinoma</td>
+                        </tr>
+                        <tr>
+                            <td><strong>driver_negative_definition</strong></td>
+                            <td>Not a driver-negative definition; drug selected for the FeSighigh EGFRWT LUAD subgroup.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>driver_negative_frequency</strong></td>
+                            <td>Not applicable.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>profiling_modalities</strong></td>
+                            <td>NCI-60 drug response correlation, Connectivity Map screening, colony formation assay, xenograft therapy, IHC for α-SMA</td>
+                        </tr>
+                        <tr>
+                            <td><strong>candidate_mechanism_category</strong></td>
+                            <td>Therapeutic compound for subtype-targeted treatment</td>
+                        </tr>
+                        <tr>
+                            <td><strong>candidate_driver_or_mechanism</strong></td>
+                            <td>6-Mercaptopurine sensitivity in FeSighigh LUAD</td>
+                        </tr>
+                        <tr>
+                            <td><strong>mechanistic_description</strong></td>
+                            <td>6-MP, a purine antagonist, was identified by intersecting computational drug screens and then tested experimentally. It suppressed proliferation more effectively in FeSighigh cells and reduced tumor growth and fibroblast infiltration in vivo, suggesting preferential activity in this subtype.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>evidence_type</strong></td>
+                            <td>Drug sensitivity; preclinical validation</td>
+                        </tr>
+                        <tr>
+                            <td><strong>key_evidence</strong></td>
+                            <td>Intersecting NCI-60-sensitive compounds with Connectivity Map output yielded 6-MP. In vitro, 6-MP inhibited colony formation in a dose-dependent manner and was more effective in A549 (FeSighigh) than H3122 (FeSiglow). In vivo, 6-MP had limited effect on H3122 tumors but suppressed A549 tumors and reduced α-SMA-positive fibroblast infiltration in A549 xenografts.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>negative_or_counter_evidence</strong></td>
+                            <td>The authors note partial tumor elimination capacity in vitro and limited effect in FeSiglow in vivo tumors. The mechanism for 6-MP's effect on ferroptosis and fibroblasts is unclear.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>subtype_name</strong></td>
+                            <td><span class="empty-note">null</span></td>
+                        </tr>
+                        <tr>
+                            <td><strong>subtype_features</strong></td>
+                            <td><span class="empty-note">null</span></td>
+                        </tr>
+                        <tr>
+                            <td><strong>parallel_in_other_cancers</strong></td>
+                            <td>No explicit analogous driver-negative cancer example; 6-MP is discussed in the context of EGFRWT LUAD only.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>validation_approach</strong></td>
+                            <td>Computational screening plus in vitro colony formation and in vivo xenograft testing</td>
+                        </tr>
+                        <tr>
+                            <td><strong>validation_result</strong></td>
+                            <td>6-MP was effective, especially in FeSighigh models, and decreased fibroblast infiltration in sensitive tumors.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>therapeutic_implication</strong></td>
+                            <td>Potential treatment for FeSighigh EGFRWT LUAD, possibly alone or in combination with existing therapies or neoadjuvant chemotherapy.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>therapeutic_evidence</strong></td>
+                            <td>Demonstrated preferential efficacy in FeSighigh A549 cells and xenografts, with reduced α-SMA area in tumors after treatment.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>clinical_or_demographic_association</strong></td>
+                            <td>Higher FeSig score predicted greater 6-MP sensitivity in the tested models.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>study_limitations</strong></td>
+                            <td>Therapeutic mechanism is not defined, and translation to patients remains untested.</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>Potentially Relevant New Papers (mentioned by this paper)</h2>
+            <ol>
+                <li>Identification of genes upregulated in ALK-positive and EGFR/KRAS/ALK-negative lung adenocarcinomas <em>(Rating: 2)</em></li>
+                <li>Expression profile-defined classification of lung adenocarcinoma shows close relationship with underlying major genetic changes and clinicopathologic behaviors <em>(Rating: 2)</em></li>
+                <li>Identification of transcriptional subgroups in EGFR-mutated and EGFR/KRAS wild-type lung adenocarcinoma reveals gene signatures associated with patient outcome <em>(Rating: 2)</em></li>
+                <li>Genomic landscape of lung adenocarcinoma in East Asians <em>(Rating: 1)</em></li>
+            </ol>
+        </div>
+
+        </div>
+
+    </div>
+</body>
+</html>

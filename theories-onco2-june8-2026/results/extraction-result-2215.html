@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Extraction extraction-result-2215 - Theorizer</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+    <div class="header">
+        <a href="../index.html"><i class="fas fa-flask"></i> Theorizer</a>
+    </div>
+
+    <div class="content">
+        <h1>Extracted Data Details for extraction-result-2215</h1>
+
+        <div class="section">
+            <h2>Extracted Data (Header)</h2>
+            <div class="info-section">
+                <p><strong>Extraction ID:</strong> extraction-result-2215</p>
+                <p><strong>Extraction Schema Used (ID):</strong> <a href="../schemas/extraction-schema-1844.html">extraction-schema-1844</a></p>
+                <div class="extraction-query"><strong>Extraction Query:</strong> Extract any mentions of hidden genomic, structural, regulatory, or assay-missed drivers in oncogene-negative lung adenocarcinoma.</div>
+                <p><strong>Paper ID:</strong> paper-c985ab00c3f7f3426488561e6d047b27df8848c0</p>
+                <p><strong>Paper Title:</strong> <a href="https://www.semanticscholar.org/paper/c985ab00c3f7f3426488561e6d047b27df8848c0" target="_blank">An atlas of epithelial cell states and plasticity in lung adenocarcinoma</a></p>
+                <p><strong>Paper Venue:</strong> bioRxiv</p>
+                <p><strong>Paper Abstract:</strong> Understanding cellular processes underlying early lung adenocarcinoma (LUAD) development is needed to devise intervention strategies1. Here we studied 246,102 single epithelial cells from 16 early-stage LUADs and 47 matched normal lung samples. Epithelial cells comprised diverse normal and cancer cell states, and diversity among cancer cells was strongly linked to LUAD-specific oncogenic drivers. KRAS mutant cancer cells showed distinct transcriptional features, reduced differentiation and low levels of aneuploidy. Non-malignant areas surrounding human LUAD samples were enriched with alveolar intermediate cells that displayed elevated KRT8 expression (termed KRT8+ alveolar intermediate cells (KACs) here), reduced differentiation, increased plasticity and driver KRAS mutations. Expression profiles of KACs were enriched in lung precancer cells and in LUAD cells and signified poor survival. In mice exposed to tobacco carcinogen, KACs emerged before lung tumours and persisted for months after cessation of carcinogen exposure. Moreover, they acquired Kras mutations and conveyed sensitivity to targeted KRAS inhibition in KAC-enriched organoids derived from alveolar type 2 (AT2) cells. Last, lineage-labelling of AT2 cells or KRT8+ cells following carcinogen exposure showed that KACs are possible intermediates in AT2-to-tumour cell transformation.</p>
+                <p><strong>Cost:</strong> 0.015</p>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>Extracted Data (Details)</h2>
+            <div class="extraction-instance-container" id="e2215.0">
+                <h3 class="extraction-instance">Extracted Data Instance 0 (e2215.0)</h3>
+                <div class="extraction-query"><strong>Extraction Query:</strong> Extract any mentions of hidden genomic, structural, regulatory, or assay-missed drivers in oncogene-negative lung adenocarcinoma.</div>
+                <table>
+                    <thead>
+                        <tr>
+                            <th style="width: 30%;">Field</th>
+                            <th style="width: 70%;">Value</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><strong>name_short</strong></td>
+                            <td>KAC</td>
+                        </tr>
+                        <tr>
+                            <td><strong>name_full</strong></td>
+                            <td>KRT8-positive alveolar intermediate cell</td>
+                        </tr>
+                        <tr>
+                            <td><strong>brief_description</strong></td>
+                            <td>A distinct alveolar intermediate epithelial state with high KRT8, CLDN4, PLAUR, CDKN1A and CDKN2A expression, reduced differentiation, increased plasticity, and enrichment near tumor-adjacent normal regions in lung adenocarcinoma. The paper proposes KACs as probable intermediates in AT2-to-tumor transformation, especially in KRAS-mutant LUAD.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>citation_title</strong></td>
+                            <td>An atlas of epithelial cell states and plasticity in lung adenocarcinoma</td>
+                        </tr>
+                        <tr>
+                            <td><strong>mention_or_use</strong></td>
+                            <td>use</td>
+                        </tr>
+                        <tr>
+                            <td><strong>oncogene_negative_definition</strong></td>
+                            <td>Not a canonical oncogene-negative genomic lesion; rather, the study defines KACs as a non-malignant epithelial state found in normal-appearing lung adjacent to LUAD. Human malignant cells were called driver-mutant/driver-negative by WES plus scRNA-seq inference of KRAS G12D reads and CNV/marker-expression context; non-malignant KACs were not classified by oncogene status alone. For the hidden-driver query, the relevant 'negative' context is KACs/normal-appearing regions that appeared non-malignant or driver-negative by routine histology/scRNA-seq but nevertheless contained KRAS mutations or elevated KRAS signaling in some cases.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>assay_strategy_and_detection_limits</strong></td>
+                            <td>Multi-region EPCAM-enriched scRNA-seq of 246,102 epithelial cells, plus bulk WES of tumor/normal tissue, inferCNV-based CNV inference, spatial transcriptomics (Visium), digital spatial profiling, IF, lineage tracing, and mutation mapping from scRNA-seq BAM files. Blind spots include that routine malignant assignment relied on CNV, clustering, lineage markers and KRAS G12D reads; KACs could be present in histologically normal tissue and only later reveal KRAS mutations or KRAS-signature activation, and some normal tissues carried KRAS G12C or KRAS G12D at low VAF, consistent with field cancerization.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>missed_driver_reclassified_after_broader_testing</strong></td>
+                            <td>Yes, partially. KACs that were initially non-malignant/reactive by histology and cluster-based annotation were later found by single-cell mutation mapping, spatial profiling, and lineage tracing to harbor KRAS G12D mutations in some cases, or at least to show increased KRAS signaling and transition toward KRAS-mutant malignant cells. The rescued alteration was KRAS G12D; the rescue modalities were scRNA-seq-based mutation mapping, WES, ST/DSP, and lineage tracing. They were missed initially because they were non-malignant, spatially mixed with reactive pneumocytes, and at low mutant fraction / low CNV burden relative to fully malignant cells.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>driver_event_class</strong></td>
+                            <td>mutated oncogene-associated precursor state</td>
+                        </tr>
+                        <tr>
+                            <td><strong>candidate_driver_gene_or_locus</strong></td>
+                            <td>KRAS (especially KRAS G12D; also low-level KRAS G12C detected in one KM-LUAD normal sample)</td>
+                        </tr>
+                        <tr>
+                            <td><strong>structural_or_regulatory_activation_mechanism</strong></td>
+                            <td>Not a structural rearrangement; the paper supports a precursor state with elevated KRAS signaling and acquisition of activating KRAS codon 12 mutation during progression, rather than an enhancer or fusion mechanism.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>functional_consequence</strong></td>
+                            <td>Increased KRAS activation signature, reduced differentiation, increased plasticity, association with reactive/premalignant regions, and inferred transition to KRAS-mutant malignant cells.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>co_alteration_or_combinatorial_requirement</strong></td>
+                            <td>KACs show increased plasticity in the context of tobacco exposure and/or mutant Kras; in mouse models, Gprc5a loss plus NNK exposure promoted KAC emergence and later Kras G12D-positive malignancy. The paper also notes p53 pathway activation and prior evidence that p53 may curtail oncogenesis of alveolar intermediate cells, but it does not establish a required multi-hit combination for human KAC progression.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>human_prevalence_or_enrichment</strong></td>
+                            <td>KACs were significantly enriched in LUAD versus multi-region normal lung (P = 2.4 x 10^-4) and were higher in LUAD than AT1, AT2, or other AIC fractions (P < 2.2 x 10^-16). The KAC signature increased progressively from matched normal lung to AAH to invasive LUAD, and was higher in TCGA KRAS-mutant LUAD than KRAS-wild-type LUAD (P = 0.002). KACs from KM-LUADs were also more likely to carry KRAS G12D; in KACs from KM-LUADs, KRAS G12D VAF was 10% versus 5% across examined LUADs and 3% across all samples, with 2% VAF in normal tissue from KM-LUAD patients.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>functional_or_clinical_validation</strong></td>
+                            <td>Spatial transcriptomics and digital spatial profiling localized KAC markers to tumor-adjacent reactive regions and to transition zones between alveolar epithelium and tumors. In mouse tobacco-carcinogenesis and lineage-tracing models, KACs arose before tumors, persisted after exposure, harbored Kras G12D in some cells, and reporter-labeled KRT8+ cells contributed to tumors. KAC-rich organoids were sensitive to KRAS(G12D) inhibitor MRTX1133, supporting biological relevance.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>initial_negative_call_basis</strong></td>
+                            <td>[scRNA-seq/histology] non-malignant epithelial clusters; [cluster/marker-based calling] absence of strong malignant CNV patterns; [lineage markers] alveolar intermediate/reactive epithelial phenotype; [tumor assessment] not all KACs had detectable KRAS G12D reads or high CNV burden; [tissue context] normal-appearing or tumor-adjacent normal regions.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>negative_call_failure_mode</strong></td>
+                            <td>sampling_heterogeneity</td>
+                        </tr>
+                        <tr>
+                            <td><strong>rescue_modality</strong></td>
+                            <td>integrated_multiomic</td>
+                        </tr>
+                        <tr>
+                            <td><strong>final_explanatory_status</strong></td>
+                            <td>rescued_pathway_state_without_single_lesion</td>
+                        </tr>
+                        <tr>
+                            <td><strong>post_workup_unexplained_fraction</strong></td>
+                            <td>Not framed as an unresolved fraction of oncogene-negative LUAD; instead, the study proposes KACs as a relevant intermediate cell state and potential precursor. It does not quantify a remaining unexplained subset after workup.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>driver_mechanism_family</strong></td>
+                            <td>lineage_state_switch</td>
+                        </tr>
+                        <tr>
+                            <td><strong>signaling_activation_mode</strong></td>
+                            <td>downstream_phospho_network_activation</td>
+                        </tr>
+                        <tr>
+                            <td><strong>oncogenic_unit_type</strong></td>
+                            <td>lineage_program</td>
+                        </tr>
+                        <tr>
+                            <td><strong>mechanistic_directness</strong></td>
+                            <td>likely_driver</td>
+                        </tr>
+                        <tr>
+                            <td><strong>histologic_subtype_normalized</strong></td>
+                            <td>nonmucinous_adenocarcinoma</td>
+                        </tr>
+                        <tr>
+                            <td><strong>lineage_marker_state</strong></td>
+                            <td>NKX2_1_TTF1 high; alveolar_type2_like_state mixed; stemness_score elevated</td>
+                        </tr>
+                        <tr>
+                            <td><strong>inferred_lineage_program</strong></td>
+                            <td>progenitor_like</td>
+                        </tr>
+                        <tr>
+                            <td><strong>mucinous_program_evidence</strong></td>
+                            <td><span class="empty-note">null</span></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="extraction-instance-container" id="e2215.1">
+                <h3 class="extraction-instance">Extracted Data Instance 1 (e2215.1)</h3>
+                <div class="extraction-query"><strong>Extraction Query:</strong> Extract any mentions of hidden genomic, structural, regulatory, or assay-missed drivers in oncogene-negative lung adenocarcinoma.</div>
+                <table>
+                    <thead>
+                        <tr>
+                            <th style="width: 30%;">Field</th>
+                            <th style="width: 70%;">Value</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><strong>name_short</strong></td>
+                            <td>KRAS signature</td>
+                        </tr>
+                        <tr>
+                            <td><strong>name_full</strong></td>
+                            <td>KRAS mutant malignant-cell transcriptional signature</td>
+                        </tr>
+                        <tr>
+                            <td><strong>brief_description</strong></td>
+                            <td>A transcriptional program derived from KRAS-mutant malignant cells that correlates strongly with the KRAS G12D-associated meta-program and with poorer survival in LUAD cohorts. It is used in the paper as a readout of hidden KRAS pathway activation in KACs and tumors.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>citation_title</strong></td>
+                            <td>An atlas of epithelial cell states and plasticity in lung adenocarcinoma</td>
+                        </tr>
+                        <tr>
+                            <td><strong>mention_or_use</strong></td>
+                            <td>use</td>
+                        </tr>
+                        <tr>
+                            <td><strong>oncogene_negative_definition</strong></td>
+                            <td>Applied to cells/tissues lacking obvious malignant features or lacking detectable KRAS G12D by initial inspection; the signature served as a broader readout beyond direct mutation calls.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>assay_strategy_and_detection_limits</strong></td>
+                            <td>Derived from DEGs between a KRAS-mutant malignant-cell-enriched cluster and other malignant cells; measured in scRNA-seq, ST, TCGA bulk RNA-seq, and premalignancy cohorts. It can capture pathway activation even when direct mutation detection is absent or low-level.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>missed_driver_reclassified_after_broader_testing</strong></td>
+                            <td>Yes, as a pathway-level rescue of hidden KRAS activity. KACs and some normal-appearing regions showed elevated KRAS signature even when not overtly malignant; later mutation mapping and spatial analyses revealed KRAS G12D-positive KACs in a subset.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>driver_event_class</strong></td>
+                            <td>transcriptional outlier</td>
+                        </tr>
+                        <tr>
+                            <td><strong>candidate_driver_gene_or_locus</strong></td>
+                            <td>KRAS pathway / KRAS mutant program</td>
+                        </tr>
+                        <tr>
+                            <td><strong>structural_or_regulatory_activation_mechanism</strong></td>
+                            <td>Transcriptional activation program downstream of oncogenic KRAS signaling.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>functional_consequence</strong></td>
+                            <td>Elevated KRAS pathway output, association with reduced differentiation and worse survival.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>co_alteration_or_combinatorial_requirement</strong></td>
+                            <td>Correlates with KAC state and mutant KRAS; no single additional obligatory lesion established.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>human_prevalence_or_enrichment</strong></td>
+                            <td>Enriched in KM-LUADs and KACs; higher in TCGA KRAS-mutant LUADs than KRAS-wild-type LUADs (P = 0.002) and associated with reduced OS.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>functional_or_clinical_validation</strong></td>
+                            <td>Correlated with MP30, increased progressively from normal to AAH to LUAD, and stratified survival in TCGA and PROSPECT cohorts.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>initial_negative_call_basis</strong></td>
+                            <td>[expression-based state calling] normal-appearing or less differentiated epithelial cells without overt malignant genomics.</td>
+                        </tr>
+                        <tr>
+                            <td><strong>negative_call_failure_mode</strong></td>
+                            <td>protein_state_only</td>
+                        </tr>
+                        <tr>
+                            <td><strong>rescue_modality</strong></td>
+                            <td>integrated_multiomic</td>
+                        </tr>
+                        <tr>
+                            <td><strong>final_explanatory_status</strong></td>
+                            <td>rescued_pathway_state_without_single_lesion</td>
+                        </tr>
+                        <tr>
+                            <td><strong>post_workup_unexplained_fraction</strong></td>
+                            <td><span class="empty-note">null</span></td>
+                        </tr>
+                        <tr>
+                            <td><strong>driver_mechanism_family</strong></td>
+                            <td>lineage_state_switch</td>
+                        </tr>
+                        <tr>
+                            <td><strong>signaling_activation_mode</strong></td>
+                            <td>downstream_phospho_network_activation</td>
+                        </tr>
+                        <tr>
+                            <td><strong>oncogenic_unit_type</strong></td>
+                            <td>pathway_state</td>
+                        </tr>
+                        <tr>
+                            <td><strong>mechanistic_directness</strong></td>
+                            <td>pathway_modifier</td>
+                        </tr>
+                        <tr>
+                            <td><strong>histologic_subtype_normalized</strong></td>
+                            <td>nonmucinous_adenocarcinoma</td>
+                        </tr>
+                        <tr>
+                            <td><strong>lineage_marker_state</strong></td>
+                            <td>NKX2_1_TTF1 low in tumors; alveolar_type2_like_state mixed in KACs</td>
+                        </tr>
+                        <tr>
+                            <td><strong>inferred_lineage_program</strong></td>
+                            <td>progenitor_like</td>
+                        </tr>
+                        <tr>
+                            <td><strong>mucinous_program_evidence</strong></td>
+                            <td><span class="empty-note">null</span></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>Potentially Relevant New Papers (mentioned by this paper)</h2>
+            <p class="empty-note">No potentially relevant new papers extracted.</p>
+        </div>
+
+        </div>
+
+    </div>
+</body>
+</html>
